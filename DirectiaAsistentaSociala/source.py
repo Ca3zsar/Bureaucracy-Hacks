@@ -27,11 +27,19 @@ def fillContent(sufix, section):
     path = director + "/" + fileName
     f = open(path, "w", encoding='utf-8')
 
+    # container = re.sub('<.*?>','', str(section))
+    # container = re.sub('\s\s\s\s\s\s','\n',container)
+    # f.write(container)
+
     matches = ["h1", "h3", "p"]
 
     for line in section:
         txt = str(line)
         if any(x in txt for x in matches):
+            txt = re.sub('\<img.*?/>','\n',txt)
+            txt = re.sub('\<img.*?/>','\n',txt)
+            txt = re.sub('\<a.*?\>(.|\n)*?\<\/a\>','',txt)
+            txt = re.sub('\<script.*?\>(.|\n)*?\<\/script\>','',txt)
             f.write(txt)
 
     f.close()
@@ -63,8 +71,10 @@ def main():
         soup = BeautifulSoup(source, 'lxml')
         section = soup.find(class_="art-article")
 
+        
+
         fillContent(sufix, section)
-        downloadHrefs(sufix, soup)
+        # downloadHrefs(sufix, soup)
 
 
 
