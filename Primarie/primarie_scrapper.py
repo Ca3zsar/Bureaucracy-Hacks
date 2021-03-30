@@ -108,7 +108,7 @@ def getProgram(url):
     institutes = ["directia","biroul","sc","compania","politia","serviciul","compartiment","centrul",
                   "casieriile","direcția","compartimentul"]
     
-    for paragraph in paragraphs:
+    for paragraph in paragraphs[:]:
         text = paragraph.text
         
         text = text.replace("Ţ","Ț")
@@ -122,6 +122,7 @@ def getProgram(url):
                 break
         if found:
             currentIndex = paragraphs.index(paragraph)
+            
             for i in range(currentIndex-1,-1,-1):
                 secondText = paragraphs[i].text
         
@@ -134,6 +135,9 @@ def getProgram(url):
                         programs.append(text)
                         directors.append(secondText)
                         break
+            
+            paragraphs = paragraphs[currentIndex+1:]
+    
     
     for i in range(len(directors)):
         print(directors[i])
