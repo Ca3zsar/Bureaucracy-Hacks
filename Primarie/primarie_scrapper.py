@@ -76,7 +76,7 @@ def downloadFiles(urls):
 def getProgram(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content,'html.parser', from_encoding="utf-8")
-    
+        
     programClass = soup.find("div",class_="col-xs-12 col-sm-12 col-md-12 text-justify")
     toDeleteDiv = programClass.find("div",class_="table-responsive")
     
@@ -94,7 +94,7 @@ def getProgram(url):
             info = re.sub("(\s)+"," ",info)
 
             programBig.append(info)
-    
+     
     toDeleteDiv.decompose()
     
     paragraphs = programClass.find_all("p")
@@ -109,19 +109,30 @@ def getProgram(url):
                   "casieriile","direcția","compartimentul"]
     
     for paragraph in paragraphs:
+        text = paragraph.text
+        
+        text = text.replace("Ţ","Ț")
+        text = text.replace("ț","ț")
+        
         found = 0
+        
         for word in toLookFor:
-            if paragraph.text.lower().find(word) != -1:
+            if text.lower().find(word) != -1:
                 found = 1
                 break
         if found:
             currentIndex = paragraphs.index(paragraph)
             for i in range(currentIndex-1,-1,-1):
-                words = paragraphs[i].text.split()
+                secondText = paragraphs[i].text
+        
+                secondText = secondText.replace("Ţ","Ț")
+                secondText = secondText.replace("ț","ț")
+                
+                words = secondText.split()
                 if len(words) != 0:
                     if words[0].lower() in institutes:
-                        programs.append(paragraph.text)
-                        directors.append(paragraphs[i].text)
+                        programs.append(text)
+                        directors.append(secondText)
                         break
     
     for i in range(len(directors)):
