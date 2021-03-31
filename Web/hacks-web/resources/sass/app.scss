@@ -48,8 +48,6 @@ body {
 }
 
 .auth-content {
-    width: 718px;
-    height: 758px;
     background: url("/images/v2_69.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -86,8 +84,6 @@ body {
     background: url("/images/v2_90.png");
 }
 .auth-item {
-    width: 718px;
-    height: 107px;
     background: url("/images/v2_76.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -216,8 +212,6 @@ body {
     color: rgb(70, 66, 242) !important;
   }
 
-}
-
 $breakpoints: (
     'small': 320px,
     'medium': 768px,
@@ -239,6 +233,33 @@ $breakpoints: (
         @content;
     }
 }
+
+
+.login-form{
+    width: 100%;
+    @include mq(medium)
+    {
+        width:70%;
+    }
+    @include mq(large)
+    {
+        width:50%;
+    }
+
+}
+
+.simple-form{
+    padding: 2rem 2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2px;
+    counter-reset: div;
+}
+
 
 
 

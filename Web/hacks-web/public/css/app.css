@@ -10983,8 +10983,6 @@ body {
 }
 
 .auth-content {
-  width: 718px;
-  height: 758px;
   background: url("/images/v2_69.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -11031,88 +11029,12 @@ body {
   background: url(/images/v2_90.png?13c05135025646fccd21df702bc419e6);
 }
 
-.v2_91 {
-  width: 49px;
-  height: 49px;
-  background: url(/images/v2_91.png?6c237ef916278e95451fe021197df004);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 31px;
-  left: 28px;
-  overflow: hidden;
-}
-
 .auth-item {
-  width: 718px;
-  height: 107px;
   background: url("/images/v2_76.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  overflow: hidden;
-}
-
-.v2_77 {
-  width: 718px;
-  height: 107px;
-  background: url("/images/v2_77.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 1px solid white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  overflow: hidden;
-}
-
-.v2_78 {
-  width: 203px;
-  color: white;
-  position: absolute;
-  top: 31px;
-  left: 122px;
-  font-family: Montserrat;
-  font-weight: Light;
-  font-size: 14px;
-  opacity: 1;
-  text-align: center;
-}
-
-.v2_90 {
-  width: 49px;
-  height: 49px;
-  background: url(/images/v2_90.png?13c05135025646fccd21df702bc419e6);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 30px;
-  left: 28px;
-  overflow: hidden;
-}
-
-.v2_82 {
-  width: 718px;
-  height: 107px;
-  background: url("/images/v2_82.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 366px;
-  left: 0px;
   overflow: hidden;
 }
 
@@ -11234,6 +11156,34 @@ body {
 
 .text-primary {
   color: #4642f2 !important;
+}
+
+.login-form {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login-form {
+    width: 50%;
+  }
+}
+
+.simple-form {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2px;
+  counter-reset: div;
 }
 
 
