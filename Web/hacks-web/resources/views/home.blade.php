@@ -1,22 +1,26 @@
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+    <div class="row justify-content-center align-items-center home-section">
+        <div class="col-md-6 px-4">
+            <h2 class="font-weight-bolder text-xl display-4"> Provides you with the best Solutions</h2>
+            <p class="">
+                Help with bureaucratic processes and complicated paperwork
+            </p>
+            <a href="" class="btn btn-accent-primary mt-4">Get stared</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://miro.medium.com/max/5000/1*Dpb3vjQtqb4D1nAU4RnRWA@2x.png" alt="" class="home-section-image">
+        </div>
+    </div>
+    <div class="row home-section">
+        <div class="row col-12 justify-content-center align-items-center flex-column">
+            <span class="section-category">Our Services</span>
+            <h2>We Provide Best Quality Service</h2>
+        </div>
+        <div class="row col-md-12">
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
         </div>
     </div>
 </div>
