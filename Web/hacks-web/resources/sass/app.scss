@@ -231,7 +231,10 @@ body {
   */
 
   .home-section{
-    min-height: 80vh;
+    min-height: 65vh;
+    @include mq(medium){
+      min-height: 80vh;
+    }
   }
 
   .home-section-image{
@@ -315,4 +318,9 @@ body {
 
 .show > .navbar-nav > .nav-item > .nav-link{
   color:rgb(61, 55, 241);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
 }

@@ -11156,7 +11156,13 @@ body {
 */
 
 .home-section {
-  min-height: 80vh;
+  min-height: 65vh;
+}
+
+@media screen and (min-width: 768px) {
+  .home-section {
+    min-height: 80vh;
+  }
 }
 
 .home-section-image {
@@ -11248,6 +11254,11 @@ body {
 
 .show > .navbar-nav > .nav-item > .nav-link {
   color: #3d37f1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 

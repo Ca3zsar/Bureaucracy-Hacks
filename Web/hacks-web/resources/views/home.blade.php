@@ -17,7 +17,7 @@
     <div class="row home-section">
         <div class="row col-12 justify-content-center align-items-center flex-column">
             <span class="section-category">Our Services</span>
-            <h2>We Provide Best Quality Service</h2>
+            <h2 class="text-center">We Provide Best Quality Service</h2>
         </div>
         <div class="row col-md-12">
 
