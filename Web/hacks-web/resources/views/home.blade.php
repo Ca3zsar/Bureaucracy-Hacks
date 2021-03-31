@@ -11,7 +11,7 @@
             <a href="" class="btn btn-accent-primary mt-4">Get stared</a>
         </div>
         <div class="col-md-6">
-            <img src="https://miro.medium.com/max/5000/1*Dpb3vjQtqb4D1nAU4RnRWA@2x.png" alt="" class="home-section-image">
+            <img src="{{ asset('/images/home/ilustration.svg') }}" alt="Path" class="home-section-image">
         </div>
     </div>
     <div class="row home-section">
