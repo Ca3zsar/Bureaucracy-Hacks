@@ -11005,7 +11005,7 @@ body {
 
 .input-form {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   border: 1px solid white;
   border-radius: 5px;
   position: relative;
@@ -11016,17 +11016,17 @@ body {
 
 .input-form::-moz-placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form:-ms-input-placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form::placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form:focus {
