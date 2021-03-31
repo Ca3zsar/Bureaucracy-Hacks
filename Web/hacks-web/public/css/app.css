@@ -10955,9 +10955,6 @@ body {
   height: 1188px;
   background: #315ad8;
   opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 
@@ -10971,9 +10968,6 @@ body {
   padding: 10px 10px;
   margin: 10px;
   opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   overflow: hidden;
 }
 
@@ -10985,9 +10979,6 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   overflow: hidden;
 }
 
@@ -10999,9 +10990,6 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 279px;
-  left: 601px;
   overflow: hidden;
 }
 

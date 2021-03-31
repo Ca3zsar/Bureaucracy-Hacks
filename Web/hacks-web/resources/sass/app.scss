@@ -9,21 +9,21 @@
 
 * {
     box-sizing: border-box;
-  }
-  body {
+}
+
+body {
     font-size: 14px;
-  }
-  .auth-section {
+}
+
+.auth-section {
     width: 100%;
     height: 1188px;
-    background: rgba(49,90,216,1);
+    background: rgba(49, 90, 216, 1);
     opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
-  }
-  .auth-image-container {
+}
+
+.auth-image-container {
     width: 100%;
     height: 1208px;
     background: url("/images/v2_67.png");
@@ -33,12 +33,10 @@
     padding: 10px 10px;
     margin: 10px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
     overflow: hidden;
-  }
-  .auth-image {
+}
+
+.auth-image {
     width: 100%;
     height: 100%;
     background: url("/images/v2_68.png");
@@ -46,13 +44,10 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
     overflow: hidden;
-  }
+}
 
-  .auth-content {
+.auth-content {
     width: 718px;
     height: 758px;
     background: url("/images/v2_69.png");
@@ -60,54 +55,37 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 279px;
-    left: 601px;
     overflow: hidden;
-  }
+}
 
-  .input-form {
+.input-form {
     width: 100%;
     font-size: 25px;
     border: 1px solid white;
     border-radius: 5px;
-    position: relative; 
-    color:white;
+    position: relative;
+    color: white;
     padding: 30px 20px;
-    background:transparent;
-  }
+    background: transparent;
+}
 
-  .input-form::placeholder {
-   color:white;
-   font-size: 25px;
-  }
+.input-form::placeholder {
+    color: white;
+    font-size: 25px;
+}
 
-  .input-form:focus {
-      outline: none;
-  }
+.input-form:focus {
+    outline: none;
+}
 
-  .input-form::before {
-      content: "";
-      position: absolute;
-      left: 3px;
-      top: 3px;
-      background:url("/images/v2_90.png");
-  }
-
-  .v2_91 {
-    width: 49px;
-    height: 49px;
-    background: url("/images/v2_91.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
+.input-form::before {
+    content: "";
     position: absolute;
-    top: 31px;
-    left: 28px;
-    overflow: hidden;
-  }
-  .auth-item {
+    left: 3px;
+    top: 3px;
+    background: url("/images/v2_90.png");
+}
+.auth-item {
     width: 718px;
     height: 107px;
     background: url("/images/v2_76.png");
@@ -116,66 +94,11 @@
     background-size: cover;
     opacity: 1;
     overflow: hidden;
-  }
-  .v2_77 {
-    width: 718px;
-    height: 107px;
-    background: url("/images/v2_77.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(255,255,255,1);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    overflow: hidden;
-  }
-  .v2_78 {
-    width: 203px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 31px;
-    left: 122px;
-    font-family: Montserrat;
-    font-weight: Light;
-    font-size: 14px;
-    opacity: 1;
-    text-align: center;
-  }
-  .v2_90 {
-    width: 49px;
-    height: 49px;
-    background: url("/images/v2_90.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 30px;
-    left: 28px;
-    overflow: hidden;
-  }
-  .v2_82 {
-    width: 718px;
-    height: 107px;
-    background: url("/images/v2_82.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 366px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .auth-button {
+}
+
+.auth-button {
     width: 100%;
-    color: rgba(33,72,192,1);
+    color: rgba(33, 72, 192, 1);
     background: white;
     font-family: Montserrat;
     font-weight: SemiBold;
@@ -185,31 +108,31 @@
     padding: 20px 0px;
     border: none;
     border-radius: 5px;
-  }
+}
 
-  .auth-button:hover{
-      background: transparent;
-      border: 1px solid white;
-      color:white;
-  }
-  
-  .auth-link {
+.auth-button:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.auth-link {
     width: 100%;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     font-family: Montserrat;
     font-weight: Medium;
     font-size: 16px;
     opacity: 1;
     text-align: center;
-  }
+}
 
-  .auth-link-container{
+.auth-link-container {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
   }
-  
+
 
   /*
    * Navbar
@@ -230,7 +153,7 @@
     color: white;
   }
 
-  .navbar-light .navbar-nav .active > .nav-link{    
+  .navbar-light .navbar-nav .active > .nav-link{
     color: white;
     font-weight: 900;
   }
@@ -244,7 +167,7 @@
   */
 
   .button-accent-secondary{
-    background-color: rgb(255, 137, 35); 
+    background-color: rgb(255, 137, 35);
     padding: 10px 30px;
     border-radius: 26.5px;
     color: white;
@@ -252,20 +175,20 @@
   }
 
   .button-accent-secondary:hover{
-    background-color: rgb(242, 115, 0); 
+    background-color: rgb(242, 115, 0);
     color: white;
   }
 
   .btn-accent-primary{
     color: white;
-    background-color: rgb(61, 55, 241); 
+    background-color: rgb(61, 55, 241);
     padding: 10px 30px;
     border-radius: 26.5px;
   }
 
   .btn-accent-primary:hover{
     color: white;
-    background-color: rgb(70, 66, 242); 
+    background-color: rgb(70, 66, 242);
   }
 
   /**
@@ -282,7 +205,7 @@
 
   .section-category{
     text-transform: uppercase;
-    color: rgb(70, 66, 242); 
+    color: rgb(70, 66, 242);
   }
 
   .display-4{
@@ -290,5 +213,32 @@
   }
 
   .text-primary{
-    color: rgb(70, 66, 242) !important; 
+    color: rgb(70, 66, 242) !important;
   }
+
+}
+
+$breakpoints: (
+    'small': 320px,
+    'medium': 768px,
+    'large': 1024px,
+    'xlarge':1280px,
+    'xxlarge':1441px,
+    "xxxlarge":2560px
+) !default;
+
+
+@mixin mq($mq-breakpoint, $mq-breakpoints: $breakpoints) {
+    // If $mq-breakpoint is a key that exists in
+    // $mq-breakpoints, get and use the value
+    @if map-has-key($mq-breakpoints, $mq-breakpoint) {
+        $mq-breakpoint: map-get($mq-breakpoints, $mq-breakpoint);
+    }
+
+    @media screen and (min-width: #{$mq-breakpoint}) {
+        @content;
+    }
+}
+
+
+
