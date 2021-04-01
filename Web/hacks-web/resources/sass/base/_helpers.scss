@@ -60,3 +60,17 @@
 .text-primary{
     color: rgb(70, 66, 242) !important;
 }
+
+.bg-primary-accent{
+    background: $primary-accent-color;
+}
+.overflow-elipsis{
+    text-overflow: ellipsis;
+}
+
+.sm-hidden{
+    display: none;
+    @include mq(medium){
+        display: block;
+    }
+}
