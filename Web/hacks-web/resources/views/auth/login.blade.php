@@ -20,10 +20,10 @@
             </div>
 
             <div class="row d-flex justify-content-center align-items-center mb-4">
-                <div class="col-1">
+                <div class="col-2 col-md-1 p-0">
                     <input type="checkbox" name="remindme" class="input-form" />
                 </div>
-                <div class="col-6 p-0">
+                <div class=" col-9 col-md-6 p-0">
                     <label class="d-flex align-items-center text-white m-0">Remind me</label>
                 </div>
 
