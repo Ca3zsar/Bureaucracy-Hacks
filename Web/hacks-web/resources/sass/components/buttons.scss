@@ -1,0 +1,28 @@
+/**
+  Buttons
+*/
+
+.button-accent-secondary{
+    background-color: rgb(255, 137, 35);
+    padding: 10px 30px;
+    border-radius: 26.5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-accent-secondary:hover{
+    background-color: rgb(242, 115, 0);
+    color: white;
+}
+
+.btn-accent-primary{
+    color: white;
+    background-color: rgb(61, 55, 241);
+    padding: 10px 30px;
+    border-radius: 26.5px;
+}
+
+.btn-accent-primary:hover{
+    color: white;
+    background-color: rgb(70, 66, 242);
+}
