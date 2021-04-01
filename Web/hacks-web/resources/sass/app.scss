@@ -71,7 +71,7 @@
     font-size: 25px;
     border: 1px solid white;
     border-radius: 5px;
-    position: relative; 
+    position: relative;
     color:white;
     padding: 30px 20px;
     background:transparent;
@@ -192,7 +192,7 @@
       border: 1px solid white;
       color:white;
   }
-  
+
   .auth-link {
     width: 100%;
     color: rgba(255,255,255,1);
@@ -209,7 +209,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
 
   /*
    * Navbar
@@ -230,7 +230,7 @@
     color: white;
   }
 
-  .navbar-light .navbar-nav .active > .nav-link{    
+  .navbar-light .navbar-nav .active > .nav-link{
     color: white;
     font-weight: 900;
   }
@@ -244,7 +244,7 @@
   */
 
   .button-accent-secondary{
-    background-color: rgb(255, 137, 35); 
+    background-color: rgb(255, 137, 35);
     padding: 10px 30px;
     border-radius: 26.5px;
     color: white;
@@ -252,20 +252,20 @@
   }
 
   .button-accent-secondary:hover{
-    background-color: rgb(242, 115, 0); 
+    background-color: rgb(242, 115, 0);
     color: white;
   }
 
   .btn-accent-primary{
     color: white;
-    background-color: rgb(61, 55, 241); 
+    background-color: rgb(61, 55, 241);
     padding: 10px 30px;
     border-radius: 26.5px;
   }
 
   .btn-accent-primary:hover{
     color: white;
-    background-color: rgb(70, 66, 242); 
+    background-color: rgb(70, 66, 242);
   }
 
   /**
@@ -282,7 +282,7 @@
 
   .section-category{
     text-transform: uppercase;
-    color: rgb(70, 66, 242); 
+    color: rgb(70, 66, 242);
   }
 
   .display-4{
@@ -290,5 +290,16 @@
   }
 
   .text-primary{
-    color: rgb(70, 66, 242) !important; 
+    color: rgb(70, 66, 242) !important;
+  }
+
+  .user-section {
+      h3{
+          color:red;
+      }
+  }
+
+
+  .avatar-xl img {
+      width: 200px;
   }

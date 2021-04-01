@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/settings', function () {
+    return view('settings.usersettings');
+});
+
+
 Route::get('/', function () {
     return view('home');
 });
