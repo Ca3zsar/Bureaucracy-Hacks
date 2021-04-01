@@ -11156,11 +11156,24 @@ body {
 */
 
 .home-section {
-  min-height: 80vh;
+  min-height: 65vh;
+}
+
+@media screen and (min-width: 768px) {
+  .home-section {
+    min-height: 80vh;
+  }
 }
 
 .home-section-image {
   width: inherit;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-section-image {
+    display: block;
+  }
 }
 
 .section-category {
@@ -11202,6 +11215,50 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 2px;
   counter-reset: div;
+}
+
+.main-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main-image {
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: -100px;
+  background: url("/images/home/corner-figure.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-image {
+    display: block;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-image {
+    display: block;
+    width: 65%;
+  }
+}
+
+.navbar-nav {
+  width: 75%;
+}
+
+.show > .navbar-nav > .nav-item > .nav-link {
+  color: #3d37f1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 

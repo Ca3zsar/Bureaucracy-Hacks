@@ -231,11 +231,18 @@ body {
   */
 
   .home-section{
-    min-height: 80vh;
+    min-height: 65vh;
+    @include mq(medium){
+      min-height: 80vh;
+    }
   }
 
   .home-section-image{
     width: inherit;
+    display: none;
+    @include mq(medium){
+      display: block;
+    }
   }
 
   .section-category{
@@ -278,6 +285,42 @@ body {
     counter-reset: div;
 }
 
+.main-image-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main-image{
+  display: none;
+    position: absolute;
+    top:-30px;
+    right: -100px;
+    background: url("/images/home/corner-figure.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  @include mq(large){
+    display: block;
+    width: 80%;
+  }
+
+  @include mq(xlarge){
+    display: block;
+    width: 65%;
+  }
+}
 
 
+.navbar-nav{
+  width:75%;
+}
 
+.show > .navbar-nav > .nav-item > .nav-link{
+  color:rgb(61, 55, 241);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
