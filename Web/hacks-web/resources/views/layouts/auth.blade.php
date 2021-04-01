@@ -19,19 +19,15 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-   <!--  -->
+    <!--  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-    <div id="app">
-        <div class="main-image-container container-full">
-            <img src="/images/home/corner-figure.svg"  class="main-image" alt="">
-        </div>
-        @include("includes/nav")
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+<div id="app">
+    <main>
+        @yield('content')
+    </main>
+</div>
 </body>
 </html>

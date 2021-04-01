@@ -10951,30 +10951,21 @@ body {
 }
 
 .auth-section {
-  width: 100%;
-  height: 1188px;
+  height: 100vh;
   background: #315ad8;
   opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
+  position: relative;
 }
 
 .auth-image-container {
   width: 100%;
-  height: 1208px;
-  background: url("/images/v2_67.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 10px 10px;
-  margin: 10px;
+  height: 100%;
   opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .auth-image {
@@ -10985,50 +10976,57 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: -3px;
 }
 
 .auth-content {
-  width: 718px;
-  height: 758px;
+  position: relative;
+  min-height: 100%;
   background: url("/images/v2_69.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 279px;
-  left: 601px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .auth-content {
+    min-height: 100vh;
+  }
 }
 
 .input-form {
   width: 100%;
-  font-size: 25px;
+  font-size: 16px;
   border: 1px solid white;
   border-radius: 5px;
   position: relative;
   color: white;
-  padding: 30px 20px;
+  padding: 20px 20px;
   background: transparent;
 }
 
 .input-form::-moz-placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form:-ms-input-placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form::placeholder {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .input-form:focus {
@@ -11043,88 +11041,12 @@ body {
   background: url("/images/v2_90.png");
 }
 
-.v2_91 {
-  width: 49px;
-  height: 49px;
-  background: url("/images/v2_91.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 31px;
-  left: 28px;
-  overflow: hidden;
-}
-
 .auth-item {
-  width: 718px;
-  height: 107px;
   background: url("/images/v2_76.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  overflow: hidden;
-}
-
-.v2_77 {
-  width: 718px;
-  height: 107px;
-  background: url("/images/v2_77.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 1px solid white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  overflow: hidden;
-}
-
-.v2_78 {
-  width: 203px;
-  color: white;
-  position: absolute;
-  top: 31px;
-  left: 122px;
-  font-family: Montserrat;
-  font-weight: Light;
-  font-size: 14px;
-  opacity: 1;
-  text-align: center;
-}
-
-.v2_90 {
-  width: 49px;
-  height: 49px;
-  background: url("/images/v2_90.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 30px;
-  left: 28px;
-  overflow: hidden;
-}
-
-.v2_82 {
-  width: 718px;
-  height: 107px;
-  background: url("/images/v2_82.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 366px;
-  left: 0px;
   overflow: hidden;
 }
 
@@ -11140,6 +11062,8 @@ body {
   padding: 20px 0px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 .auth-button:hover {
@@ -11156,6 +11080,10 @@ body {
   font-size: 16px;
   opacity: 1;
   text-align: center;
+}
+
+.auth-link:hover {
+  color: white;
 }
 
 .auth-link-container {
@@ -11228,11 +11156,24 @@ body {
 */
 
 .home-section {
-  min-height: 80vh;
+  min-height: 65vh;
+}
+
+@media screen and (min-width: 768px) {
+  .home-section {
+    min-height: 80vh;
+  }
 }
 
 .home-section-image {
   width: inherit;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-section-image {
+    display: block;
+  }
 }
 
 .section-category {
@@ -11248,12 +11189,76 @@ body {
   color: #4642f2 !important;
 }
 
-.user-section h3 {
-  color: red;
+.login-form {
+  width: 100%;
 }
 
-.avatar-xl img {
-  width: 200px;
+@media screen and (min-width: 768px) {
+  .login-form {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login-form {
+    width: 50%;
+  }
+}
+
+.simple-form {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2px;
+  counter-reset: div;
+}
+
+.main-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.main-image {
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: -100px;
+  background: url("/images/home/corner-figure.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-image {
+    display: block;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-image {
+    display: block;
+    width: 65%;
+  }
+}
+
+.navbar-nav {
+  width: 75%;
+}
+
+.show > .navbar-nav > .nav-item > .nav-link {
+  color: #3d37f1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 
