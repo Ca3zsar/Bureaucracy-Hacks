@@ -24,14 +24,16 @@
 </head>
 <body>
 
-    <div id="app">
+    <div id="app" style="overflow-x: hidden">
         <div class="main-image-container container-full">
-            <img src="/images/home/corner-figure.svg"  class="main-image" alt="">
+            <img src="/images/home/corner-figure.png"  class="main-image" alt="">
         </div>
         @include("includes/nav")
         <main class="py-4">
             @yield('content')
         </main>
+        @include("includes/footer")
     </div>
+
 </body>
 </html>

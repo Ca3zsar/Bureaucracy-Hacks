@@ -1,7 +1,7 @@
 <div class="container pt-4">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-        <img src="/images/home/logo.svg" alt="">
+        <a class="navbar-brand" href="/">
+        <img src="/images/home/logo.svg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

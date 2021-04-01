@@ -41,3 +41,13 @@
     color: white;
     text-decoration: underline;
 }
+
+.navbar-brand{
+    width: 75%;
+    @include mq(medium){
+        width: 20%;
+    }
+    img{
+        width: 100%;
+    }
+}
