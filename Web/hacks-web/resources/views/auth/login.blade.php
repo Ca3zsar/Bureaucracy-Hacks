@@ -18,6 +18,17 @@
                     <input type="password" name="password" placeholder="password" class="input-form" />
                 </div>
             </div>
+
+            <div class="row d-flex justify-content-center align-items-center mb-4">
+                <div class="col-1">
+                    <input type="checkbox" name="remindme" class="input-form" />
+                </div>
+                <div class="col-6 p-0">
+                    <label class="d-flex align-items-center text-white m-0">Remind me</label>
+                </div>
+
+            </div>
+
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="auth-item mb-4 col-12 col-lg-7">
                     <button class="auth-button">Login</button>
