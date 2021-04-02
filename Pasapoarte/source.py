@@ -7,12 +7,13 @@ import shutil # for deleting dirs
 
 import selenium
 from selenium import webdriver
-
+from selenium.webdriver.Edge
 
 import time
 
-driverPath = ".\\chromedriver.exe"
 
+driverPath = ".\\chromedriver.exe"
+driverPath2 = ".\\msedgedriver.exe"
 # Bacau, incasari persoane juridice, Luni, Marti, Miercuri, Joi, 8.30-14-30
 
 divId = "acte"
@@ -27,12 +28,16 @@ def makeDirectors():
     os.makedirs(director)
     print("Files created..")
 
-def fillContent(section):
-    path = director + "/file.html"
-    f = open(path, "w", encoding='utf-8')
+def fillContent(section, fileName):
+    f = open(fileName, "w", encoding='utf-8')
     f.write(str(section))
     f.close()
 
+
+def getTextFromTag(tag):
+    txt = re.sub('<.*?>', '', str(tag))
+    txt = re.sub(r"^\s+|\s+$",'', txt)
+    return txt
 
 # headless
 
@@ -43,6 +48,7 @@ def main():
 
 
     driver = webdriver.Chrome(driverPath)
+    driver
     driver.get(url)
     source = driver.page_source
     soup = BeautifulSoup(source, "lxml")
@@ -52,24 +58,28 @@ def main():
     for line in soup.select("#acte > div[align] > a"):
         i = i + 1
 
-        fileName = f"file {i}"
+        fileName = f"file{i}"
 
-        href = line['href']
+        title = getTextFromTag(line)
 
-        print(str(i) + " " + href)
+        subUrl = line['href']
 
+        subDriver = webdriver.Chrome(driverPath)
+        subDriver.get(subUrl)
+        source  = subDriver.page_source
+        subSoup = BeautifulSoup(source, "lxml")
 
-
-    print(i)
-
-    # print(section)
-
-
-
-
-    time.sleep(10)
+        section1 = subSoup.select("content > div > div > div > section > div > div > div > div > div > div")
+        
+        section2 = subSoup.select("article button")
+        
+        fillContent(section2, f"{director}\\{fileName}.html")
+        subDriver.close()
 
     driver.quit()
+
+#post_1525 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
+#post_1267 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
 
 
     # source = requests.get(url).text
