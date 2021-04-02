@@ -74,6 +74,7 @@ def main():
 
     for line in section:
         txt = str(line)
+        
         if isTitle(titles, txt):
             f.write('\n')
             txt = re.sub('\<(.|\n)*?\>','', txt)
@@ -83,11 +84,14 @@ def main():
         elif "•" in txt:
             # txt = re.sub('^\u00A0*','', txt)
             # txt = re.sub('^\s*','', txt)
+            txt = re.sub('•','\n•',txt)
             txt = re.sub('\<(.|\n)*?\>','', txt)
+            txt = re.sub(r"^\s+|\s+$",'', txt)
+            
             f.write(txt)
             f.write('\n')
         elif isTable(txt):
-            txt = re.sub('^\s*','', txt)
+            # txt = re.sub('^\s*','', txt)
             txt = re.sub('\<(.|\n)*?\>','', txt)
             f.write(txt)
             f.write('\n')
