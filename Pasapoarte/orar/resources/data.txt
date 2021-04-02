@@ -1,0 +1,32 @@
+<table>
+<tr class="rgradient0">
+<th style="color: #ffffff;">Ziua</th>
+<th style="color: #ffffff;">Primiri Documente</th>
+<th style="color: #ffffff;">Eliberări Pașapoarte</th>
+</tr>
+<tr>
+<td>Luni</td>
+<td>08:30 – 16:30</td>
+<td>08:30 – 16:30</td>
+</tr>
+<tr>
+<td>Marți</td>
+<td><i>08:30 – 18:30</i></td>
+<td><i>08:30 – 18:30</i></td>
+</tr>
+<tr>
+<td>Miercuri</td>
+<td>08:30 – 16:30</td>
+<td>08:30 – 16:30</td>
+</tr>
+<tr>
+<td>Joi</td>
+<td>08:30 – 16:30</td>
+<td>08:30 – 16:30</td>
+</tr>
+<tr>
+<td>Vineri</td>
+<td>08:30 – 16:30</td>
+<td>08:30 – 16:30</td>
+</tr>
+</table>
