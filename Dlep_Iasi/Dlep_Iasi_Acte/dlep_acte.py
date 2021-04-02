@@ -1,3 +1,4 @@
+import re
 import requests 
 from bs4 import BeautifulSoup
 
@@ -31,17 +32,31 @@ for links in soup.find_all('div',class_='starea') :
 
 # function for scrapping an interesting link 
 def go_spider_scrapping(url):
- fisier= url.split("/")
- fileToWrite= fisier[2][0:-5]
- print(fileToWrite)
- url=URL+url
- page=requests.get(url,allow_redirects=True) 
- page.encoding=page.apparent_encoding 
- soup= BeautifulSoup(page.content,'html.parser') 
- information = soup.find('div', class_='camere_text') 
- open(f"{director}/{fileToWrite}", 'w+',encoding="utf-8").write(information.text)
 
- 
+  fisier= url.split("/")
+  fileToWrite= fisier[2][0:-5]
+  #print(fileToWrite)
+  url=URL+url
+
+  page=requests.get(url) 
+  soup= BeautifulSoup(page.content,'html.parser') 
+  soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
+  for e in soup.findAll('br'):
+    e.extract()
+  information = soup.find('div', class_='camere_text')
+  text= information.text.strip()
+  text = text.replace(u'\xa0', u' ')
+  #text = re.sub("(\s)+", " ",text)
+  #text = re.sub(r'[\ \n]{2,}', '',text)
+  text = text.replace('(\n)+', ' ')
+  #text = re.sub('\n', " ", text)
+  text= text.strip()
+  if(text.find('ACTE NECESARE') != -1 or text.find('Acte necesare') != -1) : 
+    print("AM gasit pe acest site acte necesare---------------")
+    print(url)
+    open(f"{director}/{fileToWrite}", 'w+',encoding="utf-8").write(information.text)
+    #print(url) 
+
    
 def spider():
      conditieOprire='Nu s-a gasit nici o inregistrare.'
@@ -63,8 +78,10 @@ def spider():
                    for link2 in link.find_all('div',class_='camere_thumb'):
                      for actual_link in link2.find_all('a') : 
                        lin= actual_link.get('href') 
-                       if(lin.find('acte-necesare') != -1):
-                         go_spider_scrapping(lin) 
+                      # if(lin.find('acte-necesare') != -1):
+                       title = actual_link['title']
+                       print(title)
+                       #go_spider_scrapping(lin) 
                       
 
               
