@@ -1,0 +1,16 @@
+# HTTP Server
+#server:
+#  contextPath: /app # HTTP default context path
+#  port: 9666   # Tomcat port
+
+# Spring properties
+spring:
+  application:
+    name: docs # Service name
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: gabriela
+  jpa:
+    hibernate:
+       ddl-auto: none
