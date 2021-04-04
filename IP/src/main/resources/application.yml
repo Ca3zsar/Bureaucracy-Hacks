@@ -8,9 +8,10 @@ spring:
   application:
     name: docs # Service name
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: gabriela
+    url: jdbc:postgresql://tkvgiikiufpanp:0f0a811c748eb2249227be8dbb9f8213df12a3f9c4a3d39ed91db4a42a92f6d9@ec2-54-72-155-238.eu-west-1.compute.amazonaws.com:5432/d867di6a9kk8fh
+    username: tkvgiikiufpanp
+    password: 0f0a811c748eb2249227be8dbb9f8213df12a3f9c4a3d39ed91db4a42a92f6d9
   jpa:
     hibernate:
-       ddl-auto: none
+      ddl-auto: none
+
