@@ -3,6 +3,7 @@ package com.example;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.net.URI;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,12 +15,12 @@ public class DbConnection {
 
     public DbConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/", "postgres", "gabriela");
+            String dbUri = System.getenv("JDBC_DATABASE_URL");
+            connection = DriverManager.getConnection(dbUri);
             connection.setAutoCommit(false);
 
         } catch (SQLException throwable) {
             throwable.printStackTrace();
         }
-
     }
 }
