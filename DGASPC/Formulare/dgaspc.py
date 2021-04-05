@@ -1,8 +1,8 @@
 ###################
 #
-# Script to scrape PDF documents from https://www.dasiasi.ro/
-#
-#
+# Script to scrape PDF/DOCS documents from https://www.dasiasi.ro/
+# Also save the html to provide further research 
+# 
 ###################
 import re
 import os
@@ -34,6 +34,11 @@ def createDirectorNested(document_director):
 def go_spider_scrapping(url, fileName): 
     page = requests.get(url)
     soup = BeautifulSoup(page.content,'html.parser') 
+    further_research = soup.find_all('div',class_='content-text')
+    path = fileName.rstrip() + "/data.html"
+    f= open(path,'w+', encoding='utf-8') 
+    f.write(str(further_research[0])) 
+    f.close()
     txt = soup.find_all('div',class_='camere_text')
     links = txt[0].find_all('a')
     if links : 
@@ -41,11 +46,9 @@ def go_spider_scrapping(url, fileName):
             link_for_download = link.get('href') 
             link_for_download = DOMAIN + link_for_download
             path = fileName.rstrip()
-            print(path)
             title = link_for_download.split('/')[-1]
             title = title.replace('%20',' ')
             path = path + '/' + title
-            print(path)
             with open(path, 'wb') as file: 
                         response= requests.get(link_for_download)
                         file.write(response.content)
@@ -74,12 +77,10 @@ def go_spider_scrapping(url, fileName):
                     os.rename(link_for_title, link_for_title + ".pdf")
                     link_for_title= link_for_title+".pdf"
                     shutil.move(link_for_title, path+ '/' + link_for_title)
-                    print("is a pdF!!")
                 else : 
                     os.rename(link_for_title, link_for_title + ".doc")
                     link_for_title= link_for_title+".doc"
                     shutil.move(link_for_title, path+ '/' + link_for_title)
-                    print("is a DOC")
     else : 
         print("no file to download here")
         
