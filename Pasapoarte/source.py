@@ -7,13 +7,13 @@ import shutil # for deleting dirs
 
 import selenium
 from selenium import webdriver
-from selenium.webdriver.Edge
+
 
 import time
 
 
 driverPath = ".\\chromedriver.exe"
-driverPath2 = ".\\msedgedriver.exe"
+
 # Bacau, incasari persoane juridice, Luni, Marti, Miercuri, Joi, 8.30-14-30
 
 divId = "acte"
@@ -29,14 +29,14 @@ def makeDirectors():
     print("Files created..")
 
 def fillContent(section, fileName):
-    f = open(fileName, "w", encoding='utf-8')
+    f = open(fileName, "a+", encoding='utf-8')
     f.write(str(section))
     f.close()
 
 
 def getTextFromTag(tag):
     txt = re.sub('<.*?>', '', str(tag))
-    txt = re.sub(r"^\s+|\s+$",'', txt)
+    # txt = re.sub(r"^\s+|\s+$",'', txt)
     return txt
 
 # headless
@@ -56,12 +56,7 @@ def main():
 
     i = 0
     for line in soup.select("#acte > div[align] > a"):
-        i = i + 1
-
-        fileName = f"file{i}"
-
-        title = getTextFromTag(line)
-
+        
         subUrl = line['href']
 
         subDriver = webdriver.Chrome(driverPath)
@@ -69,34 +64,31 @@ def main():
         source  = subDriver.page_source
         subSoup = BeautifulSoup(source, "lxml")
 
-        section1 = subSoup.select("content > div > div > div > section > div > div > div > div > div > div")
-        
-        section2 = subSoup.select("article button")
-        
-        fillContent(section2, f"{director}\\{fileName}.html")
+ 
+
+        title = getTextFromTag(line)
+
+        section1 = subSoup.select("article button")
+
+        section2 = subSoup.select("content > div > div > div > section > div > div > div > div > div > div")
+
+
+        for index in range(0,len(section1)):
+            i = i + 1
+            fileName = f"file{i}"
+            path = f"{director}\\{fileName}.html"
+            fillContent(title + "\n", path)
+            # fillContent(section1[index], path)
+            # fillContent(section2[index], path)
+            fillContent(getTextFromTag(section1[index]), path)
+            fillContent(getTextFromTag(section2[index]), path)
+
         subDriver.close()
 
     driver.quit()
 
 #post_1525 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
 #post_1267 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
-
-
-    # source = requests.get(url).text
-    # soup = BeautifulSoup(source, 'lxml')
-    # section = soup.find("div", {"id": "acte"})
-    # section = soup.find(id="acte")
-    # section = soup.select("div#acte[_ngcontent-c7]")
-    # section = soup.select("body")
-    # print(section)
-
-
-    # path = director + "/data.txt"
-    # f = open(path, "w", encoding='utf-8')
-    
-
-
-    # f.close()
 
 
 main()
