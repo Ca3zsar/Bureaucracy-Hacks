@@ -1,5 +1,13 @@
+#################
+# Crawler for dlep iasi 
+# save the content in which we find the key words "acte necesare" 
+# and also save the html for further research 
+#################
 import re
+import os
+import shutil
 import requests 
+import sys
 from bs4 import BeautifulSoup
 
 URL='https://www.dlep-iasi.ro' 
@@ -9,6 +17,18 @@ director="./resources"
 url = []
 page=requests.get(URL) 
 soup= BeautifulSoup(page.content,'html.parser') 
+
+
+def deleteDirector(document_director):
+  shutil.rmtree(document_director)
+
+def createDirector(document_director):
+   os.makedirs(document_director)
+
+   
+def createDirectorNested(document_director):
+    os.mkdir(document_director)
+
 
 # first, grab the links that we are interested with 
 
@@ -29,35 +49,42 @@ for links in soup.find_all('div',class_='starea') :
 #for links in URLS :
  #    print(links)
 
-
 # function for scrapping an interesting link 
+
 def go_spider_scrapping(url):
-
-  fisier= url.split("/")
-  fileToWrite= fisier[2][0:-5]
-  #print(fileToWrite)
+  fisier= url.split("/")[-1]
+  fileToWrite= fisier[0:-5]
+  print(fileToWrite)
   url=URL+url
-
   page=requests.get(url) 
   soup= BeautifulSoup(page.content,'html.parser') 
   soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
   for e in soup.findAll('br'):
     e.extract()
-  information = soup.find('div', class_='camere_text')
+  information = soup.find('div', class_='camere_text') 
   text= information.text.strip()
   text = text.replace(u'\xa0', u' ')
-  #text = re.sub("(\s)+", " ",text)
-  #text = re.sub(r'[\ \n]{2,}', '',text)
-  text = text.replace('(\n)+', ' ')
-  #text = re.sub('\n', " ", text)
+  # in case we descover that it helps to remove the space from text
+  # text = re.sub("(\s)+", " ",text)
+  # text = re.sub(r'[\ \n]{2,}', '',text)
+  # text = text.replace('(\n)+', ' ')
+  # text = re.sub('\n', " ", text)
   text= text.strip()
   if(text.find('ACTE NECESARE') != -1 or text.find('Acte necesare') != -1) : 
-    print("AM gasit pe acest site acte necesare---------------")
-    print(url)
-    open(f"{director}/{fileToWrite}", 'w+',encoding="utf-8").write(information.text)
-    #print(url) 
+      print(url)
+      print(fileToWrite)
+      document_director = director + "/" + fileToWrite
+      createDirectorNested(document_director)
+      path = document_director + "/data.txt" 
+      f = open(path, "w+", encoding='utf-8')
+      f.write(text)
+      f.close()
+      path = document_director + "/data.html" 
+      f = open(path, "w+", encoding='utf-8')
+      f.write(str(information))
+      f.close()
 
-   
+    
 def spider():
      conditieOprire='Nu s-a gasit nici o inregistrare.'
      searchFor="acte-necesare"
@@ -67,7 +94,6 @@ def spider():
          while toContinue: 
             newUrl = page+str(pageNumber) 
             pageNumber+=1
-           # print(newUrl) 
             pageSearch=requests.get(newUrl) 
             soup = BeautifulSoup(pageSearch.content,'html.parser') 
             stop= soup.find('div',class_='products')
@@ -78,18 +104,17 @@ def spider():
                    for link2 in link.find_all('div',class_='camere_thumb'):
                      for actual_link in link2.find_all('a') : 
                        lin= actual_link.get('href') 
-                      # if(lin.find('acte-necesare') != -1):
                        title = actual_link['title']
-                       print(title)
-                       #go_spider_scrapping(lin) 
-                      
-
-              
-spider()
+                       go_spider_scrapping(lin) 
 
 
+def main():
+    if os.path.isdir(director):
+        deleteDirector(director)
+    createDirector(director)
+    spider()
 
-
+main()
 
 
 
