@@ -1,0 +1,297 @@
+{
+	"orar": {
+		"institutie": "Directia Locala de Evidenta a Persoanelor",
+		"programe": [
+			{
+				"titlu": "Nasteri - Starea Civila - Primiri",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"marti": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"joi": {
+						"open": "9:30 14:00",
+						"close": "11:00 18:00"
+					}
+				}
+			},
+			{
+				"titlu": "Nasteri - Starea Civila - Eliberari",
+				"program": {
+					"miercuri": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Casatorii - Starea Civila - Primiri",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"marti": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"miercuri": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"joi": {
+						"open": "14:00",
+						"close": "18:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Casatorii - Starea Civila - Oficieri",
+				"program": {
+					"luni": {
+						"open": "13:00",
+						"close": "14:00"
+					},
+					"marti": {
+						"open": "13:00",
+						"close": "14:00"
+					},
+					"miercuri": {
+						"open": "13:00",
+						"close": "14:00"
+					},
+					"joi": {
+						"open": "11:00",
+						"close": "12:30"
+					},
+					"vineri": {
+						"open": "13:00",
+						"close": "14:00"
+					}
+				}
+			},
+			{
+				"titlu": "Decese - Starea Civila",
+				"program": {
+					"luni": {
+						"open": "8:30 13:00",
+						"close": "12:00 16:00"
+					},
+					"marti": {
+						"open": "8:30 13:00",
+						"close": "12:00 16:00"
+					},
+					"miercuri": {
+						"open": "8:30 13:00",
+						"close": "12:00 16:00"
+					},
+					"joi": {
+						"open": "8:30 13:00",
+						"close": "12:00 16:00"
+					},
+					"vineri": {
+						"open": "8:30 13:00",
+						"close": "12:00 16:00"
+					},
+					"sambata": {
+						"open": "8:00",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Duplicate, Dovezi de Starea Civila, Anexa 9 - Primiri",
+				"program": {
+					"luni": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"joi": {
+						"open": "13:00",
+						"close": "18:00"
+					}
+				}
+			},
+			{
+				"titlu": "Duplicate, Dovezi de Starea Civila, Anexa 9 - Eliberari",
+				"program": {
+					"miercuri": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"joi": {
+						"open": "13:00",
+						"close": "18:00"
+					},
+					"vineri": {
+						"open": "9:00",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Anexa 24 - Starea Civila",
+				"program": {
+					"marti": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"miercuri": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"vineri": {
+						"open": "9:00",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Transcrieri - Starea Civila - Primiri",
+				"program": {
+					"miercuri": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"joi": {
+						"open": "8:30",
+						"close": "11:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Transcrieri - Starea Civila - Eliberari",
+				"program": {
+					"luni": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"marti": {
+						"open": "14:00",
+						"close": "16:00"
+					},
+					"miercuri": {
+						"open": "8:30",
+						"close": "12:00"
+					},
+					"joi": {
+						"open": "14:00",
+						"close": "18:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "12:00"
+					}
+				}
+			},
+			{
+				"titlu": "Pauza de dezinfectie - Starea Civila",
+				"program": {
+					"luni": {
+						"open": "12:00",
+						"close": "13:00"
+					},
+					"marti": {
+						"open": "12:00",
+						"close": "13:00"
+					},
+					"miercuri": {
+						"open": "12:00",
+						"close": "13:00"
+					},
+					"joi": {
+						"open": "12:00 16:00",
+						"close": "13:00 16:15"
+					},
+					"vineri": {
+						"open": "12:00",
+						"close": "13:00"
+					}
+				}
+			},
+			{
+				"titlu": "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "16:00"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "16:00"
+					},
+					"miercuri": {
+						"open": "8:30",
+						"close": "16:00"
+					},
+					"joi": {
+						"open": "10:30",
+						"close": "18:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "13:30"
+					}
+				}
+			},
+			{
+				"titlu": "Pauze dezinfectie",
+				"program": {
+					"luni": {
+						"open": "12:00 16:00",
+						"close": "12:30 16:30"
+					},
+					"marti": {
+						"open": "12:00 16:00",
+						"close": "12:30 16:30"
+					},
+					"miercuri": {
+						"open": "12:00 16:00",
+						"close": "12:30 16:30"
+					},
+					"joi": {
+						"open": "14:30 18:00",
+						"close": "15:00 18:30"
+					},
+					"vineri": {
+						"open": "11:00 14:00",
+						"close": "11:30 14:30"
+					}
+				}
+			}
+		]
+	}
+}

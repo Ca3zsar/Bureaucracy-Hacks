@@ -1,0 +1,57 @@
+{
+    "orar":{
+        "institutie":"Direcția Generală de Pașapoarte",
+        "programe":[
+            {
+                "titlu": "Primiri Documente",
+                "program":{
+                    "luni":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "marti":{
+                        "open":"8:30",
+                        "close":"18:30"
+                    },
+                    "miercuri":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "joi":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "vineri":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    }
+                }
+            },
+            {
+                "titlu" : "Eliberări Pașapoarte",
+                "program":{
+                    "luni":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "marti":{
+                        "open":"8:30",
+                        "close":"18:30"
+                    },
+                    "miercuri":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "joi":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    },
+                    "vineri":{
+                        "open":"8:30",
+                        "close":"16:30"
+                    }
+                }
+            }
+        ]
+    }
+}

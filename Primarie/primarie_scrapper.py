@@ -78,6 +78,10 @@ def getProgram(url):
     soup = BeautifulSoup(page.content,'html.parser', from_encoding="utf-8")
         
     programClass = soup.find("div",class_="col-xs-12 col-sm-12 col-md-12 text-justify")
+    
+    with open("HTMLFiles/orar.html","w",encoding="utf-8") as file:
+        file.write(programClass.prettify())
+    
     toDeleteDiv = programClass.find("div",class_="table-responsive")
     
     tableProgram = programClass.find("table")
@@ -107,6 +111,8 @@ def getProgram(url):
     
     institutes = ["directia","biroul","sc","compania","politia","serviciul","compartiment","centrul",
                   "casieriile","direcția","compartimentul"]
+
+    secondaryText = ""
     
     for paragraph in paragraphs[:]:
         text = paragraph.text
@@ -119,7 +125,23 @@ def getProgram(url):
         for word in toLookFor:
             if text.lower().find(word) != -1:
                 found = 1
+                
+                if toLookFor.index(word) == 0:
+                    secondFound = 0
+                    for anotherWord in toLookFor[1:]:
+                        if text.lower().find(anotherWord) != -1:
+                            secondFound = 1
+                            break
+                        
+                    if secondFound == 0:
+                        secondaryText = "Program cu publicul : "
+                        found = 0
+                
                 break
+            
+        if secondaryText != "" and found == 0:
+            continue
+        
         if found:
             currentIndex = paragraphs.index(paragraph)
             
@@ -132,8 +154,10 @@ def getProgram(url):
                 words = secondText.split()
                 if len(words) != 0:
                     if words[0].lower() in institutes:
-                        programs.append(text)
+                        programs.append(f"{secondaryText}{text}")
                         directors.append(secondText)
+                        
+                        secondaryText = ""
                         break
             
             paragraphs = paragraphs[currentIndex+1:]

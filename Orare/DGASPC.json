@@ -1,0 +1,32 @@
+{
+	"orar": {
+		"institutie": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+		"programe": [
+			{
+				"titlu": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+				"program": {
+					"luni": {
+						"open": "7:30",
+						"close": "16:00"
+					},
+					"marti": {
+						"open": "7:30",
+						"close": "16:00"
+					},
+					"miercuri": {
+						"open": "7:30",
+						"close": "16:00"
+					},
+					"joi": {
+						"open": "7:30",
+						"close": "16:00"
+					},
+					"vineri": {
+						"open": "7:30",
+						"close": "13:30"
+					}
+				}
+			}
+		]
+	}
+}

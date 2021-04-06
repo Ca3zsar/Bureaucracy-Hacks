@@ -1,0 +1,113 @@
+{
+	"orar": {
+		"institutie": "Directia de Asistenta Sociala Iasi",
+		"programe": [
+			{
+				"titlu": "Alocatii, Indemnizatii",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"joi": {
+						"open": "12:00",
+						"close": "16:00"
+					}
+				}
+			},
+			{
+				"titlu": "Ajutor Social",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"joi": {
+						"open": "12:00",
+						"close": "16:00"
+					}
+				}
+			},
+			{
+				"titlu": "Autoritate Tutelara",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"joi": {
+						"open": "12:00",
+						"close": "16:00"
+					}
+				}
+			},
+			{
+				"titlu": "Registratura",
+				"program": {
+					"luni": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"marti": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"miercuri": {
+						"open": "8:30",
+						"close": "12:30"
+					},
+					"joi": {
+						"open": "12:00",
+						"close": "16:00"
+					},
+					"vineri": {
+						"open": "8:30",
+						"close": "11:00"
+					}
+				}
+			},
+			{
+				"titlu": "Casierie",
+				"program": {
+					"luni": {
+						"open": "13:00",
+						"close": "15:30"
+					},
+					"marti": {
+						"open": "13:00",
+						"close": "15:30"
+					},
+					"miercuri": {
+						"open": "13:00",
+						"close": "15:30"
+					},
+					"joi": {
+						"open": "13:00",
+						"close": "15:30"
+					}
+				}
+			},
+			{
+				"titlu": "Audiente Director Executiv Luminita Munteanu",
+				"program": {
+					"joi": {
+						"open": "9:00",
+						"close": "11:00"
+					}
+				}
+			}
+		]
+	}
+}
