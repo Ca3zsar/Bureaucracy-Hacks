@@ -11101,6 +11101,14 @@ h6 {
   }
 }
 
+.mt-10 {
+  margin-top: 6rem;
+}
+
+.text-color-blue {
+  color: #020e43;
+}
+
 /**
   Buttons
 */
@@ -11128,6 +11136,26 @@ h6 {
 .btn-accent-primary:hover {
   color: white;
   background-color: #4642f2;
+}
+
+.document-text {
+  color: blue;
+  background-color: #d4d4d4;
+  border-radius: 26.5px;
+  text-align: center;
+}
+
+.dropdown .btn-primary {
+  color: #020e43;
+  background-color: #d4d4d4;
+  border: #d4d4d4;
+}
+
+.btn-route {
+  color: #fff;
+  background-color: #3d37f1;
+  border-color: #3d37f1;
+  border-radius: 20px;
 }
 
 /*
@@ -11392,6 +11420,32 @@ h6 {
   margin: 0 auto;
 }
 
+.dropdown-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .main-image-container {
   position: relative;
   width: 100%;
@@ -11626,6 +11680,11 @@ h6 {
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+
+.container-fluid-background {
+  background-color: #3d37f1;
+  color: white;
 }
 
 

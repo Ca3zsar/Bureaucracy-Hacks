@@ -17,7 +17,9 @@
 'components/navbar',
 'components/cards',
 'components/footer',
-'components/forms';
+'components/forms',
+'components/dropdown',
+'components/map';
 
 
 // 4. Layout-related sections
@@ -26,7 +28,8 @@
 // 5. Page-specific styles
 @import 'pages/home',
         'pages/user-settings',
-        'pages/auth';
+        'pages/auth',
+        'pages/route';
 
 
 

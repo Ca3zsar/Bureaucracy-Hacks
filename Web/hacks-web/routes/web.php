@@ -17,6 +17,10 @@ Route::get('/settings', function () {
     return view('settings.usersettings');
 });
 
+Route::get('/route',function(){
+    return view('route.route');
+});
+
 
 Route::get('/', function () {
     return view('home');
