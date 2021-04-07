@@ -2,61 +2,84 @@
 
 @section('content')
 
-    <div class="container grid">
+    <div class="container mt-10">
 
-        <div class="col-12 col-md-3  mt-10">
-            <h3 class="document-text">Carte de identitate</h3>
-        </div>
+        <div class="row">
+        <div class="col-12 col-md-9">
 
-        <div class="dropdown">
-            <div class="col-12 col-md-9 mt-5">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Documente necesare
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu checkbox-menu allow-focus">
-                    <li >
-                        <label>
-                            <input type="checkbox"> Copie certificat nastere
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input type="checkbox"> Timbru
-                        </label>
-                    </li>
-                    <li >
-                        <label>
-                            <input type="checkbox"> Cartea de identitate curenta
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-9 mt-3">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Conditii de
-                    eliberare
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li>Programare valida</li>
-                    <li>Carte de identitate</li>
-                    <li>Certificat de nastere</li>
-                </ul>
+            <div class="col-12 col-md-5 mt-10">
+                <h3 class="document-text">Carte de identitate</h3>
             </div>
 
-            <div class="col-12 col-md-9 mt-3">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Institutii unde se
-                    desfasoara
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li>Politia locala</li>
-                    <li>Primarie</li>
-                </ul>
-            </div>
+            <form>
+                <div class="dropdown">
+                    <div class="col-12 col-md-9 mt-5">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Documente
+                            necesare
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu checkbox-menu allow-focus p-2">
+                            <li class="border-dark">
+                                <label>
+                                    <input type="checkbox"> Copie certificat nastere
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Timbru
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Cartea de identitate curenta
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-9 mt-3">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Conditii de
+                            eliberare
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu p-2">
+                            <li>Programare valida</li>
+                            <li>Carte de identitate</li>
+                            <li>Certificat de nastere</li>
+                        </ul>
+                    </div>
 
+                    <div class="col-12 col-md-9 mt-3 ">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Institutii
+                            unde
+                            se
+                            desfasoara
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu checkbox-menu allow-focus p-2">
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Politia locala
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox"> Primaria
+                                </label>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-9 mt-3">
+                    <button type="button" class="btn btn-route">Creeaza ruta</button>
+                </div>
+            </form>
         </div>
 
-        <div class="col-12 col-md-9 mt-3">
-            <button type="button" class="btn btn-route">Creeaza ruta</button>
+        <div class="col-12 col-md-3 sm-hidden d-flex align-items-center justify-content-center">
+            <img style="width: 80%" src="{{asset('/images/svg/document.svg')}}" />
         </div>
 
+        </div>
 
     </div>
 
@@ -78,55 +101,28 @@
 
     <div class="container-fluid container-fluid-background mt-10">
         <div class="p-5">
-            <div class="d-flex flex-row justify-content-center">
+            <div class="align-feedback">
                 <h2>Feedback-ul tau conteaza !</h2>
-                <a href="#" class="ml-3 btn button-accent-secondary">Ofera feedback</a>
+                <a href="#" class="btn button-accent-secondary">Ofera feedback</a>
             </div>
         </div>
 
 
     </div>
-
 
 
     <div class="container">
         <div class="row">
 
             <div class="flex align-items-center col-12 col-md-12 mt-5">
-                <h2 class="text-center text-color-blue"> Timpul mediu de asteptare</h2>
+                <h2 class="text-center text-color-blue mb-3"> Timpul mediu de asteptare</h2>
             </div>
         </div>
 
-        <div class="row position-relative"><canvas id="bar-chart" width="800" height="450"></canvas></div>
 
+        <statistics></statistics>
 
     </div>
 
 
-@endsection
-
-@section('scripts')
-    <script>
-        var chart = new Chart(document.getElementById("bar-chart").getContext('2d'), {
-            type: 'bar',
-            data: {
-                labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-                datasets: [
-                    {
-                        label: "Population (millions)",
-                        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-                        data: [2478,5267,734,784,433]
-                    }
-                ]
-            },
-            options: {
-                legend: { display: false },
-                title: {
-                    display: true,
-                    text: 'Predicted world population (millions) in 2050'
-                }
-            }
-        });
-        console.log(chart);
-    </script>
 @endsection
