@@ -18,7 +18,7 @@ Route::get('/settings', function () {
 });
 
 Route::get('/route',function(){
-    return view('route.route');
+    return view('route.index');
 });
 
 
