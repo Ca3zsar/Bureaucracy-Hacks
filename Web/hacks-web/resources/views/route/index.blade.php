@@ -1,5 +1,4 @@
 @extends('layouts.main')
-
 @section('content')
 
     <div class="container mt-10">
@@ -118,7 +117,6 @@
                 <h2 class="text-center text-color-blue mb-3"> Timpul mediu de asteptare</h2>
             </div>
         </div>
-
 
         <statistics></statistics>
 

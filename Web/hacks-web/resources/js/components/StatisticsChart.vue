@@ -3,7 +3,9 @@
 </template>
 
 <script>
+
 import Bar from "./bar.js";
+
 
 export default {
     name: 'StatisticsChart',
@@ -29,5 +31,4 @@ export default {
     }
 }
 </script>
-
 
