@@ -7,14 +7,13 @@ import shutil # for deleting dirs
 
 import selenium
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options  
 
 
 import time
 
 
 driverPath = ".\\chromedriver.exe"
-
-# Bacau, incasari persoane juridice, Luni, Marti, Miercuri, Joi, 8.30-14-30
 
 divId = "acte"
 director = "./resources"
@@ -42,10 +41,10 @@ def getTextFromTag(tag):
 # headless
 
 def generateHTMLS():
+    chrome_options = Options()  
+    chrome_options.add_argument("--headless") 
 
-
-    driver = webdriver.Chrome(driverPath)
-    driver
+    driver = webdriver.Chrome(driverPath,options=chrome_options)
     driver.get(url)
     source = driver.page_source
     soup = BeautifulSoup(source, "lxml")
@@ -55,13 +54,19 @@ def generateHTMLS():
     for line in soup.select("#acte > div[align] > a"):
         
         subUrl = line['href']
-
-        subDriver = webdriver.Chrome(driverPath)
+        
+        if subUrl[0] == '/':
+            # print(subUrl)
+            subUrl = url + subUrl
+        
+        res = requests.get(subUrl)
+        if res == None:
+            continue
+        
+        subDriver = webdriver.Chrome(driverPath,options=chrome_options)
         subDriver.get(subUrl)
         source  = subDriver.page_source
         subSoup = BeautifulSoup(source, "lxml")
-
- 
 
         title = getTextFromTag(line)
 
@@ -95,8 +100,16 @@ def generateSchedule():
     soup = BeautifulSoup(source, 'lxml')
     
     section = soup.select("table")
+    
+    if os.path.exists("HTMLFiles"):
+        shutil.rmtree("HTMLFiles")
+    
+    os.mkdir("HTMLFiles")
+    
+    with open("HTMLFiles/orar.html","w",encoding="utf-8") as file:
+        file.write(str(section))
 
-    path = director + "/data.txt"
+    path = director + "/orar.txt"
     f = open(path, "w", encoding='utf-8')
 
     for line in section:
