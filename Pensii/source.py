@@ -8,28 +8,35 @@ import shutil
 url = "https://www.cjpiasi.ro/informatiin/"
 root = "https://www.cjpiasi.ro/"
 
-director = "./resources"
+director = "resources"
+htmlFiles = "HTMLFiles"
 
 def deletingFiles():
-    shutil.rmtree(director)
-    print("Files deleted")
+    if os.path.exists(director):
+        shutil.rmtree(director)
+        
+    if os.path.exists(htmlFiles):
+        shutil.rmtree(htmlFiles)
 
 def makeDirectors():
-    os.makedirs(director)
-    print("Files created..")
-
+    os.mkdir(director)
+    os.mkdir(htmlFiles)
+    
 def fillContent(section):
-    path = director + "/file.html"
-    f = open(path, "w", encoding='utf-8')
-    f.write(str(section))
-    f.close()
+    with open(f"{htmlFiles}/pensii.html","w",encoding="utf-8") as file:
+        file.write(str(section))
+    
 
 def downloadHrefs(soup):
     for a in soup.select('.listaform a'):
     
-        toDownload = a['href']
+        toDownload = a.get('href')
+        if not toDownload:
+            continue
+        
+        toDownload = toDownload[2:]
         if toDownload.startswith("/"):
-            toDownload = root + toDownload
+            toDownload = root + toDownload[1:]
         print(toDownload)
 
         baseName = os.path.basename(toDownload)
@@ -40,18 +47,14 @@ def downloadHrefs(soup):
 
 
 def main():
-    if os.path.isdir(director):
-        deletingFiles()
+    deletingFiles()
     makeDirectors()
 
     source = requests.get(url).text
     soup = BeautifulSoup(source, 'lxml')
-    #section = soup.find_all("div", {"class": "listaform"})
     section = soup.select('.listaform')
 
-    print(section)
-
     fillContent(section)
-    # downloadHrefs(soup)
+    downloadHrefs(soup)
 
 main()
