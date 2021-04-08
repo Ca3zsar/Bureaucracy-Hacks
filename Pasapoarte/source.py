@@ -41,10 +41,7 @@ def getTextFromTag(tag):
 
 # headless
 
-def main():
-    if os.path.isdir(director):
-        deletingFiles()
-    makeDirectors()
+def generateHTMLS():
 
 
     driver = webdriver.Chrome(driverPath)
@@ -78,39 +75,45 @@ def main():
             fileName = f"file{i}"
             path = f"{director}\\{fileName}.html"
             fillContent(title + "\n", path)
-            # fillContent(section1[index], path)
-            # fillContent(section2[index], path)
-            fillContent(getTextFromTag(section1[index]), path)
-            fillContent(getTextFromTag(section2[index]), path)
+            fillContent(section1[index], path)
+            fillContent(section2[index], path)
+            # fillContent(getTextFromTag(section1[index]), path)
+            # fillContent(getTextFromTag(section2[index]), path)
 
         subDriver.close()
 
     driver.quit()
 
-#post_1525 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
-#post_1267 > content > div > div > div > section > div > div > div > div > div > div:nth-child(6)
+def generateSchedule():
+    if os.path.isdir(director):
+        deletingFiles()
+    makeDirectors()
+
+    URL = "https://pasapoarte.mai.gov.ro/serviciul-public-comunitar-de-pasapoarte-iasi/"
+
+    source = requests.get(URL).text
+    soup = BeautifulSoup(source, 'lxml')
+    
+    section = soup.select("table")
+
+    path = director + "/data.txt"
+    f = open(path, "w", encoding='utf-8')
+
+    for line in section:
+        txt = str(line)
+        
+        txt = re.sub('\<(.|\n)*?\>','', txt)
+        txt = re.sub('^\s*','', txt)
+        f.write(txt)
+        f.write('\n') 
+
+    f.close()
 
 
+def main():
+    generateSchedule()
+    generateHTMLS()
+    
+    
 main()
 
-
-# tr td table tbody tr td
-
-# PROGRAM LUCRU ...
-
-# INCASARI PERSAONE JURIDICE
-# ZILE, ORE
-# LUNI, 10-12
-# MARTI , ..
-# ..
-
-# INCASARI PERSAONE FIZICE
-
-
-# [
-#     "SECTIUNE": "PROGRAM LUCRU"
-#     "SUBSECTIUNE" : ""
-
-
-
-# ]
