@@ -7,3 +7,4 @@
 *.xls
 *.doc
 Primarie/geckodriver.log
+*.html

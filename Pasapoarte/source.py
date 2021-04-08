@@ -16,7 +16,8 @@ import time
 driverPath = ".\\chromedriver.exe"
 
 divId = "acte"
-director = "./resources"
+director = "./HTMLFiles"
+resources = "./resources"
 url = "https://epasapoarte.ro"
 
 def deletingFiles():
@@ -101,15 +102,10 @@ def generateSchedule():
     
     section = soup.select("table")
     
-    if os.path.exists("HTMLFiles"):
-        shutil.rmtree("HTMLFiles")
-    
-    os.mkdir("HTMLFiles")
-    
-    with open("HTMLFiles/orar.html","w",encoding="utf-8") as file:
+    with open(f"{director}/orar.html","w",encoding="utf-8") as file:
         file.write(str(section))
 
-    path = director + "/orar.txt"
+    path = resources + "/orar.txt"
     f = open(path, "w", encoding='utf-8')
 
     for line in section:
@@ -124,6 +120,17 @@ def generateSchedule():
 
 
 def main():
+    if os.path.exists(director):
+        shutil.rmtree(director)
+    
+    os.mkdir(director)
+    
+    if os.path.exists(resources):
+        shutil.rmtree(resources)
+    
+    os.mkdir(resources)
+
+    
     generateSchedule()
     generateHTMLS()
     
