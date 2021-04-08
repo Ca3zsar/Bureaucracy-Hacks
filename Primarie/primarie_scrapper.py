@@ -28,8 +28,8 @@ firefoxPref.set_preference("browser.download.dir", downloadDir)
 firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
 
 
-# firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
-# firefoxDriver.get(urlPrimarie)
+firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
+firefoxDriver.get(urlPrimarie)
 
 def changeEntriesNumber():
     choiceButton = firefoxDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
@@ -37,6 +37,15 @@ def changeEntriesNumber():
     
     entriesButton = firefoxDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
     entriesButton.click()
+    
+    page = requests.get(urlPrimarie)
+    soup = BeautifulSoup(page.content,'html.parser', from_encoding="utf-8")
+        
+    programClass = soup.find("div",class_="col-sm-12")
+    
+    with open("HTMLFiles/info.html","w",encoding="utf-8") as file:
+        file.write(programClass.prettify())
+    
     
     downloadButtons = firefoxDriver.find_elements_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a")
     
@@ -176,6 +185,6 @@ def getProgram(url):
     
     # print(programClass)
 
-# downloadFiles(changeEntriesNumber())
+downloadFiles(changeEntriesNumber())
 getProgram(urlOrar)
-# firefoxDriver.quit()
+firefoxDriver.quit()

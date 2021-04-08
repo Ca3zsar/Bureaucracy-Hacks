@@ -326,3 +326,15 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1617917169390	geckodriver	INFO	Listening on 127.0.0.1:57771
+1617917172432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofilewwuEDA"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617917174184	Marionette	INFO	Listening on port 57779
+1617917174477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 282: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 946: TypeError: $.fn.snow is not a function
