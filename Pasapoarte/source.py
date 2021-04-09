@@ -79,12 +79,15 @@ def generateHTMLS():
         for index in range(0,len(section1)):
             i = i + 1
             fileName = f"file{i}"
-            path = f"{director}\\{fileName}.html"
-            fillContent(title + "\n", path)
-            fillContent(section1[index], path)
-            fillContent(section2[index], path)
-            # fillContent(getTextFromTag(section1[index]), path)
-            # fillContent(getTextFromTag(section2[index]), path)
+            pathHTML = f"{director}\\{fileName}.html"
+            fillContent(title + "\n", pathHTML)
+            fillContent(section1[index], pathHTML)
+            fillContent(section2[index], pathHTML)
+
+            pathTXT = f"{resources}\\{fileName}.txt"
+            fillContent(title + "\n", pathTXT)
+            fillContent(getTextFromTag(section1[index]), pathTXT)
+            fillContent(getTextFromTag(section2[index]), pathTXT)
 
         subDriver.close()
 
