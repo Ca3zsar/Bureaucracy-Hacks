@@ -16,8 +16,8 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
 urlOrar = "http://www.primaria-iasi.ro/portal-iasi/pmi/meniu-pmi/54/program-cu-publicul"
 
-downloadDir = "/Primaria_Iasi_Files"
-csvProgram = "/program.csv"
+downloadDir = "/Acte"
+csvProgram = "/program.txt"
 
 firefoxOptions = FirefoxOptions()
 firefoxOptions.add_argument("--headless")
@@ -26,7 +26,6 @@ firefoxPref = webdriver.FirefoxProfile()
 firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
 firefoxPref.set_preference("browser.download.dir", downloadDir)
 firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-
 
 firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
 firefoxDriver.get(urlPrimarie)
@@ -177,14 +176,6 @@ def getProgram(url):
         print(programs[i])
         print("------")
     
-    # for paragraph in paragraphs:
-    #     if ord(paragraph.text[0]) == 160 and len(paragraph.text)==1:
-    #         paragraph.decompose()
-    #     else:
-    #         print(paragraph.text)
-    
-    # print(programClass)
-
 
 def main():
     downloadFiles(changeEntriesNumber())

@@ -9,6 +9,7 @@ url = "https://www.cjpiasi.ro/informatiin/"
 root = "https://www.cjpiasi.ro/"
 
 director = "Acte"
+resources = "Content"
 htmlFiles = "HTMLFiles"
 
 def deletingFiles():
