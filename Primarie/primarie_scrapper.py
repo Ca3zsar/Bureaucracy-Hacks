@@ -185,6 +185,8 @@ def getProgram(url):
     
     # print(programClass)
 
-downloadFiles(changeEntriesNumber())
-getProgram(urlOrar)
-firefoxDriver.quit()
+
+def main():
+    downloadFiles(changeEntriesNumber())
+    getProgram(urlOrar)
+    firefoxDriver.quit()

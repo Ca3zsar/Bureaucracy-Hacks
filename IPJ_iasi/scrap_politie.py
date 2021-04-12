@@ -39,7 +39,7 @@ def programAudieriPolitie():
     print(program)
 
 
-def downloadActePolitie():
+def downloadPoliceDocuments():
     cont = 0
     for i in sufixes:
         page = requests.get(baseUrl + i)
@@ -49,8 +49,10 @@ def downloadActePolitie():
         
         if os.path.exists(f"acte\\{folders[cont]}"):
             shutil.rmtree(f"acte\\{folders[cont]}")
+            print("?????????????")
+        print(folders[cont])
         os.mkdir(f"acte\\{folders[cont]}")
-        
+        print("??????")
         for data in downloadContent:
             response = urllib.request.urlopen(data["href"])
 
@@ -99,7 +101,7 @@ def getContentFromPages():
     os.mkdir("HTMLFiles")
     
     programAudieriPolitie()
-    downloadActePolitie()
+    downloadPoliceDocuments()
     
     contor = 0
     for i in sufixes:
@@ -117,4 +119,7 @@ def getContentFromPages():
         fisier.close()
         contor += 1
 
-getContentFromPages()
+def main():
+    downloadPoliceDocuments()
+    getContentFromPages()
+    programAudieriPolitie()
