@@ -8,24 +8,36 @@ import shutil # for deleting dirs
 root = "https://www.dac-iasi.ro"
 sufixes = ["alocatii", "autoritate", "serviciul-social", "alte-servicii"]
 
-director = "./resources"
+director = "./Content"
+acte = "./Acte"
+HTMLFiles = "./HTMLFiles"
 
 def deletingFiles():
-    shutil.rmtree(director)
-    print("Files deleted")
+    if os.path.exists(acte):
+        shutil.rmtree(acte)
+    if os.path.exists(director):
+        shutil.rmtree(director)
+    if os.path.exists(HTMLFiles):
+        shutil.rmtree(HTMLFiles)
 
 
 def makeDirectors():
-    os.makedirs(director)
+    os.mkdir(HTMLFiles)
+    os.mkdir(director)
+    os.mkdir(acte)
     for sufix in sufixes:
-        os.makedirs(director + "/" + sufix)
-    print("Files created..")
+        os.makedirs(acte + "/" + sufix)
+    
 
-
+# Meant for extracting content, modified into downloading HTMLs
 def fillContent(sufix, section):
-    fileName = sufix + ".html"
-    path = director + "/" + fileName
-    f = open(path, "w", encoding='utf-8')
+    fileName = sufix + ".txt"
+    htmlFile = sufix + ".html"
+    htmlPath = HTMLFiles + "/" + htmlFile
+    filePath = director + "/" + fileName
+    
+    f1 = open(filePath, "w", encoding='utf-8')
+    f2 = open(htmlPath, "w", encoding='utf-8')
 
     # container = re.sub('<.*?>','', str(section))
     # container = re.sub('\s\s\s\s\s\s','\n',container)
@@ -34,52 +46,67 @@ def fillContent(sufix, section):
     matches = ["h1", "h3", "p"]
 
     for line in section:
-        txt = str(line)
-        if any(x in txt for x in matches):
-            txt = re.sub('\<img.*?/>','\n',txt)
+        if any(x in line.text for x in matches):
+            try:
+                line.find("img").extract()
+                line.find("a").extract()
+                line.find("script").extract()
+            except:
+                pass
+            txt = line.text
+            
+            f1.write(txt)
+            
+            txt = str(line)
             txt = re.sub('\<img.*?/>','\n',txt)
             txt = re.sub('\<a.*?\>(.|\n)*?\<\/a\>','',txt)
             txt = re.sub('\<script.*?\>(.|\n)*?\<\/script\>','',txt)
-            f.write(txt)
+            
+            f2.write(txt)
 
-    f.close()
+    f1.close()
+    f2.close()
 
 def downloadHrefs(sufix, soup):
     for a in soup.select('.art-article p a'):
 
         toDownload = a['href']
+        
+        if toDownload.find("pdf") == -1:
+            continue;
+        
         if toDownload.startswith("/"):
             toDownload = root + toDownload
+        
         print(toDownload)
 
         baseName = os.path.basename(toDownload)
 
         req = requests.get(toDownload, allow_redirects=True)
 
-        open(f"{director}/{sufix}/{baseName}", 'wb').write(req.content)
+        open(f"{acte}/{sufix}/{baseName}", 'wb').write(req.content)
 
 
 
 def getResources():
-    if os.path.isdir(director):
-        deletingFiles()
-    makeDirectors()
-
     for sufix in sufixes:
         url = root + "/" + sufix
         source = requests.get(url).text
         soup = BeautifulSoup(source, 'lxml')
-        section = soup.find(class_="art-article")
+        section = soup.find_all(class_="art-article")
 
         fillContent(sufix, section)
         downloadHrefs(sufix, soup)
-
 
 
 def getSchedule():
     URL='https://www.dac-iasi.ro/contact' 
     page=requests.get(URL) 
     soup= BeautifulSoup(page.content,'html.parser') 
+    
+    with open(f"{HTMLFiles}\\orar.html","w",encoding="utf-8") as file:
+        file.write(soup.prettify())
+    
     searchFor=["Luni","Marti", "Miercuri", "Joi", "Vineri", "Adresa :" ] 
     orare = soup.select("div[class=art-article] > p")
     title= soup.select("div[class=art-article] > h4") 
@@ -93,7 +120,6 @@ def getSchedule():
         txtTitle = re.sub("</?strong[^>]>", "", txtTitle)
         txtTitle = re.sub("<.*?>", "", txtTitle).strip().splitlines()
         Institutie+=txtTitle
-        #print(txtTitle)
     
     program=[]
     for orar in orare:
@@ -119,6 +145,8 @@ def getSchedule():
 
 
 def main():
+    deletingFiles()
+    makeDirectors()
     getResources()
     getSchedule()
 

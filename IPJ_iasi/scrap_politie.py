@@ -32,7 +32,7 @@ def programAudieriPolitie():
 
     program = re.sub('<.*?>', '', str(programHTML))
 
-    fisier = codecs.open("content/program_politie.txt", "w", "utf-8")
+    fisier = codecs.open("Content\\program_politie.txt", "w", "utf-8")
 
     fisier.write(program)
     fisier.close()
@@ -47,12 +47,10 @@ def downloadPoliceDocuments():
         downloadableDiv = BeautifulSoup(page.text, "html.parser")
         downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
         
-        if os.path.exists(f"acte\\{folders[cont]}"):
-            shutil.rmtree(f"acte\\{folders[cont]}")
-            print("?????????????")
+        if os.path.exists(f"Acte\\{folders[cont]}"):
+            shutil.rmtree(f"Acte\\{folders[cont]}")
         print(folders[cont])
-        os.mkdir(f"acte\\{folders[cont]}")
-        print("??????")
+        os.mkdir(f"Acte\\{folders[cont]}")
         for data in downloadContent:
             response = urllib.request.urlopen(data["href"])
 
@@ -63,17 +61,17 @@ def downloadPoliceDocuments():
             file.write(response.read())
             file.close()
 
-            os.rename(f"{fileName}", f"acte\\{folders[cont]}\\{fileName}")
-            print(f"{fileName}", f"acte\\{folders[cont]}\\{fileName}")
+            os.rename(f"{fileName}", f"Acte\\{folders[cont]}\\{fileName}")
+            print(f"{fileName}", f"Acte\\{folders[cont]}\\{fileName}")
         cont += 1
     page = requests.get("https://www.politiaromana.ro/ro/utile/documente-eliberari-acte/formulare-tipizate-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase/cereri-formulare-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase")
     page.encoding = page.apparent_encoding
     downloadableDiv = BeautifulSoup(page.text, "html.parser")
     downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
 
-    if os.path.exists("acte\\arme_explozivi"):
-        shutil.rmtree("acte\\arme_explozivi")
-    os.mkdir("acte\\arme_explozivi")
+    if os.path.exists("Acte\\arme_explozivi"):
+        shutil.rmtree("Acte\\arme_explozivi")
+    os.mkdir("Acte\\arme_explozivi")
 
     for data in downloadContent:
         link = data["href"]
@@ -90,8 +88,8 @@ def downloadPoliceDocuments():
         file = open(f"{fileName}", "wb")
         file.write(response.read())
         file.close()
-        os.rename(f"{fileName}", f"acte\\arme_explozivi\\{fileName}")
-        print(f"{fileName}", f"acte\\arme_explozivi\\{fileName}")
+        os.rename(f"{fileName}", f"Acte\\arme_explozivi\\{fileName}")
+        print(f"{fileName}", f"Acte\\arme_explozivi\\{fileName}")
 
 
 def getContentFromPages():

@@ -8,7 +8,7 @@ import shutil
 url = "https://www.cjpiasi.ro/informatiin/"
 root = "https://www.cjpiasi.ro/"
 
-director = "resources"
+director = "Acte"
 htmlFiles = "HTMLFiles"
 
 def deletingFiles():

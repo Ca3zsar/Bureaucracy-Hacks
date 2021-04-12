@@ -9,15 +9,13 @@ import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options  
 
-
 import time
-
 
 driverPath = ".\\chromedriver.exe"
 
-divId = "acte"
+divId = "Acte"
 director = "./HTMLFiles"
-resources = "./resources"
+resources = "./Content"
 url = "https://epasapoarte.ro"
 
 def deletingFiles():

@@ -79,7 +79,7 @@ def downloadFiles(urls):
         file.write(response.read())
         file.close()
         
-        os.rename(f"{fileName}", f"Primaria_Iasi_Files\\{fileName}")
+        os.rename(f"{fileName}", f"Acte\\{fileName}")
         
 
 def getProgram(url):
