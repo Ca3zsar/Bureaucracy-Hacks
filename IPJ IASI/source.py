@@ -18,6 +18,22 @@ sufixes = ["obtinerea-certificatului-de-cazier-judiciar",
 folders = ["cazier", "arme_explozivi", "detectoare_metal", "politie_rutiera",
            "frauda_economica", "ordine_publica"]
 
+acte = "./Acte"
+HTMLFiles = "./HTMLFiles"
+director = "./Content"
+
+def deletingFiles():
+    if os.path.exists(acte):
+        shutil.rmtree(acte)
+    if os.path.exists(director):
+        shutil.rmtree(director)
+    if os.path.exists(HTMLFiles):
+        shutil.rmtree(HTMLFiles)
+
+def makeDirectors():
+    os.mkdir(HTMLFiles)
+    os.mkdir(director)
+    os.mkdir(acte)
 
 def programAudieriPolitie():
     page = requests.get(url)
@@ -118,6 +134,11 @@ def getContentFromPages():
         contor += 1
 
 def main():
+    deletingFiles()
+    makeDirectors()
+    
     downloadPoliceDocuments()
     getContentFromPages()
     programAudieriPolitie()
+
+main()
