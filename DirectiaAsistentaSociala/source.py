@@ -150,6 +150,3 @@ def main():
 
 
 main()
-
-
-# https://www.dac-iasi.ro/file/Cerere_indemnizatie_model_2020_DAS_Iasi.pdf  

@@ -352,3 +352,64 @@ JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: 
 JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 Exiting due to channel error.
+1618346421624	geckodriver	INFO	Listening on 127.0.0.1:60114
+1618346424687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofileH6vhoW"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618346426454	Marionette	INFO	Listening on port 60122
+1618346426731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofilejTmZnU"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618346455967	Marionette	INFO	Listening on port 60264
+1618346456109	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofileDbny5d"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618346521088	Marionette	INFO	Listening on port 60406
+1618346521205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofilehyP2Px"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618346600970	Marionette	INFO	Listening on port 60571
+1618346601114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
+1618346661524	Marionette	INFO	Stopped listening on port 60571
+1618346837037	geckodriver	INFO	Listening on 127.0.0.1:60826
+1618346840094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofilegRpUYi"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618346841730	Marionette	INFO	Listening on port 60835
+1618346842147	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function

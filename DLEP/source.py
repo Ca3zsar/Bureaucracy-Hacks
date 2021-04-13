@@ -31,30 +31,35 @@ def makeDirectors():
     os.mkdir(acte)
 
 
-for links in soup.find_all('div', class_='evidenta'):
-    for link in links.find_all('a'):
-        lin = link.get('href')
-        url = URL + '/?page=' + lin[1:-5] + '&n='
-        URLS.append(url)
+def getURLs():
+    for links in soup.find_all('div', class_='evidenta'):
+        for link in links.find_all('a'):
+            lin = link.get('href')
+            url = URL + '/?page=' + lin[1:-5] + '&n='
+            URLS.append(url)
 
 
-for links in soup.find_all('div', class_='starea'):
-    for link in links.find_all('a'):
-        lin = link.get('href')
-        url = URL + '/?page=' + lin[1:-5] + '&n='
-        URLS.append(url)
+    for links in soup.find_all('div', class_='starea'):
+        for link in links.find_all('a'):
+            lin = link.get('href')
+            url = URL + '/?page=' + lin[1:-5] + '&n='
+            URLS.append(url)
 
 
 def go_spider_scrapping(url):
     fisier = url.split("/")[-1]
     fileToWrite = fisier[0:-5]
+    
     print(fileToWrite)
     url = URL+url
+    
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
+    
     for e in soup.findAll('br'):
         e.extract()
+    
     information = soup.find('div', class_='camere_text')
     text = information.text.strip()
     text = text.replace(u'\xa0', u' ')
@@ -160,6 +165,9 @@ def go_spider_scrapper():
 def main():
     deletingFiles()
     makeDirectors()
+    
+    getURLs()
+    
     spider()
     go_spider_scrapper()
 

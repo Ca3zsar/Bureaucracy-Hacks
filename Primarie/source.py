@@ -3,6 +3,7 @@ import urllib.request
 import requests
 import unicodedata
 import csv
+import shutil
 
 from bs4 import BeautifulSoup
 
@@ -16,21 +17,26 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
 urlOrar = "http://www.primaria-iasi.ro/portal-iasi/pmi/meniu-pmi/54/program-cu-publicul"
 
-downloadDir = "/Acte"
+director = "./Content"
+HTMLFiles = "./HTMLFiles"
+acte = "./Acte"
 csvProgram = "/program.txt"
 
-firefoxOptions = FirefoxOptions()
-firefoxOptions.add_argument("--headless")
+def deletingFiles():
+    if os.path.exists(acte):
+        shutil.rmtree(acte)
+    if os.path.exists(director):
+        shutil.rmtree(director)
+    if os.path.exists(HTMLFiles):
+        shutil.rmtree(HTMLFiles)
 
-firefoxPref = webdriver.FirefoxProfile()
-firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
-firefoxPref.set_preference("browser.download.dir", downloadDir)
-firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
 
-firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
-firefoxDriver.get(urlPrimarie)
+def makeDirectors():
+    os.mkdir(HTMLFiles)
+    os.mkdir(director)
+    os.mkdir(acte)
 
-def changeEntriesNumber():
+def changeEntriesNumber(firefoxDriver):
     choiceButton = firefoxDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
     choiceButton.click()
     
@@ -176,8 +182,29 @@ def getProgram(url):
         print(programs[i])
         print("------")
     
+    
+def getDriver():
+    firefoxOptions = FirefoxOptions()
+    firefoxOptions.add_argument("--headless")
+
+    firefoxPref = webdriver.FirefoxProfile()
+    firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
+    firefoxPref.set_preference("browser.download.dir",acte)
+    firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
+
+    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
+    firefoxDriver.get(urlPrimarie)
+    
+    return firefoxDriver
 
 def main():
-    downloadFiles(changeEntriesNumber())
-    getProgram(urlOrar)
+    deletingFiles()
+    makeDirectors()
+    
+    firefoxDriver = getDriver()
+    
+    downloadFiles(changeEntriesNumber(firefoxDriver))
+    getProgram(urlOrar,firefoxDriver)
     firefoxDriver.quit()
+    
+main()
