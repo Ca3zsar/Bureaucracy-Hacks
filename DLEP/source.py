@@ -1,8 +1,3 @@
-#################
-# Crawler for dlep iasi
-# save the content in which we find the key words "acte necesare"
-# and also save the html for further research
-#################
 import re
 import os
 import shutil
@@ -11,27 +6,30 @@ import sys
 from bs4 import BeautifulSoup
 
 URL = 'https://www.dlep-iasi.ro'
-# prepare a list in order to store the links
 URLS = []
-director = "./resources"
+
+director = "./Content"
+HTMLFiles = "./HTMLFiles"
+acte = "./Acte"
+
 url = []
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 
-
-def deleteDirector(document_director):
-    shutil.rmtree(document_director)
-
-
-def createDirector(document_director):
-    os.makedirs(document_director)
-
-
-def createDirectorNested(document_director):
-    os.mkdir(document_director)
+def deletingFiles():
+    if os.path.exists(acte):
+        shutil.rmtree(acte)
+    if os.path.exists(director):
+        shutil.rmtree(director)
+    if os.path.exists(HTMLFiles):
+        shutil.rmtree(HTMLFiles)
 
 
-# first, grab the links that we are interested with
+def makeDirectors():
+    os.mkdir(HTMLFiles)
+    os.mkdir(director)
+    os.mkdir(acte)
+
 
 for links in soup.find_all('div', class_='evidenta'):
     for link in links.find_all('a'):
@@ -45,12 +43,6 @@ for links in soup.find_all('div', class_='starea'):
         lin = link.get('href')
         url = URL + '/?page=' + lin[1:-5] + '&n='
         URLS.append(url)
-
-# check if the links are good !
-# for links in URLS :
-  #    print(links)
-
-# function for scrapping an interesting link
 
 
 def go_spider_scrapping(url):
@@ -66,22 +58,18 @@ def go_spider_scrapping(url):
     information = soup.find('div', class_='camere_text')
     text = information.text.strip()
     text = text.replace(u'\xa0', u' ')
-    # in case we descover that it helps to remove the space from text
-    # text = re.sub("(\s)+", " ",text)
-    # text = re.sub(r'[\ \n]{2,}', '',text)
-    # text = text.replace('(\n)+', ' ')
-    # text = re.sub('\n', " ", text)
+    
     text = text.strip()
     if(text.find('ACTE NECESARE') != -1 or text.find('Acte necesare') != -1):
         print(url)
         print(fileToWrite)
-        document_director = director + "/" + fileToWrite
-        createDirectorNested(document_director)
-        path = document_director + "/data.txt"
+        path = f"{director}/{fileToWrite}.txt"
+        
         f = open(path, "w+", encoding='utf-8')
         f.write(text)
         f.close()
-        path = document_director + "/data.html"
+        
+        path = f"{HTMLFiles}/{fileToWrite}.html"
         f = open(path, "w+", encoding='utf-8')
         f.write(str(information))
         f.close()
@@ -164,15 +152,14 @@ def go_spider_scrapper():
             program_writer.writerow(row)
     # second, save the html for further research
     further_research = soup.find('div', class_='container')
-    f = open(director + "/data.html", "w+", encoding='utf-8')
-    f.write(str(further_research))
-    f.close()
+    f1 = open(HTMLFiles + "/data.html", "w+", encoding='utf-8')
+    f1.write(str(further_research))
+    f1.close()
 
 
 def main():
-    if os.path.isdir(director):
-        deleteDirector(director)
-    createDirector(director)
+    deletingFiles()
+    makeDirectors()
     spider()
     go_spider_scrapper()
 

@@ -338,3 +338,17 @@ JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1:
 JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
 JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
 JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 946: TypeError: $.fn.snow is not a function
+1618258423063	geckodriver	INFO	Listening on 127.0.0.1:60886
+1618258426115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cezar\\AppData\\Local\\Temp\\rust_mozprofileTX1LxL"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618258427715	Marionette	INFO	Listening on port 60894
+1618258428164	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 286: SyntaxError: expected expression, got ','
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-10, line 1: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-11, line 2: SyntaxError: '' string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/pcdata-3, line 1: SyntaxError: "" string literal contains an unescaped line break
+JavaScript error: http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare, line 950: TypeError: $.fn.snow is not a function
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.

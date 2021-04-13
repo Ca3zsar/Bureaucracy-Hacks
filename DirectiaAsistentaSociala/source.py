@@ -25,8 +25,6 @@ def makeDirectors():
     os.mkdir(HTMLFiles)
     os.mkdir(director)
     os.mkdir(acte)
-    for sufix in sufixes:
-        os.makedirs(acte + "/" + sufix)
     
 
 # Meant for extracting content, modified into downloading HTMLs
