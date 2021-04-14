@@ -18,9 +18,9 @@ sufixes = ["obtinerea-certificatului-de-cazier-judiciar",
 folders = ["cazier", "arme_explozivi", "detectoare_metal", "politie_rutiera",
            "frauda_economica", "ordine_publica"]
 
-acte = "./Acte"
-HTMLFiles = "./HTMLFiles"
-director = "./Content"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 def deletingFiles():
     if os.path.exists(acte):
@@ -43,16 +43,15 @@ def programAudieriPolitie():
     content = BeautifulSoup(page.text, "html.parser")
     programHTML = content.find_all("div", {"class": "stireDesc"})
     
-    with open("HTMLFiles/program.html","w",encoding="utf-8") as file:
+    with open(f"{HTMLFiles}/program.html","w",encoding="utf-8") as file:
         file.write(str(programHTML))
 
     program = re.sub('<.*?>', '', str(programHTML))
 
-    fisier = codecs.open("Content\\program_politie.txt", "w", "utf-8")
+    fisier = codecs.open(f"{director}\\program_politie.txt", "w", "utf-8")
 
     fisier.write(program)
     fisier.close()
-    print(program)
 
 
 def downloadPoliceDocuments():
@@ -63,10 +62,10 @@ def downloadPoliceDocuments():
         downloadableDiv = BeautifulSoup(page.text, "html.parser")
         downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
         
-        if os.path.exists(f"Acte\\{folders[cont]}"):
-            shutil.rmtree(f"Acte\\{folders[cont]}")
-        print(folders[cont])
-        os.mkdir(f"Acte\\{folders[cont]}")
+        if os.path.exists(f"{acte}\\{folders[cont]}"):
+            shutil.rmtree(f"{acte}\\{folders[cont]}")
+            
+        os.mkdir(f"{acte}\\{folders[cont]}")
         for data in downloadContent:
             response = urllib.request.urlopen(data["href"])
 
@@ -77,17 +76,16 @@ def downloadPoliceDocuments():
             file.write(response.read())
             file.close()
 
-            os.rename(f"{fileName}", f"Acte\\{folders[cont]}\\{fileName}")
-            print(f"{fileName}", f"Acte\\{folders[cont]}\\{fileName}")
+            os.rename(f"{fileName}", f"{acte}\\{folders[cont]}\\{fileName}")
         cont += 1
     page = requests.get("https://www.politiaromana.ro/ro/utile/documente-eliberari-acte/formulare-tipizate-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase/cereri-formulare-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase")
     page.encoding = page.apparent_encoding
     downloadableDiv = BeautifulSoup(page.text, "html.parser")
     downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
 
-    if os.path.exists("Acte\\arme_explozivi"):
-        shutil.rmtree("Acte\\arme_explozivi")
-    os.mkdir("Acte\\arme_explozivi")
+    if os.path.exists(f"{acte}\\arme_explozivi"):
+        shutil.rmtree(f"{acte}\\arme_explozivi")
+    os.mkdir(f"{acte}\\arme_explozivi")
 
     for data in downloadContent:
         link = data["href"]
@@ -97,22 +95,16 @@ def downloadPoliceDocuments():
         link = re.sub("ș", "%C8%99", link)
         link = re.sub("î", "%C3%AE", link)
 
-        print(link, "\n---------------")
         response = urllib.request.urlopen(link)
         parsed = urlparse(link)
         fileName = os.path.basename(parsed.path)
         file = open(f"{fileName}", "wb")
         file.write(response.read())
         file.close()
-        os.rename(f"{fileName}", f"Acte\\arme_explozivi\\{fileName}")
-        print(f"{fileName}", f"Acte\\arme_explozivi\\{fileName}")
+        os.rename(f"{fileName}", f"{acte}\\arme_explozivi\\{fileName}")
 
 
 def getContentFromPages():
-    if os.path.exists("HTMLFiles"):
-        shutil.rmtree("HTMLFiles")
-    
-    os.mkdir("HTMLFiles")
     
     programAudieriPolitie()
     downloadPoliceDocuments()
@@ -124,11 +116,11 @@ def getContentFromPages():
         soup = BeautifulSoup(page.text, "html.parser")
         content = soup.find_all("div", {"class": "stireDesc"})
         
-        with open(f"HTMLFiles/{folders[contor]}.html","w",encoding="utf-8") as file:
+        with open(f"{HTMLFiles}/{folders[contor]}.html","w",encoding="utf-8") as file:
             file.write(str(content))
         
         content = re.sub("<.*?>", "", str(content))
-        fisier = codecs.open(f"content\\{folders[contor]}.txt", "w", "utf-8")
+        fisier = codecs.open(f"{director}\\{folders[contor]}.txt", "w", "utf-8")
         fisier.write(content)
         fisier.close()
         contor += 1
@@ -141,5 +133,5 @@ def main():
     getContentFromPages()
     programAudieriPolitie()
 
-if __name__="__main__":
+if __name__=="__main__":
     main()

@@ -8,9 +8,9 @@ import shutil # for deleting dirs
 root = "https://www.dac-iasi.ro"
 sufixes = ["alocatii", "autoritate", "serviciul-social", "alte-servicii"]
 
-director = "./Content"
-acte = "./Acte"
-HTMLFiles = "./HTMLFiles"
+director = f"{os.path.dirname(__file__)}/Content"
+acte = f"{os.path.dirname(__file__)}/Acte"
+HTMLFiles = f"{os.path.dirname(__file__)}./HTMLFiles"
 
 def deletingFiles():
     if os.path.exists(acte):
@@ -66,6 +66,7 @@ def fillContent(sufix, section):
     f2.close()
 
 def downloadHrefs(sufix, soup):
+    os.mkdir(f"{acte}/{sufix}")
     for a in soup.select('.art-article p a'):
 
         toDownload = a['href']
@@ -76,12 +77,9 @@ def downloadHrefs(sufix, soup):
         if toDownload.startswith("/"):
             toDownload = root + toDownload
         
-        print(toDownload)
-
         baseName = os.path.basename(toDownload)
 
         req = requests.get(toDownload, allow_redirects=True)
-
         open(f"{acte}/{sufix}/{baseName}", 'wb').write(req.content)
 
 
@@ -149,5 +147,5 @@ def main():
     getSchedule()
 
 
-if __name__="__main__":
+if __name__=="__main__":
     main()

@@ -5,8 +5,6 @@ import re
 import urllib.request
 import shutil # for deleting dirs
 
-
-
 # Bacau, incasari persoane juridice, Luni, Marti, Miercuri, Joi, 8.30-14-30
 
 divId = "anf_read_speaker01"
@@ -100,6 +98,6 @@ def main():
     f.close()
 
 
-if __name__="__main__":
+if __name__=="__main__":
     main()
 

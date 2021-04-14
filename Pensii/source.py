@@ -8,9 +8,9 @@ import shutil
 url = "https://www.cjpiasi.ro/informatiin/"
 root = "https://www.cjpiasi.ro/"
 
-director = "Acte"
-resources = "Content"
-htmlFiles = "HTMLFiles"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 def deletingFiles():
     if os.path.exists(director):
@@ -58,5 +58,5 @@ def main():
     fillContent(section)
     downloadHrefs(soup)
 
-if __name__="__main__":
+if __name__=="__main__":
     main()

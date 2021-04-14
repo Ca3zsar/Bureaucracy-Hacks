@@ -91,4 +91,5 @@ def main():
     getSources(links)
     downloadResources(download_links)
 
-main()
+if __name__ == "__main__":
+    main()
