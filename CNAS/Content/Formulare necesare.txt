@@ -1,5 +1,0 @@
-﻿Nr. crt.	Denumirea formularului	Download document
-1.	Cerere pentru recuperarea sumelor reprezentand indemnizatii de concedii medicale 	Formular A4_cerere_recuperare.doc
-2.	Centralizator certificate medicale	A18_centralizator_certificate.PDF
-3.	Adeverință salariat	adeverinta salariat.pdf
-4.	Adeverinta pentru eliberarea de concedii medicale	Adeverință zile concediu medical ultimele 12 luni
