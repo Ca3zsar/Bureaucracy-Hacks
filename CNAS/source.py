@@ -42,4 +42,6 @@ def main():
 
     getHTMLs(links)
 
-main()
+
+if __name__="__main__":
+    main()

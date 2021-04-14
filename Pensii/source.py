@@ -58,4 +58,5 @@ def main():
     fillContent(section)
     downloadHrefs(soup)
 
-main()
+if __name__="__main__":
+    main()

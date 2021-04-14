@@ -100,26 +100,6 @@ def main():
     f.close()
 
 
-main()
+if __name__="__main__":
+    main()
 
-
-# tr td table tbody tr td
-
-# PROGRAM LUCRU ...
-
-# INCASARI PERSAONE JURIDICE
-# ZILE, ORE
-# LUNI, 10-12
-# MARTI , ..
-# ..
-
-# INCASARI PERSAONE FIZICE
-
-
-# [
-#     "SECTIUNE": "PROGRAM LUCRU"
-#     "SUBSECTIUNE" : ""
-
-
-
-# ]

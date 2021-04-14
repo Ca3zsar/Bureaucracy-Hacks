@@ -207,4 +207,5 @@ def main():
     getProgram(urlOrar,firefoxDriver)
     firefoxDriver.quit()
     
-main()
+if __name__="__main__":
+    main()

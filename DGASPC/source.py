@@ -146,7 +146,8 @@ def main():
     scrape_schedule(DOMAIN)
 
 
-main()
+if __name__="__main__":
+    main()
 
 
 

@@ -172,4 +172,5 @@ def main():
     go_spider_scrapper()
 
 
-main()
+if __name__="__main__":
+    main()
