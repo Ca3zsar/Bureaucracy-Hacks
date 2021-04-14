@@ -8,3 +8,4 @@
 *.doc
 Primarie/geckodriver.log
 *.html
+*.log
