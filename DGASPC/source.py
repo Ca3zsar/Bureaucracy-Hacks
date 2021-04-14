@@ -11,9 +11,9 @@ DOMAIN = 'https://www.dasiasi.ro/'
 URL = 'https://www.dasiasi.ro/?page=lista&Nume=formulare&tp=lst&id=6&n='
 FileType = 'pdf' 
 
-director = "./Content"
-HTMLFiles = "./HTMLFiles"
-acte = "./Acte"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 def deletingFiles():
     if os.path.exists(acte):
@@ -86,8 +86,7 @@ def go_spider_scrapping(url,document_director, fileName):
                     os.rename(link_for_title, link_for_title + ".doc")
                     link_for_title= link_for_title+".doc"
                     shutil.move(link_for_title, path+ '/' + link_for_title)
-    else : 
-        print("no file to download here")
+
         
 # search for data (crawl)
 

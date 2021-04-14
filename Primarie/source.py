@@ -17,9 +17,9 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
 urlOrar = "http://www.primaria-iasi.ro/portal-iasi/pmi/meniu-pmi/54/program-cu-publicul"
 
-director = "./Content"
-HTMLFiles = "./HTMLFiles"
-acte = "./Acte"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 csvProgram = "/program.txt"
 
 def deletingFiles():

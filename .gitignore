@@ -9,3 +9,4 @@
 Primarie/geckodriver.log
 *.html
 *.log
+*.pyc

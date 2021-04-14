@@ -5,8 +5,6 @@ import re
 import urllib.request
 import shutil # for deleting dirs
 
-
-
 # Bacau, incasari persoane juridice, Luni, Marti, Miercuri, Joi, 8.30-14-30
 
 divId = "anf_read_speaker01"

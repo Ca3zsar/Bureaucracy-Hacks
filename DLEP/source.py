@@ -3,14 +3,15 @@ import os
 import shutil
 import requests
 import sys
+import csv
 from bs4 import BeautifulSoup
 
 URL = 'https://www.dlep-iasi.ro'
 URLS = []
 
-director = "./Content"
-HTMLFiles = "./HTMLFiles"
-acte = "./Acte"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 url = []
 page = requests.get(URL)
@@ -50,7 +51,6 @@ def go_spider_scrapping(url):
     fisier = url.split("/")[-1]
     fileToWrite = fisier[0:-5]
     
-    print(fileToWrite)
     url = URL+url
     
     page = requests.get(url)
@@ -66,8 +66,6 @@ def go_spider_scrapping(url):
     
     text = text.strip()
     if(text.find('ACTE NECESARE') != -1 or text.find('Acte necesare') != -1):
-        print(url)
-        print(fileToWrite)
         path = f"{director}/{fileToWrite}.txt"
         
         f = open(path, "w+", encoding='utf-8')
@@ -147,8 +145,6 @@ def go_spider_scrapper():
             if (columns):
                 for_table = [field1, field2, field3]
                 content_for_csv.append(for_table)
-
-    import csv
 
     with open(director + '/program.csv', mode='w', encoding="utf-8") as program_file:
         program_writer = csv.writer(
