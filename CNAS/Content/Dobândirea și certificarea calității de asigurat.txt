@@ -1,0 +1,11 @@
+Dobândirea ?i certificarea calita?ii de asigurat 
+
+Documentele prin care se atesta calitatea de asigurat sunt, dupa caz:
+
+cardul national de asigurari sociale de sanatate
+documentul rezultat (imprimat) prin accesarea de catre furnizorii aflati în relatii contractuale cu casele de asigurari de sanatate a instrumentului electronic pus la dispozitie de CNAS, disponibil la adresa http://siui.casan.ro:82/Asigurati/
+adeverinta de asigurat cu o valabilitate de 3 luni, pentru persoanele care refuza în mod expres, din motive religioase sau de constiinta, primirea cardului national
+adeverin?a de înlocuire card cu o valabilitate de 60 zile, pentru situa?iile în care se declara pierderea, furtul, distrugerea cardului na?ional sau atunci cand este necesara modificarea datelor tiparite pe cardul na?ional
+ 
+
+    Pentru situatiile în care nu au fost emise cardurile nationale de asigurari de sanatate si/sau pentru situatiile în care asiguratii nu se regasesc în baza de date electronica a CNAS, dovada calitatii de asigurat se face pe baza documentelor necesare încadrarii într-o categorie de asigurat, prevazute în normele metodologice pentru stabilirea documentelor justificative privind dobândirea calitatii de asigurat (adeverin?a de salariat, declara?ia unica depusa la ANAF, cupon de pensie, adeverin?a ajutor social, certificat de handicap, adeverin?a de elev sau de student etc., în baza carora CAS Ia?i va emite adeverinta de asigurat tip SIUI).

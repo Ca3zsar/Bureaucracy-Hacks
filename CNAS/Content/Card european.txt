@@ -1,0 +1,5 @@
+﻿Nr.crt.	Denumirea formularului	Explicații
+1.	Cerere card european	Cerere tip pentru eliberarea cardului european de asigurări sociale de sănătate
+2.	Adeverinta salariat	Adeverinta de salariat
+3.	Model certificat provizoriu	Model certificat provizoriu de inlocuire CEAS
+4.	Cerere card european duplicat	Model de cerere pentru eliberarea unui card european duplicat
