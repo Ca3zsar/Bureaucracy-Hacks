@@ -15,9 +15,12 @@ def import_modules():
 
 def main():
     modules = import_modules()
-    for module in modules[8:]:
-        print(f"Executing module : {module.__name__}")
-        module.main()
+    for module in modules[5:]:
+        try:
+            print(f"Executing module : {module.__name__}")
+            module.main()
+        except:
+            print(f"Can't execute module : {module.__name__}")
 
 if __name__ == "__main__":
     main()

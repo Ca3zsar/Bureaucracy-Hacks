@@ -205,7 +205,7 @@ def main():
     firefoxDriver = getDriver()
     
     downloadFiles(changeEntriesNumber(firefoxDriver))
-    getProgram(urlOrar,firefoxDriver)
+    getProgram(urlOrar)
     firefoxDriver.quit()
     
 if __name__=="__main__":

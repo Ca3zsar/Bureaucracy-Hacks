@@ -24,9 +24,9 @@ download_links = [
 'http://www.hih.ro/W_CAS_IS/cas/programare_spitale/Informatii%20privind%20programarea%20la%20spitalele%20publice%20si%20private%20din%20jude%C8%9Bul%20Ia%C8%99i.xls'
 ]
 
-director = "./Content"
-acte = "./Acte"
-HTMLFiles = "./HTMLFiles"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 def deletingFiles():
     if os.path.exists(acte):

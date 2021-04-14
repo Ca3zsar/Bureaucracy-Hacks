@@ -16,9 +16,9 @@ url = "https://www.anaf.ro/anaf/internet/Iasi/contact_iasi/program_iasi/!ut/p/a1
 URL_1 = "http://static.anaf.ro/static/10/Galati/gl1_61.htm"
 URL_2 = "http://static.anaf.ro/static/10/Galati/GL1_39.htm"
 
-contentDirector = "./Content"
-acte = "./Acte"
-HTMLFiles = "./HTMLFiles"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 
 def deletingFilesForProgram():
@@ -30,21 +30,19 @@ def makeDirectorsForProgram():
     os.makedirs(director)
     print("Files created..")
 
-###       Data        ###
-
 
 def deletingFiles():
     if os.path.exists(acte):
         shutil.rmtree(acte)
-    if os.path.exists(contentDirector):
-        shutil.rmtree(contentDirector)
+    if os.path.exists(director):
+        shutil.rmtree(director)
     if os.path.exists(HTMLFiles):
         shutil.rmtree(HTMLFiles)
 
 
 def makeDirectors():
     os.mkdir(HTMLFiles)
-    os.mkdir(contentDirector)
+    os.mkdir(director)
     os.mkdir(acte)
 
 
@@ -69,7 +67,7 @@ def getDataUrl1(var):
     anaf_text = str(new_html.text)
     anaf_text = re.sub("\s(\s)+", "\n", anaf_text)
 
-    with open(f"{contentDirector}\\ANAF_Persoane_Juridice_data.txt", "w", encoding="utf-8") as file:
+    with open(f"{director}\\ANAF_Persoane_Juridice_data.txt", "w", encoding="utf-8") as file:
         file.write(anaf_text)
 
 
@@ -94,7 +92,7 @@ def getDataUrl2(var):
     anaf_text = str(new_html.text)
     anaf_text = re.sub("\s(\s)+", "\n", anaf_text)
 
-    with open(f"{contentDirector}\\ANAF_Certificat_Atestare_Fiscala_data.txt", "w", encoding="utf-8") as file:
+    with open(f"{director}\\ANAF_Certificat_Atestare_Fiscala_data.txt", "w", encoding="utf-8") as file:
         file.write(anaf_text)
 
 
@@ -102,7 +100,6 @@ def downloadDocuments(var, html_filename):
     a_tags = var.findAll("a")
     for link in a_tags:
         href = link.get('href')
-        print(href)
         if href is None:
             continue
         if href.startswith('#'):
@@ -208,13 +205,10 @@ def getSchedule():
 
 
 def main():
-    if os.path.isdir(director):
-        deletingFilesForProgram()
-    makeDirectorsForProgram()
-    getSchedule()
     deletingFiles()
     makeDirectors()
-
+    
+    getSchedule()
     scrape_data()
 
 
