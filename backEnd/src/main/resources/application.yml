@@ -1,0 +1,25 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    password: gabriela
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: bureaucracyhacks@gmail.com
+    password: proiectip
+    protocol: smtp
+
+
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+      ssl.enable: true
