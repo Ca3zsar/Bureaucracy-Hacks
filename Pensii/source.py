@@ -16,15 +16,19 @@ def deletingFiles():
     if os.path.exists(director):
         shutil.rmtree(director)
         
-    if os.path.exists(htmlFiles):
-        shutil.rmtree(htmlFiles)
+    if os.path.exists(HTMLFiles):
+        shutil.rmtree(HTMLFiles)
+
+    if os.path.exists(acte):
+        shutil.rmtree(acte)
 
 def makeDirectors():
     os.mkdir(director)
-    os.mkdir(htmlFiles)
+    os.mkdir(HTMLFiles)
+    os.mkdir(acte)
     
 def fillContent(section):
-    with open(f"{htmlFiles}/pensii.html","w",encoding="utf-8") as file:
+    with open(f"{HTMLFiles}/pensii.html","w",encoding="utf-8") as file:
         file.write(str(section))
     
 
@@ -44,7 +48,7 @@ def downloadHrefs(soup):
 
         req = requests.get(toDownload, allow_redirects=True)
 
-        open(f"{director}/{baseName}", 'wb').write(req.content)
+        open(f"{acte}/{baseName}", 'wb').write(req.content)
 
 
 def main():

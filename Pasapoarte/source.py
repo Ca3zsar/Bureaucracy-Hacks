@@ -77,7 +77,7 @@ def generateHTMLS(driver):
         for index in range(0,len(section1)):
             i = i + 1
             fileName = f"file{i}"
-            pathHTML = f"{director}\\{fileName}.html"
+            pathHTML = f"{HTMLFiles}\\{fileName}.html"
             fillContent(title + "\n", pathHTML)
             fillContent(section1[index], pathHTML)
             fillContent(section2[index], pathHTML)
@@ -92,10 +92,6 @@ def generateHTMLS(driver):
     driver.quit()
 
 def generateSchedule(driver):
-    if os.path.isdir(director):
-        deletingFiles()
-    makeDirectors()
-
     URL = "https://pasapoarte.mai.gov.ro/serviciul-public-comunitar-de-pasapoarte-iasi/"
 
     source = requests.get(URL).text
@@ -103,7 +99,7 @@ def generateSchedule(driver):
     
     section = soup.select("table")
     
-    with open(f"{director}/orar.html","w",encoding="utf-8") as file:
+    with open(f"{HTMLFiles}/orar.html","w",encoding="utf-8") as file:
         file.write(str(section))
 
     path = director + "/orar.txt"

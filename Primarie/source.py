@@ -48,7 +48,7 @@ def changeEntriesNumber(firefoxDriver):
         
     programClass = soup.find("div",class_="col-sm-12")
     
-    with open("HTMLFiles/info.html","w",encoding="utf-8") as file:
+    with open(f"{HTMLFiles}/info.html","w",encoding="utf-8") as file:
         file.write(programClass.prettify())
     
     
@@ -84,7 +84,7 @@ def downloadFiles(urls):
         file.write(response.read())
         file.close()
         
-        os.rename(f"{fileName}", f"Acte\\{fileName}")
+        os.rename(f"{fileName}", f"{acte}\\{fileName}")
         
 
 def getProgram(url):
@@ -93,7 +93,7 @@ def getProgram(url):
         
     programClass = soup.find("div",class_="col-xs-12 col-sm-12 col-md-12 text-justify")
     
-    with open("HTMLFiles/orar.html","w",encoding="utf-8") as file:
+    with open(f"{HTMLFiles}/orar.html","w",encoding="utf-8") as file:
         file.write(programClass.prettify())
     
     toDeleteDiv = programClass.find("div",class_="table-responsive")
@@ -176,12 +176,13 @@ def getProgram(url):
             
             paragraphs = paragraphs[currentIndex+1:]
     
+    file = open(f"{director}/orar.txt","w",encoding="utf-8")
     
     for i in range(len(directors)):
-        print(directors[i])
-        print(programs[i])
-        print("------")
+        file.write(directors[i])
+        file.write(programs[i])
     
+    file.close()
     
 def getDriver():
     firefoxOptions = FirefoxOptions()

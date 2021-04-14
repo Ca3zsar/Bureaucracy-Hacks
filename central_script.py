@@ -15,7 +15,7 @@ def import_modules():
 
 def main():
     modules = import_modules()
-    for module in modules[6:]:
+    for module in modules[8:]:
         print(f"Executing module : {module.__name__}")
         module.main()
 
