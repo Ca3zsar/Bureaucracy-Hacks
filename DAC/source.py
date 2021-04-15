@@ -100,6 +100,10 @@ def getSchedule():
     page=requests.get(URL) 
     soup= BeautifulSoup(page.content,'html.parser') 
     
+    scripts = soup.find_all("script")
+    for script in scripts:
+        script.decompose()
+    
     ofInterest = soup.find("div",{"class":"art-article"})
     
     with open(f"{HTMLFiles}\\orar.html","w",encoding="utf-8") as file:
@@ -151,4 +155,7 @@ def main():
 
 
 if __name__=="__main__":
+    director = f"./Content"
+    acte = f"./Acte"
+    HTMLFiles = f"./HTMLFiles"
     main()
