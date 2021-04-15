@@ -74,7 +74,6 @@ def get_file_name(url):
 
 def downloadFiles(urls):
     for url in urls:
-        print(url)
         response =  urllib.request.urlopen(url)
         
         parsed = urlparse(url)

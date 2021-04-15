@@ -100,8 +100,11 @@ def getSchedule():
     page=requests.get(URL) 
     soup= BeautifulSoup(page.content,'html.parser') 
     
+    ofInterest = soup.find("div",{"class":"art-article"})
+    
     with open(f"{HTMLFiles}\\orar.html","w",encoding="utf-8") as file:
-        file.write(soup.prettify())
+        file.write(ofInterest.prettify())
+    
     
     searchFor=["Luni","Marti", "Miercuri", "Joi", "Vineri", "Adresa :" ] 
     orare = soup.select("div[class=art-article] > p")

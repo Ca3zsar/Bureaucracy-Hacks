@@ -42,7 +42,6 @@ def downloadHrefs(soup):
         toDownload = toDownload[2:]
         if toDownload.startswith("/"):
             toDownload = root + toDownload[1:]
-        print(toDownload)
 
         baseName = os.path.basename(toDownload)
 
