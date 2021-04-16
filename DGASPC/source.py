@@ -78,7 +78,7 @@ def go_spider_scrapping(url,document_director, fileName):
                 file.close()
                 type_of_file =  magic.from_file(link_for_title)
                 
-                if 'PDF' in type_of_file : 
+                if 'PDF' in type_of_file.upper() : 
                     os.rename(link_for_title, link_for_title + ".pdf")
                     link_for_title= link_for_title+".pdf"
                     shutil.move(link_for_title, path+ '/' + link_for_title)

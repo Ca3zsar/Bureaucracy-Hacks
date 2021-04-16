@@ -1,0 +1,234 @@
+{
+  "orar": {
+    "institutie": "Inspectoratul de Politie Judetean Iasi",
+    "programe": [
+      {
+        "titlu": "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie GITLAN COSTEL",
+        "program": {
+          "marti": {
+            "open": "15:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie SVALJA MIHAI",
+        "program": {
+          "miercuri": {
+            "open": "14:00",
+            "close": "15:00"
+          }
+        }
+      },
+      {
+        "titlu": "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie SPIRIDON ALEXANDRU",
+        "program": {
+          "joi": {
+            "open": "15:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia Municipiului Iasi - Comisar-sef de politie CAPRA AUGUSTIN",
+        "program": {
+          "marti": {
+            "open": "12:00",
+            "close": "14:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia Municipiului Iasi - Comisar-sef de politie MOLDOVANU MARIUS",
+        "program": {
+          "joi": {
+            "open": "12:00",
+            "close": "14:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 1 Politie Iasi - Comisar de politie CIOBANU ALEX",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 1 Politie Iasi - Subcomisar de politie CARABA IONUT",
+        "program": {
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 2 Politie Iasi - Comisar de politie BARBOSANU MARIUS-CIPRIAN",
+        "program": {
+          "marti": {
+            "open": "9:00",
+            "close": "11:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 2 Politie Iasi - Comisar de politie HORDILA ALEXANDRU",
+        "program": {
+          "joi": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 3 Politie Iasi - Comisar-sef de politie BUCULEI OVIDIU",
+        "program": {
+          "luni": {
+            "open": "9:00",
+            "close": "11:00"
+          },
+          "miercuri": {
+            "open": "9:00",
+            "close": "11:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 3 Politie Iasi - Comisar-sef de politie TARANU MADALIN",
+        "program": {
+          "marti": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 4 Politie Iasi - Comisar-sef de politie SUSANU GABRIEL",
+        "program": {
+          "vineri": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 4 Politie Iasi - Comisar de politie AZAMFIREI PETRICA",
+        "program": {
+          "luni": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 5 Politie Iasi - Comisar-sef de politie NISTOR VALENTIN",
+        "program": {
+          "luni": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 5 Politie Iasi - Comisar-sef de politie SUNA MIHAI",
+        "program": {
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 6 Politie Iasi - Comisar-sef de politie GAITAN CRISTIAN",
+        "program": {
+          "marti": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Sectia 6 Politie Iasi - Subcomisar de politie SORIC LUCIAN",
+        "program": {
+          "joi": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Serviciul Rutier - Subcomisar de politie SORIC MIHAI",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          },
+          "vineri": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia municipiului PASCANI - Subcomisar de politie VASILIU MIHAITA",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia municipiului PASCANI - Comisar de politie CIOHORANU CRISTIAN",
+        "program": {
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia orasului HARLAU - Comisar de politie MIHAILA MIHAI",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          },
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia orasului TARGU FRUMOS - Comisar-sef de politie PASANIUC MINODOR",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          },
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Politia orasului PODU ILOAIEI - Comisar de politie SCUTELNICU IONUT",
+        "program": {
+          "luni": {
+            "open": "10:00",
+            "close": "12:00"
+          },
+          "joi": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      }
+    ]
+  }
+}

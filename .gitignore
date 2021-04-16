@@ -3,7 +3,6 @@ Primarie/geckodriver.log
 *.html
 *.log
 *.pyc
-*.py
 ANAF/Content/
 ANAF/Acte/
 CNAS/Content
