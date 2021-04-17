@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">navBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="institutii">
+        <item>Primarie Iasi</item>
+        <item>Primarie Bacau</item>
+        <item>Politie Iasi</item>
+        <item>Politie Bacau</item>
+        <item>Casa de Asigurari Iasi</item>
+    </string-array>
+
+    <string-array name="servicii">
+        <item>Eliberare Buletin</item>
+        <item>Eliberare Act Proprietate</item>
+        <item>Depunere Plangere</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>1 (Foarte slabă)</item>
+        <item>2 (Medie)</item>
+        <item>3 (Destul de bună)</item>
+        <item>4 (Excelentă)</item>
+        <item>5 (Extraordinară)</item>
+    </string-array>
+</resources>

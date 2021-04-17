@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navbar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_traseu"
+        android:name="com.example.navbar.ui.generareTraseu.TraseuFragment"
+        android:label="Traseu"
+        tools:layout="@layout/fragment_traseu" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.navbar.ui.contact.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_userProfile"
+        android:name="com.example.navbar.ui.userProfile.userProfileFragment"
+        android:label="userProfile"
+        tools:layout="@layout/fragment_user_profile" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.navbar.ui.feedback.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback"/>
+
+    <fragment
+        android:id="@+id/nav_changePassword"
+        android:name="com.example.navbar.ui.changePassword.changePasswordFragment"
+        android:label="changePassword"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.navbar.ui.login.loginFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.navbar.ui.register.registerFragment"
+        android:label="register"
+        tools:layout="@layout/fragment_register" />
+
+</navigation>

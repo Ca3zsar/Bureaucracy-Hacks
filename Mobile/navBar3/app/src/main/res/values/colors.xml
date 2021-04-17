@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#96979b</color>
+
+    <color name="background_color">#000</color>
+    <color name="color_desire_front">#96979b</color>
+    <color name="color_desire_font">#96979b</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="blue">#319BDB</color>
+    <color name="albastru_deschis">#caf0f8</color>
+    <color name="grey">#606060</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="darker_gray">#AAAAAA</color>
+
+    <color name="lightblue">#c2e9fb</color>
+
+</resources>
