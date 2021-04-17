@@ -68,13 +68,13 @@ class changePasswordFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val textBox1 = view.findViewById<EditText>(R.id.email)
+        val textBox1 = view.findViewById<EditText>(R.id.changePassEmail)
         val continut1 = textBox1.text.toString()
 
-        val textBox2 = view.findViewById<EditText>(R.id.parola1)
+        val textBox2 = view.findViewById<EditText>(R.id.changePassParola1)
         val continut2 = textBox2.text.toString()
 
-        val textBox3 = view.findViewById<EditText>(R.id.parola2)
+        val textBox3 = view.findViewById<EditText>(R.id.changePassParola2)
         val continut3 = textBox3.text.toString()
 
         if (continut1.isEmpty()) {
@@ -97,7 +97,7 @@ class changePasswordFragment : Fragment() {
             }
         }
 
-        val buttonConfirma = view.findViewById<Button>(R.id.confirma)
+        val buttonConfirma = view.findViewById<Button>(R.id.changePassConfirma)
         buttonConfirma.setOnClickListener() {
             val textView = view.findViewById<TextView>(R.id.text_changePassword)
 
@@ -132,7 +132,7 @@ class changePasswordFragment : Fragment() {
         }
 
 
-        val buttonAnuleaza = view.findViewById<Button>(R.id.anuleaza)
+        val buttonAnuleaza = view.findViewById<Button>(R.id.changePassAnuleaza)
         buttonAnuleaza.setOnClickListener {
             val nextFrag = HomeFragment()
             activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titlu2" />
 
     <Spinner
-        android:id="@+id/spRatings"
+        android:id="@+id/feedbackSpinner"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
 
 
     <TextView
-        android:id="@+id/informatii2"
+        android:id="@+id/feedbackInformatii"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/titlu1"
+        android:id="@+id/feedbackTitlu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="70dp"
@@ -75,7 +75,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/confirma"
+        android:id="@+id/feedbackConfirma"
         android:layout_width="145dp"
         android:layout_height="60dp"
         android:layout_marginTop="600dp"
@@ -90,7 +90,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_user_name"
+        android:id="@+id/feedbackNume"
         android:layout_width="323dp"
         android:layout_height="50dp"
         android:layout_marginTop="200dp"
@@ -106,7 +106,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_message"
+        android:id="@+id/feedbackMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
         android:layout_marginTop="280dp"

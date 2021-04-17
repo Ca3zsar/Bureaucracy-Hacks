@@ -20,7 +20,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titlu2" />
 
     <Spinner
-        android:id="@+id/spInstitutii"
+        android:id="@+id/traseuSp1"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         tools:visibility="visible" />
 
     <Spinner
-        android:id="@+id/spServicii"
+        android:id="@+id/traseuSp2"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/confirma"
+        android:id="@+id/traseuConfirma"
         android:layout_width="145dp"
         android:layout_height="60dp"
         android:layout_marginTop="575dp"
@@ -76,7 +76,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/titlu1"
+        android:id="@+id/traseuTitlu1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@android:dimen/thumbnail_height"
@@ -84,13 +84,13 @@
         android:text="Generează traseul"
         android:textColor="#03045e"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/spInstitutii"
+        app:layout_constraintBottom_toTopOf="@+id/traseuSp1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/titlu2"
+        android:id="@+id/traseuTitlu2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -99,14 +99,14 @@
         android:text="și bucură-te de experiența Bureaucracy-Hacks"
         android:textColor="#0077b6"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@id/spInstitutii"
+        app:layout_constraintBottom_toTopOf="@id/traseuSp1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlu1" />
+        app:layout_constraintTop_toBottomOf="@+id/traseuTitlu1" />
 
     <TextView
-        android:id="@+id/informatii1"
+        android:id="@+id/traseuInformatii1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -116,13 +116,13 @@
         android:textColor="#03045e"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/spInstitutii"
+        app:layout_constraintBottom_toTopOf="@+id/traseuSp1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/informatii2"
+        android:id="@+id/traseuInformatii2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -131,7 +131,7 @@
         android:textColor="#03045e"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/spServicii"
+        app:layout_constraintBottom_toTopOf="@+id/traseuSp2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />

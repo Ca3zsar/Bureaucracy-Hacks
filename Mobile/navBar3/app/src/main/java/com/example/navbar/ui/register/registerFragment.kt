@@ -40,21 +40,21 @@ class registerFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val buttonConfirma = view.findViewById<Button>(R.id.registerIn)
+        val buttonConfirma = view.findViewById<Button>(R.id.registerSignIn)
         buttonConfirma.setOnClickListener {
-            val textBox1 = view.findViewById<EditText>(R.id.username)
+            val textBox1 = view.findViewById<EditText>(R.id.registerUsername)
             val continut1 = textBox1.text.toString()
 
-            val textBox2 = view.findViewById<EditText>(R.id.firstName)
+            val textBox2 = view.findViewById<EditText>(R.id.registerFirstName)
             val continut2 = textBox2.text.toString()
 
-            val textBox3 = view.findViewById<EditText>(R.id.secondName)
+            val textBox3 = view.findViewById<EditText>(R.id.registerSecondName)
             val continut3 = textBox3.text.toString()
 
-            val textBox4 = view.findViewById<EditText>(R.id.emailRegister)
+            val textBox4 = view.findViewById<EditText>(R.id.registerEmail)
             val continut4 = textBox4.text.toString()
 
-            val textBox5 = view.findViewById<EditText>(R.id.passwordRegister)
+            val textBox5 = view.findViewById<EditText>(R.id.registerPassword)
             val continut5 = textBox5.text.toString()
 
             val textView = view.findViewById<TextView>(R.id.text_register)
