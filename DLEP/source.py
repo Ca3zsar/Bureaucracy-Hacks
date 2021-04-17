@@ -3,12 +3,14 @@ import os
 import shutil
 import requests
 import sys
+import mimetypes
+import magic
 import csv
 from bs4 import BeautifulSoup
 
 URL = 'https://www.dlep-iasi.ro'
 URLS = []
-
+DOMAIN = 'https://www.dlep-iasi.ro/'
 director = f"{os.path.dirname(__file__)}/Content"
 HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
 acte = f"{os.path.dirname(__file__)}/Acte"
@@ -56,6 +58,8 @@ def go_spider_scrapping(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     soup.prettify(formatter=lambda s: s.replace(u'\xa0', ' '))
+
+   
     
     for e in soup.findAll('br'):
         e.extract()
@@ -76,6 +80,37 @@ def go_spider_scrapping(url):
         f = open(path, "w+", encoding='utf-8')
         f.write(str(information))
         f.close()
+
+
+    pdfs= soup.select('div[class=galleriesDocsPad] a')
+    if pdfs : 
+        print(url)
+        for pdf in pdfs : 
+            link_for_download = DOMAIN + pdf.get('href')
+            link_for_title= pdf.get('title')
+            print(link_for_title)
+
+            path = f"{acte}";
+
+            with open(link_for_title, 'wb') as file: 
+                    response= requests.get(link_for_download)
+                    file.write(response.content)
+                    file.close()
+                    type_of_file =  magic.from_file(link_for_title)
+                    
+                    if 'PDF' in type_of_file : 
+                        os.rename(link_for_title, link_for_title + ".pdf")
+                        link_for_title= link_for_title+".pdf"
+                        shutil.move(link_for_title, path+ '/' + link_for_title)
+                    elif 'Word' in type_of_file:
+                        os.rename(link_for_title, link_for_title + ".doc")
+                        link_for_title= link_for_title+".doc"
+                        shutil.move(link_for_title, path+ '/' + link_for_title)
+                    else: 
+                        os.rename(link_for_title, link_for_title + ".xls")
+                        link_for_title= link_for_title+".xls"
+                        shutil.move(link_for_title, path+ '/' + link_for_title)
+
 
 
 def spider():
