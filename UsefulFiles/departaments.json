@@ -1,0 +1,113 @@
+[
+    {
+        "institutie":"ANAF",
+        "departamente":["Operatiuni Casierie(incasari si plati) - persoane juridice",
+            "Operatiuni Casierie(incasari si plati) - persoane fizice",
+            "Incasari Numerar de la persoane fizice - Program Prelungit",
+            "Trezoreria Iasi la sediul din Bd. Nicolae Iorga",
+            "Depunere OPT la ghiseul trezoreriei / Depunere OPME online",
+            "Depunere declaratii fiscale / Primire documentatie eliberare certificate atestare fiscala"
+        ]
+    },
+    {
+        "institutie":"Casa Judeteana de Pensii Iasi",
+        "departamente":["Casa Judeteana de Pensii Iasi"]
+    },
+    {
+        "institutie":"Directia de Asistenta Sociala Iasi",
+        "departamente":["Alocatii si Indemnizatii","Ajutor Social","Autoritate Tutelara",
+                        "Registratura","Casierie","Director Executiv Luminita Munteanu"]
+    },
+    {
+        "institutie":"Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+        "departamente":["Directia Generala de Asistenta Sociala si Protectia Copilului Iasi"]
+    },
+    {
+        "institutie":"Directia Locala de Evidenta a Persoanelor",
+        "departamente":["Nasteri - Starea Civila - Primiri","Nasteri - Starea Civila - Eliberari",
+                        "Casatorii - Starea Civila - Primiri","Casatorii - Starea Civila - Oficieri",
+                        "Decese - Starea Civila","Duplicate, Dovezi de Starea Civila, Anexa 9 - Primiri",
+                        "Duplicate, Dovezi de Starea Civila, Anexa 9 - Eliberari","Anexa 24 - Starea Civila",
+                        "Transcrieri - Starea Civila - Primiri","Transcrieri - Starea Civila - Eliberari",
+                        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura",
+                        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
+                        ]
+    },
+    {
+        "institutie":"Inspectoratul de Politie Judetean Iasi",
+        "departamente":["Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie GITLAN COSTEL",
+                        "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie SVALJA MIHAI",
+                        "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie SPIRIDON ALEXANDRU",
+                        "Politia Municipiului Iasi - Comisar-sef de politie CAPRA AUGUSTIN",
+                        "Politia Municipiului Iasi - Comisar-sef de politie MOLDOVANU MARIUS",
+                        "Sectia 1 Politie Iasi - Comisar de politie CIOBANU ALEX",
+                        "Sectia 1 Politie Iasi - Subcomisar de politie CARABA IONUT",
+                        "Sectia 2 Politie Iasi - Comisar de politie BARBOSANU MARIUS-CIPRIAN",
+                        "Sectia 2 Politie Iasi - Comisar de politie HORDILA ALEXANDRU",
+                        "Sectia 3 Politie Iasi - Comisar-sef de politie BUCULEI OVIDIU",
+                        "Sectia 3 Politie Iasi - Comisar-sef de politie TARANU MADALIN",
+                        "Sectia 4 Politie Iasi - Comisar-sef de politie SUSANU GABRIEL",
+                        "Sectia 4 Politie Iasi - Comisar de politie AZAMFIREI PETRICA",
+                        "Sectia 5 Politie Iasi - Comisar-sef de politie NISTOR VALENTIN",
+                        "Sectia 5 Politie Iasi - Comisar-sef de politie SUNA MIHAI",
+                        "Sectia 6 Politie Iasi - Comisar-sef de politie GAITAN CRISTIAN",
+                        "Sectia 6 Politie Iasi - Subcomisar de politie SORIC LUCIAN",
+                        "Serviciul Rutier - Subcomisar de politie SORIC MIHAI",
+                        "Politia municipiului PASCANI - Subcomisar de politie VASILIU MIHAITA",
+                        "Politia municipiului PASCANI - Comisar de politie CIOHORANU CRISTIAN",
+                        "Politia orasului HARLAU - Comisar de politie MIHAILA MIHAI",
+                        "Politia orasului TARGU FRUMOS - Comisar-sef de politie PASANIUC MINODOR",
+                        "Politia orasului PODU ILOAIEI - Comisar de politie SCUTELNICU IONUT"
+                    ]
+    },
+    {
+        "institutie":"Directia Generala pentru Pasapoarte",
+        "departamente":["Primiri Documente","Eliberări Pașapoarte"]
+    },
+    {
+        "institutie":"Primaria Iasi",
+        "departamente":["DIRECTIA FOND LOCATIV, Director Cristina Albisteanu",
+                     "SERVICIUL ASOCIATII DE PROPRIETARI",
+                     "DIRECTIA EXPLOATARE PATRIMONIU, Director Grigoras Radu Mihai",
+                     "SERVICIUL ADMINISTRARE PARCARI",
+                    "BIROUL AVIZE MICI INTREPRINZATORI",
+                    "SC SALUBRIS, Director Catalin Neculau",
+                    "SC CITADIN, Director Marius Ionescu",
+                    "SC TERMOSERVICE S.A, Director Ciprian Chirita",
+                    "COMPANIA DE TRANSPORT PUBLIC IASI, Director Cristian Stoica",
+                    "SC SERVICII PUBLICE S.A, Director Laurentiu Ivan",
+                    "SC ECOPIATA S.A, Director Cristinel Starica",
+                    "DIRECTIA ASISTENTA SOCIALA, Director Luminita Munteanu",
+                    "DIRECTIA LOCALA DE EVIDENTA A PERSOANELOR, Director Executiv Marius Constantin Bodoga",
+                    "SERVICIUL STARE CIVILA, Sef Serviciu Renata-Mihaela Marin",
+                    "SERVICIUL CENTRUL DE INFORMATII PENTRU CETATENI",
+                    "COMPARTIMENT RELATII CU PUBLICUL",
+                    "CENTRUL DE CARTIER TATARASI",
+                    "CENTRUL DE CARTIER ALEXANDRU CEL BUN",
+                    "CENTRUL DE CARTIER NICOLINA",
+                    "CENTRUL DE CARTIER PACURARI",
+                    "CENTRUL DE CARTIER BLD. POITIERS",
+                    "CASIERIILE Primariei Municipiului Iasi",
+                    "DIRECTIA ARHITECTURA SI URBANISM, Arhitect Sef Alexandru Florin Mustiata",
+                    "SERVICIUL G.I.S",
+                    "SERVICIUL CADASTRU",
+                    "SERVICIUL AUTORIZARE CONSTRUCTII",
+                    "BIROUL REGLEMENTARE PUBLICITATE URBANA",
+                    "BIROUL SPATII VERZI SI SALUBRITATE",
+                    "SERVICIUL STRAZI MUNICIPALE",
+                    "BIROUL VERSANTI",
+                    "SERVICIUL EFICIENTA ENERGETICA SI UTILITATI PUBLICE",
+                    "BIROUL REGLEMENTARE TRANSPORTURI URBANE",
+                    "DIRECTIA JURIDICA, SERVICIUL CONTENCIOS",
+                    "SERVICIUL CORP CONTROL PRIMAR",
+                    "SERVICIUL RESURSE UMANE",
+                    "COMPARTIMENTUL REGISTRUL AGRICOL"
+                    ]
+
+    },          
+    {
+        "institutie":"Casa Judeteana de Asigurari de Sanatate Iasi",
+        "departamente":["Casa Judeteana de Asigurari de Sanatate Iasi"]
+    }
+
+]

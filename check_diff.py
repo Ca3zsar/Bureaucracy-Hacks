@@ -4,7 +4,7 @@ import filecmp
 HTMLFiles = "/HTMLFiles"
 OLD = "/Old"
 
-def differentFiles(oldFiles, newFiles, newPath):
+def differentFiles(oldFiles, newFiles, oldPath,newPath):
     numberOfOldFiles = len(oldFiles)
     numberOfNewFiles = len(newFiles)
     
@@ -74,7 +74,7 @@ def compareFiles(path):
     newFiles = os.listdir(newFilesPath)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
-        differentFiles(oldFiles, newFiles,newFilesPath)
+        differentFiles(oldFiles, newFiles,oldFilesPath,newFilesPath)
     else:
         checkIfContentDifferent(oldFilesPath,newFilesPath)
         
