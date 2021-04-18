@@ -1,0 +1,205 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+//
+// Always use !default flags so the variables can be overwritten.
+
+// Since we use Tailwind, a lot of variables are also defined in tailwind.config.js
+
+// COLOR SYSTEM (
+$primary-color: #252525 !default;
+$secondary-color: #2b2b2b !default; // Use this one!! We need to get explicit 'grey' out of definitions
+$primary-gray: #cccccc !default;
+$text-color: #707070 !default;
+$dark-color: black !default;
+$link-color: #5ba8d2 !default;
+
+$primary-accent-color: rgb(61, 55, 241) !default;
+
+// COLOR ELEMENTS
+$scrollbar-primary-color: $primary-color !default;
+$scrollbar-bg-color: #000 !default;
+$secondary-btn-color: rgb(245, 245, 245) !default;
+
+// BUTTON COLORS
+$primary-btn-color : #fff !default;
+$danger-btn-color :  #dc3545 !default;
+$succes-btn-color : #198754 !default;
+$dark-btn-color : #202020 !default;
+
+// FONT
+// Values taken from the Figma scheme
+$primary-font-family: 'Poppins', sans-serif;
+$primary-font-style: normal;
+$primary-font-weight: normal;
+$primary-font-size: 14px;
+$primary-line-height: 180%;
+$primary-heading-size: 60px;
+
+$secondary-heading-size: 35px;
+$secondary-font-size: 16px;
+$tertiary-font-size:14px;
+$tertiary-heading-size:30px;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+$small-screen-min-height:40vh;
+$min-background-image-height: 60vh;
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+  'xlarge':1280px,
+  'xxlarge':1441px,
+  "xxxlarge":2560px
+) !default;
+
+$paddings:(
+        'section-xxs': 0.5rem,
+        'section-xs': 1rem,
+        'section-3xs': 1.5rem,
+        'section-sm': 1.25rem,
+        'section': 2.5rem,
+        'section-md': 3rem,
+        'section-1md': 3.125rem,
+        'section-2md': 3.25rem,
+        'section-4md': 4rem,
+        'section-lg': 6rem,
+        'section-2lg': 6.25rem,
+        'section-3lg': 6.56rem,
+        'section-xlg': 10rem,
+        'section-xxlg': 16rem,
+        'section-3xlg': 20rem,
+        'section-xxxlg': 24rem,
+        'button-4xs': .375rem,
+        'button-3xs': .5rem,
+        'button-2xs': .75rem,
+        'button-xs': 1rem,
+        'button-sm': 1.5rem,
+        'button': 2.5rem,
+        'badge-xs': 0.5rem,
+        'badge-sm': 0.75rem,
+        'badge': 1rem,
+        'form': 1rem,
+        'popup-icon': 0.25rem,
+        'popup-icon-xs': 0.5rem,
+        'popup-icon-2xs': 0.75rem,
+        'popup-icon-3xs': 1rem,
+        'image-sm': 1.25rem,
+        'image': 2.5rem,
+        'image-md': 3rem,
+        'image-lg': 6rem,
+        'generic-sm': 1.25rem,
+        'generic-2sm': 1.5rem,
+        'text-xxs': .25rem,
+        'text-xs': .5rem,
+        'text-sm': 1rem,
+        'text': 1.25rem,
+        'text-md': 2.5rem,
+        'text-lg': 3rem,
+        'text-xl': 6rem,
+        'generic': 0.25rem,
+        'generic-xs': 0.5rem,
+        'generix-2xs': 0.75rem,
+        'generic-3xs': 1rem,
+        'generic-4xs': 1.25rem,
+        'generix-sm': 1.5rem,
+        'generix-2sm': 1.75rem,
+        'generix-3sm': 2rem,
+        'generix-md': 2.25rem,
+        'generix-lg': 3.25rem,
+        'generix-md-lg': 7.25rem,
+        'menu-item-xs': .4rem,
+        'menu-item-sm': .8rem,
+        'menu-item': 1rem,
+        'menu-item-lg': 1.5rem,
+        'none': 0,
+        'auto': auto,
+);
+
+$margins:(
+        'section-xxs': 0.5rem,
+        'section-xs': 1rem,
+        'section-sm': 1.25rem,
+        'section-2sm': 1.5rem,
+        'section': 2.5rem,
+        'section-md': 3rem,
+        'section-lg': 6rem,
+        'section-2lg': 8rem,
+        'section-xlg': 10rem,
+        'section-xxlg': 16rem,
+        'section-3xlg': 20rem,
+        'section-xxxlg': 24rem,
+        'button-4xs': .375rem,
+        'button-3xs': .5rem,
+        'button-2xs': .75rem,
+        'button-xs': 1rem,
+        'button-sm': 1.5rem,
+        'button': 2.5rem,
+        'image-sm': 1.25rem,
+        'badge-xs': 0.5rem,
+        'badge-sm': 0.75rem,
+        'badge': 1rem,
+        'form': 1rem,
+        'image': 2.5rem,
+        'image-md': 3rem,
+        'image-lg': 6rem,
+        'generic': 1.5rem,
+        'generic-xs':1.25rem,
+        'generic-2xs': 1rem,
+        'generic-3xs': 0.75rem,
+        'generic-4xs': 0.5rem,
+        'generic-sm': 1.25rem,
+        'generix-sm': 1.5rem,
+        'generic-2sm': 1.5rem,
+        'generix-2sm': 1.75rem,
+        'generix-3sm': 2rem,
+        'text-xxs': .25rem,
+        'text-xs': .5rem,
+        'text-sm': 1rem,
+        'text': 1.25rem,
+        'text-md': 2.5rem,
+        'text-lg': 3rem,
+        'text-xl': 6rem,
+        'none': 0,
+        'auto': auto,
+);
+
+
+$fontSizes:(
+        'text-4xs':10px,
+        'text-3xs':12px,
+        'text-2xs':14px,
+        'text-xs':16px,
+        'text':19px,
+        'text-md':22px,
+        'text-lg':28px,
+        'text-2lg':30px,
+        'text-xl':35px,
+        'text-2xl':40px,
+        'text-3xl':45px,
+        'text-4xl':50px,
+        'text-5xl':55px,
+        'text-6xl':60px,
+        'text-7xl':70px,
+        'text-8xl':80px,
+        'text-9xl':90px,
+        'text-10xl':100px,
+);
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

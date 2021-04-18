@@ -1,0 +1,21 @@
+/**
+ * Basic typography style for copy text
+ */
+
+html{
+  font-size: 1rem;
+  font-family: $primary-font-family;
+}
+
+body {
+  @include basic-font;
+  color: $text-color;
+  margin:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 500;
+  margin: 0;
+}
+
+
