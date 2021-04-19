@@ -1,0 +1,29 @@
+{
+    "institution":"ANAF",
+    "process":"Notificarea/Anularea Optiunii de taxare a operatiunilor de arendare, concesionare,inchiriere si leasingul de bunurui imobile si notificarea privind optiunea de taxare a livrarilor de catre orice persoana a unei constructii, a unei parti a acesteia si a terenului pe care este construicta, precum si a oricarui alt teren",
+    "cases":[
+        "Pentru contribuabilii inregistrati la AFP"
+        ],
+    "departaments":[
+        "Biroul Registru Contribuabili, Declaratii Fiscale si bilanturi persoane juridice"
+        ],
+    "forms":
+    [
+        [
+            "Notificarea/Anularea Optiunii de taxare"
+        ]
+    ],
+    "necessary":[
+        [
+            [
+                "notificare tip, model conform Anexa nr1, Anexa nr2 si Anexa nr3 la normele de aprobare a Titlului VI din Codul fiscal"
+            ]
+        ]
+    ],
+    "generalInfo":
+    [
+        [
+            "Circuit documente si procedura:\n - notificarea, intocmita in 2 exemplare, se depune la registatura organului fiscal competent, iar un exemplar inregistrat se restituie titularului"
+        ]
+    ]
+}

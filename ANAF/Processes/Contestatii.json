@@ -1,0 +1,27 @@
+{
+    "institution":"ANAF",
+    "process":"Depunere Contestatii",
+    "cases":[
+        "Pentru depunere contestatie"
+    ],
+    "departaments":[
+        "Biroul Solutionare contestatii"
+    ],
+    "forms":[
+        "Decizie privind solutionarea contestatiei"
+    ],
+    "necessary":
+    [
+        [
+            [
+                "contestatie intocmita in conformitate cu prevederile art.206 din Codul de procedura fiscala"
+            ]
+        ]
+    ],
+    "generalInfo":
+    [
+        [
+            "Circuit documente:\n - contestatia, insotita de documentele considerate relevante in sustinerea motivelor, se depune la registratura organului emitent al actului atacat\n - contestatia este transmisa organului de solutionare competent impreuna cu referatul ce cuprinde propuneri de solutionare;\n - decizia privind solutionarea contestatiei se transmite contribuabilului prin posta.\n Termen de solutionare: 45 de zile de la data inregistrarii cererii, cu posibilitatea prelungirii in vederea obtinerii de documente suplimentare solicitate contribuabilului."
+        ]
+    ]
+}
