@@ -202,32 +202,7 @@
                     }
                 }
             },
-            {
-                "titlu":"Compartimentul Analiza de Risc",
-                "program":{
-                    "luni":{
-                        "open":"8:00",
-                        "close":"16:00"
-                    },
-                    "marti":{
-                        "open":"8:00",
-                        "close":"16:00"
-                    },
-                    "miercuri":{
-                        "open":"8:00",
-                        "close":"16:00"
-                    },
-                    "joi":{
-                        "open":"8:00",
-                        "close":"16:00"
-                    },
-                    "vineri":{
-                        "open":"8:00",
-                        "close":"16:00"
-                    }
-                }
-            }
-            ,{
+           {
                 "titlu":"Serviciul Incasarea si evidenta veniturilor bugetare",
                 "program":{
                     "luni":{
