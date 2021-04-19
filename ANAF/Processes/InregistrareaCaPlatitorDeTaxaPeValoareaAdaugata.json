@@ -1,0 +1,67 @@
+{
+  "institution": "ANAF",
+  "process": "Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant",
+  "cases": [
+    "In cazul depasirii plafonului de scutire prevazut de lege",
+    "In cazul declararii optiunii de platitor de taxa pe valoarea adaugata",
+    "In cazul inregistrarii in scopuri de taxa pe valoare adaugata a altor persoane care efectueaza achizitii intracomunitare",
+    "In cazul inregistrarii in scopuri de taxa pe valoare adaugata de la infiintare"
+  ],
+  "departaments": [
+    "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+    "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+    "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+    "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+],
+  "forms": [
+      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
+      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
+      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
+      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"]
+  ],
+  "necessary": [
+    [
+      [
+        "cerere tip-070 (Cod 14.13.01.10.11/5), care se obtine gratuit de la etajul 1",
+        "camera 1103",
+        "copie cod unic de inregistrare sau cod fiscal dupa caz",
+        "copie registru jurnal de incasari si plati"
+      ]
+    ],
+    [
+      [
+        "cerere tip-070( Cod 14.13.01.10.11/5)care se obtine gratuit de la etajul 1",
+        "camera 1103",
+        "copie cod unic de inregistrare sau cod fiscal dupa caz",
+        "justificare economica(se obtine gratuit de la etajul 1, camera 1103)"
+      ]
+    ],
+    [
+      [
+        "cerere tip-070 (Cod 14.13.04.02./c), care se obtine gratuit de la etajul 1, camera 1103",
+        "copie cod unic de inregistrare sau cod fiscal dupa caz",
+        "copie contract incheiat cu partenerul extern din care sa reiasa achizitia intracomunitara"
+      ]
+    ],
+    [
+      [
+        "formularul “Cerere de eliberare a certificatului de inregistrare in scopuri de taxa pe valoare adaugata pentru comerciantii care se inregistreaza in scopuri de taxa pe valoare adaugata de la infiintare”(Cod 14,13,04,02/c), care se obtine gratuit de la etajul 1, camera 1103",
+        "copie certificat de inregistrare care contine codul unic de inregistrare , eliberat de Oficiul Registrului Comertului"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+    ],
+    [
+        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+    ],
+    [
+        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+    ],
+    [
+        "Termen de solutionare: 24 de ore de la data depunerii declaratiei."
+    ]
+  ]
+}
