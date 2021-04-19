@@ -1,0 +1,44 @@
+{
+    "institution": "ANAF",
+    "process": "Inregistrare Contracte de cedarea folosintei bunurilor",
+    "cases": [
+        "Pentru inchirieri de spatii de locuit, autoturisme, utilaje",
+        "Pentru arendare terenuri"
+    ],
+    "departaments":[
+        "Serviciul registru contribuabili declaratii fiscale persoane fizice",
+        "Serviciul registru contribuabili declaratii fiscale persoane fizice"
+    ],
+    "forms":[
+        "Inregistrare Contracte de cedarea folosintei bunurilor",
+        "Inregistrare Contracte de cedarea folosintei bunurilor"
+    ],
+    "necessary":[
+        [
+            [
+                "contractul de inchiriere - in original si doua copii",
+                "copie carte/buletin identitate (proprietar)",
+                "dovada detinerii proprietatii ( copie si original), adica : in cazul constructiilor si terenurilor - titlu de proprietate; in cazul autoturismelor - cartea de identitate a autoturismului; pentru orice alt tip de echipament - actul de achizitie sau alta dovada scrisa",
+                "alte acte (exemplu : acordul asociatiei de proprietari, locatari sau coproprietari, dupa caz, atunci cand inchirierea locuintei se face unei societati comerciale)",
+                "dosar sina"
+            ]
+        ],
+        [
+            [
+                "contractul de arendare - in original si doua copii",
+                "copie carte/buletin identitate (proprietar)",
+                "copie act proprietate (extras carte funciara)",
+                "dosar sina"
+            ]
+        ]
+    ],
+    "generalInfo":[
+        [
+            "Pasul 1: se completeaza declaratia privind veniturile estimate din cedarea folosintei bunurilor -formular 220, care se obtine gratuit de la ghiseul de formulare tipizate ;\n Pasul 2.: se emite decizia de plati anticipate.\n Circuit documente: \n Dupa inregistrarea contractului, originalul se retine la dosarul fiscal, iar copiile se restituie contribuabilului."
+        ],
+        [
+            "Pasul 1: se completeaza declaratia privind veniturile estimate din cedarea folosintei bunurilor -formular 220, care se obtine gratuit de la ghiseul de formulare tipizate ;\n Pasul 2.: se emite decizia de plati anticipate.\n Circuit documente: \n Dupa inregistrarea contractului, originalul se retine la dosarul fiscal, iar copiile se restituie contribuabilului."
+        
+        ]
+    ]
+}
