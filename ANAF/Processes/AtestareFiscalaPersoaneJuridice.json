@@ -1,0 +1,102 @@
+{
+  "institution": "ANAF",
+  "process": "Atestare Fiscala - Persoane Juridice",
+  "departaments": [
+    "Serviciul executare silita si stingere a creantelor fiscale - Persoane juridice",
+    "Serviciul Colecare si executare silita - Persoane Juridice",
+    "Biroul Administrare sedii secundare contribuabili mari"
+  ],
+  "cases": [
+    "In cazul contribuabililor inregistrari la AFP contribuabili mijlocii",
+    "In cazul contribuabililor inregistrati la AFP municipiul Iasi",
+    "In cazul contribuabililor inregistrati ca sedii secundare a marilor contribuabili"
+  ],
+  "formulars": [
+    [
+      "Certificat de Atestare Fiscala Persoane Juridice",
+      "Adeverinta de Atestare Fiscala pentru Punctele de Lucru",
+      "Certificat fiscal persoane juridice pentru transfer sold din trezorerie"
+    ],
+    [
+      "Certificat de Atestare Fiscala Persoane Juridice",
+      "Adeverinta de Atestare Fiscala pentru Punctele de Lucru",
+      "Certificat fiscal persoane juridice pentru transfer sold din trezorerie"
+    ],
+    ["Adeverinta de Atestare Fiscala pentru Punctele de Lucru"]
+  ],
+  "neccessary": [
+    [
+      [
+        "cerere tip (Cod 14.13.25.99/j) se obtine gratuit de la cam.1703 sau de la ghiseul unic, parter",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "2 timbre fiscale a cate 4 lei",
+        "dupa caz xerocopii de pe ultimile ordine de plata efectuate prin banci"
+      ],
+      [
+        "cererea formulata de punctul de lucru",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "2 timbre fiscale a cate 1 leu."
+      ],
+      [
+        "cerere tip (Cod 14.13.25.99/j) se obtine gratuit de la etajul 7, camera 1703",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "xerocopii de pe ultimele ordine de plata efectuate prin unitati bancare"
+      ]
+    ],
+    [
+      [
+        "cerere tip (Cod 14.13.25.99/j) se obtine gratuit de la mezanin, camera 111 sau de la ghiseul unic, parter",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "2 timbre fiscale a cate 4 lei",
+        "dupa caz, xerocopii de pe ultimele ordine de plata efectuate prin banci"
+      ],
+      [
+        "cererea formulata de punctul de lucru",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "2 timbre fiscale a cate 1 leu"
+      ],
+      [
+        "cerere tip (Cod 14.13.25.99/j) se obtine gratuit de la mezanin, camera 111",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "xerocopii de pe ultimele ordine de plata efectuate prin unitati bancare"
+      ]
+    ],
+    [
+      [
+        "cererea formulata de sediul secundar",
+        "balanta de verificare pentru ultima luna (original), semnata si stampilata",
+        "timbru fiscal de 2 lei"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Circuit documente:\n Documentele se verifica in cadrul serviciului, se depun la registratura AFP contribuabili mijlocii etaj 6, camera 1601, iar certificatul se ridica din acelasi loc pe baza numarului de inregistrare a cererii. \nTermen de solutionare: 5 zile lucratoare de la data depunerii cererii.",
+      "Circuit documente:\n Documentele se verifica in cadrul serviciului, se depun la registratura AFP contribuabili mijlocii etaj 6, camera 1601, iar adeverinta se ridica din acelasi loc, pe baza numarului de inregistrare a cererii. \nTermen de solutionare: 5 zile lucratoare de la data depunerii cererii.",
+      "Circuit documente:\n Documentele se verifica la mezanin, camera 1703, se elibereaza pe loc certificatul fiscal de uz intern, care se prezinta la ghiseul de Trezorerie pentru efectuarea trasferului."
+    ],
+    [
+      "Circuit documente:\n Documentele se verifica la mezanin, camera 111, se depun la registratura AFP mun.Iasi, iar certificatul se ridica din acelasi loc, pe baza numarului de inregistrare a cererii.\n Termen de solutionare: 5 zile lucratoare de la data depunerii cererii.",
+      "Circuit documente:\n Documentele se verifica in cadrul serviciului, se depun la registratura AFP mun.Iasi, iar adeverinta se ridica din acelasi loc, pe baza numarului de inregistrare a cererii. \nTermen de solutionare: 5 zile lucratoare de la data depunerii cererii.",
+      "Circuit documente:\n Documentele se verifica la mezanin, camera 111, se elibereaza pe loc certificatul fiscal de uz intern, care se prezinta la ghiseul de Trezorerie pentru efectuarea trasferului."
+    ],
+    [
+      "Circuit documente:\n Documentele se verifica in cadrul serviciului, se depun la registratura AFP contribuabili mijlocii, etajul 6, camera 1601, iar adeverinta se ridica din acelasi loc, pe baza numarului de inregistrare a cererii.\n Termen de solutionare: 5 zile lucratoare de la data depunerii cererii."
+    ]
+  ],
+  "prices":
+  [
+      [
+          "2 timbre a cate 4 lei = 8 lei",
+          "2 timbre a cate 1 leu = 2 lei "
+      ],
+      [
+        "2 timbre a cate 4 lei = 8 lei",
+          "2 timbre a cate 1 leu = 2 lei "
+      ],
+      [
+          "1 timbru fiscal de 2 lei = 2 lei"
+      ]
+  ],
+  "files":[]
+}
