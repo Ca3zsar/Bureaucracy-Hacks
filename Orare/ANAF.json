@@ -3,152 +3,302 @@
         "institutie":"ANAF",
         "programe":[
             {
-                "titlu": "Operatiuni Casierie(incasari si plati) - persoane juridice",
+                "titlu": "Serviciul executare silita si stingere a creantelor fiscale persoane juridice",
                 "program":{
                     "luni":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "marti":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "miercuri":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "joi":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "vineri":{
-                        "open":"8:30",
-                        "close":"13:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     }
                 }
             },
             {
-                "titlu" : "Operatiuni Casierie(incasari si plati) - persoane fizice",
+                "titlu" : "Serviciul Colectare si executare silita- persoane juridice",
                 "program":{
                     "luni":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"12:00"
                     },
                     "marti":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"12:00"
                     },
                     "miercuri":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"12:00"
                     },
                     "joi":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"12:00"
                     },
                     "vineri":{
-                        "open":"8:30",
-                        "close":"13:00"
+                        "open":"8:00",
+                        "close":"12:00"
                     }
                 }
             },
             {
-                "titlu":"Incasari Numerar de la persoane fizice - Program Prelungit",
+                "titlu":"Biroul Administrare sedii secundare contribuabili mari",
                 "program":{
                     "luni":{
-                        "open":"14:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "marti":{
-                        "open":"14:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "miercuri":{
-                        "open":"14:30",
-                        "close":"18:30"
+                        "open":"8:00",
+                        "close":"18:00"
                     },
                     "joi":{
-                        "open":"14:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "vineri":{
-                        "open":"13:00",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     }
                 }
             },
             {
-                "titlu":"Trezoreria Iasi la sediul din Bd. Nicolae Iorga",
+                "titlu":"Serviciul Registru contribuabili declaratii fiscale persoane fizice",
                 "program":{
                     "luni":{
-                        "open":"8:30",
-                        "close":"14:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "marti":{
-                        "open":"8:30",
-                        "close":"14:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "miercuri":{
-                        "open":"8:30",
-                        "close":"14:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "joi":{
-                        "open":"8:30",
-                        "close":"14:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "vineri":{
-                        "open":"8:30",
-                        "close":"13:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     }
                 }
             },
             {
-                "titlu":"Depunere OPT la ghiseul trezoreriei / Depunere OPME online",
+                "titlu":"Compartimentul evitarea dublei impuneri si acorduri fiscale internationale",
                 "program":{
                     "luni":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "marti":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "miercuri":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "joi":{
-                        "open":"8:30",
-                        "close":"14:30"
+                        "open":"8:00",
+                        "close":"16:00"
                     },
                     "vineri":{
-                        "open":"8:30",
-                        "close":"13:00"
+                        "open":"8:00",
+                        "close":"16:00"
                     }
                 }
             },
             {
-                "titlu":"Depunere declaratii fiscale / Primire documentatie eliberare certificate atestare fiscala",
+                "titlu":"Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
                 "program":{
                     "luni":{
-                        "open":"8:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"14:00"
                     },
                     "marti":{
-                        "open":"8:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"14:00"
                     },
                     "miercuri":{
-                        "open":"8:30",
-                        "close":"18:30"
+                        "open":"8:00",
+                        "close":"14:00"
                     },
                     "joi":{
-                        "open":"8:30",
-                        "close":"16:30"
+                        "open":"8:00",
+                        "close":"14:00"
                     },
                     "vineri":{
-                        "open":"8:30",
+                        "open":"8:00",
                         "close":"14:00"
+                    }
+                }
+            },
+            {
+                "titlu":"Biroul pentru gestionarea cazierului fiscal",
+                "program":{
+                    "luni":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "marti":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "miercuri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "joi":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "vineri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    }
+                }
+            },
+            {
+                "titlu":"Biroul Solutionare contestatii",
+                "program":{
+                    "luni":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "marti":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "miercuri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "joi":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "vineri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    }
+                }
+            },
+            {
+                "titlu":"Compartimentul Analiza de Risc",
+                "program":{
+                    "luni":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "marti":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "miercuri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "joi":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "vineri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    }
+                }
+            }
+            ,{
+                "titlu":"Serviciul Incasarea si evidenta veniturilor bugetare",
+                "program":{
+                    "luni":{
+                        "open":"9:00",
+                        "close":"12:00"
+                    },
+                    "marti":{
+                        "open":"9:00",
+                        "close":"12:00"
+                    },
+                    "miercuri":{
+                        "open":"9:00",
+                        "close":"12:00"
+                    },
+                    "joi":{
+                        "open":"9:00",
+                        "close":"12:00"
+                    },
+                    "vineri":{
+                        "open":"9:00",
+                        "close":"12:00"
+                    }
+                }
+            },
+            {
+                "titlu":"Compartiment Selectare dosare si programe control, coordonare si sinteza activitatii de inspectie fiscala",
+                "program":{
+                    "luni":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "marti":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "miercuri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "joi":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "vineri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    }
+                }
+            },
+            {
+                "titlu":"Biroul Coordonare, programare, analiza si indrumare activitatea de inspectia fiscala",
+                "program":{
+                    "luni":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "marti":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "miercuri":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "joi":{
+                        "open":"8:00",
+                        "close":"16:00"
+                    },
+                    "vineri":{
+                        "open":"8:00",
+                        "close":"16:00"
                     }
                 }
             }
