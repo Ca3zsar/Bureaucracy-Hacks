@@ -1,0 +1,114 @@
+{
+    "institution": "ANAF",
+    "process": "Atestare Fiscala Nerezidenti; Atestare Rezidenta Fiscala",
+    "cases": [
+        "In cazul contribuabililor persoane juridice si fizice de pe raza AFP comunale, orasenesti si agentilor economici inregistrati ca si contribuabili mijlocii",
+        "In cazul contribuabililor persoane juridice si fizice de pe raza AFP mun. Iasi"
+    ],
+    "departaments": [
+        "Compartimentul evitarea dublei impuneri si acorduri fiscale internationale",
+        "Compartimentul de evitare a dublei impuneri si acorduri fiscale internationale"
+    ],
+    "forms": [
+        [
+            "Certificat privind atestarea impozitului platit conform conventiei de evitare a dublei impuneri, incheiata intre Romania si ... de persoane fizice nerezidente",
+            "Certificat privind atestarea impozitului platit conform conventiei de evitare a dublei impuneri, incheiata intre Romania si ... de persoane juridice nerezidente",
+            "Certificat de rezidenta fiscala pentru aplicarea conventiei de evitare a dublei impuneri, incheiata intre Romania si ... pentru persoane fizice romane",
+            "Certificat de rezidenta fiscala pentru aplicarea conventiei de evitare a dublei impuneri, incheiata intre Romania si ... pentru persoane juridice romane",
+            "Certificat de rezidenta fiscala extrateritoriala UE/SEE (formular eliberat de autoritatile germane pentru persoane fizice romane care lucreaza in Germania cu domiciliul in localitati situate in raza judetului)"
+        ],
+        [
+            "Certificat privind atestarea impozitului platit conform conventiei de evitare a dublei impuneri, incheiata intre Romania si ... de persoane fizice nerezidente",
+            "Certificat privind atestarea impozitului platit conform conventiei de evitare a dublei impuneri, incheiata intre Romania si ... de persoane juridice nerezidente",
+            "Certificat de rezidenta fiscala pentru aplicarea conventiei de evitare a dublei impuneri, incheiata intre Romania si ... pentru persoane fizice romane",
+            "Certificat de rezidenta fiscala pentru aplicarea conventiei de evitare a dublei impuneri, incheiata intre Romania si ... pentru persoane juridice romane",
+            "Certificat de rezidenta fiscala extrateritoriala UE/SEE (formular eliberat de autoritatile germane pentru persoane fizice romane care lucreaza in Germania, cu domiciliul in municipiul Iasi)"
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "cerere tip, model cod 14.13.25.99/d, distribuita gratuit de la etajul 2, camera 1202",
+                "sau de la ghiseul unic, parter",
+                "certificat de rezidenta fiscala, in original, insotit de traducere legalizata",
+                "copii de pe ordinele de plata referitoare la plata impozitului",
+                "copii de pe dispozitiile de plata in valuta",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/c, distribuita gratuit de la etajul 2, camera 1202",
+                "sau de la ghiseul unic, parter",
+                "certificat de rezidenta fiscala, in original, insotit de traducere legalizata",
+                "copii de pe ordinele de plata referitoare la plata impozitului",
+                "copii de pe dispozitiile de plata in valuta",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/b, distribuita gratuit de la etajul 2, camera 1202 sau ghiseul unic, parter",
+                "copie de pe actul de identitate",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/a, distribuita gratuit de la etajul 2, camera 1202 sau ghiseul unic, parter",
+                "copie de pe certificatul de inmatriculare la oficiul registrului comertului sau copie de pe codul de inregistrare fiscala",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "formular tipizat eliberat de autoritatile fiscale germane, pe care se vor completa spatiile de la rd.22-30 din formularul german, prin care se confirma rezidenta fiscala in Romania a acestor persoane; formularul va fi completat la randurile 11-17 cu sume completate pe proprie raspundere de persoanele fizice solicitante, date pentru care persoanele in cauza semneaza si dateaza la rd. 18-21",
+                "copie de pe actul de identitate",
+                "adeverinta de la organul fiscal competent pentru confirmarea sumelor declarate la rd.11-17 din formular",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ]
+        ],
+        [
+            [
+                "cerere tip, model cod 14.13.25.99/d, distribuita gratuit de la etajul 2, camera 1202",
+                "sau de la ghiseul unic, parter",
+                "certificat de rezidenta fiscala, in original, insotit de traducere legalizata",
+                "copii de pe ordinele de plata referitoare la plata impozitului",
+                "copii de pe dispozitiile de plata in valuta",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/c, distribuita gratuit de la etajul 2, camera 1202",
+                "sau de la ghiseul unic, parter",
+                "certificat de rezidenta fiscala, in original, insotit de traducere legalizata",
+                "copii de pe ordinele de plata referitoare la plata impozitului",
+                "copii de pe dispozitiile de plata in valuta",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/b, distribuita gratuit de la etajul 2, camera 1202 sau ghiseul unic, parter",
+                "copie de pe actul de identitate",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "cerere tip, model cod 14.13.25.99/a, distribuita gratuit de la etajul 2, camera 1202 sau ghiseul unic, parter",
+                "copie de pe certificatul de inmatriculare la oficiul registrului comertului sau copie de pe codul de inregistrare fiscala",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ],
+            [
+                "formular tipizat eliberat de autoritatile fiscale germane, pe care se vor completa spatiile de la rd.22-30 din formularul german, prin care se confirma rezidenta fiscala in Romania a acestor persoane; formularul va fi completat la randurile 11-17 cu sume completate pe proprie raspundere de persoanele fizice solicitante, date pentru care persoanele in cauza semneaza si dateaza la rd. 18-21",
+                "copie de pe actul de identitate",
+                "adeverinta eliberata de Serviciul Gestiune registru contribuabili si declaratii fiscale, cu sediul in Str. Sf. Lazar nr.1, pentru confirmarea sumelor declarate la rd.11-17 din formular",
+                "2 timbre fiscale in valoare de 4 lei fiecare"
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Pasul 1:\n cerere de eliberare a unei adeverinte de venit (Cod 14.13.25.13) pentru certificarea sumelor declarate la rd.11-17 din formular, depusa la organul fiscal de domiciliu, pentru eliberarea unei adeverinte de venit;\n fisa fiscala intocmita de angajator, respectiv declaratie pe proprie raspundere ca nu s-au obtinut venituri din Romania.\n Pasul 2:\n adeverinta de venit, impreuna cu documentele mentionate mai sus se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare a cererii.\n Termen de solutionare: 30 de zile de la data depunerii cererii."
+        ],
+        [
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Documentele se depun la registratura generala, iar certificatul se ridica de la etajul 2, camera 1202, pe baza numarului de inregistrare.\n Termen de solutionare: 30 de zile de la data depunerii cererii",
+            "Circuit documente:\n Pasul 1:\n cerere de eliberare a unei adeverinte de venit (Cod 14.13.25.13) pentru certificarea sumelor declarate la rd.11-17 din formular, depusa la Serviciul Gestiune registru contribuabili si declaratii fiscale, cu sediul in Str. Sf. Lazar nr.1, pentru eliberarea unei adeverinte de venit; - fisa fiscala intocmita de angajator, respectiv declaratie pe proprie raspundere ca nu s-au obtinut venituri din Romania.\n Pasul 2:\n adeverinta de venit, impreuna cu documentele mentionate mai sus, se depun la registratura AFP Mun.Iasi."
+        ]
+    ]
+}

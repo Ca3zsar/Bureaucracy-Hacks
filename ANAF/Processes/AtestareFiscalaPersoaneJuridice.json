@@ -1,15 +1,15 @@
 {
   "institution": "ANAF",
   "process": "Atestare Fiscala - Persoane Juridice",
-  "departaments": [
-    "Serviciul executare silita si stingere a creantelor fiscale - Persoane juridice",
-    "Serviciul Colecare si executare silita - Persoane Juridice",
-    "Biroul Administrare sedii secundare contribuabili mari"
-  ],
   "cases": [
     "In cazul contribuabililor inregistrari la AFP contribuabili mijlocii",
     "In cazul contribuabililor inregistrati la AFP municipiul Iasi",
     "In cazul contribuabililor inregistrati ca sedii secundare a marilor contribuabili"
+  ],
+  "departaments": [
+    "Serviciul executare silita si stingere a creantelor fiscale - Persoane juridice",
+    "Serviciul Colecare si executare silita - Persoane Juridice",
+    "Biroul Administrare sedii secundare contribuabili mari"
   ],
   "formulars": [
     [
