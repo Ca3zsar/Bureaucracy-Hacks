@@ -1,0 +1,41 @@
+{
+    "institution": "ANAF",
+    "process": "INREGISTRAREA FISCALA A PERSOANELOR FIZICE STRAINE",
+    "cases": [
+      "In cazul persoanelor fizice straine care nu au cod numeric personal",
+      "In cazul persoanelor fizice straine care au cod numeric personal(au permis de sedere in Romania)"
+    ],
+    "departaments": [
+      "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+      "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+    ],
+    "formulars": [
+      [
+        "NUMAR DE INREGISTRARE FISCALA (NIF)"
+      ],
+      [""]
+    ],
+    "neccessary": [
+      [
+          "declaratie de inregistrare fiscala/declaratie de mentiuni pentru sediile secundare – formular 060, care se distribuie gratuit de la etajul 1, camera 1103;",
+          "copie legalizata de pe hotararea judecatoreasca privind infiintarea punctului de lucru sau de pe hotararea adunarii generale a actionarilor prin care s-a hotarat infiintarea punctului de lucru;",
+          "copie de pe certificatul de inregistrare fiscala a agentului economic care a infiintat punctul de lucru;",
+          "dovada detinerii sau ocuparii legale a spatiului in care punctul de lucru isi defasoara activitatea(copie de pe contract de proprietate/inchiriere/comodat).; ",
+          "declaratie referitoare la numarul de salariati ( 5 salariati)."
+      ],
+      [
+          "formular 030(completat cu adresa din Romania);",
+          "copie de pe documentul care atesta inregistrarea pe teritoriul Romaniei;",
+          "copie de pe pasaport sau dupa un alt document de identitate eliberat de organele abilitate potrivit legii;"
+      ]
+    ],
+    "generalInfo": [
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei.\n Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei.\n Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+      ]
+    ]
+}
+  

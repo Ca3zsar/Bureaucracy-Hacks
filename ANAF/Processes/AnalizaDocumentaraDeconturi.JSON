@@ -1,0 +1,61 @@
+{
+    "institution": "ANAF",
+    "process": "Analiza documentara deconturi de tva cu optiune de rambursare",
+    "departaments": [
+      "Compartiment analiza de risc",
+      "Compartiment analiza de risc"
+    ],
+    "cases": [
+      "In cazul contribuabililor inregistrari la AFP contribuabili mijlocii",
+      "In cazul contribuabililor inregistrati la AFP municipiul Iasi"
+    ],
+    "formulars": [
+      [
+        "Notificare pentru analiza documentara"
+      ],
+      [
+        "INSTIINTARE CATRE CONTRIBUABIL, DECIZIE DE RAMBURSARE - model anexa nr.5 la procedura aprobata prin OMEF nr.1857/2007(M. Of.   Nr.785/2007), NOTA DE COMPENSARE SI/SAU NOTA DE RESTITUIRE "
+      ]
+    
+    ],
+    "neccessary": [
+      [
+        [
+          "jurnale de vanzari si jurnale de cumparari",
+          "balanta de verificare",
+          "facturi cu valori semnificative",
+          "contracte cu furnizori interni sau externi, respectiv cu principalii beneficiari",
+          "alte documente relevante pentru sustinerea solicitarii"
+        ]
+      ],
+      [
+        [
+            "jurnale de vanzari si jurnale de cumparari",
+            "balanta de verificare",
+            "facturi cu valori semnificative",
+            "contracte cu furnizori interni sau externi, respectiv cu principalii beneficiari",
+            "alte documente relevante pentru sustinerea solicitarii"
+        ]
+      ]
+    ],
+
+    "generalInfo": [
+      [
+        "Circuit documente:\ndocumentele vor fi prezentate, in copie si original, compartimentului despecialitate, pana la data stabilita prin notificare. Termen de solutionare:45 de zile de la data depunerii cererii, cu respectarea etapelor prevazute de metodologie  "
+      ],
+      [
+        "Circuit documente:\n dupa solutionarea cererii de rambursare, conform procedurii stabilite prin ordin, contrbuabilul va fi instiintat in scris prin transmiterea Notei de compensare si/sau Notei de restituire, insotite de Decizia de rambursare.Termen de solutionare: 45 de zile de la data depunerii cererii, cu posibilitatea prelungirii  termenului, in situatiile prevazute de lege. "
+      ]
+    
+    ],
+    "prices":
+    [
+        [
+           "  "
+        ],
+        [
+           "  "
+        ]
+    ],
+    "files":[]
+  }

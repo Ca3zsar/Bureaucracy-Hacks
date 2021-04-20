@@ -1,0 +1,71 @@
+{
+    "institution": "ANAF",
+    "process": "Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor",
+    "cases": [
+        "In cazul depasirii plafonului de scutire prevazut de lege",
+        "In cazul declararii optiunii de platitor de taxa pe valoarea adaugata",
+        "In cazul inregistrarii in scopuri de taxa pe valoarea adaugata de la infiintare",
+        "In cazul inregistrarii in scopuri de taxa pe valoare adaugata a altor persoane care efectueaza achizitii intracomunitare",
+        "In cazul modificarii denumirii societatii sau schimbarea sediului social se elibereaza noul certificat in scopuri de taxa pe valoare adaugata:"
+    ],
+    "departaments": [
+        "Biroul de gestiune registru contribuabili,monitorizare declaratii fiscale si bilanturi ",
+        "Biroul de gestiune registru contribuabili,monitorizare declaratii fiscale si bilanturi ",
+        "Biroul de gestiune registru contribuabili,monitorizare declaratii fiscale si bilanturi ",
+        "Biroul de gestiune registru contribuabili,monitorizare declaratii fiscale si bilanturi ",
+        "Biroul de gestiune registru contribuabili,monitorizare declaratii fiscale si bilanturi "
+    ],
+    "forms": [
+      ["Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor"],
+      ["Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor"],
+      ["Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor"],
+      ["Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor"],
+      ["Inregistrarea mentiunilor referitoare la luarea in/scoaterea din evidenta ca platitor de taxa pe valoarea adaugata a comerciantilor"]
+    ],
+    "neccessary": [
+      [
+          "cerere tip-010 (Cod 14.13.01.10.11/1), care se obtine gratuit de la etajul 1, camera 1103;",
+          "copie certificat de inregistrare;",
+          "balanta de verificare din luna in care s-a depasit plafonul si din luna anterioara, in original, semnate si stampilate;"
+      ],
+      [
+          "cerere tip-010( Cod 14.13.01.10.11/1)care se obtine gratuit de la etajul 1, camera 1103;",
+          "copie certificat de inregistrare; ",
+          "justificare economica(se obtine gratuit de la etajul 1, camera 1103)"
+      ],
+      [
+          "formularul “Cerere de eliberare a certificatului de inregistrare in scopuri de taxa pe valoare adaugata pentru comerciantii care se inregistreaza in scopuri de taxa pe valoare adaugata de la infiintare”(Cod 14,13,04,02/c), care se obtine gratuit de la etajul 1, camera 1103;",
+          "copie certificat de inregistrare care contine codul unic de inregistrare , eliberat de Oficiul Registrului Comertului; ",
+          "balanta de verificare din luna in care s-a depasit plafonul si din luna anterioara, in original, semnate si stampilate;"
+      ],
+      [
+          "cerere tip-091 (Cod 14.13.01.10.11/a), care se obtine gratuit de la etajul 1, camera 1103;",
+          "copie cod unic de inregistrare sau cod fiscal dupa caz;",
+          "copie contract incheiat cu partenerul extern din care sa reiasa achizitia intracomunitara:"
+      ],
+      [
+          "cerere tip-010( Cod 14.13.01.10.11/1)care se obtine gratuit de la etajul 1, camera 1103;",
+          "copie certificat de inregistrare in scopuri de taxa pe valoare adaugata atribuit anterior;",
+          "copie noul certificat de inregistrare eliberat de Oficiul Registrului Comertului; ",
+          "copie cerere de mentiuni."
+      ]
+    ],
+    "generalInfo": [
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103, iar avizul se elibereaza din acelasi loc in baza talonului detasat din cerere.\n Termen de solutionare: 15 zile de la data inregistrarii cererii"
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103, iar avizul se elibereaza din acelasi loc in baza talonului detasat din cerere.\n Termen de solutionare: 15 zile de la data inregistrarii cererii"
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103, iar avizul se elibereaza din acelasi loc in baza talonului detasat din cerere.\n Termen de solutionare: 24 de ore de la data inregistrarii cererii."
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103, iar avizul se elibereaza din acelasi loc in baza talonului detasat din cerere.\n Termen de solutionare: 15 zile."
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103, etajul1si se elibereaza din acelasi loc.\n Termen de solutionare: 24 de ore de la data inregistrarii cererii."
+      ]
+    ]
+  }
+  

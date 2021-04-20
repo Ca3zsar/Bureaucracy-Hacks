@@ -1,0 +1,36 @@
+{
+    "institution": "ANAF",
+    "process": "Restituiri de sume prin trezorerie",
+    "departaments": [
+      "Serviciul Incasarea si evidenta veniturilor bugetare"
+    ],
+    "cases": [
+     "  "
+    ],
+    "formulars": [
+      [
+       ""
+      ]
+    ],
+    "neccessary": [
+      [
+        [
+         "cerere motivata pentru aprobarea restituirii (conform model procurat de la Secretariatul Trezoreriei Mun.Iasi – cam 101, mezanin); ",
+         "chitanta originala vizata de autoritatea competenta (Politie, Arhivele Statului, Serv. Pasapoarte)- stampila si semnatura;",
+         "actul de identitate al titularului sau procura notariala pentru reprezentant, dupa caz"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          "cererea, impreuna cu documentele prevazute, se depune la secretariatul Trezoreriei Administratiei Finantelor Publice a Municipiului Iasi si se solutioneaza prin restituirea sumelor la ghiseu, in sala mare, parter "
+      ]
+    ],
+    "prices":
+    [
+       [ 
+           "" 
+       ]
+    ],
+    "files":[]
+  }
