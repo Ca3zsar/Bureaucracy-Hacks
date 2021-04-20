@@ -1,0 +1,45 @@
+{
+    "institution": "ANAF",
+    "process": " INCETARE STARE DE INACTIVITATE",
+    "departaments": [
+      "Compartiment Selectare dosare si programe control,coordonare si sinteza activitatii de inspectie",
+      "Biroul Coordonare ,programare,analiza si indrumare pentru activitatea de inspectie fiscala "
+    ],
+    "cases": [
+      "In cazul contribuabililor inregistrati la AFP municipiul Iasi",
+      "In cazul contribuabililor inregistrari la AFP comunala Iasi"
+    ],
+    "formulars": [
+      [
+        "Lista contribuabililor reactivati incepand cu data de…( publicata in Monitorul Oficial ) "
+      ]
+    ],
+    "neccessary": [
+      [
+        [
+          "cerere de reactivare intocmita de reprezentantul legal al contribuabilului. "
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        "Circuit documente:\n cererea se depune la registratura organului fiscal competent ",
+        "Circuit documente:\n dupa programarea inspectiei fiscale si efectuarea controlului, organul de inspectii intocmeste referatul cu propunerile de reactivare"
+      ]
+    ],
+    "prices":
+    [
+        [
+            "2 timbre a cate 4 lei = 8 lei",
+            "2 timbre a cate 1 leu = 2 lei "
+        ],
+        [
+          "2 timbre a cate 4 lei = 8 lei",
+            "2 timbre a cate 1 leu = 2 lei "
+        ],
+        [
+            "1 timbru fiscal de 2 lei = 2 lei"
+        ]
+    ],
+    "files":[]
+  }
