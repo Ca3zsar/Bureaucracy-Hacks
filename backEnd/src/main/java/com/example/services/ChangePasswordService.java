@@ -41,8 +41,11 @@ public class ChangePasswordService {
         this.password = changePasswordRequest.getNewPassword();
         this.newPassword = changePasswordRequest.getConfirmNewPassword();
         String token = userService.changePassUser(changePasswordRequest.getEmail());
-        emailSender.send(changePasswordRequest.getEmail(), "Enter the following link to confirm changing your password: <a href=\"" + "http://localhost:8081/changepassword/confirm?token=" +
+        emailSender.send(changePasswordRequest.getEmail(), "Enter the following link to confirm changing your password: <a href=\""
+                + "https://bureaucracyhackshostat.herokuapp.com/changepassword/confirm?token=" +
                 token + "\"> Click me </a>");
+//            https://bureaucracyhackshostat.herokuapp.com
+//            localhost:8081
         JSONObject jo = new JSONObject();
         jo.put("message", "Check your email to confirm your new password.");
         return jo.toString();
@@ -78,7 +81,9 @@ public class ChangePasswordService {
             confirmToken.setExpiredAt(LocalDateTime.now().plusMinutes(15));
             changePasswordService.getChangePasswordRepository().save(confirmToken);
             emailSender.send(confirmToken.getEmail(), "The last token has expired, try enter this one " +
-                    "http://localhost:8081/changepassword/confirm?token=" + token);
+                    "https://bureaucracyhackshostat.herokuapp.com/changepassword/confirm?token=" + token);
+//            https://bureaucracyhackshostat.herokuapp.com
+//            localhost:8081
             JSONObject jo = new JSONObject();
             jo.put("message", "Error: Token expired, check your email again for a new one.");
             return jo.toString();

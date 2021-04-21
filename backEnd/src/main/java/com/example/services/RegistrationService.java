@@ -43,7 +43,9 @@ public class RegistrationService {
         String token = userService.signUpUser(user);
 
         emailSender.send(request.getEmail(), "enter the following link to activate your account " +
-                "localhost:8081/registration/confirm?token=" + token);
+                " https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token);
+//            https://bureaucracyhackshostat.herokuapp.com
+//            localhost:8081
         JSONObject jo = new JSONObject();
         jo.put("statusCode", 200);
         jo.put("message","Check your email to confirm your account.");
@@ -69,7 +71,9 @@ public class RegistrationService {
             confirmToken.setExpiredAt(LocalDateTime.now().plusMinutes(15));
             confirmTokenService.getConfirmTokenRepository().save(confirmToken);
             emailSender.send(userEmail, "The last token has expired, try enter this one " +
-                    "localhost:8081/registration/confirm?token=" + token);
+                    "https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token);
+//            https://bureaucracyhackshostat.herokuapp.com
+//            localhost:8081
             JSONObject jo = new JSONObject();
             jo.put("message","Error: Token expired, check your email again for a new one.");
             return jo.toString();

@@ -23,22 +23,23 @@ public class LoginService {
                 JSONObject jo = new JSONObject();
                 JSONObject juser = new JSONObject();
                 juser.put("username", userService.loadUserByUsername(loginRequest.getEmail()).getUsername());
-                juser.put("name", userService.getUserInfo(loginRequest.getEmail()).getName() + " " + userService.getUserInfo(loginRequest.getEmail()).getUsername());
+                juser.put("name", userService.getUserInfo(loginRequest.getEmail()).getName() + " " + userService.getUserInfo(loginRequest.getEmail()).getSurname());
                 juser.put("is_admin", userService.getUserInfo(loginRequest.getEmail()).getIsAdmin());
                 jo.put("message", "You are logged in");
-                jo.put("user", juser.toString());
-                return jo.toString();
+                jo.put("user", juser);
+
+                return jo.toString().replaceAll("\\\\\"","\"");
             } else {
-                JSONObject jo = new JSONObject();
-                jo.put("message","Error: Username and password do not match.");
-                return jo.toString();
-//                throw new IllegalStateException(/*"{\"message\" : \*/"Username and password do not match.");
+//                JSONObject jo = new JSONObject();
+//                jo.put("message","Error: Username and password do not match.");
+//                return jo.toString();
+                throw new IllegalStateException(/*"{\"message\" : \*/"Username and password do not match.");
             }
         } else {
-            JSONObject jo = new JSONObject();
-            jo.put("message","Error: Account not verified.");
-            return jo.toString();
-//            throw new IllegalStateException(/*"{\"message\" : \"*/"Account not verified.");
+//            JSONObject jo = new JSONObject();
+//            jo.put("message","Error: Account not verified.");
+//            return jo.toString();
+            throw new IllegalStateException(/*"{\"message\" : \"*/"Account not verified.");
         }
     }
 }

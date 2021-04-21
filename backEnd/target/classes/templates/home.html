@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TomTom Mapping Example</title>
+    <link rel='stylesheet' type='text/css'
+          href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.63.0/maps/maps.css'>
+    <style>
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.63.0/maps/maps-web.min.js'></script>
+</head>
+<body>
+<div id='map' class='map'></div>
+<script th:inline="javascript">
+    // <java>
+    //     import com.example.controllers.MapController;
+    //     Location map = new MapController();
+    //     java.lang.Double latitude = map.getLatitude();
+    //     java.lang.Double longitude = map.getLongitude();
+    //
+    // </java>
+    const latitude = /*[[${latitude}]]*/null;
+    const longitude = /*[[${longitude}]]*/null;
+    var coordinates = [latitude, longitude];
+
+    let map = tt.map({
+        key: [[${apikey}]], // key will be filled in by Thymeleaf
+        container: 'map',
+        style: 'tomtom://vector/1/basic-main',
+        // center: [-35.4400, 37.2787],
+        center: coordinates,
+        zoom: 13
+    });
+    map.addControl(new tt.FullscreenControl());
+    map.addControl(new tt.NavigationControl());
+
+    const popupOffsets = {
+        top: [0, 0],
+        bottom: [0, -50],
+        'bottom-right': [0, -70],
+        'bottom-left': [0, -70],
+        left: [25, -35],
+        right: [-25, -35]
+    }
+
+    // placeholder for data that will be filled in by Thymeleaf
+    const currentLocation = /*[[${currentLocation}]]*/ null;
+    // alert(coolLocations);
+    const marker = new tt.Marker().setLngLat(currentLocation.lnglat).addTo(map);
+    const popup = new tt.Popup({offset: popupOffsets}).setHTML(currentLocation.description);
+    marker.setPopup(popup).togglePopup();
+
+    const destination = /*[[${destination}]]*/ null;
+    const marker2 = new tt.Marker().setLngLat(destination.lnglat).addTo(map);
+    const popup2 = new tt.Popup({offset: popupOffsets}).setHTML(destination.description);
+    marker2.setPopup(popup2).togglePopup();
+
+</script>
+</body>
+</html>

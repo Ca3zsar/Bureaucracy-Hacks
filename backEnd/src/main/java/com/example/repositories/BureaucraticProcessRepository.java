@@ -11,4 +11,7 @@ import java.util.List;
 public interface BureaucraticProcessRepository extends JpaRepository<BureaucraticProcess, Integer> {
     @Query("Select b.name from BureaucraticProcess b")
     List<String> getProcessesList();
+
+//    @Query("Select b.name from BureaucraticProcess b where b.i")
+//    List<String> getProcessesList();
 }

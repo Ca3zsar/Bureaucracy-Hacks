@@ -22,7 +22,7 @@ public class BureaucraticProcessService {
         JSONArray jprocesses = new JSONArray();
         for (String process : processes) {
             JSONObject jo = new JSONObject();
-            jo.put("process_name", process);
+            jo.put("name", process);
             jprocesses.put(jo);
         }
         return jprocesses.toString();

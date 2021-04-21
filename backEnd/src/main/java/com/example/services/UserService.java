@@ -6,6 +6,7 @@ import com.example.models.User;
 import com.example.repositories.UserRepository;
 import lombok.AllArgsConstructor;
 import org.json.JSONObject;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -36,9 +37,11 @@ public class UserService implements UserDetailsService {
         if (userRepository.findByEmail(user.getEmail()).isPresent()) {
 //            JSONObject jo = new JSONObject();
 //            jo.put("message","Error: Username is already taken.");
+            throw new IllegalStateException(/*"{\"message\" : \*/"Email is already taken.");
+        }
+        if (userRepository.findByUsername(user.getUsername()).isPresent()) {
             throw new IllegalStateException(/*"{\"message\" : \*/"Username is already taken.");
         }
-
         user.setHashPassword(passwordEncoder.encode(user.getPassword()));
         userRepository.save(user);
 
@@ -46,7 +49,7 @@ public class UserService implements UserDetailsService {
          * Create token for confirmation account via email
          */
         String token = UUID.randomUUID().toString();
-        ConfirmToken confirmToken = new ConfirmToken(token, user, LocalDateTime.now(), LocalDateTime.now().plusSeconds(15));
+        ConfirmToken confirmToken = new ConfirmToken(token, user, LocalDateTime.now(), LocalDateTime.now().plusMinutes(15));
 
         confirmTokenService.saveConfirmationToken(confirmToken);
         return token;
@@ -57,7 +60,7 @@ public class UserService implements UserDetailsService {
             throw new IllegalStateException(/*"{\"message\" : \*/"Email doesn't correspond to any account.");
         }
         String token = UUID.randomUUID().toString();
-        ChangePassToken confirmToken = new ChangePassToken(token, email, LocalDateTime.now(), LocalDateTime.now().plusSeconds(15));
+        ChangePassToken confirmToken = new ChangePassToken(token, email, LocalDateTime.now(), LocalDateTime.now().plusMinutes(15));
 
         confirmTokenService.saveConfirmationToken(confirmToken);
 
