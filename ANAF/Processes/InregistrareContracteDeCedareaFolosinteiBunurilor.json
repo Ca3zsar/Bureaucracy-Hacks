@@ -10,8 +10,8 @@
         "Serviciul registru contribuabili declaratii fiscale persoane fizice"
     ],
     "forms":[
-        "Inregistrare Contracte de cedarea folosintei bunurilor",
-        "Inregistrare Contracte de cedarea folosintei bunurilor"
+        ["Inregistrare Contracte de cedarea folosintei bunurilor"],
+        ["Inregistrare Contracte de cedarea folosintei bunurilor"]
     ],
     "necessary":[
         [
