@@ -12,19 +12,30 @@
     "forms": [
       [
         "Lista contribuabililor reactivati incepand cu data de…( publicata in Monitorul Oficial ) "
+      ],
+      [
+        ""
       ]
     ],
-    "neccessary": [
+    "necessary": [
       [
         [
           "cerere de reactivare intocmita de reprezentantul legal al contribuabilului. "
+        ]
+      ],
+      [
+        [
+          ""
         ]
       ]
     ],
     "generalInfo": [
       [
-        "Circuit documente:\n cererea se depune la registratura organului fiscal competent ",
-        "Circuit documente:\n dupa programarea inspectiei fiscale si efectuarea controlului, organul de inspectii intocmeste referatul cu propunerile de reactivare"
+        
+        "Circuit documente:\n cererea se depune la registratura organului fiscal competent\nCircuit documente:\n dupa programarea inspectiei fiscale si efectuarea controlului, organul de inspectii intocmeste referatul cu propunerile de reactivare"
+      ],
+      [
+        ""
       ]
     ],
     "prices":

@@ -1,7 +1,7 @@
 {
     "institution": "ANAF",
     "process": "Atestare Fiscala - Persoane Fizice",
-    "cases": [],
+    "cases": ["Pentru Atestare Fiscala"],
     "departaments": [
         "Serviciul Registru contribuabili declaratii fiscale - Persoane fizice"
     ],
@@ -13,6 +13,7 @@
     ],
     "necessary": [
         [
+        [
             "cerere tip (Cod 14.13.25.99), care se obtine gratuit de la ghiseul 14- sediul din str. Sf. Lazar nr.1 sau de la ghiseul unic, parter",
             "copie act de identitate",
             "2 timbre fiscale a cate 4 lei"
@@ -22,6 +23,7 @@
             "copie act de identitate",
             "se timbreaza cu timbru fiscal de 1 leu, cu exceptia solicitarilor pentru obtinerea unor drepturi de somaj si asigurari de sanatate"
         ]
+    ]
     ],
     "generalInfo": [
         [

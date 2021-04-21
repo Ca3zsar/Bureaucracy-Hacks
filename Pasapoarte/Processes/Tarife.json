@@ -1,31 +1,30 @@
 {
-    "institution": "Pasapoarte",
-    "process": "Tarife",
-    "cases": [
-        "Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"
-    ],
-    "departaments": [
-        "Tarife"
-    ],
-    "forms": [
-        [""]
-    ],
-    "necessary": [
-        [
-            "În cazul distrugerii parţiale a paşaportului simplu, a paşaportului simplu electronic sau a paşaportului simplu temporar, soluţionarea cererii pentru eliberarea unui nou paşaport este condiţionată de prezentarea paşaportului distrus sau a fragmentelor din acesta, cu condiţia ca acestea să cuprindă elemente de conţinut care să facă posibilă identificarea documentului."
-        ]
-    ],
-    "generalInfo": [
-        [
-            "Cum se poate efectua plata?\n Începând cu data de 07.09.2020, plata contravalorii paşaportului se poate efectua astfel:\n la casieriile unităţilor CEC Bank, precum şi la staţiile de plată Selfpay ale CEC Bank.\n online, exclusiv prin platforma de plăţi virtuale Ghiseul.ro.\n prin mandat poştal, în curs de implementare\n Documentele de plată emise anterior datei de 02.09.2020 rămân valabile pentru depunerea cererilor pentru eliberare a paşapoartelor.",
-            "NOTĂ\n Pentru cererile pentru eliberarea paşapoartelor simple electronice/simple temporare cu menţionarea statului de domiciliu tarifele sunt aceleaşi.\n Pentru cererile depuse prin intermediul misiunilor diplomatice, sumele care se plătesc sunt cele stabilite potrivit Legii nr. 198/2008 privind serviciile consulare pentru care se percep taxe şi nivelul taxelor consulare la misiunile diplomatice şi oficiile consulare ale României în străinătate, cu modificările şi completările ulterioare."
-        ]
-    ],
-    "prices": [
-        [
-            "258 lei - pentru persoanele cu vârstă peste 12 ani - pașport simplu electronic",
-            "234 lei - pentru persoanele cu vârsta sub 12 ani - pașaport simplu electronic",
-            "96 lei - indiferent de vârstă - pașaport simplu temporar"
-        ]
+  "institution": "Directia Generala de Pasapoarte",
+  "process": "Tarife",
+  "cases": [
+    "Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"
+  ],
+  "departaments": ["Directia Generala de Pasapoarte"],
+  "forms": [
+    ["Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"]
+  ],
+  "necessary": [
+    [
+      [
+        "În cazul distrugerii parţiale a paşaportului simplu, a paşaportului simplu electronic sau a paşaportului simplu temporar, soluţionarea cererii pentru eliberarea unui nou paşaport este condiţionată de prezentarea paşaportului distrus sau a fragmentelor din acesta, cu condiţia ca acestea să cuprindă elemente de conţinut care să facă posibilă identificarea documentului."
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Cum se poate efectua plata?\n Începând cu data de 07.09.2020, plata contravalorii paşaportului se poate efectua astfel:\n la casieriile unităţilor CEC Bank, precum şi la staţiile de plată Selfpay ale CEC Bank.\n online, exclusiv prin platforma de plăţi virtuale Ghiseul.ro.\n prin mandat poştal, în curs de implementare\n Documentele de plată emise anterior datei de 02.09.2020 rămân valabile pentru depunerea cererilor pentru eliberare a paşapoartelor.\nNOTĂ\n Pentru cererile pentru eliberarea paşapoartelor simple electronice/simple temporare cu menţionarea statului de domiciliu tarifele sunt aceleaşi.\n Pentru cererile depuse prin intermediul misiunilor diplomatice, sumele care se plătesc sunt cele stabilite potrivit Legii nr. 198/2008 privind serviciile consulare pentru care se percep taxe şi nivelul taxelor consulare la misiunile diplomatice şi oficiile consulare ale României în străinătate, cu modificările şi completările ulterioare."
+    ]
+  ],
+  "prices": [
+    [
+      "258 lei - pentru persoanele cu vârstă peste 12 ani - pașport simplu electronic",
+      "234 lei - pentru persoanele cu vârsta sub 12 ani - pașaport simplu electronic",
+      "96 lei - indiferent de vârstă - pașaport simplu temporar"
+    ]
+  ]
 }

@@ -1,79 +1,80 @@
 {
-    "institution": "DAC",
-    "process": "Alocatie de stat pentru copii",
-    "cases": [
-        "Pentru copiii români",
-        "Pentru copiii nascuti in U.E.",
-        "Pentru copiii nascuti in Republica Moldova",
-        "Pentru copiii nascuti in strainatate, cu exceptia celor nascuti in UE si Republica Moldova"
+  "institution": "DAC",
+  "process": "Alocatie de stat pentru copii",
+  "cases": [
+    "Pentru copiii români",
+    "Pentru copiii nascuti in U.E.",
+    "Pentru copiii nascuti in Republica Moldova",
+    "Pentru copiii nascuti in strainatate, cu exceptia celor nascuti in UE si Republica Moldova"
+  ],
+  "departament": ["DAC", "DAC", "DAC", "DAC"],
+  "forms": [
+    ["Alocatie de stat pentru copii"],
+    ["Alocatie de stat pentru copii"],
+    ["Alocatie de stat pentru copii"],
+    ["Alocatie de stat pentru copii"]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip utilizată in situaţia in care dosarul de alocaţie se depune in acelaşi timp cu cel de indemnizaţie",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
+        "Certificat naştere copil - original si copie",
+        "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
+        "Certificat de căsătorie – original şi copie",
+        "Dosar cu sina",
+        "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
+        "In situaţia în care părinţii nu sunt căsătoriţi, se solicită prezenţa ambilor părinţi în vederea stabilirii de comun acord a reprezentantului legal"
+      ]
     ],
-    "departament": [
-        ""
+    [
+      [
+        "Certificat naştere copil - original si copie",
+        "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
+        "Certificat de căsătorie – original şi copie",
+        "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
+        "Dosar cu sina",
+        "Adeverinţă de salariat cu menţionarea datei angajării pentru părinţii care lucrează în România"
+      ]
     ],
-    "forms": [
-        [
-            ""
-        ]
+    [
+      [
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
+        "Certificat naştere copil - copie şi original",
+        "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
+        "Certificat de căsătorie – original şi copie",
+        "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
+        "Dosar cu sina",
+        "Adeverinţă de la Casa de Asigurări Sociale a Republicii Moldova",
+        "Acordul celuilalt sot (declaraţie scrisă de mână)"
+      ]
     ],
-    "necessary": [
-        [
-            "Cerere tip utilizată in situaţia in care dosarul de alocaţie se depune in acelaşi timp cu cel de indemnizaţie",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
-            "Certificat naştere copil - original si copie",
-            "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
-            "Certificat de căsătorie – original şi copie",
-            "Dosar cu sina",
-            "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
-            "In situaţia în care părinţii nu sunt căsătoriţi, se solicită prezenţa ambilor părinţi în vederea stabilirii de comun acord a reprezentantului legal"
-        ],
-        [
-            "Certificat naştere copil - original si copie",
-            "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
-            "Certificat de căsătorie – original şi copie",
-            "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
-            "Dosar cu sina",
-            "Adeverinţă de salariat cu menţionarea datei angajării pentru părinţii care lucrează în România"
-        ],
-        [
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
-            "Certificat naştere copil - copie şi original",
-            "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
-            "Certificat de căsătorie – original şi copie",
-            "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
-            "Dosar cu sina",
-            "Adeverinţă de la Casa de Asigurări Sociale a Republicii Moldova",
-            "Acordul celuilalt sot (declaraţie scrisă de mână)"
-        ],
-        [
-            "Cerere tip utilizată in situaţia in care dosarul de alocaţie se depune in acelaşi timp cu cel de indemnizaţie",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
-            "Certificat naştere copil - original si copie",
-            "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
-            "Certificat de căsătorie – original şi copie",
-            "Dosar cu sina",
-            "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
-            "Negație/Adeverință de la instituţia socială competentă din ţara de naştere a copilului, din care să rezulte drepturile sociale de care beneficiază părinţii pentru copilul respectiv, în ţara în care acesta s-a născut"
-        ]
-    ],
-    "generalInfo": [
-        [
-            "La depunerea documentaţiei, este obligatorie prezentarea documentelor de identitate ale ambilor parinti şi ale copiilor, în original",
-            "Se completează, în plus, şi alte tipizate, în funcţie de situaţie, fiind necesar să contactaţi, telefonic sau la sediul D.A.S. Iasi, angajaţii Serviciului Alocaţii şi Indemnizaţii pentru Copii pentru detalii",
-            "La depunerea dosarului, este necesară prezenţa ambilor părinţi, dacă nu sunt căsătoriţi"
-        ],
-        [
-            "Dacă părinţii nu au lucrat în străinătate şi nu le-au fost întocmite documente în statul membru U.E solicitantul va depune o declaraţie în care se va specifica perioada petrecută în străinătate, că nu a lucrat şi nu încasează sau nu a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent",
-            "Dacă părinţii au avut calitatea de lucrători migranţi vor depune documente justificative care să ateste adresa (adresa INS - Instituţia care plăteşte alocaţia în ţara/localitatea din statul membru U.E) şi numărul de asigurare din statul membru U.E în care s-a născut copilul precum şi o declaraţie care să ateste perioada în care a lucrat, dacă încasează sau a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent.",
-            "Dacă părinţii / sau unul dintre părinţi lucrează intr-un stat membru UE se va anexa Formularul E411 sau documentul doveditor din statul respectiv"
-        ],
-        [
-            ""
-        ],
-        [
-            "Dacă nu este prezentată negaţia/adeverinţa menţionată mai sus, este necesar ca angajaţii DAS Iaşi să efectueze o anchetă socială la domiciliu, din care să rezulte că părintele solicitant/reprezentantul legal al copilului pentru alocaţia de stat locuieşte împreună cu copilul, în Iaşi – România"
-        ]
+    [
+      [
+        "Cerere tip utilizată in situaţia in care dosarul de alocaţie se depune in acelaşi timp cu cel de indemnizaţie",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Cerere tip utilizată in situaţia in care se depune doar dosarul de alocaţie",
+        "Certificat naştere copil - original si copie",
+        "B.I. / C.I. / C.I.P. al ambilor parinţi - original şi copie",
+        "Certificat de căsătorie – original şi copie",
+        "Dosar cu sina",
+        "Extras de cont , în cazul in care se doreste primirea alocatiei de stat intr-un cont bancar",
+        "Negație/Adeverință de la instituţia socială competentă din ţara de naştere a copilului, din care să rezulte drepturile sociale de care beneficiază părinţii pentru copilul respectiv, în ţara în care acesta s-a născut"
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "La depunerea documentaţiei, este obligatorie prezentarea documentelor de identitate ale ambilor parinti şi ale copiilor, în original\nSe completează, în plus, şi alte tipizate, în funcţie de situaţie, fiind necesar să contactaţi, telefonic sau la sediul D.A.S. Iasi, angajaţii Serviciului Alocaţii şi Indemnizaţii pentru Copii pentru detalii\nLa depunerea dosarului, este necesară prezenţa ambilor părinţi, dacă nu sunt căsătoriţi"
+    ],
+    [
+      "Dacă părinţii nu au lucrat în străinătate şi nu le-au fost întocmite documente în statul membru U.E solicitantul va depune o declaraţie în care se va specifica perioada petrecută în străinătate, că nu a lucrat şi nu încasează sau nu a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent\nDacă părinţii au avut calitatea de lucrători migranţi vor depune documente justificative care să ateste adresa (adresa INS - Instituţia care plăteşte alocaţia în ţara/localitatea din statul membru U.E) şi numărul de asigurare din statul membru U.E în care s-a născut copilul precum şi o declaraţie care să ateste perioada în care a lucrat, dacă încasează sau a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent.\nDacă părinţii / sau unul dintre părinţi lucrează intr-un stat membru UE se va anexa Formularul E411 sau documentul doveditor din statul respectiv"
+    ],
+    [""],
+    [
+      "Dacă nu este prezentată negaţia/adeverinţa menţionată mai sus, este necesar ca angajaţii DAS Iaşi să efectueze o anchetă socială la domiciliu, din care să rezulte că părintele solicitant/reprezentantul legal al copilului pentru alocaţia de stat locuieşte împreună cu copilul, în Iaşi – România"
+    ]
+  ]
 }

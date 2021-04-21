@@ -1,42 +1,35 @@
 {
-    "institution": "DAC",
-    "process": "Alocatie pentru sustinerea familiei",
-    "cases": [
-        "Pentru persoanele cu venit lunar de pana la 530 lei/membu de familie"
-    ],
-    "departament": [
-        ""
-    ],
-    "forms": [
-        [
-            ""
-        ]
-    ],
-    "necessary": [
-        [
-            "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
-            "C.I. / B.I. ale părinţilor (copie şi original)",
-            "Certificatul de căsătorie (copie şi original)",
-            "Certificatele de naştere ale copiilor şi C.I./B.I. pentru copii de peste 14 ani (copii şi original)",
-            "Livretul de familie, completat la zi (copie şi original)",
-            "Hotărâre judecatorească definitivă de divorţ, certificat de deces sau adeverinţă de la Penitenciar pentru soţul arestat, dacă este cazul (copie şi original)",
-            "Hotărâre judecătorească definitivă de incredinţare a copiilor, hotărâre pentru instituirea unei măsuri de ocrotire a copilului, unde este cazul (copie şi original)",
-            "Contract locuinţă (copie şi original)",
-            "Adeverinţă de la asociaţia de locatari/proprietari din care să reiasă că intreaga familie locuieşte la adresa declarată",
-            "Adeverinţe privind venitul net/cupoane de pensie/ajutor şomaj/ajutor social/declaraţie notarială pentru persoanele care nu realizează venituri (parinţi/parteneri şi copiii adulţi necăsătoriţi care locuiesc cu familia), pentru luna anterioară depunerii cererii. In adeverinţele de salariat, este necesar să se menţioneze salariul net pentru luna anterioară depunerii cererii, cu precizarea dacă se beneficiază sau nu de bonuri de masă, inclusiv valoarea acestora",
-            "Cupon pensie de intreţinere, dacă este cazul",
-            "Cupon alocaţie de stat/extras de cont (ultima sumă primită)",
-            "Adeverinţe de elev cu precizarea numărului de absenţe nemotivate din ultimul semestru şcolar incheiat, nota la purtare şi menţiunea repetă/nu repetă; dacă repetă, se va menţiona motivul, iar in caz de motiv medical, se va ataşa copie după certificatul/documentul medical",
-            "Certificat de atestare fiscală de la Finanţele Publice Locale (de domiciliu), pentru ambii soţi/parteneri şi copiii adulţi necăsătoriţi, care locuiesc cu familia",
-            "Adeverinţa de la Registrul agricol, pentru ambii soţi/parteneri şi copii adulţi necăsătoriţi, care locuiesc cu familia",
-            "Adeverinţa de venit de la Administraţia Finanţelor Publice, pentru ambii soţi/parteneri şi copiii adulţi necăsătoriţi, care locuiesc cu familia, atât pentru anul in curs, cât şi pentru anul anterior",
-            "Certificat de încadrare in grad de handicap (copie şi original), dacă este cazul",
-            "In cazul uniunii consensuale/concubinaj, se vor prezenta şi documente referitoare la partener",
-            "Un dosar pentru încopciat"
-        ]
-        
-    ],
-    "generalInfo": [
-       "Dosarele se depun personal sau pe bază de procură"
+  "institution": "DAC",
+  "process": "Alocatie pentru sustinerea familiei",
+  "cases": [
+    "Pentru persoanele cu venit lunar de pana la 530 lei/membu de familie"
+  ],
+  "departament": ["DAC"],
+  "forms": [["Alocatie pentru sustinerea familiei"]],
+  "necessary": [
+    [
+      [
+        "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
+        "C.I. / B.I. ale părinţilor (copie şi original)",
+        "Certificatul de căsătorie (copie şi original)",
+        "Certificatele de naştere ale copiilor şi C.I./B.I. pentru copii de peste 14 ani (copii şi original)",
+        "Livretul de familie, completat la zi (copie şi original)",
+        "Hotărâre judecatorească definitivă de divorţ, certificat de deces sau adeverinţă de la Penitenciar pentru soţul arestat, dacă este cazul (copie şi original)",
+        "Hotărâre judecătorească definitivă de incredinţare a copiilor, hotărâre pentru instituirea unei măsuri de ocrotire a copilului, unde este cazul (copie şi original)",
+        "Contract locuinţă (copie şi original)",
+        "Adeverinţă de la asociaţia de locatari/proprietari din care să reiasă că intreaga familie locuieşte la adresa declarată",
+        "Adeverinţe privind venitul net/cupoane de pensie/ajutor şomaj/ajutor social/declaraţie notarială pentru persoanele care nu realizează venituri (parinţi/parteneri şi copiii adulţi necăsătoriţi care locuiesc cu familia), pentru luna anterioară depunerii cererii. In adeverinţele de salariat, este necesar să se menţioneze salariul net pentru luna anterioară depunerii cererii, cu precizarea dacă se beneficiază sau nu de bonuri de masă, inclusiv valoarea acestora",
+        "Cupon pensie de intreţinere, dacă este cazul",
+        "Cupon alocaţie de stat/extras de cont (ultima sumă primită)",
+        "Adeverinţe de elev cu precizarea numărului de absenţe nemotivate din ultimul semestru şcolar incheiat, nota la purtare şi menţiunea repetă/nu repetă; dacă repetă, se va menţiona motivul, iar in caz de motiv medical, se va ataşa copie după certificatul/documentul medical",
+        "Certificat de atestare fiscală de la Finanţele Publice Locale (de domiciliu), pentru ambii soţi/parteneri şi copiii adulţi necăsătoriţi, care locuiesc cu familia",
+        "Adeverinţa de la Registrul agricol, pentru ambii soţi/parteneri şi copii adulţi necăsătoriţi, care locuiesc cu familia",
+        "Adeverinţa de venit de la Administraţia Finanţelor Publice, pentru ambii soţi/parteneri şi copiii adulţi necăsătoriţi, care locuiesc cu familia, atât pentru anul in curs, cât şi pentru anul anterior",
+        "Certificat de încadrare in grad de handicap (copie şi original), dacă este cazul",
+        "In cazul uniunii consensuale/concubinaj, se vor prezenta şi documente referitoare la partener",
+        "Un dosar pentru încopciat"
+      ]
     ]
+  ],
+  "generalInfo": ["Dosarele se depun personal sau pe bază de procură"]
 }

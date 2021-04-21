@@ -1,29 +1,26 @@
 {
-    "institution": "ANAF",
-    "process": "INREGISTRAREA FISCALA A PERSOANELOR FIZICE CARE ISI SCHIMBA DOMICILIUL FISCAL(persoane fizice din alta localitate care isi schimba domiciliul fiscal in Iasi)",
-    "cases": [
-      "Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"
-    ],
-    "departaments": [
-      "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
-    ],
-    "forms": [
-      [""]
-    ],
-    "neccessary": [
+  "institution": "ANAF",
+  "process": "INREGISTRAREA FISCALA A PERSOANELOR FIZICE CARE ISI SCHIMBA DOMICILIUL FISCAL(persoane fizice din alta localitate care isi schimba domiciliul fiscal in Iasi)",
+  "cases": [
+    "Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"
+  ],
+  "departaments": [
+    "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+  ],
+  "forms": [["Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"]],
+  "necessary": [
+    [
       [
-          "cerere de inregistrare a domiciliului fiscal al contribuabilului- formular 050, care se distribuie gratuit de la etajul 1,cam. 1103;",
-          "declaratie de inregistrare fiscala/declaratie de mentiuni pentru persoane fizice romane- formular 020;",
-          "copie act spatiu;",
-          "alte acte doveditoare dupa caz;"
-      ]
-    ],
-    "generalInfo": [
-      [
-        [
-            "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
-        ]   
+        "cerere de inregistrare a domiciliului fiscal al contribuabilului- formular 050, care se distribuie gratuit de la etajul 1,cam. 1103;",
+        "declaratie de inregistrare fiscala/declaratie de mentiuni pentru persoane fizice romane- formular 020;",
+        "copie act spatiu;",
+        "alte acte doveditoare dupa caz;"
       ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
+    ]
+  ]
+}

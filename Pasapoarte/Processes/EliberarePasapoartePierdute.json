@@ -1,24 +1,22 @@
 {
-    "institution": "Pasapoarte",
-    "process": "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute",
-    "cases": [
-        "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"
-    ],
-    "departaments": [
-        "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"
-    ],
-    "forms": [
-        [""]
-    ],
-    "necessary": [
-        [
-            "Pierderea documentului de călătorie se declară de îndată de către titular sau, după caz, de către persoanele prevăzute la art. 20 alin. 2 din Legea nr. 248/2005, cu modificările şi completările ulterioare, la cea mai apropiată unitate de poliţie sau la orice serviciu public comunitar de paşapoarte ori la Direcţia Generală de Paşapoarte, iar în străinătate, la misiunile diplomatice sau oficiile consulare ale României. În cazul declarării pierderii la organele de poliţie, acestea au obligaţia de a elibera o adeverinţă care să ateste declararea evenimentului respectiv. Obligaţia declarării pierderii documentului de călătorie poate fi realizată şi cu ocazia depunerii cererii pentru eliberarea unui nou paşaport, situaţie în care titularul va declara pe propria răspundere împrejurările producerii evenimentului.",
-            "Documentul declarat pierdut, găsit de titular sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după ce au declarat evenimentul în condiţiile prevăzute la art. 25 din acelaşi act normativ, dar înainte de a se elibera un nou document, poate fi folosit în continuare, în condiţiile legii, numai după ce informează autoritatea emitentă cu privire la găsirea acestuia.",
-            "În cazul în care titularul sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document de călătorie găsesc documentul declarat pierdut, au obligaţia de a nu-l folosi şi de a-l depune de îndată la autoritatea emitentă.",
-            "Documentul declarat pierdut, găsit de titular sau de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document, poate fi folosit în continuare, în condiţiile legii, numai după prezentarea la autorităţile competente a documentului găsit, aflat în termenul de valabilitate şi într-o stare fizică corespunzătoare, şi după anularea noului document de călătorie, la solicitarea scrisă a titularului."
-        ]
-    ],
-    "generalInfo": [
-        []
+  "institution": "Directia Generala de Pasapoarte",
+  "process": "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute",
+  "cases": [
+    "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"
+  ],
+  "departaments": ["Directia Generala de Pasapoarte"],
+  "forms": [
+    ["Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"]
+  ],
+  "necessary": [
+    [
+      [
+        "Pierderea documentului de călătorie se declară de îndată de către titular sau, după caz, de către persoanele prevăzute la art. 20 alin. 2 din Legea nr. 248/2005, cu modificările şi completările ulterioare, la cea mai apropiată unitate de poliţie sau la orice serviciu public comunitar de paşapoarte ori la Direcţia Generală de Paşapoarte, iar în străinătate, la misiunile diplomatice sau oficiile consulare ale României. În cazul declarării pierderii la organele de poliţie, acestea au obligaţia de a elibera o adeverinţă care să ateste declararea evenimentului respectiv. Obligaţia declarării pierderii documentului de călătorie poate fi realizată şi cu ocazia depunerii cererii pentru eliberarea unui nou paşaport, situaţie în care titularul va declara pe propria răspundere împrejurările producerii evenimentului.",
+        "Documentul declarat pierdut, găsit de titular sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după ce au declarat evenimentul în condiţiile prevăzute la art. 25 din acelaşi act normativ, dar înainte de a se elibera un nou document, poate fi folosit în continuare, în condiţiile legii, numai după ce informează autoritatea emitentă cu privire la găsirea acestuia.",
+        "În cazul în care titularul sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document de călătorie găsesc documentul declarat pierdut, au obligaţia de a nu-l folosi şi de a-l depune de îndată la autoritatea emitentă.",
+        "Documentul declarat pierdut, găsit de titular sau de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document, poate fi folosit în continuare, în condiţiile legii, numai după prezentarea la autorităţile competente a documentului găsit, aflat în termenul de valabilitate şi într-o stare fizică corespunzătoare, şi după anularea noului document de călătorie, la solicitarea scrisă a titularului."
+      ]
     ]
+  ],
+  "generalInfo": [[""]]
 }

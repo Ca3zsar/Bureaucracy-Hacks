@@ -5,14 +5,14 @@
       "Serviciul Incasarea si evidenta veniturilor bugetare"
     ],
     "cases": [
-     "  "
+     "Pentru restituiri de sume prin trezorerie"
     ],
     "forms": [
       [
-       ""
+       "Restituiri de sume prin trezorerie"
       ]
     ],
-    "neccessary": [
+    "necessary": [
       [
         [
          "cerere motivata pentru aprobarea restituirii (conform model procurat de la Secretariatul Trezoreriei Mun.Iasi – cam 101, mezanin); ",
@@ -23,14 +23,7 @@
     ],
     "generalInfo": [
       [
-          "cererea, impreuna cu documentele prevazute, se depune la secretariatul Trezoreriei Administratiei Finantelor Publice a Municipiului Iasi si se solutioneaza prin restituirea sumelor la ghiseu, in sala mare, parter "
+          "Cererea, impreuna cu documentele prevazute, se depune la secretariatul Trezoreriei Administratiei Finantelor Publice a Municipiului Iasi si se solutioneaza prin restituirea sumelor la ghiseu, in sala mare, parter "
       ]
-    ],
-    "prices":
-    [
-       [ 
-           "" 
-       ]
-    ],
-    "files":[]
+    ]
   }

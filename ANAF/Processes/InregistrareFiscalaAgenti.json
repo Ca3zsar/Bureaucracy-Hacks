@@ -17,8 +17,9 @@
         "Certificat de inregistrare fiscala (Cod 14.13.20.99)"
       ]
     ],
-    "neccessary": [
+    "necessary": [
         [
+          [
             "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
             "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
             "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
@@ -30,8 +31,10 @@
             "hotarire judecatoreasca de infiintare;",
             "dovada spatiu;",
             "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari."
+          ]
         ],
         [
+          [
             "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
             "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
             "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
@@ -41,6 +44,7 @@
             "copie incheiere judecatoresaca de inscriere in registrul asociatiilor si fundatiilor.",
             "dovada spatiu;",
             "copie act de constituire"
+          ]
         ]
     ],
     "generalInfo": [

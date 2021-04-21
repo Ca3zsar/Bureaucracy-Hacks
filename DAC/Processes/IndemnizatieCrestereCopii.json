@@ -1,60 +1,64 @@
 {
-    "institution": "DAC",
-    "process": "Acordarea indemnizatiei de crestere a copilului",
-    "cases": [
-        "Pentru salariati",
-        "Persoane ce au realizat venituri din activitati independente",
-        "Persoane ce au avut / au calitatea de elev/student"
+  "institution": "DAC",
+  "process": "Acordarea indemnizatiei de crestere a copilului",
+  "cases": [
+    "Pentru salariati",
+    "Persoane ce au realizat venituri din activitati independente",
+    "Persoane ce au avut / au calitatea de elev/student"
+  ],
+  "departament": ["DAC", "DAC", "DAC"],
+  "forms": [
+    ["Acordarea indemnizatiei de crestere a copilului"],
+    ["Acordarea indemnizatiei de crestere a copilului"],
+    ["Acordarea indemnizatiei de crestere a copilului"]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
+        "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
+        "Dosar cu sina",
+        "Adeverinta tip eliberata de catre angajator, din care sa reiasa indeplinirea conditiilor legale privind stagiul de cotizare si veniturile nete realizate (in ultimii doi ani inainte de nasterea copilului)",
+        "Copie a cererii inaintata de catre angajator pentru acordarea concediului pentru cresterea copilului pana la 2 ani (sau pana la 3 ani pentru copilul cu handicap) - aprobata, semnata, stampilata, inregistrata, copie conform cu originalul",
+        "Act aditional sau decizia de suspendare a contractului de munca, cu ziua următoare celei în care se termină concediul de maternitate, cel mai repede, cu a 43-a zi de la naștere, în original sau copie conform cu originalul"
+      ]
     ],
-    "departament": [
-        ""
+    [
+      [
+        "Cerere tip",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
+        "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
+        "Dosar cu sina",
+        "Decizii de impunere/declaraţie unică şi adeverinţe de venit eliberate de către Administraţiile Financiare pentru anii fiscali anteriori naşterii copilului (veniturile realizate în ultimile 12 luni din cei 2 ani anteriori nașterii copilului)",
+        "Certificat de atestare fiscală pe firma",
+        "Document doveditor privind suspendarea activităţii pe perioada concediului de creştere a copilului",
+        "Pentru avocaţi, se solicită suplimentar: adeverinţă eliberată de către Barou",
+        "Document din care să rezulte perioada în care a beneficiat de concediul de sarcină și lăuzie şi suma lunară de care a beneficiat, dacă este cazul, eliberat de plătitorul acestuia"
+      ]
     ],
-    "forms": [
-        [
-            ""
-        ]
-    ],
-    "necessary": [
-        [
-            "Cerere tip",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
-            "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
-            "Dosar cu sina",
-            "Adeverinta tip eliberata de catre angajator, din care sa reiasa indeplinirea conditiilor legale privind stagiul de cotizare si veniturile nete realizate (in ultimii doi ani inainte de nasterea copilului)",
-            "Copie a cererii inaintata de catre angajator pentru acordarea concediului pentru cresterea copilului pana la 2 ani (sau pana la 3 ani pentru copilul cu handicap) - aprobata, semnata, stampilata, inregistrata, copie conform cu originalul",
-            "Act aditional sau decizia de suspendare a contractului de munca, cu ziua următoare celei în care se termină concediul de maternitate, cel mai repede, cu a 43-a zi de la naștere, în original sau copie conform cu originalul"
-        ],
-        [
-            "Cerere tip",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
-            "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
-            "Dosar cu sina",
-            "Decizii de impunere/declaraţie unică şi adeverinţe de venit eliberate de către Administraţiile Financiare pentru anii fiscali anteriori naşterii copilului (veniturile realizate în ultimile 12 luni din cei 2 ani anteriori nașterii copilului)",
-            "Certificat de atestare fiscală pe firma",
-            "Document doveditor privind suspendarea activităţii pe perioada concediului de creştere a copilului",
-            "Pentru avocaţi, se solicită suplimentar: adeverinţă eliberată de către Barou",
-            "Document din care să rezulte perioada în care a beneficiat de concediul de sarcină și lăuzie şi suma lunară de care a beneficiat, dacă este cazul, eliberat de plătitorul acestuia"
-        ],
-        [
-            "Cerere tip",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
-            "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
-            "Dosar cu sina",
-            "Adeverinţa eliberată de unitatea de învăţământ cu menţiunea \"a frecventat fără întrerupere cursurile de zi\" în ultimii doi ani anteriori naşterii copilului, dacă este cazul"
-        ]
-    ],
-    "generalInfo": [
-        [
-            "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
-        ],
-        [
-            "La depunerea documentaţiei, este obligatorie prezentarea documentelor de identitate ale ambilor parinţi şi ale copiilor în original"
-        ],
-        [
-            "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
-        ]
+    [
+      [
+        "Cerere tip",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
+        "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
+        "Dosar cu sina",
+        "Adeverinţa eliberată de unitatea de învăţământ cu menţiunea \"a frecventat fără întrerupere cursurile de zi\" în ultimii doi ani anteriori naşterii copilului, dacă este cazul"
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
+    ],
+    [
+      "La depunerea documentaţiei, este obligatorie prezentarea documentelor de identitate ale ambilor parinţi şi ale copiilor în original"
+    ],
+    [
+      "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
+    ]
+  ]
 }

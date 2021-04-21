@@ -1,45 +1,44 @@
 {
-    "institution": "ANAF",
-    "process": "INREGISTRAREA PERSOANELOR FIZICE CARE NU AU CALITATEA DE COMERCIANT SI A PERSOANELOR FIZICE CARE OBTIN VENITURI DIN ACTIVITATI INDEPENDENTE, PENTRU CARE PLATILE ANTICIPATE SE FAC PRIN RETINERE LA SURSA DE CATRE PLATITORII DE VENITURI",
-    "cases": [
-        "Inregistrarea personelor fizice care obtin venituri din activitati independente (profesii libere: contabili, medici, avocati, arhitecti,experti, specialisti in cadastru ,traducatori)conform ORD.1346/2006, publcat in MO 744/31.08.2006 si a persoanelor fizice care au calitatea de comerciant(autorizatii primarie )cf.Legii 507/2002 si aLegii 300/2004.",
-        "Inregistrarea persoanelor fizice care nu au calitatea de comerciant(colaboratori)"
-    ],
-    "departaments": [
-        "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
-        "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
-    ],
-    "forms": [
-        [
-            "Certificat de inregistrare fiscala"
-        ],
-        [
-            "Certificat de inregistrare fiscala"
-        ]
-    ],
-    "neccessary": [
+  "institution": "ANAF",
+  "process": "INREGISTRAREA PERSOANELOR FIZICE CARE NU AU CALITATEA DE COMERCIANT SI A PERSOANELOR FIZICE CARE OBTIN VENITURI DIN ACTIVITATI INDEPENDENTE, PENTRU CARE PLATILE ANTICIPATE SE FAC PRIN RETINERE LA SURSA DE CATRE PLATITORII DE VENITURI",
+  "cases": [
+    "Inregistrarea personelor fizice care obtin venituri din activitati independente (profesii libere: contabili, medici, avocati, arhitecti,experti, specialisti in cadastru ,traducatori)conform ORD.1346/2006, publcat in MO 744/31.08.2006 si a persoanelor fizice care au calitatea de comerciant(autorizatii primarie )cf.Legii 507/2002 si aLegii 300/2004.",
+    "Inregistrarea persoanelor fizice care nu au calitatea de comerciant(colaboratori)"
+  ],
+  "departaments": [
+    "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+    "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+  ],
+  "forms": [
+    ["Certificat de inregistrare fiscala"],
+    ["Certificat de inregistrare fiscala"]
+  ],
+  "necessary": [
+    [
       [
-          "declaratie de inregistrare fiscala/ declaratie de mentiuni pentru persoane fizice care desfasoara activitati economice in mod independent sau exercita profesii libere-formular 070, care se distribuie gratuit de la etajul 1, cam.1103;",
-          "copie actul de identitate eliberat de organele abilitate, potrivit legii;",
-          "copie de pe documentul eliberat de autoritatea competenta care atesta dreptul de exercitare a activitatii;",
-          "copie de pe alte acte doveditoare in baza carora se exercita activitatea;",
-          "copie act de spatiu"
-      ],
-      [
-          "declaratie de inregistrare fiscala/ declaratie de mentiuni pentru persoane fizice romane-formular 020, care se distribuie gratuit de la etajul 1, cam.1103;",
-          "copie actul de identitate eliberat de organele abilitate, potrivit legii;",
-          "copie de pe documentul eliberat de autoritatea competenta care atesta dreptul de exercitare a activitatii(contracul de :colaborator ,mandat,comision,management,drepturi de autor,asigurari,reasigurari,activitati artistice);"
+        "declaratie de inregistrare fiscala/ declaratie de mentiuni pentru persoane fizice care desfasoara activitati economice in mod independent sau exercita profesii libere-formular 070, care se distribuie gratuit de la etajul 1, cam.1103;",
+        "copie actul de identitate eliberat de organele abilitate, potrivit legii;",
+        "copie de pe documentul eliberat de autoritatea competenta care atesta dreptul de exercitare a activitatii;",
+        "copie de pe alte acte doveditoare in baza carora se exercita activitatea;",
+        "copie act de spatiu"
       ]
     ],
-    "generalInfo": [
+    [
       [
-        [
-            "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
-        ],
-        [
-            "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
-        ]  
+        "declaratie de inregistrare fiscala/ declaratie de mentiuni pentru persoane fizice romane-formular 020, care se distribuie gratuit de la etajul 1, cam.1103;",
+        "copie actul de identitate eliberat de organele abilitate, potrivit legii;",
+        "copie de pe documentul eliberat de autoritatea competenta care atesta dreptul de exercitare a activitatii(contracul de :colaborator ,mandat,comision,management,drepturi de autor,asigurari,reasigurari,activitati artistice);"
       ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
+      ],
+      [
+        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
+      ]
+    ]
+  ]
+}

@@ -1,21 +1,19 @@
 {
-    "institution": "Pasapoarte",
-    "process": "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate",
-    "cases": [
-        "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"
-    ],
-    "departaments": [
-        "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"
-    ],
-    "forms": [
-        [""]
-    ],
-    "necessary": [
-        [
-            "În cazul distrugerii parţiale a paşaportului simplu, a paşaportului simplu electronic sau a paşaportului simplu temporar, soluţionarea cererii pentru eliberarea unui nou paşaport este condiţionată de prezentarea paşaportului distrus sau a fragmentelor din acesta, cu condiţia ca acestea să cuprindă elemente de conţinut care să facă posibilă identificarea documentului."
-        ]
-    ],
-    "generalInfo": [
-        []
+  "institution": "Directia generala de pasapoarte",
+  "process": "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate",
+  "cases": [
+    "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"
+  ],
+  "departaments": [
+    "Directia Generala de Pasapoarte"
+  ],
+  "forms": [["Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"]],
+  "necessary": [
+    [
+      [
+        "În cazul distrugerii parţiale a paşaportului simplu, a paşaportului simplu electronic sau a paşaportului simplu temporar, soluţionarea cererii pentru eliberarea unui nou paşaport este condiţionată de prezentarea paşaportului distrus sau a fragmentelor din acesta, cu condiţia ca acestea să cuprindă elemente de conţinut care să facă posibilă identificarea documentului."
+      ]
     ]
+  ],
+  "generalInfo": [[""]]
 }

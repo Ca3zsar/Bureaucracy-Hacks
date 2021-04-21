@@ -6,15 +6,21 @@
         "Persoane ce au realizat venituri din activitati independente"
     ],
     "departament": [
-        ""
+        "DAC",
+        "DAC"
     ],
     "forms": [
         [
-            ""
+            "Acordarea stimulentului pentru crestere copil/de insertie"
+        ],
+        [
+            "Acordarea stimulentului pentru crestere copil/de insertie"
         ]
+
     ],
     "necessary": [
         [
+            [
             "Cerere tip",
             "Notificare privind prelucrarea datelor cu caracter personal",
             "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
@@ -22,8 +28,10 @@
             "Dosar cu sina",
             "Adeverinta tip eliberata de catre angajator, din care sa reiasa indeplinirea conditiilor legale privind stagiul de cotizare si veniturile nete realizate (in ultimii doi ani inainte de nasterea copilului)",
             "Decizia sau adeverința eliberată de către angajator din care să rezulte reluarea activităţii /realizarea de venituri supuse impozitului  și că nu a solicitat concediul pentru creștere copil"
+            ]
         ],
         [
+            [
             "Cerere tip",
             "Notificare privind prelucrarea datelor cu caracter personal",
             "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
@@ -35,6 +43,7 @@
             "Document din care să rezulte perioada în care a beneficiat de concediul de sarcină și lăuzie şi suma lunară de care a beneficiat, dacă este cazul, eliberat de plătitorul acestuia",
             "Pentru avocaţi, se solicită suplimentar: adeverinţă eliberată de către Barou"
         ]
+    ]
     ],
     "generalInfo": [
         [
