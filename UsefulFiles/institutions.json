@@ -1,7 +1,12 @@
 {
   "institutions": [
     { "name": "ANAF", "phone": "0232213332", "email": "Admin.ISISAFBX01.IS@anaf.ro" },
-    { "name": "Casa Judeteana de Asigurari Iasi", "phone": "0232218630", "email": "secretariat@cjasis.ro" },
+    { "name": "Casa Judeteana de Asigurari de Sanatate Iasi", "phone": "0232218630", "email": "secretariat@cjasis.ro" },
+    {
+      "name":"Directia de Asistenta Sociala Iasi",
+      "phone":"0232206344",
+      "email":"contact@dac-iasi.ro"
+    },
     {
       "name": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
       "phone": "0232477731 ",
@@ -18,7 +23,7 @@
       "email": ""
     },
     { "name": "Directia Generala pentru Pasapoarte", "phone": "0232302801", "email": "pasapoarte@prefecturaiasi.ro" },
-    { "name": "Casa Judeteana de Pensii", "phone": "0232240053", "email": "cjp.iasi@cnpp.ro" },
+    { "name": "Casa Judeteana de Pensii Iasi", "phone": "0232240053", "email": "cjp.iasi@cnpp.ro" },
     { "name": "Primaria Iasi", "phone": "0232267582", "email": "cabinet.primar@primaria-iasi.ro" }
   ]
 }
