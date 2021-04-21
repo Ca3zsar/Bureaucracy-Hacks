@@ -19,47 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titlu2" />
 
-    <Spinner
-        android:id="@+id/feedbackSpinner"
-        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:animateLayoutChanges="true"
-        android:background="#014f86"
-        android:clipToPadding="false"
-        android:dropDownWidth="match_parent"
-        android:entries="@array/ratings"
-        android:fadeScrollbars="false"
-        android:gravity="center"
-        android:hapticFeedbackEnabled="false"
-        android:padding="10dip"
-        android:saveEnabled="false"
-        android:scrollbarSize="100dp"
-        android:spinnerMode="dialog"
-        android:splitMotionEvents="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
-
-
-    <TextView
-        android:id="@+id/feedbackInformatii"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="220dp"
-        android:gravity="center"
-        android:text="Cât de mulțumit ești?"
-        android:textColor="#03045e"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/feedbackTitlu"
@@ -93,7 +52,7 @@
         android:id="@+id/feedbackNume"
         android:layout_width="323dp"
         android:layout_height="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="250dp"
         android:backgroundTint="#0000FF"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -109,7 +68,7 @@
         android:id="@+id/feedbackMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="380dp"
         android:backgroundTint="#0000FF"
         android:breakStrategy="balanced"
         android:fitsSystemWindows="true"
