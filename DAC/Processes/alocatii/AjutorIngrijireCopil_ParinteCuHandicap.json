@@ -1,0 +1,47 @@
+{
+    "institution": "DAC",
+    "process": "Indemnizatia / Ajutorul pentru ingrijirea copilului cu varsta 0-7 ani daca copilul/parintele este persoana cu handicap",
+    "cases": [
+        "Pentru persoane nesalariate/salariate cu program de lucru normal",
+        "Pentru persoane salariate cu program de lucru redus la 4 ore"
+    ],
+    "departament": [
+        ""
+    ],
+    "forms": [
+        [
+            ""
+        ]
+    ],
+    "necessary": [
+        [
+            "Cerere tip",
+            "Notificare privind prelucrarea datelor cu caracter personal",
+            "Originale si copii dupa actele de identitate (B.I./C.I. sau certificate de nastere) ale membrilor familiei: sot, sotie, copii",
+            "Certificat de casatorie",
+            "Certificatul de încadrare în grad de handicap pentru solicitant/persoana indreptatita și/sau minorul pentru care se solicita dreptul",
+            "Cerere de acordare a concediului pentru îngrijirea copilului, în perioada 0 - 7 ani, daca este cazul",
+            "Decizia de suspendare a contractului de munca sau act aditional la contractul de munca, daca este cazul",
+            "Documente care dovedesc ca parintii nu sunt angajati ca asistent personal pentru minor, doar pentru handicap de grad 1 al copilului",
+            "Alte acte, dupa caz"
+        ],
+        [
+            "Cerere tip",
+            "Notificare privind prelucrarea datelor cu caracter personal",
+            "Originale si copii dupa actele de identitate (B.I./C.I. sau certificate de nastere) ale membrilor familiei: sot, sotie, copii",
+            "Copie si original pentru certificatul și hotărarea de încadrare în grad de handicap",
+            "Copie conformată cu originalul după Decizia/Actul adițional prin care se aproba reducerea programului de munca la 4 ore, pentru creșterea și îngrijirea copilului cu handicap",
+            "Alte acte necesare după caz",
+            "Dosar cu șina"
+
+        ]
+    ],
+    "generalInfo": [
+        [
+            ""
+        ],
+        [
+            "Începand cu 1 iulie 2016, oricare dintre părinți/persoanele îndreptățite, care se ocupă efectiv de creșterea și îngrijirea copilului cu dizabilitate gravă sau accentuată în varstă de la 3 ani pană la 18 ani și își desfășoară activitatea cu un program redus de muncă la 4 ore, poate beneficia de o indemnizație lunară egala cu 50% din cunatumul minim al indemnizației de creștere a copilului"
+        ]
+    ]
+}
