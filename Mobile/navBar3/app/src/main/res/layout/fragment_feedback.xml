@@ -17,11 +17,12 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlu2" />
+        app:layout_constraintTop_toBottomOf="@+id/titlu2" >
 
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/feedbackTitlu"
+        android:id="@+id/titlu1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="70dp"
@@ -52,7 +53,7 @@
         android:id="@+id/feedbackNume"
         android:layout_width="323dp"
         android:layout_height="50dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:backgroundTint="#0000FF"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -68,7 +69,7 @@
         android:id="@+id/feedbackMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="280dp"
         android:backgroundTint="#0000FF"
         android:breakStrategy="balanced"
         android:fitsSystemWindows="true"
@@ -84,18 +85,19 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/text_feedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:textColor="#caf0f8"
-        android:textSize="0sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="0sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
