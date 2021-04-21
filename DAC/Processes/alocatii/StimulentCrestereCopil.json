@@ -1,0 +1,47 @@
+{
+    "institution": "DAC",
+    "process": "Acordarea stimulentului pentru crestere copil/de insertie",
+    "cases": [
+        "Pentru salariati",
+        "Persoane ce au realizat venituri din activitati independente"
+    ],
+    "departament": [
+        ""
+    ],
+    "forms": [
+        [
+            ""
+        ]
+    ],
+    "necessary": [
+        [
+            "Cerere tip",
+            "Notificare privind prelucrarea datelor cu caracter personal",
+            "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
+            "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
+            "Dosar cu sina",
+            "Adeverinta tip eliberata de catre angajator, din care sa reiasa indeplinirea conditiilor legale privind stagiul de cotizare si veniturile nete realizate (in ultimii doi ani inainte de nasterea copilului)",
+            "Decizia sau adeverința eliberată de către angajator din care să rezulte reluarea activităţii /realizarea de venituri supuse impozitului  și că nu a solicitat concediul pentru creștere copil"
+        ],
+        [
+            "Cerere tip",
+            "Notificare privind prelucrarea datelor cu caracter personal",
+            "Documente de identitate: C.I./B.I./C.I.P parinti, certificat de casatorie, certificat de nastere a copilului - in original si copie",
+            "Extras de cont pe numele solicitantului/titularului(actualizat cu numele utilizat in prezent, in cazul persoanelor casatorite/divortate)",
+            "Dosar cu sina",
+            "Decizii de impunere/declaraţie unică şi adeverinţe de venit eliberate de către Administraţiile Financiare pentru anii fiscali anteriori naşterii copilului (veniturile realizate în ultimile 12 luni din cei 2 ani anteriori nașterii copilului)",
+            "Certificat de atestare fiscală pe firma",
+            "Document din care să rezulte că obține venituri impozabile (declarație de venituri estimate pentru anul în curs și declarație pe proprie răspundere că va obține venituri pe toată perioada în care va beneficia de stimulent de inserție)",
+            "Document din care să rezulte perioada în care a beneficiat de concediul de sarcină și lăuzie şi suma lunară de care a beneficiat, dacă este cazul, eliberat de plătitorul acestuia",
+            "Pentru avocaţi, se solicită suplimentar: adeverinţă eliberată de către Barou"
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Persoana care beneficiează de stimulent de inserție trebuie să obțină venituri impozabile pe toată perioada în care beneficiează de acest drept"
+        ],
+        [
+            "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
+        ]
+    ]
+}

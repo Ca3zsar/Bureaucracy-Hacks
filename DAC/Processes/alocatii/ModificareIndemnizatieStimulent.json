@@ -1,0 +1,33 @@
+{
+    "institution": "DAC",
+    "process": "Modificarea din indemnizatie in stimulent sau din stimulent in indemnizatie",
+    "cases": [
+        "Pentru modificarea din indemnizatie in stimulent si invers"
+    ],
+    "departament": [
+        ""
+    ],
+    "forms": [
+        [
+            ""
+        ]
+    ],
+    "necessary": [
+        [
+            "Cerere tip",
+            "Notificare privind prelucrarea datelor cu caracter personal",
+            "Certificatul de naștere al copilului, certificatul de căsătorie și carţile de identitate ale ambilor părinţi in original şi copie",
+            "Extras de cont pe numele solicitantului/titularului",
+            "Copie conform cu originalul după Decizia de revenire în activitate sau adeverință salariat - pentru modificare indemnizație/stimulent, respectiv suspendare activitate - pentru modificare stimulent/ indemnizatie"
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Dacă ambii părinţi au realizat stagiul de cotizare de 12 luni, în ultimii 2 ani înainte de a se naşte copilul, primul care solicită drepturile este obligat să rezerve cel puţin o lună pentru celălalt parinte",
+            "Dacă se naşte un alt copil, înainte ca cel pentru care se primesc drepturile să împlinească vârsta 1 an şi 11 luni, perioada rezervată se poate amâna şi cumula cu perioada rezervată pentru următorul copil, parintele care beneficiază deja de drepturi urmând să rezerve cel puţin 2 luni pentru celălat soţ, înainte de a împlinirea de către următorul copil a vârstei de 2 ani",
+            "Pentru a exista continuitate în plata pentru pentru părintele care beneficiază deja de drepturi, în situaţia de mai sus, în care se naşte următorul copil, soţul aflat în concediul de creştere copil poate depune dosarul de solicitare a drepturilor pentru următorul copil, cu 60 de zile înainte de împlinirea de către primul copil a vârstei de  2 ani",
+            "În situația în care persoana îndreptățită realizează venituri supuse impozitului cu cel puțin 60 zile înainte de împlinirea de către copil a varstei de 2 ani, respectiv 3 ani, în cazul copilului cu handicap, stimulentul de inserție se acordă pană la 3 ani, respectiv 4 ani, în cazul copilului cu handicap (cu condiția ca în acest timp să se realizeze venituri supuse impozitului)",
+            "Salariata/salariatul are obligatia de a anunta, in scris, angajatorul cu cel putin 30 de zile inainte intentia de reluare a raportului de munca sau de serviciu"
+        ]
+    ]
+}
