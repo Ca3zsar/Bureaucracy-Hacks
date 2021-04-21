@@ -1,0 +1,32 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Eliberare Paşaport European pentru armele de foc ",
+    "cases": [
+      "Pentru eliberarea paşaportului European pentru armele de foc "
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Eliberare Paşaport European pentru armele de foc "]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru Eliberare Paşaport European pentru armele de foc "
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          "In termen de 30 de zile de la înregistrarea cererii, organele de poliţie competente eliberează paşaportul european pentru arme de foc, în care se înscriu exclusiv armele letale pentru care titularul are drept de deţinere sau de port şi folosire"
+      ]
+    ],
+    "prices": [
+      [
+          ""
+      ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa4.xls"
+    ]
+  }
+  

@@ -11,9 +11,9 @@ DOMAIN = 'https://www.dasiasi.ro/'
 URL = 'https://www.dasiasi.ro/?page=lista&Nume=formulare&tp=lst&id=6&n='
 FileType = 'pdf' 
 
-director = f"{os.path.dirname(__file__)}/Content"
-HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
-acte = f"{os.path.dirname(__file__)}/Acte"
+director = f"{os.path.dirname(__file__)}\\Content"
+HTMLFiles = f"{os.path.dirname(__file__)}\\HTMLFiles"
+acte = f"{os.path.dirname(__file__)}\\Acte"
 
 def deletingFiles():
     if os.path.exists(acte):
@@ -35,7 +35,7 @@ def go_spider_scrapping(url,document_director, fileName):
     page = requests.get(url)
     soup = BeautifulSoup(page.content,'html.parser') 
     further_research = soup.find_all('div',class_='content-text')
-    path = f"{HTMLFiles}/{fileName}.html"
+    path = f"{HTMLFiles}\\{fileName}.html"
     
     f= open(path,'w+', encoding='utf-8') 
     f.write(str(further_research[0])) 
@@ -52,13 +52,13 @@ def go_spider_scrapping(url,document_director, fileName):
             title = link_for_download.split('/')[-1]
             title = title.replace('%20',' ')
             
-            path = path + '/' + title
+            path = os.path.join(path,title)
             with open(path, 'wb') as file: 
                         response= requests.get(link_for_download)
                         file.write(response.content)
                         file.close()
     if txt : 
-        path = f"{director}/{fileName}.txt"
+        path = f"{director}\\{fileName}.txt"
         f = open(path, "w+", encoding='utf-8')
         f.write(txt[0].text)
         f.close()
@@ -109,7 +109,7 @@ def go_spider_crawler(URL) :
                 document_director= link_documents[0].text
                 document_director = document_director.replace('/','.')
                 
-                document_director = acte + "/" + document_director
+                document_director = os.path.join(acte,document_director)
                 os.mkdir(document_director)
                 
                 go_spider_scrapping(DOMAIN+further_research,document_director,link_documents[0].text.replace('/','.'))
@@ -121,7 +121,7 @@ def scrape_schedule(DOMAIN):
     html_div = soup.find("div", {"class":"orar"})
     html_div_content = str(html_div)
     
-    path = HTMLFiles + "/" + "orar.html"
+    path = os.path.join(HTMLFiles,"orar.html")
     f = open(path, "w+", encoding='utf-8')
     f.write(html_div_content)
     f.close()
@@ -131,7 +131,7 @@ def scrape_schedule(DOMAIN):
     txt = re.sub("<p[^>]*>", "", txt)
     txt = re.sub("</?p[^>]*>", "", txt)
 
-    path = director + "/" + "orar.txt"
+    path = os.path.join(director,"orar.txt")
     filetoWrite = open(path,"w+", encoding='utf-8') 
     filetoWrite.write(txt)
     filetoWrite.close()

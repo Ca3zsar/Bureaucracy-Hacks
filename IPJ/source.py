@@ -65,19 +65,23 @@ def downloadPoliceDocuments():
         if os.path.exists(f"{acte}\\{folders[cont]}"):
             shutil.rmtree(f"{acte}\\{folders[cont]}")
             
+        index = 1
         os.mkdir(f"{acte}\\{folders[cont]}")
         for data in downloadContent:
             response = urllib.request.urlopen(data["href"])
 
             parsed = urlparse(data["href"])
-            fileName = os.path.basename(parsed.path)
-
+            something, extension = os.path.splitext(parsed.path)
+            fileName = f"{folders[cont]}_Anexa{index}{extension}"
+            index += 1
+            
             file = open(f"{fileName}", "wb")
             file.write(response.read())
             file.close()
 
             os.rename(f"{fileName}", f"{acte}\\{folders[cont]}\\{fileName}")
         cont += 1
+        
     page = requests.get("https://www.politiaromana.ro/ro/utile/documente-eliberari-acte/formulare-tipizate-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase/cereri-formulare-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase")
     page.encoding = page.apparent_encoding
     downloadableDiv = BeautifulSoup(page.text, "html.parser")
@@ -87,6 +91,7 @@ def downloadPoliceDocuments():
         shutil.rmtree(f"{acte}\\arme_explozivi")
     os.mkdir(f"{acte}\\arme_explozivi")
 
+    index = 1
     for data in downloadContent:
         link = data["href"]
         link = re.sub("ă", '%C4%83', link)
@@ -97,7 +102,11 @@ def downloadPoliceDocuments():
 
         response = urllib.request.urlopen(link)
         parsed = urlparse(link)
-        fileName = os.path.basename(parsed.path)
+        something, extension = os.path.splitext(parsed.path)
+        
+        fileName = f"arme_explozivi_Anexa{index}{extension}"
+        index += 1
+            
         file = open(f"{fileName}", "wb")
         file.write(response.read())
         file.close()

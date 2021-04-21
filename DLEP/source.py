@@ -84,11 +84,9 @@ def go_spider_scrapping(url):
 
     pdfs= soup.select('div[class=galleriesDocsPad] a')
     if pdfs : 
-        print(url)
         for pdf in pdfs : 
             link_for_download = DOMAIN + pdf.get('href')
             link_for_title= pdf.get('title')
-            print(link_for_title)
 
             path = f"{acte}";
 

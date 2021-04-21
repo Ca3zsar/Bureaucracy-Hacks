@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Autorizare persoane juridice pentru a deţine, purta şi folosi arme letale/neletale supuse autorizării ",
+    "cases": [
+        "Pentru autorizare persoane juridice pentru a deţine, purta şi folosi arme letale/neletale supuse autorizării "
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Autorizare persoane juridice pentru a deţine, purta şi folosi arme letale/neletale supuse autorizării "]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru Autorizare persoane juridice pentru a deţine, purta şi folosi arme letale/neletale supuse autorizării "
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          "Persoanele juridice care pot solicita autorizarea sunt persoanele juridice de drept public, cele de drept privat şi muzeele care pot procura şi deţine arme de colecţie."
+      ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa5.xls"
+    ]
+  }
+  

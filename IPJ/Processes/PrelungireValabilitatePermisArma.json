@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Prelungire valabilitate permis armă ",
+    "cases": [
+      "Pentru prelungirea valabilitate permis armă "
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Prelungire valabilitate permis armă "]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru Prelungire valabilitate permis armă "
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          "Pe lângă documentele prevăzute la art. 40 alin. (1), instructorii în poligonul de  tragere au obligația să depună o adeverinţă eliberată de persoana juridică deţinătoare a poligonului de tragere autorizat, care să ateste faptul că a desfăşurat efectiv activităţi de instruire, îndrumare şi supraveghere a tragerilor efectuate. Cererea se depune înainte de expirarea valabilităţii permisului de armă."
+      ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa3.xls"
+    ]
+  }
+  

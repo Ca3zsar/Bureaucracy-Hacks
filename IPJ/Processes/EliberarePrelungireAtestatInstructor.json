@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Eliberare/prelungire atestat de instructor în poligonul de tragere",
+    "cases": [
+        "Pentru eliberare/prelungire atestat de instructor în poligonul de tragere"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Eliberare/prelungire atestat de instructor în poligonul de tragere"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru eliberare/prelungire atestat de instructor în poligonul de tragere"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          "Persoana care solicită eliberarea/prelungirea atestatului de instructor în poligonul de tragere trebuie să îndeplinească cumulativ condiţiile prevăzute de art. 30 alin. (1), respectiv art. 35 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018."
+     ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa7.xls"
+    ]
+  }
+  

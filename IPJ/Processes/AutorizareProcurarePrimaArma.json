@@ -1,0 +1,32 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Autorizare Procurare Prima Arma Letala/Neletala",
+    "cases": [
+      "Pentru obtinerea autorizarii de procurare prima arma"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Autorizare Procurare Prima Arma Letala/Neletala"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru autorizare procurare prima arma letala/neletala"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+          ""
+      ]
+    ],
+    "prices": [
+      [
+          ""
+      ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa1.xls"
+    ]
+  }
+  
