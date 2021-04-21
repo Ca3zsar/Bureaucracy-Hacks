@@ -1,0 +1,45 @@
+{
+    "institution": "DLEP",
+    "process": "Expirare perioadă valabilitate-Schimbare domiciliu-Modificare date stare civilă",
+    "departaments": [
+        "Schimbare domiciliu-Modificare date stare civilă"
+    ],
+    "cases": [
+        " "
+    ],
+    "forms": [
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Cererea pentru eliberarea actului de identitate",
+                "Actul de identitate - Solicitantul poate păstra vechiul act de identitate (dacă este încă valabil) până la primirea actului nou. În această situație va prezenta și o copie după actul de identitate.",
+                "Certificatul de naştere (original şi copie)",
+                "Certificatul de căsătorie (original şi copie) în cazul persoanelor căsătorite sau al soţului supravieţuitor",
+                "Hotărârea de divorţ definitivă şi irevocabilă / Certificat de divorţ însoţit de acordul parental privind stabilirea domiciliului minorului (original şi copie)",
+                "Certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor (original şi copie)",
+                "Hotărârea judecătorească definitivă şi irevocabilă (original şi copie) sau Dispoziţia (original şi copie) în baza căreia s-au modificat datele de stare civilă, respectiv: numele şi/sau prenumele titularului, prenumele părinţilor, data ori locul naşterii, sexul.",
+                "Certificatele de naştere ale copiilor sub 14 ani aflaţi în îngrijirea solicitantului şi care locuiesc împreună cu acesta (original şi copie)",
+                "Documentul cu care se face dovada adresei de domiciliu (original şi copie)",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate (7 lei)",
+                "Cartea de alegător - dacă a deținut un astfel de document. Dacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt pe cerere."
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Actele se prezintă în ORIGINAL și COPIE. (nu se acceptă copii legalizate)\n Înainte de întocmirea dosarului pentru eliberarea actului de identitate vă recomandăm să citiţi rubrica Informatii generale despre actul de identitate.\n Cererea pentru eliberarea actului de identitate:se descarcă Anexa 11 şi se listează pe o singură foaie A4, faţă-verso; se va completa de către solicitant şi se va semna în faţa lucrătorului de la ghişeu.\n Pentru dovada adresei de domiciliu:Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate (original şi copie).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural.\nChitanţa reprezentând contravaloarea cărţii de identitate (7 lei) - se poate achita prin SMS sau pe ghiseul.ro(necesită listare) sau la sediul nostru, la casieriile din Centrele de cartier ale Primăriei sau pe platforma ghişeul.ro   "
+        ]
+    ],
+    "prices": [
+        [
+            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+        ]
+    ],
+    "files": [
+        "Anexa11, Dovada adresei de domiciliu"
+    ]
+}

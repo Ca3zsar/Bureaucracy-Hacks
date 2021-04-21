@@ -1,0 +1,36 @@
+{
+    "institution": "DLEP",
+    "process": "Decese-Înregistrare deces produs în municipiul Iaşi",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
+    "cases": [
+        " "
+    ],
+    "forms": [
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "certificatul medical constatator al decesului, întocmit pe formular-tip, care trebuie să poarte număr de înregistrare, dată certă, semnătura şi parafa medicului care a făcut constatarea, sigiliul/ştampila unităţii sanitare, în care trebuie consemnată cauza decesului, fără prescurtări, înscrisă cu majuscule;",
+                "actul de identitate al decedatului şi fotocopie",
+                "certificatul de naştere şi de căsătorie, după caz",
+                "livretul militar al decedatului – pentru bărbaţii până în 50 de ani;",
+                "actul de identitate al declarantului şi fotocopie."
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "TERMEN DE ÎNREGISTRARE:Înregistrarea se face în termen de 3 zile de la data decesului. Acest termen  cuprinde atât ziua în care s-a produs decesul, cât şi ziua în care se face declaraţia.\n Dacă s-a depăşit acest termen sau cauza decesului se datorează unei  sinucideri, unui accident sau altor cauze violente, înregistrarea decesului se face cu aprobarea Parchetului Iaşi.  "
+        ]
+    ],
+    "prices": [
+        [
+            "Taxa de 13 lei achitată la Casieria Stării Civile"
+        ]
+    ]
+}

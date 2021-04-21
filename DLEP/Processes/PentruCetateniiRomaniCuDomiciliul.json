@@ -1,0 +1,63 @@
+{
+    "institution": "DLEP",
+    "process": "Carte identitate provizorie- eliberarea actului de identitate cetatenilor romani cu domiciliul in strainatate si resedinta in Romania ",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor-Carte identitate provizorie"
+    ],
+    "cases": [
+        "In cazul persoanelor necasatorite ",
+        "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
+    ],
+    "forms": [
+        [
+            "dovada adresei de domiciliu"
+        ],
+        [
+            "dovada adresei de domiciliu"
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Cererea pentru eliberarea actului de identitate",
+                "Paşaportul românesc aflat în termen de valabilitate (original şi fotocopie) ale filei informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră)",
+                "Paşaportul străin pentru situaţia în care solicitantul a intrat în ţară cu un document de călătorie emis de o autoritate străină original şi fotocopie ale filei informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră);",
+                "Fotografii 3/4 cm(2 bucăţi), de dată recentă, cu bandă albă de 7 mm la bază;",
+                "Certificatul de naştere eliberat de oficiile de stare civilă române(original şi fotocopie);",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate provizorii ",
+                "Documentul cu care se face dovada adresei de reşedinţă"
+            ],
+            [
+                "Cererea pentru eliberarea actului de identitate",
+                "Paşaportul românesc aflat în termen de valabilitate (original şi fotocopie) ale filei informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră)",
+                "Paşaportul străin pentru situaţia în care solicitantul a intrat în ţară cu un document de călătorie emis de o autoritate străină original şi fotocopie ale filei informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră);",
+                "Fotografii 3/4 cm(2 bucăţi), de dată recentă, cu bandă albă de 7 mm la bază;",
+                "Certificatul de naştere eliberat de oficiile de stare civilă române(original şi fotocopie);",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate provizorii ",
+                "Certificatul de căsătorie eliberat de oficiile de stare civilă române ;",
+                "Hotărârea de divorţ definitivă şi irevocabilă, dacă este cazul (original şi fotocopie);",
+                "Certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor(original şi fotocopie);",
+                "Documentul cu care se face dovada adresei de reşedinţă"
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Cartea de identitate provizorie se poate elibera cetăţenilor români cu domiciliul în străinătate, care locuiesc temporar în România.\n Pentru cartea de identitate provizorie, termenul de valabilitate se stabileşte de serviciul public comunitar local de evidenţă a persoanelor fiind cuprins între 30 de zile şi un an.\nCererea pentru eliberarea actului de identitate:se obţine de la ofiţerul de serviciu sau se descarcă Anexa 18 şi se listează pe o singură foaie, faţă-verso; se va completa de către solicitant şi se va semna în faţa lucrătorului de la ghişeu.\n Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) - se poate achita la sediul nostru, la casieriile din Centrele de cartier ale Primăriei, sau pe platforma ghişeul.ro. \n Pentru dovada adresei de reşedinţă : Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate(copie xerox şi original).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural. "
+        ],
+        [
+            "Cartea de identitate provizorie se poate elibera cetăţenilor români cu domiciliul în străinătate, care locuiesc temporar în România.\n Pentru cartea de identitate provizorie, termenul de valabilitate se stabileşte de serviciul public comunitar local de evidenţă a persoanelor fiind cuprins între 30 de zile şi un an.\nCererea pentru eliberarea actului de identitate:se obţine de la ofiţerul de serviciu sau se descarcă Anexa 18 şi se listează pe o singură foaie, faţă-verso; se va completa de către solicitant şi se va semna în faţa lucrătorului de la ghişeu.\n Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) - se poate achita la sediul nostru, la casieriile din Centrele de cartier ale Primăriei, sau pe platforma ghişeul.ro. \n Pentru dovada adresei de reşedinţă : Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate(copie xerox şi original).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural. "
+        ]
+    ],
+    "prices": [
+        [
+            " Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
+        ],
+        [
+            " Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
+        ]
+    ],
+    "files": [
+        "Anexa18-cerere pentru eliberarea actului de identitate cetatenilor romani cu domiciliul in strainatate si resedinta in Romania; Dovada adresei de domiciliu"
+    ]
+}

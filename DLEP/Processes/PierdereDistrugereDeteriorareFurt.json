@@ -1,0 +1,68 @@
+{
+    "institution": "DLEP",
+    "process": "ACTE NECESARE- Pierdere - Distrugere - Deteriorare - Furt",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
+    "cases": [
+        "In cazul persoanelor necasatorite ",  
+        "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
+    ],
+    "forms": [
+        [
+            "dovada adresei de domiciliu"
+        ],
+        [ 
+            "dovada adresei de domiciliu"
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Cererea pentru eliberarea actului de identitate",
+                "Actul de identitate deteriorat sau anulat",
+                "Un document emis de instituţii sau autorităţi publice, cu fotografie de dată recentă, pentru certificarea identităţii, respectiv: carte de alegător, paşaport, permis de conducere, legitimaţie de serviciu, livret militar, diplomă de absolvire a unei instituţii de învăţământ (original şi copie)",
+                "Certificatul de naştere (original şi copie)",
+                "Documentul cu care se face dovada adresei de domiciliu",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate",
+                "Cartea de alegător - dacă a deținut un astfel de document. Dacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt pe cerere."
+
+            ],
+            [
+                "Cererea pentru eliberarea actului de identitate",
+                "Actul de identitate deteriorat sau anulat",
+                "Un document emis de instituţii sau autorităţi publice, cu fotografie de dată recentă, pentru certificarea identităţii, respectiv: carte de alegător, paşaport, permis de conducere, legitimaţie de serviciu, livret militar, diplomă de absolvire a unei instituţii de învăţământ (original şi copie)",
+                "Certificatul de naştere (original şi copie)",
+                "Certificatul de căsătorie (original şi copie)",
+                "Hotărârea de divorţ definitivă şi irevocabilă / Certificat de divorţ însoţit de acordul parental privind stabilirea domiciliului minorului (original şi copie)",
+                "Certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor (original şi copie)",
+                "Hotărârea judecătorească definitivă şi irevocabilă (original şi copie) sau Dispoziţia (original şi copie) în baza căreia s-au modificat datele de stare civilă, respectiv: numele şi/sau prenumele titularului, prenumele părinţilor, data ori locul naşterii, sexul.",
+                "Certificatele de naştere ale copiilor sub 14 ani aflaţi în îngrijirea solicitantului şi care locuiesc împreună cu acesta (original şi copie)",
+                "Documentul cu care se face dovada adresei de domiciliu",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate",
+                "Cartea de alegător - dacă a deținut un astfel de document. Dacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt pe cerere."
+
+ 
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Înainte de întocmirea dosarului pentru eliberarea actului de identitate vă recomandăm să citiţi rubrica Informatii generale despre actul de identitate.\n Cererea pentru eliberarea actului de identitate:- se obţine de la ofiţerul de serviciu sau se descarcă Anexa 11 şi se listează pe o singură foaie A4, faţă-verso; se completează de solicitant şi se va semna în faţa lucrătorului de la ghişeu; \n. Pentru certificatul de nastere-in cazul furtului - se va depune şi dovada de la Poliţie din care rezultă că furtul a fost înregistrat (original şi copie). \nPentru dovada adresei de domiciliu:Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate (original şi copie).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural.  "
+        ],
+        [
+            "Înainte de întocmirea dosarului pentru eliberarea actului de identitate vă recomandăm să citiţi rubrica Informatii generale despre actul de identitate.\n Cererea pentru eliberarea actului de identitate:- se obţine de la ofiţerul de serviciu sau se descarcă Anexa 11 şi se listează pe o singură foaie A4, faţă-verso; se completează de solicitant şi se va semna în faţa lucrătorului de la ghişeu; \n. Pentru certificatul de nastere-in cazul furtului - se va depune şi dovada de la Poliţie din care rezultă că furtul a fost înregistrat (original şi copie). \nPentru dovada adresei de domiciliu:Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate (original şi copie).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural.  "
+        ]
+    ],
+    "prices": [
+        [
+            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+        ],
+        [ 
+            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+        ]
+    ],
+    "files": [
+        "Anexa15-cerere pentru eliberarea actului de identitate"
+    ]
+}
