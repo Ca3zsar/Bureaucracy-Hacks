@@ -33,11 +33,11 @@ class ContactFragment : Fragment() {
             textView.text = it
         })
 
-        var et_user_name : TextView = root.findViewById(R.id.et_user_name) as EditText
-        var et_email : TextView = root.findViewById(R.id.et_email) as EditText
-        var et_phone : TextView = root.findViewById(R.id.et_phone) as EditText
-        var et_message : TextView = root.findViewById(R.id.et_message) as EditText
-        var btn_submit : TextView = root.findViewById(R.id.btn_submit) as Button
+        var et_user_name : TextView = root.findViewById(R.id.contactNume) as EditText
+        var et_email : TextView = root.findViewById(R.id.contactEmail) as EditText
+        var et_phone : TextView = root.findViewById(R.id.contactPhone) as EditText
+        var et_message : TextView = root.findViewById(R.id.contactMessage) as EditText
+        var btn_submit : TextView = root.findViewById(R.id.contactConfirma) as Button
 
         btn_submit.setOnClickListener {
             val user_name = et_user_name.text;
@@ -71,10 +71,10 @@ class ContactFragment : Fragment() {
 
             }
             else{
-                et_user_name.setText("");
-                et_email.setText("");
-                et_phone.setText("");
-                et_message.setText("");
+                et_user_name.text = "";
+                et_email.text = "";
+                et_phone.text = "";
+                et_message.text = "";
             }
         }
 

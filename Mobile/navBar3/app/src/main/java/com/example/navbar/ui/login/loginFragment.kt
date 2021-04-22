@@ -39,12 +39,12 @@ class loginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val buttonConfirma = view.findViewById<Button>(R.id.singIn)
+        val buttonConfirma = view.findViewById<Button>(R.id.loginSignIn)
         buttonConfirma.setOnClickListener {
-            val textBox1 = view.findViewById<EditText>(R.id.email)
+            val textBox1 = view.findViewById<EditText>(R.id.loginEmail)
             val continut1 = textBox1.text.toString()
 
-            val textBox2 = view.findViewById<EditText>(R.id.password)
+            val textBox2 = view.findViewById<EditText>(R.id.loginPassword)
             val continut2 = textBox2.text.toString()
 
             if (continut1.isEmpty()) {
@@ -53,7 +53,7 @@ class loginFragment : Fragment() {
                 textBox1.error = "Adresa de email nu este corectă!"
             } else {
                 if (continut2.isEmpty()) {
-                    textBox2.error = "Introdu noua parolă!"
+                    textBox2.error = "Introdu parola!"
                 } else {
                     if (continut1.isNotEmpty() && continut2.isNotEmpty()) {
                         Toast.makeText(activity, "Autentificare reusita", Toast.LENGTH_LONG).show()
@@ -65,7 +65,8 @@ class loginFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_login)
 
-            val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
+           // val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
+            val myPost = loginPost(email = continut1,password = continut2)
             lgnViewModel.pushPost(myPost)
             lgnViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {

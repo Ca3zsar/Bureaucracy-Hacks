@@ -34,7 +34,7 @@ class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button = view.findViewById<Button>(R.id.editeazaParola)
+        val button = view.findViewById<Button>(R.id.userProfileChangePass)
         button.setOnClickListener {
             val nextFrag = changePasswordFragment()
             activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/contact_form_title"
+        android:id="@+id/contactTitlu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.048" />
 
     <EditText
-        android:id="@+id/et_user_name"
+        android:id="@+id/contactNume"
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginTop="140dp"
@@ -41,7 +41,7 @@
 
 
     <EditText
-        android:id="@+id/et_phone"
+        android:id="@+id/contactPhone"
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginTop="216dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/contactEmail"
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginTop="292dp"
@@ -73,7 +73,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_message"
+        android:id="@+id/contactMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
         android:layout_marginTop="384dp"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_submit"
+        android:id="@+id/contactConfirma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

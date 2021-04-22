@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titlu2" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/loginEmail"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="300dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/loginPassword"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="375dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/singIn"
+        android:id="@+id/loginSignIn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="440dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/loginInformatii"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="540dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/loginRegister"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginTop="600dp"
@@ -83,7 +83,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/titlu"
+        android:id="@+id/loginTitlu"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
@@ -99,7 +99,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonGoogle"
+        android:id="@+id/loginGoogle"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="130dp"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonFacebook"
+        android:id="@+id/loginFacebook"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
