@@ -1,0 +1,36 @@
+{
+    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
+    "process": "Solicitare Acord",
+    "cases": [
+      "asistent persoal",
+      "indemnizatie"
+    ],
+    "departaments": [
+      "Departamentul Asistenta Socială Persoane Adulte",
+      "Departamentul Asistenta Socială pentru Copil şi Familie"  
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+        "Certificat de incadrare emis de catre Comisia de Evaluare a Persoanelor cu Handicap pentru Adulti Iasi"
+         ]
+        ]
+    ],
+    "prices": [
+        " "
+    ],
+    "generalInfo": [
+      [
+        "Acordul privind protectia drepturilor persoanleor cu handicap pentru optiunile asistent persoal/indemnizatie"
+        ]
+    ],
+    "files":[
+      "Solicitare acord.pdf"
+      ]
+}
+  
