@@ -93,7 +93,7 @@ class FeedbackFragment : Fragment() {
             }
 
             val textView = view.findViewById<TextView>(R.id.text_feedback)
-            val myPost = feedbackPost("Razvan", "Testul suprem")
+            val myPost = feedbackPost("Gigi", "Testul suprem")
 
 
             feedbackViewModel.pushPost(myPost)
