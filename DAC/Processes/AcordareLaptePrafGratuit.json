@@ -1,26 +1,20 @@
 {
-    "institution": "DAC",
-    "process": "Acordare de lapte praf gratuit",
-    "cases": [
-        "Copii cu varsta de pana la 12 luni"
-    ],
-    "departament": [
-        "DAC"
-    ],
-    "forms": [
-        [
-            ""
-        ]
-    ],
-    "necessary": [
-        [
-            "Reţeta de la medicul de familie",
-            "Copie după certificatul de naştere al copilului (doar in prima lună)"
-        ]
-    ],
-    "generalInfo": [
-        [
-            "Laptele praf se eliberează la sediul din Şos. Naţională nr. 43 (începând cu data de 15 ale lunii până în ultima zi a lunii inclusiv)"
-        ]
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Acordare de lapte praf gratuit",
+  "cases": ["Copii cu varsta de pana la 12 luni"],
+  "departament": ["Directia de Asistenta Sociala Iasi"],
+  "forms": [[""]],
+  "necessary": [
+    [
+      [
+        "Reţeta de la medicul de familie",
+        "Copie după certificatul de naştere al copilului (doar in prima lună)"
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Laptele praf se eliberează la sediul din Şos. Naţională nr. 43 (începând cu data de 15 ale lunii până în ultima zi a lunii inclusiv)"
+    ]
+  ]
 }

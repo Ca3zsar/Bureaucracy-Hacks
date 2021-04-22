@@ -1,47 +1,41 @@
 {
-    "institution": "DAC",
-    "process": "Eliberare legitimatie de calatorie (SeniorIS) pe mijloacele de transport in comun",
-    "cases": [
-        "Pentru persoanele pensionare cu varsta de peste 65 ani",
-        "Pentru persoanele pensionate cu varsta de pana la 65 de ani"
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Eliberare legitimatie de calatorie (SeniorIS) pe mijloacele de transport in comun",
+  "cases": [
+    "Pentru persoanele pensionare cu varsta de peste 65 ani",
+    "Pentru persoanele pensionate cu varsta de pana la 65 de ani"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi",
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [[""], [""]],
+  "necessary": [
+    [
+      [
+        "Cerere și acordul privind prelucrarea datelor personale",
+        "Act de identitate (B.I./C.I./C.I.P.) – original şi copie",
+        "Ultimul talon de pesie / adeverință de la CJP Iasi / adeverință de venit  – original şi copie",
+        "Dovada (chitanţă) anunţului de anulare într-un ziar local (in caz de pierdere)",
+        "Dovada (chitanţă) achitării taxei de pierdere card la casieria CTP Iași (Str. Silvestru nr. 5) în valoare de 15 lei (in caz de pierdere)"
+      ]
     ],
-    "departament": [
-        "DAC",
-        "DAC"
-    ],
-    "forms": [
-        [
-            ""
-        ],
-        [
-            ""
-        ]
-    ],
-    "necessary": [
-        [
-            "Cerere și acordul privind prelucrarea datelor personale",
-            "Act de identitate (B.I./C.I./C.I.P.) – original şi copie",
-            "Ultimul talon de pesie / adeverință de la CJP Iasi / adeverință de venit  – original şi copie",
-            "Dovada (chitanţă) anunţului de anulare într-un ziar local (in caz de pierdere)",
-            "Dovada (chitanţă) achitării taxei de pierdere card la casieria CTP Iași (Str. Silvestru nr. 5) în valoare de 15 lei (in caz de pierdere)"
-        ],
-        [
-            "Cerere și acordul privind prelucrarea datelor personale",
-            "Act de identitate (B.I./C.I./C.I.P.) – original şi copie",
-            "Ultimul talon de pesie / adeverință de la CJP Iasi / adeverință de venit  – original şi copie",
-            "Dovada (chitanţă) anunţului de anulare într-un ziar local (in caz de pierdere)",
-            "Dovada (chitanţă) achitării taxei de pierdere card la casieria CTP Iași (Str. Silvestru nr. 5) în valoare de 15 lei (in caz de pierdere)"
-        ]
-    ],
-    "generalInfo": [
-        [
-            "Cardul SeniorIS se va elibera într-o perioadă de 15 zile calendaristice din momentul depunerii cererii, iar pentru perioada respectivă va fi eliberată o adeverință care dovedește faptul că persoane îndeplinește condițiile de acordare a acestui beneficiu",
-            "Persoanele care se încadrează în două sau mai multe categorii prevăzute de actele normative în vigoare, beneficiază de o singură legitimaţie de călătorie pe mijloacele de transport în comun"
-        ],
-        [
-            "Persoanele trebuie sa aiba domiciliul în Municipiul Iaşi, a căror pensii sunt mai mici decât salariul minim brut pe ţară garantat în plată (limitarea actuală este la valoarea de 1550 de lei)",
-            "Cardul SeniorIS se va elibera într-o perioadă de 15 zile calendaristice din momentul depunerii cererii, iar pentru perioada respectivă va fi eliberată o adeverință care dovedește faptul că persoane îndeplinește condițiile de acordare a acestui beneficiu",
-            "Persoanele care se încadrează în două sau mai multe categorii prevăzute de actele normative în vigoare, beneficiază de o singură legitimaţie de călătorie pe mijloacele de transport în comun"
-        ]
+    [
+      [
+        "Cerere și acordul privind prelucrarea datelor personale",
+        "Act de identitate (B.I./C.I./C.I.P.) – original şi copie",
+        "Ultimul talon de pesie / adeverință de la CJP Iasi / adeverință de venit  – original şi copie",
+        "Dovada (chitanţă) anunţului de anulare într-un ziar local (in caz de pierdere)",
+        "Dovada (chitanţă) achitării taxei de pierdere card la casieria CTP Iași (Str. Silvestru nr. 5) în valoare de 15 lei (in caz de pierdere)"
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Cardul SeniorIS se va elibera într-o perioadă de 15 zile calendaristice din momentul depunerii cererii, iar pentru perioada respectivă va fi eliberată o adeverință care dovedește faptul că persoane îndeplinește condițiile de acordare a acestui beneficiu\nPersoanele care se încadrează în două sau mai multe categorii prevăzute de actele normative în vigoare, beneficiază de o singură legitimaţie de călătorie pe mijloacele de transport în comun"
+    ],
+    [
+      "Persoanele trebuie sa aiba domiciliul în Municipiul Iaşi, a căror pensii sunt mai mici decât salariul minim brut pe ţară garantat în plată (limitarea actuală este la valoarea de 1550 de lei)\nCardul SeniorIS se va elibera într-o perioadă de 15 zile calendaristice din momentul depunerii cererii, iar pentru perioada respectivă va fi eliberată o adeverință care dovedește faptul că persoane îndeplinește condițiile de acordare a acestui beneficiu\nPersoanele care se încadrează în două sau mai multe categorii prevăzute de actele normative în vigoare, beneficiază de o singură legitimaţie de călătorie pe mijloacele de transport în comun"
+    ]
+  ]
 }

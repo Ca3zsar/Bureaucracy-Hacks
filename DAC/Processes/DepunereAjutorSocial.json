@@ -1,87 +1,71 @@
 {
-    "institution": "DAC",
-    "process": "Depunere ajutor social",
-    "cases": [
-        "Pentru cetateni români",
-        "Pentru cetateni straini sau apatrizi"
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Depunere ajutor social",
+  "cases": ["Pentru cetateni români", "Pentru cetateni straini sau apatrizi"],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi",
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [[""], [""]],
+  "necessary": [
+    [
+      [
+        "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "Acte doveditoare privind componenţa familiei: C.I. / B.I. / C.I.P",
+        "Persoanele apte de muncă care nu realizează venituri din salarii sau din alte activităţi vor prezenta dovada faptului că sunt în evidenţa Agenţiei Teritoriale pentru Ocuparea Forţei de Muncă pentru încadrarea în muncă şi nu au refuzat nejustificat un loc de muncă oferit sau nu au refuzat participarea la un program de pregătire profesională",
+        "Certificat de atestare fiscală eliberat de Primăria municipiului Iaşi",
+        "Certificat de venituri eliberat de Administraţia Finanţelor Publice din care să rezulte veniturile realizate",
+        "Adeverinţa de la Registrul Agricol din cadrul Primăriei Municipiului Iaşi",
+        "În cazul persoanelor singure/familiilor care au resedinţa sau locuiesc fără forme legale pe raza municipiului Iaşi, se va prezenta adeverinţă de la primarul localităţii de domiciliu din care să rezulte că nu beneficiază de ajutorul social conform Legii nr. 416/2001 privind venitul minim garantat, certificat fiscal din care să rezulte cu ce bunuri (clădiri, terenuri) figurează pe rol în localitatea respectivă, certificat de venituri din care să rezulte dacă obţine venituri din activităti pe cont propriu",
+        "Certificat medical privind incapacitatea de muncă (acolo unde este cazul)",
+        "Talon şomaj",
+        "Adeverinţa de elev în care se va specifica dacă repetă sau nu anul şcolar şi numărul de absenţe dacă este cazul",
+        "Talon pensie + Decizie pensie",
+        "Persoana inaptă de muncă trebuie să prezinte decizie pentru pierderea capacităţii de muncă (gradul I sau II invaliditate)",
+        "În cazul femeilor peste 63 ani si bărbaţii peste 65 ani care nu au nici un fel de pensie se va prezenta declaraţie din care să rezulte aceasta",
+        "Talon pensie de urmaş + decizie în cazul copiilor care au părinţi decedaţi",
+        "În cazul salariaţilor adeverinţa eliberată de angajator în care se va specifica salariul net realizat în luna anterioară depunerii cererii de ajutor social, cu precizarea dacă beneficiază sau nu de bonuri de masă, precum şi valoarea acestora"
+      ]
     ],
-    "departament": [
-        "DAC",
-        "DAC"
-    ],
-    "forms": [
-        [
-            ""
-        ],
-        [
-            ""
-        ]
-    ],
-    "necessary": [
-        [
-            "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "Acte doveditoare privind componenţa familiei: C.I. / B.I. / C.I.P",
-            "Persoanele apte de muncă care nu realizează venituri din salarii sau din alte activităţi vor prezenta dovada faptului că sunt în evidenţa Agenţiei Teritoriale pentru Ocuparea Forţei de Muncă pentru încadrarea în muncă şi nu au refuzat nejustificat un loc de muncă oferit sau nu au refuzat participarea la un program de pregătire profesională",
-            "Certificat de atestare fiscală eliberat de Primăria municipiului Iaşi",
-            "Certificat de venituri eliberat de Administraţia Finanţelor Publice din care să rezulte veniturile realizate",
-            "Adeverinţa de la Registrul Agricol din cadrul Primăriei Municipiului Iaşi",
-            "În cazul persoanelor singure/familiilor care au resedinţa sau locuiesc fără forme legale pe raza municipiului Iaşi, se va prezenta adeverinţă de la primarul localităţii de domiciliu din care să rezulte că nu beneficiază de ajutorul social conform Legii nr. 416/2001 privind venitul minim garantat, certificat fiscal din care să rezulte cu ce bunuri (clădiri, terenuri) figurează pe rol în localitatea respectivă, certificat de venituri din care să rezulte dacă obţine venituri din activităti pe cont propriu",
-            "Certificat medical privind incapacitatea de muncă (acolo unde este cazul)",
-            "Talon şomaj",
-            "Adeverinţa de elev în care se va specifica dacă repetă sau nu anul şcolar şi numărul de absenţe dacă este cazul",
-            "Talon pensie + Decizie pensie",
-            "Persoana inaptă de muncă trebuie să prezinte decizie pentru pierderea capacităţii de muncă (gradul I sau II invaliditate)",
-            "În cazul femeilor peste 63 ani si bărbaţii peste 65 ani care nu au nici un fel de pensie se va prezenta declaraţie din care să rezulte aceasta",
-            "Talon pensie de urmaş + decizie în cazul copiilor care au părinţi decedaţi",
-            "În cazul salariaţilor adeverinţa eliberată de angajator în care se va specifica salariul net realizat în luna anterioară depunerii cererii de ajutor social, cu precizarea dacă beneficiază sau nu de bonuri de masă, precum şi valoarea acestora"
-        ],
-        [
-            "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
-            "Notificare privind prelucrarea datelor cu caracter personal",
-            "C.I. - carte de identitate",
-            "L.S.T. - legitimaţie de şedere temporară",
-            "D.I. - document de identitate",
-            "Certificate de naştere ale copiilor",
-            "Certificat de căsătorie",
-            "Certificat deces",
-            "Hotărâre definitivă de încuviinţare a adopţiei, de încredinţare sau plasament familial al minorului, mandatul poştal în care se specifică cuantumul alocaţiei de întreţinere primită de la Agenţia pentru Prestaţii Sociale a Municipiului Bucureşti",
-            "Actul din care să rezulte calitatea solicitantului de tutore sau curator",
-            "Actul din care rezulte că un membru al familiei urmează o formă de învăţământ la cursuri de zi",
-            "Acte din care să rezulte încadrarea în categoria persoanelor cu handicap accentuat sau grav, gr. I sau gr. II de invaliditate pentru persoanele aflate în întreţinere",
-            "Actul doveditor privind proprietatea, contract de închiriere locuinţă fond de stat sau chiriaş la proprietar + schiţa locuinţei",
-            "În cazul divorţului cu copii încredinţaţi se va prezenta hotărârea judecătorească privind pensia de întreţinere",
-            "Persoanele apte de muncă care nu realizează venituri din salarii sau din alte activităţi vor prezenta dovada faptului că sunt în evidenţa Agenţiei Teritoriale pentru Ocuparea Forţei de Muncă pentru încadrarea în muncă şi nu au refuzat nejustificat un loc de muncă oferit sau nu au refuzat participarea la un program de pregătire profesională",
-            "Certificat de atestare fiscală eliberat de Primăria municipiului Iaşi",
-            "Certificat de venituri eliberat de Administraţia Finanţelor Publice din care să rezulte veniturile realizate",
-            "Adeverinţa de la Registrul Agricol din cadrul Primăriei Municipiului Iaşi",
-            "În cazul persoanelor singure/familiilor care au resedinţa sau locuiesc fără forme legale pe raza municipiului Iaşi, se va prezenta adeverinţă de la primarul localităţii de domiciliu din care să rezulte că nu beneficiază de ajutorul social conform Legii nr. 416/2001 privind venitul minim garantat, certificat fiscal din care să rezulte cu ce bunuri (clădiri, terenuri) figurează pe rol în localitatea respectivă, certificat de venituri din care să rezulte dacă obţine venituri din activităti pe cont propriu",
-            "Certificat medical privind incapacitatea de muncă (acolo unde este cazul)",
-            "Talon şomaj",
-            "Adeverinţa de elev în care se va specifica dacă repetă sau nu anul şcolar şi numărul de absenţe dacă este cazul",
-            "Talon pensie + Decizie pensie",
-            "Persoana inaptă de muncă trebuie să prezinte decizie pentru pierderea capacităţii de muncă (gradul I sau II invaliditate)",
-            "În cazul femeilor peste 63 ani si bărbaţii peste 65 ani care nu au nici un fel de pensie se va prezenta declaraţie din care să rezulte aceasta",
-            "Talon pensie de urmaş + decizie în cazul copiilor care au părinţi decedaţi",
-            " În cazul salariaţilor adeverinţa eliberată de angajator în care se va specifica salariul net realizat în luna anterioară depunerii cererii de ajutor social, cu precizarea dacă beneficiază sau nu de bonuri de masă, precum şi valoarea acestora"
-        ]
-    ],
-    "generalInfo": [
-        [
-            "Beneficiari: Familiile si persoanele singure ale căror venituri se situează sub nivelul lunar al venitului minim garantat, au dreptul la ajutor social",
-            "Nivelurile pentru venitul minim garantat: \nPersoana singura = 142 lei \nFamilia formată din 2 persoane = 255 lei \nFamilia formată din 3 persoane = 357 lei \nFamilia formată din 4 persoane = 442 lei \nFamilia formată din 5 persoane = 527 lei \nPentru fiecare altă persoană peste numărul de 5 persoane, ajutorul social se mareşte cu 0.073 x ISR = 37 lei",
-            "Cererea şi declaraţia pe propria răspundere, precum şi celelalte acte doveditoare privind componenţa familiei şi veniturile realizate, se înregistrează la Serviciul de Beneficii Sociale din cadrul Direcţiei de Asistenţă Socială Iaşi",
-            "Pentru soluţionarea cererii privind acordarea ajutorului social, se va afectua ancheta socială la domiciliul său, după caz la reşedinţa solicitantului, ori la locul desemnat de solicitant în cazul celor fără locuinţă",
-            "Obligaţii ale beneficiarilor de ajutor social\n După stabilirea dreptului de ajutor social, titularul ajutorului social are următoarele obligaţii:\nsă comunice primarului, în scris, orice modificare intervenită cu privire la domiciliul, veniturile şi la numărul membrilor familiei, în termen de 15 zile de la data la care a intervenit aceasta \nsă furnizeze toate informațiile necesare pentru efectuarea anchetei sociale \nsă efectueze sau, după caz, să asigure prin alte persoane apte de muncă din familie, efectuarea orelor de muncă în folosul comunităţii \nPersoanele apte de muncă pentru care se acordă ajutorul social şi care nu realizează venituri din salarii sau din alte activităţi, potrivit legii, au obligaţia de a nu refuza un loc de muncă oferit sau participarea la serviciile pentru stimularea ocupării forței de muncă și de formare profesională",
-            "Prin persoană aptă de muncă se înţelege persoana care îndeplineşte următoarele condiţii:\nare vârsta cuprinsă între 16 ani şi vârsta standard de pensionare \nnu urmează o formă de învăţământ cursuri de zi prevăzută de lege \nare starea de sănătate şi capacitatea fizică şi psihică corespunzătoare, care o fac aptă pentru prestarea unei munci"
-        ],
-        [
-            "Beneficiari: Familiile si persoanele singure ale căror venituri se situează sub nivelul lunar al venitului minim garantat, au dreptul la ajutor social",
-            "Nivelurile pentru venitul minim garantat: \nPersoana singura = 142 lei \nFamilia formată din 2 persoane = 255 lei \nFamilia formată din 3 persoane = 357 lei \nFamilia formată din 4 persoane = 442 lei \nFamilia formată din 5 persoane = 527 lei \nPentru fiecare altă persoană peste numărul de 5 persoane, ajutorul social se mareşte cu 0.073 x ISR = 37 lei",
-            "Cererea şi declaraţia pe propria răspundere, precum şi celelalte acte doveditoare privind componenţa familiei şi veniturile realizate, se înregistrează la Serviciul de Beneficii Sociale din cadrul Direcţiei de Asistenţă Socială Iaşi",
-            "Pentru soluţionarea cererii privind acordarea ajutorului social, se va afectua ancheta socială la domiciliul său, după caz la reşedinţa solicitantului, ori la locul desemnat de solicitant în cazul celor fără locuinţă",
-            "Obligaţii ale beneficiarilor de ajutor social\n După stabilirea dreptului de ajutor social, titularul ajutorului social are următoarele obligaţii:\nsă comunice primarului, în scris, orice modificare intervenită cu privire la domiciliul, veniturile şi la numărul membrilor familiei, în termen de 15 zile de la data la care a intervenit aceasta \nsă furnizeze toate informațiile necesare pentru efectuarea anchetei sociale \nsă efectueze sau, după caz, să asigure prin alte persoane apte de muncă din familie, efectuarea orelor de muncă în folosul comunităţii \nPersoanele apte de muncă pentru care se acordă ajutorul social şi care nu realizează venituri din salarii sau din alte activităţi, potrivit legii, au obligaţia de a nu refuza un loc de muncă oferit sau participarea la serviciile pentru stimularea ocupării forței de muncă și de formare profesională",
-            "Prin persoană aptă de muncă se înţelege persoana care îndeplineşte următoarele condiţii:\nare vârsta cuprinsă între 16 ani şi vârsta standard de pensionare \nnu urmează o formă de învăţământ cursuri de zi prevăzută de lege \nare starea de sănătate şi capacitatea fizică şi psihică corespunzătoare, care o fac aptă pentru prestarea unei munci"
-        ]
+    [
+      [
+        "Cerere şi declaraţie pe propria răspundere pentru acordarea unor drepturi de asistenţă socială",
+        "Notificare privind prelucrarea datelor cu caracter personal",
+        "C.I. - carte de identitate",
+        "L.S.T. - legitimaţie de şedere temporară",
+        "D.I. - document de identitate",
+        "Certificate de naştere ale copiilor",
+        "Certificat de căsătorie",
+        "Certificat deces",
+        "Hotărâre definitivă de încuviinţare a adopţiei, de încredinţare sau plasament familial al minorului, mandatul poştal în care se specifică cuantumul alocaţiei de întreţinere primită de la Agenţia pentru Prestaţii Sociale a Municipiului Bucureşti",
+        "Actul din care să rezulte calitatea solicitantului de tutore sau curator",
+        "Actul din care rezulte că un membru al familiei urmează o formă de învăţământ la cursuri de zi",
+        "Acte din care să rezulte încadrarea în categoria persoanelor cu handicap accentuat sau grav, gr. I sau gr. II de invaliditate pentru persoanele aflate în întreţinere",
+        "Actul doveditor privind proprietatea, contract de închiriere locuinţă fond de stat sau chiriaş la proprietar + schiţa locuinţei",
+        "În cazul divorţului cu copii încredinţaţi se va prezenta hotărârea judecătorească privind pensia de întreţinere",
+        "Persoanele apte de muncă care nu realizează venituri din salarii sau din alte activităţi vor prezenta dovada faptului că sunt în evidenţa Agenţiei Teritoriale pentru Ocuparea Forţei de Muncă pentru încadrarea în muncă şi nu au refuzat nejustificat un loc de muncă oferit sau nu au refuzat participarea la un program de pregătire profesională",
+        "Certificat de atestare fiscală eliberat de Primăria municipiului Iaşi",
+        "Certificat de venituri eliberat de Administraţia Finanţelor Publice din care să rezulte veniturile realizate",
+        "Adeverinţa de la Registrul Agricol din cadrul Primăriei Municipiului Iaşi",
+        "În cazul persoanelor singure/familiilor care au resedinţa sau locuiesc fără forme legale pe raza municipiului Iaşi, se va prezenta adeverinţă de la primarul localităţii de domiciliu din care să rezulte că nu beneficiază de ajutorul social conform Legii nr. 416/2001 privind venitul minim garantat, certificat fiscal din care să rezulte cu ce bunuri (clădiri, terenuri) figurează pe rol în localitatea respectivă, certificat de venituri din care să rezulte dacă obţine venituri din activităti pe cont propriu",
+        "Certificat medical privind incapacitatea de muncă (acolo unde este cazul)",
+        "Talon şomaj",
+        "Adeverinţa de elev în care se va specifica dacă repetă sau nu anul şcolar şi numărul de absenţe dacă este cazul",
+        "Talon pensie + Decizie pensie",
+        "Persoana inaptă de muncă trebuie să prezinte decizie pentru pierderea capacităţii de muncă (gradul I sau II invaliditate)",
+        "În cazul femeilor peste 63 ani si bărbaţii peste 65 ani care nu au nici un fel de pensie se va prezenta declaraţie din care să rezulte aceasta",
+        "Talon pensie de urmaş + decizie în cazul copiilor care au părinţi decedaţi",
+        " În cazul salariaţilor adeverinţa eliberată de angajator în care se va specifica salariul net realizat în luna anterioară depunerii cererii de ajutor social, cu precizarea dacă beneficiază sau nu de bonuri de masă, precum şi valoarea acestora"
+      ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Beneficiari: Familiile si persoanele singure ale căror venituri se situează sub nivelul lunar al venitului minim garantat, au dreptul la ajutor social.\nNivelurile pentru venitul minim garantat: \nPersoana singura = 142 lei \nFamilia formată din 2 persoane = 255 lei \nFamilia formată din 3 persoane = 357 lei \nFamilia formată din 4 persoane = 442 lei \nFamilia formată din 5 persoane = 527 lei \nPentru fiecare altă persoană peste numărul de 5 persoane, ajutorul social se mareşte cu 0.073 x ISR = 37 lei\nCererea şi declaraţia pe propria răspundere, precum şi celelalte acte doveditoare privind componenţa familiei şi veniturile realizate, se înregistrează la Serviciul de Beneficii Sociale din cadrul Direcţiei de Asistenţă Socială Iaşi\nPentru soluţionarea cererii privind acordarea ajutorului social, se va afectua ancheta socială la domiciliul său, după caz la reşedinţa solicitantului, ori la locul desemnat de solicitant în cazul celor fără locuinţă\nObligaţii ale beneficiarilor de ajutor social\n După stabilirea dreptului de ajutor social, titularul ajutorului social are următoarele obligaţii:\nsă comunice primarului, în scris, orice modificare intervenită cu privire la domiciliul, veniturile şi la numărul membrilor familiei, în termen de 15 zile de la data la care a intervenit aceasta \nsă furnizeze toate informațiile necesare pentru efectuarea anchetei sociale \nsă efectueze sau, după caz, să asigure prin alte persoane apte de muncă din familie, efectuarea orelor de muncă în folosul comunităţii \nPersoanele apte de muncă pentru care se acordă ajutorul social şi care nu realizează venituri din salarii sau din alte activităţi, potrivit legii, au obligaţia de a nu refuza un loc de muncă oferit sau participarea la serviciile pentru stimularea ocupării forței de muncă și de formare profesională\nPrin persoană aptă de muncă se înţelege persoana care îndeplineşte următoarele condiţii:\nare vârsta cuprinsă între 16 ani şi vârsta standard de pensionare \nnu urmează o formă de învăţământ cursuri de zi prevăzută de lege \nare starea de sănătate şi capacitatea fizică şi psihică corespunzătoare, care o fac aptă pentru prestarea unei munci"
+    ],
+    [
+      "Beneficiari: Familiile si persoanele singure ale căror venituri se situează sub nivelul lunar al venitului minim garantat, au dreptul la ajutor social\nNivelurile pentru venitul minim garantat: \nPersoana singura = 142 lei \nFamilia formată din 2 persoane = 255 lei \nFamilia formată din 3 persoane = 357 lei \nFamilia formată din 4 persoane = 442 lei \nFamilia formată din 5 persoane = 527 lei \nPentru fiecare altă persoană peste numărul de 5 persoane, ajutorul social se mareşte cu 0.073 x ISR = 37 lei\nCererea şi declaraţia pe propria răspundere, precum şi celelalte acte doveditoare privind componenţa familiei şi veniturile realizate, se înregistrează la Serviciul de Beneficii Sociale din cadrul Direcţiei de Asistenţă Socială Iaşi\nPentru soluţionarea cererii privind acordarea ajutorului social, se va afectua ancheta socială la domiciliul său, după caz la reşedinţa solicitantului, ori la locul desemnat de solicitant în cazul celor fără locuinţă\nObligaţii ale beneficiarilor de ajutor social\n După stabilirea dreptului de ajutor social, titularul ajutorului social are următoarele obligaţii:\nsă comunice primarului, în scris, orice modificare intervenită cu privire la domiciliul, veniturile şi la numărul membrilor familiei, în termen de 15 zile de la data la care a intervenit aceasta \nsă furnizeze toate informațiile necesare pentru efectuarea anchetei sociale \nsă efectueze sau, după caz, să asigure prin alte persoane apte de muncă din familie, efectuarea orelor de muncă în folosul comunităţii \nPersoanele apte de muncă pentru care se acordă ajutorul social şi care nu realizează venituri din salarii sau din alte activităţi, potrivit legii, au obligaţia de a nu refuza un loc de muncă oferit sau participarea la serviciile pentru stimularea ocupării forței de muncă și de formare profesională\nPrin persoană aptă de muncă se înţelege persoana care îndeplineşte următoarele condiţii:\nare vârsta cuprinsă între 16 ani şi vârsta standard de pensionare \nnu urmează o formă de învăţământ cursuri de zi prevăzută de lege \nare starea de sănătate şi capacitatea fizică şi psihică corespunzătoare, care o fac aptă pentru prestarea unei munci"
+    ]
+  ]
 }

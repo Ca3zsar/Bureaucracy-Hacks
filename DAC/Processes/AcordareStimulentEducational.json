@@ -1,11 +1,11 @@
 {
-    "institution": "DAC",
+    "institution": "Directia de Asistenta Sociala Iasi",
     "process": "Acordare stimulent educational",
     "cases": [
         "Familii cu un venit lunar mai mic de 284 lei pe membru de familie"
     ],
     "departament": [
-        "DAC"
+        "Directia de Asistenta Sociala Iasi"
     ],
     "forms": [
         [
@@ -14,6 +14,7 @@
     ],
     "necessary": [
         [
+            [
             "Cerere – declaraţie pe proprie răspundere însoţite de actele doveditoare privind componenţa familiei, precum şi a veniturilor realizate de către membrii săi",
             "Dovada înscrierea/frecventarea activităţilor organizate de grădiniţă",
             "Livretul de familie",
@@ -29,12 +30,12 @@
             "Cupoane de pensie",
             "Cupoane de ajutor de şomaj",
             "Mandate poştale de plată, extrase de cont, decizii ori dispoziţii de stabilire a dreptului"
+            ]
         ]
     ],
     "generalInfo": [
         [
-            "Stimulentul educaţional se acordă familiilor cu un venit lunar mai mic de 284 de lei pe membru de familie (2 x Venitul Minim Garantat pentru o persoană singură) și este condiționat de prezența zilnică a copiilor, la grădiniţă",
-            "Se acordă un tichet social pentru grădiniță de 50 de lei lunar, pentru perioada septembrie – iunie a anului şcolar"
+            "Stimulentul educaţional se acordă familiilor cu un venit lunar mai mic de 284 de lei pe membru de familie (2 x Venitul Minim Garantat pentru o persoană singură) și este condiționat de prezența zilnică a copiilor, la grădiniţă.\nSe acordă un tichet social pentru grădiniță de 50 de lei lunar, pentru perioada septembrie – iunie a anului şcolar"
         ]
     ]
 }
