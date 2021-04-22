@@ -1,0 +1,16 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizarea efectuarii lucrarilor care implica inchiderea si/sau crearea de restrictii pentru circulatia pe drumurile publice a vechiculelor si/sau pietonilor",
+  "cases": [
+    "Pentru Avizarea efectuarii lucrarilor care implica inchiderea si/sau crearea de restrictii pentru circulatia pe drumurile publice a vechiculelor si/sau pietonilor"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Avizarea efectuarii lucrarilor care implica inchiderea si/sau crearea de restrictii pentru circulatia pe drumurile publice a vechiculelor si/sau pietonilor"
+    ]
+  ],
+  "necessary": [[["Cerere tip"]]],
+  "generalInfo": [[""]],
+  "files": ["politie_rutiera_Anexa10"]
+}

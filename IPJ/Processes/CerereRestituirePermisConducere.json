@@ -1,0 +1,20 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Restituire permis de conducere eliberat de o autoritate straina, inainte de expirarea perioadei de suspendare",
+  "cases": [
+    "Pentru Restituire permis de conducere eliberat de o autoritate straina, inainte de expirarea perioadei de suspendare"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Restituire permis de conducere eliberat de o autoritate straina, inainte de expirarea perioadei de suspendare"
+    ]
+  ],
+  "necessary": [[["Cerere tip"]]],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către şeful serviciului rutier pe raza căruia a fost săvârşită fapta, conform prevederilor de mai sus."
+    ]
+  ],
+  "files": ["politie_rutiera_Anexa3"]
+}
