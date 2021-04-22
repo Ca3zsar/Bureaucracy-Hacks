@@ -38,7 +38,7 @@ class TraseuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val spinner1 = view.findViewById<Spinner>(R.id.spInstitutii)
+        val spinner1 = view.findViewById<Spinner>(R.id.traseuSp1)
 
         spinner1.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             val textView = view.findViewById<TextView>(R.id.text_traseu)
