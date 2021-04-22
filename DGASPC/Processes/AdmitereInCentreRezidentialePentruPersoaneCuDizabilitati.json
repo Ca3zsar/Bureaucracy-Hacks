@@ -1,0 +1,71 @@
+{
+    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
+    "process": "Admiterea în centre rezidențiale pentru persoane cu dizabilități",
+    "cases": [
+      "Admiterea în centre rezidențiale pentru persoane cu dizabilități care provin din familie sau din comunitate",
+      "Admiterea în centre rezidențiale sau de zi"
+    ],
+    "departaments": [
+      "Departamentul Asistenta Socială Persoane Adulte",
+      "Departamentul Asistenta Socială pentru Copil şi Familie"  
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+        "cererea persoanei/tutore",
+        "copie de pe actul de identitate",
+        "certificatul de naştere, de căsătorie",
+        "copie de pe documentul care atestă încadrarea în grad de handicap",
+        "adeverinţă de venit ale persoanei (dacă este cazul) *",	
+        "documente doveditoare a situaţiei locative**",
+        "ultimul talon de pensie, dacă este cazul",
+        "raportul de anchetă socialăcare conținere comandarea de admitere într-un centru rezidențial",
+        "investigaţii paraclinice (bilete de ieșire din spital actuale)",
+        "dovada eliberată de serviciul specializat al primăriei în a cărei rază teritorială îşi are domiciliul sau reşedinţa persoana cu handicap, prin care se atestă că acesteia nu i s-au putut asigura protecţia şi îngrijirea la domiciliu sau în cadrul altor servicii din comunitate, conform H.G. 430/2008",
+        "planul individual de servicii, va fi întocmit de asistentul social al primăriei de la domiciliul legal al persoanei cu handicap ca urmare a evaluării inițiale (în conformitate cu Legea asistenței sociale 292/2011) – acesta poate fi sub formă tabelară și trebuie să conțină informații referitoare la nevoile beneficiarului și la serviciile specializate ce i se pot oferi raportate la nevoile identificate în concordanță cu propunerea de admitere într-un serviciu social de tip rezidențial",
+        "angajament de plată de principiu (pentru persoanele care au venituri)",
+        "angajament de plată pentru membrii familiei***",
+        "adeverințe de venit pentru membrii de familie în vederea efectuării de către aceștia a co-plății pentru persoana cu dizabilități, conform Ordinului 1887/2016 privind stabilirea costului mediu lunar de întretinere în centrele rezidentiale pentru persoane cu handicap fiind în cuantum de 900 lei",
+        "documentul care atestă reprezentarea legală (în cazul în care persoana este certificată în actele medicale existente la dosar cu afecțiuni mentale, psihice sau neurologice care nu permit persoanei cu dizabilități semnarea în cunoștință de cauză a unui contract de servicii)"
+         ],
+         [
+           "copie de pe actele de identitate",
+           "certificatul de naştere, de căsătorie sau de deces al aparţinătorului",
+           "copie de pe documentul care atestă încadrarea în grad de handicap",
+           "adeverinţă de venit",
+           "documente doveditoare a situaţiei locative",
+           "ultimul talon de pensie, dacă este cazul",
+           "raportul de anchetă socială",
+           "investigaţii paraclinice",
+           "dovada eliberată de serviciul specializat al primăriei în a cărei rază teritorială îşi are domiciliul sau reşedinţa persoana cu handicap, prin care se atestă că acesteia nu i s-au putut asigura protecţia şi îngrijirea la domiciliu sau în cadrul altor servicii din comunitate"
+         ]
+        ]
+    ],
+    "prices": [
+        " "
+    ],
+    "generalInfo": [
+      [
+       "* sau alte documente care atestă posesia unor bunuri imobile în totalitate sau parțial,ca urmare a unor dezbateri succesorale",
+       "** în situația în care persoana nu deține o proprietate, informațiile vor fi consemnate în ancheta socială",
+       "*** se vor menționa în raportul de anchetă socială veniturile persoanei și ale familiei acesteia în următoarea ordine: soț/soție,copii, părinți, în funcție de situația persoanei",
+       "*** indemnizația de grad de handicap (acordată de D.G.A.S.P.C.) se sistează în cazul admiterii persoanei într-un centru",
+       "Dosarul va fi depus la Registratura D.G.A.S.P.C. Iași.",
+       "Date de contact: Str. Vasile Lupu nr. 57 A, Direcția Generală de Asistență Socială și Protecția Copilului Iași- Serviciul Persoane Adulte în Dificultate, parter, camera 20"
+           ],
+           [
+             "(1) În vederea admiterii în centre publice rezidenţiale sau de zi, persoana cu handicap ori reprezentantul legal al acesteia va depune şi va înregistra o cerere în acest sens, la primăria în a cărei rază teritorială îşi are domiciliul sau reşedinţa persoana cu handicap, primăria urmând să o transmită, în termen de maximum 5 zile lucrătoare, la registratura DGASPC, însoţită de următoarele documente:",
+             "(2) Registratura DGASPC va transmite comisiei de evaluare cererea persoanei solicitante, împreună cu documentele prevăzute la alin. (1), în termen de maximum 5 zile lucrătoare de la înregistrare.",
+             "(3) Comisia de evaluare verifică cererea şi documentele prevăzute la alin. (1) şi soluţionează cererea, în termen de cel mult 15 zile de la data înregistrării dosarului."
+           ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  

@@ -1,0 +1,39 @@
+{
+    "institution": "DLEP",
+    "process": "ACTE NECESARE-Primul act de identitate după împlinirea vârstei de 18 ani",
+    "departaments": [
+        "Primul act de identitate după împlinirea vârstei de 18 ani"
+    ],
+    "cases": [
+        " "
+    ],
+    "forms": [
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Cererea pentru eliberarea actului de identitate", 
+                "Certificatul de naştere(fotocopie şi original)",
+                "Contravaloarea cărţii de identitate",
+                "Declaraţia unuia dintre părinţi ori a unei terţe persoane, din care să rezulte faptul că identitatea declarată în cererea de eliberare a actului de identitate, coroborată cu imaginea preluată ori cu fotografia ataşată cererii, aparţine solicitantului"
+
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Actele se prezintă în ORIGINAL - nu se acceptă copii legalizate. Înainte de întocmirea dosarului pentru eliberarea actului de identitate vă recomandăm să citiţi rubrica Informatii generale despre actul de identitate.\nCererea pentru eliberarea actului de identitate:- se obţine de la ofiţerul de serviciu sau se descarcă Anexa 11 şi se listează pe o singură foaie A4, faţă-verso; se completează de titular şi se va semna în faţa lucrătorului de la ghişeu\n Dacă solicitantul nu este titularul spaţiului de locuit, găzduitorul va prezenta actul de proprietate(fotocopie şi original)\nDacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural. "
+        ]
+    ],
+    "prices": [
+        [
+            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+        ]
+    ],
+    "files": [
+        "Dovada adresei de domiciliu"
+    ]
+}

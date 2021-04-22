@@ -1,0 +1,71 @@
+{
+    "institution": "DLEP",
+    "process": "Transcriere - căsătorie încheiată în străinătate",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
+    "cases": [
+        "In cazul in care titularul se poate prezenta",
+        "In cazul in care titularul nu se poate prezenta",
+        "In cazul cetatenilor straini"
+    ],
+    "forms": [
+        [
+            " "
+        ],
+        [
+            " "
+        ],
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Certificatul de căsătorie original simplu/apostilat/supralegalizat eliberat de autoritățile din străinătate - original și două copii xerox;",
+                "Traducerea legalizată a certificatului de căsătorie - original și copie xerox;",
+                "Certificatele de naștere ale soților - copii xerox;",
+                "Actele de identitate ale soților (carte de identitate / carte provizorie de identitate sau pașaport cu domiciliul în străinătate - pentru cetățenii români care au avut ultimul domiciliu în municipiul Iași) - copii xerox;",
+                "Declarația notarială a ambilor soți cu privire la numele de familie după încheierea căsătoriei, în cazul în care acesta nu este specificat în certificatul original;",
+                "Convenția matrimonială încheiată în străinătate simplă/apostilată/supralegalizată, original și traducere legalizată. În situația în care soții nu dețin așa ceva vor prezenta o declarație notarială privind legea aplicabilă regimului matrimonial; dacă legea aplicabilă este legea română, atunci trebuie precizat și regimul matrimonial ales;",
+                "Hotărârea de divorț sau certificatul de deces privind o eventuală căsătorie anterioară, dacă este cazul - copie xerox;",
+                "Taxa de 13 lei - se achită la casieria Stării Civile;",
+                "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
+            ]
+        ],
+        [
+            [
+                "Certificatul de căsătorie original simplu/apostilat/supralegalizat eliberat de autoritățile din străinătate - original și două copii xerox;",
+                "Traducerea legalizată a certificatului de căsătorie - original și copie xerox;",
+                "Certificatele de naștere ale soților - copii xerox;",
+                "Actele de identitate ale soților (carte de identitate / carte provizorie de identitate sau pașaport cu domiciliul în străinătate - pentru cetățenii români care au avut ultimul domiciliu în municipiul Iași) - copii xerox;",
+                "Declarația notarială a ambilor soți cu privire la numele de familie după încheierea căsătoriei, în cazul în care acesta nu este specificat în certificatul original;",
+                "Convenția matrimonială încheiată în străinătate simplă/apostilată/supralegalizată, original și traducere legalizată. În situația în care soții nu dețin așa ceva vor prezenta o declarație notarială privind legea aplicabilă regimului matrimonial; dacă legea aplicabilă este legea română, atunci trebuie precizat și regimul matrimonial ales;",
+                "Hotărârea de divorț sau certificatul de deces privind o eventuală căsătorie anterioară, dacă este cazul - copie xerox;",
+                "Taxa de 13 lei - se achită la casieria Stării Civile;",
+                "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX.",
+                "Procură specială autentificată:făcută la notar public, în țară; ăcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin   traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României; ",
+                "Act identitate mandatar-original și copie"
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "ATENȚIE!Termenul de soluționare a dosarelor este de 30 de zile. \nTranscrierea poate fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați.\n Nu se transcrie certificatul de căsătorie concomitent cu transcrierea certificatului de naștere al titularului.\n Certificatele de naștere ale minorilor vor fi transcrise ulterior transcrierii certificatului de căsătorie al părinților, în baza unei programări separate.   "
+        ],
+        [
+            "ATENȚIE!Termenul de soluționare a dosarelor este de 30 de zile. \nTranscrierea poate fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați.\n Nu se transcrie certificatul de căsătorie concomitent cu transcrierea certificatului de naștere al titularului.\n Certificatele de naștere ale minorilor vor fi transcrise ulterior transcrierii certificatului de căsătorie al părinților, în baza unei programări separate.   "
+        ]
+    ],
+    "prices": [
+        [
+            "Taxa de 13 lei - se achită la casieria Stării Civile;",
+            "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
+        ],
+        [
+            "Taxa de 13 lei - se achită la casieria Stării Civile;",
+            "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "institution": "DLEP",
+    "process": "Transcriere - deces înregistrat în străinătate",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
+    "cases": [
+        "In cazul in care titularul se poate prezenta",
+        "In cazul in care titularul nu se poate prezenta",
+        "In cazul cetatenilor straini"
+    ],
+    "forms": [
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Certificatul de deces original simplu/apostilat/supralegalizat eliberat de autoritățile din străinătate - original și două copii xerox;",
+                "Traducerea certificatului de deces, efectuată în România sau în străinătate - original și copie xerox;",
+                "Actul de identitate al persoanei decedate - original și copie xerox;",
+                "Certificatul de naștere;",
+                "Certificatul de căsătorie al persoanei decedate, dacă este cazul - original și copie xerox;",
+                "Actul de identitate al solicitantului;",
+                "Taxa de 13 lei - se achită la casieria Stării Civile;",
+                "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
+               
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "ATENȚIE: Termenul de soluționare a dosarelor este de 30 zile. Transcrierea poate fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați. \n În cazul în care persoana îndreptățită nu se poate prezenta, împuternicitul trebuie să prezinte: \nProcură specială autentificată:făcută la notar public, în țară, sau făcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin  traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României; Act identitate mandatar-original și copie." 
+
+            
+        ]
+    ],
+    "prices": [
+        [
+            "Taxa de 13 lei - se achită la casieria Stării Civile;",
+            "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
+        ]
+    ]
+}
