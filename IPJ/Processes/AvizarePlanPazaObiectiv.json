@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Avizare plan paza obiectiv",
+    "cases": [
+      "Pentru Avizare plan paza obiectiv"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Avizare plan paza obiectiv"
+      ]
+    ],
+    "necessary": [[["Anexa13","Anexa26"]]],
+    "generalInfo": [[""]],
+    "files": ["ordine_publica_Anexa13","ordine_publica_Anexa26"]
+  }
+  

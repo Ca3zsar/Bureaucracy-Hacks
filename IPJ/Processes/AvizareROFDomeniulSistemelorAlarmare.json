@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Avizare R.O.F in domeniul sistemelor de alarmare impotriva efractiei, ulterior obtinerii/reinnoirii licentei de functionare",
+    "cases": [
+      "Pentru Avizare R.O.F in domeniul sistemelor de alarmare impotriva efractiei, ulterior obtinerii/reinnoirii licentei de functionare"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Avizare R.O.F in domeniul sistemelor de alarmare impotriva efractiei, ulterior obtinerii/reinnoirii licentei de functionare"
+      ]
+    ],
+    "necessary": [[["Anexa9","Anexa24"]]],
+    "generalInfo": [[""]],
+    "files": ["ordine_publica_Anexa9","ordine_publica_Anexa24"]
+  }
+  

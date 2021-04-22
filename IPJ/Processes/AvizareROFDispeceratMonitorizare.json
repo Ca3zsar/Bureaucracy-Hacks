@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Avizare R.O.F Dispecerat de monitorizare a sistemelor de alarmare",
+    "cases": [
+      "Pentru Avizare R.O.F Dispecerat de monitorizare a sistemelor de alarmare"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Avizare R.O.F Dispecerat de monitorizare a sistemelor de alarmare"
+      ]
+    ],
+    "necessary": [[["Anexa10","Anexa25"]]],
+    "generalInfo": [[""]],
+    "files": ["ordine_publica_Anexa10","ordine_publica_Anexa25"]
+  }
+  

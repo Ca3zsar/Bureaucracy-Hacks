@@ -10,8 +10,8 @@
         "Licenta in domeniul pazei si protectiei"
       ]
     ],
-    "necessary": [[["Anexa2"]]],
+    "necessary": [[["Anexa1","Anexa23"]]],
     "generalInfo": [[""]],
-    "files": ["frauda_economica_Anexa2"]
+    "files": ["ordine_publica_Anexa1","ordine_publica_Anexa23"]
   }
   

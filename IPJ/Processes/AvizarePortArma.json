@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Avizare port arma",
+    "cases": [
+      "Pentru Avizare port arma"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Avizare port arma"
+      ]
+    ],
+    "necessary": [[["Anexa18"]]],
+    "generalInfo": [[""]],
+    "files": ["ordine_publica_Anexa18"]
+  }
+  

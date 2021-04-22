@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Actualizare plan paza transport valori",
+    "cases": [
+      "Pentru Actualizare plan paza transport valori"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Actualizare plan paza transport valori"
+      ]
+    ],
+    "necessary": [[["Anexa16"]]],
+    "generalInfo": [[""]],
+    "files": ["ordine_publica_Anexa16"]
+  }
+  
