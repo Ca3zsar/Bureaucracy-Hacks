@@ -1,0 +1,20 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Acordare de ajutoare de urgenta",
+    "cases": ["In cazul calamitatilor naturale, incendiilor, accidente si alte situatii deosebite"],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Cererea va fi însoţită de documente specifice solicitate în vederea motivării acordării acestor ajutoare, dat fiind caracterul lor special"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        "Primarul Municipiului Iasi poate acorda ajutoare de urgenţă, în limita fondurilor existente, familiilor sau persoanelor singure, cu domiciliul ori reşedinţa în Municipiul Iasi, aflate în situaţii de necesitate cauzate de calamităţi naturale, incendii, accidente, precum si pentru alte situaţii deosebite stabilite în Anexa nr.1, ce face parte integrantă din H.C.L nr.294/2012"
+      ]
+    ]
+  }
+  

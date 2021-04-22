@@ -1,0 +1,24 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Ancheta socială solicitată la divorţul prin procedură notarială",
+    "cases": ["Ancheta socială solicitată la divorţul prin procedură notarială"],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Solicitare de la biroul notarial şi copie după cererea de divorţ ȋnregistrată la biroul notarial",
+          "Copii după actele de identitate ale solicitanţilor",
+          "Copii după certificatele de naştere ale minorilor",
+          "Alte acte solicitate de reprezentantul autorităţii tutelare pentru a dovedi respectarea interesului superior al copilului",
+          "Notificare privind prelucrarea datelor cu caracter personal"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        "La momentul ȋntrevederii este obligatorie prezenţa copilului care a ȋmplinit 10 ani, conform art. 264 Noul Cod Civil \"ȋn procedurile administrative sau judiciare care ȋl privesc, ascultarea copilului care a ȋmplinit vârsta de 10 ani este obligatorie\""
+      ]
+    ]
+  }
+  

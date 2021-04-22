@@ -1,38 +1,30 @@
 {
-    "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
-    "process": "Evaluare a capacitatii de a continua profesia de asistent maternal profesionist",
-    "cases": [
-      "Pentru evaluarea capacitatii de a continua profesia de asistent maternal profesionist"
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte",
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Evaluare a capacitatii de a continua profesia de asistent maternal profesionist",
+  "cases": [
+    "Pentru evaluarea capacitatii de a continua profesia de asistent maternal profesionist"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
-      ]
-    ],
-    "necessary": [
-        [
-          [
         "Curriculum vitae",
         "Copii legalizate de pe actele de stare civila",
         "Copii legalizate de pe actele de studii",
         "Certificate medicale eliberate de policlinica de care apartin din care sa rezulte o evaluare complete a starii de sanatate a solicitantului si a persoanelor cu care locuieste",
         "Certificate de cazier judiciar ale solicitantului si ale persoanelor cu care acesta locuieste",
         "Un document care sa ateste dreptul de folosinta a solicitantului asupra locuintei, respectiv copie legalizata de pe titlul de proprietate sau de pe contractual de inchiriere, declaratie autentificata a titularului dreptului de proprietate sau al contractului de inchiriere prin care acesta recunoaste solicitantului un drept de folosinta asupra locuintei, cunoscand specificul activitatii pe care solicitantul urmeaza sa o desfasoare ca asistent maternal profesionist, sau, dupa caz, copie legalizata de pe contractul de subinchiriere, incheiat in conditiile legii",
-        "Declaratia pe proprie raspundere cu privire la faptul ca nu se afla in una dintre situatiile prevazute la art.2, alin.2 lit.a, b, c,  HG 679/2003 (“persoana care a suferit o condamnare prin hotarare judecatoreasca ramasa definitiva, pentru savarsirea cu intentie a unei infractiuni”; “parintele decazut din drepturile parintesti sau cel al carui copil a fost declarant abandonat prin hotarare judecatoreasca ramasa definitiva”, “persoana care sufera de boli cornice transmisibile”’)" 
-        ]
-        ]
-    ],
-    "generalInfo": [
-      [
-        " "
-    ]
-    ],
-    "files":[
-      ["CERERE DE EVALUARE A CAPACITATII DE  A CONTINUA PROFESIA DE ASISTENT MATERNAL PROFESIONIST"]
+        "Declaratia pe proprie raspundere cu privire la faptul ca nu se afla in una dintre situatiile prevazute la art.2, alin.2 lit.a, b, c,  HG 679/2003 (“persoana care a suferit o condamnare prin hotarare judecatoreasca ramasa definitiva, pentru savarsirea cu intentie a unei infractiuni”; “parintele decazut din drepturile parintesti sau cel al carui copil a fost declarant abandonat prin hotarare judecatoreasca ramasa definitiva”, “persoana care sufera de boli cornice transmisibile”’)"
       ]
+    ]
+  ],
+  "generalInfo": [[" "]],
+  "files": [
+    [
+      "CERERE DE EVALUARE A CAPACITATII DE  A CONTINUA PROFESIA DE ASISTENT MATERNAL PROFESIONIST"
+    ]
+  ]
 }
-  

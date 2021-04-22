@@ -1,0 +1,23 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Ancheta socială necesara la scutirea de la platirea Rovignietei",
+    "cases": ["Ancheta socială necesara la scutirea de la platirea Rovignietei"],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Copie CI solicitant şi/sau aparţinător al persoanei cu handicap",
+          "Copie Certificat de ȋncadrare ȋn grad de handicap",
+          "Copie Certificat de ȋnmatriculare al maşinii pentru care se solicită scutirea de la plata Rovignietei",
+          "Notificare privind prelucrarea datelor cu caracter personal"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        ""
+      ]
+    ]
+  }
+  

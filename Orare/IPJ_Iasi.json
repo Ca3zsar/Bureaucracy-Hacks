@@ -160,19 +160,6 @@
         }
       },
       {
-        "titlu": "Serviciul Rutier - Subcomisar de politie SORIC MIHAI",
-        "program": {
-          "marti": {
-            "open": "10:00",
-            "close": "12:00"
-          },
-          "vineri": {
-            "open": "14:00",
-            "close": "16:00"
-          }
-        }
-      },
-      {
         "titlu": "Politia municipiului PASCANI - Subcomisar de politie VASILIU MIHAITA",
         "program": {
           "marti": {
@@ -226,6 +213,83 @@
           "joi": {
             "open": "14:00",
             "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu":"Serviciul Arme, Explozivi si Substante Periculoase",
+        "program":{
+          "luni":{
+            "open":"14:30",
+            "close":"15:30"
+          },
+          "marti":{
+            "open":"11:30",
+            "close":"12:30"
+          },
+          "miercuri":{
+            "open":"14:30",
+            "close":"15:30"
+          },
+          "joi":{
+            "open":"9:30",
+            "close":"10:30"
+          },
+          "vineri":{
+            "open":"9:30",
+            "close":"10:30"
+          }
+
+        }
+      },
+      {
+        "titlu":"Ghiseul de Cazier Judiciar",
+        "program":{
+          "luni":{
+            "open":"10:00",
+            "close":"14:00"
+          },
+          "marti":{
+            "open":"11:00 16:00",
+            "close":"13:00 18:00"
+          },
+          "miercuri":{
+            "open":"10:00",
+            "close":"14:00"
+          },
+          "joi":{
+            "open":"10:00",
+            "close":"14:00"
+          },
+          "viner":{
+            "open":"9:00",
+            "close":"12:00"
+          }
+        }
+      },
+      {
+        "titlu": "Serviciul Rutier",
+        "program": {
+          "marti": {
+            "open": "10:00",
+            "close": "12:00"
+          },
+          "vineri": {
+            "open": "14:00",
+            "close": "16:00"
+          }
+        }
+      },
+      {
+        "titlu": "Serviciul de Ordine Publica",
+        "program": {
+          "marti": {
+            "open": "09:00",
+            "close": "11:00"
+          },
+          "joi": {
+            "open": "09:00",
+            "close": "11:00"
           }
         }
       }
