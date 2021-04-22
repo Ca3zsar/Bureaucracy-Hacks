@@ -1,0 +1,28 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Obținerea certificatului de cazier judiciar de către persoana juridica",
+  "cases": [
+    "Pentru obtinerea de cazier judiciar de catre persoane juridice"
+   ],
+  "departaments": [
+    "Ghiseul de Cazier Judiciar"
+  ],
+  "forms": [
+    ["Obținerea certificatului de cazier judiciar de către persoana juridica"]
+  ],
+  "necessary": [
+    [
+      [
+          "Cererea tip, cu datele complete de identificare si motivata",
+          "Dovada calitatii de persoana juridica",
+          "Dovada ca deponentul este reprezentatul legal al persoanei juridice",
+          "Copie de pe actul de identitate al reprezentantului legal"
+      ]
+    ]],
+  "generalInfo": [
+    [
+      "Pentru a obţine un certificat de cazier judiciar, orice persoana juridică poate depune cererea-tip, prin reprezentant legal, la orice subunitate de poliție în care există ghișeu de cazier judiciar, respectiv în municipiul Iaşi la sediul Inspectoratului de Poliție Județean Iași, sediul Poliției Municipiului Iași, sediul Poliției Municipiului Pașcani, sediul Poliției Orașului Târgu Frumos, sediul Poliției Orașuluii Hârlău, sediul Secție 5 Rurală Răducăneni\nCertificatul de cazier judiciar se eliberează, de regulă, pe loc, sau în cel mult 3 zile lucrătoare, este valabil 6 luni de la data emiterii şi numai în scopul pentru care a fost eliberat."
+    ]
+  ],
+  "files": ["cazier_Anexa2.pdf"]
+}
