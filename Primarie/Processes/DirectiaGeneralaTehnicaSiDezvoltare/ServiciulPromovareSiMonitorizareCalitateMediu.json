@@ -1,39 +1,21 @@
 {
-    "institution": "Primăria Iași",
-    "process": "Serviciul Promovare si Monitorizare Calitate Mediu",
-    "cases": [
-      "AVIZUL PENTRU RESPECTAREA PLANULUI DE PREVENIRE ȘI REDUCERE A POLUĂRII PE ȘANTIER"
-       ],
-    "departaments": [
-        "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"  ,
-        "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "Serviciul Promovare si Monitorizare Calitate Mediu",
+  "cases": [
+    "AVIZUL PENTRU RESPECTAREA PLANULUI DE PREVENIRE ȘI REDUCERE A POLUĂRII PE ȘANTIER"
+  ],
+  "departaments": ["DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "Copia Certificatului de Urbanism",
+        "Memoriu tehnic de prezentare proiect (rezumat)",
+        "Plan situaţie – 1 exemplar",
+        "Plan de incadrare in zona, sc 1:1000",
+        "Documentație organizare de șantier (daca este solicitată prin Certificatul de Urbanism)"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "Copia Certificatului de Urbanism",
-            "Memoriu tehnic de prezentare proiect (rezumat)",
-            "Plan situaţie – 1 exemplar",
-            "Plan de incadrare in zona, sc 1:1000",
-            "Documentație organizare de șantier (daca este solicitată prin Certificatul de Urbanism)"  
-         ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        " "
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[" "]]
 }
-  

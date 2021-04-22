@@ -41,7 +41,7 @@
   {
     "institutie": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "departamente": [
-    "Directia locala de evidenta a persoanelor",
+      "Directia locala de evidenta a persoanelor",
       "Nasteri - Starea Civila - Primiri",
       "Nasteri - Starea Civila - Eliberari",
       "Casatorii - Starea Civila - Primiri",
@@ -98,7 +98,7 @@
     "departamente": [
       "DIRECTIA FOND LOCATIV, Director Cristina Albisteanu",
       "SERVICIUL ASOCIATII DE PROPRIETARI",
-      "DIRECTIA EXPLOATARE PATRIMONIU, Director Grigoras Radu Mihai",
+      "Direcția Exploatare Patrimoniu",
       "SERVICIUL ADMINISTRARE PARCARI",
       "BIROUL AVIZE MICI INTREPRINZATORI",
       "SC SALUBRIS, Director Catalin Neculau",
@@ -131,7 +131,12 @@
       "DIRECTIA JURIDICA, SERVICIUL CONTENCIOS",
       "SERVICIUL CORP CONTROL PRIMAR",
       "SERVICIUL RESURSE UMANE",
-      "COMPARTIMENTUL REGISTRUL AGRICOL"
+      "COMPARTIMENTUL REGISTRUL AGRICOL",
+      "Serviciul Control Urbanism (in cadrul POLITIEI LOCALE IASI)",
+      "SECRETAR MUNICIPIUL IASI",
+      "DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA",
+      "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE",
+      "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
     ]
   },
   {

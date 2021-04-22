@@ -1,50 +1,35 @@
 {
-    "institution": "Primăria Iași",
-    "process": "PARTICIPAREA LA LICITATII DE INCHIRIERE DE SPATII",
-    "cases": [
-      "PERSOANE JURIDICE",
-      "PERSOANE FIZICE"
-    ],
-    "departaments": [
-        "Direcția Exploatare Patrimoniu"  
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "PARTICIPAREA LA LICITATII DE INCHIRIERE DE SPATII",
+  "cases": ["PERSOANE JURIDICE", "PERSOANE FIZICE"],
+  "departaments": [
+    "Direcția Exploatare Patrimoniu",
+    "Direcția Exploatare Patrimoniu"
+  ],
+  "forms": [[" "], [" "]],
+  "necessary": [
+    [
       [
-        " "
+        "statutul societatii (copie)",
+        "contractul de societate (copie)",
+        "hotararea judecatoreasca de infiintare a societatii (copie)",
+        "certificat de inmatriculare la C.C.I. (copie)",
+        "eventuale acte aditionale (copie)",
+        "certificate de neurmarire fiscala (achitarea tuturor obligatiilor fiscale catre stat), emise de urmatoarele institutii: D.G.F.P.J. Iasi, D.G.E.F.P.L Iasi, Inspectoratul Judetean de Munca, Casa de Asigurari de Sanatate, Agentia Judeteana pentru Ocuparea Fortei de Munca,  Casa Judeteana de Pensii",
+        "procura legalizata de la Notar public, pentru societati participante la licitatie reprezentate de mandatari (copie)",
+        "chitanta reprezentand contravaloarea documentatiei (copie)",
+        "chitanta reprezentand contravaloarea garantiei de participare (copie)"
       ]
     ],
-    "necessary": [
-        [
-          [
-            "statutul societatii (copie)",
-            "contractul de societate (copie)",
-            "hotararea judecatoreasca de infiintare a societatii (copie)",
-            "certificat de inmatriculare la C.C.I. (copie)",
-            "eventuale acte aditionale (copie)",
-            "certificate de neurmarire fiscala (achitarea tuturor obligatiilor fiscale catre stat), emise de urmatoarele institutii: D.G.F.P.J. Iasi, D.G.E.F.P.L Iasi, Inspectoratul Judetean de Munca, Casa de Asigurari de Sanatate, Agentia Judeteana pentru Ocuparea Fortei de Munca,  Casa Judeteana de Pensii",
-            "procura legalizata de la Notar public, pentru societati participante la licitatie reprezentate de mandatari (copie)",
-            "chitanta reprezentand contravaloarea documentatiei (copie)",
-            "chitanta reprezentand contravaloarea garantiei de participare (copie)"
-           ],
-           [
-               "autorizatie de functionare vizata pe anul in curs (copie)",
-               "procura legalizata de la Notar Public, pentru persoane fizice participante la licitatie reprezentate de mandatari (copie)",
-               "chitanta reprezentand contravaloarea documentatiei (copie)",
-               "chitanta reprezentand contravaloarea garantiei de participare (copie)",
-               "certificate de neurmarire fiscala"
-           ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
+    [
       [
-        ""
+        "autorizatie de functionare vizata pe anul in curs (copie)",
+        "procura legalizata de la Notar Public, pentru persoane fizice participante la licitatie reprezentate de mandatari (copie)",
+        "chitanta reprezentand contravaloarea documentatiei (copie)",
+        "chitanta reprezentand contravaloarea garantiei de participare (copie)",
+        "certificate de neurmarire fiscala"
+      ]
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""],[""]]
 }
-  

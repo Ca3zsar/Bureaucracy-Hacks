@@ -1,47 +1,34 @@
 {
-    "institution": "Primăria Iași",
-    "process": "Serviciul Eficienta Energetica si Utilitati Publice",
-    "cases": [
-      "AVIZ SPAȚII VERZI",
-      "AUTORIZATIA DE OCUPARE A DOMENIULUI PUBLIC"
-       ],
-    "departaments": [
-        "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"  ,
-        "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "Serviciul Eficienta Energetica si Utilitati Publice",
+  "cases": ["AVIZ SPAȚII VERZI", "AUTORIZATIA DE OCUPARE A DOMENIULUI PUBLIC"],
+  "departaments": [
+    "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE",
+    "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
+  ],
+  "forms": [[" "], [""]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere",
+        "act de proprietate",
+        "certificat de urbanism",
+        "plan de situație – situație existentă",
+        "plan de situație – situație propusă"
       ]
     ],
-    "necessary": [
-        [
-          [
-            "cerere",
-            "act de proprietate",
-            "certificat de urbanism",
-            "plan de situație – situație existentă",
-            "plan de situație – situație propusă"  
-         ],
-         [
-             "cerere care va cuprinde: \nnume solicitant, \nadresa de domiciliu \nadresa in vederea ocuparii domeniului public \nsuprafata necesara (carosabil - mp, trotuar - mp, spatii cu alte destinatii - mp) \nnumarul de zile necesar ocuparii",
-             "autorizatie de construire, dupa caz",
-             "Plan de situatie cu amplasamentul solicitat",
-             "Taxa de 10 lei/mp/zi (se calculeaza dupa masurarea in teren)"
-         ]
-        ]
-    ],
-    "prices": [
-        "",
+    [
+      [
+        "cerere care va cuprinde: \nnume solicitant, \nadresa de domiciliu \nadresa in vederea ocuparii domeniului public \nsuprafata necesara (carosabil - mp, trotuar - mp, spatii cu alte destinatii - mp) \nnumarul de zile necesar ocuparii",
+        "autorizatie de construire, dupa caz",
+        "Plan de situatie cu amplasamentul solicitat",
         "Taxa de 10 lei/mp/zi (se calculeaza dupa masurarea in teren)"
-        ],
-    "generalInfo": [
-      [
-        " "
-    ]
-    ],
-    "files":[
-      " "
       ]
+    ]
+  ],
+  "prices": [
+    [""],
+    ["Taxa de 10 lei/mp/zi (se calculeaza dupa masurarea in teren)"]
+  ],
+  "generalInfo": [[" "],[""]]
 }
-  

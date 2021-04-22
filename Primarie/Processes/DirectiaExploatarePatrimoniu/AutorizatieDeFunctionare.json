@@ -1,43 +1,24 @@
 {
-    "institution": "Primăria Iași",
-    "process": "AUTORIZAŢIE DE FUNCŢIONARE",
-    "cases": [
-      " "
-    ],
-    "departaments": [
-        "Direcția Exploatare Patrimoniu"  
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "AUTORIZAŢIE DE FUNCŢIONARE",
+  "cases": [" "],
+  "departaments": ["Direcția Exploatare Patrimoniu"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere tipizata",
+        "copie după certificatul de înregistrare eliberat de O.R.C.recodificat cod CAEN Rev.2",
+        "copie după certificatul constatator (activităţi cod CAEN Rev.2) sau anexa la certificatul de înregistrare pentru punctul de lucru, eliberat în baza Legii 359/2004",
+        "copie dupa actul de deţinere al spaţiului (act de proprietate spaţiu /act de proprietate teren + autorizaţie de construire spaţiu şi schiţele anexe cu procesul verbal de receptie, contract cale de acces încheiat cu Municipiul Iaşi valabil pe anul în curs, contract de închiriere valabil pe anul în curs, contract de comodat, copie dupa autorizaţia de construire privind schimbarea destinaţiei spaţiului – dacă este cazul)",
+        "cartea funciară a imobilului cu schiţele anexe din care să rezulte anul construirii, suprafaţa, destinaţia solicitată (spaţiu comercial, alimentaţie publică) şi copie după extrasul de carte funciară, pentru informare,  actualizat la zi",
+        "copie dupa autorizaţia sanitară de funcţionare/notificarea (referat) eliberată de DSP Iaşi şi autorizaţie sanitară veterinară/ document de înregistrare sanitară veterinară şi pentru siguranţa alimentelor eliberată de DSVSA Iaşi, dacă este cazul",
+        "copie după autorizaţia de securitate la incendiu eliberată de ISUJ Iaşi, dacă este cazul; declaraţia tip cf. anexei nr.2 din H.G. 843/1999 (pentru unităţile de alimentaţie publică)",
+        "acordul locatarilor cu viza asociaţiei de proprietari pentru unităţile de alimentaţie publică aflate la parterul blocurilor de locuinţe",
+        "autorizaţia de funcţionare în original (în cazul vizării anuale); certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local(eliberat de  către DGEFPL Iasi)",
+        "Contract prestări servicii cu SC SALUBRIS SA/avizul operatorului de salubritate"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "cerere tipizata",
-            "copie după certificatul de înregistrare eliberat de O.R.C.recodificat cod CAEN Rev.2",
-            "copie după certificatul constatator (activităţi cod CAEN Rev.2) sau anexa la certificatul de înregistrare pentru punctul de lucru, eliberat în baza Legii 359/2004",
-            "copie dupa actul de deţinere al spaţiului (act de proprietate spaţiu /act de proprietate teren + autorizaţie de construire spaţiu şi schiţele anexe cu procesul verbal de receptie, contract cale de acces încheiat cu Municipiul Iaşi valabil pe anul în curs, contract de închiriere valabil pe anul în curs, contract de comodat, copie dupa autorizaţia de construire privind schimbarea destinaţiei spaţiului – dacă este cazul)",
-            "cartea funciară a imobilului cu schiţele anexe din care să rezulte anul construirii, suprafaţa, destinaţia solicitată (spaţiu comercial, alimentaţie publică) şi copie după extrasul de carte funciară, pentru informare,  actualizat la zi",
-            "copie dupa autorizaţia sanitară de funcţionare/notificarea (referat) eliberată de DSP Iaşi şi autorizaţie sanitară veterinară/ document de înregistrare sanitară veterinară şi pentru siguranţa alimentelor eliberată de DSVSA Iaşi, dacă este cazul",
-            "copie după autorizaţia de securitate la incendiu eliberată de ISUJ Iaşi, dacă este cazul; declaraţia tip cf. anexei nr.2 din H.G. 843/1999 (pentru unităţile de alimentaţie publică)",
-            "acordul locatarilor cu viza asociaţiei de proprietari pentru unităţile de alimentaţie publică aflate la parterul blocurilor de locuinţe",
-            "autorizaţia de funcţionare în original (în cazul vizării anuale); certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local(eliberat de  către DGEFPL Iasi)",
-            "Contract prestări servicii cu SC SALUBRIS SA/avizul operatorului de salubritate"   
-          ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""]]
 }
-  

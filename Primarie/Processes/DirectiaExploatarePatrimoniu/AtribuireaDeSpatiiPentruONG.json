@@ -1,36 +1,17 @@
 {
-    "institution": "Primăria Iași",
-    "process": "ATRIBUIREA DE SPATII PENTRU ONG",
-    "cases": [
-      " "
-    ],
-    "departaments": [
-        "Direcția Exploatare Patrimoniu"  
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "ATRIBUIREA DE SPATII PENTRU ONG",
+  "cases": [" "],
+  "departaments": ["Direcția Exploatare Patrimoniu"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere",
+        "copii dupa actele constitutive (statut, hotarare judecatoreasca)",
+        "memoriu de prezentare (programe realizate, obiective)"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "cerere",
-            "copii dupa actele constitutive (statut, hotarare judecatoreasca)",
-            "memoriu de prezentare (programe realizate, obiective)"
-        ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""]]
 }
-  

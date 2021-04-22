@@ -1,43 +1,25 @@
 {
-    "institution": "Primăria Iași",
-    "process": "Biroul Versanti",
-    "cases": [
-      "AVIZ DE AMPLASARE A UNEI LUCRARI TEHNICO-EDILITARE IN ZONA SAU PE STRUCTURA UNEI LUCRARI DE ARTA EXISTENTE (POD, PASAJ)"
-       ],
-    "departaments": [
-        "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"  ,
-        "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "Biroul Versanti",
+  "cases": [
+    "AVIZ DE AMPLASARE A UNEI LUCRARI TEHNICO-EDILITARE IN ZONA SAU PE STRUCTURA UNEI LUCRARI DE ARTA EXISTENTE (POD, PASAJ)"
+  ],
+  "departaments": ["DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "1. cerere",
+        "2. certificatul de urbanism (copie)",
+        "3. documentatie in doua exemplare, cuprinzand:",
+        "3.1 plan de situatie incadrare in zona",
+        "3.2 plan de situatie cu amplasamentul lucrarii (sc. 1:500, 1:200)",
+        "3.3 releveu al podului cu utilitatea solicitata",
+        "3.4. detalii de executie montaj utilitate la nivelul podului",
+        "3.5. eventuale fotografii",
+        "4. referat verificator atestat MLPTL"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "1. cerere",
-            "2. certificatul de urbanism (copie)",
-            "3. documentatie in doua exemplare, cuprinzand:",
-            "3.1 plan de situatie incadrare in zona",
-            "3.2 plan de situatie cu amplasamentul lucrarii (sc. 1:500, 1:200)",
-            "3.3 releveu al podului cu utilitatea solicitata",
-            "3.4. detalii de executie montaj utilitate la nivelul podului",
-            "3.5. eventuale fotografii",
-            "4. referat verificator atestat MLPTL"  
-         ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        " "
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[" "]]
 }
-  

@@ -1,64 +1,55 @@
 {
-    "institution": "Primăria Iași",
-    "process": "Compartimentul Registru Agricol",
-    "cases": [
-      "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR ANIMALIERE",
-      "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR AGROALIMENTARE",
-      "ADEVERINTA ROL AGRICOL (JUDECATORIE, NOTARIAT, POLITIE ETC.)",
-      "CONTRACT DE PASUNAT",
-      "ADEVERINTA TEREN (SOMAJ, BURSA, ETC.)",
-      "CONTRACTE DE FOLOSINTA PENTRU VETRE DE STUPINA",
-      "CONTRACTE DE FOLOSINTA AGRICOLA"
-       ],
-    "departaments": [
-        "SECRETAR MUNICIPIUL IASI"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "Compartimentul Registru Agricol",
+  "cases": [
+    "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR ANIMALIERE",
+    "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR AGROALIMENTARE",
+    "ADEVERINTA ROL AGRICOL (JUDECATORIE, NOTARIAT, POLITIE ETC.)",
+    "CONTRACT DE PASUNAT",
+    "ADEVERINTA TEREN (SOMAJ, BURSA, ETC.)",
+    "CONTRACTE DE FOLOSINTA PENTRU VETRE DE STUPINA",
+    "CONTRACTE DE FOLOSINTA AGRICOLA"
+  ],
+  "departaments": [
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL",
+    "COMPARTIMENTUL REGISTRUL AGRICOL"
+  ],
+  "forms": [[" "], [" "], [" "], [" "], [" "], [" "], [" "]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere tip",
+        "certificat de sanatate al animalelor vizat de Directia Sanitar Veterinara (copie xerox)"
       ]
     ],
-    "necessary": [
-        [
-          [
-            "cerere tip",
-            "certificat de sanatate al animalelor vizat de Directia Sanitar Veterinara (copie xerox)"  
-          ],
-          [
-            "cerere tip"  
-          ],
-          [
-            "cerere scrisa de petent"  
-          ],
-          [
-            "cerere scrisa de petent"  
-          ],
-          [
-            " cerere - tip",
-            " timbru fiscal (de cea mai mica valoare), doar pentru adeverintele care nu sunt de tip social, cele sociale sunt scutite de taxa de timbru"  
-          ],
-          [
-            "cerere",
-            "adeverinta eliberata de Asociatia Crescatorilor de Albine",
-            "certificat privind numarul familiilor de albine eliberat de Biroul Rrgistrului Agricol din cadrul Primariei Municipiului Iasi"  
-          ],
-          [
-            "1. Cerere;",
-            "2. act doveditor de proprietate asupra imobilului;",
-            "3. tabel nominal cu acordul proprietarilor din imediata vecinatate a terenului pentru care s-a solicitat intocmirea unui contract de folosinta agricola (daca terenul este solicitat de mai multi vecini, acesta va fi scos la licitatie)."  
-          ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
+    [["cerere tip"]],
+    [["cerere scrisa de petent"]],
+    [["cerere scrisa de petent"]],
+    [
       [
-        "documente care atestă calitatea de solicitant"
+        " cerere - tip",
+        " timbru fiscal (de cea mai mica valoare), doar pentru adeverintele care nu sunt de tip social, cele sociale sunt scutite de taxa de timbru"
+      ]
+    ],
+    [
+      [
+        "cerere",
+        "adeverinta eliberata de Asociatia Crescatorilor de Albine",
+        "certificat privind numarul familiilor de albine eliberat de Biroul Rrgistrului Agricol din cadrul Primariei Municipiului Iasi"
+      ]
+    ],
+    [
+      [
+        "1. Cerere;",
+        "2. act doveditor de proprietate asupra imobilului;",
+        "3. tabel nominal cu acordul proprietarilor din imediata vecinatate a terenului pentru care s-a solicitat intocmirea unui contract de folosinta agricola (daca terenul este solicitat de mai multi vecini, acesta va fi scos la licitatie)."
+      ]
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""], [""], [""], [""], [""], [""], [""]]
 }
-  

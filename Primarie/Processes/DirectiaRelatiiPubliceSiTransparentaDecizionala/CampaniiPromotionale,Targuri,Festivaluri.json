@@ -1,36 +1,17 @@
 {
-    "institution": "Primăria Iași",
-    "process": "PARTICIPARE LA TÂRGURILE ORGANIZATE DE MUNICIPIUL IAŞI",
-    "cases": [
-      " "
-       ],
-    "departaments": [
-        "DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA"  
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "PARTICIPARE LA TÂRGURILE ORGANIZATE DE MUNICIPIUL IAŞI",
+  "cases": [" "],
+  "departaments": ["DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA"],
+  "forms": [["AVIZ DE PARTICIPARE LA TÂRGURILE ORGANIZATE DE MUNICIPIUL IAŞI"]],
+  "necessary": [
+    [
       [
-        "AVIZ DE PARTICIPARE LA TÂRGURILE ORGANIZATE DE MUNICIPIUL IAŞI"
+        "copie după certificatul de înregistrare eliberat de O.R.C.",
+        "alte documente (specificaţi)",
+        "Adresa de corespondenţă (dacă diferă de cea a sediului firmei)"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "copie după certificatul de înregistrare eliberat de O.R.C.",
-            "alte documente (specificaţi)",
-            "Adresa de corespondenţă (dacă diferă de cea a sediului firmei)"   
-         ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        " "
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[" "]]
 }
-  

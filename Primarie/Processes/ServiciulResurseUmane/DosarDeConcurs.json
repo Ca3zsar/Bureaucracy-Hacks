@@ -1,41 +1,22 @@
 {
-    "institution": "Primăria Iași",
-    "process": "DOSAR DE CONCURS",
-    "cases": [
-      "DOSAR DE CONCURS"
-       ],
-    "departaments": [
-        "SERVICIUL RESURSE UMANE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "DOSAR DE CONCURS",
+  "cases": ["DOSAR DE CONCURS"],
+  "departaments": ["SERVICIUL RESURSE UMANE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "1. cerere",
+        "2. copie buletin identitate (fata/verso)",
+        "3. copie dupa actul de studii (fata/verso)",
+        "4. autobiografie (CV)",
+        "5. recomandare de la ultimul loc de munca (de la ultima institutie de studiu)",
+        "6. fisa medicala: sange, plamani, psihiatrie-in policlinica",
+        "7. copie dupa cartea de munca",
+        "8. cazier."
       ]
-    ],
-    "necessary": [
-        [
-          [
-           "1. cerere",
-           "2. copie buletin identitate (fata/verso)",
-           "3. copie dupa actul de studii (fata/verso)",
-           "4. autobiografie (CV)",
-           "5. recomandare de la ultimul loc de munca (de la ultima institutie de studiu)",
-           "6. fisa medicala: sange, plamani, psihiatrie-in policlinica",
-           "7. copie dupa cartea de munca",
-           "8. cazier."  
-          ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""]]
 }
-  

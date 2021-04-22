@@ -1,88 +1,84 @@
 {
-    "institution": "Primăria Iași",
-    "process": "Serviciul Strazi Municipale",
-    "cases": [
-      "AUTORIZATIE DE LIBERA DE CIRCULATIE PENTRU AUTOVEHICULE CU CAPACITATE MAI MARE DE 2,4 To, in zonele cu interdictie de circulatie a acestora din municipiul Iasi",
-      "AUTORIZATIA DE EXECUTIE PENTRU TRANSPORTUL PUBLIC INTERURBAN SI PREURBAN DE PERSOANE",
-      "AVIZ - COMISIA DE CIRCULATIE",
-      "AUTORIZATIA DE EXECUTIE PENTRU TRANSPORTUL PUBLIC DE MARFURI (AUTOUTILITARE - FURGONETE)",
-      "AVIZ PENTRU TRANSPORT MARFA"
-     ],
-    "departaments": [
-        "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"  ,
-        "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "Serviciul Strazi Municipale",
+  "cases": [
+    "AUTORIZATIE DE LIBERA DE CIRCULATIE PENTRU AUTOVEHICULE CU CAPACITATE MAI MARE DE 2,4 To, in zonele cu interdictie de circulatie a acestora din municipiul Iasi",
+    "AUTORIZATIA DE EXECUTIE PENTRU TRANSPORTUL PUBLIC INTERURBAN SI PREURBAN DE PERSOANE",
+    "AVIZ - COMISIA DE CIRCULATIE",
+    "AUTORIZATIA DE EXECUTIE PENTRU TRANSPORTUL PUBLIC DE MARFURI (AUTOUTILITARE - FURGONETE)",
+    "AVIZ PENTRU TRANSPORT MARFA"
+  ],
+  "departaments": [
+    "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE",
+    "DIRECTIA TEHNICA SI SERVICII COMUNITARE",
+    "DIRECTIA TEHNICA SI SERVICII COMUNITARE",
+    "DIRECTIA TEHNICA SI SERVICII COMUNITARE",
+    "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
+  ],
+  "forms": [[" "], [" "], [" "], [" "], [" "]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere",
+        "copie de pe certificatul de inmatriculare obtinut de la Registrul Comertului (pentru persoanele juridice)",
+        "copie dupa certificatul de inmatriculare si a cartii de identitate a autovehiculului (pentru fiecare mijloc de transport)",
+        "talonul anexa la certificatul de inmatriculare cu inspectia tehnica valabila",
+        "copie dupa permisul de conducere si copie dupa cartea de identitate a soferului",
+        "asigurarea obligatorie de raspundere civila auto",
+        "specificarea traseului pe care se deplaseaza autovehiculul pana la punctul de lucru",
+        "achitarea contravalorii taxei de ___ lei/autovehicol/luna la care se adauga ___ lei/autovehicol/luna daca acesta circula pe strazile interzise circulatiei in ambele sensuri."
       ]
     ],
-    "necessary": [
-        [
-          [
-            "cerere",
-            "copie de pe certificatul de inmatriculare obtinut de la Registrul Comertului (pentru persoanele juridice)",
-            "copie dupa certificatul de inmatriculare si a cartii de identitate a autovehiculului (pentru fiecare mijloc de transport)",
-            "talonul anexa la certificatul de inmatriculare cu inspectia tehnica valabila",
-            "copie dupa permisul de conducere si copie dupa cartea de identitate a soferului",
-            "asigurarea obligatorie de raspundere civila auto",
-            "specificarea traseului pe care se deplaseaza autovehiculul pana la punctul de lucru",
-            "achitarea contravalorii taxei de ___ lei/autovehicol/luna la care se adauga ___ lei/autovehicol/luna daca acesta circula pe strazile interzise circulatiei in ambele sensuri."
-           ],
-           [
-               "cerere",
-               "copie dupa certificatul de inregistrare obtinut de la Camera de Comert si Industrie Iasi",
-               "caiet de sarcini, avizat de Autoritatea Rutiera Romana, pentru transport persoane prin servicii regulate speciale pentru fiecare traseu in parte",
-               "contractul de prestari servicii, intre partile contractante, daca este cazul",
-               "cartea de identitate a autovehiculului (pentru fiecare mijloc de transport)",
-               "certificatul de inmatriculare a autovehiculului (pentru fiecare mijloc de transport)",
-               "licenta de transport rutier public obtinuta de la Autoritatea Rutiera Romana",
-               "licenta de executie pentru vehicul obtinuta de la Autoritatea Rutiera Romana (pentru fiecare mijloc de transport)",
-               "polita de asigurare obligatorie de raspundere civila auto (pentru fiecare mijloc de transport)",
-               "polita privind asigurarea de accidente persoane (pentru fiecare mijloc de teansport)",
-               "certificatul de clasificare obtinut de la Rgistrul Auto Roman (pentru autocare ce efectueaza transport international de persoane)",
-               "achitarea contravalorii taxei de ____ lei/autovehicul/trimestru (in primele 10 zile lucratoare ale trimestrului, in caz contrar se percepe o penalizare conform prevederilor legale in vigoare)"
-           ],
-           [
-               " cerere catre Serviciul Strazi in vederea eliberarii avizului la care se anexeaza in copie urmatoarele acte:",
-               "- plan de situatie cu incadrarea in zona a obiectivului solicitat a fi analizat de Comisie, la sara 1:500",
-               "- plan functional la scara 1:200",
-               "- certificat de urbanism (pentru lucrarile ce necesita autorizatie de construire)",
-               "- contractul de vanzare-cumparare, inchiriere, concesionare (dupa caz)",
-               "- achitarea contravalorii texei de ___ lei"
-           ],
-           [
-               "cerere catre Serviciul Strazi",
-               "copie de pe certificatul de inmatriculare obtinut de la Registrul Comertului al operatorului de transport respectiv sau dupa caz copie a autorizatiei eliberata taximetristului independent, potrivit legii",
-               "copie licenta de transport corespunzatoare sau exemplarul de serviciu a acestuia, respectiv licenta taxi dupa caz eliberata sau vizata de A.R.R. din judet",
-               "copiile licentelor de executie pe vehicul ale taxiurilor utilizate - licente eliberate de A.R.R. Iasi",
-               "copie dupa certificatul de inmatriculare sau a cartii de identitate a autovehiculului",
-               "talonul anexa la certificatul de inmatriculare cu inspectia tehnica valabila",
-               "asigurarea pasagerilor si a bagajelor pentru riscurile ce cad in sarcina operatorilor de transport si a taximetristilor independenti",
-               "asigurarea obligatorie de raspundere civila auto",
-               "dovada ca fiecare taximetrist este angajat al operatorului de transport sau ca taximetristul independent este proprietarul taxiului, precum si ca acestia detin certificatul de atestare a pregatirii profesionale eliberat de agentia Autoritatii Rutiere Romane",
-               "achitarea contravalorii taxei de ___ lei/autovehicul/trimestru (in primele 10 zile lucratoare ale trimestrului, in caz contrar se percepe o penalizare de 0,4% pe zi)."
-           ],
-           [
-               "1. Buletin identitate (copie);",
-               "2. Permis de conducere (copie);",
-               "3. Certificat de inmatriculare a masinii (copie);",
-               "4. Actele societatii (certificate de inregistrare fiscala (SC, PFA, IF, II)",
-               "5. Cerere catre Primarul municipiului Iasi",
-               "6. Taxa"
-           ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
+    [
       [
-        " "
+        "cerere",
+        "copie dupa certificatul de inregistrare obtinut de la Camera de Comert si Industrie Iasi",
+        "caiet de sarcini, avizat de Autoritatea Rutiera Romana, pentru transport persoane prin servicii regulate speciale pentru fiecare traseu in parte",
+        "contractul de prestari servicii, intre partile contractante, daca este cazul",
+        "cartea de identitate a autovehiculului (pentru fiecare mijloc de transport)",
+        "certificatul de inmatriculare a autovehiculului (pentru fiecare mijloc de transport)",
+        "licenta de transport rutier public obtinuta de la Autoritatea Rutiera Romana",
+        "licenta de executie pentru vehicul obtinuta de la Autoritatea Rutiera Romana (pentru fiecare mijloc de transport)",
+        "polita de asigurare obligatorie de raspundere civila auto (pentru fiecare mijloc de transport)",
+        "polita privind asigurarea de accidente persoane (pentru fiecare mijloc de teansport)",
+        "certificatul de clasificare obtinut de la Rgistrul Auto Roman (pentru autocare ce efectueaza transport international de persoane)",
+        "achitarea contravalorii taxei de ____ lei/autovehicul/trimestru (in primele 10 zile lucratoare ale trimestrului, in caz contrar se percepe o penalizare conform prevederilor legale in vigoare)"
+      ]
+    ],
+    [
+      [
+        " cerere catre Serviciul Strazi in vederea eliberarii avizului la care se anexeaza in copie urmatoarele acte:",
+        "- plan de situatie cu incadrarea in zona a obiectivului solicitat a fi analizat de Comisie, la sara 1:500",
+        "- plan functional la scara 1:200",
+        "- certificat de urbanism (pentru lucrarile ce necesita autorizatie de construire)",
+        "- contractul de vanzare-cumparare, inchiriere, concesionare (dupa caz)",
+        "- achitarea contravalorii texei de ___ lei"
+      ]
+    ],
+    [
+      [
+        "cerere catre Serviciul Strazi",
+        "copie de pe certificatul de inmatriculare obtinut de la Registrul Comertului al operatorului de transport respectiv sau dupa caz copie a autorizatiei eliberata taximetristului independent, potrivit legii",
+        "copie licenta de transport corespunzatoare sau exemplarul de serviciu a acestuia, respectiv licenta taxi dupa caz eliberata sau vizata de A.R.R. din judet",
+        "copiile licentelor de executie pe vehicul ale taxiurilor utilizate - licente eliberate de A.R.R. Iasi",
+        "copie dupa certificatul de inmatriculare sau a cartii de identitate a autovehiculului",
+        "talonul anexa la certificatul de inmatriculare cu inspectia tehnica valabila",
+        "asigurarea pasagerilor si a bagajelor pentru riscurile ce cad in sarcina operatorilor de transport si a taximetristilor independenti",
+        "asigurarea obligatorie de raspundere civila auto",
+        "dovada ca fiecare taximetrist este angajat al operatorului de transport sau ca taximetristul independent este proprietarul taxiului, precum si ca acestia detin certificatul de atestare a pregatirii profesionale eliberat de agentia Autoritatii Rutiere Romane",
+        "achitarea contravalorii taxei de ___ lei/autovehicul/trimestru (in primele 10 zile lucratoare ale trimestrului, in caz contrar se percepe o penalizare de 0,4% pe zi)."
+      ]
+    ],
+    [
+      [
+        "1. Buletin identitate (copie);",
+        "2. Permis de conducere (copie);",
+        "3. Certificat de inmatriculare a masinii (copie);",
+        "4. Actele societatii (certificate de inregistrare fiscala (SC, PFA, IF, II)",
+        "5. Cerere catre Primarul municipiului Iasi",
+        "6. Taxa"
+      ]
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[" "], [" "], [" "], [" "],[""]]
 }
-  

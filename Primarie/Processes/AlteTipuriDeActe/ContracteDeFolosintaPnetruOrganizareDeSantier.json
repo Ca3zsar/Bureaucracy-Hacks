@@ -1,38 +1,19 @@
 {
-    "institution": "Primăria Iași",
-    "process": "CONTRACTE DE FOLOSINTA PENTRU ORGANIZARE DE SANTIER",
-    "cases": [
-      " "
-       ],
-    "departaments": [
-        "ALTE TIPURI DE ACTE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "CONTRACTE DE FOLOSINTA PENTRU ORGANIZARE DE SANTIER",
+  "cases": [" "],
+  "departaments": ["SECRETAR MUNICIPIUL IASI"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "cerere",
+        "certificat de urbanism",
+        "plan de incadrare in zona",
+        "schita terenului necesar organizarii de santier",
+        "graficul de esalonare a lucrarii din Proiectul de Organizare de Santier"
       ]
-    ],
-    "necessary": [
-        [
-          [
-           "cerere",
-           "certificat de urbanism",
-           "plan de incadrare in zona",
-           "schita terenului necesar organizarii de santier",
-           "graficul de esalonare a lucrarii din Proiectul de Organizare de Santier"  
-          ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""]]
 }
-  

@@ -1,37 +1,18 @@
 {
-    "institution": "Primăria Iași",
-    "process": "ATRIBUIRE TERENURI PENTRU VETERANII DE RAZBOI",
-    "cases": [
-      " "
-       ],
-    "departaments": [
-        "ALTE TIPURI DE ACTE"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "ATRIBUIRE TERENURI PENTRU VETERANII DE RAZBOI",
+  "cases": [" "],
+  "departaments": ["SECRETAR MUNICIPIUL IASI"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "copie carte de identitate",
+        "adresa de la Asociatia Veteranilor de Razboi",
+        "copie legitimatie veteran de razboi",
+        "dovada privind decorarea conform art. 13 din Legea 44/1994, cu modificarile ulterioare"
       ]
-    ],
-    "necessary": [
-        [
-          [
-           "copie carte de identitate",
-           "adresa de la Asociatia Veteranilor de Razboi",
-           "copie legitimatie veteran de razboi",
-           "dovada privind decorarea conform art. 13 din Legea 44/1994, cu modificarile ulterioare"  
-          ]
-        ]
-    ],
-    "prices": [
-        ""
-        ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
+  ],
+  "generalInfo": [[""]]
 }
-  
