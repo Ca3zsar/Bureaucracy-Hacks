@@ -1,5 +1,5 @@
 {
-  "institution": "DAC",
+  "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Alocatie de stat pentru copii",
   "cases": [
     "Pentru copiii români",
@@ -7,7 +7,12 @@
     "Pentru copiii nascuti in Republica Moldova",
     "Pentru copiii nascuti in strainatate, cu exceptia celor nascuti in UE si Republica Moldova"
   ],
-  "departament": ["DAC", "DAC", "DAC", "DAC"],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi",
+    "Directia de Asistenta Sociala Iasi",
+    "Directia de Asistenta Sociala Iasi",
+    "Directia de Asistenta Sociala Iasi"
+  ],
   "forms": [
     ["Alocatie de stat pentru copii"],
     ["Alocatie de stat pentru copii"],

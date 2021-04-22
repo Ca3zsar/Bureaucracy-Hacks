@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Licenta in domeniul pazei si protectiei",
+    "cases": [
+      "Pentru Licenta in domeniul pazei si protectiei"
+    ],
+    "departaments": ["Serviciul de Ordine Publica"],
+    "forms": [
+      [
+        "Licenta in domeniul pazei si protectiei"
+      ]
+    ],
+    "necessary": [[["Anexa2"]]],
+    "generalInfo": [[""]],
+    "files": ["frauda_economica_Anexa2"]
+  }
+  

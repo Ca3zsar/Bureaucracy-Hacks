@@ -1,10 +1,10 @@
 {
-  "institution": "DAC",
+  "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Alocatie pentru sustinerea familiei",
   "cases": [
     "Pentru persoanele cu venit lunar de pana la 530 lei/membu de familie"
   ],
-  "departament": ["DAC"],
+  "departament": ["Directia de Asistenta Sociala Iasi"],
   "forms": [["Alocatie pentru sustinerea familiei"]],
   "necessary": [
     [
