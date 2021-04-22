@@ -1,0 +1,18 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizare in domeniul schimbului valutar",
+  "cases": ["Pentru Avizare in domeniul schimbului valutar"],
+  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
+  "forms": [["Avizare in domeniul schimbului valutar"]],
+  "necessary": [
+    [
+      [
+        "Cererea de aviz",
+        "Tabel nominal cu persoanele pentru care se solicită avizul, care să conţinădatele de identitate ale acestora (nume, prenume, data şi locul naşterii, prenumele părinţilor, CNP-ul, domiciliul sau reşedinţa) şi calitatea pentru care solicită avizul",
+        "Actul constitutiv al societăţii sau orice alt document din care rezultă calitatea stabilită de lege pentru persoanele care solicită avizul"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]],
+  "files": ["frauda_economica_Anexa3"]
+}

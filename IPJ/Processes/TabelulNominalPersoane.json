@@ -1,0 +1,16 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Tabel nominal cu persoanele care solicita avizul in domeniul jocurilor de noroc",
+  "cases": [
+    "Pentru Tabel nominal cu persoanele care solicita avizul in domeniul jocurilor de noroc"
+  ],
+  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
+  "forms": [
+    [
+      "Tabel nominal cu persoanele care solicita avizul in domeniul jocurilor de noroc"
+    ]
+  ],
+  "necessary": [[["Anexa2"]]],
+  "generalInfo": [[""]],
+  "files": ["frauda_economica_Anexa2"]
+}
