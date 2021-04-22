@@ -1,0 +1,16 @@
+{
+  "institution": "Casa Judeteana de Asigurari de Sanatate Iasi",
+  "process": "Eliberarea listei cu servicii medicale",
+  "cases": ["Pentru eliberarea listei cu servicii medicale"],
+  "departaments": ["Casa Judeteana de Asigurari de Sanatate Iasi"],
+  "forms": [["Lista cu servicii medicale"]],
+  "necessary": [[["Cerere Lista Servicii"]]],
+  "generalInfo": [
+    [
+      "Asiguratul formulează o cerere la CAS Iași (modelul cererii se află pe site/la sediul CAS Iași)\nCererea, completată și semnată de către asigurat, sau după caz, reprezentantul legal al asiguratului, se depune la sediul CAS Iași sau se transmite prin email cu semnătură electronică calificată și va fi însoțită, după caz, de copia actului de împuternicire.Totodată, în cazul solicitărilor adresate direct la sediul CAS Iași asiguratul, sau după caz, reprezentantul legal al asiguratului va prezenta CI/BI pentru verificarea identității asiguratului, respectiv a reprezentantului legal;\nÎn cazul solicitării adresate CAS Iași prin email cu semnătură electronică calificată pentru transmiterea Listei prin intermediul poștei electronice, solicitantul va completa în cerere o parolă din 8 caractere, necesară accesării Listei;\nCAS Iași pune la dispoziția asiguratului, sau după caz, reprezentantul legal al acestuia, personal sau prin email, conform solicitării acestuia, în termen de 45 de zile de la data înregistrării cererii la CAS Iași;\nÎn cazul în care Lista este pusă personal la dispoziția asiguratului, sau după caz, reprezentantul legal al acestuia, acesta va menționa pe exemplarul cererii care va fi arhivat la CAS Iași numele în clar, data, semnătura, precum și textul:”am primit informațiile solicitate”;\nÎn cazul în care Lista este pusă la dispoziția asiguratului, sau după caz, reprezentantul legal al acestuia prin email, la exemplarul cererii care va fi arhivat la CAS Iași se atașează email-ul prin care a fost transmisă Lista;\nCererile ulterioare de furnizare a Listei pentru același an calendaristic sau pentru alte perioade decât anul calendaristic anterior solicitării se vor clasa conform normelor în vigoare;"
+    ]
+  ],
+  "files":[
+      "CerereListServicii"
+  ]
+}

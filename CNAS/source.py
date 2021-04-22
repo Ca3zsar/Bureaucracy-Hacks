@@ -25,7 +25,9 @@ download_links = [
 'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/cerere_card_european.doc',
 'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/adeverinta_salariat_CEASS.doc',
 'www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/CEAS/model_certificat_provizori_inlocuire_CEAS.PDF',
-'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2020/cerere_card_european_duplicat.pdf'
+'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2020/cerere_card_european_duplicat.pdf',
+'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/2020/MODEL_CERERE_LISTA_SERVICII.doc',
+'www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Formulare/CERERE_ELIBERARE_ADEVERINTA_REFUZ_CARD.PDF',
 ]
 
 director = f"{os.path.dirname(__file__)}/Content"

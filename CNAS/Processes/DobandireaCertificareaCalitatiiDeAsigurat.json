@@ -1,0 +1,31 @@
+{
+  "institution": "Casa Judeteana de Asigurari de Sanatate Iasi",
+  "process": "Dobandirea si certificarea calitatii de asigurat",
+  "cases": [
+    "Dobandirea si certificarea calitatii de asigurat",
+    "Pentru persoanele care refuza din motive religioase sau de constiinta primirea cardului national",
+    "Pentru situatiile in care se declara pierderea, furtul, distrugerea cardului national sau atunci cand este necesara modificarea datelor tiparite pe cardul national"
+  ],
+  "departaments": ["Casa Judeteana de Asigurari de Sanatate Iasi"],
+  "forms": [[""], [""], [""]],
+  "necessary": [
+    [
+      [
+        "cardul naţional de asigurări sociale de sănătate",
+        "documentul rezultat (imprimat) prin accesarea de către furnizorii aflaţi în relaţii contractuale cu casele de asigurări de sănătate a instrumentului electronic pus la dispoziţie de CNAS, disponibil la adresa http://siui.casan.ro:82/Asigurati/"
+      ]
+    ],
+    [["adeverinţa de asigurat cu o valabilitate de 3 lun"]],
+    [["adeverința de înlocuire card cu o valabilitate de 60 zile"]]
+  ],
+  "generalInfo": [
+    [""],
+    ["Asiguratii care, din motive personale sau religioase, refuza utilizarea cardului national de sanatate, vor depune o cerere in scris la casa de asigurari in care vor mentiona motivele refuzului si vor restitui cardul de sanatate, in cazul in care l-au primit.  Accesul la servicii medicale se va realiza in baza unei adeverinte de inlocuire a cardului cu termen de valabilitate 3 luni. Adeverinta nu trebuie sa ramana la furnizorul de servicii medicale, ea va fi prezentata ori de cate ori asiguratul solicita un serviciu."],
+    [
+      "Pentru situaţiile în care nu au fost emise cardurile naţionale de asigurări de sănătate şi/sau pentru situaţiile în care asiguraţii nu se regăsesc în baza de date electronică a CNAS, dovada calităţii de asigurat se face pe baza documentelor necesare încadrării într-o categorie de asigurat, prevăzute în normele metodologice pentru stabilirea documentelor justificative privind dobândirea calităţii de asigurat (adeverința de salariat, declarația unica depusă la ANAF, cupon de pensie, adeverința ajutor social, certificat de handicap, adeverință de elev sau de student etc., în baza cărora CAS Iași va emite adeverinţa de asigurat tip SIUI)."
+    ]
+  ],
+  "files":[
+      "CerereRefuzCard"
+  ]
+}
