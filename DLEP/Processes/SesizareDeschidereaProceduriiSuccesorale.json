@@ -1,11 +1,11 @@
 {
-    "institution": "DLEP",
-    "process": " Sesizare pentru deschiderea procedurii succesorale",
+    "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
+    "process": "Sesizare pentru deschiderea procedurii succesorale",
     "departaments": [
         "Directia locala de evidenta a persoanelor"
     ],
     "cases": [
-        " "
+        "Pentru sesizare pentru deschiderea procedurii succesorale"
     ],
     "forms": [
         [
@@ -36,8 +36,5 @@
         [
             "Taxa de 13 lei - se achită la casieria Stării Civile;"
         ]
-    ],
-    "files": [
-        " "
     ]
 }
