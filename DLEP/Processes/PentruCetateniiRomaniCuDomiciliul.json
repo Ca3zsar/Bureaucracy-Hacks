@@ -1,5 +1,5 @@
 {
-    "institution": "DLEP",
+    "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Carte identitate provizorie- eliberarea actului de identitate cetatenilor romani cu domiciliul in strainatate si resedinta in Romania ",
     "departaments": [
         "Directia locala de evidenta a persoanelor-Carte identitate provizorie"
@@ -58,6 +58,6 @@
         ]
     ],
     "files": [
-        "Anexa18-cerere pentru eliberarea actului de identitate cetatenilor romani cu domiciliul in strainatate si resedinta in Romania; Dovada adresei de domiciliu"
+        "Anexa18"
     ]
 }

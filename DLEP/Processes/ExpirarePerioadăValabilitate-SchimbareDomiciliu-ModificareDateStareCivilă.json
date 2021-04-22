@@ -1,5 +1,5 @@
 {
-    "institution": "DLEP",
+    "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Expirare perioadă valabilitate-Schimbare domiciliu-Modificare date stare civilă",
     "departaments": [
         "Schimbare domiciliu-Modificare date stare civilă"
@@ -40,6 +40,6 @@
         ]
     ],
     "files": [
-        "Anexa11, Dovada adresei de domiciliu"
+        "Anexa11"
     ]
 }
