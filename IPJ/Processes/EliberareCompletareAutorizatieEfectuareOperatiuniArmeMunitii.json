@@ -1,0 +1,28 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Eliberare certificat de deţinător",
+    "cases": [
+        "Pentru eliberare certificat de deţinător"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Eliberare certificat de deţinător"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere în care se precizează categoria de operaţiuni pe care urmează să le deruleze",
+          "Documentele prevăzute la art. 143 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018"
+        ]
+      ]
+    ],
+    "generalInfo": [
+    [
+        "Persoanele juridice constituite ca armurieri pot desfăşura operaţiuni cu arme şi muniţii numai după obţinerea autorizaţiei sau, după caz, după completarea corespunzătoare a acesteia, care se efectuează la cerere de către structura de poliţie în a cărui rază de competenţă teritorială se află sediul sau punctul de lucru unde urmează să se desfăşoare operaţiunile"      
+    ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa17.xls"
+    ]
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Aplicabilitate Generala",
+    "cases": [
+        "Pentru aplicabilitate Generala"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Aplicabilitate Generala"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru aplicabilitate Generala"
+        ]
+      ]
+    ],
+    "generalInfo": [
+    [
+        "Modelul de cerere este destinat atât persoanelor fizice cât și celor juridice care doresc să solicite structurilor arme, explozivi și substanțe periculoase prestarea unui serviciu pentru care nu a fost creată un model de cerere dedicat."      
+    ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa19.xls"
+    ]
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Eliberare aviz de principiu",
+    "cases": [
+        "Pentru eliberare aviz de principiu"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Eliberare aviz de principiu"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru eliberare aviz de principiu"
+        ]
+      ]
+    ],
+    "generalInfo": [
+    [
+        "Societăţile comerciale care doresc să includă în obiectul de activitate oricare dintre operaţiunile cu arme şi muniţii, trebuie să solicite în prealabil, cu ocazia constituirii sau, după caz, a modificării ori extinderii obiectului de activitate, avizul structurii arme, explozivi și substanțe periculoase  din cadrul Inspectoratului Județean de Poliţie sau, după caz, al Direcției Generale de Poliție a Municipiului București competente teritorial cu privire la sediul/punctul de lucru al solicitantului. Pe baza avizului obţinut, persoana juridică se poate constitui în armurier prin parcurgerea procedurilor legale privind înfiinţarea societăţilor comerciale sau, după caz, a celor privind extinderea sau modificarea obiectului de activitate."      
+    ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa16.xls"
+    ]
+  }
+  
