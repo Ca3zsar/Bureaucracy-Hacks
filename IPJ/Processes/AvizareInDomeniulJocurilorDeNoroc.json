@@ -1,0 +1,18 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizare in domeniul jocurilor de noroc",
+  "cases": ["Pentru Avizare in domeniul jocurilor de noroc"],
+  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
+  "forms": [["Avizare in domeniul jocurilor de noroc"]],
+  "necessary": [
+    [
+      [
+        "Cererea de avizare",
+        "Tabel nominal cu persoanele pentru care se solicita avizul, care sa contina datele de identitate ale acestora(nume, prenume, data si locul nasterii, prenumele parintilor, CNP-ul, domiciliul sau resedinta) si calitatea pentru care solicita avizul",
+        "Actul constitutiv al societatii sau orice alt document din care rezulta calitatea stabilita de lege pentru persoanele care solicita avizul"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]],
+  "files": ["frauda_economica_Anexa1"]
+}

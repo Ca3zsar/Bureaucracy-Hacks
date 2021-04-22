@@ -1,0 +1,18 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Reducerea perioadei de suspendare a exercitarii dreptului de a conduce",
+  "cases": [
+    "Pentru reducerea perioadei de suspendare a exercitarii dreptului de a conduce"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    ["Reducerea perioadei de suspendare a exercitarii dreptului de a conduce"]
+  ],
+  "necessary": [[["Cerere tip"]]],
+  "generalInfo": [
+    [
+      "Menţionăm că soluţionarea unei astfel de cereri revine şefului poliţiei rutiere a judeţului sau a municipiului Bucureşti pe raza căreia a fost săvârşită fapta ori de către şeful poliţiei rutiere din Inspectoratul General al Poliţiei Române (art. 104 din O.U.G. nr. 195/2002 rep.), iar testul pentru verificarea cunoaşterii regulilor de circulaţie, în vederea promovării acestuia, ca şi condiţie necesară pentru reducerea perioadei de supendare, se susţine la serviciul rutier care îl are în evidenţă (art. 106 alin. 1 lit. c din acelaşi act normativ)."
+    ]
+  ],
+  "files": ["politie_rutiera_Anexa1"]
+}

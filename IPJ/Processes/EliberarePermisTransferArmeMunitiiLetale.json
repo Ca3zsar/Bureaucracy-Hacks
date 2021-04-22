@@ -1,0 +1,39 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare permis de transfer al armelor şi muniţiilor letale către o persoană dintr-un stat membru al Uniunii Europene",
+  "cases": [
+    "Persoane fizice care doresc sa instraineze armele detinute intr-ut stat membru al UE",
+    "Societati comerciale autorizate care efectueaza operatiuni cu arme si munitii"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase Teritorial",
+    "Serviciul Arme, Explozivi si Substante Periculoase din cadrul Inspectoratului General al Politiei Romane"
+  ],
+  "forms": [
+    [
+      "Eliberare permis de transfer al armelor şi muniţiilor letale către o persoană dintr-un stat membru al Uniunii Europene",
+      "Eliberare permis de transfer al armelor şi muniţiilor letale către o persoană dintr-un stat membru al Uniunii Europene"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Documentele prevăzute la art. 164 alin. (1) din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018"
+      ]
+    ],
+    [
+      [
+        "Cerere Eliberare permis de transfer al armelor şi muniţiilor letale către o persoană dintr-un stat membru al Uniunii Europene"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Titularii dreptului de deţinere, respectiv de port şi folosire care deţin înscrise în permisele de armă tip A şi tip B arme care fac parte din categoria D din anexa la Lege, pot solicita structurii arme, explozivi şi substanţe periculoase, competentă teritorial, eliberarea certificatului de deţinător şi a înscrierii în acesta a armelor."
+    ],
+    [
+      "Termenul de soluţionare a cererii este de 10 zile iar baza legală este prevăzută de art. 164, respectiv art. 166 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018."
+    ]
+  ],
+  "files": ["arme_explozivi_Anexa15.xls"]
+}

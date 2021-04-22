@@ -1,0 +1,25 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Acord prealabil pentru transferul armelor și munițiilor ",
+  "cases": ["Pentru persoane fizice", "Pentru societati comerciale"],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase Teritorial",
+    "Serviciul Arme, Explozivi si Substante Periculoase din cadrul Inspectoratului General al Politiei Romane"
+  ],
+  "forms": [
+    ["Acord prealabil pentru transferul armelor și munițiilor "],
+    ["Acord prealabil pentru transferul armelor și munițiilor "]
+  ],
+  "necessary": [
+    [
+      ["Cerere pentru acord prealabil pentru transferul armelor și munițiilor "]
+    ],
+    [["Cerere pentru acord prealabil pentru transferul armelor și munițiilor "]]
+  ],
+  "generalInfo": [
+    [
+      "Termenul de soluţionare a cererii este de 10 zile iar baza legală este prevăzută de art. 162, respectiv art. 167 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018."
+    ]
+  ],
+  "files": ["arme_explozivi_Anexa13.xls"]
+}

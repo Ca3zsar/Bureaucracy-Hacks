@@ -1,0 +1,31 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana fizica",
+  "cases": [
+    "Pentru obţinerea autorizaţiei de deţinere a detectoarelor de metale pentru persoane fizice"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana fizica"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip",
+        "Buletinul sau cartea de identitate ( copie si original)",
+        "Actul cu care se dovedeste ca solicitantul este proprietarul detectorului de metale(copie si original)",
+        "Chitanta emisa de unitatile C.E.C din care sa reiasa ca a fost achitata suma de 10 lei reprezentand taxa de autorizatie",
+        "Certificat de cazier judiciar"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către unitatea de poliţie pe raza căreia domiciliază sau îşi are reşedinţa solicitantul, în termen de 10 zile de la depunerea documentaţiei complete"
+    ]
+  ],
+  "prices": [["Taxa pentru autorizatie - 10 lei"]],
+  "files": ["detectoare_metal_Anexa1"]
+}

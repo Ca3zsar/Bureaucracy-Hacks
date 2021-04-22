@@ -1,0 +1,16 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Incheiere contract de prestari servicii pentru insotirea cu echipaje de politie rutiera a transporturilor agabaritice",
+  "cases": [
+    "Pentru Incheiere contract de prestari servicii pentru insotirea cu echipaje de politie rutiera a transporturilor agabaritice"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Incheiere contract de prestari servicii pentru insotirea cu echipaje de politie rutiera a transporturilor agabaritice"
+    ]
+  ],
+  "necessary": [[["Cerere tip"]]],
+  "generalInfo": [[""]],
+  "files": ["politie_rutiera_Anexa11"]
+}

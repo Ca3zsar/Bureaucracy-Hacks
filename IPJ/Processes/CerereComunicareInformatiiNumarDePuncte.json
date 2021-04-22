@@ -1,0 +1,20 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Comunicare informatii cu privire la numarul de puncte de penalizare aplicate",
+  "cases": [
+    "Pentru Comunicare informatii cu privire la numarul de puncte de penalizare aplicate"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Comunicare informatii cu privire la numarul de puncte de penalizare aplicate"
+    ]
+  ],
+  "necessary": [[["Cerere tip"]]],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către şeful serviciului rutier care are în evidenţă titularul documentului, cu precizarea că aceste informaţii se comunică personal la sediul unităţii."
+    ]
+  ],
+  "files": ["politie_rutiera_Anexa5"]
+}

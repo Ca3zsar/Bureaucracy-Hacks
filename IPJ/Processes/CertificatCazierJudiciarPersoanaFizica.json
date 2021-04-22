@@ -1,0 +1,64 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Obținerea certificatului de cazier judiciar de către persoana fizică",
+  "cases": [
+    "Pentru a obţine un certificat de cazier judiciar, orice persoana fizică cu capacitate de exercițiu restrânsă (minor 14-18 ani) sau deplină (peste 18 ani)",
+    "Situaţia în care certificatul de cazier judiciar se solicită pentru un minor de până la 14 ani",
+    "Situaţia în care certificatul de cazier judiciar se solicită prin împuternicit",
+    "Situaţia în care certificatul de cazier judiciar se solicită pentru depunere la dosarul de graţiere individuală",
+    "Situaţia în care certificatul de cazier judiciar este necesar pentru Registrul Operatorilor Intracomunitari"
+  ],
+  "departaments": [
+    "Ghiseul de Cazier Judiciar",
+    "Ghiseul de Cazier Judiciar",
+    "Ghiseul de Cazier Judiciar",
+    "Ghiseul de Cazier Judiciar",
+    "Ghiseul de Cazier Judiciar"
+  ],
+  "forms": [
+    ["Obținerea certificatului de cazier judiciar de către persoana fizică"],
+    ["Obținerea certificatului de cazier judiciar de către persoana fizică"],
+    ["Obținerea certificatului de cazier judiciar de către persoana fizică"],
+    ["Obținerea certificatului de cazier judiciar de către persoana fizică"],
+    ["Obținerea certificatului de cazier judiciar de către persoana fizică"]
+  ],
+  "necessary": [
+    [
+      [
+        "Cererea tip completată",
+        "Actul de identitate (cartea de identitate, buletinul de identitate, paşaport, cartea de identitate provizorie şi certificat de înregistrare a cetăţenilor U.E., carte de rezidenţă, carte de rezidenţă permanentă, permis de şedere temporară sau permanentă), aflat în termen de valabilitate."
+      ]
+    ],
+    [
+      [
+        "Cererea tip completată",
+        "Actul de identitate al părintelui/tutorelui, în copie și original",
+        "Certificatul de naștere al minorului, în copie și original"
+      ]
+    ],
+    [
+      [
+        "Cererea tip completată",
+        "Actul de identitate împuternicit (cartea de identitate, buletinul de identitate, paşaport, cartea de identitate provizorie şi certificat de înregistrare a cetăţenilor U.E., carte de rezidenţă, carte de rezidenţă permanentă, permis de şedere temporară sau permanentă, aflate în termen de valabilitate)",
+        "Copie act identitate titular certificat",
+        "Procura autentificată, în original și copie. Procurile întocmite în Republica Moldova sau de ambasadele Republicii Moldova, în limba română, sunt acceptate ca valabile fără vreo altă supralegalizare. Conţinutul procurii trebuie formulat în termeni clari, din care să rezulte persoana care a fost mandatată, scopul şi durata mandatului."
+      ]
+    ],
+    [[""]],
+    [[""]]
+  ],
+  "generalInfo": [
+    [
+      "Persoanele domiciliate în străinătate pot solicita eliberarea certificatului de cazier judiciar prin misiunile diplomatice sau oficiile consulare ale României.\nDe asemenea la cererea motivată a persoanelor aflate în străinătate, misiunile diplomatice şi oficiile consulare ale României pot elibera, după efectuarea verificărilor necesare în bazele de date, adeverinţe în care consemnează rezultatele verificărilor.\nAceste adeverințe au valoarea juridică a unui certificat de cazier judiciar și se utilizează exclusiv în străinătate.\nCertificatul de cazier judiciar se eliberează, de regulă, pe loc, sau în cel mult 3 zile de la data solicitării, în cazurile în care cererea-tip este depusă în România.\nPentru situațiile în care cererea este depusă prin misiunile diplomatice sau oficiile consulare ale României, certificatul de cazier judiciar se eliberează în cel mult 30 de zile de la data depunerii, iar în cazul adeverințelor în termen de 10 zile de la data solicitării.\nDocumentele sunt valabile 6 luni de la data eliberării şi numai în scopul pentru care au fost eliberate."
+    ],
+    [""],
+    [""],
+    [
+      "În situaţia în care certificatul de cazier judiciar se solicită pentru depunere la dosarul de graţiere individuală, poate fi solicitat de către persoana condamnată, copiii, apărătorul ori reprezentantul legal al acesteea, soţul persoanei condamnate, ascendenţii, fraţii ori surorile celui condamnat sau ai soţului acestuia, care trebuie să-și demonstreze calitatea."
+    ],
+    [
+      "În situaţia în care certificatul de cazier judiciar este necesar pentru Registrul Operatorilor Intracomunitari în document se înscriu pe lângă sancţiunile penale din hotărârile judecătoreşti rămase definitive și date notate în mod provizoriu privind persoanele fizice sau juridice faţă de care s-a dispus punerea în mişcare a acţiunii penale."
+    ]
+  ],
+  "files": ["cazier_Anexa0.pdf", "cazier_Anexa1.pdf", "cazier_Anexa2.pdf"]
+}

@@ -1,0 +1,27 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Eliberare certificat de deţinător",
+    "cases": [
+        "Pentru eliberare certificat de deţinător"
+    ],
+    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+    "forms": [
+      ["Eliberare certificat de deţinător"]
+    ],
+    "necessary": [
+      [
+        [
+          "Cerere pentru eliberare certificat de deţinător"
+        ]
+      ]
+    ],
+    "generalInfo": [
+    [
+        "Titularii dreptului de deţinere, respectiv de port şi folosire care deţin înscrise în permisele de armă tip A şi tip B arme care fac parte din categoria D din anexa la Lege, pot solicita structurii arme, explozivi şi substanţe periculoase, competentă teritorial, eliberarea certificatului de deţinător şi a înscrierii în acesta a armelor."      
+    ]
+    ],
+    "files":[
+        "arme_explozivi_Anexa11.xls"
+    ]
+  }
+  

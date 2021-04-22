@@ -1,0 +1,22 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Solicitare aviz de acces la drumul public",
+    "cases": [
+      "Pentru Solicitare aviz de acces la drumul public"
+    ],
+    "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+    "forms": [
+      ["Solicitare aviz de acces la drumul public"]
+    ],
+    "necessary": [[["Cerere tip"]]],
+    "generalInfo": [["Proiectarea, construcţia sau amenajarea căilor de acces la drumurile deschise circulaţiei publice se face potrivit legislaţiei în vigoare de către cei interesaţi, în baza acordului prealabil şi a autorizaţiei de amplasare şi/sau de acces eliberate de administratorul drumului public şi cu avizul poliţiei rutiere. De asemenea cererea se întemeiază pe dispoziţiile art. 33 alin. (1) din din O.U.G. nr. 195/2002 privind circulaţia pe drumurile publice, cu modificările şi completările ulterioare, respectiv art. 87 din Regulamentul de aplicare a prezentei ordonanţe de urgenţă, aprobat prin H.G. nr. 1391/2006 modificat şi completat. Precizăm că în conformitate cu prevederile Anexa 1 pct.1 din O.G. nr. 128/2000 privind stabilirea unor taxe pentru serviciile prestate pentru persoanele fizice şi juridice de către Ministerul Administraţiei şi Internelor, cu modificările şi completările ulterioare, pentru avizarea amenajării căilor de acces la drumul public se percepe, funcţie de termenul de eliberare a avizului, o taxă de 100 lei în regim normal (30 zile), respectiv 200 lei în regim de urgenţă (5 zile). Conform alin. 1 al art. 3 din actul normativ anterior menţionat, taxele respective constituie venituri la bugetul de stat şi se achită la unităţile Trezoreriei Statului, în condiţiile legii."]],
+    "prices":
+    [
+        [
+            "Taxa in regim normal(30 de zile) - 100 de lei",
+            "Taxa in regim de urgenta (5 zile) - 200 de lei"
+        ]
+    ],
+    "files": ["politie_rutiera_Anexa9"]
+  }
+  

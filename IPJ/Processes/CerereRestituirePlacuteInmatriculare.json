@@ -1,0 +1,17 @@
+{
+    "institution": "Inspectoratul de Politie Judetean Iasi",
+    "process": "Restituire placute de inmatriculare si a certificatului de inmatriculare retinute ca urmare a dispunerii masurii de suspendare a dreptului de utilizare a vehiculului",
+    "cases": [
+      "Pentru Restituire placute de inmatriculare si a certificatului de inmatriculare retinute ca urmare a dispunerii masurii de suspendare a dreptului de utilizare a vehiculului"
+    ],
+    "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+    "forms": [
+      [
+        "Restituire placute de inmatriculare si a certificatului de inmatriculare retinute ca urmare a dispunerii masurii de suspendare a dreptului de utilizare a vehiculului"
+      ]
+    ],
+    "necessary": [[["Cerere tip"]]],
+    "generalInfo": [[""]],
+    "files": ["politie_rutiera_Anexa15"]
+  }
+  

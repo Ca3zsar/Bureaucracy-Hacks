@@ -1,11 +1,11 @@
 {
-  "institution": "DAC",
+  "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Indemnizatia / Ajutorul pentru ingrijirea copilului cu varsta 0-7 ani daca copilul/parintele este persoana cu handicap",
   "cases": [
     "Pentru persoane nesalariate/salariate cu program de lucru normal",
     "Pentru persoane salariate cu program de lucru redus la 4 ore"
   ],
-  "departament": ["DAC","DAC"],
+  "departament": ["Directia de Asistenta Sociala Iasi","Directia de Asistenta Sociala Iasi"],
   "forms": [[""], [""]],
   "necessary": [
     [

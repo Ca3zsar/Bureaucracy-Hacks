@@ -1,12 +1,12 @@
 {
-  "institution": "DAC",
+  "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Acordarea indemnizatiei de crestere a copilului",
   "cases": [
     "Pentru salariati",
     "Persoane ce au realizat venituri din activitati independente",
     "Persoane ce au avut / au calitatea de elev/student"
   ],
-  "departament": ["DAC", "DAC", "DAC"],
+  "departament": ["Directia de Asistenta Sociala Iasi", "Directia de Asistenta Sociala Iasi", "Directia de Asistenta Sociala Iasi"],
   "forms": [
     ["Acordarea indemnizatiei de crestere a copilului"],
     ["Acordarea indemnizatiei de crestere a copilului"],

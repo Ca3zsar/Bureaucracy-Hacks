@@ -1,0 +1,59 @@
+{
+    "institution": "DLEP",
+    "process": "Schimbare de nume / prenume pe cale administrativă",
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
+    "cases": [
+        "În cazul persoanelor cu vârsta peste 18 ani care au redobândit cetățenia română",
+        "În cazul copiilor care nu au împlinit vârsta de 14 ani și sunt trecuți în certificatul de cetățenie al părinților"
+    ],
+    "forms": [
+        [
+            " "
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Dovada redobândirii/dobândirii cetățeniei române (Certificat de cetățenie) - original și copie xerox;",
+                "Certificat de naștere - original și copie;",
+                "Cartea de identitate și pașaportul solicitantului - original și copie xerox;",
+                "Certificatul de căsătorie (dacă este cazul) - original și copie xerox;",
+                "Taxa de 13 lei - se achită la casieria Stării Civile; ",
+                "Taxa de 40 lei către Consiliul Județean Iași - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX, cod fiscal 4540712."
+            ]
+        ],
+        [
+            [
+                "Dovada redobândirii/dobândirii cetățeniei române (Certificat de cetățenie în care să fie specificat și numele minorului și data nașterii acestuia) - original și copie xerox;",
+                "Certificat de naștere minor - original și copie;",
+                "Certificatele de naștere, cărțile de identitate și pașapoartele părinților - original și copie xerox;",
+                "Certificatul de căsătorie al părinților (dacă este cazul) - original și copie xerox;",
+                "Taxa de 13 lei - se achită la casieria Stării Civile;",
+                "Taxa de 40 lei către Consiliul Județean Iași - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX, cod fiscal 4540712"
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+            "ATENȚIE ! Certificatele de naștere ale minorilor vor fi transcrise concomitent cu transcrierea certificatului de căsătorie al părinților, în baza programării online. \n Transcrierea certificatelor/extraselor de stare civilă/extraselor multilingve ale actelor de stare civilă privind cetăţenii care au redobândit sau cărora li s-a acordat cetăţenia română în temeiul art. 10 şi 11 din Legea nr. 21/1991, republicată, cu modificările şi completările ulterioare, care nu au avut niciodată domiciliul în România și nu au carte de identitate/pașaport românești pot depune cererea de transcriere la oficiul de stare civilă al ORICĂRUI MUNICIPIU REȘEDINȚĂ DE JUDEȚ  de pe teritoriul României inclusiv București sau la Ambasada/Consulatul României din străinătate. \n Persoanele care au redobândit sau cărora li s-a acordat cetăţenia română şi care au avut domiciliul în România, depun cererea de transcriere a certificatelor/extraselor de stare civilă/extraselor multilingve ale actelor de stare civilă la Serviciul public comunitar local de evidenţă a persoanelor/primăria unităţii administrativ-teritoriale pe raza căruia/căreia se află: \n a) ultimul loc de domiciliu avut în ţară, înainte de pierderea cetăţeniei române; \n b) adresa imobilului în care a locuit înainte de dobândirea cetăţeniei române, înscrisă în documentul eliberat de structura pentru imigrări. \n Depunerea dosarului la Starea Civilă a municipiului Iași se face doar pe bază de programare online \n Dosarele NU se pot depune prin mandatar, se depun PERSONAL de către titularii actelor, reprezentanții legali ai minorilor, moștenitorii în cazul certificatelor de deces. \n Termenul de soluționare a dosarelor este de 60 de zile. \n Minorii care au vârsta cuprinsă între 14 și 18 ani depun cererea de transcriere în nume propriu asistat de reprezentantul legal (cetățean român)."
+        ],
+        [
+            "ATENȚIE ! Certificatele de naștere ale minorilor vor fi transcrise concomitent cu transcrierea certificatului de căsătorie al părinților, în baza programării online. \n Transcrierea certificatelor/extraselor de stare civilă/extraselor multilingve ale actelor de stare civilă privind cetăţenii care au redobândit sau cărora li s-a acordat cetăţenia română în temeiul art. 10 şi 11 din Legea nr. 21/1991, republicată, cu modificările şi completările ulterioare, care nu au avut niciodată domiciliul în România și nu au carte de identitate/pașaport românești pot depune cererea de transcriere la oficiul de stare civilă al ORICĂRUI MUNICIPIU REȘEDINȚĂ DE JUDEȚ  de pe teritoriul României inclusiv București sau la Ambasada/Consulatul României din străinătate. \n Persoanele care au redobândit sau cărora li s-a acordat cetăţenia română şi care au avut domiciliul în România, depun cererea de transcriere a certificatelor/extraselor de stare civilă/extraselor multilingve ale actelor de stare civilă la Serviciul public comunitar local de evidenţă a persoanelor/primăria unităţii administrativ-teritoriale pe raza căruia/căreia se află: \n a) ultimul loc de domiciliu avut în ţară, înainte de pierderea cetăţeniei române; \n b) adresa imobilului în care a locuit înainte de dobândirea cetăţeniei române, înscrisă în documentul eliberat de structura pentru imigrări. \n Depunerea dosarului la Starea Civilă a municipiului Iași se face doar pe bază de programare online \n Dosarele NU se pot depune prin mandatar, se depun PERSONAL de către titularii actelor, reprezentanții legali ai minorilor, moștenitorii în cazul certificatelor de deces. \n Termenul de soluționare a dosarelor este de 60 de zile. \n Minorii care au vârsta cuprinsă între 14 și 18 ani depun cererea de transcriere în nume propriu asistat de reprezentantul legal (cetățean român)."
+        ]
+    ],
+    "prices": [
+        [
+            "Taxa de 13 lei - se achită la casieria Stării Civile;",
+            "Taxa de 40 lei către Consiliul Județean Iași - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX, cod fiscal 4540712"
+        ],
+        [
+            "Taxa de 13 lei - se achită la casieria Stării Civile;",
+            "Taxa de 40 lei către Consiliul Județean Iași - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX, cod fiscal 4540712"
+        ]
+    ],
+    "files": [
+        " "
+    ]
+}

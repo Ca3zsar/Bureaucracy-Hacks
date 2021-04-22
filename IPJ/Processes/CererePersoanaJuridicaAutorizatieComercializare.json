@@ -1,0 +1,31 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Obţinere autorizaţie de comercializare a detectoarelor de metale persoana juridica",
+  "cases": [
+    "Pentru obţinerea autorizaţiei de comercializare a detectoarelor de metale pentru persoane juridice"
+  ],
+  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "forms": [
+    [
+      "Obţinere autorizaţie de comercializare a detectoarelor de metale persoana juridica"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip",
+        "Actul de inregistrare al societatii, impreuna cu statutul (copie si original) din care sa rezulte ca are ca obiect de activitate comercializarea detectoarelor de metale",
+        "Actul de identitate al administratorului societatii, precum si ale tuturor persoanelor angajate ca vanzatori de detectoare de metale(copie si original)",
+        "Chitanta din care sa reiasa ca a fost platita la C.E.C suma de 30 de lei reprezentand taxa pentru autorizatie",
+        "Certificate de cazier judiciar ale persoanelor prevazute la al treilea paragraf"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către unitatea de poliţie pe raza căreia domiciliază sau îşi are reşedinţa solicitantul, în termen de 10 zile de la depunerea documentaţiei complete\nagentul comercial solicitant trebuie să îndeplinească şi condiţiile prevăzute la art. 5 şi art. 7 din O.M.A.I. 251/31.05.2004 pentru aprobarea Normelor tehnice privind deţinerea şi comercializarea detectoarelor de metale, respectiv: să aibă prevăzut în obiectul de activitate al societăţii comercializarea detectoarelor de metale şi spaţiul destinat comercializării detectoarelor de metale trebuie să aibă un afişaj stradal cu denumirea agentului economic şi a obiectului de activitate şi totodată să fie prevăzut cu sistem de alarmă ori să se încheie contract de prestări de servicii cu o societate de pază şi securitate sau să aibă pază proprie permanent."
+    ]
+  ],
+  "prices": [["Taxa pentru autorizatie - 30 lei"]],
+  "files": ["detectoare_metal_Anexa3"]
+}

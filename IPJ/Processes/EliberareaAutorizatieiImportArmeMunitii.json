@@ -1,0 +1,36 @@
+{
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberarea autorizației de import a armelor și munițiilor ",
+  "cases": [
+    "Persoanele fizice care doresc să procure arma dintr-un stat terț ",
+    "Societăţile comerciale autorizate să efectueze operaţiuni cu arme şi muniţii pe teritoriul României"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase Teritorial",
+    "Serviciul Arme, Explozivi si Substante Periculoase din cadrul Inspectoratului General al Politiei Romane"
+  ],
+  "forms": [
+    ["Eliberarea autorizației de import a armelor și munițiilor "],
+    ["Eliberarea autorizației de import a armelor și munițiilor "]
+  ],
+  "necessary": [
+    [
+      [
+        "Documentele prevăzute la art. 163 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018",
+        "Cerere Eliberare Autorizatie de import a armelor si munitiilor"
+      ]
+    ],
+    [
+      [
+        "documentele prevăzute la art. 168 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018",
+        "Cerere Eliberare Autorizatie de import a armelor si munitiilor"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Persoanele juridice constituite ca armurieri pot desfăşura operaţiuni cu arme şi muniţii numai după obţinerea autorizaţiei sau, după caz, după completarea corespunzătoare a acesteia, care se efectuează la cerere de către structura de poliţie în a cărui rază de competenţă teritorială se află sediul sau punctul de lucru unde urmează să se desfăşoare operaţiunile"
+    ]
+  ],
+  "files": ["arme_explozivi_Anexa18.xls"]
+}
