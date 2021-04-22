@@ -1,0 +1,114 @@
+{
+    "institution": "Primăria Iași",
+    "process": "Comisia de analiza a situatiei amplasamentelor temporare pe locuri publice si a functionarii agentilor economici",
+    "cases": [
+      "CERERE TIP AVIZ/APROBARE",
+      "CERERE TIP ACORD JOCURI DE ARTIFICII",
+      "AVIZ PIEȚE - BAZAR",
+      "CONTRACT FLORI",
+      "AVIZ PUNCT DE LUCRU",
+      "CONTRACT FRIGIDER - AUTOMAT",
+      "CONTRACT TERASA",
+      "CONTRACT STRUCTURI DE VANZARE",
+      "AVIZ EVENIMENTE SPECIALE",
+      "AVIZ PARC DE DISTRACȚII"
+    ],
+    "departaments": [
+        "Direcția Exploatare Patrimoniu"  
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+            "copie după certificatul de inregistrare eliberat de O.R.C.",
+            "copie după certificatul constatator eliberat de O.R.C. (dacă este cazul)",
+            "certificatul de atestare fiscală prin care se atesta faptul că nu există debite restante la bugetul local (eliberat de către DGEFPL Iași)",
+            "fotografie structură de vânzare propusă/ locație/ plan de situație scara 1:1000/ copie CI (după caz)."
+          ],
+          [
+              "copie după certificatul de înregistrare eliberat de O.R.C.",
+              "copie după buletin/carte de identitate",
+              "planul de incadrare în zona scara 1:1000 (dacă este cazul)",
+            "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local eliberat de către DGEFPL Iași)",
+            "autorizația IPJ/ITM vizată pe anul în curs"
+          ],
+          [
+              "copie după certificatul de inregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator eliberat de O.R.C., dacă este cazul",
+              "copie după contractul de închiriere tarabă cu SC ECOPIAȚA SA/",
+              "aprobarea SC ECOPIAȚA SA, după caz",
+              "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local(eliberat de către DGEFPL Iași ) "
+          ],
+          [
+              "copie după certificatul de înregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator eliberat de O.R.C. (dacă este cazul)",
+              "copie după statutul societății(dacă este cazul)",
+              "contractul de folosință anterior/actul adițional, în original – în cazul preluărilor și în copie - în cazul prelungirilor de contracte",
+              "cererea de reziliere din partea fostului titular de contract (în cazul preluărilor de contracte)",
+              "copie după actul de deținere al structurii de vânzare din care să rezulte dimensiunile și proprietarul acesteia",
+              "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local (eliberat de către DGEFPL Iași)",
+              "fotografie structură de vânzare/aprobarea Comisiei de specialitate"
+          ],
+          [
+              "copie după certificatul de înregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator sau anexa pentru punctul de lucru",
+              "copie dupa actul de detinere a spațiului (act de proprietate spațiu /act de proprietate teren + autorizație de construire spațiu, contract cale de acces, contract de închiriere valabil pe anul în curs, contract de comodat, copie după autorizația de construire privind schimbarea destinației spațiului – dacă este cazul, etc)",
+              "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local(eliberat de către DGEFPL Iași) "
+          ],
+          [
+              "copie după certificatul de inregistrare eliberat de O.R.C.",
+              "copie după autorizatia de functionare vizata pe anul in curs",
+              "copie după contractul de folosință anterior și aprobarea Comisiei de specialitate",
+              "copie după actul de deținere al automatului din care să rezulte dimensiunile și proprietarul acesteia",
+              "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local (eliberat de către DGEFPL Iași)"
+          ],
+          [
+              "copie dupa certificatul de inregistrare eliberat de O.R.C.",
+              "copie dupa autorizatia de functionare vizata pe anul in curs",
+              "copie dupa contractul de folosinta anterior si aprobarea Comisiei de specialitate",
+              "certificatul de atestare fiscala prin care se atesta faptul ca nu exista debite restante la bugetul local (eliberat de catre DGEFPL Iasi)"
+          ],
+          [
+              "copie după certificatul de înregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator eliberat de O.R.C. (dacă este cazul)",
+              "copie după statutul societății(dacă este cazul)",
+              "contractul de folosință anterior/actul adițional, în original – în cazul preluărilor și în copie - în cazul prelungirilor de contracte",
+              "cererea de reziliere din partea fostului titular de contract (în cazul preluărilor de contracte)",
+              "copie după actul de deținere al structurii de vânzare din care să rezulte dimensiunile și proprietarul acesteia",
+              "certificatul de atestare fiscală prin care se atestă faptul că nu există debite restante la bugetul local (eliberat de către DGEFPL Iași)",
+              "fotografie structură de vânzare/aprobarea Comisiei de specialitate"
+          ],
+          [
+              "copie după certificatul de înregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator eliberat de O.R.C./aprobarea Comisiei de specialitate",
+              "planul de incadrare in zona scara 1:1000 (daca este cazul)",
+              "certificatul de atestare fiscală prin care se atestaă faptul că nu existaă debite restante la bugetul local(eliberat de către DGEFPL Iași) "
+          ],
+          [
+              "copie dupa certificatul de inregistrare eliberat de O.R.C.",
+              "copie după certificatul constatator eliberat de O.R.C. (dacă este cazul)",
+              "planul de încadrare în zona (scara 1:1000, dacă este cazul)",
+              "copie dupa autorizația ISCIR de funcționare (dacă este cazul)",
+              "copie dupa act de deținere al terenului /aprobare din partea Comisiei de specialitate (după caz)",
+              "contract prestari serviciii cu SC SALUBRIS SA/avizul operatorului de salubritate(dacă este cazul) ",
+              "certificatul de atestare fiscală prin care se atestă faptul ca nu există debite restanțe la bugetul local(eliberat de către DGEFPL Iași) ;"
+          ]
+        ]
+    ],
+    "prices": [
+        " "
+    ],
+    "generalInfo": [
+      [
+          ""
+     ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  

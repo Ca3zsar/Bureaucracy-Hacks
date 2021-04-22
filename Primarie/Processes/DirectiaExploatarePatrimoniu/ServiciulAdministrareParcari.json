@@ -1,0 +1,45 @@
+{
+    "institution": "Primăria Iași",
+    "process": "Serviciul Administrare Parcari",
+    "cases": [
+      "ETAPA 1 DOCUMENTE NECESARE IN VEDEREA DELIMITARII, MARCARII SI NUMEROTARII DE CATRE D.E.P. A LOCURILOR DE PARCARE DIN PARCARILE DE RESEDINTA AMENAJATE",
+      "ETAPA 2 ACTE NECESARE PENTRU PARTICIPAREA LA LICITATII IN VEDEREA INCHIRIERII LOCURILOR DE PARCARE DE RESEDINTA"
+    ],
+    "departaments": [
+        "Direcția Exploatare Patrimoniu"  
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+            "Cerere din partea solicitantului, cu viza (stampila) Asociatiei de Proprietari de care apartine",
+            "Copie dupa planul de incadrare in zona a imobilului (se poate procura de la Asociatia de Proprietari, sau de la Serviciul Cadastru din Primaria Municipiului Iasi)."
+             ],
+             [
+                 "Cerere tip pentru participare la licitatie in care se va specifica numarul locului de parcare pentru care se solicita inchirierea (se procura de la Registratura D.E.P.)",
+                 "Copie dupa contractul apartamentului",
+                 "Copie dupa certificatul de inmatriculare al autoturismului",
+                 "Copie dupa cartea de identitate (buletinul) solicitantului",
+                 "Copie dupa certificatul de neurmarire fiscala (se procura de la Directia de Finante Publice Locale Iasi)."
+             ]
+        ]
+    ],
+    "prices": [
+        "",
+        "Chitantele in original care confirma achitarea taxelor de participare la licitatie,in valoare de 65 RON (se procura de la camera 21 din D.E.P.);"
+    ],
+    "generalInfo": [
+      [
+          "Locurile de parcare marcate vor fi inchiriate prin licitatie publica cu strigare, conform H.C.L. 144/2007.",
+        "IMPORTANT: \n- Licitatiile vor avea loc numai dupa delimitarea,marcarea si numerotarea locurilor de parcare de catre D.E.P.;\n- Data licitatiei si conditiile de participare vor fi facute publice de catre D.E.P., prin afisarea de anunturi la scarile de bloc cu drept de participare, prin adrese catre asociatiile de proprietari din zona respectiva, pe site-ul Primariei Minicipiului Iasi, precum si prin intermediul unui ziar local."
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  
