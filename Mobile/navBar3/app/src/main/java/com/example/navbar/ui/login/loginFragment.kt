@@ -53,7 +53,7 @@ class loginFragment : Fragment() {
                 textBox1.error = "Adresa de email nu este corectă!"
             } else {
                 if (continut2.isEmpty()) {
-                    textBox2.error = "Introdu parola!"
+                    textBox2.error = "Introdu noua parolă!"
                 } else {
                     if (continut1.isNotEmpty() && continut2.isNotEmpty()) {
                         Toast.makeText(activity, "Autentificare reusita", Toast.LENGTH_LONG).show()
@@ -65,8 +65,7 @@ class loginFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_login)
 
-           // val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
-            val myPost = loginPost(email = continut1,password = continut2)
+            val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
             lgnViewModel.pushPost(myPost)
             lgnViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
