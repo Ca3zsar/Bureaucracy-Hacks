@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Acordarea pensiei de urmas",
+	"cases": ["Pentru acordarea pensiei de urmas"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere pentru acordarea pensiei de urmas"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerpensurm" ]
+}

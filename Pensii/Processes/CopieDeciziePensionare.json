@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Eliberare copie decizie de pensionare",
+	"cases": ["Pentru eliberarea copiei deciziei de pensionare"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere copie decizie de pensionare"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cercopiedecizie" ]
+}

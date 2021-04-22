@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Acordarea pensiei pentru limita de varsta",
+	"cases": ["Pentru acordarea pensiei pentru limita de varsta"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere pentru acordarea pensiei pentru limita de varsta"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerpenslv" ]
+}
