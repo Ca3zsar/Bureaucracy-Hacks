@@ -1,52 +1,48 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
-    "process": "Dosar prestații copii ",
-    "cases": [
-      "Dosare noi care se depun la Serviciul Persoane cu Handicap - Ghiseu Primire",
-      "Prelungiri la certificatele de incadrare in grad de handicap"
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Dosar prestații copii ",
+  "cases": [
+    "Dosare noi care se depun la Serviciul Persoane cu Handicap - Ghiseu Primire",
+    "Prelungiri la certificatele de incadrare in grad de handicap"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială pentru Copil şi Familie",
+    "Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [[""], [""]],
+  "necessary": [
+    [
       [
-        " "
+        "Cerere de acordare a drepturilor depusa de parintele/reprezentul legal al copilului",
+        "Certificatul de incadrare in grad de handicap eliberat de catre Comisia pentru Protectia Copilului Iasi",
+        "Hotararea Comisiei de Protectia Copilului",
+        "Hotararea de plasament pentru copiii in asistenta maternala",
+        "Certificatul de nastere al copilului in copie",
+        "Ancheta sociala de la Primaria de domiciliu",
+        "Copii upa actele de identitate ale parintilor/tutorilor/sistentului maternal",
+        "Contractul de munca al asistentului personal pentru persoanele cu handicap grav",
+        "2 poze tip act de identitate pentru copil",
+        "2 poze tip act de identitate pentru asistent personal 1 dosar cu sina"
       ]
     ],
-    "necessary": [
-        [
-          [
-           "Cerere de acordare a drepturilor depusa de parintele/reprezentul legal al copilului",
-           "Certificatul de incadrare in grad de handicap eliberat de catre Comisia pentru Protectia Copilului Iasi",
-           "Hotararea Comisiei de Protectia Copilului",
-           "Hotararea de plasament pentru copiii in asistenta maternala",
-           "Certificatul de nastere al copilului in copie",
-           "Ancheta sociala de la Primaria de domiciliu",
-           "Copii upa actele de identitate ale parintilor/tutorilor/sistentului maternal",
-           "Contractul de munca al asistentului personal pentru persoanele cu handicap grav",
-           "2 poze tip act de identitate pentru copil",
-           "2 poze tip act de identitate pentru asistent personal 1 dosar cu sina"
-          ]
-        ],
-        [
-          [
-            "Certificatul de incadrare in grad de handicap eliberat de catre Comisia pentru Protectia Copilului Iasi",
-            "Hotararea Comisiei de Protectia Copilului",
-            "Ancheta sociala in copie",
-            "Copii dupa actele de identitate ale parintilor daca acesta s-a schimbat"
-          ]
-        ]
-    ],
-    "prices": [
-      "4 lei – costul unei legitimatii cartonate de persoana cu handicap."
-    ],
-    "generalInfo": [
+    [
       [
-        "Acte necesare pentru dosar prestatii copii Dosare noi Care se depun la Serviciul Persoane cu Handicap-Ghiseu Primire documente"
+        "Certificatul de incadrare in grad de handicap eliberat de catre Comisia pentru Protectia Copilului Iasi",
+        "Hotararea Comisiei de Protectia Copilului",
+        "Ancheta sociala in copie",
+        "Copii dupa actele de identitate ale parintilor daca acesta s-a schimbat"
       ]
-    ],
-    "files":[
-      "cerere_copii_lg.4482008.pdf"
     ]
+  ],
+  "prices": [
+    ["4 lei – costul unei legitimatii cartonate de persoana cu handicap."],
+    [""]
+  ],
+  "generalInfo": [
+    [
+      "Acte necesare pentru dosar prestatii copii Dosare noi Care se depun la Serviciul Persoane cu Handicap-Ghiseu Primire documente"
+    ],
+    []
+  ],
+  "files": ["cerere_copii_lg.4482008"]
 }
-  

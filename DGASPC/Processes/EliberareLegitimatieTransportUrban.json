@@ -1,43 +1,33 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
-    "process": "Acordarea legitimatiei transport urban",
-    "cases": [
-      " "
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Acordarea legitimatiei transport urban",
+  "cases": ["Pentru acordarea legitimatiei transport urban"],
+  "departaments": ["Departamentul Asistenta Socială Persoane Adulte"],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
+        "Buletinul / Cartea de identitate al/a persoanei titulare a facilităților (persoana cu handicap, asistentul personal) sau/și al/a reprezentanților legali (tutore, curator), împuternicitului notarial – în original",
+        "O poză recentă, tip act de identitate, a titularului de drept (persoana cu handicap / asistentul personal )",
+        "Contractul de muncă al asistentului personal, acolo unde este cazul",
+        "Xerocopie după actul de identitate al asistentului personal",
+        "Sentința civilă/hotărârea judecătorească de numire a tutorelui / curatorului, acolo unde este cazul",
+        "Procura notarială – în cazul în care titularul de drept desemnează o altă persoană să-i reprezinte interesele",
+        "Legitimația anterioară cu termenul de valabilitate expirat",
+        "Ancheta socială realizată de către asistentul social din cadrul compartimentului specializat al primăriei în a cărei rază teritorială îşi are domiciliul sau reşedinţa persoana cu handicap – în cazul însoţitorilor adulţilor cu handicap auditiv şi mintal accentuat",
+        "Anunțul de pierdere, distrugere sau furt al legitimaţiei"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "Buletinul / Cartea de identitate al/a persoanei titulare a facilităților (persoana cu handicap, asistentul personal) sau/și al/a reprezentanților legali (tutore, curator), împuternicitului notarial – în original",
-            "O poză recentă, tip act de identitate, a titularului de drept (persoana cu handicap / asistentul personal )",
-            "Contractul de muncă al asistentului personal, acolo unde este cazul",
-            "Xerocopie după actul de identitate al asistentului personal",
-            "Sentința civilă/hotărârea judecătorească de numire a tutorelui / curatorului, acolo unde este cazul",
-            "Procura notarială – în cazul în care titularul de drept desemnează o altă persoană să-i reprezinte interesele",
-            "Legitimația anterioară cu termenul de valabilitate expirat",
-            "Ancheta socială realizată de către asistentul social din cadrul compartimentului specializat al primăriei în a cărei rază teritorială îşi are domiciliul sau reşedinţa persoana cu handicap – în cazul însoţitorilor adulţilor cu handicap auditiv şi mintal accentuat",
-            "Anunțul de pierdere, distrugere sau furt al legitimaţiei"
-            ]
-        ]
-    ],
-    "prices": [
-        "Costurile emiterii legitimaţiei se suportă de către Direcţia Generală de Asistenţă Socială şi Protecţia Copilului Iași "
-    ],
-    "generalInfo": [
-      [
-        "LEGITIMAȚIA PENTRU TRANSPORT URBAN SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR",
-        "În cazul pierderii, distrugerii sau furtului legitimaţiei, persoana cu handicap o va declara nulă într-un cotidian şi va solicita eliberarea unui duplicat. Pierderea, distrugerea sau furtul duplicatului presupune costuri de emitere a unei noi legitimaţii, pe care persoana cu handicap le va suporta. "
     ]
-    ],
-    "files":[
-      " "
+  ],
+  "prices": [
+    [
+      "Costurile emiterii legitimaţiei se suportă de către Direcţia Generală de Asistenţă Socială şi Protecţia Copilului Iași"
     ]
+  ],
+  "generalInfo": [
+    [
+      "LEGITIMAȚIA PENTRU TRANSPORT URBAN SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR",
+      "În cazul pierderii, distrugerii sau furtului legitimaţiei, persoana cu handicap o va declara nulă într-un cotidian şi va solicita eliberarea unui duplicat. Pierderea, distrugerea sau furtul duplicatului presupune costuri de emitere a unei noi legitimaţii, pe care persoana cu handicap le va suporta. "
+    ]
+  ]
 }
-  

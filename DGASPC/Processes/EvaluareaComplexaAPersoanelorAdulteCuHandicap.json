@@ -1,21 +1,14 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
-    "process": "Evaluarea complexa a persoanelor adulte cu handicap",
-    "cases": [
-      " "
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte",
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Evaluarea complexa a persoanelor adulte cu handicap",
+  "cases": ["Pentru evaluarea complexa a persoanelor adulte cu handicap"],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
-      ]
-    ],
-    "necessary": [
-        [
-          [
         "Copie de pe documentele de identitate (BI/CI) (2 copii doar la prima depunere a dosarului)",
         "Referat privind situaţia medicală prezentă, întocmit de medicul specialist- original",
         "Copii de pe biletele de externare, dacă este cazul",
@@ -23,44 +16,40 @@
         "Ancheta socială efectuată de serviciul social specializat din cadrul primăriei în a cărei rază are domiciliul sau reşedinţa persoana cu handicap - original",
         "Adeverinţă din care să rezulte calitatea de salariat, în cazul salariaţilor, copie a deciziei de pensionare şi, respectiv, talon de pensie, în cazul pensionarilor, adeverinţă conform căreia persoana nu are niciun venit, în cazul persoanelor fără venituri",
         "O fotografie tip CI/BI pentru legitimația de persoana cu handicap"
-          ],
-          [
-              "copie B.I./C.I",
-              "copie a carnetului de muncă",
-              "documente medicale în care este consemnată data apariţiei bolii",
-              "certificat de încadrare în grad de handicap (termen de valabilitate permanent)"
-          ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
+      ],
       [
-       "SECPAH poate solicita completarea dosarului cu rezultate ale investigaţiilor paraclinice necesare întocmirii raportului de evaluare complexă, atât în faza de analiză a dosarului, cât şi în cea de evaluare propriu-zisă."
-           ]
-    ],
-    "files":[
-      "CERERE EVALUARE COMPLEXA.doc",
-      "Cerere evaluare pentru aplicarea  art 58 sau 59 din Legea nr. 263 din 2010.doc",
-      "PARAMETRII FUNCTIONALI.pdf",
-      "ref. boli infectioase.doc",
-      "ref. cardio-vascular.doc",
-      "ref. dermatologie.doc",
-      "ref. digestiv.doc",
-      "ref. endocrine.doc",
-      "ref. hematologie.doc",
-      "ref. metabolice.doc",
-      "ref. neurologie nou.doc",
-      "ref. oncologie.doc",
-      "ref. orl.doc",
-      "ref. osteo-articular.doc",
-      "ref. psihiatrie.doc",
-      "ref. respirator.doc",
-      "ref. reumatologie.doc",
-      "ref. urogenital.doc",
-      "ref. vizual.doc",
-      "scrisoare medicala.pdf"
+        "copie B.I./C.I",
+        "copie a carnetului de muncă",
+        "documente medicale în care este consemnată data apariţiei bolii",
+        "certificat de încadrare în grad de handicap (termen de valabilitate permanent)"
       ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "SECPAH poate solicita completarea dosarului cu rezultate ale investigaţiilor paraclinice necesare întocmirii raportului de evaluare complexă, atât în faza de analiză a dosarului, cât şi în cea de evaluare propriu-zisă."
+    ]
+  ],
+  "files": [
+    "CERERE EVALUARE COMPLEXA",
+    "Cerere evaluare pentru aplicarea  art 58 sau 59 din Legea nr. 263 din 2010",
+    "PARAMETRII FUNCTIONALI",
+    "ref. boli infectioase",
+    "ref. cardio-vascular",
+    "ref. dermatologie",
+    "ref. digestiv",
+    "ref. endocrine",
+    "ref. hematologie",
+    "ref. metabolice",
+    "ref. neurologie nou",
+    "ref. oncologie",
+    "ref. orl",
+    "ref. osteo-articular",
+    "ref. psihiatrie",
+    "ref. respirator",
+    "ref. reumatologie",
+    "ref. urogenital",
+    "ref. vizual",
+    "scrisoare medicala"
+  ]
 }
-  

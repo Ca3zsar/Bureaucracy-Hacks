@@ -1,57 +1,46 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
-    "process": "Scutire Taxa Rovinieta",
-    "cases": [
-      "Persoana cu handicap (Anexa 1)",
-      "Insotitor al minorului/adultului (Anexa 2)",
-      "Asistent personal al minorului/adultului (Anexa 3)"
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte",
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Scutire Taxa Rovinieta",
+  "cases": [
+    "Persoana cu handicap",
+    "Insotitor al minorului/adultului",
+    "Asistent personal al minorului/adultului"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie",
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie",
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [[""], [""], [""]],
+  "necessary": [
+    [
       [
-        " "
+        "certificatul de incadrare in grad de handicap",
+        "cartea de identitate / buletin de identitate",
+        "cartea de identitate a autoturismului / certificat de inmatriculare",
+        "certificat de casatorie (unde este cazul)"
+      ],
+      [
+        "certificatul de incadrare in grad de handicap al minorului/adultului",
+        "cartea de identitate / buletin de identitate",
+        "cartea de identitate a autoturismului / certificat de inmatriculare"
+      ],
+      [
+        "certificatul de incadrare in grad de handicap al minorului/adultului",
+        "cartea de identitate / buletin de identitate",
+        "cartea de identitate a autoturismului / certificat de inmatriculare",
+        "contract de munca asistent personal",
+        "certificat de casatorie (unde este cazul)"
       ]
-    ],
-    "necessary": [
-        [
-          [
-            "certificatul de incadrare in grad de handicap",
-            "cartea de identitate / buletin de identitate",
-            "cartea de identitate a autoturismului / certificat de inmatriculare",
-            "certificat de casatorie (unde este cazul)"
-          ],
-          [
-            "certificatul de incadrare in grad de handicap al minorului/adultului",
-            "cartea de identitate / buletin de identitate",
-            "cartea de identitate a autoturismului / certificat de inmatriculare"
-          ],
-          [
-            "certificatul de incadrare in grad de handicap al minorului/adultului",
-            "cartea de identitate / buletin de identitate",
-            "cartea de identitate a autoturismului / certificat de inmatriculare",
-            "contract de munca asistent personal",
-            "certificat de casatorie (unde este cazul)"
-          ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-        "Anexa 1.pdf",
-        "Anexa 2.pdf",
-        "Anexa 3.pdf",
-        "Declaratie bun comun.pdf",
-        "Declaratie insotitor adulti.pdf",
-        "Declaratie insotitor reprezentant legal.pdf"
-      ]
+  ],
+  "generalInfo": [[""], [""], [""]],
+  "files": [
+    "Anexa 1",
+    "Anexa 2",
+    "Anexa 3",
+    "Declaratie bun comun",
+    "Declaratie insotitor adulti",
+    "Declaratie insotitor reprezentant legal"
+  ]
 }
-  

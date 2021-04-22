@@ -1,16 +1,15 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
+    "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
     "process": "Decontare Carburant",
     "cases": [
-      " "
+      "Pentru decontare carburant"
     ],
     "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte",
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
+      "Departamentul Asistenta Socială Persoane Adulte\nDepartamentul Asistenta Socială pentru Copil şi Familie"  
     ],
     "forms": [
       [
-        " "
+        "Decontare Carburant"
       ]
     ],
     "necessary": [
@@ -22,16 +21,13 @@
             ]
         ]
     ],
-    "prices": [
-        " "
-    ],
     "generalInfo": [
       [
         "Decontarea carburantului in baza art. 24 alin. (9) si (10) din Legea nr. 448/2006 privind protectia si promovarea drepturilor persoanelor cu handicap"
     ]
     ],
     "files":[
-      "Cerere decont carburant.pdf"
+      "Cerere decont carburant"
     ]
 }
   

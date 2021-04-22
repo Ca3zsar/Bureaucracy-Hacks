@@ -1,8 +1,8 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
+    "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
     "process": "Acordarea biletelor pentru transport interurban C.F.R. si Auto",
     "cases": [
-      " "
+      "Pentru acordarea biletelor pentru transport interurban C.F.R si Auto"
     ],
     "departaments": [
       "Departamentul Asistenta Socială Persoane Adulte"  
@@ -23,16 +23,10 @@
           ]
         ]
     ],
-    "prices": [
-      " "
-    ],
     "generalInfo": [
       [
         "BILETELE PENTRU TRANSPORTUL INTERURBAN SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR."
       ]
-    ],
-    "files":[
-      " "
     ]
 }
   

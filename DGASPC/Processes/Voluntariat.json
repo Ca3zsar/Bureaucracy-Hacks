@@ -1,44 +1,29 @@
 {
-    "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
-    "process": "Voluntariat",
-    "cases": [
-      " "
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte",
-      "Departamentul Asistenta Socială pentru Copil şi Familie"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Voluntariat",
+  "cases": ["Pentru voluntariat"],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [[" "]],
+  "necessary": [
+    [
       [
-        " "
-      ]
-    ],
-    "necessary": [
-        [
-          [
         "Cerere tip",
         "Copie după actele de identitate şi stare civilă",
         "Recomandare de la facultate (pentru studenţi)",
         "Pentru voluntarii care lucrează cu copii de vârstă mică (0-3 ani) se vor efectua  analize (exudat faringian, examen coproparazitologic și coprocultura)",
         "Adeverință de la medicul de familie (clinic sănătos, nu este în evidență cu TBC, sifilis, boală neuropsihică, cu mențiunea apt pentru voluntariat)",
-        "Adeverinţă de student /elev/ serviciu", 
+        "Adeverinţă de student /elev/ serviciu",
         "Acordul părinților pentru voluntarii minori",
         "Aviz psihologic cu mențiunea ”apt pentru voluntariat în domeniul.....” (spre exemplu, activități educaționale, de îngrijire a copiilor, de asistență socială etc.), realizat de un psiholog autonom cu acreditare pe psihologia muncii",
         "Cazier",
         "Curriculum Vitae"
-         ]
-        ]
-    ],
-    "prices": [
-        " "
-    ],
-    "generalInfo": [
-      [
-       "CENTRUL DE SERVICII PENTRU INCLUZIUNE SOCIALA IASI: 0232 274 333 "
-        ]
-    ],
-    "files":[
-      "cerere voluntariat.doc"
       ]
+    ]
+  ],
+  "generalInfo": [
+    ["CENTRUL DE SERVICII PENTRU INCLUZIUNE SOCIALA IASI: 0232 274 333 "]
+  ],
+  "files": ["cerere voluntariat"]
 }
-  
