@@ -101,8 +101,8 @@ class changePasswordFragment : Fragment() {
         buttonConfirma.setOnClickListener() {
             val textView = view.findViewById<TextView>(R.id.text_changePassword)
 
-            val myPost = changePasswordPost("agachi.eusebiu@yahoo.com", "password", "password")
-            //val myPost = changePasswordPost(email = continut1, newPassword = continut2, confirmNewPassword = continut3)
+           // val myPost = changePasswordPost("agachi.eusebiu@yahoo.com", "password", "password")
+            val myPost = changePasswordPost(email = continut1, newPassword = continut2, confirmNewPassword = continut3)
             passwordViewModel.pushPost(myPost)
             passwordViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
@@ -112,7 +112,6 @@ class changePasswordFragment : Fragment() {
                     Log.d("Response", response.body()?.confirmNewPassword.toString())
                     Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                     Log.d("Response", response.code().toString())
-
                     //Log.d("Response", response.body()?.myUserId.toString())
                     //Log.d("Response", response.body()?.id.toString())
                     //Log.d("Response", response.body()?.title.toString())

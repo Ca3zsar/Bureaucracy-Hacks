@@ -7,18 +7,6 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="170dp"
-        android:background="@drawable/layout"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlu2" />
-
     <TextView
         android:id="@+id/contactTitlu"
         android:layout_width="wrap_content"
@@ -39,13 +27,13 @@
         android:id="@+id/contactNume"
         android:layout_width="323dp"
         android:layout_height="48dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="140dp"
         android:backgroundTint="#0000FF"
-        android:hint="Username"
+        android:hint="Name"
+        android:textColorHint="#808080"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -53,20 +41,52 @@
 
 
     <EditText
+        android:id="@+id/contactPhone"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="#0000FF"
+        android:textColorHint="#808080"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/contactEmail"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="292dp"
+        android:backgroundTint="#0000FF"
+        android:textColorHint="#808080"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
         android:id="@+id/contactMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="384dp"
         android:backgroundTint="#0000FF"
+        android:textColorHint="#808080"
         android:breakStrategy="balanced"
+        android:textColor="@color/black"
         android:fitsSystemWindows="true"
         android:gravity="top"
         android:hint="Your Message"
         android:inputType="textMultiLine"
         android:padding="5dp"
         android:singleLine="false"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -77,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="584dp"
         android:background="@drawable/round_buttons"
         android:backgroundTint="@color/blue"
         android:elevation="4dp"
@@ -88,23 +108,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <RatingBar
-        android:id="@+id/rBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:background="@color/blue"
-        android:numStars="5"
-        android:progressTint="#0000FF"
-        android:stepSize="1"
-        android:theme="@style/Widget.AppCompat.RatingBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/text_contact"

@@ -59,7 +59,8 @@ class registerFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_register)
 
-            val myPost = registerPost("agachi.eusebiu@yahoo.com", "Gigi", "Agachi", "Eusebiu", "asd")
+           // val myPost = registerPost("agachi.eusebiu@yahoo.com", "Gigi", "Agachi", "Eusebiu", "asd")
+            val myPost = registerPost(continut4, continut1, continut2, continut3, continut5)
             rgstrViewModel.pushPost(myPost)
             rgstrViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
