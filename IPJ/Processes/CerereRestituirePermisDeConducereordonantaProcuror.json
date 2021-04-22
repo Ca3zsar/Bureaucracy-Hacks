@@ -1,12 +1,12 @@
 {
     "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Restituire permis permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat",
+    "process": "Restituire permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat",
     "cases": [
-      "Pentru Restituire permis permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat"
+      "Pentru Restituire permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat"
     ],
-    "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+    "departaments": ["Serviciul Rutier"],
     "forms": [
-      ["Restituire permis permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat"]
+      ["Restituire permis de conducere în baza ordonanţei procurorului/hotărârii judecătoreşti rămase definitive prin care s-a dispus achitarea inculpatului sau prin care procesul verbal de constatare a contravenţiei a fost anulat"]
     ],
     "necessary": [[["Cerere tip"]]],
     "generalInfo": [["Cererea se soluţionează de către şeful serviciului rutier care are în evidenţă titularul, cu precizarea că restituirea documentului se face personal la sediul unităţii de poliţie"]],
