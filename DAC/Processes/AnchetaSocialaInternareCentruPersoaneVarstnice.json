@@ -1,0 +1,35 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Ancheta socială pentru internarea ȋntr-un centru rezidenţial pentru persoane vârstnice",
+    "cases": ["Ancheta socială pentru internarea ȋntr-un centru rezidenţial pentru persoane vârstnice"],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Cerere de admitere",
+          "Copii după actele de stare civilă ale solicitantului: act de identitate din care să reiasă domiciliul stabil pe raza municipiului Iaşi; certificate de naştere; certificate de căsătorie/ hotărâre de divorţ; certificate de deces al soţului/ soţiei",
+          "Cupon de pensie recent",
+          "Copie după cartea de identitate a reprezentantului legal (dacă este cazul)",
+          "Certificate de naştere şi acte de identitate ale copiilor – copii",
+          "Acte privind veniturile copiilor: adeverinţă de venit/ cupon pensie; adeverinţă de elev/ student (acolo unde este cazul)",
+          "Declaraţie notarială că nu are copii sau reprezentant legal (acolo unde este cazul)",
+          "Declaraţie notarială privind obligaţia de plată a diferenţei de contribuţie de ȋntreţinere până la concurenţa valorii integrale stabilite",
+          "Analize medicale (Radiografie toracică; Electrocardiogramă şi examen cardiologic; Examen Psihologic şi Examen Psihiatric)",
+          "Analize de laborator (hemoleucograma; VSH; Glicemie; Uree; TGP, TGO; Sumar urină; Coprocultură)",
+          "Adevetinţă medical de la medical de familie din care să reiasă că solicitantul nu suferă de boli transmisibile sau psihice şi este apt pentru a fi inclus ȋn colectivitate",
+          "Dosar medical de la medical de familie, completat şi parafat la zi – copie",
+          "Certificat de atestare Fiscală pentru Persoane Fizice eliberat de Primăria Municipiului Iaşi – original",
+          "Copie după Contractul de proprietate al locuinţei ȋn care persoana vârstnica are domiciliul stabil (acolo unde este cazul)",
+          "Fişa de Evaluare socio-medicală geriatrică/ Grila de Evaluare a persoanelor vârstnice",
+          "Notificare privind prelucrarea datelor cu caracter personal"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+         "Centrele rezidenţiale pentru persoane vârstnice ale Direcţiei de Asistenţă Socială sunt: \nCăminul de pensionari “Sf. Cuv. Parascheva” Iaşi strada Codrescu, nr. 6 \nCăminul de bătrâni “Sfinţii Ȋmpăraţi Constantin şi Elena” Iaşi strada Mihai Cornea numărul 40-46"
+      ]
+    ]
+  }
+  

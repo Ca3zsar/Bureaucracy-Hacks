@@ -1,0 +1,54 @@
+{
+    "institution": "Primăria Iași",
+    "process": "Biroul Dezvoltare Urbana si Monumente",
+    "cases": [
+      "PROIECTE DE HOTARARE",
+      "AVIZUL DE CONSTRUIRE IN ZONA DE VERSANT"
+       ],
+    "departaments": [
+        "DIRECTIA ARHITECTURA SI URBANISM"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+           "1. cerere",
+           "2. certificat de urbanism",
+           "3. avizul Comisiei de Urbanism",
+           "4. aviz unic al Consiliului Judetean pentru documentatiile ce prevad P.U.D.",
+           "5. actul de proprietate asupra imobilului in cazul proiectului de hotarare privind concesionarea directa in vederea extinderii spatiului",
+           "6. raport de expertiza tehnica de evaluare a terenului in vederea stabilirii redeventei valorice a concesiunii",
+           "7. plan topografic al amplasamentului terenului care face obiectul proiectului de hotarare",
+           "8. certificat de inregistrare societate"  
+          ],
+          [
+              "Acte de proprietate (copie)",
+              "Certificat de urbanism (copie)",
+              "Studiu geotehnic si de stabilitate",
+              "Referat verificator atestat Af asupra studiului geotehnic",
+              "Plan de situatie",
+              "Plan de situatie cu incadrarea in zona",
+              "Solutia tehnica de principiu propusa",
+              "Plan de situatie amenajari exterioare",
+              "Solutii necesare de asigurarea stabilitatii",
+              "Documentaţie pe suport electronic"
+          ]
+        ]
+    ],
+    "prices": [
+        ""
+        ],
+    "generalInfo": [
+      [
+        "Comisia pentru urmărirea stabilităţi versanţilor alunecători îşi asumă dreptul de a solicita suplementar alte documente în funcţie de actualităţi."
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  

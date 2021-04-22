@@ -1,0 +1,24 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Autorizarea acordării dispensiei de varstă",
+    "cases": ["Autorizarea acordării dispensiei de varstă"],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Declaraţii de acord ale ambilor părinţi (este necesară prezenţa părinţilor)",
+          "Copii dupa actele de stare civila ale minorei şi ale viitorului soţ (cărţi de identitate, certificate de naştere ale tuturor părţilor implicate)",
+          "Cerere de acordare a dispensei de vârstă",
+          "Aviz medical",
+          "Notificare privind prelucrarea datelor cu caracter personal"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        ""
+      ]
+    ]
+  }
+  

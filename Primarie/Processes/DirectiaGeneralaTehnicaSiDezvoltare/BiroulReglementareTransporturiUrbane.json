@@ -1,0 +1,148 @@
+{
+    "institution": "Primăria Iași",
+    "process": "Biroul reglementare transporturi urbane",
+    "cases": [
+      "AVIZ PENTRU TRANSPORT URBAN PERSOANE IN REGIM MAXI-TAXI",
+      "AUTORIZATIA DE EXECUTIE PENTRU TRASEU",
+      "INREGISTRAREA VEHICULELOR PENTRU CARE NU EXISTA OBLIGATIA INMATRICULARII (vehicule lente)",
+      "AUTORIZATIE DE EXECUTIE PENTRU TRANSPORTUL PUBLIC DE PERSOANE IN REGIM DE TAXI- PENTRU OPERATORI",
+      "AUTORIZATIE DE EXECUTIE PENTRU TRANSPORTUL PUBLIC DE PERSOANE IN REGIM DE TAXI- PENTRU TAXIMETRISTUL INDEPENDENT",
+      "ELIBERARE AUTORIZATIE TAXI",
+      "VIZAREA ANUALA/PRELUNGIREA AUTORIZATIEI TAXI",
+      "ÎNLOCUIREA AUTOVEHICULULUI SUB ACELAŞI NUMĂR DE AUTORIZAŢIE TAXI",
+      "ÎNLOCUIREA MANAGERULUI DE TRANSPORT ÎN REGIM DE TAXI",
+      "ELIBERAREA/VIZAREA AUTORIZAŢIEI PENTRU ACTIVITATEA DE DISPECERAT TAXI",
+      "AUTORIZAŢIE DE TRANSPORT (pentru alte activitati decat taximetrie)"
+    ],
+    "departaments": [
+        "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"  ,
+        "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [ 
+              "1. Statutul operatorului de transport din care sa rezulte ca obiect de activitate transport de persoane",
+              "2. Certificatul de inmatriculare la Camera de Comert si codul fiscal",
+              "3. Licenta de transport public pentru operator si licenta de executie pentru fiecare vehicul (ARR)",
+              "4. Actul de proprietate a autovehiculului (contract de inchiriere)",
+              "5. Cartea de identitate si certificatul de inmatriculare",
+              "6. Dovada inspectiei tehnice periodice",
+              "7. Copia documentatiei privind asigurarea in caz de accident a masinii si a pasagerilor",
+              "8. Dovada ca autovehiculul va fi deservit de un conducator auto posesor al unui permis de conducere corespunzator categoriei",
+              "9. Dovada achizitionarii si inregistrarii foilor de parcurs",
+              "10. Dovada ca persoana juridica a achizitionat bilete",
+              "11. Dovada inregistrarii la Inspectoratul Teritorial de Munca a contractului de Munca pentru conducatorul auto si/sau a insotitorului de bord, in cazul in care acestia sunt salariatii operatorului de transport."
+            ],
+            [
+                "1.- Statutul operatorului de transport (societate comerciala sau asociatie de transportatori), din care sa rezulte ca are ca obiect de activitate transportul de persoane, iar sediul societatii este in municipiul Iasi",
+                "- certificatul de inmatriculare la Camera de Comert",
+                "- codul fiscal",
+                "2. - Licenta de transport public pentru operatorul de transport",
+                "- licenta de executie pentru fiecare vehivul eliberat de Autoritatea Rutiera Romana",
+                "3. Actul de proprietate a autovehiculului sau contractul de inchiriere, daca vehiculul este inchiriat. Sunt admise numai autovehiculele inmatriculate in municipiul Iasi sau achizitionate in leasing de catre operatorul de transport.",
+                "4. Cartea de identitate si certificatul de inmatriculare a autovehiculului din care sa rezulte numarul de inmatriculare, marca, tipul, anul de fabricatie, categoria autovehiculului, numarul de locuri pe scaune, alte date tehnice si de identificare.",
+                "5. Dovada inspectiei tehnice periodice valabila in momentul depunerii solicitarii. Inspectia tehnica periodica se efectueaza la un interval de maxim 6 (sase) luni, iar operatorii de transport sunt obligatii sa aiba inspectia tehnica efectuata la zi pe toata durata valabilitatii autorizatiilor pentru traseu.",
+                "6. Copia documentelor privind asigurarea, in caz de accidente a autovehiculului si a pasagerilor - incheiata cu societatile de asigurari abilitate sa functioneze pe teritoriul Romaniei.",
+                "7. Dovada ca autovehiculul va fi deservit de un conducator auto, posesor al unui permis de conducere categorie corespunzatoare (pentru mijloacele de transport cu o capacitate de 10-17 locuri).",
+                "8. Dovada achizitionarii si inregistrarii foilor de parcurs utilizate in activitatea de transport public",
+                "9. Dovada ca persoana juridica a achizitionat bilete ce urmeaza a fi utilizate in desfasurarea activitatii de transport public de calatori, prin curse regulate rapide.",
+                "10. Dovada inregistrarii la inspectoratul Teritorial de Munca Iasi, a contractului de munca, pentru conducatorul auto si/sau insotitorul de bord, in cazul in care acestia sunt salariatii operatorului de transport (conf. Legii 130/1999 privind unele masuri de protectie a persoanelor incadrate in munca)"
+            ],
+            [
+                "Actul de proprietate al vehiculului;",
+                "Actul de identitate sau dupa certificatul de inregistrare la Registrul Comertului;",
+                "Declaratia fiscala pentru stabilirea taxei/impozitului pe mijloace de transport aflate in proprietatea PF/PJ",
+                "Cartea de identitate a vehiculului (in original - se restituie dupa inregistrare);",
+                "Dovada efectuarii inspectiei tehnice periodice (dupa caz);",
+                "Dovada asigurarii obligatorii pentru raspundere civila (RCA);",
+                "Dovada asigurarii parcarii vehiculului intr-un spatiu adecvat, detinut in conditiile legii;",
+                "Atestat tehnic eliberat de RAR- pentru masini autopropulsate pentru lucrari;",
+                "Certificat de atestare fiscala pentru PF/PJ sau certificate de radiere a vehiculului inregistrat la alte Primarii, in cazul vanzarii/cumpararii unui vehicul folosit Dosar de incopciat"
+            ],
+            [
+                "1) Autorizaţia de transport nr. ………., în original (în cazul vizării);",
+                "2) Copie după certificatul de înregistrare la registrul comerţului ca transportator;",
+                "3) Copie după certificatul de competenţă profesională a managerului de transport;",
+                "4) Cazier judiciar a managerului de transport, în original;",
+                "5) Aviz medical şi psihologic valabil al managerului de transport, în original (în cazul vizării avizele se vor depune în copie dacă cele originale au fost depuse la o dată anterioară);",
+                "6) Certificatul de cazier fiscal al transportatorului (eliberat de ANAF), în original;",
+                "7) Declaraţie privind perioadele în care transportatorul a mai executat servicii de transport în regim de taxi;",
+                "8) Declaraţie privind asigurarea spaţiului de parcare;",
+                "9) Declaraţie privind parcul auto;",
+                "10) Declaraţie privind personalul angajat/membru IF."
+            ],
+            [
+                "1) Autorizaţia de transport nr. ………., în original (în cazul vizării);",
+                "2) Copie după certificatul de înregistrare la registrul comerţului ca transportator;",
+                "3) Copie după certificatul de competenţă profesională a managerului de transport;",
+                "4) Cazier judiciar a managerului de transport, în original;",
+                "5) Aviz medical şi psihologic valabil al managerului de transport, în original (în cazul vizării avizele se vor depune în copie dacă cele originale au fost depuse la o dată anterioară);",
+                "6) Certificatul de cazier fiscal al transportatorului (eliberat de ANAF), în original;",
+                "7) Declaraţie privind perioadele în care transportatorul a mai executat servicii de transport în regim de taxi;",
+                "8) Declaraţie privind asigurarea spaţiului de parcare"
+            ],
+            [
+                "1) Declaraţie privind criteriile de departajare pe care autovehiculul le îndeplineşte;",
+                "2) Copie după certificatul de înmatriculare şi cartea de identitate a autovehiculului;",
+                "3) Copie după certificatul de agreare a autovehiculului emis de R.A.R.;",
+                "4) Copie după buletinul de verificare metrologică a aparatului de taxat"
+            ],
+            [
+                "5) Autorizaţia taxi în original;",
+                "6) Declaraţie privind criteriile de departajare pe care autovehiculul le îndeplineşte;",
+                "7) Declaraţie privind dispecerizarea autovehiculului taxi;",
+                "8) Copie după certificatul de înmatriculare şi cartea de identitate a autovehiculului;",
+                "9) Copie după certificatul de agreare a autovehiculului emis de R.A.R.;",
+                "10) Copie după buletinul de verificare metrologică a aparatului de taxat şi un bon fiscal, în original"
+            ],
+            [
+                "1. Autorizaţia taxi în original;",
+                "2. Copie după certificatul de înmatriculare şi cartea de identitate a autovehiculului;",
+                "3.Copie după certificatul de agreare a autovehiculului emis de R.A.R.;",
+                "4. Copie după buletinul de verificare metrologică a aparatului de taxat;",
+                "5. Declaraţie privind criteriile de departajare pe care autovehiculul le îndeplineşte;",
+                "6. Ecusoane (indicatoare marcate) cu numărul de autorizație taxi."
+            ],
+            [
+                "1. Copie după certificatul de competenţă profesională a managerului de transport;",
+                "2. Cazier judiciar, în original;",
+                "3. Aviz medical şi psihologic, în original."
+            ],
+            [
+                "1) copie de pe certificatul de înmatriculare emis de registrul comerţului, din care rezultă că societatea are ca obiect de activitate dispecerizarea;",
+                "2) Declaraţie pe propria răspundere conform căreia dispeceratul deţine baza tehnică necesară, staţie de emisie-recepţie, frecvenţă radio protejată, telefoane, personal autorizat şi spaţiile necesare;",
+                "3) Copie după certificatul de operator radiotelefonist al operatorilor dispeceri;",
+                "4) Copie de pe licenţa de utilizare a frecvenţelor radioelectrice;",
+                "5) Autorizaţia pentru activitatea de dispecerat taxi, în original; (în cazul vizării autorizaţiei)",
+                "6) Declaraţie pe propria răspundere cu privire la transportatorii autorizaţi pe care îi deserveşte dispeceratul în care se evidenţiază numărul de autorizaţie taxi, numărul de înmatriculare, indicativul de apel şi staţia radio a fiecărui autovehicul; (în cazul vizării autorizaţiei)"
+            ],
+            [
+                "Copie a certificatului de inmatriculare si a certificatului constatator emise de Oficiul Registrului Comertului",
+                "Copie de pe certificatul de competent profesionala a persoanei desemnate",
+                "Cazierul judiciar al persoanei desemnate, in original",
+                "Declaratie pe proprie raspundere privind perioada in care firma a mai executat servicii de transport public local",
+                "Declaratie privind parcu auto (forma de detinere)",
+                "Declaratie privind detinerea spatiului pentru parcarea vehiculelor",
+                "Declaratie pe proprie raspundere privind faptul ca societatea nu face obiectul unei procedura de reorganizare judiciara, lichidara sau faliment",
+                "Scrisoare de bonitate financiara"
+            ]
+        ]
+    ],
+    "prices": [
+        ""
+        ],
+    "generalInfo": [
+      [
+        " "
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  

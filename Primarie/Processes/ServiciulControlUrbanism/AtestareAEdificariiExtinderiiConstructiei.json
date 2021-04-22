@@ -1,0 +1,45 @@
+{
+    "institution": "Primăria Iași",
+    "process": "ATESTARE A EDIFICĂRII/EXTINDERII CONSTRUCŢIEI",
+    "cases": [
+      "AVIZ DE AMPLASARE A UNEI LUCRARI TEHNICO-EDILITARE IN ZONA SAU PE STRUCTURA UNEI LUCRARI DE ARTA EXISTENTE (POD, PASAJ)"
+       ],
+    "departaments": [
+        "Serviciul Control Urbanism (in cadrul POLITIEI LOCALE IASI)"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+            "Cerere tip",
+            "Copie după actul de identitate a solicitantului;",
+            "Copie după Extrasul de Carte Funciară însoţit de copie după planul de situaţie vizat de O.C.P.I. care a stat la baza intabulării terenului pe care este amplasată construcţia;",
+            "Copie după certificatul fiscal, eliberat de Direcţia Economică a Municipiului Iaşi, din care să rezulte că figurează impus cu construcţia în cauză anterior anului 1991 sau anul impunerii, cu mentiunea valorii de impozitare a constructiei;",
+            "Documentaţie topografică în care sunt descrise construcţiile ce urmează a fi înscrise în Cartea Funciară, întocmită de topometrist autorizat, semnate şi parafate de acesta;",
+            "Declaraţie notarială privind anul ridicării construcţiei şi faptul că aceasta nu face obiectul nici unui litigiu;",
+            "Autorizaţia de construire şi documentaţia ce a stat la baza eliberării autorizaţiei de construire – copie, şi /sau certificat de moştenitor după caz;",
+            "Copie după procesul verbal de recepţie (dacă există);",
+            "Imputernicire sau procura notariala daca este cazul"  
+         ]
+        ]
+    ],
+    "prices": [
+        ""
+        ],
+    "generalInfo": [
+      [
+        "Precizări:\n Certificatului de Atestare a Edificării/Extinderii Construcţiilor realizate cu sau fără autorizaţie de construire, cu sau fără proces verbal de recepţie se vor elibera în următoarele condiţii:",
+        "- pentru construcţii fără autorizaţie de construire, documentul se va elibera numai pentru cele mai vechi de 1991;",
+        "- pentru construcţiile ridicate în perioada 1991 – 2001 care au autorizaţie de construire si aceasta este respectata, dar nu au proces verbal de recepţie;",
+        "- pentru construcţiile ridicate după 01.01.2002 se vor aplica prevederile Legii 50/1991 republicată, cu modificările şi completările ulterioare."
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  

@@ -1,0 +1,22 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Ancheta Socială pentru acordarea \"Bani de liceu\"",
+    "cases": ["Ancheta Socială pentru acordarea \"Bani de liceu\""],
+    "departament": ["Directia de Asistenta Sociala Iasi"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+         "Copie după actele de identitate ale persoanelor din componenţa familiei",
+         "Copie după acte doveditoare ale veniturilor realizate (adeverinţe de venit, cupoane de pensie, adeverinţă de elev, talon de şomaj, declaraţii notariale etc)",
+         "Notificare privind prelucrarea datelor cu caracter personal"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        ""
+      ]
+    ]
+  }
+  

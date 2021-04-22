@@ -1,0 +1,38 @@
+{
+    "institution": "Primăria Iași",
+    "process": "Serviciul G.I.S. - Cadastru",
+    "cases": [
+      "ELIBERAREA CERTIFICATULUI DE NOMENCLATURA URBANA, ATESTARE ADRESA SAU ISTORIC URBAN"
+       ],
+    "departaments": [
+        "DIRECTIA ARHITECTURA SI URBANISM"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+           "cerere-tip",
+           "act de proprietate (cvc, titlu,etc)",
+           "plan de amplasament si delimitare, plan de situatie, inventar de coordonate alipire, dezmembrare",
+           "incheieri dispuse de OCPI Iasi",
+           "CI (PF) / CUI (PJ)"  
+          ]
+        ]
+    ],
+    "prices": [
+        ""
+        ],
+    "generalInfo": [
+      [
+        ""
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  
