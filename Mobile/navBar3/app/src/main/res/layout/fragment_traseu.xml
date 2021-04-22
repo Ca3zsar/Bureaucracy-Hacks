@@ -17,15 +17,14 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlu2"
-        app:layout_constraintVertical_bias="0.989" />
+        app:layout_constraintTop_toBottomOf="@+id/titlu2" />
 
     <Spinner
         android:id="@+id/traseuSp1"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="300dp"
         android:animateLayoutChanges="true"
         android:background="#014f86"
         android:clipToPadding="false"
@@ -43,30 +42,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible" />
-        <!-- android:entries="@array/institutii" -->
+
     <Spinner
         android:id="@+id/traseuSp2"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="430dp"
-        android:animateLayoutChanges="true"
-        android:background="#014f86"
-        android:dropDownWidth="match_parent"
-        android:entries="@array/servicii"
-        android:padding="10dip"
-        android:spinnerMode="dialog"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/spProcese"
-        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="530dp"
+        android:layout_marginTop="450dp"
         android:animateLayoutChanges="true"
         android:background="#014f86"
         android:dropDownWidth="match_parent"
@@ -82,7 +64,7 @@
         android:id="@+id/traseuConfirma"
         android:layout_width="145dp"
         android:layout_height="60dp"
-        android:layout_marginTop="625dp"
+        android:layout_marginTop="575dp"
         android:background="@drawable/background_button_contact"
         android:text="Confirmă"
         android:textAllCaps="false"
@@ -167,21 +149,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/informatii3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:gravity="center"
-        android:text="Alege procesul:"
-        android:textColor="#03045e"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/spProcese"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
