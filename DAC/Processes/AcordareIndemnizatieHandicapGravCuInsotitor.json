@@ -1,0 +1,25 @@
+{
+    "institution": "Directia de Asistenta Sociala Iasi",
+    "process": "Acordarea indemnizației de handicap grav cu însoțitor",
+    "cases": ["Acordarea indemnizației de handicap grav cu însoțitor"],
+    "departament": ["Serviciu personal"],
+    "forms": [[""]],
+    "necessary": [
+      [
+        [
+          "Acordul DGASPC Iaşi - original",
+          "Certificat/hotarire de încadrare în grad de handicap – copie",
+          "Act de identitate pentru persoana cu handicap/parinte/copil – copie",
+          "Adeverinţă elev/salariat/cupon pensie - copie",
+          "Extras cont bancar: BRD,CEC, ING, RNCB, TRANSILVANIA, RZBR, mandat",
+          "Dosar cu şină"
+        ]
+      ]
+    ],
+    "generalInfo": [
+      [
+        ""
+      ]
+    ]
+  }
+  
