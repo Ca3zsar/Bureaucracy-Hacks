@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Eliberare adeverinta grupa de munca",
+	"cases": ["Pentru eliberarea adeverintei grupei de munca"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Adeverinta grupa de munca"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "formadevgrmc" ]
+}

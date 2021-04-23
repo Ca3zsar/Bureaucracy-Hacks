@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Eliberare adeverinta de vechime",
+	"cases": ["Pentru eliberarea adeverintei de vechime"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Adeverinta vechime"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "formadevvechsal" ]
+}

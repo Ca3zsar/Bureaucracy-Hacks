@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Plata sumelor neincasate de catre pensionarul decedat",
+	"cases": ["Pentru plata sumelor ramase neincasate de catre pensionarul decedat"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere plata pensie pe luna decesului"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerplatapensrestdeces" ]
+}
