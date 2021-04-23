@@ -1,0 +1,42 @@
+{
+    "institution": "Primaria Iasi",
+    "process": "Serviciul Constatare Impunere și Executare Creanțe Bugetare Persoane Juridice- Biroul Constatare Impunere Persoane Juridice",
+    "cases": [
+    "TEREN \n DECLARAREA/ÎNREGISTRAREA ÎN EVIDENȚA FISCALĂ"
+  ],
+    "departaments": [
+        "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+           "1.declarația fiscală pentru stabilirea impozitului/taxei pe teren în cazul persoanelor juridice (model 2016, ITL-004)",
+           "2.act notarial care atestă dreptul de proprietate (contract de vânzare-cumpărare, contract de schimb, act de partaj, contracte de fiducie, contract de dare în plată, act de adjudecare, dispoziție de retrocedare, hotărâre judecătorească, sentință judecătorească, sentință de divizare/fuziune (se completează cu proiectul de divizare/fuziune+protocolul de predare-primire si anexe cu patrimoniu)",
+           "3.contract de concesiune, contract de închiriere, contract de comodat, Hotarârea consiliului local/județean privind darea în administrare/folosință/etc +protocol/proces verbal de predare-primire, documentul prin care proprietarul comunică suprafața de teren, dacă aceasta nu este specificată în contract ",
+           "4.contract de leasing financiar+proces verbal de predare/primire a bunului ",
+           "5.documentație cadastrală",
+           "6.adeverință de la Registrul agricol din cadrul Primăriei Municipiului Iași",
+           "7.evidența contabilă (balanța de verificare, lista mijloacelor fixe, fișe cont)",
+           "8.copia certificatului de înregistrare (C.U.I./C.I.F.) – în cazul primei declarări",
+           "9.copia actului de identitate (administrator/împuternicit) "
+          ]
+        ]
+    ],
+    "prices": [
+        ""
+        ],
+    "generalInfo": [
+      [
+        "Contribuabilul/plătitorul persoană juridică rezident într-un alt stat membru al U.E. este obligat să depună formularul tip pentru declararea terenului nou dobândit și formularul Anexa la ITL 004- model 2016 "
+    ]
+    ],
+    "files":[
+      " "
+      ]
+}
+  
