@@ -1,0 +1,29 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "Biroul Reglementare Publicitate Urbana",
+  "cases": [
+    "AVIZ PENTRU AMPLASAREA MIJLOACELOR PUBLICITARE CU CARACTER PROVIZORIU*"
+  ],
+  "departaments": ["DIRECTIA ARHITECTURA SI URBANISM"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1. planul de amplasare în zonă (în cazul mijloacelor publicitare pe stâlpii de iluminat se vor trece pe plan şi numerele de identificare ale stâlpilor)",
+        "2. macheta mijlocului publicitar",
+        "2. foto amplasament",
+        "3. simulare amplasare mijloc publicitar",
+        "4. act deţinere spaţiu (act de proprietate/contract închiriere spaţiu)",
+        "5. acordul tuturor proprietarilor direct afectaţi, în original",
+        "6. copie certificat înregistrare al entităţii juridice",
+        "7. documentaţie tehnică întocmită de un arhitect cu drept de semnătură, în original",
+        "8. avizul Comisiei Zonale a Monumentelor Istorice, în original referatele de verificare la cerinţele A şi B, în original"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "(*Mijloace publicitare cu caracter provizoriu: mesh-uri, bannere, mijloace publicitare pe stâlpii de iluminat, proiecte speciale, etc.)"
+    ]
+  ]
+}

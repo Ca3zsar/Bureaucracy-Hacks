@@ -1,0 +1,19 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "SCOATEREA DIN EVIDENȚA FISCALĂ A TERENURILOR/ CLĂDIRILOR",
+  "cases": ["Pentru scoaterea din evidența fiscală a terenurilor/ clădirilor"],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.cerere scrisă prin intermediul căreia se solicită scoaterea din evidență a bunului imobil;",
+        "2.Copie certificată „conform cu originalul” sub semnătură după:",
+        "•actul de înstrăinare (contract de vânzare-cumpărare, certificat de moștenitor, act de donație, act de partaj, hotărâre judecătorească definitivă etc.);",
+        "•autorizația de demolare (în cazul clădirilor)/proces verbal de recepție la terminarea lucrărilor de desființare/demolare înregistat la Serviciul Autorizări Construcții;",
+        "• cartea de identitate a vânzătorilor."
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

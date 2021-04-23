@@ -1,0 +1,16 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "Serviciul Constatare Impunere și Executare Creanțe Bugetare Persoane Juridice- Biroul Constatare Impunere Persoane Juridice",
+  "cases": ["SCOATEREA DIN EVIDENȚA FISCALĂ TERENURI"],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.cerere de solicitare a scoaterii din evidența fiscală a bunului imobil",
+        "2.act notarial care atestă transferal dreptului de proprietate (contract de vânzare-cumpărare, contract de schimb, act de partaj, contract de fiducie, contract de dare în plată, act de adjudecare, dispoziție de retrocedare, hotărâre judecătorească, sentință judecătorească, sentință de divizare/fuziune (se completează cu proiectul de divizare/fuziune+protocolul de predare-primire si anexe cu patrimoniu)"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

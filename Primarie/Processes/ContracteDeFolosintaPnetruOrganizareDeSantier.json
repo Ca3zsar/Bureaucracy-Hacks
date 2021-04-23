@@ -1,0 +1,19 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "CONTRACTE DE FOLOSINTA PENTRU ORGANIZARE DE SANTIER",
+  "cases": ["Pentru contracte de folosinta pentru organizare de santier"],
+  "departaments": ["SECRETAR MUNICIPIUL IASI"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "cerere",
+        "certificat de urbanism",
+        "plan de incadrare in zona",
+        "schita terenului necesar organizarii de santier",
+        "graficul de esalonare a lucrarii din Proiectul de Organizare de Santier"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

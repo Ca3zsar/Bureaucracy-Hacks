@@ -1,0 +1,20 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "ACORDAREA DISPENSEI DE VARSTA",
+  "cases": ["Pentru acordarea dispensei de varsta"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "-este necesara prezenta parintilor",
+        "-declaratii de acord ale ambilor parinti",
+        "-copii dupa actele de stare cilvila ale minorei si ale viitorului sot (buletine de identitate, certificate de nastere) si ale parintilor ei",
+        "-cerere de acordare a dispensei de varsta (facuta de fata)",
+        "-certificat medico-legal din Policlinica",
+        "-adeverinta de salariat a viitorului sot"
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

@@ -1,0 +1,31 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "ACORDAREA VENITULUI MINIM GARANTAT",
+  "cases": ["Pentru acordarea venitului minim garantat"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1. Actele de identitate ale solicitantului si ale membrilor familiei - in copie;",
+        "-in cazul cetatenilor romani : B.I., cartea de identitate/cartea de identitate provizorie;",
+        "- in cazul cetatenilor straini sau apatrizi: carnetul de identitate/legitimatia de sedere temporara/ documentul de identitate;",
+        "2. Certificatele de nastere ale copiilor;",
+        "3. Certificatul de casatorie;",
+        "4. Daca este cazul:",
+        "-hotararea definitiva de incuviintare a adoptiei/ de incredintare/ plasament familial al minorului;",
+        "-actul din care sa rezulte calitatea solicitantului de tutore/ curator;",
+        "-acte din care sa rezulte incadrarea in categoria persoanelor cu handicap, gr. I sau II, pentru copiii aflati in intretinere, cu varsta de peste 18 ani, necasatoriti",
+        "5. Adeverinta de elev/ de student, (cu mentiunea daca acea persoana beneficiaza sau nu de bursa, tipul acesteia si cuantumul);",
+        "6. Acte de venit;",
+        "-se iau in calcul toate veniturile pe care membrii le realizeaza",
+        "-inclusiv cele care provin din indemnizatia de somaj, creante legale, conventii civile de intretinere aflate in executare, indemnizatii cu caracter permanent, alocatii de stat pentru copii, alocatii suplimentare pentru familiile cu copii, alocatii de intretinere pentru copii incredintati/in plasament, burse pentru elevi si studenti, ajutorul social care se acorda sotiilor celor care satisfac serviciul militar",
+        "-inclusiv veniturile nete anuale realizate din vanzarea/utilizarea terenurilor, cladirilor, spatiilor locative sau altor bunuri mobile si imobile, altele decat locuinta minima si bunurile necesare nevoilor familiale",
+        "-se vor anexa acte doveditoare pentru fiecare membru al familiei (din luna precedenta), astfel:",
+        "- adeverinte cu salariul net, (inclusiv din conventii civile), cupoane de pensie, cupoane de somaj, adeverinta de la Administratia Financiara (pentru persoanele autorizate), cupoane de alocatie de stat pentru copii, cupoane pentru alocatie suplimentara pentru famiile cu copii, taloane de plata I.S.T.P.H., declaratie notar public, orice act doveditor a unei surse de venit.",
+        "7. Adeverinta de la Oficiul Fortelor de Munca pentru fiecare membru din familie apt de munca, conform Legii (inclusiv pentru copii de peste 16 ani). Persoanele apte de munca din familiile pentru care se asigura venitul minim garantat vor efectua lunar, cel mult 72 ore, la solicitarea primarului, actiuni sau lucrari de interes local."
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

@@ -1,0 +1,16 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "LAPTE PRAF GRATUIT",
+  "cases": ["Pentru lapte praf gratuit"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1. copie dupa actul de nastere a copilului;",
+        "2. reteta eliberata de medicul de familie, in care este specificata cantitatea de lapte de care beneficiaza, cu CNP-ul copilului completat, datata, parafata si semnata"
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

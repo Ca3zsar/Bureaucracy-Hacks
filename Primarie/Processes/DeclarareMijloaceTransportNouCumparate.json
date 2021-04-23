@@ -1,0 +1,35 @@
+{
+    "institution": "Primaria Iasi",
+    "process": "DECLARAREA ÎN EVIDENȚA FISCALĂ A MIJLOACELOR DE TRANSPORT NOU CUMPĂRATE ",
+    "cases": [
+    "Pentru declararea în evidența fiscală a mijloacelor de transport nou cumpărate"
+],
+    "departaments": [
+        "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"
+    ],
+    "forms": [
+      [
+        " "
+      ]
+    ],
+    "necessary": [
+        [
+          [
+           "1.Declarație fiscală:",
+           "- anexa nr. 5 – model 2016 ITL 005; ",
+           "- anexa nr. 6 – model 2016 ITL 006 pentru mijloace de transport mai mari de 12 tone;",
+           "- anexa nr. 7 – model 2016 ITL 007 pentru mijloace de transport pe apă;",
+           "2. factură fiscală, în original și în copie certificată „conform cu originalul” sub semnătură;",
+           "3. cartea de identitate a mijlocului de transport, în original și în copie certificată „conform cu originalul” sub semnătură;",
+           "4. Actul de identitate al noului proprietar în original și în copie certificată „conform cu originalul” sub semnătură;",
+           "5. fișa de înmatriculare."  
+          ]
+        ]
+    ],
+    "generalInfo": [
+      [
+        ""
+    ]
+    ]
+}
+  

@@ -1,0 +1,21 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "AVIZARE PROCES VERBAL DE VECINATATE",
+  "cases": ["Pentru avizare proces de verbal de vecinatate"],
+  "departaments": ["SERVICIUL G.I.S"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "c- cerere-tip",
+        "3.1 proces verbal de vecinatate (Ordinul 134/2009)",
+        "3.2 plan de amplasament si delimitare a imobilului",
+        "3.3 tabel de miscare parcelara",
+        "3.4 actul de proprietate",
+        "3.5 act de identitate",
+        "3.6 inregistrare pe suport (CD) format dxf sau dvg a punctelor 3.2 si 3.3"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

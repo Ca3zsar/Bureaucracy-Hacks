@@ -1,0 +1,21 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "DECLARAREA ÎN EVIDENȚA FISCALĂ A CLĂDIRILOR PROPRIETATE PUBLICĂ SAU PRIVATĂ A STATULUI/UNITĂȚILOR ADMINISTRATIV TERITORIALE ÎNCHIRIATE, CONCESIONATE, DATE ÎN ADMINISTRARE ORI ÎN FOLOSINȚĂ CĂTRE PERSOANE FIZICE, FOLOSITE ÎN SCOP ECONOMIC SAU DE AGREMENT, CARE SE REFERĂ LA PERIOADE MAI MARI DE 1 LUNĂ ",
+  "cases": [
+    "Pentru declararea în evidența fiscală a clădirilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice, folosite în scop economic sau de agrement, care se referă la perioade mai mari de 1 lună '"
+  ],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.Declarație fiscală pentru stabilirea impozitului pe clădiri persoane fizice (anexa nr. 2 – model ITL 002);",
+        "2.Copie certificată „conform cu originalul” sub semnătură după:",
+        "•contract de închiriere, concesiune, de dare în administrare sau în folosință gratuită încheiat cu Municipiul Iași;",
+        "•cartea de identitate a locatarilor, concesionarilor, titularilor dreptului de administrare sau de folosință;",
+        "•actul din care să rezulte faptul că respectiva clădire este folosită în scop economic sau de agrement."
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

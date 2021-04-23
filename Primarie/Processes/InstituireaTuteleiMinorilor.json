@@ -1,0 +1,25 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "INSTITUIREA TUTELEI MINORILOR",
+  "cases": ["Pentru instituire tutelei minorilor"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "-copii dupa certificatele de deces ale parintilor",
+        "-copie dupa certificatul de casatorie al parintilor (dupa caz)",
+        "-copie/copii dupa certificatele de nastere ale minorului/minorilor sau B.I. (dupa caz)",
+        "-adeverinta de elev pentru minor",
+        "-adeverinte medicale pentru minor si tutore",
+        "-copii dupa certificatele de nastere si casatorie ale tutorilor",
+        "-buletin de identitate pentru tutore",
+        "-cupon de pensie pentru minor (dupa caz)",
+        "-declaratie de acord a minorului care a implinit 10 ani",
+        "-referat (se efectueaza de Serviciul A.T.A.S.)",
+        "-cerere/declaratie a tutorelui pentru instituirea tutelei"
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

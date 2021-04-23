@@ -1,0 +1,17 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "EFECTUAREA ANCHETEI SOCIALE IN VEDEREA ANGAJARII CA ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
+  "cases": ["Pentru cei care depun dosarele la Serv. Resurse Umane"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "-buletine de identitate pentru bolnav si persoana care doreste angajarea",
+        "-certificatul de incadrare in grad de handicap, pentru bolnav",
+        "-acte privind venitul familiei bolnavului"
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}
