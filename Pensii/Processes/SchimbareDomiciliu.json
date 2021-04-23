@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Schimbare de domiciliu",
+	"cases": ["Pentru schimbarea domiciliului"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere schimbare de domiciliu"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerscbdomiciliu" ]
+}

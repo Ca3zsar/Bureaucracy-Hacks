@@ -1,0 +1,15 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Asigurarea in sistemul public de pensii",
+	"cases": [ "Pentru asigurarea in sistemul public de pensii" ],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [ [ "Asigurare in sistemul public de pensii" ] ],
+	"necessary": [ [ [ "Cerere contract de asigurare", "Formular contract de asigurare", "Declaratie contract de asigurare", "Act aditional" ] ] ],
+	"generealInfo": [ [ "" ] ],
+	"files": [
+		"contr_asig_nou2018",
+		"contr_asig_oug163",
+		"dec_oug163",
+		"actadit_oug163"
+	]
+}
