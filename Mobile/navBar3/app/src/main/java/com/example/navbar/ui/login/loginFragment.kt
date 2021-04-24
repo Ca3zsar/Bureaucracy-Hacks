@@ -66,6 +66,7 @@ class loginFragment : Fragment() {
             val textView = view.findViewById<TextView>(R.id.text_login)
 
             val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
+            //val myPost = loginPost(email = continut1, password = continut2)
             lgnViewModel.pushPost(myPost)
             lgnViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
