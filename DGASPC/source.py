@@ -104,15 +104,9 @@ def go_spider_crawler(URL) :
         else:
             for document in files: 
                 link_documents = document.select('div[class=doc-title] a')
-                further_research = link_documents[0].get('href')
+                further_research = link_documents[0].get('href') 
                 
-                document_director= link_documents[0].text
-                document_director = document_director.replace('/','.')
-                
-                document_director = os.path.join(acte,document_director)
-                os.mkdir(document_director)
-                
-                go_spider_scrapping(DOMAIN+further_research,document_director,link_documents[0].text.replace('/','.'))
+                go_spider_scrapping(DOMAIN+further_research,acte,link_documents[0].text.replace('/','.'))
 
 def scrape_schedule(DOMAIN):
     page=requests.get(DOMAIN) 
