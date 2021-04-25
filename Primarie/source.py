@@ -187,7 +187,7 @@ def getProgram(url):
     
 def getDriver():
     firefoxOptions = FirefoxOptions()
-    firefoxOptions.add_argument("--headless")
+    firefoxOptions.add_argument("-headless")
 
     firefoxPref = webdriver.FirefoxProfile()
     firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
