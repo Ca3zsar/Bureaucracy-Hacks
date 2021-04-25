@@ -7,9 +7,7 @@ import shutil # for deleting dirs
 
 import selenium
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options as FirefoxOptions 
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-
+from selenium.webdriver.chrome.options import Options
 import time
 
 director = f"{os.path.dirname(__file__)}/Content"
@@ -118,16 +116,12 @@ def generateSchedule(driver):
 
 
 def getDriver():
-    firefoxOptions = FirefoxOptions()
-    firefoxOptions.add_argument("-headless")
+    chromeOptions = Options()
+    chromeOptions.add_argument("--headless")    
+    chromeOptions.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 
-    firefoxPref = webdriver.FirefoxProfile()
-    firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
-    firefoxPref.set_preference("browser.download.dir",acte)
-    firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,executable_path=os.environ.get("GECKODRIVER_PATH"),firefox_profile=firefoxPref, firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
-    
-    return firefoxDriver
+    chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),options=chromeOptions)
+    return chromeDriver
 
 
 def main():
@@ -139,7 +133,6 @@ def main():
     generateSchedule(driver)
     generateHTMLS(driver)
     
-    driver.close()
     
     
 if __name__=="__main__":
