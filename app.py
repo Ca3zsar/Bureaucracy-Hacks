@@ -4,8 +4,10 @@ from central_script import refresh_info
 from rq import Queue
 from rq.job import Job
 from worker import conn
+import os
 
 app = Flask(__name__)
+DEBUG = False if 'DYNO' in os.environ else True
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
@@ -43,4 +45,4 @@ def index():
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(threaded=True, port=5000)
+    app.run(threaded=True, port=5000,debug=DEBUG)
