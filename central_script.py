@@ -21,24 +21,20 @@ def refresh_info():
     updated = []
     index = 0
     for module in modules:
-        try:
-            print(f"Executing module : {module.__name__}")
-            module.main()
-            
-            rootDir = os.path.join(moduleNames[index],'HTMLFiles')
-            files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
-            
-            updated.append(
-                {
-                    "name":moduleNames[index],
-                    "files":files
-                }
-            )
-            
-            index += 1
-        except:
-            updated.append({"error":f"Can't execute {module.__name__}"})
-            print(f"Can't execute module : {module.__name__}")
+        print(f"Executing module : {module.__name__}")
+        module.main()
+        
+        rootDir = os.path.join(moduleNames[index],'HTMLFiles')
+        files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
+        
+        updated.append(
+            {
+                "name":moduleNames[index],
+                "files":files
+            }
+        )
+        
+        index += 1
 
     return updated
 
