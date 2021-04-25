@@ -12,7 +12,7 @@ def refresh():
     q = Queue(connection=conn)
     job = q.enqueue_call(refresh_info,timeout=5000)
     
-    return f'<h2>Your request is being processed. Look for results at : https://check-diff.herokuapp.com/refresh-info/{job.get_id()}'
+    return f'<h2>Your request is being processed. Look for results <a href="https://check-diff.herokuapp.com/refresh-info/{job.get_id()}">here </a>'
 
 
 @app.route("/refresh-info/<job_key>", methods=['GET'])
