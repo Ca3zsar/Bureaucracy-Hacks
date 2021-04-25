@@ -11,9 +11,9 @@ DOMAIN = 'https://www.dasiasi.ro/'
 URL = 'https://www.dasiasi.ro/?page=lista&Nume=formulare&tp=lst&id=6&n='
 FileType = 'pdf' 
 
-director = f"{os.path.dirname(__file__)}\\Content"
-HTMLFiles = f"{os.path.dirname(__file__)}\\HTMLFiles"
-acte = f"{os.path.dirname(__file__)}\\Acte"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 def deletingFiles():
     if os.path.exists(acte):
@@ -35,7 +35,7 @@ def go_spider_scrapping(url,document_director, fileName):
     page = requests.get(url)
     soup = BeautifulSoup(page.content,'html.parser') 
     further_research = soup.find_all('div',class_='content-text')
-    path = f"{HTMLFiles}\\{fileName}.html"
+    path = f"{HTMLFiles}/{fileName}.html"
     
     f= open(path,'w+', encoding='utf-8') 
     f.write(str(further_research[0])) 
@@ -58,7 +58,7 @@ def go_spider_scrapping(url,document_director, fileName):
                         file.write(response.content)
                         file.close()
     if txt : 
-        path = f"{director}\\{fileName}.txt"
+        path = f"{director}/{fileName}.txt"
         f = open(path, "w+", encoding='utf-8')
         f.write(txt[0].text)
         f.close()
