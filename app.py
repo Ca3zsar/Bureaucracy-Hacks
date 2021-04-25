@@ -21,7 +21,7 @@ def getcurrIp():
 
         driver.get("https://icanhazip.com")
 
-        ipaddr = driver.page_source
+        ipaddr = driver.page_source#2
 
         driver.close()
         
