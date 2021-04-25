@@ -52,5 +52,11 @@
         [
             "Solicitarea se depune în termen de:\n 60 de zile lucrătoare de la finalizarea concediului de maternitate\n 60 de zile lucrătoare de la data naşterii copilului, în cazul persoanelor care nu îndeplinesc condițiile, conform legii, pentru acordarea concediului de maternitate și a indemnizației aferente\n 60 de zile lucrătoare de la data la care s-au aprobat ori, după caz, s-au instituit măsurile de protecție a copilului (tutela, plasamentul sau încredințare); În situaţia în cererea a fost depusă peste termenele prevăzute mai sus drepturile se stabilesc de la data depunerii cererii."
         ]
+    ],
+    "files" : [
+        "Notificare_date_caracter_personal_alocatie_de_stat",
+        "Adeverinta_model_2016"
+
     ]
+
 }
