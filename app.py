@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
     q = Queue(connection=conn)
-    result = q.enqueue(refresh_info,'https://check-diff.herokuapp.com/')
+    result = q.enqueue(refresh_info)
     
     # response = refresh_info()
 
