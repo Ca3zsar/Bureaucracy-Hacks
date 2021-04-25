@@ -79,9 +79,11 @@ def downloadHrefs(sufix, soup):
         
         baseName = os.path.basename(toDownload)
 
-        req = requests.get(toDownload, allow_redirects=True)
-        open(f"{acte}/{sufix}/{baseName}", 'wb').write(req.content)
-
+        try:
+            req = requests.get(toDownload, allow_redirects=True)
+            open(f"{acte}/{sufix}/{baseName}", 'wb').write(req.content)
+        except requests.ConnectionError:
+            pass
 
 
 def getResources():
