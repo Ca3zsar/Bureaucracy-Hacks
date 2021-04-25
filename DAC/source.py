@@ -10,7 +10,7 @@ sufixes = ["alocatii", "autoritate", "serviciul-social", "alte-servicii"]
 
 director = f"{os.path.dirname(__file__)}/Content"
 acte = f"{os.path.dirname(__file__)}/Acte"
-HTMLFiles = f"{os.path.dirname(__file__)}./HTMLFiles"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
 
 def deletingFiles():
     if os.path.exists(acte):
