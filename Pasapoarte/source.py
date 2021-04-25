@@ -119,7 +119,7 @@ def getDriver():
     chromeOptions = webdriver.ChromeOptions()
     chromeOptions.add_argument("--headless")    
     chromeOptions.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-
+    print(os.environ.get("CHROMEDRIVER_PATH"))
     chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),options=chromeOptions)
     return chromeDriver
 
