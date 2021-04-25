@@ -15,6 +15,20 @@ def import_modules():
     
     return modules
 
+def refresh_info():
+    pass
+
+def get_differences():
+    pass
+
+def get_sites():
+    pass
+
+def get_specific_diff(name):
+    pass
+
+def _url(path):
+    return 'https://check-diff.herokuapp.com' + path
 
 def main():
     modules = import_modules()
