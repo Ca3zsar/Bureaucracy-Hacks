@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
     q = Queue(connection=conn)
-    result = q.enqueue(refresh_info)
+    result = q.enqueue_call(refresh_info)
     
     # response = refresh_info()
 
