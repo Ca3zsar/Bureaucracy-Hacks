@@ -116,7 +116,7 @@ def generateSchedule(driver):
 
 
 def getDriver():
-    chromeOptions = Options()
+    chromeOptions = webdriver.ChromeOptions()
     chromeOptions.add_argument("--headless")    
     chromeOptions.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 
