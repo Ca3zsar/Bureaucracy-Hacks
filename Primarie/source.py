@@ -193,7 +193,8 @@ def getDriver():
     firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
     firefoxPref.set_preference("browser.download.dir",acte)
     firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-
+    firefoxPref.update_preferences()
+    
     firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref, executable_path=os.environ.get("GECKODRIVER_PATH"), firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
     firefoxDriver.get(urlPrimarie)
     
