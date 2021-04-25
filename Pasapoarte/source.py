@@ -8,6 +8,7 @@ import shutil # for deleting dirs
 import selenium
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions 
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 import time
 
@@ -124,7 +125,7 @@ def getDriver():
     firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
     firefoxPref.set_preference("browser.download.dir",acte)
     firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref,executable_path="/app/vendor/geckodriver/geckodriver")
+    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref,firefox_binary=os.getenv('FIREFOX_BIN'))
     
     return firefoxDriver
 
