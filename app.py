@@ -1,31 +1,15 @@
 # app.py
 from flask import Flask, request, jsonify
+from central_script import refresh_info
 app = Flask(__name__)
 
-@app.route('/getmsg/', methods=['GET'])
-def respond():
-    # Retrieve the name from url parameter
-    name = request.args.get("name", None)
+@app.route('/refresh-info/', methods=['GET'])
+def refresh():
+    response = refresh_info()
 
-    # For debugging
-    print(f"got name {name}")
-
-    response = {}
-
-    # Check if user sent a name at all
-    if not name:
-        response["ERROR"] = "no name found, please send a name."
-    # Check if the user entered a number not a name
-    elif str(name).isdigit():
-        response["ERROR"] = "name can't be numeric."
-    # Now the user entered a valid name
-    else:
-        response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
-
-    # Return the response in json format
     return jsonify(response)
 
-@app.route('/post/', methods=['POST'])
+@app.route('/get-differences/', methods=['POST'])
 def post_something():
     param = request.form.get('name')
     print(param)
@@ -40,6 +24,12 @@ def post_something():
         return jsonify({
             "ERROR": "no name found, please send a name."
         })
+
+@app.route('/get-sites/',methods=['GET'])
+def get_sites():
+    pass
+
+@app.route('/get-specific-diff',methods=['GET'])
 
 # A welcome message to test our server
 @app.route('/')
