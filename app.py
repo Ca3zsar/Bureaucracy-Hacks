@@ -13,7 +13,7 @@ def refresh():
     
     # response = refresh_info()
 
-    return jsonify({"name":"salut"})
+    return jsonify(result)
 
 @app.route('/get-differences/', methods=['POST'])
 def post_something():
