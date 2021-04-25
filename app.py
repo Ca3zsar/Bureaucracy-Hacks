@@ -1,37 +1,46 @@
-from flask import Flask, jsonify
-from selenium import webdriver
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary #We import this so we can specify the Firefox browser binary location
-import os
+# app.py
+from flask import Flask, request, jsonify
+from central_script import refresh_info
+from rq import Queue
+from rq.job import Job
+from worker import conn
 
 app = Flask(__name__)
-PORT = os.environ.get('PORT') or 3092
-DEBUG = False if 'DYNO' in os.environ else True
 
-FF_options = webdriver.FirefoxOptions()
-FF_profile = webdriver.FirefoxProfile()
-FF_options.add_argument("-headless")
-FF_profile.update_preferences()
+@app.route('/refresh-info/', methods=['GET'])
+def refresh():
+    q = Queue(connection=conn)
+    job = q.enqueue_call(refresh_info,timeout=5000)
+    
+    return f'<h2>Your request is being processed. Look for results <a href="https://check-diff.herokuapp.com/refresh-info/{job.get_id()}">here </a>'
 
 
-@app.route("/get")
-def getcurrIp():
-    try:
-        #Notice in the driver, we specify the executable path to the geckodriver
-        driver = webdriver.Firefox(options=FF_options, firefox_profile=FF_profile, executable_path=os.environ.get("GECKODRIVER_PATH"), firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
+@app.route("/refresh-info/<job_key>", methods=['GET'])
+def get_results(job_key):
 
-        driver.get("https://icanhazip.com")
+    job = Job.fetch(job_key, connection=conn)
 
-        ipaddr = driver.page_source#2
+    if job.is_finished:
+        return jsonify(job.result), 200
+    else:
+        return "Wait!", 202
 
-        driver.close()
-        
-        return jsonify({'status': 1, 'ip': ipaddr})
-    except Exception as e:
-        return jsonify({'status': 0, 'error': str(e)}), 500
+@app.route('/get-differences/', methods=['GET'])
+def post_something():
+    pass
 
+
+@app.route('/get-sites/',methods=['GET'])
+def get_sites():
+    pass
+
+@app.route('/get-specific-diff',methods=['GET'])
+
+# A welcome message to test our server
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
+def index():
+    return "<h1>Welcome to our server !!</h1>"
 
-if __name__ == "__main__":
-    app.run(port=PORT, debug=DEBUG)
+if __name__ == '__main__':
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
