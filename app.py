@@ -2,6 +2,7 @@
 from flask import Flask, request, jsonify
 from central_script import refresh_info
 from rq import Queue
+from rq.job import Job
 from worker import conn
 
 app = Flask(__name__)
@@ -9,27 +10,25 @@ app = Flask(__name__)
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
     q = Queue(connection=conn)
-    result = q.enqueue_call(refresh_info)
+    job = q.enqueue_call(refresh_info)
     
-    # response = refresh_info()
+    return f'<h2>Your request is being processed. Look for results at : https://check-diff.herokuapp.com/refresh-info/{job.get_id()}'
 
-    return jsonify(result)
 
-@app.route('/get-differences/', methods=['POST'])
-def post_something():
-    param = request.form.get('name')
-    print(param)
-    # You can add the test cases you made in the previous function, but in our case here you are just testing the POST functionality
-    if param:
-        return jsonify({
-            "Message": f"Welcome {name} to our awesome platform!!",
-            # Add this option to distinct the POST request
-            "METHOD" : "POST"
-        })
+@app.route("/refresh-info/<job_key>", methods=['GET'])
+def get_results(job_key):
+
+    job = Job.fetch(job_key, connection=conn)
+
+    if job.is_finished:
+        return jsonify(job.result), 200
     else:
-        return jsonify({
-            "ERROR": "no name found, please send a name."
-        })
+        return "Wait!", 202
+
+@app.route('/get-differences/', methods=['GET'])
+def post_something():
+    pass
+
 
 @app.route('/get-sites/',methods=['GET'])
 def get_sites():
