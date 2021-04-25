@@ -125,7 +125,7 @@ def getDriver():
     firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
     firefoxPref.set_preference("browser.download.dir",acte)
     firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref, firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")),executable_path=os.environ.get("GECKODRIVER_PATH"))
+    firefoxDriver = webdriver.Firefox(options=firefoxOptions,executable_path=os.environ.get("GECKODRIVER_PATH"),firefox_profile=firefoxPref, firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
     
     return firefoxDriver
 
@@ -138,6 +138,8 @@ def main():
 
     generateSchedule(driver)
     generateHTMLS(driver)
+    
+    driver.close()
     
     
 if __name__=="__main__":
