@@ -13,7 +13,7 @@ import re
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from webdriver_manager.firefox import GeckoDriverManager
+
 
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
 urlOrar = "http://www.primaria-iasi.ro/portal-iasi/pmi/meniu-pmi/54/program-cu-publicul"
@@ -193,7 +193,7 @@ def getDriver():
     firefoxPref.set_preference("browser.download.dir",acte)
     firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
 
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref,executable_path=GeckoDriverManager().install())
+    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
     firefoxDriver.get(urlPrimarie)
     
     return firefoxDriver
