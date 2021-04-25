@@ -1,10 +1,16 @@
 # app.py
 from flask import Flask, request, jsonify
 from central_script import refresh_info
+from rq import Queue
+from worker import conn
+
 app = Flask(__name__)
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
+    q = Queue(connection=conn)
+    result = q.enqueue(refresh_info,'https://check-diff.herokuapp.com/')
+    
     response = refresh_info()
 
     return jsonify(response)
