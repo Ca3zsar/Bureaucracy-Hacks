@@ -22,12 +22,12 @@ download_links = [
 'http://www.cjasis.ro/W_CAS_IS/cas/fsm/dm/formulare_utile/O%201081.2018%20-%20Preturi%20Dispozitive%20Medicale.pdf',
 'http://www.cjasis.ro/W_CAS_IS/cas/fsm/dm/formulare_utile/furnizori%20%20DM%20%20-%2001-08-2019%20.xls',
 'http://www.hih.ro/W_CAS_IS/cas/programare_spitale/Informatii%20privind%20programarea%20la%20spitalele%20publice%20si%20private%20din%20jude%C8%9Bul%20Ia%C8%99i.xls',
-'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/cerere_card_european.doc',
-'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/adeverinta_salariat_CEASS.doc',
-'www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/CEAS/model_certificat_provizori_inlocuire_CEAS.PDF',
-'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2020/cerere_card_european_duplicat.pdf',
-'www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/2020/MODEL_CERERE_LISTA_SERVICII.doc',
-'www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Formulare/CERERE_ELIBERARE_ADEVERINTA_REFUZ_CARD.PDF',
+'http://www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/cerere_card_european.doc',
+'http://www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2018/adeverinta_salariat_CEASS.doc',
+'http://www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/CEAS/model_certificat_provizori_inlocuire_CEAS.PDF',
+'http://www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Anunturi/2020/cerere_card_european_duplicat.pdf',
+'http://www.cnas.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/2020/MODEL_CERERE_LISTA_SERVICII.doc',
+'http://www.casan.ro/hih//theme/cnas/js/ckeditor/filemanager/userfiles/Formulare/CERERE_ELIBERARE_ADEVERINTA_REFUZ_CARD.PDF',
 ]
 
 director = f"{os.path.dirname(__file__)}/Content"
