@@ -11,9 +11,9 @@ def refresh():
     q = Queue(connection=conn)
     result = q.enqueue(refresh_info,'https://check-diff.herokuapp.com/')
     
-    response = refresh_info()
+    # response = refresh_info()
 
-    return jsonify(response)
+    return jsonify
 
 @app.route('/get-differences/', methods=['POST'])
 def post_something():
