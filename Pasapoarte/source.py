@@ -120,12 +120,13 @@ def generateSchedule(driver):
 def getDriver():
     firefoxOptions = FirefoxOptions()
     firefoxOptions.add_argument("--headless")
+    firefoxOptions.binary_location(os.getenv('FIREFOX_BIN'))
 
     firefoxPref = webdriver.FirefoxProfile()
     firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
     firefoxPref.set_preference("browser.download.dir",acte)
     firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref,firefox_binary=os.getenv('FIREFOX_BIN'))
+    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref)
     
     return firefoxDriver
 
