@@ -37,11 +37,14 @@ def makeDirectors():
     os.mkdir(director)
     os.mkdir(acte)
 
-def changeEntriesNumber(firefoxDriver):
-    choiceButton = firefoxDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
+def changeEntriesNumber(chromeDriver):
+    # choiceButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
+    
+    choiceButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select")
     choiceButton.click()
     
-    entriesButton = firefoxDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
+    # entriesButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
+    choiceButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
     entriesButton.click()
     
     page = requests.get(urlPrimarie)
@@ -53,7 +56,7 @@ def changeEntriesNumber(firefoxDriver):
         file.write(programClass.prettify())
     
     
-    downloadButtons = firefoxDriver.find_elements_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a")
+    downloadButtons = chromeDriver.find_elements_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a")
     
     urls = []
                                                             
@@ -199,11 +202,11 @@ def main():
     deletingFiles()
     makeDirectors()
     
-    firefoxDriver = getDriver()
+    chromeDriver = getDriver()
     
-    downloadFiles(changeEntriesNumber(firefoxDriver))
+    downloadFiles(changeEntriesNumber(chromeDriver))
     getProgram(urlOrar)
-    firefoxDriver.quit()
+    chromeDriver.quit()
     
 if __name__=="__main__":
     main()
