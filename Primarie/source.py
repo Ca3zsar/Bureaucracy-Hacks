@@ -44,11 +44,13 @@ def changeEntriesNumber(chromeDriver):
     # choiceButton = chromeDriver.find_element_by_xpath('//*[@id="fisierePMI_length"]/label/select')
     # choiceButton = chromeDriver.find_elements_by_name("fisierePMI_length")
     # choiceButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select")
-    choiceButton.click()
+    # choiceButton.click()
+    chromeDriver.execute_script("arguments[0].click()",choiceButton)
     
     entriesButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
     # entriesButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
-    entriesButton.click()
+    # entriesButton.click()
+    chromeDriver.execute_script("argument[0].click()",entriesButton)
     
     page = requests.get(urlPrimarie)
     soup = BeautifulSoup(page.content,'html.parser', from_encoding="utf-8")
