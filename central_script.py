@@ -21,8 +21,6 @@ def import_modules():
     return modules
 
 def executeWithThread(modules):
-   vector = [] 
-
 
    q = multiprocessing.Manager().JoinableQueue()
    pool = multiprocessing.Pool(len(moduleNames)) 
@@ -36,13 +34,6 @@ def executeWithThread(modules):
    pool.join()
     
 
-    #    t1 =  threading.Thread(target = module.main,args=()) 
-    #    t1.start() 
-    #    vector.append(t1) 
-
-   for index in range(0,len(moduleNames)): 
-       vector[index].join() 
-      
 
 def refresh_info():
     modules = import_modules()
