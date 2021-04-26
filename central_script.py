@@ -20,7 +20,7 @@ def refresh_info():
     
     updated = []
     index = 0
-    for module in modules[-3:]:
+    for module in modules[:-1]:
         print(f"Executing module : {module.__name__}")
         module.main()
         
