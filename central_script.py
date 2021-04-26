@@ -25,7 +25,6 @@ def executeWithThread(modules):
    q = multiprocessing.Manager().JoinableQueue()
    pool = multiprocessing.Pool(len(moduleNames)) 
 
-   pool.apply_async(module.main)
 
    for module in modules:
       pool.apply_async( module.main ) 
