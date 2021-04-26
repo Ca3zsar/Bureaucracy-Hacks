@@ -38,14 +38,16 @@ def makeDirectors():
     os.mkdir(acte)
 
 def changeEntriesNumber(chromeDriver):
-    # choiceButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
+    chromeDriver.get("http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare")
+    
+    choiceButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select");
     # choiceButton = chromeDriver.find_element_by_xpath('//*[@id="fisierePMI_length"]/label/select')
-    choiceButton = chromeDriver.find_elements_by_name("fisierePMI_length")
+    # choiceButton = chromeDriver.find_elements_by_name("fisierePMI_length")
     # choiceButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select")
     choiceButton[0].click()
     
-    # entriesButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
-    entriesButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
+    entriesButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
+    # entriesButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
     entriesButton.click()
     
     page = requests.get(urlPrimarie)
