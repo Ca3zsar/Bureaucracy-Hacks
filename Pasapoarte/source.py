@@ -116,11 +116,14 @@ def generateSchedule(driver):
 
 
 def getDriver():
-    chromeOptions = webdriver.ChromeOptions()
-    chromeOptions.add_argument("--headless")    
+    chromeOptions = Options()
     chromeOptions.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    chromeOptions.add_argument("--headless")   
+    chromeOptions.add_argument('--disable-gpu')
+    chromeOptions.add_argument('--no-sandbox')
+    
     print(os.environ.get("CHROMEDRIVER_PATH"))
-    chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),options=chromeOptions)
+    chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),chrome_options=chromeOptions)
     return chromeDriver
 
 
