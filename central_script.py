@@ -27,6 +27,7 @@ def executeWithThread(modules):
 
 
    for module in modules:
+      print(f"Executing module : {module.__name__}")
       pool.apply_async( module.main ) 
      
    pool.close()
