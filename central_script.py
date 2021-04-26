@@ -3,6 +3,10 @@ import check_diff
 import os
 import threading
 
+import multiprocessing
+from queue import Queue
+
+
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie"]
 
@@ -16,14 +20,25 @@ def import_modules():
     
     return modules
 
-def executeWithThread():
+def executeWithThread(modules):
    vector = [] 
-   modules = import_modules()
-   
+
+
+   q = multiprocessing.Manager().JoinableQueue()
+   pool = multiprocessing.Pool(len(moduleNames)) 
+
+   pool.apply_async(module.main)
+
    for module in modules:
-       t1 =  threading.Thread(target = module.main,args=()) 
-       t1.start() 
-       vector.append(t1) 
+      pool.apply_async( module.main ) 
+     
+   pool.close()
+   pool.join()
+    
+
+    #    t1 =  threading.Thread(target = module.main,args=()) 
+    #    t1.start() 
+    #    vector.append(t1) 
 
    for index in range(0,len(moduleNames)): 
        vector[index].join() 
@@ -34,7 +49,7 @@ def refresh_info():
     
     updated = []
     index = 0
-    executeWithThread() 
+    executeWithThread(modules) 
     for index in range(1,len(moduleNames)): 
         rootDir = os.path.join(moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
@@ -49,6 +64,8 @@ def refresh_info():
         index += 1
 
     return updated
+
+
 
 
 # def get_differences():
