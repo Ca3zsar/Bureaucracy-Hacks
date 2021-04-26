@@ -1,6 +1,7 @@
 import importlib
 import check_diff
 import os
+import threading
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie"]
@@ -22,7 +23,8 @@ def refresh_info():
     index = 0
     for module in modules:
         print(f"Executing module : {module.__name__}")
-        module.main()
+        thread = threading.Thread(target = module.main,args=())
+        thread.start()
         
         rootDir = os.path.join(moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
