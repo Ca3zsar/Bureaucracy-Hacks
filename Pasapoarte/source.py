@@ -61,10 +61,9 @@ def generateHTMLS(driver):
         if res == None:
             continue
         
-        subDriver = getDriver()
-        subDriver.get(subUrl)
+        driver.get(subUrl)
         
-        source  = subDriver.page_source
+        source  = driver.page_source
         subSoup = BeautifulSoup(source, "lxml")
 
         title = getTextFromTag(line)
@@ -86,9 +85,6 @@ def generateHTMLS(driver):
             fillContent(getTextFromTag(section1[index]), pathTXT)
             fillContent(getTextFromTag(section2[index]), pathTXT)
 
-        subDriver.close()
-
-    driver.quit()
 
 def generateSchedule(driver):
     URL = "https://pasapoarte.mai.gov.ro/serviciul-public-comunitar-de-pasapoarte-iasi/"
@@ -122,7 +118,6 @@ def getDriver():
     chromeOptions.add_argument('--disable-gpu')
     chromeOptions.add_argument('--no-sandbox')
     
-    print(os.environ.get("CHROMEDRIVER_PATH"))
     chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),chrome_options=chromeOptions)
     return chromeDriver
 
@@ -136,7 +131,7 @@ def main():
     generateSchedule(driver)
     generateHTMLS(driver)
     
-    
+    driver.quit()
     
 if __name__=="__main__":
     main()
