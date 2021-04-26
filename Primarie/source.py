@@ -44,7 +44,7 @@ def changeEntriesNumber(chromeDriver):
     choiceButton.click()
     
     # entriesButton = chromeDriver.find_element_by_xpath("/html/body/div[2]/div/div[1]/div/div[3]/div/div[2]/div[1]/div[1]/div/label/select/option[4]")
-    choiceButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
+    entriesButton = chromeDriver.find_element_by_css_selector("#fisierePMI_length > label > select > option:nth-child(4)")
     entriesButton.click()
     
     page = requests.get(urlPrimarie)
