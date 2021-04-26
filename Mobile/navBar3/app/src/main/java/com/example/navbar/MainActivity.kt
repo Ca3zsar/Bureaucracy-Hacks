@@ -1,20 +1,16 @@
 package com.example.navbar
 
-import android.app.SearchManager
-import android.content.Context
 import android.os.Bundle
 import android.view.Menu
-import android.widget.Toast
-import com.google.android.material.navigation.NavigationView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.SearchView
-import androidx.appcompat.widget.Toolbar
+import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.nav_home, R.id.nav_traseu, R.id.nav_userProfile, R.id.nav_contact, R.id.nav_feedback, R.id.nav_login, R.id.nav_register), drawerLayout)
+            R.id.nav_home, R.id.nav_search, R.id.nav_traseu, R.id.nav_userProfile, R.id.nav_contact, R.id.nav_feedback, R.id.nav_login, R.id.nav_register), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
@@ -46,16 +42,20 @@ class MainActivity : AppCompatActivity() {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
 
+        /**
         val manager = getSystemService(Context.SEARCH_SERVICE) as SearchManager
-        val searchItem = menu.findItem(R.id.searchButton)
+        val searchItem = menu.findItem(R.id.searchView)
         val searchView = searchItem?.actionView as SearchView
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
+                /**
                 searchView.clearFocus()
                 searchView.setQuery("", false)
                 searchItem.collapseActionView()
                 Toast.makeText(this@MainActivity, "Looking for $query", Toast.LENGTH_LONG).show()
+                */
+
                 return true
             }
 
@@ -64,6 +64,8 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
         })
+        */
+
 
         return true
     }

@@ -11,6 +11,11 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
     <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.navbar.ui.search.searchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
         android:id="@+id/nav_traseu"
         android:name="com.example.navbar.ui.generareTraseu.TraseuFragment"
         android:label="Traseu"

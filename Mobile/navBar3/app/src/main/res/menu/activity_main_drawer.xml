@@ -9,6 +9,10 @@
             android:icon="@android:drawable/ic_menu_myplaces"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Lista Institutii" />
+        <item
             android:id="@+id/nav_traseu"
             android:icon="@android:drawable/ic_dialog_map"
             android:title="Generare Traseu" />
