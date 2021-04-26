@@ -16,16 +16,26 @@ def import_modules():
     
     return modules
 
+def executeWithThread():
+   vector = [] 
+   modules = import_modules()
+   
+   for module in modules:
+       t1 =  threading.Thread(target = module.main,args=()) 
+       t1.start() 
+       vector.append(t1) 
+
+   for index in range(0,len(moduleNames)): 
+       vector[index].join() 
+      
+
 def refresh_info():
     modules = import_modules()
     
     updated = []
     index = 0
-    for module in modules:
-        print(f"Executing module : {module.__name__}")
-        thread = threading.Thread(target = module.main,args=())
-        thread.start()
-        
+    executeWithThread() 
+    for index in range(1,len(moduleNames)): 
         rootDir = os.path.join(moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
@@ -39,6 +49,7 @@ def refresh_info():
         index += 1
 
     return updated
+
 
 # def get_differences():
 #     pass
