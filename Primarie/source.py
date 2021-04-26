@@ -12,8 +12,7 @@ import os
 import re
 
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.chrome.options import Options
 
 
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
@@ -186,19 +185,15 @@ def getProgram(url):
     file.close()
     
 def getDriver():
-    firefoxOptions = FirefoxOptions()
-    firefoxOptions.add_argument("-headless")
-
-    firefoxPref = webdriver.FirefoxProfile()
-    firefoxPref.set_preference("browser.download.manager.showWhenStarting", False)
-    firefoxPref.set_preference("browser.download.dir",acte)
-    firefoxPref.set_preference("browser.helperApps.neverAsk.saveToDisk", "attachment/pdf")
-    firefoxPref.update_preferences()
+    chromeOptions = Options()
+    chromeOptions.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    chromeOptions.add_argument("--headless")   
+    chromeOptions.add_argument('--disable-gpu')
+    chromeOptions.add_argument('--no-sandbox')
+    chromeOptions.add_argument('--disable-dev-shm-usage')
     
-    firefoxDriver = webdriver.Firefox(options=firefoxOptions,firefox_profile=firefoxPref, executable_path=os.environ.get("GECKODRIVER_PATH"), firefox_binary=FirefoxBinary(os.environ.get("FIREFOX_BIN")))
-    firefoxDriver.get(urlPrimarie)
-    
-    return firefoxDriver
+    chromeDriver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),chrome_options=chromeOptions)
+    return chromeDriver
 
 def main():
     deletingFiles()
