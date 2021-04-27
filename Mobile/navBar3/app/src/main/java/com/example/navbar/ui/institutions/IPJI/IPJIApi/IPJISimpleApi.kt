@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface IPJISimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Inspectoratul de Politie Judetean Iasi")
     suspend fun getPost(): Response<IPJIPost>
 }

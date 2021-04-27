@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface CjpiSimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Casa Judeteana de Pensii Iasi")
     suspend fun getPost(): Response<CjpiPost>
 }

@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface AnafSimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/ANAF")
     suspend fun getPost(): Response<AnafPost>
 }

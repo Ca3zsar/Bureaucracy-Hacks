@@ -24,10 +24,14 @@ class CJASI: AppCompatActivity() {
         viewModel.getPost()
         viewModel.myResponse.observe(this, Observer { response ->
             if (response.isSuccessful) {
-                Log.d("Response", response.body()?.userId.toString())
-                Log.d("Response", response.body()?.id.toString())
+                val informatii : TextView = findViewById(R.id.informatiiGenerale)
+                informatii.setText("Informatii Generale si de Contact:\n")
+                informatii.append(response.body()?.address.toString())
+                Log.d("Response", response.body()?.address.toString())
+                Log.d("Response", response.body()?.phone.toString())
+                Log.d("Response", response.body()?.name.toString())
                 Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
-                Log.d("Response", response.body()?.body.toString())
+                Log.d("Response", response.body()?.id.toString())
             } else {
                 Log.d("Response", response.errorBody().toString())
                 Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()

@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface DGpPSimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Directia Generala pentru Pasapoarte")
     suspend fun getPost(): Response<DGpPPost>
 }

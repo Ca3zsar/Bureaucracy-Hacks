@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface DasiSimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Directia de Asistenta Sociala Iasi")
     suspend fun getPost(): Response<DasiPost>
 }

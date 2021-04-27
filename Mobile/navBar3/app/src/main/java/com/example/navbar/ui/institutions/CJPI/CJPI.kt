@@ -24,10 +24,11 @@ class CJPI: AppCompatActivity() {
         viewModel.getPost()
         viewModel.myResponse.observe(this, Observer { response ->
             if (response.isSuccessful) {
-                Log.d("Response", response.body()?.userId.toString())
-                Log.d("Response", response.body()?.id.toString())
+                Log.d("Response", response.body()?.address.toString())
+                Log.d("Response", response.body()?.phone.toString())
+                Log.d("Response", response.body()?.name.toString())
                 Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
-                Log.d("Response", response.body()?.body.toString())
+                Log.d("Response", response.body()?.id.toString())
             } else {
                 Log.d("Response", response.errorBody().toString())
                 Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()

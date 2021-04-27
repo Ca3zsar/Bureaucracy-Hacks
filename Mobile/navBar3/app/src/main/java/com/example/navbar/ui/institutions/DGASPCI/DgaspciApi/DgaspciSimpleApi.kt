@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface DgaspciSimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Directia Generala de Asistenta Sociala si Protectia Copilului Iasi")
     suspend fun getPost(): Response<DgaspciPost>
 }

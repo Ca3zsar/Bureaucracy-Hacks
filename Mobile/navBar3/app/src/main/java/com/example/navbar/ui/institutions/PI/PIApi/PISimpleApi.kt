@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface PISimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Primaria Iasi")
     suspend fun getPost(): Response<PIPost>
 }

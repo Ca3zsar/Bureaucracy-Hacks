@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface DLEPISimpleApi {
 
-    @GET("posts/1")
+    @GET("https://bureaucracyhackshostat.herokuapp.com/user/institution/Directia Locala pentru Evidenta Persoanelor Iasi")
     suspend fun getPost(): Response<DLEPIPost>
 }
