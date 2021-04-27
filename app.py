@@ -27,7 +27,7 @@ def refresh():
     return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
 
 
-@app.route('/refresh-forced', methods=['GET'])
+@app.route('/refresh-forced/', methods=['GET'])
 def refresh_forced():
     q = Queue(connection=conn)
     job = q.enqueue_call(refresh_info, timeout=5000)
