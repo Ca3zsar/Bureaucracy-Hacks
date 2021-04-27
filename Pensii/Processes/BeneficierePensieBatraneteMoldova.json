@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Beneficiere pensie de batranete in Republica Moldova",
+	"cases": ["Pentru beneficierea pensiei de batranete in Republica Moldova"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere de pensie de batranete in Republica Moldova"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "form_ROMD202" ]
+}

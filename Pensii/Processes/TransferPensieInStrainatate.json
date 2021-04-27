@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Transfer in strainatate al drepturilor cuvenite in sistemul public de pensii",
+	"cases": ["Pentru transferarea in strainatate a drepturilor cuvenite in sistemul public de pensii"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Declaratie de transfer in strainatate"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "form_dtr" ]
+}

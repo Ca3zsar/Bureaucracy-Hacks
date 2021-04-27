@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Acordare indemnizatie prevazute de legea nr. 109/2005",
+	"cases": ["Pentru acordarea indemnizatiei prevazute de legea nr. 109/2005"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere acordare indemnizatie legea nr. 109/2005"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerind_lg_109_2005" ]
+}

@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Acordare pensie urmas in alte tari",
+	"cases": ["Pentru acordarea pensiei de urmas in alte tari"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere pensie urmas in alte tari"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "form_RO203" ]
+}

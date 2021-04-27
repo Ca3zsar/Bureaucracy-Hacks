@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Stabilire pensie de boala profesionala si de invaliditate privind statutul judecatorilor si procurorilor",
+	"cases": ["Pentru stabilirea pensiei de boala profesionala si de invaliditate privind statutul judecatorilor si procurorilor"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere de stabilire pensie de boala"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerpinv_lg_303_2004" ]
+}

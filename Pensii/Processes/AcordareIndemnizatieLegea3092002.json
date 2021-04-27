@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Acordare indemnizatie prevazute de legea nr. 309/2002",
+	"cases": ["Pentru acordarea indemnizatiei prevazute de legea nr. 309/2002"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere acordare indemnizatie legea nr. 309/2002"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerind_lg_309_2002" ]
+}

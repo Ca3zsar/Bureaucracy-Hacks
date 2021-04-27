@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Determinarea statutului de sedere Republica Moldova",
+	"cases": ["Pentru determinarea statutului de sedere Republica Moldova"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Declaratie de sedere Republica Moldova"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "form_dls" ]
+}

@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Expertiza medicala a capacitatii de munca",
+	"cases": ["Pentru expertizarea medicala a capacitatii de munca"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere expertiza medicala"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "Anexa10" ]
+}

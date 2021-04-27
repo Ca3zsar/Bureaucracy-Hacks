@@ -1,0 +1,10 @@
+{
+	"institution": "Casa Judeteana de Pensii Iasi",
+	"process": "Stabilire/recalculare pensie de serviciu privind organizarea si functionarea Avocatului Poporului",
+	"cases": ["Pentru stabilirea/recalcularea pensiei de serviciu privind organizarea si functionarea Avocatului Poporului"],
+	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
+	"forms": [["Cerere de stabilire/recalculare pensie Avocatului Poporului"]],
+	"necessary": [[[""]]],
+	"generealInfo": [[""]],
+	"files": [ "cerps_lg_35_1997" ]
+}
