@@ -3,7 +3,7 @@
   "process": "Voucher persoana cu dizabilitati",
   "cases": ["Pentru voucher persoana cu dizabilitati"],
   "departaments": [
-    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+    "Departamentul Asistenta Socială Persoane Adulte","Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
   "forms": [[" "]],
   "necessary": [
