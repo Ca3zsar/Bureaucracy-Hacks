@@ -31,10 +31,11 @@ def refresh():
 
 @app.route('/refresh-forced/', methods=['GET'])
 def refresh_forced():
-    global LOADING_DATA
+    global LOADING_DATA, LOADED_DATA,DATA_LINK
     if LOADING_DATA == 1:
       q = Queue(connection=conn)
       job = q.enqueue_call(refresh_info, timeout=5000)
+      LOADING_DATA = 1
       LOADED_DATA = 1
       DATA_LINK = job.get_id()
 
