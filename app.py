@@ -57,6 +57,7 @@ def get_files():
     files = get_files_list()
   else:
     refresh()
+    files = get_files_list()
   
   return jsonify(files), 200
 
