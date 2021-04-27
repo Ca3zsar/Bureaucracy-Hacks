@@ -12,16 +12,18 @@ app = Flask(__name__)
 DEBUG = False if 'DYNO' in os.environ else True
 
 LOADED_DATA = 0
+LOADING_DATA = 0
 DATA_LINK = ''
 
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
-    global LOADED_DATA, DATA_LINK
+    global LOADED_DATA, DATA_LINK, LOADING_DATA
     if not LOADED_DATA:
         q = Queue(connection=conn)
         job = q.enqueue_call(refresh_info, timeout=5000)
         LOADED_DATA = 1
+        LOADING_DATA = 1
         DATA_LINK = job.get_id()
 
     return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
@@ -29,20 +31,23 @@ def refresh():
 
 @app.route('/refresh-forced/', methods=['GET'])
 def refresh_forced():
-    q = Queue(connection=conn)
-    job = q.enqueue_call(refresh_info, timeout=5000)
-    LOADED_DATA = 1
-    DATA_LINK = job.get_id()
+    global LOADING_DATA
+    if LOADING_DATA == 1:
+      q = Queue(connection=conn)
+      job = q.enqueue_call(refresh_info, timeout=5000)
+      LOADED_DATA = 1
+      DATA_LINK = job.get_id()
 
     return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
 
 
 @app.route("/refresh-info/<job_key>", methods=['GET'])
 def get_results(job_key):
-
+    global LOADED_DATA
     job = Job.fetch(job_key, connection=conn)
 
     if job.is_finished:
+        LOADED_DATA = 0
         return jsonify(job.result), 200
     else:
         return "Wait!", 202
