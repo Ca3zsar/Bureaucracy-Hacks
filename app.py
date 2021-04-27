@@ -20,13 +20,14 @@ def refresh(forced):
     if forced=='forced':
       q = Queue(connection=conn)
       job = q.enqueue_call(refresh_info,timeout=5000)
+      DATA_LINK = job.get_id()
     else:
       if not LOADED_DATA:
         q = Queue(connection=conn)
         job = q.enqueue_call(refresh_info,timeout=5000)
-        
-    LOADED_DATA = 1
-    DATA_LINK = job.get_id()
+        LOADED_DATA = 1
+        DATA_LINK = job.get_id()
+   
     return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}",code=202)
 
 
