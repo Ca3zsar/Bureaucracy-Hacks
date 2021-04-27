@@ -6,12 +6,12 @@ server:
 
 spring:
   datasource:
-    password: gabriela
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-#    password: e7c74e0a97fcc38e5b3a95ed6278b2f094bfe941599fa06613e388c16a1d2afe
-#    url: jdbc:postgresql://ec2-34-254-69-72.eu-west-1.compute.amazonaws.com:5432/dfb0t4ti46rhku
-#    username: qyiecaxtovdnrt
+#    password: gabriela
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+    password: e7c74e0a97fcc38e5b3a95ed6278b2f094bfe941599fa06613e388c16a1d2afe
+    url: jdbc:postgresql://ec2-34-254-69-72.eu-west-1.compute.amazonaws.com:5432/dfb0t4ti46rhku
+    username: qyiecaxtovdnrt
 
   mail:
     host: smtp.gmail.com

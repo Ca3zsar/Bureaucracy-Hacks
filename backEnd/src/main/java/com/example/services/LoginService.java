@@ -1,11 +1,15 @@
 package com.example.services;
 
+import com.example.models.Institution;
 import com.example.requests.LoginRequest;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @AllArgsConstructor
@@ -25,6 +29,16 @@ public class LoginService {
                 juser.put("username", userService.loadUserByUsername(loginRequest.getEmail()).getUsername());
                 juser.put("name", userService.getUserInfo(loginRequest.getEmail()).getName() + " " + userService.getUserInfo(loginRequest.getEmail()).getSurname());
                 juser.put("is_admin", userService.getUserInfo(loginRequest.getEmail()).getIsAdmin());
+                System.out.println(userService.getUserInfo(loginRequest.getEmail()).getInstitutions());
+                List<Institution> institutions = userService.getUserInfo(loginRequest.getEmail()).getInstitutions();
+                JSONArray jsonArray = new JSONArray();
+                for (Institution institution : institutions) {
+                    JSONObject jsonObject = new JSONObject();
+                    jsonObject.put("name", institution.getName());
+                    jsonObject.put("id", institution.getId());
+                    jsonArray.put(jsonObject);
+                }
+                juser.put("institutions", jsonArray);
                 jo.put("message", "You are logged in");
                 jo.put("user", juser);
 

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class DepartmentController {
     DepartmentService departmentService;
 
-    @GetMapping(path = "departmentslist")
+    @PostMapping(path = "departmentslist")
     public String getDepartmentsList(@RequestBody DepartmentRequest departmentRequest){
         return departmentService.getDepartmentsList(departmentRequest);
     }

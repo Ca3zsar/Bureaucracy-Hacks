@@ -11,6 +11,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 @Entity
 @Setter
@@ -22,7 +23,7 @@ public class User implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "users_registration_id_seq")
-    private Integer registration_id;
+    private Integer registrationId;
 
     @Column(name = "username")
     private String username;
@@ -45,6 +46,11 @@ public class User implements UserDetails {
     @Column(name = "is_enabled")
     private boolean isEnabled = false;
 
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+//    @JoinColumn(name = "id_institution", referencedColumnName = "id_institution", table = "institution_admins")
+    @JoinTable(name = "institution_admins", joinColumns = {@JoinColumn(name = "id_user")},
+            inverseJoinColumns = {@JoinColumn(name = "id_institution")})
+    List<Institution> institutions;
 
     public User(String username, String hashPassword, String name, String surname, String email) {
         this.username = username;

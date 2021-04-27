@@ -25,4 +25,14 @@ public class Comment {
     private String comment;
     @Column(name="bureaucratic_process")
     private String process;
+    @Column(name="q_1")
+    private Boolean q1;
+    @Column(name="q_2")
+    private Integer q2;
+    @Column(name="q_3")
+    private String q3;
+    @Column(name="q_4")
+    private Integer q4;
+    @Column(name="show")
+    private Boolean show;
 }

@@ -4,11 +4,16 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.TypeDefs;
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import javax.persistence.*;
 
@@ -21,6 +26,9 @@ import javax.persistence.*;
 @JsonSerialize
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 @Table(name = "departments", schema = "public")
+@TypeDefs({
+        @TypeDef(name = "json", typeClass = JsonBinaryType.class)
+})
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "departments_id_department_seq")
@@ -32,7 +40,8 @@ public class Department {
     private String phone;
     @Column(name = "email")
     private String email;
-    @Column(name = "program")
+    @Column(name = "program", columnDefinition="json")
+    @Type(type = "json")
     private String program;
     @OneToOne
     @JoinColumn(nullable = false, name = "id_institution")
@@ -43,5 +52,13 @@ public class Department {
         this.phone = phone;
         this.email = email;
         this.program = program;
+    }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "name='" + name + '\'' +
+                ", institution=" + institution +
+                '}';
     }
 }

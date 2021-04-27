@@ -1,28 +1,114 @@
 package com.example.controllers;
 
+import com.example.models.*;
+import com.example.repositories.*;
 import com.example.requests.CommentRequest;
 import com.example.requests.ReviewRequest;
+import com.example.services.BureaucraticProcessService;
 import com.example.services.CommentService;
 import com.example.services.ReviewService;
 import lombok.AllArgsConstructor;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(path = "/user", method = {RequestMethod.POST, RequestMethod.GET})
 @AllArgsConstructor
 public class ClientRequestController {
+    private BureaucraticProcessService bureaucraticProcessService;
     private ReviewService reviewService;
     private CommentService commentService;
+    private CommentRepository commentRepository;
+    private BureaucraticProcessRepository bureaucraticProcessRepository;
+    private InstitutionsRepository institutionsRepository;
+    private DepartmentRepository departmentRepository;
+    private ReviewRepository reviewRepository;
+
     @RequestMapping(path = "/contact", method = {RequestMethod.POST, RequestMethod.GET})
-//    @PostMapping(path = "contact")
     public String giveReview(@RequestBody ReviewRequest request) {
         return reviewService.giveReview(request);
     }
+
     @RequestMapping(path = "/{process}/feedbacks", method = {RequestMethod.POST, RequestMethod.GET})
-//    @PostMapping(path = "contact")
     public String giveComment(@PathVariable("process") String process, @RequestBody CommentRequest request) {
-//        process = request.getProcess();
-        System.out.println(process);
         return commentService.giveComment(process, request);
+    }
+
+    @RequestMapping(path = "/{process}/viewfeedbacks", method = {RequestMethod.POST, RequestMethod.GET})
+    public String viewFeedbacks(@PathVariable("process") String process) {
+        JSONArray jsonArray = new JSONArray();
+        JSONObject response = new JSONObject();
+        for (Comment comment : commentRepository.findAll(process)) {
+            JSONObject jsonObject = new JSONObject();
+                jsonObject.put("id", comment.getId());
+                jsonObject.put("comment", comment.getComment());
+                jsonObject.put("username", comment.getUser().getUsername());
+                jsonObject.put("show", comment.getShow());
+                jsonArray.put(jsonObject);
+        }
+        response.put("process", process);
+        response.put("comments", jsonArray);
+        return response.toString();
+    }
+
+    @RequestMapping(path = "/viewreviews", method = {RequestMethod.POST, RequestMethod.GET})
+    public String viewReviews() {
+        JSONArray jsonArray = new JSONArray();
+        JSONObject response = new JSONObject();
+        for (Review review : reviewRepository.getAllReviews()) {
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("id", review.getIdFeedback());
+            jsonObject.put("comment", review.getComment());
+            jsonObject.put("rating", review.getRating());
+            jsonObject.put("username", review.getUser().getUsername());
+            jsonArray.put(jsonObject);
+        }
+        response.put("reviews", jsonArray);
+        return response.toString();
+    }
+
+    @RequestMapping(path = "/process/{process}", method = {RequestMethod.POST, RequestMethod.GET})
+    public String getProcessInformation(@PathVariable("process") String process){
+        JSONObject response = new JSONObject();
+        BureaucraticProcess bureaucraticProcess = bureaucraticProcessRepository.findByName(process).get();
+        response.put("process", process);
+        response.put("institution", institutionsRepository.findById(bureaucraticProcess.getInstitution()).get().getName());
+        response.put("id", bureaucraticProcess.getId());
+        JSONObject usefulInformation = new JSONObject(bureaucraticProcess.getUsefulInformation());
+        response.put("departaments", usefulInformation.getJSONArray("departaments"));
+        response.put("cases", usefulInformation.getJSONArray("cases"));
+        response.put("forms", usefulInformation.getJSONArray("forms"));
+        response.put("necessary", usefulInformation.getJSONArray("necessary"));
+        response.put("generalInfo", usefulInformation.getJSONArray("generalInfo"));
+        response.put("prices", usefulInformation.getJSONArray("prices"));
+        response.put("files", usefulInformation.getJSONArray("files"));
+        return response.toString();
+    }
+
+    @RequestMapping(path = "/institution/{institution}", method = {RequestMethod.POST, RequestMethod.GET})
+    public String getInstitutionInformation(@PathVariable("institution") String institutionName){
+        JSONObject response = new JSONObject();
+        Institution institution = institutionsRepository.findByName(institutionName).get();
+        response.put("name", institution.getName());
+        response.put("id", institution.getId());
+        response.put("latitude", institution.getLatitude());
+        response.put("longitude", institution.getLongitude());
+        response.put("phone", institution.getPhone());
+        response.put("email", institution.getEmail());
+        response.put("url", institution.getSite());
+        response.put("address", institution.getAddress());
+        JSONArray jsonArray = new JSONArray();
+        List<Department> departmentList = departmentRepository.getDepartmentsList(institutionName);
+        for (Department department : departmentList) {
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("name", department.getName());
+            jsonObject.put("program", department.getProgram());
+            jsonArray.put(jsonObject);
+        }
+        response.put("departments", jsonArray);
+        return response.toString();
     }
 }

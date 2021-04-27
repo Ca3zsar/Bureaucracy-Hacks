@@ -13,4 +13,9 @@ public class BureaucraticProcessController {
     public String getProcessesList() {
         return bureaucraticProcessService.getProcessesList();
     }
+
+    @RequestMapping(path = "/processeslist/{institutionName}", method = {RequestMethod.POST, RequestMethod.GET})
+    public String getInstitutionProcesses(@PathVariable("institutionName") String institutionName) {
+        return bureaucraticProcessService.getProcessesList(institutionName);
+    }
 }

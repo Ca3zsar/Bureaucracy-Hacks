@@ -6,24 +6,18 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.util.List;
 
 @Getter
 @Setter
 //@AllArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class InstitutionRequest {
-//    @JsonProperty("institutions")
-    private JSONArray institutions;
+public class DeleteCommentRequest {
+    @JsonProperty("id")
+    private Integer id;
 
     @JsonCreator
-    public InstitutionRequest(JSONArray institutions) {
-        this.institutions = institutions;
+    public DeleteCommentRequest(Integer id) {
+        this.id = id;
     }
-
-
 }

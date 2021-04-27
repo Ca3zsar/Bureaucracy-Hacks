@@ -1,5 +1,6 @@
 package com.example.services;
 
+import com.example.models.Institution;
 import com.example.repositories.InstitutionsRepository;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
@@ -15,21 +16,27 @@ import java.util.List;
 @Setter
 @Controller
 public class InstitutionsService {
-private InstitutionsRepository institutionsRepository;
+    private InstitutionsRepository institutionsRepository;
+
     public String getInstitutionsList() {
-        List<String> institutions = institutionsRepository.getInstitutionsList();
+        List<Institution> institutions = institutionsRepository.getInstitutionsList();
         JSONArray jinstitutions = new JSONArray();
-        for (String institution : institutions) {
+        for (Institution institution : institutions) {
             JSONObject jo = new JSONObject();
-            jo.put("name", institution);
+            jo.put("name", institution.getName());
+            jo.put("id", institution.getId());
+            jo.put("latitude", getLatitude(institution.getName()));
+            jo.put("longitude", getLongitude(institution.getName()));
             jinstitutions.put(jo);
         }
         return jinstitutions.toString();
     }
-    public Double getLatitude(String institutionName){
+
+    public Double getLatitude(String institutionName) {
         return institutionsRepository.getLatitude(institutionName);
     }
-    public Double getLongitude(String institutionName){
+
+    public Double getLongitude(String institutionName) {
         return institutionsRepository.getLongitude(institutionName);
     }
 }

@@ -1,11 +1,13 @@
 package com.example.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Setter
@@ -21,9 +23,9 @@ public class Institution {
     @Column(name = "institution_name")
     private String name;
     @Column(name = "institution_url")
-    private String url;
+    private String site;
     @Column(name = "adress")
-    private String adress;
+    private String address;
     @Column(name = "phone")
     private String phone;
     @Column(name = "email")
@@ -32,15 +34,24 @@ public class Institution {
     private Double latitude;
     @Column(name = "longitude")
     private Double longitude;
-
+    @JsonIgnore
+    @ManyToMany(mappedBy = "institutions")
+    List<User> users;
 
     public Institution(String name, String url, String adress, String phone, String email, double latitude, double longitude) {
         this.name = name;
-        this.url = url;
-        this.adress = adress;
+        this.site = url;
+        this.address = adress;
         this.phone = phone;
         this.email = email;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    @Override
+    public String toString() {
+        return "Institution{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
