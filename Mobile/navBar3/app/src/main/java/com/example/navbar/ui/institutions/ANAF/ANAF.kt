@@ -1,10 +1,12 @@
 package com.example.navbar.ui.institutions.ANAF
 
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
@@ -24,23 +26,44 @@ class ANAF: AppCompatActivity() {
         viewModel.getPost()
         viewModel.myResponse.observe(this, Observer { response ->
             if (response.isSuccessful) {
-                //val informatii : TextView = findViewById(R.id.informatiiGenerale)
-                //informatii.setText(response.body()?.address.toString())
+                val informatii : TextView = findViewById(R.id.informatiiGenerale)
+                informatii.setText(R.string.informatii_genelate_institutii)
+                informatii.append("Adresa: " + response.body()?.address.toString() + "\n\n")
+                informatii.append("Numărul de telefon: " + response.body()?.phone.toString() + "\n\n")
+                informatii.append("Email: " + response.body()?.email.toString())
+
+                val linkWeb : TextView = findViewById(R.id.link_institutie)
+                linkWeb.text = "Site-ul instituției: " + response.body()?.url.toString()
+                linkWeb.movementMethod = LinkMovementMethod.getInstance()
+
+                val departamente : TextView = findViewById(R.id.departamente)
+                departamente.setText(R.string.departamente_institutii)
+
+                val array : List<Map<String, String>>? = response.body()?.departments
+
+                if (array != null) {
+                    for (i in array.indices) {
+                        departamente.append("\u25CF " + array[i].getValue("name") + "\n")
+                        if (array[i].getValue("program").isEmpty()) {
+                            departamente.append("\u25BA Program: " + array[i].getValue("program") + "\n\n")
+                        } else {
+                            departamente.append("\u25BA Program: indisponibil" + "\n\n")
+                        }
+                    }
+                }
+
                 Log.d("Response", response.body()?.address.toString())
                 Log.d("Response", response.body()?.phone.toString())
                 Log.d("Response", response.body()?.name.toString())
-                Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
+                //Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
                 Log.d("Response", response.body()?.id.toString())
             } else {
                 Log.d("Response", response.errorBody().toString())
-                Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
+                //Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
             }
         })
 
         val titlu : TextView = findViewById(R.id.titluInstitutie)
         titlu.text = "Agenția Națională de Administrare Fiscală (ANAF)"
-
-        //val informatii : TextView = findViewById(R.id.informatiiGenerale)
-        //informatii.setText(response.body().address.toString())
     }
 }
