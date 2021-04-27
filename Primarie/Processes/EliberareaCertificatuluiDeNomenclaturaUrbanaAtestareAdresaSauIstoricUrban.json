@@ -1,0 +1,21 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "ELIBERAREA CERTIFICATULUI DE NOMENCLATURA URBANA, ATESTARE ADRESA SAU ISTORIC URBAN",
+  "cases": [
+    "Pentru eliberarea certificatului de nomenclatura urbana, atestare adresa sau istoric urban"
+  ],
+  "departaments": ["SERVICIUL G.I.S"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "cerere-tip",
+        "act de proprietate (cvc, titlu,etc)",
+        "plan de amplasament si delimitare, plan de situatie, inventar de coordonate alipire, dezmembrare",
+        "incheieri dispuse de OCPI Iasi",
+        "CI (PF) / CUI (PJ)"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

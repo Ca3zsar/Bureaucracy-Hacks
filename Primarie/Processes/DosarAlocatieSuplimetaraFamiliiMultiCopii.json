@@ -1,0 +1,20 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "INTOCMIREA DOSARULUI DE ALOCATIE SUPLIMENTARA",
+  "cases": ["Pentru familiile care au doi sau mai multi copii"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1. Certificatele de nastere ale copiilor minori (original si copie);",
+        "2. Buletinele de identitate ale ambilor parinti (original si copie);",
+        "3. Certificat de casatorie al parintilor (copie si original);",
+        "4. Actele de identitate ale copiilor peste 14 ani copie si original;",
+        "5. Adeverinte ca urmeaza cursuri de zi pentru copiii cu varste peste 14 ani;",
+        "6. Formular de la Registratura."
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

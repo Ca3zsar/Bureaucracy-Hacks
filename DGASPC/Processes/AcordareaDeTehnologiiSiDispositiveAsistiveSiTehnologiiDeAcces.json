@@ -3,11 +3,11 @@
   "process": "Acordarea de dispozitive asistive si tehnologii de acces",
   "cases": ["Pentru acordarea de dispozitive asistive si tehnologii de acces"],
   "departaments": [
-    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+    "Departamentul Asistenta Socială Persoane Adulte","Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
   "forms": [[" "]],
   "necessary": [[[""]]],
-  "prices": [""],
+  "prices": [[""]],
   "generalInfo": [[""]],
   "files": [
     "Recomnadare privind acordarea de tehnologii si dispositive asistive  si tehnologii de acces"

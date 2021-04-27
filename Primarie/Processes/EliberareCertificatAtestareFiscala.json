@@ -1,0 +1,24 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "ELIBERAREA CERTIFICATULUI DE ATESTARE FISCALĂ",
+  "cases": ["Pentru eliberarea certificatului de atestare fiscala"],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.cerere – anexa nr. 10, model 2016 ITL 010;",
+        "2.cartea de identitate/ buletinul solicitantului, în original și în copie certificată „conform cu originalul” sub semnătură;",
+        "3.alte documente, în funcție de solicitarea/situația concretă:",
+        "- succesiune: anexa 24 eliberată de cătreDLEP Iași – Serviciul de Stare civilă, certificat de deces, în copie certificată „conform cu originalul” sub semnătură;",
+        "- înstrăinare prin mandatar: procură specială autentificată la notarul public din care să rezulte mandatul dat pentru respectivul act de dispoziție, cartea de identitate/ buletinul proprietarul, în original și în copie certificată „conform cu originalul” sub semnătură;",
+        "- pentru persoana minoră: certificat de naștere, carte de identitate în copie certificată „conform cu originalul”, carte de identitate/ buletin, act din care să rezulte calitatea de reprezentant legal/tutore (dacă e cazul) în copie certificată „conform cu originalul” sub semnătură pentru părinte/reprezentant legal/tutore."
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Solicitarea certificatului de atestare fiscală se poate face și de către împuternicit care va anexa: împuternicirea în original sau în formă legalizată, cartea de identitate/buletinul în copie certificată „conform cu originalul” sub semnătură, precum și cartea de identitate/buletinul persoanei pentru care se formulează solicitarea.\nContribuabilul/plătitorul are posibilitatea de a solicita eliberarea certificatului de atestare fiscală(cu excepția certificatului eliberat pentru înstrăinarea bunurilor mobile), prin mijloace electronice de transmitere la distanţă (fax, e-mail, platforma pentru integrarea serviciilor de e-guvernare în sistemul electronic naţional), precum și emiterea acestuia  în format electronic, în ipoteza în care a optat în acest sens și îndeplinește toate cerințele prevăzute în H.C.L. nr. 218/23.06.2017 completată prin H.C.L. nr. 630.01.2018,\nPentru eliberarea certificatului în format electronic pe platforma https://edirect.e-guvernare.ro, contribuabilii persoane fizice trebuie să dețină semnătura electronica, să-și creeze cont pe platforma menționată și să depună cerere prin care optează pentru acest mod de emitere și comunicare, la care se anexează împuternicire pentru persoana care depune și semnează electronic cererea de emitere a certificatului.\nNotă: Toate documentele justificative depuse de către contribuabili în dovedirea declarațiilor fiscale se depun în copie certificată „conform cu originalul” sub semnătură conform art. 64 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare."
+    ]
+  ]
+}

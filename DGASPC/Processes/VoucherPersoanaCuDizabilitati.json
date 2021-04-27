@@ -1,9 +1,9 @@
 {
-  "institution": "Direcția Generală de Asistență Socială și Protecția Copilului Iași",
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Voucher persoana cu dizabilitati",
   "cases": ["Pentru voucher persoana cu dizabilitati"],
   "departaments": [
-    "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
+    "Departamentul Asistenta Socială Persoane Adulte","Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
   "forms": [[" "]],
   "necessary": [

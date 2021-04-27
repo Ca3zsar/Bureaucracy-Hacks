@@ -1,0 +1,20 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "DECLARAREA ÎN EVIDENȚA FISCALĂ A TERENURILOR PROPRIETATE PUBLICĂ SAU PRIVATĂ A STATULUI/UNITĂȚILOR ADMINISTRATIV TERITORIALE ÎNCHIRIATE, CONCESIONATE, DATE ÎN ADMINISTRARE ORI ÎN FOLOSINȚĂ CĂTRE PERSOANE FIZICE",
+  "cases": [
+    "Pentru declararea în evidența fiscală a terenurilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice"
+  ],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.Declarație fiscală pentru stabilirea impozitului pe teren persoane fizice (anexa nr. 3 – model ITL 003);",
+        "2.Copie certificată „conform cu originalul” sub semnătură după:",
+        "•contract de închiriere, concesiune, de dare în administrare sau în folosință gratuită încheiat cu Municipiul Iași;",
+        "•cartea de identitate a locatarilor, concesionarilor, titularilor dreptului de administrare sau de folosință;"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

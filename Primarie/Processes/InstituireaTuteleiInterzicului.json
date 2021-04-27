@@ -1,0 +1,21 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "INSTITUIREA TUTELEI INTERZISULUI",
+  "cases": ["Pentru bolnavii psihici ce necesita ocrotire"],
+  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "-Hotarare judecatoreasca (ramasa definitiva) de punere sub interdictie",
+        "-acte de stare civila pentru interzis si tutore (B.I., certificat de nastere, --certificat de casatorie, hotarare de divort)",
+        "-adeverinta de venit pentru interzis",
+        "-adeverinta medicala pentru interzis si tutore",
+        "-cerere de instituire a tutelei",
+        "-declaratie de acord",
+        "-ancheta sociala"
+      ]
+    ]
+  ],
+  "generalInfo": [[" "]]
+}

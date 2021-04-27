@@ -1,0 +1,51 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "Serviciul Autorizare Constructii",
+  "cases": [
+    "Acte necesare obținerii certificatului de urbanism",
+    "Acte necesare obținerii certificatului de urbanism in cazul lucrarilor complexe",
+    "Alte documente in vederea reducerii timpului"
+  ],
+  "departaments": [
+    "DIRECTIA ARHITECTURA SI URBANISM",
+    "DIRECTIA ARHITECTURA SI URBANISM",
+    "DIRECTIA ARHITECTURA SI URBANISM"
+  ],
+  "forms": [[" "], [" "], [" "]],
+  "necessary": [
+    [
+      [
+        "cerere tip care se procură de la emitent, completată corespunzător și semnată, conținând adresa de e-mail (opțional) și număr de telefon beneficiar/proiectant (obligatoriu);",
+        "copie act identitate (PF), CUI (PJ)",
+        "pentru imobilele transcrise în evidențele de cadastru și publicitate imobiliară - extras din planul cadastral de pe ortofotoplan și extras de carte funciară pentru informare actualizat la zi (valabil maxim 30 de zile);",
+        "copie după actul de proprietate/deținere a imobilului (după caz);",
+        "pentru imobilele neînscrise în evidențele de cadastru și publicitate imobiliară, plan de încadrare în zona la una din scările 1:10.000, 1: 5000, 1: 2000, 1:1000 sau 1: 500, eliberat la cerere de către OCPI, cu evidențierea amplasamentului în cadrul zonei.",
+        "dovada achitării taxei pentru obținerea Certificatului de urbanism (se calculează de către personalul de specialitate, în funcție de suprafață imobilului ce face obiectul actului solicitat)."
+      ]
+    ],
+    [
+      [
+        "o scurtă descriere a lucrarilor într-un memoriu anexat cererii",
+        "consultare în prealabil cu un proiectant autorizat"
+      ]
+    ],
+    [
+      [
+        "Documentația cadastrală actualizată a terenului /imobilului ce face obiectul actului solicitat;",
+        "Dacă terenul a făcut obiectul unei documentații de urbanism de tip PUZ/PUD, se va anexa o copie a planșei de reglementări urbanistice U2 și o copie a Regulamentului de urbanism aferent PUZ/PUD ului",
+        "În cazul solicitării Certificatelor de urbanism pentru branșamente la rețelele de utilități, dacă  dețineți o autorizație de construire a unui imobil, veți extrage din documentația tehnică planul de situație vizat OCPI cuprinzând poziționarea imobilului existent față de limitele proprietății și față de  calea de acces (stradă), plan purtând viza ”anexă la autorizația de construire nr. din dată de…” .  Acest plan îl veți anexa în două exemplare, unul urmând a vă fi returnat cu viza anexă la certificatul de urbanism solicitat.",
+        "Pentru branșamente la rețeaua de energie electrică, se va anexa Avizul tehnic de racordare emis de furnizorul de utilități.",
+        "Pentru extinderile rețelelor sau branșamente la rețeaua de gaze naturale, veți anexa memoriul tehnic cu descrierea succintă a lucrărilor ce urmează a se realiza și un plan de situație pe suport topografic cuprinzând traseul propus, în două exemplare."
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Recomandări Primăria Iași: În cazul în care lucrările propuse de dvs. sunt complexe, poate fi utilă o scurtă descriere a lor într-un memoriu anexat cererii. De asemeni, pentru că scopul emiterii certificatului să corespundă întocmai intenției dvs., pentru o formulare adecvată va sugerăm să vă consultați în prealabil cu un proiectant autorizat.",
+      "mportant: Conform art.33 din Ordinul MDRL nr. 839/2009 pentru aprobarea normelor metodologice de aplicare a Legii 50/1991 privind autorizarea lucrărilor de construcții, solicitantul are obligația de a anexa la cererea pentru emiterea certificatului de urbanism documentele de plată a taxelor, comunicate anterior de emitent. Dovadă achitării taxelor se face prin prezentarea, în copie, a documentelor de plata.",
+      "Conform Legii 50/1991 privind autorizarea lucrărilor de construcții, art.7*), alin (1^2), se înregistrează doar documentatiile complete."
+    ],
+    [""],
+    [""]
+  ]
+}

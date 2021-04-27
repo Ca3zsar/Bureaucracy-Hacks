@@ -1,0 +1,24 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "CONTRACTE DE CONCESIUNE",
+  "cases": ["Pentru contracte de concesiune"],
+  "departaments": ["SECRETAR MUNICIPIUL IASI"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "avizul Comisiei de Urbanism",
+        "hotararea Consiliului Local Municipal Iasi",
+        "certificat de urbanism",
+        "acte doveditoare ale dreptului de proprietate asupra terenului sau dupa caz asupra spatiului",
+        "schita terenului ce urmeaza a fi concesionat scara 1:500",
+        "acordul vecinilor (dupa caz)",
+        "plan de incadrare in zona",
+        "hotarare judecatoreasca de infiintare a societatii (pentru societatile comerciale)",
+        "certificat de inmatriculare",
+        "certificat de libera practica in cazul cabinetelor medicale"
+      ]
+    ]
+  ],
+  "generalInfo": [[""]]
+}

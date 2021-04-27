@@ -1,0 +1,22 @@
+{
+  "institution": "Primaria Iasi",
+  "process": "CERTIFICAT DE ATESTARE FISCALĂ",
+  "cases": ["Pentru certificat de atestare fiscala"],
+  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
+  "forms": [[" "]],
+  "necessary": [
+    [
+      [
+        "1.cerere pentru eliberarea unui certificat de atestare fiscală pentru persoane juridice privind impozite, taxe locale și alte venituri datorate bugetului local (model 2016, ITL-012)",
+        "2.copia actului de identitate (administrator/împuternicit) ",
+        "3.împuternicire",
+        "4.evidență contabilă (balanța de verificare, lista mijloacelor fixe) "
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "NOTĂ\nCertificatul de atestare fiscală se poate solicita și elibera și pe platforma  https://edirect.e-guvernare.ro. (cu excepția certificatului eliberat pentru înstrăinarea bunurilor mobile). Contribuabilii persoane juridice trebuie să dețină semnătură electronică. Conform HCL nr. 218/2017 și HCL nr. 6/2018 este necesar, în prealabil, completarea unei cereri în care se specifica eliberarea certificatelor de atestare fiscală în format electronic. La cerere se anexeaza imputernicire pentru persoana care depune si semneaza electronic cererea de emitere a certificatului de atestare fiscala, documentele anexate la cerere si o copie a actului de identitate (administrator/imputernicit)."
+    ]
+  ]
+}

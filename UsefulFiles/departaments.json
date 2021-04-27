@@ -28,14 +28,15 @@
       "Autoritate Tutelara",
       "Registratura",
       "Casierie",
-      "Director Executiv Luminita Munteanu"
+      "Director Executiv Luminita Munteanu",
+      "Serviciu personal"
     ]
   },
   {
     "institutie": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
     "departamente": [
       "Departamentul Asistenta Socială pentru Copil şi Familie",
-      "Departamentul Asistenta Socială Persoane Adultes"
+      "Departamentul Asistenta Socială Persoane Adulte"
     ]
   },
   {
@@ -118,7 +119,7 @@
       "CENTRUL DE CARTIER PACURARI",
       "CENTRUL DE CARTIER BLD. POITIERS",
       "CASIERIILE Primariei Municipiului Iasi",
-      "DIRECTIA ARHITECTURA SI URBANISM, Arhitect Sef Alexandru Florin Mustiata",
+      "DIRECTIA ARHITECTURA SI URBANISM",
       "SERVICIUL G.I.S",
       "SERVICIUL CADASTRU",
       "SERVICIUL AUTORIZARE CONSTRUCTII",
@@ -136,7 +137,9 @@
       "SECRETAR MUNICIPIUL IASI",
       "DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA",
       "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE",
-      "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
+      "DIRECTIA TEHNICA SI SERVICII COMUNITARE",
+      "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE",
+      "DIRECTIA DE ASISTENTA COMUNITARA"
     ]
   },
   {
