@@ -10,6 +10,7 @@ from queue import Queue
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie"]
 
+
 def import_modules():
     modules = []
     for name in moduleNames:
@@ -19,6 +20,7 @@ def import_modules():
             print(f"Can't import module {name}!")
     
     return modules
+
 
 def executeWithThread(modules):
 
@@ -33,15 +35,14 @@ def executeWithThread(modules):
    pool.close()
    pool.join()
     
-
-
+    
 def refresh_info():
     modules = import_modules()
     
     updated = []
     index = 0
     executeWithThread(modules) 
-    for index in range(1,len(moduleNames)): 
+    for index in range(len(moduleNames)): 
         rootDir = os.path.join(moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
@@ -52,24 +53,25 @@ def refresh_info():
             }
         )
         
-        index += 1
 
     return updated
 
 
-
-
-# def get_differences():
-#     pass
-
-# def get_sites():
-#     pass
-
-# def get_specific_diff(name):
-#     pass
-
-# def _url(path):
-#     return 'https://check-diff.herokuapp.com' + path
+def get_files_list():
+    updated = []
+        
+    for index in range(len(moduleNames)): 
+        rootDir = os.path.join(moduleNames[index],'HTMLFiles')
+        files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
+        
+        updated.append(
+            {
+                "name":moduleNames[index],
+                "files":files
+            }
+        )
+    
+    return updated
 
 # def main():
     
@@ -88,5 +90,3 @@ def refresh_info():
 #         except:
 #             print(f"Can't execute module : {module.__name__}")
 
-# if __name__ == "__main__":
-#     main()

@@ -66,9 +66,8 @@ def fillContent(sufix, section):
     f2.close()
 
 def downloadHrefs(sufix, soup):
-    os.mkdir(f"{acte}/{sufix}")
     for a in soup.select('.art-article p a'):
-
+    
         toDownload = a['href']
         
         if toDownload.find("pdf") == -1:
@@ -81,7 +80,7 @@ def downloadHrefs(sufix, soup):
 
         try:
             req = requests.get(toDownload, allow_redirects=True)
-            open(f"{acte}/{sufix}/{baseName}", 'wb').write(req.content)
+            open(f"{acte}/{baseName}", 'wb').write(req.content)
         except requests.ConnectionError:
             pass
 
@@ -157,7 +156,4 @@ def main():
 
 
 if __name__=="__main__":
-    director = f"./Content"
-    acte = f"./Acte"
-    HTMLFiles = f"./HTMLFiles"
     main()

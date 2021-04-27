@@ -61,12 +61,8 @@ def downloadPoliceDocuments():
         page.encoding = page.apparent_encoding
         downloadableDiv = BeautifulSoup(page.text, "html.parser")
         downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
-        
-        if os.path.exists(f"{acte}\\{folders[cont]}"):
-            shutil.rmtree(f"{acte}\\{folders[cont]}")
             
         index = 1
-        os.mkdir(f"{acte}\\{folders[cont]}")
         for data in downloadContent:
             response = urllib.request.urlopen(data["href"])
 
@@ -79,17 +75,13 @@ def downloadPoliceDocuments():
             file.write(response.read())
             file.close()
 
-            os.rename(f"{fileName}", f"{acte}\\{folders[cont]}\\{fileName}")
+            os.rename(f"{fileName}", f"{acte}\\{fileName}")
         cont += 1
         
     page = requests.get("https://www.politiaromana.ro/ro/utile/documente-eliberari-acte/formulare-tipizate-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase/cereri-formulare-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase")
     page.encoding = page.apparent_encoding
     downloadableDiv = BeautifulSoup(page.text, "html.parser")
     downloadContent = downloadableDiv.findAll('a', {"class": "numeFisier"})
-
-    if os.path.exists(f"{acte}\\arme_explozivi"):
-        shutil.rmtree(f"{acte}\\arme_explozivi")
-    os.mkdir(f"{acte}\\arme_explozivi")
 
     index = 1
     for data in downloadContent:
@@ -110,7 +102,7 @@ def downloadPoliceDocuments():
         file = open(f"{fileName}", "wb")
         file.write(response.read())
         file.close()
-        os.rename(f"{fileName}", f"{acte}\\arme_explozivi\\{fileName}")
+        os.rename(f"{fileName}", f"{acte}\\{fileName}")
 
 
 def getContentFromPages():

@@ -14,7 +14,6 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-
 urlPrimarie = "http://www.primaria-iasi.ro/portal-iasi/pmi/primaria-municipiului-iasi/60/acte-necesare"
 urlOrar = "http://www.primaria-iasi.ro/portal-iasi/pmi/meniu-pmi/54/program-cu-publicul"
 
