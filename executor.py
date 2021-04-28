@@ -9,7 +9,7 @@ from queue import Queue
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie"]
-
+FILES = []
 
 def import_modules():
     modules = []
@@ -37,6 +37,8 @@ def executeWithThread(modules):
     
     
 def refresh_info():
+    global FILES
+    FILES = []
     modules = import_modules()
     
     updated = []
@@ -53,21 +55,16 @@ def refresh_info():
             }
         )
         
-
-    return updated
-
-
-def get_files_list():
-    updated = []
-        
-    for index in range(len(moduleNames)): 
         rootDir = os.path.join(moduleNames[index],'Acte')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
-        print(files)
         
-        updated.extend(files)
-    
+        FILES.extend(files)
+
     return updated
+
+
+def get_files_list():    
+    return FILES
 
 # def main():
     

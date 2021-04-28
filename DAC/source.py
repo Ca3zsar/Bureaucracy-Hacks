@@ -80,6 +80,7 @@ def downloadHrefs(sufix, soup):
 
         try:
             req = requests.get(toDownload, allow_redirects=True)
+            # print(baseName)
             open(f"{acte}/{baseName}", 'wb').write(req.content)
         except requests.ConnectionError:
             pass
