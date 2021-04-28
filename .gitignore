@@ -1,21 +1,2 @@
-*.pdf
 Primarie/geckodriver.log
-*.html
-*.log
-*.pyc
-ANAF/Content/
-ANAF/Acte/
-CNAS/Content
-CNAS/Acte
-DAC/Content
-DGASPC/Acte
-DGASPC/Content
-Primarie/Acte
-Primarie/Content
-DLEP/Acte
-DLEP/Content
-IPJ/Acte
-IPJ/Content
-Pasapoarte/Acte
-Pasapoarte/Content
 
