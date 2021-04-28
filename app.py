@@ -44,11 +44,11 @@ def refresh_forced():
 
 @app.route("/refresh-info/<job_key>", methods=['GET'])
 def get_results(job_key):
-    global LOADED_DATA
+    global LOADING_DATA
     job = Job.fetch(job_key, connection=conn)
 
     if job.is_finished:
-        LOADED_DATA = 0
+        LOADING_DATA = 0
         return jsonify(job.result), 200
     else:
         return "Wait!", 202
