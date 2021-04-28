@@ -109,7 +109,7 @@ def downloadDocuments(var, html_filename):
         filename = os.path.join(acte, href.rsplit('/', 1)[-1])
         if href.endswith('.pdf'):
             try:
-                urlretrieve(href, filename[:-3]+"html")
+                urlretrieve(href, filename)
             except:
                 print('failed to download')
 
@@ -205,7 +205,6 @@ def getSchedule():
 
 
 def main():
-    print(acte)
     deletingFiles()
     makeDirectors()
     

@@ -45,7 +45,7 @@ def refresh_info():
     index = 0
     executeWithThread(modules) 
     for index in range(len(moduleNames)): 
-        rootDir = os.path.join(moduleNames[index],'HTMLFiles')
+        rootDir = '.'
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
         updated.append(
@@ -67,20 +67,22 @@ def refresh_info():
 def get_files_list():    
     return FILES
 
-# def main():
-    
-#     for module in modules:
-#         try:
-#             print(f"Executing module : {module.__name__}")
-#             module.main()
+def main():
+    modules = import_modules()    
+    for module in modules:
+        try:
+            print(f"Executing module : {module.__name__}")
+            module.main()
             
-#             path = os.path.dirname(module.__file__)
+            path = os.path.dirname(module.__file__)
             
-#             if os.path.exists(f"{path}/Old"):
-#                 check_diff.compareFiles(path)
-#             else:
-#                 os.rename(f"{path}/HTMLFiles",f"{path}/Old")
+            if os.path.exists(f"{path}/Old"):
+                check_diff.compareFiles(path)
+            else:
+                os.rename(f"{path}/HTMLFiles",f"{path}/Old")
             
-#         except:
-#             print(f"Can't execute module : {module.__name__}")
+        except:
+            print(f"Can't execute module : {module.__name__}")
 
+if __name__ == "__main__":
+    main()

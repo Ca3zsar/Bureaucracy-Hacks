@@ -1,2 +1,8 @@
-Primarie/geckodriver.log
 
+*.pyc
+*.doc
+*.pdf
+*.html
+*.txt
+*.docx
+*.xls
