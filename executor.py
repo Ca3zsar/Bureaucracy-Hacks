@@ -64,12 +64,7 @@ def get_files_list():
         rootDir = os.path.join(moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
-        updated.append(
-            {
-                "name":moduleNames[index],
-                "files":files
-            }
-        )
+        updated.extend(files)
     
     return updated
 
