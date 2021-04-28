@@ -67,6 +67,8 @@ def changeEntriesNumber(chromeDriver):
     for button in downloadButtons:
         urls.append(button.get_attribute("href"))
     
+    driver.quit()
+    
     return urls
     
 
@@ -92,7 +94,7 @@ def downloadFiles(urls):
         file.close()
         
         os.rename(f"{fileName}", f"{acte}\\{fileName}")
-        
+    
 
 def getProgram(url):
     page = requests.get(url)
@@ -206,11 +208,8 @@ def main():
     deletingFiles()
     makeDirectors()
     
-    chromeDriver = getDriver()
-    
-    downloadFiles(changeEntriesNumber(chromeDriver))
+    downloadFiles(changeEntriesNumber(getDriver()))
     getProgram(urlOrar)
-    chromeDriver.quit()
     
 if __name__=="__main__":
     main()

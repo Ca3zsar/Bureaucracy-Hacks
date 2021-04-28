@@ -16,9 +16,9 @@ url = "https://www.anaf.ro/anaf/internet/Iasi/contact_iasi/program_iasi/!ut/p/a1
 URL_1 = "http://static.anaf.ro/static/10/Galati/gl1_61.htm"
 URL_2 = "http://static.anaf.ro/static/10/Galati/GL1_39.htm"
 
-director = f"{os.path.dirname(os.path.abspath(__file__))}/Content"
-HTMLFiles = f"{os.path.dirname(os.path.abspath(__file__))}/HTMLFiles"
-acte = f"{os.path.dirname(os.path.abspath(__file__))}/Acte"
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
 
 
 def deletingFilesForProgram():

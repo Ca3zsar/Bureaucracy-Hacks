@@ -85,6 +85,7 @@ def generateHTMLS(driver):
             fillContent(getTextFromTag(section1[index]), pathTXT)
             fillContent(getTextFromTag(section2[index]), pathTXT)
 
+    driver.quit()
 
 def generateSchedule(driver):
     URL = "https://pasapoarte.mai.gov.ro/serviciul-public-comunitar-de-pasapoarte-iasi/"
@@ -109,6 +110,7 @@ def generateSchedule(driver):
         f.write('\n') 
 
     f.close()
+    driver.quit()
 
 
 def getDriver():
@@ -127,10 +129,8 @@ def main():
     deletingFiles()
     makeDirectors()
 
-    driver = getDriver()
-
-    generateSchedule(driver)
-    generateHTMLS(driver)
+    generateSchedule(getDriver())
+    generateHTMLS(getDriver())
     
     driver.quit()
     

@@ -71,11 +71,9 @@ def downloadPoliceDocuments():
             fileName = f"{folders[cont]}_Anexa{index}{extension}"
             index += 1
             
-            file = open(f"{fileName}", "wb")
+            file = open(f"{acte}\\{fileName}", "wb")
             file.write(response.read())
             file.close()
-
-            os.rename(f"{fileName}", f"{acte}\\{fileName}")
         cont += 1
         
     page = requests.get("https://www.politiaromana.ro/ro/utile/documente-eliberari-acte/formulare-tipizate-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase/cereri-formulare-privind-activitatea-directiei-arme-explozivi-si-substante-periculoase")
