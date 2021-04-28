@@ -15,6 +15,7 @@ LOADED_DATA = 0
 LOADING_DATA = 0
 DATA_LINK = ''
 VALUE_TO_RETURN = ''
+FILES_TO_RETURN = []
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
@@ -45,13 +46,14 @@ def refresh_forced():
 
 @app.route("/refresh-info/<job_key>", methods=['GET'])
 def get_results(job_key):
-    global LOADING_DATA,VALUE_TO_RETURN,LOADED_DATA
+    global LOADING_DATA,VALUE_TO_RETURN,LOADED_DATA, FILES_TO_RETURN
     job = Job.fetch(job_key, connection=conn)
 
     if job.is_finished:
         LOADING_DATA = 0
         LOADED_DATA = 1
-        VALUE_TO_RETURN = job.result
+        VALUE_TO_RETURN = job.result[0]
+        FILES_TO_RETURN = job.result[1]
         return jsonify(VALUE_TO_RETURN), 200
     else:
         return jsonify({"error":"info not loaded yet"}), 202
@@ -69,11 +71,10 @@ def get_sites():
 
 @app.route('/get-files/', methods=['GET'])
 def get_files():
-    global LOADED_DATA
+    global LOADED_DATA, FILES_TO_RETURN
     if LOADED_DATA == 1:
-        files = get_files_list()
-        print(files)
-        return jsonify(files), 200
+        print(FILES_TO_RETURN)
+        return jsonify(FILES_TO_RETURN), 200
     else:
         return jsonify({"error":"use refresh-info to get the information!"})
 

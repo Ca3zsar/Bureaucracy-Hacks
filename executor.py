@@ -37,15 +37,14 @@ def executeWithThread(modules):
     
     
 def refresh_info():
-    global FILES
-    FILES = []
+    toReturn = []
     modules = import_modules()
     
     updated = []
     index = 0
     executeWithThread(modules) 
     for index in range(len(moduleNames)): 
-        rootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
+        rootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
         updated.append(
@@ -54,14 +53,19 @@ def refresh_info():
                 "files":files
             }
         )
-        FILES.extend(files)
-        print(FILES)
+        
+        secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
+        secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        
+        toReturn.append(
+            {
+                "name":moduleNames[index],
+                "files":secondFiles
+            }
+        )
 
-    return updated
+    return updated, toReturn
 
-
-def get_files_list():    
-    return FILES
 
 def main():
     modules = import_modules()    
