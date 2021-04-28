@@ -1,6 +1,6 @@
 # app.py
 from flask import Flask, request, jsonify, redirect, url_for
-from executor import refresh_info, get_files_list
+from executor import refresh_info
 
 from rq import Queue
 from rq.job import Job
