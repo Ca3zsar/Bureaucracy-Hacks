@@ -63,6 +63,7 @@ def get_files_list():
     for index in range(len(moduleNames)): 
         rootDir = os.path.join(moduleNames[index],'Acte')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
+        print(files)
         
         updated.extend(files)
     

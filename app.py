@@ -72,6 +72,7 @@ def get_files():
     global LOADED_DATA
     if LOADED_DATA == 1:
         files = get_files_list()
+        print(files)
         return jsonify(files), 200
     else:
         return jsonify({"error":"use refresh-info to get the information!"})
