@@ -56,6 +56,7 @@ def refresh_info():
         )
         
         rootDir = os.path.join(moduleNames[index],'Acte')
+        print(rootDir)
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
         FILES.extend(files)

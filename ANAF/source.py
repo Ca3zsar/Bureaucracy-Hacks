@@ -205,6 +205,7 @@ def getSchedule():
 
 
 def main():
+    print(acte)
     deletingFiles()
     makeDirectors()
     
@@ -213,5 +214,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print(acte)
     main()
