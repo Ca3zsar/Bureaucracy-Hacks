@@ -2,6 +2,8 @@ import importlib
 import check_diff
 import os
 import threading
+import magic
+import boto3
 
 import multiprocessing
 from queue import Queue
@@ -43,29 +45,40 @@ def refresh_info():
     updated = []
     index = 0
     executeWithThread(modules) 
+    
     for index in range(len(moduleNames)): 
         rootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
-        updated.append(
-            {
-                "name":moduleNames[index],
-                "files":files
-            }
-        )
+        links = add_to_S3(files,"HTMLFiles")
+        for i in range(len(links)):
+            updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
         secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
         secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
-        toReturn.append(
-            {
-                "name":moduleNames[index],
-                "files":secondFiles
-            }
-        )
+        secondLinks = add_to_S3(secondFiles,"Acte")
+        for i in range(len(secondLinks)):
+            toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
+    os.environ["FILE_VERSION"] = str(int(os.environ.get("FILE_VERSION"))+1)
     return updated, toReturn
 
+
+def add_to_S3(files,type):
+    S3_BUCKET = os.getenv('S3_BUCKET_NAME')
+    version = int(os.environ.get("FILE_VERSION"))
+    links = []
+
+    for file in files:
+        file_name = file
+        s3 = boto3.client('s3')
+
+        file_path_S3 = f"V{version}/{type}/{os.path.splitext(os.path.basename(file_name))[0]}"
+        s3.upload_file(file_name,S3_BUCKET,file_path_S3)
+        links.append(file_path_S3)
+
+    return links
 
 def main():
     modules = import_modules()    

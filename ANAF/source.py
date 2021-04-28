@@ -114,7 +114,7 @@ def downloadDocuments(var, html_filename):
                 print('failed to download')
 
     # get HTML
-    with open(f"{HTMLFiles}\\" + html_filename, "w", encoding="utf-8") as file:
+    with open(f"{HTMLFiles}\\{html_filename}", "w", encoding="utf-8") as file:
         file.write(var.prettify())
 
 

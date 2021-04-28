@@ -15,7 +15,7 @@ LOADED_DATA = 0
 LOADING_DATA = 0
 DATA_LINK = ''
 VALUE_TO_RETURN = ''
-FILES_TO_RETURN = []
+FILES_TO_RETURN = ''
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
@@ -81,19 +81,7 @@ def get_files():
 
 @app.route('/')
 def sign_s3():
-    # S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-
-    # file_name = 'C:\\Users\\cezar\\Desktop\\dbms_sql.sql'
-    # file_type = 'sql'
-
-    # s3 = boto3.client('s3')
-
-    # s3.upload_file(file_name,S3_BUCKET,file_name)
-
-    # return json.dumps({
-    #   'data': presigned_post,
-    #   'url': 'https://%s.s3.amazonaws.com/%s' % (S3_BUCKET, file_name)
-    # })
+    
 
     return '<h1>Hello</h1>'
 
