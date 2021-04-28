@@ -24,16 +24,17 @@ def import_modules():
 
 def executeWithThread(modules):
 
-   q = multiprocessing.Manager().JoinableQueue()
-   pool = multiprocessing.Pool(len(moduleNames)) 
+#    q = multiprocessing.Manager().JoinableQueue()
+#    pool = multiprocessing.Pool(len(moduleNames)) 
 
 
    for module in modules:
-      print(f"Executing module : {module.__name__}")
-      pool.apply_async( module.main ) 
+    #   print(f"Executing module : {module.__name__}")
+#       pool.apply_async( module.main ) 
+        module.main()
      
-   pool.close()
-   pool.join()
+#    pool.close()
+#    pool.join()
     
     
 def refresh_info():

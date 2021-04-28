@@ -108,7 +108,6 @@ def downloadPoliceDocuments():
 def getContentFromPages():
     
     programAudieriPolitie()
-    downloadPoliceDocuments()
     
     contor = 0
     for i in sufixes:
