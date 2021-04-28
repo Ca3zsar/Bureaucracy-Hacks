@@ -12,6 +12,11 @@
         <item name="color">@color/color_desire_front</item>
     </style>
 
+    <style name="RatingBarFeedback" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">#0077b6</item>
+    </style>
+
     <style name="Theme.Toolbar.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

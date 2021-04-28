@@ -35,4 +35,25 @@
         <item>4 (Excelentă)</item>
         <item>5 (Extraordinară)</item>
     </string-array>
+
+    <string-array name="q1FeedbackStrings">
+        <item>Da</item>
+        <item>Nu</item>
+    </string-array>
+
+    <string-array name="q2FeedbackStrings">
+        <item>1) Foarte nemulțumit</item>
+        <item>2) Nemulțumit</item>
+        <item>3) Mulțumit</item>
+        <item>4) Foarte mulțumit</item>
+        <item>5) Excelent</item>
+    </string-array>
+
+    <string-array name="q3FeedbackStrings">
+        <item>0–30 minute</item>
+        <item>30–45 minute</item>
+        <item>45–60 minute</item>
+        <item>60–90 minute</item>
+        <item>90+ minute</item>
+    </string-array>
 </resources>

@@ -30,6 +30,7 @@ class FeedbackFragment : Fragment() {
         val viewModelFactory = FeedbackMainViewModelFactory(feedbackRepository)
         feedbackViewModel = ViewModelProvider(this, viewModelFactory).get(FeedbackViewModel::class.java)
 
+
         val root = inflater.inflate(R.layout.fragment_feedback, container, false)
         val textView: TextView = root.findViewById(R.id.text_feedback);
         feedbackViewModel.text.observe(viewLifecycleOwner, Observer {
@@ -40,6 +41,7 @@ class FeedbackFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        /**
         val buttonConfirma = view.findViewById<Button>(R.id.feedbackConfirma)
 
         buttonConfirma.setOnClickListener {
@@ -111,6 +113,6 @@ class FeedbackFragment : Fragment() {
             })
 
         }
-
+         */
     }
 }
