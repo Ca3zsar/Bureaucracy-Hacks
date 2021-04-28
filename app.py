@@ -15,7 +15,7 @@ LOADED_DATA = 0
 LOADING_DATA = 0
 DATA_LINK = ''
 VALUE_TO_RETURN = ''
-FILES_TO_RETURN = ''
+FILES_TO_RETURN = ''    
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
@@ -47,17 +47,18 @@ def refresh_forced():
 @app.route("/refresh-info/<job_key>", methods=['GET'])
 def get_results(job_key):
     global LOADING_DATA,VALUE_TO_RETURN,LOADED_DATA, FILES_TO_RETURN
-    job = Job.fetch(job_key, connection=conn)
-
-    if job.is_finished:
-        LOADING_DATA = 0
-        LOADED_DATA = 1
-        VALUE_TO_RETURN = job.result[0]
-        FILES_TO_RETURN = job.result[1]
-        return jsonify(VALUE_TO_RETURN), 200
-    else:
-        return jsonify({"error":"info not loaded yet"}), 202
-
+    try:
+        job = Job.fetch(job_key, connection=conn)
+        if job.is_finished:
+            LOADING_DATA = 0
+            LOADED_DATA = 1
+            VALUE_TO_RETURN = job.result[0]
+            FILES_TO_RETURN = job.result[1]
+            return jsonify(VALUE_TO_RETURN), 200
+        else:
+            return jsonify({"error":"info not loaded yet"}), 202
+    except:
+        return jsonify({'error':'there is no longer a job with this id'})
 
 @app.route('/get-differences/', methods=['GET'])
 def post_something():
