@@ -45,7 +45,7 @@ def refresh_info():
     index = 0
     executeWithThread(modules) 
     for index in range(len(moduleNames)): 
-        rootDir = '.'
+        rootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'HTMLFiles')
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
         updated.append(
@@ -55,7 +55,7 @@ def refresh_info():
             }
         )
         
-        rootDir = os.path.join(moduleNames[index],'Acte')
+        rootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
         print(rootDir)
         files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
         
