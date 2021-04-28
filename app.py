@@ -20,10 +20,9 @@ VALUE_TO_RETURN = ''
 def refresh():
     global LOADED_DATA, DATA_LINK, LOADING_DATA
     if LOADED_DATA == 0 and LOADING_DATA == 0:
-        print(f"{LOADED_DATA} - {LOADING_DATA}")
+        LOADING_DATA = 1
         q = Queue(connection=conn)
         job = q.enqueue_call(refresh_info, timeout=5000)
-        LOADING_DATA = 1
         DATA_LINK = job.get_id()
         return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
 
@@ -70,7 +69,8 @@ def get_sites():
 
 @app.route('/get-files/', methods=['GET'])
 def get_files():
-    if LOADED_DATA:
+    global LOADED_DATA
+    if LOADED_DATA == 1:
         files = get_files_list()
         return jsonify(files), 200
     else:
