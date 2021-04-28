@@ -19,7 +19,7 @@ DATA_LINK = ''
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
     global LOADED_DATA, DATA_LINK, LOADING_DATA
-    if not LOADED_DATA:
+    if LOADED_DATA == 0 and LOADING_DATA == 0:
         q = Queue(connection=conn)
         job = q.enqueue_call(refresh_info, timeout=5000)
         LOADED_DATA = 1
@@ -32,7 +32,7 @@ def refresh():
 @app.route('/refresh-forced/', methods=['GET'])
 def refresh_forced():
     global LOADING_DATA, LOADED_DATA,DATA_LINK
-    if LOADING_DATA == 1:
+    if LOADING_DATA == 0:
       q = Queue(connection=conn)
       job = q.enqueue_call(refresh_info, timeout=5000)
       LOADING_DATA = 1
