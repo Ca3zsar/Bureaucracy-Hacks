@@ -14,7 +14,7 @@ DEBUG = False if 'DYNO' in os.environ else True
 LOADED_DATA = 0
 LOADING_DATA = 0
 DATA_LINK = ''
-
+VALUE_TO_RETURN = ''
 
 @app.route('/refresh-info/', methods=['GET'])
 def refresh():
@@ -22,12 +22,14 @@ def refresh():
     if LOADED_DATA == 0 and LOADING_DATA == 0:
         q = Queue(connection=conn)
         job = q.enqueue_call(refresh_info, timeout=5000)
-        LOADED_DATA = 1
         LOADING_DATA = 1
         DATA_LINK = job.get_id()
+        return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
 
-    return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
-
+    if LOADING_DATA == 1:
+        return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
+    
+    return jsonify(VALUE_TO_RETURN), 200
 
 @app.route('/refresh-forced/', methods=['GET'])
 def refresh_forced():
@@ -36,7 +38,6 @@ def refresh_forced():
       q = Queue(connection=conn)
       job = q.enqueue_call(refresh_info, timeout=5000)
       LOADING_DATA = 1
-      LOADED_DATA = 1
       DATA_LINK = job.get_id()
 
     return redirect(f"https://check-diff.herokuapp.com/refresh-info/{DATA_LINK}", code=202)
@@ -44,14 +45,16 @@ def refresh_forced():
 
 @app.route("/refresh-info/<job_key>", methods=['GET'])
 def get_results(job_key):
-    global LOADING_DATA
+    global LOADING_DATA,VALUE_TO_RETURN,LOADED_DATA
     job = Job.fetch(job_key, connection=conn)
 
     if job.is_finished:
         LOADING_DATA = 0
-        return jsonify(job.result), 200
+        LOADED_DATA = 1
+        VALUE_TO_RETURN = job.result
+        return jsonify(VALUE_TO_RETURN), 200
     else:
-        return "Wait!", 202
+        return jsonify({"error":"info not loaded yet"}), 202
 
 
 @app.route('/get-differences/', methods=['GET'])
@@ -68,11 +71,9 @@ def get_sites():
 def get_files():
     if LOADED_DATA:
         files = get_files_list()
+        return jsonify(files), 200
     else:
-        refresh()
-        files = get_files_list()
-
-    return jsonify(files), 200
+        return jsonify({"error":"use refresh-info to get the information!"})
 
 
 @app.route('/')
