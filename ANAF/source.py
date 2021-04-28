@@ -109,7 +109,7 @@ def downloadDocuments(var, html_filename):
         filename = os.path.join(acte, href.rsplit('/', 1)[-1])
         if href.endswith('.pdf'):
             try:
-                urlretrieve(href, filename)
+                urlretrieve(href, filename[:-3]+"html")
             except:
                 print('failed to download')
 
