@@ -9,16 +9,16 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
-import com.google.android.gms.maps.CameraUpdateFactory
+/*import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.MarkerOptions*/
 
 class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
-    private val callback = OnMapReadyCallback { googleMap ->
+    /*private val callback = OnMapReadyCallback { googleMap ->
 
         /**
          * Manipulates the map once available.
@@ -33,14 +33,14 @@ class HomeFragment : Fragment() {
         googleMap.addMarker(MarkerOptions().position(sydney).title("Here"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
         googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, 15f))
-    }
+    }*/
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+                ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val textView: TextView = root.findViewById(R.id.text_home)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
@@ -51,8 +51,7 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
-        mapFragment?.getMapAsync(callback)
-        //Toast.makeText(activity, "milsugi", Toast.LENGTH_LONG).show()
+        /*val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
+        mapFragment?.getMapAsync(callback)*/
     }
 }

@@ -15,15 +15,16 @@ import com.example.navbar.R
 import androidx.lifecycle.Observer
 import com.example.navbar.ui.register.registerModel.registerPost
 import com.example.navbar.ui.register.registerRepostory.rgstrRepostory
+import kotlinx.android.synthetic.main.fragment_register.*
 
 class registerFragment : Fragment() {
 
     private lateinit var rgstrViewModel: registerViewModel
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         val repository = rgstrRepostory()
         val viewModelFactory = registerViewModelFactory(repository)
@@ -43,23 +44,25 @@ class registerFragment : Fragment() {
         val buttonConfirma = view.findViewById<Button>(R.id.registerSignIn)
         buttonConfirma.setOnClickListener {
             val textBox1 = view.findViewById<EditText>(R.id.registerUsername)
-            val continut1 = textBox1.text.toString()
+            var continut1 = registerUsername.text.toString()
 
             val textBox2 = view.findViewById<EditText>(R.id.registerFirstName)
-            val continut2 = textBox2.text.toString()
+            var continut2 = registerFirstName.text.toString()
 
             val textBox3 = view.findViewById<EditText>(R.id.registerSecondName)
-            val continut3 = textBox3.text.toString()
+            var continut3 = registerSecondName.text.toString()
 
             val textBox4 = view.findViewById<EditText>(R.id.registerEmail)
-            val continut4 = textBox4.text.toString()
+            var continut4 = registerEmail.text.toString()
 
             val textBox5 = view.findViewById<EditText>(R.id.registerPassword)
-            val continut5 = textBox5.text.toString()
+            var continut5 = registerPassword.text.toString()
 
             val textView = view.findViewById<TextView>(R.id.text_register)
 
-            val myPost = registerPost("agachi.eusebiu@yahoo.com", "Gigi", "Agachi", "Eusebiu", "asd")
+            //val myPost = registerPost("agachi.eusebiu@yahoo.com", "Gigi", "Agachi", "Eusebiu", "asd")
+            var myPost = registerPost(email = continut4, username = continut1, name = continut2, surname = continut3, password = continut5)
+
             rgstrViewModel.pushPost(myPost)
             rgstrViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
@@ -72,6 +75,7 @@ class registerFragment : Fragment() {
                     Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                     Log.d("Response", response.code().toString())
 
+
                     //Log.d("Response", response.body()?.myUserId.toString())
                     //Log.d("Response", response.body()?.id.toString())
                     //Log.d("Response", response.body()?.title.toString())
@@ -83,6 +87,7 @@ class registerFragment : Fragment() {
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     textView.text = response.code().toString()
+                    //Log.d("Response", response.code().toString())
                     Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                 }
             })

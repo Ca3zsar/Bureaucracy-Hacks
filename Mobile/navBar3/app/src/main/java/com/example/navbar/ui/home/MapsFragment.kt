@@ -1,6 +1,6 @@
 package com.example.navbar.ui.home
 
-import androidx.fragment.app.Fragment
+/*import androidx.fragment.app.Fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -44,4 +44,4 @@ class MapsFragment : Fragment() {
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
     }
-}
+}*/

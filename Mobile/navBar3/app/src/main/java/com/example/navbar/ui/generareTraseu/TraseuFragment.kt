@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
+import com.example.navbar.ui.generareMap.MapFragmentTraseu
 import com.example.navbar.ui.generareTraseu.generareTraseuModel.departmentsListPost
 import com.example.navbar.ui.generareTraseu.generareTraseuRepository.generareTraseuRepository
 
@@ -79,9 +80,13 @@ class TraseuFragment : Fragment() {
 //                   Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
 //            }
 //        })
-
+        val button = view.findViewById<Button>(R.id.traseuConfirma)
+        button.setOnClickListener {
+            val nextFrag = MapFragmentTraseu()
+            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
+        }
     }
-  }
+}
 
 
 

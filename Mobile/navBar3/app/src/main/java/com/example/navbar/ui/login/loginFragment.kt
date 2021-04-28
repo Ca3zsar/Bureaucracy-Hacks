@@ -15,15 +15,16 @@ import com.example.navbar.R
 import androidx.lifecycle.Observer
 import com.example.navbar.ui.login.loginModel.loginPost
 import com.example.navbar.ui.login.loginRepository.lgnRepository
+import kotlinx.android.synthetic.main.fragment_login.*
 
 class loginFragment : Fragment() {
 
     private lateinit var lgnViewModel: loginViewModel
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         val repository = lgnRepository()
         val viewModelFactory = loginViewModelFactory(repository)
@@ -41,11 +42,15 @@ class loginFragment : Fragment() {
 
         val buttonConfirma = view.findViewById<Button>(R.id.loginSignIn)
         buttonConfirma.setOnClickListener {
-            val textBox1 = view.findViewById<EditText>(R.id.loginEmail)
-            val continut1 = textBox1.text.toString()
+            var textBox1 = view.findViewById<EditText>(R.id.loginEmail)
+            //var continut1 = textBox1.text.toString()
 
-            val textBox2 = view.findViewById<EditText>(R.id.loginPassword)
-            val continut2 = textBox2.text.toString()
+            var textBox2 = view.findViewById<EditText>(R.id.loginPassword)
+            //var continut2 = textBox2.text.toString()
+
+            var continut1 = loginEmail.text.toString()
+            var continut2 = loginPassword.text.toString()
+
 
             if (continut1.isEmpty()) {
                 textBox1.error = "Introdu adresa de email!"
@@ -65,17 +70,17 @@ class loginFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_login)
 
-            val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
-            //val myPost = loginPost(email = continut1, password = continut2)
+            //val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
+            var myPost = loginPost(email = continut1, password = continut2)
             lgnViewModel.pushPost(myPost)
             lgnViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
                     Log.d("Response", response.body()?.email.toString())
-                    textView.text = response.body()?.email.toString()
+                    //textView.text = response.body()?.email.toString()
                     Log.d("Response", response.body()?.password.toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                     Log.d("Response", response.code().toString())
-
+                    //Toast.makeText(activity, response.body()?.email.toString(), Toast.LENGTH_LONG).show()
                     //Log.d("Response", response.body()?.myUserId.toString())
                     //Log.d("Response", response.body()?.id.toString())
                     //Log.d("Response", response.body()?.title.toString())
@@ -86,8 +91,10 @@ class loginFragment : Fragment() {
 
                 } else {
                     Log.d("Response", response.errorBody().toString())
-                    textView.text = response.code().toString()
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
+                    Toast.makeText(activity,continut1, Toast.LENGTH_LONG).show()
+                    //Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
+                    //textView.text = response.code().toString()
+                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                 }
             })
         }
