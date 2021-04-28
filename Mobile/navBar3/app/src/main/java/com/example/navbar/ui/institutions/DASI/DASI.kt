@@ -43,10 +43,14 @@ class DASI: AppCompatActivity() {
                 if (array != null) {
                     for (i in array.indices) {
                         departamente.append("\u25CF " + array[i].getValue("name") + "\n")
-                        if (array[i].getValue("program").isEmpty()) {
-                            departamente.append("\u25BA Program: " + array[i].getValue("program") + "\n\n")
+                        if (array[i].containsKey("program")) {
+                            if (array[i].getValue("program").isEmpty()) {
+                                departamente.append("\u25BA Program: " + array[i].getValue("program") + "\n\n")
+                            } else {
+                                departamente.append("\u25BA Program: indisponibil" + "\n\n")
+                            }
                         } else {
-                            departamente.append("\u25BA Program: indisponibil" + "\n\n")
+                            departamente.append("\n")
                         }
                     }
                 }
