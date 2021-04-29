@@ -38,7 +38,7 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
     answer["added"] = files
 
     answer.update(checkIfContentDifferent(oldPath,newPath))
-
+    return answer
 
 def downloadFiles(path,s3_folder):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
@@ -72,7 +72,6 @@ def compareFiles(path):
     downloadFiles("New",f"V{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
-    print(oldFiles)
     newFiles = os.listdir("New")
     # print(newFiles)
     
