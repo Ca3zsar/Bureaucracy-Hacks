@@ -60,9 +60,10 @@ def compareFiles(path):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
     s3 = boto3.client('s3')
 
-    with open('version.log', 'wb') as f:
-        s3.download_fileobj(S3_BUCKET, 'version.log', f)
+    s3.download_file(S3_BUCKET, 'version.log','version.log')
+    with open('version.log','r') as f:
         VERSION = int(f.read())
+    
     
     if VERSION <= 1:
         return {"differences:[]"}
@@ -70,7 +71,7 @@ def compareFiles(path):
     newFilesPath = f"{path}/{VERSION}/"
     oldFilesPath = f"{path}/{VERSION-1}/"
     
-    downloadFiles("Old",f"{VERSION-1}/{HTMLFiles}")
+    downloadFiles("Old",f"{VERSION-1}/HTMLFiles")
     downloadFiles("New",f"{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
