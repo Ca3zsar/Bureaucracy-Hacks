@@ -37,7 +37,7 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
         files.append(file)
     answer["added"] = files
 
-    # answer.update(checkIfContentDifferent(oldPath,newPath))
+    answer.update(checkIfContentDifferent(oldPath,newPath))
     return answer
 
 def downloadFiles(path,s3_folder):

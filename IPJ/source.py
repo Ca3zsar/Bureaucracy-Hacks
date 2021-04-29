@@ -64,7 +64,7 @@ def downloadPoliceDocuments():
             
         index = 1
         for data in downloadContent:
-            response = urllib.request.urlopen(data["href"])
+            response = requests.get(data["href"])
 
             parsed = urlparse(data["href"])
             something, extension = os.path.splitext(parsed.path)
@@ -72,7 +72,7 @@ def downloadPoliceDocuments():
             index += 1
             
             file = open(f"{acte}/{fileName}", "wb")
-            file.write(response.read())
+            file.write(response.content)
             file.close()
         cont += 1
         
