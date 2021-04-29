@@ -63,9 +63,9 @@ def get_results(job_key):
         return jsonify({'error':'there is no longer a job with this id'})
 
 @app.route('/get-differences/', methods=['GET'])
-def post_something():
+def diff():
     differences = check_diff.compareFiles('https://bureaucracy-files.s3.eu-central-1.amazonaws.com')
-
+    return jsonify(differences)
 
 @app.route('/get-files/', methods=['GET'])
 def get_files():
