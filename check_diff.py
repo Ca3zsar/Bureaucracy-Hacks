@@ -8,7 +8,7 @@ def checkIfContentDifferent(oldPath, newPath):
     status = filecmp.dircmp(oldPath, newPath)
     differences = status.diff_files
     
-    answer = {}
+    answer = dict()
     if len(differences) == 0:
         answer["differences"] = []
     else:
@@ -22,7 +22,7 @@ def checkIfContentDifferent(oldPath, newPath):
 
 def differentFiles(oldFiles, newFiles, oldPath,newPath):
 
-    answer = {}    
+    answer = dict()  
     files = []
     deletedFiles = set(oldFiles) - set(newFiles)
     
@@ -73,7 +73,6 @@ def compareFiles(path):
     
     oldFiles = os.listdir("Old")
     newFiles = os.listdir("New")
-    # print(newFiles)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
         return differentFiles(oldFiles, newFiles,"Old","New")
