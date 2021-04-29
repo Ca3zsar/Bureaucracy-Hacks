@@ -64,9 +64,10 @@ def refresh_info():
 
     with open("version.log",'w') as file:
         file.write(str(VERSION+1))
-        S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-        s3 = boto3.client('s3')
-        s3.upload_file("version.log",S3_BUCKET,'version.log')
+    
+    S3_BUCKET = os.getenv('S3_BUCKET_NAME')
+    s3 = boto3.client('s3')
+    s3.upload_file("version.log",S3_BUCKET,'version.log')
         
     return updated, toReturn
 
