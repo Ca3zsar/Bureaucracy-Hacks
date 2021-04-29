@@ -8,8 +8,6 @@ def checkIfContentDifferent(oldPath, newPath):
     status = filecmp.dircmp(oldPath, newPath)
     differences = status.diff_files
     
-    
-    
     answer = {}
     if len(differences) == 0:
         answer["differences"] = []
@@ -44,7 +42,8 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
 
 def downloadFiles(path,s3_folder):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    os.mkdir(path)
+    if not os.path.exists(path):
+        os.mkdir(path)
     
     s3_resource = boto3.resource('s3')
     bucket = s3_resource.Bucket(S3_BUCKET)
