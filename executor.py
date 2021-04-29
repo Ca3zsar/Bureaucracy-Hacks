@@ -66,7 +66,7 @@ def refresh_info():
         file.write(str(VERSION+1))
         S3_BUCKET = os.getenv('S3_BUCKET_NAME')
         s3 = boto3.client('s3')
-        s3.upload_file("version.log",S3_BUCKET,'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.log')
+        s3.upload_file("version.log",S3_BUCKET,'version.log')
         
     return updated, toReturn
 
@@ -77,7 +77,7 @@ def add_to_S3(files,type):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
     s3 = boto3.client('s3')
 
-    s3.download_file(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.log','version.log')
+    s3.download_file(S3_BUCKET, 'version.log','version.log')
     with open('version.txt','r') as f:
         VERSION = int(f.read())
     
