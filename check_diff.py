@@ -73,6 +73,7 @@ def compareFiles(path):
     
     oldFiles = os.listdir("Old")
     newFiles = os.listdir("New")
+    print(newFiles)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
         return differentFiles(oldFiles, newFiles,"Old","New")

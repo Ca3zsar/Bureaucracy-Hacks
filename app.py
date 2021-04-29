@@ -67,7 +67,6 @@ def get_results(job_key):
 @app.route('/get-differences/', methods=['GET'])
 def diff():
     differences = check_diff.compareFiles('https://bureaucracy-files.s3.eu-central-1.amazonaws.com')
-    print(differences)
     return jsonify(differences)
 
 @app.route('/get-files/', methods=['GET'])
@@ -77,7 +76,6 @@ def get_files():
         return jsonify(FILES_TO_RETURN), 200
     else:
         return jsonify({"error":"use refresh-info to get the information!"})
-
 
 
 @app.route('/')
