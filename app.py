@@ -1,6 +1,7 @@
 # app.py
 from flask import Flask, request, jsonify, redirect, url_for
 from executor import refresh_info
+import check_diff
 
 from rq import Queue
 from rq.job import Job
@@ -54,6 +55,7 @@ def get_results(job_key):
             LOADED_DATA = 1
             VALUE_TO_RETURN = job.result[0]
             FILES_TO_RETURN = job.result[1]
+            os.environ["FILE_VERSION"] = str(int(os.environ.get("FILE_VERSION"))+1)
             return jsonify(VALUE_TO_RETURN), 200
         else:
             return jsonify({"error":"info not loaded yet"}), 202
@@ -62,12 +64,7 @@ def get_results(job_key):
 
 @app.route('/get-differences/', methods=['GET'])
 def post_something():
-    pass
-
-
-@app.route('/get-sites/', methods=['GET'])
-def get_sites():
-    pass
+    differences = check_diff.compareFiles('https://bureaucracy-files.s3.eu-central-1.amazonaws.com')
 
 
 @app.route('/get-files/', methods=['GET'])
@@ -81,9 +78,7 @@ def get_files():
 
 
 @app.route('/')
-def sign_s3():
-    
-
+def home():
     return '<h1>Hello</h1>'
 
 

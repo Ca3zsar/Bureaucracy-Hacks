@@ -8,6 +8,7 @@ import boto3
 import multiprocessing
 from queue import Queue
 
+VERSION = 0
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie"]
@@ -61,20 +62,31 @@ def refresh_info():
         for i in range(len(secondLinks)):
             toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
-    os.environ["FILE_VERSION"] = str(int(os.environ.get("FILE_VERSION"))+1)
+    with open("version.txt",'w') as file:
+        file.write(str(VERSION+1))
+        S3_BUCKET = os.getenv('S3_BUCKET_NAME')
+        s3 = boto3.client('s3')
+        s3.upload_file("version.txt",S3_BUCKET,'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt')
+        
     return updated, toReturn
 
 
 def add_to_S3(files,type):
+    global VERSION
+    
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    version = int(os.environ.get("FILE_VERSION"))
+    s3 = boto3.client('s3')
+
+    with open('version.txt', 'wb') as f:
+        s3.download_fileobj(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt', f)
+        VERSION = int(f.read())
+    
     links = []
 
     for file in files:
         file_name = file
-        s3 = boto3.client('s3')
-
-        file_path_S3 = f"V{version}/{type}/{os.path.splitext(os.path.basename(file_name))[0]}"
+        
+        file_path_S3 = f"V{VERSION}/{type}/{os.path.splitext(os.path.basename(file_name))[0]}"
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
         links.append(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/{file_path_S3}")
