@@ -72,8 +72,8 @@ def compareFiles(path):
     newFilesPath = f"{path}/{VERSION}/"
     oldFilesPath = f"{path}/{VERSION-1}/"
     
-    downloadFiles("Old",f"{VERSION-1}/HTMLFiles ")
-    downloadFiles("New",f"{VERSION}/HTMLFiles")
+    downloadFiles("Old",f"V{VERSION-1}/HTMLFiles ")
+    downloadFiles("New",f"V{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
     print(oldFiles)
