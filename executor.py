@@ -77,8 +77,8 @@ def add_to_S3(files,type):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
     s3 = boto3.client('s3')
 
-    with open('version.txt', 'wb') as f:
-        s3.download_fileobj(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt', f)
+    s3.download_file(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt','version.txt')
+    with open('version.txt','r') as f:
         VERSION = int(f.read())
     
     links = []
