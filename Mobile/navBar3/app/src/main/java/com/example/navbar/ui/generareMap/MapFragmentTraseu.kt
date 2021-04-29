@@ -1,6 +1,5 @@
 package com.example.navbar.ui.generareMap
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,14 +10,13 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.BuildConfig
 import com.example.navbar.R
-import com.example.navbar.ui.generareTraseu.TraseuFragment
+import com.example.navbar.ui.generareTraseu.genTraseuFragment
 import com.tomtom.online.sdk.common.location.LatLng
 import com.tomtom.online.sdk.map.*
 import com.tomtom.online.sdk.routing.OnlineRoutingApi
 import com.tomtom.online.sdk.routing.RoutingException
 import com.tomtom.online.sdk.routing.route.*
 import com.tomtom.online.sdk.traffic.OnlineTrafficApi
-
 
 
 class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
@@ -96,7 +94,7 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
         val button = view?.findViewById<Button>(R.id.button_back)
         if (button != null) {
             button.setOnClickListener {
-                val nextFrag = TraseuFragment()
+                val nextFrag = genTraseuFragment()
                 activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
             }
         }

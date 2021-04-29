@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ui.generareTraseu.TraseuFragment">
+    tools:context=".ui.generareTraseu.genTraseuFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -23,15 +23,15 @@
     <Spinner
         android:id="@+id/traseuSp1"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_width="300dp"
         android:layout_marginTop="330dp"
         android:animateLayoutChanges="true"
         android:background="#014f86"
         android:clipToPadding="false"
         android:dropDownWidth="match_parent"
-        android:entries="@array/institutii"
         android:fadeScrollbars="false"
+        android:gravity="center_horizontal"
         android:hapticFeedbackEnabled="false"
         android:padding="10dip"
         android:saveEnabled="false"
@@ -42,46 +42,13 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
-        <!-- android:entries="@array/institutii" -->
-    <Spinner
-        android:id="@+id/traseuSp2"
-        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="430dp"
-        android:animateLayoutChanges="true"
-        android:background="#014f86"
-        android:dropDownWidth="match_parent"
-        android:entries="@array/servicii"
-        android:padding="10dip"
-        android:spinnerMode="dialog"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/spProcese"
-        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="530dp"
-        android:animateLayoutChanges="true"
-        android:background="#014f86"
-        android:dropDownWidth="match_parent"
-        android:entries="@array/servicii"
-        android:padding="10dip"
-        android:spinnerMode="dialog"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:visibility="visible"/>
 
     <Button
         android:id="@+id/traseuConfirma"
         android:layout_width="145dp"
         android:layout_height="60dp"
+        android:layout_marginTop="625dp"
         android:background="@drawable/background_button_contact"
         android:text="Confirmă"
         android:textAllCaps="false"
@@ -90,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spProcese" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/traseuTitlu1"
@@ -139,21 +106,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/traseuInformatii2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:gravity="center"
-        android:text="Alege serviciul pe care îl dorești:"
-        android:textColor="#03045e"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/traseuSp2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
         android:id="@+id/text_traseu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -167,20 +119,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <TextView
-        android:id="@+id/informatii3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:gravity="center"
-        android:text="Alege procesul:"
-        android:textColor="#03045e"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/spProcese"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
