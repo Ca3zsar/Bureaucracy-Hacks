@@ -15,7 +15,7 @@ def checkIfContentDifferent(oldPath, newPath):
         diff = []
         for name in differences:
             diff.append(name)
-        answer["differences"] = diff
+        answer["differences"] = diff[:]
     
     return answer
 
