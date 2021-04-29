@@ -66,7 +66,7 @@ def compareFiles(path):
     
     
     if VERSION <= 1:
-        return {"differences:[]"}
+        return {"differences":[]}
     
     downloadFiles("Old",f"V{VERSION-1}/HTMLFiles")
     downloadFiles("New",f"V{VERSION}/HTMLFiles")
