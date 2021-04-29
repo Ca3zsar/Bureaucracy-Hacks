@@ -48,7 +48,6 @@ def downloadFiles(path,s3_folder):
     s3_resource = boto3.resource('s3')
     bucket = s3_resource.Bucket(S3_BUCKET)
     for obj in bucket.objects.filter(Prefix=s3_folder):
-        print('ceva')
         if obj.key[-1] == '/':
             continue
         bucket.download_file(obj.key, f"{path}/{os.path.basename(obj.key)}")
@@ -69,16 +68,13 @@ def compareFiles(path):
     if VERSION <= 1:
         return {"differences:[]"}
     
-    newFilesPath = f"{path}/{VERSION}/"
-    oldFilesPath = f"{path}/{VERSION-1}/"
-    
     downloadFiles("Old",f"V{VERSION-1}/HTMLFiles ")
     downloadFiles("New",f"V{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
     print(oldFiles)
     newFiles = os.listdir("New")
-    print(newFiles)
+    # print(newFiles)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
         return differentFiles(oldFiles, newFiles,"Old","New")
