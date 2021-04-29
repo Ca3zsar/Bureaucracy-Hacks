@@ -27,8 +27,8 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
     deletedFiles = set(oldFiles) - set(newFiles)
     
     for file in deletedFiles:
-        files.append(files)
-    answer["deleted"] = files
+        files.append(file)
+    answer["deleted"] = files[:]
     
     addedFiles = set(newFiles) - set(oldFiles)
     
