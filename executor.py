@@ -86,8 +86,9 @@ def add_to_S3(files,type):
 
     for file in files:
         file_name = file
+        file_name = file_name.replace('\s','+')
         
-        file_path_S3 = f"V{VERSION}/{type}/{os.path.splitext(os.path.basename(file_name))[0]}"
+        file_path_S3 = f"V{VERSION}/{type}/{os.path.splitext(os.path.basename(file_name))}"
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
         links.append(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/{file_path_S3}")
