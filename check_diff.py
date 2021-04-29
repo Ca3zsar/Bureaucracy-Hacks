@@ -24,6 +24,8 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
 
     answer = dict()  
     files = []
+    print(set(oldFiles))
+    print(set(newFiles))
     deletedFiles = set(oldFiles) - set(newFiles)
     
     for file in deletedFiles:
@@ -73,7 +75,6 @@ def compareFiles(path):
     
     oldFiles = os.listdir("Old")
     newFiles = os.listdir("New")
-    print(newFiles)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
         return differentFiles(oldFiles, newFiles,"Old","New")
