@@ -51,7 +51,7 @@ def downloadFiles(path,s3_folder):
         print('ceva')
         if obj.key[-1] == '/':
             continue
-        bucket.download_file(obj.key, path)
+        bucket.download_file(obj.key, f"{path}/{obj.key}")
 
 
 def compareFiles(path):
