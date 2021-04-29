@@ -35,7 +35,7 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
     files = []
     for file in addedFiles:
         files.append(file)
-    answer["added"] = files
+    answer["added"] = files[:]
 
     answer.update(checkIfContentDifferent(oldPath,newPath))
     return answer
