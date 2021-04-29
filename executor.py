@@ -78,7 +78,7 @@ def add_to_S3(files,type):
     s3 = boto3.client('s3')
 
     s3.download_file(S3_BUCKET, 'version.log','version.log')
-    with open('version.txt','r') as f:
+    with open('version.log','r') as f:
         VERSION = int(f.read())
     
     links = []

@@ -21,6 +21,7 @@ def checkIfContentDifferent(oldPath, newPath):
     
     return answer
 
+
 def differentFiles(oldFiles, newFiles, oldPath,newPath):
 
     answer = {}    
@@ -59,7 +60,7 @@ def compareFiles(path):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
     s3 = boto3.client('s3')
 
-    with open('version.txt', 'wb') as f:
+    with open('version.log', 'wb') as f:
         s3.download_fileobj(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt', f)
         VERSION = int(f.read())
     
