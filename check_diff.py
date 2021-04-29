@@ -75,7 +75,9 @@ def compareFiles(path):
     downloadFiles("New",f"{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
+    print(oldFiles)
     newFiles = os.listdir("New")
+    print(newFiles)
     
     if set(oldFiles).symmetric_difference(set(newFiles)):
         return differentFiles(oldFiles, newFiles,"Old","New")
