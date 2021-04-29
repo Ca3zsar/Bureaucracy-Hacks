@@ -44,13 +44,14 @@ def differentFiles(oldFiles, newFiles, oldPath,newPath):
 
 def downloadFiles(path,s3_folder):
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    s3 = boto3.client('s3')
     os.mkdir(path)
     
-    for obj in s3.objects.filter(Prefix=s3_folder):
+    s3_resource = boto3.resource('s3')
+    bucket = s3_resource.Bucket(S3_BUCKET)
+    for obj in bucket.objects.filter(Prefix=s3_folder):
         if obj.key[-1] == '/':
             continue
-        s3.download_file(obj.key, path)
+        bucket.download_file(obj.key, path)
 
 
 def compareFiles(path):
@@ -71,7 +72,7 @@ def compareFiles(path):
     newFilesPath = f"{path}/{VERSION}/"
     oldFilesPath = f"{path}/{VERSION-1}/"
     
-    downloadFiles("Old",f"{VERSION-1}/HTMLFiles")
+    downloadFiles("Old",f"{VERSION-1}/HTMLFiles ")
     downloadFiles("New",f"{VERSION}/HTMLFiles")
     
     oldFiles = os.listdir("Old")
