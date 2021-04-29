@@ -71,7 +71,7 @@ def downloadPoliceDocuments():
             fileName = f"{folders[cont]}_Anexa{index}{extension}"
             index += 1
             
-            file = open(f"{acte}\\{fileName}", "wb")
+            file = open(f"{acte}/{fileName}", "wb")
             file.write(response.read())
             file.close()
         cont += 1
@@ -97,10 +97,9 @@ def downloadPoliceDocuments():
         fileName = f"arme_explozivi_Anexa{index}{extension}"
         index += 1
             
-        file = open(f"{fileName}", "wb")
+        file = open(f"{acte}/{fileName}", "wb")
         file.write(response.read())
         file.close()
-        os.rename(f"{fileName}", f"{acte}\\{fileName}")
 
 
 def getContentFromPages():

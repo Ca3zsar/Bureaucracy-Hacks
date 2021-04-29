@@ -61,7 +61,7 @@ def compareFiles(path):
     s3 = boto3.client('s3')
 
     with open('version.log', 'wb') as f:
-        s3.download_fileobj(S3_BUCKET, 'https://bureaucracy-files.s3.eu-central-1.amazonaws.com/version.txt', f)
+        s3.download_fileobj(S3_BUCKET, 'version.log', f)
         VERSION = int(f.read())
     
     if VERSION <= 1:
