@@ -132,8 +132,6 @@ def main():
     generateSchedule(getDriver())
     generateHTMLS(getDriver())
     
-    driver.quit()
-    
 if __name__=="__main__":
     main()
 

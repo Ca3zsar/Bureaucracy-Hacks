@@ -55,12 +55,12 @@ def refresh_info():
         for i in range(len(links)):
             updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
-        secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
-        secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        # secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
+        # secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
-        secondLinks = add_to_S3(secondFiles,"Acte")
-        for i in range(len(secondLinks)):
-            toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
+        # secondLinks = add_to_S3(secondFiles,"Acte")
+        # for i in range(len(secondLinks)):
+        #     toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
     with open("version.log",'w') as file:
         file.write(str(VERSION+1))
