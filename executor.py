@@ -104,12 +104,12 @@ def get_files_list(url):
     with open('version.log','r') as f:
         VERSION = int(f.read())
     
-    print(VERSION)
     files_list = dict()
     
     s3_resource = boto3.resource('s3')
     bucket = s3_resource.Bucket(S3_BUCKET)
-    s3_folder = "V{VERSION-1}/Acte"
+    s3_folder = "V{VERSION-1}/HTMLFiles"
+    
     for obj in bucket.objects.filter(Prefix=s3_folder):
         print(obj.key)
         if obj.key[-1] == '/':
