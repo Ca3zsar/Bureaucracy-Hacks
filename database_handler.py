@@ -17,7 +17,10 @@ def add_to_database(params):
     cursor = connection.cursor()
     
     cursor.execute(delete_statement)
-    cursor.executemany(statement,(list(params.keys()),list(params.values())))
+    for key in list(params.keys()):
+        statement = f"INSERT INTO files VALUES({key}, {params[key]})"
+        cursor.execute(statement)
+        
     connection.commit()
     
     cursor.close()
