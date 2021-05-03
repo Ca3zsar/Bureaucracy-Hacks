@@ -10,9 +10,10 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.navbar.ui.userProfile.userProfileFragment
 import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), Comunicator {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
@@ -73,6 +74,18 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    override fun passDataCom(editTextInput: String) {
+        val bundle = Bundle()
+        bundle.putString("message", editTextInput)
+
+        val transaction = this.supportFragmentManager.beginTransaction()
+        val fragmentB = userProfileFragment()
+        fragmentB.arguments = bundle
+
+        transaction.replace(R.id.linearLayout, fragmentB)
+        transaction.commit()
     }
 
 }

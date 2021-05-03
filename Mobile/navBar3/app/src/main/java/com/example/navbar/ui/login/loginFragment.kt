@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
 import androidx.lifecycle.Observer
+import com.example.navbar.Comunicator
 import com.example.navbar.ui.login.loginModel.loginPost
 import com.example.navbar.ui.login.loginRepository.lgnRepository
 import kotlinx.android.synthetic.main.fragment_login.*
@@ -20,6 +21,7 @@ import kotlinx.android.synthetic.main.fragment_login.*
 class loginFragment : Fragment() {
 
     private lateinit var lgnViewModel: loginViewModel
+    private lateinit var comunicator: Comunicator
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -50,6 +52,9 @@ class loginFragment : Fragment() {
 
             var continut1 = loginEmail.text.toString()
             var continut2 = loginPassword.text.toString()
+
+            comunicator = activity as Comunicator
+            comunicator.passDataCom(loginEmail.text.toString())
 
 
             if (continut1.isEmpty()) {

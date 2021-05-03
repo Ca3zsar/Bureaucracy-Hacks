@@ -11,10 +11,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
 import com.example.navbar.ui.changePassword.changePasswordFragment
+import kotlinx.android.synthetic.main.fragment_user_profile.view.*
 
 class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
 
     private lateinit var profileViewModel: userProfileViewModel
+    var displayMessage: String? = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,6 +30,8 @@ class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
         profileViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+        displayMessage = arguments?.getString("message")
+        root.userProfileName.text = displayMessage
         return root
     }
 
