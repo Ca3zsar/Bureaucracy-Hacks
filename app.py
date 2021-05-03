@@ -1,6 +1,6 @@
 # app.py
 from flask import Flask, request, jsonify, redirect, url_for
-from executor import refresh_info
+from executor import refresh_info, get_files_list
 import check_diff
 
 from rq import Queue
@@ -75,7 +75,9 @@ def get_files():
     if LOADED_DATA == 1:
         return jsonify(FILES_TO_RETURN), 200
     else:
-        return jsonify({"error":"use refresh-info to get the information!"})
+        if not FILES_TO_RETURN:
+            FILES_TO_RETURN = get_files_list("https://bureaucracy-files.s3.eu-central-1.amazonaws.com") 
+    return jsonify(FILES_TO_RETURN, 200)
 
 
 @app.route('/')

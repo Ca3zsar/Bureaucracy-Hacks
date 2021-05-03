@@ -55,12 +55,12 @@ def refresh_info():
         for i in range(len(links)):
             updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
-        # secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
-        # secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
+        secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
-        # secondLinks = add_to_S3(secondFiles,"Acte")
-        # for i in range(len(secondLinks)):
-        #     toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
+        secondLinks = add_to_S3(secondFiles,"Acte")
+        for i in range(len(secondLinks)):
+            toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
     with open("version.log",'w') as file:
         file.write(str(VERSION+1))
@@ -93,6 +93,28 @@ def add_to_S3(files,type):
         links.append(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/{file_path_S3}")
 
     return links
+
+def get_files_list(url):
+    global VERSION
+    
+    S3_BUCKET = os.getenv('S3_BUCKET_NAME')
+    s3 = boto3.client('s3')
+
+    s3.download_file(S3_BUCKET, 'version.log','version.log')
+    with open('version.log','r') as f:
+        VERSION = int(f.read())
+    
+    files_list = dict()
+    
+    s3_resource = boto3.resource('s3')
+    bucket = s3_resource.Bucket(S3_BUCKET)
+    s3_folder = "V{VERSION-1}/Acte"
+    for obj in bucket.objects.filter(Prefix=s3_folder):
+        if obj.key[-1] == '/':
+            continue
+        files_list[obj.key] = f"{url}/{s3_folder}/{obj.key}"
+    
+    return files_list
 
 def main():
     modules = import_modules()    
