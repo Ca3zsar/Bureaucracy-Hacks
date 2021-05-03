@@ -110,6 +110,7 @@ def get_files_list(url):
     bucket = s3_resource.Bucket(S3_BUCKET)
     s3_folder = "V{VERSION-1}/Acte"
     for obj in bucket.objects.filter(Prefix=s3_folder):
+        print(obj.key)
         if obj.key[-1] == '/':
             continue
         files_list[obj.key] = f"{url}/{s3_folder}/{obj.key}"
