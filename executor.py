@@ -44,7 +44,7 @@ def executeWithThread(modules):
     
     
 def refresh_info():
-    toReturn = []
+    toReturn = dict()
     modules = import_modules()
     
     updated = []

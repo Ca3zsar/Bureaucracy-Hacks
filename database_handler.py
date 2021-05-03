@@ -13,8 +13,10 @@ def add_to_database(params):
     connection = get_connection()
     
     statement = "INSERT INTO files VALUES(%s, %s)"
+    delete_statement = "DELETE FROM files"
     cursor = connection.cursor()
     
+    cursor.execute(delete_statement)
     cursor.executemany(statement,(params.keys(),params.values()))
     connection.commit()
     
