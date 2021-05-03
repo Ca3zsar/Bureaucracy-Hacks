@@ -99,7 +99,10 @@ def get_files_list(url):
     global VERSION
     
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    s3 = boto3.client('s3')
+    config = boto3.Config(signature_version=boto3.botocore.UNSIGNED)
+    config.signature_version = boto3.botocore.UNSIGNED
+    
+    s3 = boto3.client('s3',config=config)
 
     s3.download_file(S3_BUCKET, 'version.log','version.log')
     with open('version.log','r') as f:
@@ -114,7 +117,7 @@ def get_files_list(url):
     for obj in bucket.objects.filter(Prefix=s3_folder):
         if obj.key[-1] == '/':
             continue
-        files_list[obj.key] = f"{url}/{s3_folder}/{obj.key}"
+        files_list[obj.key] = s3.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': obj.key})
     
     return files_list
 
