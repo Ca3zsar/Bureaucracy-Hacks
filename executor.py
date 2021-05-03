@@ -27,6 +27,10 @@ def import_modules():
     return modules
 
 
+def add_to_database(params):
+    pass
+
+
 def executeWithThread(modules):
 
    q = multiprocessing.Manager().JoinableQueue()
@@ -64,6 +68,8 @@ def refresh_info():
         for i in range(len(secondLinks)):
             toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
+        add_to_database(toReturn)
+
     with open("version.log",'w') as file:
         file.write(str(VERSION+1))
     
@@ -81,7 +87,9 @@ def add_to_S3(files,type):
     config = Config(signature_version=botocore.UNSIGNED)
     config.signature_version = botocore.UNSIGNED
     
-    s3 = boto3.client('s3',config=config)
+    s3_link = boto3.client('s3',config=config)
+    
+    s3 = boto3.client('s3')
 
     s3.download_file(S3_BUCKET, 'version.log','version.log')
     with open('version.log','r') as f:
@@ -95,7 +103,7 @@ def add_to_S3(files,type):
         file_path_S3 = f"V{VERSION}/{type}/{os.path.basename(file_name)}"
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
-        links.append(s3.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': os.path.basename(file_name)}))
+        links.append(s3_link.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': os.path.basename(file_name)}))
 
     return links
 
