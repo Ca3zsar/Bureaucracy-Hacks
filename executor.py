@@ -4,6 +4,8 @@ import os
 import threading
 import magic
 import boto3
+from botocore.config import Config
+import botocore
 
 import multiprocessing
 from queue import Queue
@@ -99,8 +101,8 @@ def get_files_list(url):
     global VERSION
     
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    config = boto3.Config(signature_version=boto3.botocore.UNSIGNED)
-    config.signature_version = boto3.botocore.UNSIGNED
+    config = Config(signature_version=botocore.UNSIGNED)
+    config.signature_version = botocore.UNSIGNED
     
     s3 = boto3.client('s3',config=config)
 
