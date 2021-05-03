@@ -61,7 +61,7 @@ def refresh_info():
             updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
         secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
-        secondFiles = [urllib.unquote(os.path.join(dp, f)).decode('utf8') for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        secondFiles = [urllib.parse.unquote(os.path.join(dp, f)).decode('utf8') for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
         secondLinks = add_to_S3(secondFiles,"Acte")
         for i in range(len(secondLinks)):
