@@ -1,5 +1,5 @@
 import psycopg2
-
+import os
 def get_connection():
     conn = psycopg2.connect(
         host="ec2-176-34-105-15.eu-west-1.compute.amazonaws.com",
