@@ -1,4 +1,5 @@
 import importlib
+import urllib
 import check_diff
 import os
 import threading
@@ -60,7 +61,7 @@ def refresh_info():
             updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
         secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
-        secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        secondFiles = [urllib.unquote(os.path.join(dp, f)).decode('utf8') for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
         secondLinks = add_to_S3(secondFiles,"Acte")
         for i in range(len(secondLinks)):
@@ -99,14 +100,6 @@ def add_to_S3(files,type):
         file_name = file
         
         file_path_S3 = f"V{VERSION}/{type}/{os.path.basename(file_name)}"
-        file_path_S3 = file_path_S3.replace("\%20"," ")
-        file_path_S3 = file_path_S3.replace("\%C8\%9B","t")
-        file_path_S3 = file_path_S3.replace("\%C8\%99","s")
-        file_path_S3 = file_path_S3.replace("\%C3\%A","I")
-        file_path_S3 = file_path_S3.replace("\%C4\%83","a")
-        file_path_S3 = file_path_S3.replace("\%281\%29"," ")
-        file_path_S3 = file_path_S3.replace("\%281\%29"," ")
-        
         
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
