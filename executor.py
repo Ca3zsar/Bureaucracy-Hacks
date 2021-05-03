@@ -113,7 +113,7 @@ def add_to_S3(files,type):
         file_path_S3 = f"V{VERSION}/{type}/{os.path.basename(file_name)}"
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
-        links.append(s3_link.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': os.path.basename(file_name)}))
+        links.append(s3_link.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': os.path.basename(file_path_S3)}))
 
     return links
 
