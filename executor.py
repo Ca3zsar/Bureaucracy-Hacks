@@ -64,7 +64,7 @@ def refresh_info():
         
         secondLinks = add_to_S3(secondFiles,"Acte")
         for i in range(len(secondLinks)):
-            toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
+            toReturn[os.path.basename(secondFiles[i])]=secondLinks[i]
 
         database_handler.add_to_database(toReturn)
 
