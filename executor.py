@@ -104,6 +104,7 @@ def get_files_list(url):
     with open('version.log','r') as f:
         VERSION = int(f.read())
     
+    print(VERSION)
     files_list = dict()
     
     s3_resource = boto3.resource('s3')
