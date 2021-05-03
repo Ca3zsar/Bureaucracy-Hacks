@@ -6,6 +6,8 @@ import magic
 import boto3
 from botocore.config import Config
 import botocore
+import database_handler
+
 
 import multiprocessing
 from queue import Queue
@@ -28,8 +30,16 @@ def import_modules():
 
 
 def add_to_database(params):
-    pass
-
+    connection = database_handler.get_connection()
+    
+    statement = "INSERT INTO files VALUES(%s, %s)"
+    cursor = connection.cursor()
+    
+    cursor.executemany(statement,(params.keys(),params.valies())
+    connection.commit()
+    
+    cursor.close()
+    connection.close()
 
 def executeWithThread(modules):
 
@@ -76,7 +86,7 @@ def refresh_info():
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
     s3 = boto3.client('s3')
     s3.upload_file("version.log",S3_BUCKET,'version.log')
-        
+    
     return updated, toReturn
 
 
