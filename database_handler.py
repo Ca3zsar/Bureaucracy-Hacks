@@ -10,12 +10,12 @@ def get_connection():
     return conn
 
 def add_to_database(params):
-    connection = database_handler.get_connection()
+    connection = get_connection()
     
     statement = "INSERT INTO files VALUES(%s, %s)"
     cursor = connection.cursor()
     
-    cursor.executemany(statement,(params.keys(),params.valies())
+    cursor.executemany(statement,(params.keys(),params.values()))
     connection.commit()
     
     cursor.close()
