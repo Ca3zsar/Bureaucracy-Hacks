@@ -29,18 +29,6 @@ def import_modules():
     return modules
 
 
-def add_to_database(params):
-    connection = database_handler.get_connection()
-    
-    statement = "INSERT INTO files VALUES(%s, %s)"
-    cursor = connection.cursor()
-    
-    cursor.executemany(statement,(params.keys(),params.valies())
-    connection.commit()
-    
-    cursor.close()
-    connection.close()
-
 def executeWithThread(modules):
 
    q = multiprocessing.Manager().JoinableQueue()
@@ -78,7 +66,7 @@ def refresh_info():
         for i in range(len(secondLinks)):
             toReturn.append({os.path.basename(secondFiles[i]):secondLinks[i]})
 
-        add_to_database(toReturn)
+        database_handler.add_to_database(toReturn)
 
     with open("version.log",'w') as file:
         file.write(str(VERSION+1))
