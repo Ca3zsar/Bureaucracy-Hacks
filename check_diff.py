@@ -50,6 +50,7 @@ def downloadFiles(path,s3_folder):
     s3_resource = boto3.resource('s3')
     bucket = s3_resource.Bucket(S3_BUCKET)
     for obj in bucket.objects.filter(Prefix=s3_folder):
+        print(obj.key)
         if obj.key[-1] == '/':
             continue
         bucket.download_file(obj.key, f"{path}/{os.path.basename(obj.key)}")
