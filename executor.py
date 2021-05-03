@@ -61,11 +61,11 @@ def refresh_info():
             updated.append({"name":moduleNames[index],os.path.basename(files[i]):links[i]})
         
         secondRootDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),moduleNames[index],'Acte')
-        secondFiles = [urllib.parse.unquote(os.path.join(dp, f),encoding='utf-8') for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
+        secondFiles = [os.path.join(dp, f) for dp, dn, filenames in os.walk(secondRootDir) for f in filenames]
         
         secondLinks = add_to_S3(secondFiles,"Acte")
         for i in range(len(secondLinks)):
-            toReturn[os.path.basename(secondFiles[i])]=secondLinks[i]
+            toReturn[os.path.basename(urllib.parse.unquote(secondFiles[i],encoding='utf-8'))]=secondLinks[i]
 
         database_handler.add_to_database(toReturn)
 
