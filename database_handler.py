@@ -17,7 +17,7 @@ def add_to_database(params):
     cursor = connection.cursor()
     
     cursor.execute(delete_statement)
-    cursor.executemany(statement,(params.keys(),params.values()))
+    cursor.executemany(statement,(list(params.keys()),list(params.values())))
     connection.commit()
     
     cursor.close()
