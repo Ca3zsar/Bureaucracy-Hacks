@@ -78,7 +78,10 @@ def add_to_S3(files,type):
     global VERSION
     
     S3_BUCKET = os.getenv('S3_BUCKET_NAME')
-    s3 = boto3.client('s3')
+    config = Config(signature_version=botocore.UNSIGNED)
+    config.signature_version = botocore.UNSIGNED
+    
+    s3 = boto3.client('s3',config=config)
 
     s3.download_file(S3_BUCKET, 'version.log','version.log')
     with open('version.log','r') as f:
@@ -89,10 +92,10 @@ def add_to_S3(files,type):
     for file in files:
         file_name = file
         
-        file_path_S3 = f"V{VERSION}/{type}/{os.path.basename(file_name.replace(' ','0'))}"
+        file_path_S3 = f"V{VERSION}/{type}/{os.path.basename(file_name)}"
         s3.upload_file(file_name,S3_BUCKET,file_path_S3)
         os.remove(file)
-        links.append(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/{file_path_S3}")
+        links.append(s3.generate_presigned_url('get_object', ExpiresIn=0, Params={'Bucket': S3_BUCKET, 'Key': os.path.basename(file_name)}))
 
     return links
 
