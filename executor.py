@@ -109,13 +109,9 @@ def get_files_list(url):
     
     s3_resource = boto3.resource('s3')
     bucket = s3_resource.Bucket(S3_BUCKET)
-    s3_folder = "V{VERSION-1}/HTMLFiles"
-    response = s3.list_objects_v2(
-            Bucket=S3_BUCKET,
-            Prefix ='DIR1/DIR2')
-    print(response)
+    s3_folder = f"V{VERSION-1}/Acte"
+    
     for obj in bucket.objects.filter(Prefix=s3_folder):
-        print(obj.key)
         if obj.key[-1] == '/':
             continue
         files_list[obj.key] = f"{url}/{s3_folder}/{obj.key}"
