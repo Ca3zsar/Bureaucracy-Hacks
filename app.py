@@ -75,7 +75,7 @@ def get_files():
     if LOADED_DATA == 1:
         return jsonify(FILES_TO_RETURN), 200
     else:
-        if not FILES_TO_RETURN:
+        if FILES_TO_RETURN == '':
             FILES_TO_RETURN = get_files_list("https://bureaucracy-files.s3.eu-central-1.amazonaws.com") 
     return jsonify(FILES_TO_RETURN),200
 
