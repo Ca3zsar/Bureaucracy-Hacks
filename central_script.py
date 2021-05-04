@@ -3,7 +3,7 @@ import check_diff
 import os
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
-               "Primarie"]
+               "Primarie", "SalubrIS"]
 
 def import_modules():
     modules = []

@@ -22,19 +22,25 @@ paperLinks = ["https://salubris.ro/wp-content/uploads/2020/05/aviz-principiu.pdf
               "https://salubris.ro/wp-content/uploads/2021/04/Formular-de-%C3%AEnc%C4%83rcare-%E2%80%93-desc%C4%83rcare-de%C5%9Feuri-nepericuloase.pdf"
               ]
 
-filesName = ["Aviz-principiu",
-             "CONTRACT-persoane-fizice",
-             "CONTRACT-asociatii",
-             "CONTRACT-agenti-economici-institutii",
-             "Cerere-Colectare-Transport-si-Depozitare-Deseuri-inerte",
-             "Cerere-Depozitare-deseuri-inerte",
-             "Formular-de-incarcare-descarcare-deseuri-nepericuloase"
-             ]
+# filesName = ["Aviz-principiu",
+#              "CONTRACT-persoane-fizice",
+#              "CONTRACT-asociatii",
+#              "CONTRACT-agenti-economici-institutii",
+#              "Cerere-Colectare-Transport-si-Depozitare-Deseuri-inerte",
+#              "Cerere-Depozitare-deseuri-inerte",
+#              "Formular-de-incarcare-descarcare-deseuri-nepericuloase"
+#              ]
 
-# os.path.dirname(__file__)
-director = f"Content"
-HTMLFiles = f"HTMLFiles"
-acte = f"Acte"
+#os.path.dirname(__file__)
+
+director = f"{os.path.dirname(__file__)}/Content"
+HTMLFiles = f"{os.path.dirname(__file__)}/HTMLFiles"
+acte = f"{os.path.dirname(__file__)}/Acte"
+
+
+# director = f"Content"
+# HTMLFiles = f"HTMLFiles"
+# acte = f"Acte"
 
 
 def deletingFiles():
@@ -52,7 +58,7 @@ def makeDirectors():
     os.mkdir(acte)
 
 
-def getContent():
+def getContent():   # get html and txt from page
     for i in follows:
         for j in sufixes:
             page = requests.get(baseURL + i + j)
@@ -76,7 +82,8 @@ def downloadForms():
     index = 0
     for i in paperLinks:
         response = urllib.request.urlopen(i)
-        fileName = f"{filesName[index]}.pdf"
+        # fileName = f"{filesName[index]}.pdf" 
+        fileName = f"Salubris_Anexa{index}.pdf" 
         index += 1
 
         file = open(f"{fileName}", "wb")
