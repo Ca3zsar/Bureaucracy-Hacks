@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ACORDAREA DISPENSEI DE VARSTA",
-  "cases": ["Pentru acordarea dispensei de varsta"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Acordarea dispensei de varsta",
+  "cases": [
+    "Pentru acordarea dispensei de varsta"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +22,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

@@ -2,16 +2,20 @@
   "institution": "Primaria Iasi",
   "process": "Serviciul Autorizare Constructii",
   "cases": [
-    "Acte necesare obținerii certificatului de urbanism",
-    "Acte necesare obținerii certificatului de urbanism in cazul lucrarilor complexe",
-    "Alte documente in vederea reducerii timpului"
+    "In cazul obținerii certificatului de urbanism",
+    "In cazul obținerii certificatului de urbanism in cazul lucrarilor complexe",
+    "In vederea reducerii timpului"
   ],
   "departaments": [
     "DIRECTIA ARHITECTURA SI URBANISM",
     "DIRECTIA ARHITECTURA SI URBANISM",
     "DIRECTIA ARHITECTURA SI URBANISM"
   ],
-  "forms": [[" "], [" "], [" "]],
+  "forms": [
+    [],
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -45,7 +49,7 @@
       "mportant: Conform art.33 din Ordinul MDRL nr. 839/2009 pentru aprobarea normelor metodologice de aplicare a Legii 50/1991 privind autorizarea lucrărilor de construcții, solicitantul are obligația de a anexa la cererea pentru emiterea certificatului de urbanism documentele de plată a taxelor, comunicate anterior de emitent. Dovadă achitării taxelor se face prin prezentarea, în copie, a documentelor de plata.",
       "Conform Legii 50/1991 privind autorizarea lucrărilor de construcții, art.7*), alin (1^2), se înregistrează doar documentatiile complete."
     ],
-    [""],
-    [""]
+    [],
+    []
   ]
 }

@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "Serviciul Constatare Impunere și Executare Creanțe Bugetare Persoane Juridice- Biroul Constatare Impunere Persoane Juridice",
-  "cases": ["TEREN - DECLARAREA/ÎNREGISTRAREA ÎN EVIDENȚA FISCALĂ"],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "cases": [
+    "Teren - declararea/înregistrarea în evidența fiscală"
+  ],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

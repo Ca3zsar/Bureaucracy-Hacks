@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AVIZARE PROCES VERBAL DE VECINATATE",
-  "cases": ["Pentru avizare proces de verbal de vecinatate"],
-  "departaments": ["SERVICIUL G.I.S"],
-  "forms": [[" "]],
+  "process": "Avizare proces verbal de vecinatate",
+  "cases": [
+    "Pentru avizare proces de verbal de vecinatate"
+  ],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

@@ -4,8 +4,12 @@
   "cases": [
     "AVIZUL PENTRU RESPECTAREA PLANULUI DE PREVENIRE ȘI REDUCERE A POLUĂRII PE ȘANTIER"
   ],
-  "departaments": ["DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"],
-  "forms": [[" "]],
+  "departaments": [
+    "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

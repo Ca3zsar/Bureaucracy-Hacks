@@ -1,25 +1,25 @@
 {
-    "institution":"ANAF",
-    "process":"Declarare Derogatoriu",
-    "cases":[
+    "institution": "ANAF",
+    "process": "Declarare Derogatoriu",
+    "cases": [
         "Pentru declararea derogatoriului"
     ],
-    "departaments":[
+    "departaments": [
         "Biroul Registru Contribuabili Declaratii Fiscale"
     ],
-    "forms":[
+    "forms": [
         [
             "Adresa de aprobare sau comunicare a neaprobarii solicitarii"
         ]
     ],
-    "necessary":[
+    "necessary": [
         [
             [
                 "cerere pentru aprobarea regiumului derogatoriu de depunere a declaratiilor si deconturilor privind obligatiile de plata la bugetul de stat"
             ]
         ]
     ],
-    "generalInfo":[
+    "generalInfo": [
         [
             "Circuit documente:\n - documentele se depun la registratura Administratiei Finantelor Publice a Municipiului Iasi, iar adresa oficiala, in cazul aprobarii, cuprinzand perioada aprobata si conditiile impuse, se transmite solicitantului prin posta. \nTermen de solutionare: 30 de zile de la data depunerii cererii. \nPrecizare:In perioada regimului derogatoriu contribuabilul are obligatia depunerii situatiilor financiare anuale si a raportarilor financiare semestriale sau a declaratiilor de inactivitate (in cazul in care agentul economic nu a avut niciodata activitate)precum si a declaratiilor 100 si 300 anual."
         ]

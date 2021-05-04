@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AVIZUL GIS A DOCUMENTATIEI DE URBANISM",
-  "cases": ["Pentru avizul GIS a documentatiei de urbanism"],
-  "departaments": ["SERVICIUL G.I.S"],
-  "forms": [[" "]],
+  "process": "Avizul gis a documentatiei de urbanism",
+  "cases": [
+    "Pentru avizul GIS a documentatiei de urbanism"
+  ],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +22,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

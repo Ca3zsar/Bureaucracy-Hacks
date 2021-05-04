@@ -1,34 +1,39 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Anchetă socială solicitată la internarea în centre de îngrijire și asistență medico-socială",
-    "cases": ["Anchetă socială solicitată la internarea în centre de îngrijire și asistență medico-socială"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Anchetă socială solicitată la internarea în centre de îngrijire și asistență medico-socială",
+  "cases": [
+    "Anchetă socială solicitată la internarea în centre de îngrijire și asistență medico-socială"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-            "Cererea persoanei/reprezentantului legal (dacă este cazul)",
-            "Copie după actul de identitate",
-            "Certificatul de naştere, de căsătorie sau de deces al apărţinătorului",
-            "Copie după documentul care atestă ȋncadrarea ȋn grad de handicap",
-            "Documente doveditoare ale veniturilor (cupon pensie/ adeverinţă venit)",
-            "Documente doveditoare ale situaţiei locative",
-            "Investigaţii paraclinice",
-            "Angajament de plată de principiu (pentru persoanele care au venituri sau pentru membrii familiilor acestora)",
-            "Adeverinţe de venit pentru membrii de familie ȋn vederea efectuării de către aceştia a co-plăţii pentru persoana cu dizabilităţi",
-            "Documentul care atestă reprezentarea legală (unde este cazul)",
-            "Fişa de Evaluare socio-medicală geriatrică/Grila de Evaluare a persoanelor vârstnice",
-            "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Cererea persoanei/reprezentantului legal (dacă este cazul)",
+        "Copie după actul de identitate",
+        "Certificatul de naştere, de căsătorie sau de deces al apărţinătorului",
+        "Copie după documentul care atestă ȋncadrarea ȋn grad de handicap",
+        "Documente doveditoare ale veniturilor (cupon pensie/ adeverinţă venit)",
+        "Documente doveditoare ale situaţiei locative",
+        "Investigaţii paraclinice",
+        "Angajament de plată de principiu (pentru persoanele care au venituri sau pentru membrii familiilor acestora)",
+        "Adeverinţe de venit pentru membrii de familie ȋn vederea efectuării de către aceştia a co-plăţii pentru persoana cu dizabilităţi",
+        "Documentul care atestă reprezentarea legală (unde este cazul)",
+        "Fişa de Evaluare socio-medicală geriatrică/Grila de Evaluare a persoanelor vârstnice",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        "În conformitate cu prevederile art. 152 Noul Cod Civil, \"tutorele este dator să prezinte anual instanţei de tutelă o dare de seamă despre modul cum s-a ȋngrijit de minor/interzis, precum şi despre administrarea bunurilor acestuia\""
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "În conformitate cu prevederile art. 152 Noul Cod Civil, \"tutorele este dator să prezinte anual instanţei de tutelă o dare de seamă despre modul cum s-a ȋngrijit de minor/interzis, precum şi despre administrarea bunurilor acestuia\""
+    ]
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

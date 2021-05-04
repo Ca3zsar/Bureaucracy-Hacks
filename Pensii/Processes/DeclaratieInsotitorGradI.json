@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Beneficiere insotitor/indemnizatie lunara persoane cu grad I invaliditate",
-	"cases": ["Declaratie pentru beneficierea de insotitor/indemnizatie lunara persoane cu grad I invaliditate"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Declaratie insotitor grad I invaliditate"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "decinsotgradI" ]
+	"cases": [
+		"Declaratie pentru beneficierea de insotitor/indemnizatie lunara persoane cu grad I invaliditate"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Declaratie insotitor grad I invaliditate"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"decinsotgradI"
+	]
 }

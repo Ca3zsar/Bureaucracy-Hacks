@@ -4,17 +4,27 @@
   "cases": [
     "Pentru Pastrare a permisului de conducere eliberat de o autoritate straina la serviciul rutier pe raza caruia a fost savarsita fapta"
   ],
-  "departaments": ["Serviciul Rutier"],
+  "departaments": [
+    "Serviciul Rutier"
+  ],
   "forms": [
     [
       "Pastrare a permisului de conducere eliberat de o autoritate straina la serviciul rutier pe raza caruia a fost savarsita fapta"
     ]
   ],
-  "necessary": [[["Cerere tip"]]],
+  "necessary": [
+    [
+      [
+        "Cerere tip"
+      ]
+    ]
+  ],
   "generalInfo": [
     [
       "Potrivit normei invocate, despre această posibilitate titularul permisului de conducere va fi informat odată cu comunicarea suspendării exercitării dreptului de a conduce.De asemenea, cererea se soluţionează de către şeful serviciului rutier pe raza căruia a fost săvârşită fapta, care va proceda la restituirea documentului la expirarea perioadei de suspendare."
     ]
   ],
-  "files": ["politie_rutiera_Anexa4"]
+  "files": [
+    "politie_rutiera_Anexa4"
+  ]
 }

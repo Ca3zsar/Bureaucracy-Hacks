@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AUTORIZAŢIE DE FUNCŢIONARE PENTRU SERVICII FUNERARE",
-  "cases": ["Pentru autorizatie de functionare pentru servicii funerare"],
-  "departaments": ["Direcția Exploatare Patrimoniu"],
-  "forms": [[" "]],
+  "process": "Autorizaţie de funcţionare pentru servicii funerare",
+  "cases": [
+    "Pentru autorizatie de functionare pentru servicii funerare"
+  ],
+  "departaments": [
+    "Direcția Exploatare Patrimoniu"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

@@ -12,12 +12,20 @@
     "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi",
     "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi",
     "Biroul de gestiune Registru contribuabili, monitorizare declaratii fiscale si bilanturi"
-],
+  ],
   "forms": [
-      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
-      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
-      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"],
-      ["Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"]
+    [
+      "Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"
+    ],
+    [
+      "Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"
+    ],
+    [
+      "Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"
+    ],
+    [
+      "Inregistrarea ca platitor de taxa pe valoarea adaugata a persoanelor fizice care nu au calitatea de comerciant"
+    ]
   ],
   "necessary": [
     [
@@ -52,16 +60,16 @@
   ],
   "generalInfo": [
     [
-        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+      "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
     ],
     [
-        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+      "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
     ],
     [
-        "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
+      "Circuit documente:\nDocumentele se depun la camera 1103, iar certificatul de inregistrare fiscala seelibereaza, din acelasi loc, pe baza declaratiei.\nTermen de solutionare: 15 zile de la data depunerii declaratiei."
     ],
     [
-        "Termen de solutionare: 24 de ore de la data depunerii declaratiei."
+      "Termen de solutionare: 24 de ore de la data depunerii declaratiei."
     ]
   ]
 }

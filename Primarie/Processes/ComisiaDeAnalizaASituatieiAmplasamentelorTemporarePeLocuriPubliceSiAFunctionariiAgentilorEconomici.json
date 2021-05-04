@@ -2,16 +2,16 @@
   "institution": "Primaria Iasi",
   "process": "Comisia de analiza a situatiei amplasamentelor temporare pe locuri publice si a functionarii agentilor economici",
   "cases": [
-    "CERERE TIP AVIZ/APROBARE",
-    "CERERE TIP ACORD JOCURI DE ARTIFICII",
-    "AVIZ PIEȚE - BAZAR",
-    "CONTRACT FLORI",
-    "AVIZ PUNCT DE LUCRU",
-    "CONTRACT FRIGIDER - AUTOMAT",
-    "CONTRACT TERASA",
-    "CONTRACT STRUCTURI DE VANZARE",
-    "AVIZ EVENIMENTE SPECIALE",
-    "AVIZ PARC DE DISTRACȚII"
+    "Cerere tip aviz/aprobare",
+    "Cerere tip acord jocuri de artificii",
+    "Aviz piețe - bazar",
+    "Contract flori",
+    "Aviz punct de lucru",
+    "Contract frigider - automat",
+    "Contract terasa",
+    "Contract structuri de vanzare",
+    "Aviz evenimente speciale",
+    "Aviz parc de distracții"
   ],
   "departaments": [
     "Direcția Exploatare Patrimoniu",
@@ -26,16 +26,16 @@
     "Direcția Exploatare Patrimoniu"
   ],
   "forms": [
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "],
-    [" "]
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
   ],
   "necessary": [
     [
@@ -133,5 +133,16 @@
       ]
     ]
   ],
-  "generalInfo": [[""], [""], [""], [""], [""], [""], [""], [""], [""], [""]]
+  "generalInfo": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
 }

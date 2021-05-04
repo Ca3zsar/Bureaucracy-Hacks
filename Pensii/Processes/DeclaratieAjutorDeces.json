@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Declaratie ajutor de deces",
-	"cases": ["Pentru declararea ingrijirii persoanei decedate"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Declaratie ajutor de deces"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "decajdec" ]
+	"cases": [
+		"Pentru declararea ingrijirii persoanei decedate"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Declaratie ajutor de deces"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"decajdec"
+	]
 }

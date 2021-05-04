@@ -1,14 +1,30 @@
 {
   "institution": "Inspectoratul de Politie Judetean Iasi",
   "process": "Radiere armă letală/neletală",
-  "cases": ["Pentru radiere armă letală/neletală"],
-  "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-  "forms": [["radiere armă letală/neletală"]],
-  "necessary": [[["Cerere pentru radiere armă letală/neletală"]]],
+  "cases": [
+    "Pentru radiere armă letală/neletală"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
+    [
+      "radiere armă letală/neletală"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru radiere armă letală/neletală"
+      ]
+    ]
+  ],
   "generalInfo": [
     [
       "În termen de 10 zile de la data înstrăinării armei letale/neletale titularul va solicita radierea armei înstrăinate din permis la structura teritorială arme, explozivi şi substanţe periculoase, competentă cu privire la domiciliul/reşedinţa solicitantului."
     ]
   ],
-  "files": ["arme_explozivi_Anexa12.xls"]
+  "files": [
+    "arme_explozivi_Anexa12.xls"
+  ]
 }

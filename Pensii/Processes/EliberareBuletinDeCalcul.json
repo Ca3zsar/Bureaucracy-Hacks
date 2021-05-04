@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Eliberarea buletinului de calcul",
-	"cases": ["Pentru eliberarea buletinului de calcul"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere eliberare buletin de calcul"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerbulcalcul" ]
+	"cases": [
+		"Pentru eliberarea buletinului de calcul"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere eliberare buletin de calcul"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerbulcalcul"
+	]
 }

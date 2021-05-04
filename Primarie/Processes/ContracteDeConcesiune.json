@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CONTRACTE DE CONCESIUNE",
-  "cases": ["Pentru contracte de concesiune"],
-  "departaments": ["SECRETAR MUNICIPIUL IASI"],
-  "forms": [[" "]],
+  "process": "Contracte de concesiune",
+  "cases": [
+    "Pentru contracte de concesiune"
+  ],
+  "departaments": [
+    "Secretar municipiul iasi"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -20,5 +26,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

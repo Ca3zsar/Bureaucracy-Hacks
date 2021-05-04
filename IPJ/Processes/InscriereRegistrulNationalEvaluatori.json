@@ -1,17 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Inscriere in registrul national al evaluatorilor de risc la securitatea fizica",
-    "cases": [
-      "Pentru Inscriere in registrul national al evaluatorilor de risc la securitatea fizica"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Inscriere in registrul national al evaluatorilor de risc la securitatea fizica",
+  "cases": [
+    "Pentru Inscriere in registrul national al evaluatorilor de risc la securitatea fizica"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Inscriere in registrul national al evaluatorilor de risc la securitatea fizica"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Inscriere in registrul national al evaluatorilor de risc la securitatea fizica"
+        "Anexa22"
       ]
-    ],
-    "necessary": [[["Anexa22"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa22"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa22"
+  ]
+}

@@ -1,44 +1,43 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "ACTE NECESARE-Schimbare domiciliul din străinătate în România",
-    "departaments": [
-        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"
-    ],
     "cases": [
-        "In cazul persoanelor necasatorite ",  
+        "In cazul persoanelor necasatorite ",
         "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
+    ],
+    "departaments": [
+        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura",
+        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"
     ],
     "forms": [
         [
-            "dovada adresei de domiciliu"
+            "Dovada adresei de domiciliu"
         ],
-        [ 
-            "dovada adresei de domiciliu"
+        [
+            "Dovada adresei de domiciliu"
         ]
     ],
     "necessary": [
         [
             [
-               "Cererea pentru eliberarea actului de identitate:", 
-               "Paşaportul românesc, valabil sau expirat, ori certificatul constatator privind dobândirea cetăţeniei române, emis de Ministerul Justiţiei sau de misiunile diplomatice şi oficiile consulare ale României din străinătate (original si fotocopie); pentru   paşaport sunt necesare fila informatizată şi filele destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră (original şi fotocopie)",
-               "Certificatul de naştere(original şi fotocopie) " , 
-               "Actul de identitate şi/sau paşaportul, eliberate de autorităţile străine; pentru paşaport sunt necesare copii ale filei   informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră",
-               "Documentul cu care se face dovada adresei de domiciliu " ,
-               "Chitanţa reprezentând contravaloarea cărţii de identitate (7 lei)"
+                "Cererea pentru eliberarea actului de identitate:",
+                "Paşaportul românesc, valabil sau expirat, ori certificatul constatator privind dobândirea cetăţeniei române, emis de Ministerul Justiţiei sau de misiunile diplomatice şi oficiile consulare ale României din străinătate (original si fotocopie); pentru   paşaport sunt necesare fila informatizată şi filele destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră (original şi fotocopie)",
+                "Certificatul de naştere(original şi fotocopie) ",
+                "Actul de identitate şi/sau paşaportul, eliberate de autorităţile străine; pentru paşaport sunt necesare copii ale filei   informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră",
+                "Documentul cu care se face dovada adresei de domiciliu ",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate (7 lei)"
             ],
             [
-                "Cererea pentru eliberarea actului de identitate:", 
+                "Cererea pentru eliberarea actului de identitate:",
                 "Paşaportul românesc, valabil sau expirat, ori certificatul constatator privind dobândirea cetăţeniei române, emis de Ministerul Justiţiei sau de misiunile diplomatice şi oficiile consulare ale României din străinătate (original si fotocopie); pentru   paşaport sunt necesare fila informatizată şi filele destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră (original şi fotocopie)",
-                "Certificatul de naştere(original şi fotocopie) " , 
+                "Certificatul de naştere(original şi fotocopie) ",
                 "Actul de identitate şi/sau paşaportul, eliberate de autorităţile străine; pentru paşaport sunt necesare copii ale filei   informatizate şi ale filelor destinate aplicării vizelor şi ştampilelor autorităţilor de frontieră",
-                "Documentul cu care se face dovada adresei de domiciliu " ,
+                "Documentul cu care se face dovada adresei de domiciliu ",
                 "Chitanţa reprezentând contravaloarea cărţii de identitate (7 lei)",
                 "Certificatul de căsătorie în cazul persoanelor căsătorite sau al soţului supravieţuitor (original şi fotocopie)",
                 "Hotărârea de divorţ definitivă şi irevocabilă / Certificat de divorţ (original şi fotocopie)",
                 "Certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor (original şi fotocopie)",
                 "Certificatele de naştere ale copiilor sub 14 ani aflaţi în îngrijirea solicitantului şi care locuiesc împreună cu acesta (original şi fotocopie)"
-
- 
             ]
         ]
     ],
@@ -52,10 +51,10 @@
     ],
     "prices": [
         [
-            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+            "Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
         ],
-        [ 
-            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+        [
+            "Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
         ]
     ],
     "files": [

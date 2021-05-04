@@ -22,7 +22,9 @@
       "Adeverinta de Atestare Fiscala pentru Punctele de Lucru",
       "Certificat fiscal persoane juridice pentru transfer sold din trezorerie"
     ],
-    ["Adeverinta de Atestare Fiscala pentru Punctele de Lucru"]
+    [
+      "Adeverinta de Atestare Fiscala pentru Punctele de Lucru"
+    ]
   ],
   "necessary": [
     [
@@ -84,18 +86,17 @@
       "Circuit documente:\n Documentele se verifica in cadrul serviciului, se depun la registratura AFP contribuabili mijlocii, etajul 6, camera 1601, iar adeverinta se ridica din acelasi loc, pe baza numarului de inregistrare a cererii.\n Termen de solutionare: 5 zile lucratoare de la data depunerii cererii."
     ]
   ],
-  "prices":
-  [
-      [
-          "2 timbre a cate 4 lei = 8 lei",
-          "2 timbre a cate 1 leu = 2 lei "
-      ],
-      [
-        "2 timbre a cate 4 lei = 8 lei",
-          "2 timbre a cate 1 leu = 2 lei "
-      ],
-      [
-          "1 timbru fiscal de 2 lei = 2 lei"
-      ]
+  "prices": [
+    [
+      "2 timbre a cate 4 lei = 8 lei",
+      "2 timbre a cate 1 leu = 2 lei "
+    ],
+    [
+      "2 timbre a cate 4 lei = 8 lei",
+      "2 timbre a cate 1 leu = 2 lei "
+    ],
+    [
+      "1 timbru fiscal de 2 lei = 2 lei"
+    ]
   ]
 }

@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Recalcularea pensiei",
-	"cases": ["Pentru recalcularea pensiei"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere pentru recalcularea pensiei"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerrecpensien" ]
+	"cases": [
+		"Pentru recalcularea pensiei"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere pentru recalcularea pensiei"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerrecpensien"
+	]
 }

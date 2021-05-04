@@ -1,56 +1,34 @@
 {
-    "institution": "ANAF",
-    "process": " INCETARE STARE DE INACTIVITATE",
-    "departaments": [
-      "Compartiment Selectare dosare si programe control,coordonare si sinteza activitatii de inspectie",
-      "Biroul Coordonare ,programare,analiza si indrumare pentru activitatea de inspectie fiscala "
-    ],
-    "cases": [
-      "In cazul contribuabililor inregistrati la AFP municipiul Iasi",
-      "In cazul contribuabililor inregistrari la AFP comunala Iasi"
-    ],
-    "forms": [
-      [
-        "Lista contribuabililor reactivati incepand cu data de…( publicata in Monitorul Oficial ) "
-      ],
-      [
-        ""
-      ]
-    ],
-    "necessary": [
-      [
-        [
-          "cerere de reactivare intocmita de reprezentantul legal al contribuabilului. "
-        ]
-      ],
-      [
-        [
-          ""
-        ]
-      ]
-    ],
-    "generalInfo": [
-      [
-        
-        "Circuit documente:\n cererea se depune la registratura organului fiscal competent\nCircuit documente:\n dupa programarea inspectiei fiscale si efectuarea controlului, organul de inspectii intocmeste referatul cu propunerile de reactivare"
-      ],
-      [
-        ""
-      ]
-    ],
-    "prices":
+  "institution": "ANAF",
+  "process": "Incetare stare de inactivitate",
+  "departaments": [
+    "Compartiment Selectare dosare si programe control,coordonare si sinteza activitatii de inspectie",
+    "Biroul Coordonare ,programare,analiza si indrumare pentru activitatea de inspectie fiscala "
+  ],
+  "cases": [
+    "In cazul contribuabililor inregistrati la AFP municipiul Iasi",
+    "In cazul contribuabililor inregistrari la AFP comunala Iasi"
+  ],
+  "forms": [
     [
-        [
-            "2 timbre a cate 4 lei = 8 lei",
-            "2 timbre a cate 1 leu = 2 lei "
-        ],
-        [
-          "2 timbre a cate 4 lei = 8 lei",
-            "2 timbre a cate 1 leu = 2 lei "
-        ],
-        [
-            "1 timbru fiscal de 2 lei = 2 lei"
-        ]
+      "Lista contribuabililor reactivati incepand cu data de…( publicata in Monitorul Oficial ) "
     ],
-    "files":[]
-  }
+    []
+  ],
+  "necessary": [
+    [
+      [
+        "cerere de reactivare intocmita de reprezentantul legal al contribuabilului. "
+      ]
+    ],
+    [
+      []
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Circuit documente:\n cererea se depune la registratura organului fiscal competent\nCircuit documente:\n dupa programarea inspectiei fiscale si efectuarea controlului, organul de inspectii intocmeste referatul cu propunerile de reactivare"
+    ],
+    []
+  ]
+}

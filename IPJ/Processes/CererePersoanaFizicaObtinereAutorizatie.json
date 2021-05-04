@@ -4,7 +4,9 @@
   "cases": [
     "Pentru obţinerea autorizaţiei de deţinere a detectoarelor de metale pentru persoane fizice"
   ],
-  "departaments": ["Inspectoratul de Politie Judetean Iasi"],
+  "departaments": [
+    "Inspectoratul de Politie Judetean Iasi"
+  ],
   "forms": [
     [
       "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana fizica"
@@ -26,6 +28,12 @@
       "Cererea se soluţionează de către unitatea de poliţie pe raza căreia domiciliază sau îşi are reşedinţa solicitantul, în termen de 10 zile de la depunerea documentaţiei complete"
     ]
   ],
-  "prices": [["Taxa pentru autorizatie - 10 lei"]],
-  "files": ["detectoare_metal_Anexa1"]
+  "prices": [
+    [
+      "Taxa pentru autorizatie - 10 lei"
+    ]
+  ],
+  "files": [
+    "detectoare_metal_Anexa1"
+  ]
 }

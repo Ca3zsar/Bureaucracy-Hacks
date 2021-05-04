@@ -1,12 +1,18 @@
 {
   "institution": "Primaria Iasi",
   "process": "PARTICIPAREA LA LICITATII DE INCHIRIERE DE SPATII",
-  "cases": ["PERSOANE JURIDICE", "PERSOANE FIZICE"],
+  "cases": [
+    "Persoane juridice",
+    "Persoane fizice"
+  ],
   "departaments": [
     "Direcția Exploatare Patrimoniu",
     "Direcția Exploatare Patrimoniu"
   ],
-  "forms": [[" "], [" "]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -31,5 +37,8 @@
       ]
     ]
   ],
-  "generalInfo": [[""],[""]]
+  "generalInfo": [
+    [],
+    []
+  ]
 }

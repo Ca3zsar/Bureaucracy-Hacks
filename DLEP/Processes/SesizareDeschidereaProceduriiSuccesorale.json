@@ -1,35 +1,30 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Sesizare pentru deschiderea procedurii succesorale",
-    "departaments": [
-        "Directia locala de evidenta a persoanelor"
-    ],
     "cases": [
         "Pentru sesizare pentru deschiderea procedurii succesorale"
     ],
+    "departaments": [
+        "Directia locala de evidenta a persoanelor"
+    ],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [
             [
-              " Certificat deces în original şi copie xerox;",
-              " Act identitate declarant (moştenitor direct) în original şi copie xerox;",
-              "Certificat de naștere declarant în original și copie xerox;",
-              "Certificat de căsătorie declarant în original și copie xerox (dacă este cazul)",
-              "Testament în original şi copie xerox (dacă este cazul);",
-              "Taxa de 13 lei, achitată la casieria Stării Civile."
-
-
-
+                " Certificat deces în original şi copie xerox;",
+                " Act identitate declarant (moştenitor direct) în original şi copie xerox;",
+                "Certificat de naștere declarant în original și copie xerox;",
+                "Certificat de căsătorie declarant în original și copie xerox (dacă este cazul)",
+                "Testament în original şi copie xerox (dacă este cazul);",
+                "Taxa de 13 lei, achitată la casieria Stării Civile."
             ]
         ]
     ],
     "generalInfo": [
         [
-            "Succesiunea se deschide la ultimul domiciliu al defunctului. \n Moştenitorul/împuternicitul trebuie să cunoască numele, prenumele şi adresa tuturor moştenitorilor, precum şi bunurile care aparţin defunctului (conţinutul masei succesorale). \n În cazul în care persoana îndreptăţită nu se poate prezenta: Procură specială în original;\n Act identitate împuternicit în original şi copie xerox ."  
+            "Succesiunea se deschide la ultimul domiciliu al defunctului. \n Moştenitorul/împuternicitul trebuie să cunoască numele, prenumele şi adresa tuturor moştenitorilor, precum şi bunurile care aparţin defunctului (conţinutul masei succesorale). \n În cazul în care persoana îndreptăţită nu se poate prezenta: Procură specială în original;\n Act identitate împuternicit în original şi copie xerox ."
         ]
     ],
     "prices": [

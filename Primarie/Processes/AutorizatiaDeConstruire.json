@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AUTORIZATIA DE CONSTRUIRE",
-  "cases": ["Pentru autorizatia de construite"],
-  "departaments": ["DIRECTIA ARHITECTURA SI URBANISM"],
-  "forms": [[" "]],
+  "process": "Autorizatia de construire",
+  "cases": [
+    "Pentru autorizatia de construite"
+  ],
+  "departaments": [
+    "Directia arhitectura si urbanism"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -20,5 +26,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

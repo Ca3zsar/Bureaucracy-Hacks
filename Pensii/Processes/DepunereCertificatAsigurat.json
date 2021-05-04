@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Depunere certificat privind cariera de asigurat",
-	"cases": ["Pentru depunerea certificatului privind cariera de asigurat"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Certificat privind cariera de asigurat"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "form_E207" ]
+	"cases": [
+		"Pentru depunerea certificatului privind cariera de asigurat"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Certificat privind cariera de asigurat"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"form_E207"
+	]
 }

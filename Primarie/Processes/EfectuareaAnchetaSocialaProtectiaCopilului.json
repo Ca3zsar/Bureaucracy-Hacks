@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "EFECTUAREA ANCHETEI SOCIALE NECESARA LA COMISIA PENTRU PROTECTIA DREPTURILOR COPILULUI",
+  "process": "Efectuarea anchetei sociale necesara la comisia pentru protectia drepturilor copilului",
   "cases": [
     "Pentru efectuarea anchetei sociale necesare la comisia pentru protectia drepturilor copilului"
   ],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

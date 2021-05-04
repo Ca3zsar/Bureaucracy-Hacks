@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Acordare pensie de invaliditate in Republica Moldova",
-	"cases": ["Pentru acordarea pensiei de invaliditate in Republica Moldova"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere pensie de invaliditate in Republica Moldova"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "form_ROMD204" ]
+	"cases": [
+		"Pentru acordarea pensiei de invaliditate in Republica Moldova"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere pensie de invaliditate in Republica Moldova"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"form_ROMD204"
+	]
 }

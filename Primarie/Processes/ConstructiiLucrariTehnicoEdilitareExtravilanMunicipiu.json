@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AVIZ CONSTRUCTII-LUCRARI TEHNICO-EDILITARE EXTRAVILAN MUNICIPIU",
+  "process": "Aviz constructii-lucrari tehnico-edilitare extravilan municipiu",
   "cases": [
     "Pentru aviz constructii - lucrari tehncio-edilitare extravilan municipiu"
   ],
-  "departaments": ["DIRECTIA ARHITECTURA SI URBANISM"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia arhitectura si urbanism"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -15,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

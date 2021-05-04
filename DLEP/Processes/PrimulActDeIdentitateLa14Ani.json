@@ -1,16 +1,14 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "ACTE NECESARE-Primul act de identitate la împlinirea vârstei de 14 ani",
-    "departaments": [
-        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
-    ],
     "cases": [
         "Pentru primul act de identitate la implinirea varstei de 14 ani"
     ],
+    "departaments": [
+        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
+    ],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [

@@ -1,27 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării",
-    "cases": [
-        "Pentru certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"
-    ],
-    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-    "forms": [
-      ["Certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere pentru certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"
-        ]
-      ]
-    ],
-    "generalInfo": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării",
+  "cases": [
+    "Pentru certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
     [
-        "În vederea procurării, deţinerii, portului şi folosirii armelor şi muniţiilor, persoanele fizice vor depune certificatul medical, în original şi în copie, eliberat de o unitate sanitară, publică sau privată, autorizată."      
+      "Certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"
     ]
-    ],
-    "files":[
-        "arme_explozivi_Anexa20.xls"
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru certificat medical pentru atestarea stării de sănătate, în vederea procurării, deținerii, portului și folosirii armelor și munițiilor letale sau neletale supuse autorizării"
+      ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "În vederea procurării, deţinerii, portului şi folosirii armelor şi muniţiilor, persoanele fizice vor depune certificatul medical, în original şi în copie, eliberat de o unitate sanitară, publică sau privată, autorizată."
+    ]
+  ],
+  "files": [
+    "arme_explozivi_Anexa20.xls"
+  ]
+}

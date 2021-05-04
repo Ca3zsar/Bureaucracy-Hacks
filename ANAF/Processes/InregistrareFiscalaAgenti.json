@@ -1,59 +1,58 @@
 {
-    "institution": "ANAF",
-    "process": "Inregistrarea fiscala a agentilor economici care nu au calitatea de comerciant",
-    "cases": [
-      "pentru asociatiile de proprietari",
-      "pentru persoanele juridice non profit"
+  "institution": "ANAF",
+  "process": "Inregistrarea fiscala a agentilor economici care nu au calitatea de comerciant",
+  "cases": [
+    "pentru asociatiile de proprietari",
+    "pentru persoanele juridice non profit"
+  ],
+  "departaments": [
+    "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
+    "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
+  ],
+  "forms": [
+    [
+      "Certificat de inregistrare fiscala (Cod 14.13.20.99)"
     ],
-    "departaments": [
-      "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi",
-      "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"  
-    ],
-    "forms": [
+    [
+      "Certificat de inregistrare fiscala (Cod 14.13.20.99)"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Certificat de inregistrare fiscala (Cod 14.13.20.99)"
-      ],
-      [
-        "Certificat de inregistrare fiscala (Cod 14.13.20.99)"
+        "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
+        "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
+        "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
+        "copie act de identitate reprezentant legal;",
+        "alte acte doveditoare, dupa caz:",
+        "copie autentificata statut;",
+        "proces verbal de constituire;",
+        "acord de asociere; ",
+        "hotarire judecatoreasca de infiintare;",
+        "dovada spatiu;",
+        "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari."
       ]
     ],
-    "necessary": [
-        [
-          [
-            "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
-            "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
-            "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
-            "copie act de identitate reprezentant legal;",
-            "alte acte doveditoare, dupa caz:",
-            "copie autentificata statut;" ,
-            "proces verbal de constituire;" ,
-            "acord de asociere; ",
-            "hotarire judecatoreasca de infiintare;",
-            "dovada spatiu;",
-            "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari."
-          ]
-        ],
-        [
-          [
-            "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
-            "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
-            "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
-            "copie act de identitate reprezentant legal;",
-            "alte acte doveditoare, dupa caz:",
-            "copie autentificata statut;",
-            "copie incheiere judecatoresaca de inscriere in registrul asociatiilor si fundatiilor.",
-            "dovada spatiu;",
-            "copie act de constituire"
-          ]
-        ]
-    ],
-    "generalInfo": [
+    [
       [
-        "Circuit documente:\n Documentele se inregistreaza la etajul 1, camera 1103, iar certificatul de inregistrare fiscala se ridica din acelasi loc, pe baza numarului de inregistrare a declaratiei.\n Termen de solutionare: 15 zile lucratoare de la data depunerii declaratiei"
-      ],
-      [
-        "Circuit documente:\n Documentele se inregistreaza la etajul 1, camera 1103, iar certificatul de inregistrare fiscala se ridica din acelasi loc, pe baza numarului de inregistrare a declaratiei.\n Termen de solutionare: 15 zile lucratoare de la data depunerii declaratiei"
+        "declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
+        "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
+        "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
+        "copie act de identitate reprezentant legal;",
+        "alte acte doveditoare, dupa caz:",
+        "copie autentificata statut;",
+        "copie incheiere judecatoresaca de inscriere in registrul asociatiilor si fundatiilor.",
+        "dovada spatiu;",
+        "copie act de constituire"
       ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Circuit documente:\n Documentele se inregistreaza la etajul 1, camera 1103, iar certificatul de inregistrare fiscala se ridica din acelasi loc, pe baza numarului de inregistrare a declaratiei.\n Termen de solutionare: 15 zile lucratoare de la data depunerii declaratiei"
+    ],
+    [
+      "Circuit documente:\n Documentele se inregistreaza la etajul 1, camera 1103, iar certificatul de inregistrare fiscala se ridica din acelasi loc, pe baza numarului de inregistrare a declaratiei.\n Termen de solutionare: 15 zile lucratoare de la data depunerii declaratiei"
+    ]
+  ]
 }
-  

@@ -1,27 +1,30 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Efectuarea anchetei sociale necesară la Comisia pentru Protecţia Copilului/Comisia de Orientare Şcolară şi Profesională",
-    "cases": ["Efectuarea anchetei sociale"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Efectuarea anchetei sociale necesară la Comisia pentru Protecţia Copilului/Comisia de Orientare Şcolară şi Profesională",
+  "cases": [
+    "Efectuarea anchetei sociale"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-          "Certificat de ȋncadrare ȋn grad de handicap din anul precedent (dacă este cazul) şi/ sau planul de abilitare/ reabilitare",
-          "Certificat medical cu diagnosticul cu care se va merge ȋn comisie (eliberat de medic specialist)",
-          "Acte de identitate ale părinţilor/ reprezentanţilor legali",
-          "Certificat de naştere al minorului",
-          "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Certificat de ȋncadrare ȋn grad de handicap din anul precedent (dacă este cazul) şi/ sau planul de abilitare/ reabilitare",
+        "Certificat medical cu diagnosticul cu care se va merge ȋn comisie (eliberat de medic specialist)",
+        "Acte de identitate ale părinţilor/ reprezentanţilor legali",
+        "Certificat de naştere al minorului",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        ""
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "CAMPANII PROMOŢIONALE, TÂRGURI, FESTIVALURI",
-  "cases": [" "],
-  "departaments": ["DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA"],
-  "forms": [["AVIZ CAMPANII PROMOŢIONALE, TÂRGURI, FESTIVALURI"]],
+  "cases": [],
+  "departaments": [
+    "DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA"
+  ],
+  "forms": [
+    [
+      "AVIZ CAMPANII PROMOŢIONALE, TÂRGURI, FESTIVALURI"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -13,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

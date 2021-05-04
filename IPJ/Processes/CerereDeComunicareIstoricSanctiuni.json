@@ -1,19 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice",
-    "cases": [
-      "Pentru Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice"
-    ],
-    "departaments": ["Serviciul Rutier"],
-    "forms": [
-      ["Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice"]
-    ],
-    "necessary": [[["Cerere tip"]]],
-    "generalInfo": [
-      [
-        "Cererea se soluţionează de către poliţia rutieră pe raza căreia titularul permisului de conducere îşi are domiciliul sau reşedinţa, potrivit evidenţei din aplicaţia informatică, în termen de 15 zile de la data înregistrării acesteia."
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice",
+  "cases": [
+    "Pentru Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice"
+  ],
+  "departaments": [
+    "Serviciul Rutier"
+  ],
+  "forms": [
+    [
+      "Comunicarea istoricului sanctiunilor la regimul circulatiei pe drumurile publice"
     ]
-    ],
-    "files": ["politie_rutiera_Anexa2"]
-  }
-  
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către poliţia rutieră pe raza căreia titularul permisului de conducere îşi are domiciliul sau reşedinţa, potrivit evidenţei din aplicaţia informatică, în termen de 15 zile de la data înregistrării acesteia."
+    ]
+  ],
+  "files": [
+    "politie_rutiera_Anexa2"
+  ]
+}

@@ -4,8 +4,12 @@
   "cases": [
     "Pentru declararea în evidența fiscală a mijloacelor de transport dobândite din stoc de marfă'"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -21,5 +25,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

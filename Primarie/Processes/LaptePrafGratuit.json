@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "LAPTE PRAF GRATUIT",
-  "cases": ["Pentru lapte praf gratuit"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru lapte praf gratuit"
+  ],
+  "departaments": [
+    "DIRECTIA DE ASISTENTA COMUNITARA"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -12,5 +18,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "INSTITUIREA TUTELEI MINORILOR",
-  "cases": ["Pentru instituire tutelei minorilor"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru instituire tutelei minorilor"
+  ],
+  "departaments": [
+    "DIRECTIA DE ASISTENTA COMUNITARA"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -21,5 +27,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

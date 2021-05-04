@@ -1,33 +1,36 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Eliberare Atestat Colectionar",
-    "cases": [
-      "Pentru eliberare de atestat colectionar"
-    ],
-    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-    "forms": [
-      ["Autorizare Procurare Prima Arma Letala/Neletala"]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere pentru eliberare atestat colectionar"
-        ]
-      ]
-    ],
-    "generalInfo": [
-      [
-          "Cererea se soluţionează în termen de 30 de zile în regim normal – cuantum taxă 100 lei sau în termen de 10 zile – cuantum taxă 300 lei."
-      ]
-    ],
-    "prices": [
-      [
-          "Pentru eliberare in 30 de zile - 100 de lei",
-          "Pentru eliberare in 10 zile - 300 de lei"
-      ]
-    ],
-    "files":[
-        "arme_explozivi_Anexa2.xls"
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare Atestat Colectionar",
+  "cases": [
+    "Pentru eliberare de atestat colectionar"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
+    [
+      "Autorizare Procurare Prima Arma Letala/Neletala"
     ]
-  }
-  
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru eliberare atestat colectionar"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează în termen de 30 de zile în regim normal – cuantum taxă 100 lei sau în termen de 10 zile – cuantum taxă 300 lei."
+    ]
+  ],
+  "prices": [
+    [
+      "Pentru eliberare in 30 de zile - 100 de lei",
+      "Pentru eliberare in 10 zile - 300 de lei"
+    ]
+  ],
+  "files": [
+    "arme_explozivi_Anexa2.xls"
+  ]
+}

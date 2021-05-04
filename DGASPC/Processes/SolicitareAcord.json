@@ -1,12 +1,18 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Solicitare Acord",
-  "cases": ["Asistent persoal", "Indemnizatie"],
+  "cases": [
+    "Asistent persoal",
+    "Indemnizatie"
+  ],
   "departaments": [
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie",
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[""], [""]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -14,16 +20,16 @@
       ]
     ],
     [
-      [""]
+      []
     ]
   ],
   "generalInfo": [
     [
       "Acordul privind protectia drepturilor persoanleor cu handicap pentru optiunile asistent persoal/indemnizatie"
     ],
-    [
-      ""
-    ]
+    []
   ],
-  "files": ["Solicitare acord"]
+  "files": [
+    "Solicitare acord"
+  ]
 }

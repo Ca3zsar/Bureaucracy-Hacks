@@ -1,12 +1,18 @@
 {
   "institution": "Primaria Iasi",
   "process": "INSTITUIREA CURATELEI GENERALE (pentru bolnavii care au capacitate de exercitiu sau pentru minori):",
-  "cases": ["PENTRU BOLNAVI", "PENTRU MINORI"],
-  "departaments": [
-    "DIRECTIA DE ASISTENTA COMUNITARA",
-    "DIRECTIA DE ASISTENTA COMUNITARA"
+  "cases": [
+    "Pentru bolnavi",
+    "Pentru minori"
   ],
-  "forms": [[""], [""]],
+  "departaments": [
+    "Directia de asistenta comunitara",
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -33,5 +39,8 @@
       ]
     ]
   ],
-  "generalInfo": [[""], [""]]
+  "generalInfo": [
+    [],
+    []
+  ]
 }

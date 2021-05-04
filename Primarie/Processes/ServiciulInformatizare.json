@@ -4,10 +4,22 @@
   "cases": [
     "INREGISTRAREA CA UTILIZATOR AL SISTEMULUI ELECTRONIC DE INCASARE A IMPOZITELOR SI TAXELOR LOCALE"
   ],
-  "departaments": ["DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"],
-  "forms": [[" "]],
-  "necessary": [
-    [["1. Cerere-tip", "2. copie CI/BI", "3. adresa e-mail (obligatoriu)"]]
+  "departaments": [
+    "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"
   ],
-  "generalInfo": [[" "]]
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
+      [
+        "1. Cerere-tip",
+        "2. copie CI/BI",
+        "3. adresa e-mail (obligatoriu)"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    []
+  ]
 }

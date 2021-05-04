@@ -6,11 +6,21 @@
     "Persoane ce au realizat venituri din activitati independente",
     "Persoane ce au avut / au calitatea de elev/student"
   ],
-  "departament": ["Alocatii si Indemnizatii", "Alocatii si Indemnizatii", "Alocatii si Indemnizatii"],
+  "departament": [
+    "Alocatii si Indemnizatii",
+    "Alocatii si Indemnizatii",
+    "Alocatii si Indemnizatii"
+  ],
   "forms": [
-    ["Acordarea indemnizatiei de crestere a copilului"],
-    ["Acordarea indemnizatiei de crestere a copilului"],
-    ["Acordarea indemnizatiei de crestere a copilului"]
+    [
+      "Acordarea indemnizatiei de crestere a copilului"
+    ],
+    [
+      "Acordarea indemnizatiei de crestere a copilului"
+    ],
+    [
+      "Acordarea indemnizatiei de crestere a copilului"
+    ]
   ],
   "necessary": [
     [
@@ -66,5 +76,4 @@
     "Notificare_date_caracter_personal_indemnizatie_crestere_copil_stimulent",
     "Adeverinta_model_2016"
   ]
-
 }

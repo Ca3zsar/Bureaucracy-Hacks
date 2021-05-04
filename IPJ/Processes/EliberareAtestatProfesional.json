@@ -1,17 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Eliberare atestat profesiona - Ocupatia Agent de Securitate",
-    "cases": [
-      "Pentru Eliberare atestat profesiona - Ocupatia Agent de Securitate"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare atestat profesiona - Ocupatia Agent de Securitate",
+  "cases": [
+    "Pentru Eliberare atestat profesiona - Ocupatia Agent de Securitate"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Eliberare atestat profesiona - Ocupatia Agent de Securitate"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Eliberare atestat profesiona - Ocupatia Agent de Securitate"
+        "Anexa20"
       ]
-    ],
-    "necessary": [[["Anexa20"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa20"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa20"
+  ]
+}

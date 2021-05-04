@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ATRIBUIRE TERENURI PENTRU VETERANII DE RAZBOI",
-  "cases": ["Pentru atribuirea terenurilor pentru veteranii de razboi"],
-  "departaments": ["SECRETAR MUNICIPIUL IASI"],
-  "forms": [[" "]],
+  "process": "Atribuire terenuri pentru veteranii de razboi",
+  "cases": [
+    "Pentru atribuirea terenurilor pentru veteranii de razboi"
+  ],
+  "departaments": [
+    "Secretar municipiul Iasi"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -14,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

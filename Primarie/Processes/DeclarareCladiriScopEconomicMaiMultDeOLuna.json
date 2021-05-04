@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "DECLARAREA ÎN EVIDENȚA FISCALĂ A CLĂDIRILOR PROPRIETATE PUBLICĂ SAU PRIVATĂ A STATULUI/UNITĂȚILOR ADMINISTRATIV TERITORIALE ÎNCHIRIATE, CONCESIONATE, DATE ÎN ADMINISTRARE ORI ÎN FOLOSINȚĂ CĂTRE PERSOANE FIZICE, FOLOSITE ÎN SCOP ECONOMIC SAU DE AGREMENT, CARE SE REFERĂ LA PERIOADE MAI MARI DE 1 LUNĂ ",
+  "process": "Declararea în evidența fiscală a clădirilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice, folosite în scop economic sau de agrement, care se referă la perioade mai mari de 1 lună ",
   "cases": [
     "Pentru declararea în evidența fiscală a clădirilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice, folosite în scop economic sau de agrement, care se referă la perioade mai mari de 1 lună '"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

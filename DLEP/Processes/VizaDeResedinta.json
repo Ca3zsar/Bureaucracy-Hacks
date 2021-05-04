@@ -1,16 +1,14 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Vize de resedinta-Cerere pentru inscrierea in actul de identitate a mentiunii privind stabilirea resedintei",
-    "departaments": [
-        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"
-    ],
     "cases": [
         "Pentru inscrierea in actul de identitate a mentiunii privind stabilirea resedintei"
     ],
+    "departaments": [
+        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"
+    ],
     "forms": [
-        [
-            ""
-        ]
+        []
     ],
     "necessary": [
         [
@@ -23,7 +21,7 @@
     ],
     "generalInfo": [
         [
-           "Dacă solicitaţi viza într-o locuinţă aparţinând unei alte persoane fizice :Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate(original şi fotocopie) . Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural. \n Dacă solicitaţi viza într-un cămin studenţesc: Cererea trebuie completată la rubrica destinată găzduitorului cu datele administratorului Căminului, care semnează şi aplică ştampila. Se prezintă carnetul de student vizat pe anul în curs  sau o adeverinţă de student. \n Dacă solicitaţi viza într-un cămin aparţinând unei unităţi economice: Cererea trebuie completată la rubrica destinată găzduitorului cu datele administratorului Căminului, care semnează şi aplică ştampila. Se prezintă adeverinţa de salariat, după caz. "
+            "Dacă solicitaţi viza într-o locuinţă aparţinând unei alte persoane fizice :Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate(original şi fotocopie) . Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural. \n Dacă solicitaţi viza într-un cămin studenţesc: Cererea trebuie completată la rubrica destinată găzduitorului cu datele administratorului Căminului, care semnează şi aplică ştampila. Se prezintă carnetul de student vizat pe anul în curs  sau o adeverinţă de student. \n Dacă solicitaţi viza într-un cămin aparţinând unei unităţi economice: Cererea trebuie completată la rubrica destinată găzduitorului cu datele administratorului Căminului, care semnează şi aplică ştampila. Se prezintă adeverinţa de salariat, după caz. "
         ]
     ],
     "files": [

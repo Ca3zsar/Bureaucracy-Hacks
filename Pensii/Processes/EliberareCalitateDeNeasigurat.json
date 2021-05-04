@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Eliberare notificare a calitatii de neasigurat",
-	"cases": ["Pentru eliberarea unei notificari a calitatii de neasigurat"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Eliberare notificare a calitatii de neasigurat"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cer_E101" ]
+	"cases": [
+		"Pentru eliberarea unei notificari a calitatii de neasigurat"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Eliberare notificare a calitatii de neasigurat"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cer_E101"
+	]
 }

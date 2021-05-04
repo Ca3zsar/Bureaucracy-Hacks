@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CERTIFICATUL DE AMPLASAMENT LA DOMENIUL PUBLIC SAU PRIVAT A TERENULUI TRAVERSAT DE RETELELE ELECTRICE/GAZELE NATURALE/APA/CANALIZARE/ALTELE",
+  "process": "Certificatul de amplasament la domeniul public sau privat a terenului traversat de retelele electrice/gazele naturale/apa/canalizare/altele",
   "cases": [
     "Pentru certificatul de amplasament la domeniul public sau privat a terenului traversat de retelele electrice/gazele naturale/apa/canalizare/altele"
   ],
-  "departaments": ["SERVICIUL G.I.S"],
-  "forms": [[" "]],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -19,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

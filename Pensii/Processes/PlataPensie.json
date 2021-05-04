@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Retransmitere la plata a pensiei",
-	"cases": ["Pentru retransmiterea la plata a pensiei"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere plata pensie"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerreplatapensie" ]
+	"cases": [
+		"Pentru retransmiterea la plata a pensiei"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere plata pensie"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerreplatapensie"
+	]
 }

@@ -4,13 +4,9 @@
     "departaments": [
         "Directia locala de evidenta a persoanelor"
     ],
-    "cases": [
-        " "
-    ],
+    "cases": [],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [
@@ -36,7 +32,7 @@
     ],
     "prices": [
         [
-            " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
+            "Chitanţa reprezentând contravaloarea cărţii de identitate 7 lei "
         ]
     ],
     "files": [

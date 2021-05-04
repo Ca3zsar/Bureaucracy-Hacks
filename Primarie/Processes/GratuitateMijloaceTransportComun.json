@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "GRATUITATE PE MIJLOACELE DE TRANSPORT IN COMUN",
-  "cases": ["Pentru gratuite pe mijloacele de transport in comun"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Gratuitate pe mijloacele de transport in comun",
+  "cases": [
+    "Pentru gratuite pe mijloacele de transport in comun"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -14,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

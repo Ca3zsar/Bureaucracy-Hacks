@@ -1,9 +1,15 @@
 {
   "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Acordare de lapte praf gratuit",
-  "cases": ["Copii cu varsta de pana la 12 luni"],
-  "departament": ["Ajutor Social"],
-  "forms": [[""]],
+  "cases": [
+    "Copii cu varsta de pana la 12 luni"
+  ],
+  "departament": [
+    "Ajutor Social"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

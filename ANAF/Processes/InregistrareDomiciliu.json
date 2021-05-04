@@ -1,13 +1,17 @@
 {
   "institution": "ANAF",
-  "process": "INREGISTRAREA FISCALA A PERSOANELOR FIZICE CARE ISI SCHIMBA DOMICILIUL FISCAL(persoane fizice din alta localitate care isi schimba domiciliul fiscal in Iasi)",
+  "process": "Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal(persoane fizice din alta localitate care isi schimba domiciliul fiscal in Iasi)",
   "cases": [
     "Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"
   ],
   "departaments": [
     "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
   ],
-  "forms": [["Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"]],
+  "forms": [
+    [
+      "Inregistrarea fiscala a persoanelor fizice care isi schimba domiciliul fiscal"
+    ]
+  ],
   "necessary": [
     [
       [

@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "DECLARAREA UNEI CLĂDIRI NOU CONSTRUITE ",
-  "cases": ["Pentru declararea unei cladiri nou construite"],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "process": "Declararea unei clădiri nou construite",
+  "cases": [
+    "Pentru declararea unei cladiri nou construite"
+  ],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -23,5 +29,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Stabilire/recalculare pensie de serviciu/pensiei de urmas privind statutul judecatorilor si procurorilor",
-	"cases": ["Pentru stabilirea/recalcularea pensiei de serviciu/pensiei de urmas privind statutul judecatorilor si procurorilor"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere de stabilire/recalculare pensie"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerpslv_urm_lg_303_2004" ]
+	"cases": [
+		"Pentru stabilirea/recalcularea pensiei de serviciu/pensiei de urmas privind statutul judecatorilor si procurorilor"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere de stabilire/recalculare pensie"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerpslv_urm_lg_303_2004"
+	]
 }

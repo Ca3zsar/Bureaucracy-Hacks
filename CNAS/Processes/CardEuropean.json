@@ -1,11 +1,28 @@
 {
   "institution": "Casa Judeteana de Asigurari de Sanatate Iasi",
   "process": "Eliberarea cardului european",
-  "cases": ["Pentru eliberarea cardului european"],
-  "departaments": ["Casa Judeteana de Asigurari de Sanatate Iasi"],
-  "forms": [["Eliberare card european"]],
-  "necessary": [[["Cerere card european", "Adeverinta Salariat"]]],
-  "generalInfo": [[""]],
+  "cases": [
+    "Pentru eliberarea cardului european"
+  ],
+  "departaments": [
+    "Casa Judeteana de Asigurari de Sanatate Iasi"
+  ],
+  "forms": [
+    [
+      "Eliberare card european"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere card european",
+        "Adeverinta Salariat"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
   "files": [
     "CerereCardEuropean",
     "AdeverintaSalariat",

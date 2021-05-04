@@ -1,9 +1,10 @@
 import importlib
 import check_diff
 import os
+import threading
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
-               "Primarie", "SalubrIS"]
+               "Primarie"]
 
 def import_modules():
     modules = []
@@ -15,23 +16,68 @@ def import_modules():
     
     return modules
 
+def executeWithThread(modules):
+   vector = [] 
+   
+   for module in modules:
+       t1 =  threading.Thread(target = module.main,args=()) 
+       t1.start() 
+       vector.append(t1) 
 
-def main():
+   for index in range(0,len(moduleNames)): 
+       vector[index].join() 
+      
+
+def refresh_info():
     modules = import_modules()
-    for module in modules:
-        try:
-            print(f"Executing module : {module.__name__}")
-            module.main()
-            
-            path = os.path.dirname(module.__file__)
-            
-            if os.path.exists(f"{path}/Old"):
-                check_diff.compareFiles(path)
-            else:
-                os.rename(f"{path}/HTMLFiles",f"{path}/Old")
-            
-        except:
-            print(f"Can't execute module : {module.__name__}")
+    
+    updated = []
+    index = 0
+    executeWithThread(modules) 
+    for index in range(1,len(moduleNames)): 
+        rootDir = os.path.join(moduleNames[index],'HTMLFiles')
+        files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(rootDir) for f in filenames]
+        
+        updated.append(
+            {
+                "name":moduleNames[index],
+                "files":files
+            }
+        )
+        
+        index += 1
 
-if __name__ == "__main__":
-    main()
+    return updated
+
+
+# def get_differences():
+#     pass
+
+# def get_sites():
+#     pass
+
+# def get_specific_diff(name):
+#     pass
+
+# def _url(path):
+#     return 'https://check-diff.herokuapp.com' + path
+
+# def main():
+    
+#     for module in modules:
+#         try:
+#             print(f"Executing module : {module.__name__}")
+#             module.main()
+            
+#             path = os.path.dirname(module.__file__)
+            
+#             if os.path.exists(f"{path}/Old"):
+#                 check_diff.compareFiles(path)
+#             else:
+#                 os.rename(f"{path}/HTMLFiles",f"{path}/Old")
+            
+#         except:
+#             print(f"Can't execute module : {module.__name__}")
+
+# if __name__ == "__main__":
+#     main()

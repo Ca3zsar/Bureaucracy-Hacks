@@ -1,11 +1,15 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Evaluarea complexa a persoanelor adulte cu handicap",
-  "cases": ["Pentru evaluarea complexa a persoanelor adulte cu handicap"],
+  "cases": [
+    "Pentru evaluarea complexa a persoanelor adulte cu handicap"
+  ],
   "departaments": [
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[" "]],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

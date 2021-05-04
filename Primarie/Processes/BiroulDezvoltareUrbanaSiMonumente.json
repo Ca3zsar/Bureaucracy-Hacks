@@ -1,12 +1,18 @@
 {
   "institution": "Primaria Iasi",
   "process": "Biroul Dezvoltare Urbana si Monumente",
-  "cases": ["PROIECTE DE HOTARARE", "AVIZUL DE CONSTRUIRE IN ZONA DE VERSANT"],
-  "departaments": [
-    "DIRECTIA ARHITECTURA SI URBANISM",
-    "DIRECTIA ARHITECTURA SI URBANISM"
+  "cases": [
+    "Proiecte de hotarare",
+    "Avizul de construire in zona de versant"
   ],
-  "forms": [[" "], [" "]],
+  "departaments": [
+    "Directia arhitectura si urbanism",
+    "Directia arhitectura si urbanism"
+  ],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -39,6 +45,6 @@
     [
       "Comisia pentru urmărirea stabilităţi versanţilor alunecători îşi asumă dreptul de a solicita suplementar alte documente în funcţie de actualităţi."
     ],
-    [""]
+    []
   ]
 }

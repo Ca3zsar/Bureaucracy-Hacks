@@ -1,27 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Eliberare autorizaţie pentru procurarea celei de-a doua arme neletale",
-    "cases": [
-        "Pentru eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"
-    ],
-    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-    "forms": [
-      ["Eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere pentru eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"
-        ]
-      ]
-    ],
-    "generalInfo": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare autorizaţie pentru procurarea celei de-a doua arme neletale",
+  "cases": [
+    "Pentru eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
     [
-        ""      
+      "Eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"
     ]
-    ],
-    "files":[
-        "arme_explozivi_Anexa9.xls"
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru eliberare autorizaţie pentru procurarea celei de-a doua arme neletale"
+      ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "arme_explozivi_Anexa9.xls"
+  ]
+}

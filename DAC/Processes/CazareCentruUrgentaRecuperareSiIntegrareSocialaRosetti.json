@@ -1,24 +1,29 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Cazare în Centrul de Urgență pentru Recuperare și Integrare Sociala C.A. Rosetti",
-    "cases": ["Cazare în Centrul de Urgență pentru Recuperare și Integrare Sociala C.A. Rosetti"],
-    "departament": ["Serviciu personal"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Cazare în Centrul de Urgență pentru Recuperare și Integrare Sociala C.A. Rosetti",
+  "cases": [
+    "Cazare în Centrul de Urgență pentru Recuperare și Integrare Sociala C.A. Rosetti"
+  ],
+  "departament": [
+    "Serviciu personal"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-          "Cerere",
-          "Adeverinţă medicală de la medicul de familie",
-          "Copie B.I./C.I.",
-          "Anchetă socială efectuată de asistenţii sociali din cadrul D.A.S.",
-          "Radiografie pulmonară, analiză sânge (HIV sifilis), coprocultură "
-        ]
-      ]
-    ],
-    "generalInfo": [
-      [
-        "D.A.S. ajută la efectuarea analizelor in regim de urgentă şi în mod gratuit. \nAdăpostul in care Direcţia de Asistenţă Socială asigură cazare este: Centrul de urgenţă pentru Recuperare şi Integrare Sociala C.A. ROSETTI Adresa: bld C.A. Rosetti nr. 30."
+        "Cerere",
+        "Adeverinţă medicală de la medicul de familie",
+        "Copie B.I./C.I.",
+        "Anchetă socială efectuată de asistenţii sociali din cadrul D.A.S.",
+        "Radiografie pulmonară, analiză sânge (HIV sifilis), coprocultură "
       ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "D.A.S. ajută la efectuarea analizelor in regim de urgentă şi în mod gratuit. \nAdăpostul in care Direcţia de Asistenţă Socială asigură cazare este: Centrul de urgenţă pentru Recuperare şi Integrare Sociala C.A. ROSETTI Adresa: bld C.A. Rosetti nr. 30."
+    ]
+  ]
+}

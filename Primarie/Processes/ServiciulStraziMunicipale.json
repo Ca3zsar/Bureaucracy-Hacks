@@ -15,7 +15,13 @@
     "DIRECTIA TEHNICA SI SERVICII COMUNITARE",
     "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
   ],
-  "forms": [[" "], [" "], [" "], [" "], [" "]],
+  "forms": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -80,5 +86,11 @@
       ]
     ]
   ],
-  "generalInfo": [[" "], [" "], [" "], [" "],[""]]
+  "generalInfo": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
 }

@@ -1,27 +1,31 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Notificarea intenţiei de a pleca la muncă ȋn străinătate",
-    "cases": ["Notificarea intenţiei de a pleca la muncă ȋn străinătate"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Notificarea intenţiei de a pleca la muncă ȋn străinătate",
+  "cases": [
+    "Notificarea intenţiei de a pleca la muncă ȋn străinătate"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-          "Copii după actul/actele de identitate ale părintelui unic ȋntreţinător/părinţilor care urmează să plece la muncă ȋn străinătate",
-          "Copie după actul/actele de naştere ale copilului/copiilor lăsaţi ȋn ţară",
-          "Copie după Hotărârea judecătorească de divorţ/Certificat de deces (dacă este cazul)",
-          "Notificare privind prelucrarea datelor cu caracter personal"
-
-        ]
+        "Copii după actul/actele de identitate ale părintelui unic ȋntreţinător/părinţilor care urmează să plece la muncă ȋn străinătate",
+        "Copie după actul/actele de naştere ale copilului/copiilor lăsaţi ȋn ţară",
+        "Copie după Hotărârea judecătorească de divorţ/Certificat de deces (dacă este cazul)",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        "Dovada eliberată de serviciul public de asistenţă social nu se constituie ȋn ȋmputernicire acordată persoanei ȋn grija căreia rămân copii pentru a-i reprezenta. Este astfel obligatorie confirmarea persoanei ȋn grija căreia va rămâne copilul de către instanţa de judecată, sentinţa asigurând delegarea autorităţii parentale pe o perioadă de maxim 1 an"
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "Dovada eliberată de serviciul public de asistenţă social nu se constituie ȋn ȋmputernicire acordată persoanei ȋn grija căreia rămân copii pentru a-i reprezenta. Este astfel obligatorie confirmarea persoanei ȋn grija căreia va rămâne copilul de către instanţa de judecată, sentinţa asigurând delegarea autorităţii parentale pe o perioadă de maxim 1 an"
+    ]
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

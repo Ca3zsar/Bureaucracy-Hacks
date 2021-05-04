@@ -1,27 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus",
-    "cases": [
-        "Pentru eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"
-    ],
-    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-    "forms": [
-      ["Eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere pentru eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"
-        ]
-      ]
-    ],
-    "generalInfo": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus",
+  "cases": [
+    "Pentru eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
     [
-        "Titularii dreptului de deţinere, respectiv port şi folosire a armelor al căror permis de armă/pașaport european pentru arme de foc a fost furat/pierdut/distrus pot solicita eliberarea unui nou document după publicarea evenimentului în Monitorul Oficial al României."      
+      "Eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"
     ]
-    ],
-    "files":[
-        "arme_explozivi_Anexa10.xls"
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru eliberare nou permis de armă/pașaport european pentru arme de foc în locul celui furat/pierdut/distrus"
+      ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "Titularii dreptului de deţinere, respectiv port şi folosire a armelor al căror permis de armă/pașaport european pentru arme de foc a fost furat/pierdut/distrus pot solicita eliberarea unui nou document după publicarea evenimentului în Monitorul Oficial al României."
+    ]
+  ],
+  "files": [
+    "arme_explozivi_Anexa10.xls"
+  ]
+}

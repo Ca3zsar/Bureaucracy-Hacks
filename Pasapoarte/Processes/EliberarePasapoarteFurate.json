@@ -8,21 +8,23 @@
         "Eliberări Pașapoarte"
     ],
     "forms": [
-        ["Eliberarea paşapoartelor simple electronice/temporare în cazul documentelor de călătorie declarate furate"]
+        [
+            "Eliberarea paşapoartelor simple electronice/temporare în cazul documentelor de călătorie declarate furate"
+        ]
     ],
     "necessary": [
         [
             [
-            "Furtul documentului de călătorie se declară de îndată, la cea mai apropiată unitate de poliţie din ţară sau, după caz, de pe teritoriul statului în care s-a produs evenimentul, solicitând eliberarea unei adeverinţe care să ateste declararea evenimentului respectiv.",
-            "Pentru eliberarea paşaportului simplu electronic sau simplu temporar în cazul furtului paşaportului deţinut anterior, pe lângă documentele menţionate mai sus, se va prezenta şi adeverinţa eliberată de organele de poliţie din România sau dovada/adeverinţa eliberată de autorităţile de pe teritoriul statului în care s-a produs evenimentul, însotită şi de traducerea acesteia, efectuată de un traducător autorizat, care să ateste declararea evenimentului respectiv.",
-            "Documentul declarat furat, găsit de titular sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005 privind regimul liberei circulaţii a cetăţenilor români în străinătate, cu modificările şi completările ulterioare, după ce au declarat evenimentul în condiţiile prevăzute la art. 25 din acelaşi act normativ, dar înainte de a se elibera un nou document, poate fi folosit în continuare, în condiţiile legii, numai după ce informează autoritatea emitentă cu privire la găsirea acestuia. În cazul în care titularul sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document de călătorie găsesc documentul declarat furat, au obligaţia de a nu-l folosi şi de a-l depune de îndată la autoritatea emitentă.",
-            "Documentul declarat furat, găsit de titular sau de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document, poate fi folosit în continuare, în condiţiile legii, numai după prezentarea la autorităţile competente a documentului găsit, aflat în termenul de valabilitate şi într-o stare fizică corespunzătoare, şi după anularea noului document de călătorie, la solicitarea scrisă a titularului."
+                "Furtul documentului de călătorie se declară de îndată, la cea mai apropiată unitate de poliţie din ţară sau, după caz, de pe teritoriul statului în care s-a produs evenimentul, solicitând eliberarea unei adeverinţe care să ateste declararea evenimentului respectiv.",
+                "Pentru eliberarea paşaportului simplu electronic sau simplu temporar în cazul furtului paşaportului deţinut anterior, pe lângă documentele menţionate mai sus, se va prezenta şi adeverinţa eliberată de organele de poliţie din România sau dovada/adeverinţa eliberată de autorităţile de pe teritoriul statului în care s-a produs evenimentul, însotită şi de traducerea acesteia, efectuată de un traducător autorizat, care să ateste declararea evenimentului respectiv.",
+                "Documentul declarat furat, găsit de titular sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005 privind regimul liberei circulaţii a cetăţenilor români în străinătate, cu modificările şi completările ulterioare, după ce au declarat evenimentul în condiţiile prevăzute la art. 25 din acelaşi act normativ, dar înainte de a se elibera un nou document, poate fi folosit în continuare, în condiţiile legii, numai după ce informează autoritatea emitentă cu privire la găsirea acestuia. În cazul în care titularul sau, după caz, de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document de călătorie găsesc documentul declarat furat, au obligaţia de a nu-l folosi şi de a-l depune de îndată la autoritatea emitentă.",
+                "Documentul declarat furat, găsit de titular sau de către persoanele prevăzute la art. 20 alin. (2) din Legea nr. 248/2005, cu modificările şi completările ulterioare, după eliberarea unui nou document, poate fi folosit în continuare, în condiţiile legii, numai după prezentarea la autorităţile competente a documentului găsit, aflat în termenul de valabilitate şi într-o stare fizică corespunzătoare, şi după anularea noului document de călătorie, la solicitarea scrisă a titularului."
+            ]
         ]
-    ]
     ],
     "generalInfo": [
         [
-            "ATENȚIE\n Paşapoartele PIERDUTE / FURATE, fac obiectul unor semnalări în Sistemul Informatic Schengen (SIS). În situaţia în care autorităţile străine găsesc asupra titularului paşaportul ce face obiectul unor semnalări în SIS, acesta urmează să fie confiscat şi transmis autorităţilor emitente române."    
+            "ATENȚIE\n Paşapoartele PIERDUTE / FURATE, fac obiectul unor semnalări în Sistemul Informatic Schengen (SIS). În situaţia în care autorităţile străine găsesc asupra titularului paşaportul ce face obiectul unor semnalări în SIS, acesta urmează să fie confiscat şi transmis autorităţilor emitente române."
         ]
     ]
 }

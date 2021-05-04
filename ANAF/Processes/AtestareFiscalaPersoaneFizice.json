@@ -1,7 +1,9 @@
 {
     "institution": "ANAF",
     "process": "Atestare Fiscala - Persoane Fizice",
-    "cases": ["Pentru Atestare Fiscala"],
+    "cases": [
+        "Pentru Atestare Fiscala"
+    ],
     "departaments": [
         "Serviciul Registru contribuabili declaratii fiscale - Persoane fizice"
     ],
@@ -13,17 +15,17 @@
     ],
     "necessary": [
         [
-        [
-            "cerere tip (Cod 14.13.25.99), care se obtine gratuit de la ghiseul 14- sediul din str. Sf. Lazar nr.1 sau de la ghiseul unic, parter",
-            "copie act de identitate",
-            "2 timbre fiscale a cate 4 lei"
-        ],
-        [
-            "cerere de eliberare a unei adeverinte de venit- formular tipizat (Cod 14.13.25.13), care se obtine gratuit de la ghiseul 14- sediul Sf. Lazar nr.1 sau ghiseul unic, parter",
-            "copie act de identitate",
-            "se timbreaza cu timbru fiscal de 1 leu, cu exceptia solicitarilor pentru obtinerea unor drepturi de somaj si asigurari de sanatate"
+            [
+                "cerere tip (Cod 14.13.25.99), care se obtine gratuit de la ghiseul 14- sediul din str. Sf. Lazar nr.1 sau de la ghiseul unic, parter",
+                "copie act de identitate",
+                "2 timbre fiscale a cate 4 lei"
+            ],
+            [
+                "cerere de eliberare a unei adeverinte de venit- formular tipizat (Cod 14.13.25.13), care se obtine gratuit de la ghiseul 14- sediul Sf. Lazar nr.1 sau ghiseul unic, parter",
+                "copie act de identitate",
+                "se timbreaza cu timbru fiscal de 1 leu, cu exceptia solicitarilor pentru obtinerea unor drepturi de somaj si asigurari de sanatate"
+            ]
         ]
-    ]
     ],
     "generalInfo": [
         [
@@ -35,10 +37,8 @@
     ],
     "prices": [
         [
-            "2 timbre a cate 4 lei = 8 lei"
-        ],
-        [
-            "2 timbre a cate 1 leu = 2 lei "
+            "2 timbre a cate 4 lei = 8 lei",
+            "2 timbre a cate 1 leu = 2 lei"
         ]
     ]
 }

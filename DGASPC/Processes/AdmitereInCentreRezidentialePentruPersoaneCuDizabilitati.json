@@ -9,7 +9,10 @@
     "Departamentul Asistenta Socială Persoane Adulte",
     "Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[""], [""]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -44,10 +47,10 @@
   ],
   "generalInfo": [
     [
-      "* sau alte documente care atestă posesia unor bunuri imobile în totalitate sau parțial,ca urmare a unor dezbateri succesorale",
-      "** în situația în care persoana nu deține o proprietate, informațiile vor fi consemnate în ancheta socială",
-      "*** se vor menționa în raportul de anchetă socială veniturile persoanei și ale familiei acesteia în următoarea ordine: soț/soție,copii, părinți, în funcție de situația persoanei",
-      "*** indemnizația de grad de handicap (acordată de D.G.A.S.P.C.) se sistează în cazul admiterii persoanei într-un centru",
+      "sau alte documente care atestă posesia unor bunuri imobile în totalitate sau parțial,ca urmare a unor dezbateri succesorale",
+      "în situația în care persoana nu deține o proprietate, informațiile vor fi consemnate în ancheta socială",
+      "se vor menționa în raportul de anchetă socială veniturile persoanei și ale familiei acesteia în următoarea ordine: soț/soție,copii, părinți, în funcție de situația persoanei",
+      "indemnizația de grad de handicap (acordată de D.G.A.S.P.C.) se sistează în cazul admiterii persoanei într-un centru",
       "Dosarul va fi depus la Registratura D.G.A.S.P.C. Iași.",
       "Date de contact: Str. Vasile Lupu nr. 57 A, Direcția Generală de Asistență Socială și Protecția Copilului Iași- Serviciul Persoane Adulte în Dificultate, parter, camera 20"
     ],

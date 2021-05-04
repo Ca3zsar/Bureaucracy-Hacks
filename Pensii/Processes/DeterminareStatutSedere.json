@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Determinarea statutului de sedere",
-	"cases": ["Pentru determinarea statutului de sedere"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Declaratie loc de sedere"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "form_dls" ]
+	"cases": [
+		"Pentru determinarea statutului de sedere"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Declaratie loc de sedere"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"form_dls"
+	]
 }

@@ -1,11 +1,15 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Voluntariat",
-  "cases": ["Pentru voluntariat"],
+  "cases": [
+    "Pentru voluntariat"
+  ],
   "departaments": [
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[" "]],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -23,7 +27,11 @@
     ]
   ],
   "generalInfo": [
-    ["CENTRUL DE SERVICII PENTRU INCLUZIUNE SOCIALA IASI: 0232 274 333 "]
+    [
+      "Centrul de servicii pentru incluziune sociala Iasi: 0232 274 333 "
+    ]
   ],
-  "files": ["cerere voluntariat"]
+  "files": [
+    "cerere voluntariat"
+  ]
 }

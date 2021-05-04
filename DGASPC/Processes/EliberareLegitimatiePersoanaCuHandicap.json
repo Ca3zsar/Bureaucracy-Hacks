@@ -1,9 +1,15 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Acordarea legitimatiei de persoana cu handicap",
-  "cases": ["Pentru acordarea legitimatiei de persoana cu handicap"],
-  "departaments": ["Departamentul Asistenta Socială Persoane Adulte"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru acordarea legitimatiei de persoana cu handicap"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -25,7 +31,7 @@
   ],
   "generalInfo": [
     [
-      "LEGITIMAȚIA DE PERSOANĂ CU HANDICAP SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR.",
+      "Legitimația de persoană cu handicap se eliberează exclusiv persoanei cu handicap, asistentului personal, reprezentantului legal/tutorelui sau oricarei alte persoane, împuternicite notarial de către beneficiar.",
       "În cazul pierderii, distrugerii sau furtului legitimaţiei, persoana cu handicap o va declara nulă într-un cotidian şi va solicita eliberarea unei alte legitimații a cărei contravaloare o va achita beneficiarul. "
     ]
   ]

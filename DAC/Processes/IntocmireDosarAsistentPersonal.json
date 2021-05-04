@@ -1,36 +1,38 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Intocmirea dosarului de asistent personal",
-    "cases": ["Intocmirea dosarului de asistent personal"],
-    "departament": ["Serviciu personal"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Intocmirea dosarului de asistent personal",
+  "cases": [
+    "Intocmirea dosarului de asistent personal"
+  ],
+  "departament": [
+    "Serviciu personal"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-          "Acte de stare civilă pentru asistent personal: certificat de naştere, buletin/carte de identitate, certificat de căsătorie (xerocopii şi original)",
-          "Actul de examinare medicală emis de o institiţie sanitară competentă care să certifice starea de sănătate a asistentului personal şi aptitudinea sa de a presta activităţile solicitate în fişa postului (analize sange, plamâni, examen psihiatric)",
-          "Certificat de handicap al asistentul personal, dacă este cazul (xerocopie şi original)",
-          "Actele de studii ale asistentului personal (xerocopii şi original)",
-          "Curriculum vitae pentru asistentul personal",
-          "Carnetul de muncă (xerocopie şi original), iar dacă solicitantul nu a mai lucrat, va da o declaraţie pe propria răspundere în care să se specifice această situaţie",
-          "Decizie de încetare a raporturilor de muncă de la angajatorul anterior sau a indemnizaţiei de şomaj (xerocopie şi original)",
-          "Adeverinţă tip carte de muncă care sa ateste vechimea în muncă în perioada lucrată de la 01.01.2011 (xerocopie şi original)",
-          "Decizia de pensionare, dacă este cazul (xerocopie şi original)",
-          "Declaraţie pe propria răspundere a asistentului personal nu primeşte pensie",
-          "Cazierul judiciar",
-          "Certificatul de încadrare în categoria de persoană cu handicap grav al persoanei care necesită asistent personal (xerocopie şi original)",
-          "Acordul emis de către D.G.A.S.P.C. Iaşi cu privire la angajarea asistentului personal conform legii şi emis în baza certificatului de încadrare în grad de handicap",
-          "Acte de stare civilă pentru persoana cu handicap din care sa rezulte şi faptul ca isi are reşedinţa de domiciliu pe raza municipiului Iaşi: certificat de naştere, buletin/carte de identitate, certificat de căsătorie (xerocopii şi original)",
-          "Decizia de pensionare, dacă este cazul, a persoanei cu handicap şi ultimul cupon de pensie (xerocopie şi original)",
-          "Acordul scris al familiei sau al susţinătorilor legali, în cazul persoanelor cu handicap fără discernământ / acordul scris al persoanelor cu handicap a căror deficienţă funcţională un intră în categoria bolilor mentale, în care să se specifice opţiunea acestora în vederea angajării solicitantului în funcţia de asistent personal"
-
-              ]
-      ]
-    ],
-    "generalInfo": [
-      [
-        ""
+        "Acte de stare civilă pentru asistent personal: certificat de naştere, buletin/carte de identitate, certificat de căsătorie (xerocopii şi original)",
+        "Actul de examinare medicală emis de o institiţie sanitară competentă care să certifice starea de sănătate a asistentului personal şi aptitudinea sa de a presta activităţile solicitate în fişa postului (analize sange, plamâni, examen psihiatric)",
+        "Certificat de handicap al asistentul personal, dacă este cazul (xerocopie şi original)",
+        "Actele de studii ale asistentului personal (xerocopii şi original)",
+        "Curriculum vitae pentru asistentul personal",
+        "Carnetul de muncă (xerocopie şi original), iar dacă solicitantul nu a mai lucrat, va da o declaraţie pe propria răspundere în care să se specifice această situaţie",
+        "Decizie de încetare a raporturilor de muncă de la angajatorul anterior sau a indemnizaţiei de şomaj (xerocopie şi original)",
+        "Adeverinţă tip carte de muncă care sa ateste vechimea în muncă în perioada lucrată de la 01.01.2011 (xerocopie şi original)",
+        "Decizia de pensionare, dacă este cazul (xerocopie şi original)",
+        "Declaraţie pe propria răspundere a asistentului personal nu primeşte pensie",
+        "Cazierul judiciar",
+        "Certificatul de încadrare în categoria de persoană cu handicap grav al persoanei care necesită asistent personal (xerocopie şi original)",
+        "Acordul emis de către D.G.A.S.P.C. Iaşi cu privire la angajarea asistentului personal conform legii şi emis în baza certificatului de încadrare în grad de handicap",
+        "Acte de stare civilă pentru persoana cu handicap din care sa rezulte şi faptul ca isi are reşedinţa de domiciliu pe raza municipiului Iaşi: certificat de naştere, buletin/carte de identitate, certificat de căsătorie (xerocopii şi original)",
+        "Decizia de pensionare, dacă este cazul, a persoanei cu handicap şi ultimul cupon de pensie (xerocopie şi original)",
+        "Acordul scris al familiei sau al susţinătorilor legali, în cazul persoanelor cu handicap fără discernământ / acordul scris al persoanelor cu handicap a căror deficienţă funcţională un intră în categoria bolilor mentale, în care să se specifice opţiunea acestora în vederea angajării solicitantului în funcţia de asistent personal"
       ]
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    []
+  ]
+}

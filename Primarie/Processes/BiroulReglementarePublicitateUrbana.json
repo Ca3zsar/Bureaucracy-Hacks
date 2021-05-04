@@ -2,10 +2,14 @@
   "institution": "Primaria Iasi",
   "process": "Biroul Reglementare Publicitate Urbana",
   "cases": [
-    "AVIZ PENTRU AMPLASAREA MIJLOACELOR PUBLICITARE CU CARACTER PROVIZORIU*"
+    "Aviz pentru amplasarea mijloacelor publicitare cu caracter provizoriu"
   ],
-  "departaments": ["DIRECTIA ARHITECTURA SI URBANISM"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia arhitectura si urbanism"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

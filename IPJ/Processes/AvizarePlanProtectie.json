@@ -1,17 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Avizare plan protectie",
-    "cases": [
-      "Pentru Avizare plan protectie"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizare plan protectie",
+  "cases": [
+    "Pentru Avizare plan protectie"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Avizare plan protectie"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Avizare plan protectie"
+        "Anexa17"
       ]
-    ],
-    "necessary": [[["Anexa17"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa17"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa17"
+  ]
+}

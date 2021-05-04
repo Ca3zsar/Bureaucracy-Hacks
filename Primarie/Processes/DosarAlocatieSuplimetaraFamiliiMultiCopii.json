@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "INTOCMIREA DOSARULUI DE ALOCATIE SUPLIMENTARA",
-  "cases": ["Pentru familiile care au doi sau mai multi copii"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Intocmirea dosarului de alocatie suplimentara",
+  "cases": [
+    "Pentru familiile care au doi sau mai multi copii"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +22,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

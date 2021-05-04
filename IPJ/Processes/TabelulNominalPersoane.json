@@ -4,13 +4,25 @@
   "cases": [
     "Pentru Tabel nominal cu persoanele care solicita avizul in domeniul jocurilor de noroc"
   ],
-  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
+  "departaments": [
+    "Serviciului de Investigare a Criminalității Economice"
+  ],
   "forms": [
     [
       "Tabel nominal cu persoanele care solicita avizul in domeniul jocurilor de noroc"
     ]
   ],
-  "necessary": [[["Anexa2"]]],
-  "generalInfo": [[""]],
-  "files": ["frauda_economica_Anexa2"]
+  "necessary": [
+    [
+      [
+        "Anexa2"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "frauda_economica_Anexa2"
+  ]
 }

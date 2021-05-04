@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CONTRACTE DE FOLOSINTA PENTRU CAI DE ACCES DIN EXTERIOR IN SPATIU",
+  "process": "Contracte de folosinta pentru cai de acces din exterior in spatiu",
   "cases": [
     "Pentru contracte de folosinta pentru cai de acces din exterior in spatiu"
   ],
-  "departaments": ["SECRETAR MUNICIPIUL IASI"],
-  "forms": [[" "]],
+  "departaments": [
+    "SECRETAR MUNICIPIUL IASI"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -20,5 +24,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

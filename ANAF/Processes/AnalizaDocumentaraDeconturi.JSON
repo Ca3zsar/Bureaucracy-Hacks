@@ -16,7 +16,6 @@
       [
         "INSTIINTARE CATRE CONTRIBUABIL, DECIZIE DE RAMBURSARE - model anexa nr.5 la procedura aprobata prin OMEF nr.1857/2007(M. Of.   Nr.785/2007), NOTA DE COMPENSARE SI/SAU NOTA DE RESTITUIRE "
       ]
-    
     ],
     "necessary": [
       [
@@ -30,11 +29,11 @@
       ],
       [
         [
-            "jurnale de vanzari si jurnale de cumparari",
-            "balanta de verificare",
-            "facturi cu valori semnificative",
-            "contracte cu furnizori interni sau externi, respectiv cu principalii beneficiari",
-            "alte documente relevante pentru sustinerea solicitarii"
+          "jurnale de vanzari si jurnale de cumparari",
+          "balanta de verificare",
+          "facturi cu valori semnificative",
+          "contracte cu furnizori interni sau externi, respectiv cu principalii beneficiari",
+          "alte documente relevante pentru sustinerea solicitarii"
         ]
       ]
     ],
@@ -46,15 +45,5 @@
       [
         "Circuit documente:\n dupa solutionarea cererii de rambursare, conform procedurii stabilite prin ordin, contrbuabilul va fi instiintat in scris prin transmiterea Notei de compensare si/sau Notei de restituire, insotite de Decizia de rambursare.Termen de solutionare: 45 de zile de la data depunerii cererii, cu posibilitatea prelungirii  termenului, in situatiile prevazute de lege. "
       ]
-    ],
-    "prices":
-    [
-        [
-           "  "
-        ],
-        [
-           "  "
-        ]
-    ],
-    "files":[]
+    ]
   }

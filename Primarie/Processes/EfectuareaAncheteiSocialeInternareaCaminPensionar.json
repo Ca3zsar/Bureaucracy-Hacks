@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "EFECTUAREA ANCHETEI SOCIALE PENTRU INTERNAREA IN CAMINE DE PENSIONARI SAU CAMIN-SPITAL",
+  "process": "Efectuarea anchetei sociale pentru internarea in camine de pensionari sau camin-spital",
   "cases": [
     "Pentru efectuarea anchetei sociale pentru internarea in camine de pensionari sau camin-spital"
   ],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

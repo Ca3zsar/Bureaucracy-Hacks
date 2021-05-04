@@ -7,7 +7,9 @@
   "departaments": [
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[" "]],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -21,8 +23,10 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]],
+  "generalInfo": [
+    []
+  ],
   "files": [
-    "CERERE DE EVALUARE A CAPACITATII DE  A DEVENI ASISTENT MATERNAL PROFESIONIST"
+    "Cerere de evaluare a capacitatii de  a deveni asistent maternal profesionist"
   ]
 }

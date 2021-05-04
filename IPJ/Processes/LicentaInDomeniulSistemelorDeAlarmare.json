@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Licenta in domeniul sistemelor de alarmare impotriva efractiei",
-    "cases": [
-      "Pentru Licenta in domeniul sistemelor de alarmare impotriva efractiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Licenta in domeniul sistemelor de alarmare impotriva efractiei",
+  "cases": [
+    "Pentru Licenta in domeniul sistemelor de alarmare impotriva efractiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Licenta in domeniul sistemelor de alarmare impotriva efractiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Licenta in domeniul sistemelor de alarmare impotriva efractiei"
+        "Anexa4",
+        "Anexa24"
       ]
-    ],
-    "necessary": [[["Anexa4","Anexa24"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa4","ordine_publica_Anexa24"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa4",
+    "ordine_publica_Anexa24"
+  ]
+}

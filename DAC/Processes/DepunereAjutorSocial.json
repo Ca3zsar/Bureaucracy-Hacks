@@ -1,12 +1,18 @@
 {
   "institution": "Directia de Asistenta Sociala Iasi",
   "process": "Depunere ajutor social",
-  "cases": ["Pentru cetateni români", "Pentru cetateni straini sau apatrizi"],
+  "cases": [
+    "Pentru cetateni români",
+    "Pentru cetateni straini sau apatrizi"
+  ],
   "departament": [
     "Ajutor Social",
     "Ajutor Social"
   ],
-  "forms": [[""], [""]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -68,7 +74,7 @@
       "Beneficiari: Familiile si persoanele singure ale căror venituri se situează sub nivelul lunar al venitului minim garantat, au dreptul la ajutor social\nNivelurile pentru venitul minim garantat: \nPersoana singura = 142 lei \nFamilia formată din 2 persoane = 255 lei \nFamilia formată din 3 persoane = 357 lei \nFamilia formată din 4 persoane = 442 lei \nFamilia formată din 5 persoane = 527 lei \nPentru fiecare altă persoană peste numărul de 5 persoane, ajutorul social se mareşte cu 0.073 x ISR = 37 lei\nCererea şi declaraţia pe propria răspundere, precum şi celelalte acte doveditoare privind componenţa familiei şi veniturile realizate, se înregistrează la Serviciul de Beneficii Sociale din cadrul Direcţiei de Asistenţă Socială Iaşi\nPentru soluţionarea cererii privind acordarea ajutorului social, se va afectua ancheta socială la domiciliul său, după caz la reşedinţa solicitantului, ori la locul desemnat de solicitant în cazul celor fără locuinţă\nObligaţii ale beneficiarilor de ajutor social\n După stabilirea dreptului de ajutor social, titularul ajutorului social are următoarele obligaţii:\nsă comunice primarului, în scris, orice modificare intervenită cu privire la domiciliul, veniturile şi la numărul membrilor familiei, în termen de 15 zile de la data la care a intervenit aceasta \nsă furnizeze toate informațiile necesare pentru efectuarea anchetei sociale \nsă efectueze sau, după caz, să asigure prin alte persoane apte de muncă din familie, efectuarea orelor de muncă în folosul comunităţii \nPersoanele apte de muncă pentru care se acordă ajutorul social şi care nu realizează venituri din salarii sau din alte activităţi, potrivit legii, au obligaţia de a nu refuza un loc de muncă oferit sau participarea la serviciile pentru stimularea ocupării forței de muncă și de formare profesională\nPrin persoană aptă de muncă se înţelege persoana care îndeplineşte următoarele condiţii:\nare vârsta cuprinsă între 16 ani şi vârsta standard de pensionare \nnu urmează o formă de învăţământ cursuri de zi prevăzută de lege \nare starea de sănătate şi capacitatea fizică şi psihică corespunzătoare, care o fac aptă pentru prestarea unei munci"
     ]
   ],
-  "files":[
+  "files": [
     "Cerere_incalzire_Anexa_nr_1_persoane_fara_vmg",
     "Acord_prelucrare_date_caracter_personal_VMG"
   ]

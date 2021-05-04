@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ATRIBUIREA DE SPATII PENTRU ONG",
-  "cases": ["Pentru atribuirea de spatii pentru ONG"],
-  "departaments": ["Direcția Exploatare Patrimoniu"],
-  "forms": [[" "]],
+  "process": "Atribuirea de spatii pentru ONG",
+  "cases": [
+    "Pentru atribuirea de spatii pentru ONG"
+  ],
+  "departaments": [
+    "Direcția Exploatare Patrimoniu"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -13,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

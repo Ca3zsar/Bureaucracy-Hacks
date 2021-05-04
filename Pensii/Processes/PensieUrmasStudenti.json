@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Acordarea pensiei de urmas - studenti",
-	"cases": ["Pentru acordarea pensiei de urmas - studenti"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Declaratie pentru acordarea pensiei de urmas - studenti"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "declaratieurmasi" ]
+	"cases": [
+		"Pentru acordarea pensiei de urmas - studenti"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Declaratie pentru acordarea pensiei de urmas - studenti"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"declaratieurmasi"
+	]
 }

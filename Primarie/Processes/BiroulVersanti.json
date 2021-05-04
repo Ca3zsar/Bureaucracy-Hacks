@@ -2,10 +2,14 @@
   "institution": "Primaria Iasi",
   "process": "Biroul Versanti",
   "cases": [
-    "AVIZ DE AMPLASARE A UNEI LUCRARI TEHNICO-EDILITARE IN ZONA SAU PE STRUCTURA UNEI LUCRARI DE ARTA EXISTENTE (POD, PASAJ)"
+    "Aviz de amplasare a unei lucrari tehnico-edilitare in zona sau pe structura unei lucrari de arta existente (pod, pasaj)"
   ],
-  "departaments": ["DIRECTIA GENERALA TEHNICA SI DEZVOLTARE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala tehnica si dezvoltare"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -21,5 +25,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

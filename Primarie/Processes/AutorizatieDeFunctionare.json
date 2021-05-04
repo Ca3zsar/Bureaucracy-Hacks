@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AUTORIZAŢIE DE FUNCŢIONARE",
-  "cases": ["Pentru autorizatie de functionare"],
-  "departaments": ["Direcția Exploatare Patrimoniu"],
-  "forms": [[" "]],
+  "process": "Autorizaţie de funcţionare",
+  "cases": [
+    "Pentru autorizatie de functionare"
+  ],
+  "departaments": [
+    "Direcția Exploatare Patrimoniu"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -20,5 +26,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

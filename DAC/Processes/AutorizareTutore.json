@@ -1,27 +1,32 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Autorizare tutore",
-    "cases": ["Autorizare tutore"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Autorizare tutore",
+  "cases": [
+    "Autorizare tutore"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-            "Solicitarea de la Biroul Notarial",
-            "Copii după actele de identitate ale: persoanei puse sub interdiciţie judecătorească, tutore",
-            "Copie după Sentinţa Civilă de punere sub interdicţie",
-            "Alte acte solicitate de către reprezentantul autorităţii tutelare funcţie de obiectul autorizării",
-            "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Solicitarea de la Biroul Notarial",
+        "Copii după actele de identitate ale: persoanei puse sub interdiciţie judecătorească, tutore",
+        "Copie după Sentinţa Civilă de punere sub interdicţie",
+        "Alte acte solicitate de către reprezentantul autorităţii tutelare funcţie de obiectul autorizării",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        "În conformitate cu prevederile art. 152 Noul Cod Civil, \"tutorele este dator să prezinte anual instanţei de tutelă o dare de seamă despre modul cum s-a ȋngrijit de minor/interzis, precum şi despre administrarea bunurilor acestuia\""
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "În conformitate cu prevederile art. 152 Noul Cod Civil, \"tutorele este dator să prezinte anual instanţei de tutelă o dare de seamă despre modul cum s-a ȋngrijit de minor/interzis, precum şi despre administrarea bunurilor acestuia\""
+    ]
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

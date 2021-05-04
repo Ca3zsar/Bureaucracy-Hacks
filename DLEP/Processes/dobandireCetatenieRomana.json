@@ -1,9 +1,13 @@
 {
   "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
   "process": "ACTE NECESARE-Dobândire cetăţenie română",
-  "departaments": ["Directia locala de evidenta a persoanelor"],
-  "cases": [" "],
-  "forms": [[""]],
+  "cases": [],
+  "departaments": [
+    "Directia locala de evidenta a persoanelor"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -27,7 +31,11 @@
     ]
   ],
   "prices": [
-    [" Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "]
+    [
+      " Chitanţa reprezentând contravaloarea cărţii de identitate 7 lei "
+    ]
   ],
-  "files": ["dovada_adresei_de_domiciu.pdf"]
+  "files": [
+    "dovada_adresei_de_domiciu.pdf"
+  ]
 }

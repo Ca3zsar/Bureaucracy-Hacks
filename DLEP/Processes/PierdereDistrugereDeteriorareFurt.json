@@ -1,19 +1,19 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "ACTE NECESARE- Pierdere - Distrugere - Deteriorare - Furt",
+    "cases": [
+        "In cazul persoanelor necasatorite ",
+        "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
+    ],
     "departaments": [
         "Directia locala de evidenta a persoanelor",
         "Directia locala de evidenta a persoanelor"
-    ],
-    "cases": [
-        "In cazul persoanelor necasatorite ",  
-        "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
     ],
     "forms": [
         [
             "dovada adresei de domiciliu"
         ],
-        [ 
+        [
             "dovada adresei de domiciliu"
         ]
     ],
@@ -27,7 +27,6 @@
                 "Documentul cu care se face dovada adresei de domiciliu",
                 "Chitanţa reprezentând contravaloarea cărţii de identitate",
                 "Cartea de alegător - dacă a deținut un astfel de document. Dacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt pe cerere."
-
             ],
             [
                 "Cererea pentru eliberarea actului de identitate",
@@ -42,8 +41,6 @@
                 "Documentul cu care se face dovada adresei de domiciliu",
                 "Chitanţa reprezentând contravaloarea cărţii de identitate",
                 "Cartea de alegător - dacă a deținut un astfel de document. Dacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt pe cerere."
-
- 
             ]
         ]
     ],
@@ -59,7 +56,7 @@
         [
             " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
         ],
-        [ 
+        [
             " Chitanţa reprezentând contravaloarea cărţii de identitate -7 lei "
         ]
     ],

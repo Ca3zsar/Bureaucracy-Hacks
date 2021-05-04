@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Licenta in domeniul pazei si protectiei",
-    "cases": [
-      "Pentru Licenta in domeniul pazei si protectiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Licenta in domeniul pazei si protectiei",
+  "cases": [
+    "Pentru Licenta in domeniul pazei si protectiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Licenta in domeniul pazei si protectiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Licenta in domeniul pazei si protectiei"
+        "Anexa1",
+        "Anexa23"
       ]
-    ],
-    "necessary": [[["Anexa1","Anexa23"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa1","ordine_publica_Anexa23"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa1",
+    "ordine_publica_Anexa23"
+  ]
+}

@@ -1,17 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Avizare conducator in domeniul pazei si protectiei",
-    "cases": [
-      "Pentru Avizare conducator in domeniul pazei si protectiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizare conducator in domeniul pazei si protectiei",
+  "cases": [
+    "Pentru Avizare conducator in domeniul pazei si protectiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Avizare conducator in domeniul pazei si protectiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Avizare conducator in domeniul pazei si protectiei"
+        "Anexa11"
       ]
-    ],
-    "necessary": [[["Anexa11"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa11"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa11"
+  ]
+}

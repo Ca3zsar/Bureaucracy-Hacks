@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Acordare indemnizatie prevazute de ordonanta nr. 105/1999",
-	"cases": ["Pentru acordarea indemnizatiei prevazute de ordonanta nr. 105/1999"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere acordare indemnizatie ordonanta nr. 105/1999"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerind_og_105_1999" ]
+	"cases": [
+		"Pentru acordarea indemnizatiei prevazute de ordonanta nr. 105/1999"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere acordare indemnizatie ordonanta nr. 105/1999"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerind_og_105_1999"
+	]
 }

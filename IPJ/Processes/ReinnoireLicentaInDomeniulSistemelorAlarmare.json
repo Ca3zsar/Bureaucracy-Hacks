@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei",
-    "cases": [
-      "Pentru Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei",
+  "cases": [
+    "Pentru Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Reinnoirea licentei in domeniul sistemelor de alarmare impotriva efractiei"
+        "Anexa6",
+        "Anexa24"
       ]
-    ],
-    "necessary": [[["Anexa6","Anexa24"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa6","ordine_publica_Anexa24"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa6",
+    "ordine_publica_Anexa24"
+  ]
+}

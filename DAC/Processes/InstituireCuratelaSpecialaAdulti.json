@@ -1,29 +1,34 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Instituire curatela speciala adulti",
-    "cases": ["Instituire curatela speciala adulti"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Instituire curatela speciala adulti",
+  "cases": [
+    "Instituire curatela speciala adulti"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-           "Copie după Certificatul de grefă (dovada că pe rolul instanţei este deschis dosar având ca obiect: punerea sub interdicţie)",
-           "Copie după actele de identitate: reclamant, pârât şi persoana care este propusă pentru a fi desemnată curator",
-           "Adeverinţă medicală eliberată de medicul de familie pentru persoana propusă ca şi curator",
-           "Cererea reclamantului",
-           "Declaraţia olografă/ autentificată a persoanei propusă ca şi curator",
-           "Acte medicale ale pârâtului",  
-           "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Copie după Certificatul de grefă (dovada că pe rolul instanţei este deschis dosar având ca obiect: punerea sub interdicţie)",
+        "Copie după actele de identitate: reclamant, pârât şi persoana care este propusă pentru a fi desemnată curator",
+        "Adeverinţă medicală eliberată de medicul de familie pentru persoana propusă ca şi curator",
+        "Cererea reclamantului",
+        "Declaraţia olografă/ autentificată a persoanei propusă ca şi curator",
+        "Acte medicale ale pârâtului",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-         "Desemnarea unui curator special pentru o persoană cu discernământ, conform art. 178 Noul Cod Civil, intră ȋn atribuţiile instanţei de judecată"
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "Desemnarea unui curator special pentru o persoană cu discernământ, conform art. 178 Noul Cod Civil, intră ȋn atribuţiile instanţei de judecată"
+    ]
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

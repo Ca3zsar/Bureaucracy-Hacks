@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "DECLARAREA UNUI TEREN",
-  "cases": ["Pentru declararea unui teren"],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "process": "Declararea unui teren",
+  "cases": [
+    "Pentru declararea unui teren"
+  ],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +22,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

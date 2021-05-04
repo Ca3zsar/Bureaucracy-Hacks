@@ -1,35 +1,25 @@
 {
-    "institution": "Primaria Iasi",
-    "process": "ELIBERARE AVIZ PLAN DE INCADRARE IN TARLA",
-    "cases": [
-    "Pentru eliberare aviz plan de incadrare in tarla" 
-    ],
-    "departaments": [
-        "SERVICIUL G.I.S"
-    ],
-    "forms": [
+  "institution": "Primaria Iasi",
+  "process": "ELIBERARE AVIZ PLAN DE INCADRARE IN TARLA",
+  "cases": [
+    "Pentru eliberare aviz plan de incadrare in tarla"
+  ],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        " "
+        " cerere-tip",
+        "orice acte care sa ateste respectiva tarla"
       ]
-    ],
-    "necessary": [
-        [
-          [
-           " cerere-tip",
-           "orice acte care sa ateste respectiva tarla"  
-          ]
-        ]
-    ],
-    "prices": [[
-        ""
-        ]],
-    "generalInfo": [
-      [
-        ""
     ]
-    ],
-    "files":[
-      " "
-      ]
-}
+  ],
+  "generalInfo": [
+    []
+  ]
   
+}

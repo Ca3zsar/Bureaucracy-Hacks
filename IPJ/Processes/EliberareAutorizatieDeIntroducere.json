@@ -1,27 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Eliberare autorizaţie de introducere pe teritoriul României a armelor de foc",
-    "cases": [
-        "Pentru eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"
-    ],
-    "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
-    "forms": [
-      ["Eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere pentru eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"
-        ]
-      ]
-    ],
-    "generalInfo": [
-      [
-          "Cererile se solutioneaza  în termen de 30 de zile (excepție fac persoanele care introduc temporar armele pentru vânătoare sau tir)."
-     ]
-    ],
-    "files":[
-        "arme_explozivi_Anexa6.xls"
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Eliberare autorizaţie de introducere pe teritoriul României a armelor de foc",
+  "cases": [
+    "Pentru eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"
+  ],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
+  "forms": [
+    [
+      "Eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"
     ]
-  }
-  
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere pentru eliberare autorizaţie de introducere pe teritoriul României a armelor de foc"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererile se solutioneaza  în termen de 30 de zile (excepție fac persoanele care introduc temporar armele pentru vânătoare sau tir)."
+    ]
+  ],
+  "files": [
+    "arme_explozivi_Anexa6.xls"
+  ]
+}

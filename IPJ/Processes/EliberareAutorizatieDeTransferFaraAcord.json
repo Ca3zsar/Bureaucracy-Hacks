@@ -4,7 +4,9 @@
   "cases": [
     "Pentru eliberare autorizaţie de transfer fără acord prealabil a armelor şi muniţiilor letale sau neletale supuse autorizării de pe teritoriul  României către un armurier dintr-un stat membru al Uniunii Europene"
   ],
-  "departaments": ["Serviciul Arme, Explozivi si Substante Periculoase"],
+  "departaments": [
+    "Serviciul Arme, Explozivi si Substante Periculoase"
+  ],
   "forms": [
     [
       "Eliberare autorizaţie de transfer fără acord prealabil a armelor şi muniţiilor letale sau neletale supuse autorizării de pe teritoriul  României către un armurier dintr-un stat membru al Uniunii Europene"
@@ -22,5 +24,7 @@
       "În vederea obţinerii autorizaţiei de transfer fără acord prealabil a armelor letale sau neletale supuse autorizării, precum şi a pieselor şi componente esenţiale ale acestora, către un armurier sau intermediar dintr-un stat membru al Uniunii Europene, în care aceste transferuri nu sunt condiţionate de acordarea unei autorizări prealabile, armurierii sau intermediarii de pe teritoriul României, depun formularul, în două exemplare, la organul de poliţie competent sau la Inspectoratul General al Poliţiei Române. Termenul de soluţionare a cererii este de 10 zile lucrătoare iar baza legală este prevăzută la art. 173 din Normele metodologice de aplicare a Legii nr. 295/2004 privind regimul armelor și al munițiilor, aprobate prin H.G. nr. 11/2018."
     ]
   ],
-  "files": ["arme_explozivi_Anexa14.xls"]
+  "files": [
+    "arme_explozivi_Anexa14.xls"
+  ]
 }

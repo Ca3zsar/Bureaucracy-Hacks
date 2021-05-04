@@ -1,13 +1,19 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ADEVERINTA DE PREEMPTIUNE-SILVICULTURA",
-  "cases": ["Pentru adeverinta de preemptiune-silvicultura"],
-  "departaments": ["SERVICIUL G.I.S"],
-  "forms": [[" "]],
+  "process": "Adeverinta de preemptiune-silvicultura",
+  "cases": [
+    "Pentru adeverinta de preemptiune-silvicultura"
+  ],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
-        " Titlul de proprietate",
+        "Titlul de proprietate",
         "Fisa cu suprafetele primite in proprietate",
         "*Contract de vanzare cumparare",
         "Planul anexa care face parte integranta din contractul de vanzare cumparare",
@@ -17,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

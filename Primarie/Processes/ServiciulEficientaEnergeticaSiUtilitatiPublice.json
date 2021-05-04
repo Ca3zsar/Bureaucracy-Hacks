@@ -1,12 +1,18 @@
 {
   "institution": "Primaria Iasi",
   "process": "Serviciul Eficienta Energetica si Utilitati Publice",
-  "cases": ["AVIZ SPAȚII VERZI", "AUTORIZATIA DE OCUPARE A DOMENIULUI PUBLIC"],
+  "cases": [
+    "AVIZ SPAȚII VERZI",
+    "AUTORIZATIA DE OCUPARE A DOMENIULUI PUBLIC"
+  ],
   "departaments": [
     "DIRECTIA GENERALA TEHNICA SI DEZVOLTARE",
     "DIRECTIA TEHNICA SI SERVICII COMUNITARE"
   ],
-  "forms": [[" "], [""]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -27,8 +33,13 @@
     ]
   ],
   "prices": [
-    [""],
-    ["Taxa de 10 lei/mp/zi (se calculeaza dupa masurarea in teren)"]
+    [],
+    [
+      "Taxa de 10 lei/mp/zi (se calculeaza dupa masurarea in teren)"
+    ]
   ],
-  "generalInfo": [[" "],[""]]
+  "generalInfo": [
+    [],
+    []
+  ]
 }

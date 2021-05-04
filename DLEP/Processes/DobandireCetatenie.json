@@ -1,20 +1,17 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Schimbare de nume / prenume pe cale administrativă",
-    "departaments": [
-        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura",
-        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"],
     "cases": [
         "În cazul persoanelor cu vârsta peste 18 ani care au redobândit cetățenia română",
         "În cazul copiilor care nu au împlinit vârsta de 14 ani și sunt trecuți în certificatul de cetățenie al părinților"
     ],
+    "departaments": [
+        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura",
+        "Acte Speciale (rectificari, schimbari de nume, inscrieri mentiuni din strainatate), Divorturi Administrative, Registratura"
+    ],
     "forms": [
-        [
-            ""
-        ],
-        [
-            ""
-        ]
+        [],
+        []
     ],
     "necessary": [
         [

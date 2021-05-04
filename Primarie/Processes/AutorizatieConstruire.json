@@ -2,10 +2,14 @@
   "institution": "Primaria Iasi",
   "process": "Serviciul Constatare Impunere și Executare Creanțe Bugetare Persoane Juridice- Biroul Constatare Impunere Persoane Juridice",
   "cases": [
-    "AUTORIZAȚIE DE CONSTRUIRE REGULARIZAREA TAXEI PENTRU ELIBERAREA AUTORIZAȚIEI DE CONSTRUIRE "
+    "Autorizație de construire regularizarea taxei pentru eliberarea autorizației de construire"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

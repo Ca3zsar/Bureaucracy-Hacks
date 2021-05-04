@@ -4,9 +4,13 @@
   "cases": [
     "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"
   ],
-  "departaments": ["Eliberări Pașapoarte"],
+  "departaments": [
+    "Eliberări Pașapoarte"
+  ],
   "forms": [
-    ["Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"]
+    [
+      "Eliberarea paşapoartelor simple electronice/temporare declarate pierdute"
+    ]
   ],
   "necessary": [
     [
@@ -18,5 +22,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

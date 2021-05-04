@@ -1,9 +1,17 @@
 {
   "institution": "Inspectoratul de Politie Judetean Iasi",
   "process": "Avizare in domeniul schimbului valutar",
-  "cases": ["Pentru Avizare in domeniul schimbului valutar"],
-  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
-  "forms": [["Avizare in domeniul schimbului valutar"]],
+  "cases": [
+    "Pentru Avizare in domeniul schimbului valutar"
+  ],
+  "departaments": [
+    "Serviciului de Investigare a Criminalității Economice"
+  ],
+  "forms": [
+    [
+      "Avizare in domeniul schimbului valutar"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -13,6 +21,10 @@
       ]
     ]
   ],
-  "generalInfo": [[""]],
-  "files": ["frauda_economica_Anexa3"]
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "frauda_economica_Anexa3"
+  ]
 }

@@ -2,24 +2,32 @@
   "institution": "Primaria Iasi",
   "process": "Compartimentul Registru Agricol",
   "cases": [
-    "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR ANIMALIERE",
-    "CERTIFICAT DE PRODUCATOR PENTRU COMERCIALIZAREA PRODUSELOR AGROALIMENTARE",
-    "ADEVERINTA ROL AGRICOL (JUDECATORIE, NOTARIAT, POLITIE ETC.)",
-    "CONTRACT DE PASUNAT",
-    "ADEVERINTA TEREN (SOMAJ, BURSA, ETC.)",
-    "CONTRACTE DE FOLOSINTA PENTRU VETRE DE STUPINA",
-    "CONTRACTE DE FOLOSINTA AGRICOLA"
+    "Certificat de producator pentru comercializarea produselor animaliere",
+    "Certificat de producator pentru comercializarea produselor agroalimentare",
+    "Adeverinta rol agricol (judecatorie, notariat, politie etc.)",
+    "Contract de pasunat",
+    "Adeverinta teren (somaj, bursa, etc.)",
+    "Contracte de folosinta pentru vetre de stupina",
+    "Contracte de folosinta agricola"
   ],
   "departaments": [
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL",
-    "COMPARTIMENTUL REGISTRUL AGRICOL"
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol",
+    "Compartimentul registrul agricol"
   ],
-  "forms": [[" "], [" "], [" "], [" "], [" "], [" "], [" "]],
+  "forms": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -27,9 +35,21 @@
         "certificat de sanatate al animalelor vizat de Directia Sanitar Veterinara (copie xerox)"
       ]
     ],
-    [["cerere tip"]],
-    [["cerere scrisa de petent"]],
-    [["cerere scrisa de petent"]],
+    [
+      [
+        "cerere tip"
+      ]
+    ],
+    [
+      [
+        "cerere scrisa de petent"
+      ]
+    ],
+    [
+      [
+        "cerere scrisa de petent"
+      ]
+    ],
     [
       [
         " cerere - tip",
@@ -51,5 +71,13 @@
       ]
     ]
   ],
-  "generalInfo": [[""], [""], [""], [""], [""], [""], [""]]
+  "generalInfo": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
 }

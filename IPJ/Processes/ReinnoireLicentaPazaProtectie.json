@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Reinnoirea licentei in domeniul pazei si protectiei",
-    "cases": [
-      "Pentru Reinnoirea licentei in domeniul pazei si protectiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Reinnoirea licentei in domeniul pazei si protectiei",
+  "cases": [
+    "Pentru Reinnoirea licentei in domeniul pazei si protectiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Reinnoirea licentei in domeniul pazei si protectiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Reinnoirea licentei in domeniul pazei si protectiei"
+        "Anexa3",
+        "Anexa23"
       ]
-    ],
-    "necessary": [[["Anexa3","Anexa23"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa3","ordine_publica_Anexa23"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa3",
+    "ordine_publica_Anexa23"
+  ]
+}

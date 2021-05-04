@@ -1,15 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Restituire permis de conducere in baza certificatului medico-legal prin care se confirma ca afectiunile medicale care au determinat declararea persoanei respectiva ca inapta au incetat",
-    "cases": [
-      "Pentru Restituire permis de conducere in baza certificatului medico-legal prin care se confirma ca afectiunile medicale care au determinat declararea persoanei respectiva ca inapta au incetat"
-    ],
-    "departaments": ["Serviciul Rutier"],
-    "forms": [
-      ["Restituire permis de conducere la expirarea termenului de suspendare"]
-    ],
-    "necessary": [[["Cerere tip"]]],
-    "generalInfo": [["Cererea se soluţionează de către şeful serviciului rutier care are în evidenţă titularul, cu precizarea că restituirea documentului se face personal la sediul unităţii de poliţie "]],
-    "files": ["politie_rutiera_Anexa7"]
-  }
-  
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Restituire permis de conducere in baza certificatului medico-legal prin care se confirma ca afectiunile medicale care au determinat declararea persoanei respectiva ca inapta au incetat",
+  "cases": [
+    "Pentru Restituire permis de conducere in baza certificatului medico-legal prin care se confirma ca afectiunile medicale care au determinat declararea persoanei respectiva ca inapta au incetat"
+  ],
+  "departaments": [
+    "Serviciul Rutier"
+  ],
+  "forms": [
+    [
+      "Restituire permis de conducere la expirarea termenului de suspendare"
+    ]
+  ],
+  "necessary": [
+    [
+      [
+        "Cerere tip"
+      ]
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către şeful serviciului rutier care are în evidenţă titularul, cu precizarea că restituirea documentului se face personal la sediul unităţii de poliţie "
+    ]
+  ],
+  "files": [
+    "politie_rutiera_Anexa7"
+  ]
+}

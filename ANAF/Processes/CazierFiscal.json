@@ -1,14 +1,15 @@
 {
-    "institution":"ANAF",
-    "process" : "Cazier Fiscal",
-    "cases":[
+    "institution": "ANAF",
+    "process": "Cazier Fiscal",
+    "cases": [
         "Pentru Eliberarea cazierului fiscal pentru persoane fizice",
         "Pentru Eliberarea cazierului fiscal pentru persoane juridice"
     ],
-    "departaments":["Biroul pentru gestionarea cazierului fiscal",
+    "departaments": [
+        "Biroul pentru gestionarea cazierului fiscal",
         "Biroul pentru gestionarea cazierului fiscal"
     ],
-    "forms":[
+    "forms": [
         [
             "Certificat de cazier fiscal - Persoane fizice"
         ],
@@ -16,7 +17,7 @@
             "Certificat de cazier fiscal - Persoane juridice"
         ]
     ],
-    "necessary":[
+    "necessary": [
         [
             [
                 "cerere tip, se distribuie gratuit de la ghiseul unic, parter ",
@@ -39,7 +40,7 @@
             ]
         ]
     ],
-    "generalInfo":[
+    "generalInfo": [
         [
             "NOTA: In cazul persoanelor fizice autorizate (PFA) si al asociatiilor familiale (AFP),obligatia solicitarii cazierului fiscal, necesar in vederea autorizarii de functionare, revineprimariilor in raza carora se infiinteaza.\n\tCererile pentru eliberarea cazierului fiscal, insotite de documentele prevazute delege, se transmit Biroului Cazier fiscal, in baza protocolului incheiat intre fiecare primarielocala si directia generala, prin posta sau prin delegat desemnat, iar eliberareacertificatelor de cazier fiscal se face conform procedurii stabilite prin protocol."
         ],
@@ -47,10 +48,9 @@
             "Circuit documente: \n -documentele se depun numai personal, sub semnatura, se verifica si se inregistreaza in registrul biroului;\n - certificatul de cazier fiscal se elibereaza pe baza numarului de inregistrare a cererii, numai personal, sub semnatura, cu conditia prezentarii actului de identitate sau prin reprezentant, pe baza de procura autentica sau imputernicire avocatiala, in cazul persoanelor fizice sau pe baza de mandat, in cazul persoanelor juridice.\n Termenul de valabilitate al certificatului de cazier fiscal – 30 zile de la data eliberarii si numai in scopul in care a fost eliberat"
         ]
     ],
-    "prices":
-    [
+    "prices": [
         [
-
+            "achitarea taxei de 20 de lei"
         ],
         [
             "achitarea taxei de 20 de lei"

@@ -1,20 +1,20 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Carte identitate provizorie- eliberarea actului de identitate cetatenilor romani cu domiciliul in strainatate si resedinta in Romania ",
-    "departaments": [
-        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie",
-        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
-    ],
     "cases": [
         "In cazul persoanelor necasatorite ",
         "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
     ],
+    "departaments": [
+        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie",
+        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
+    ],
     "forms": [
         [
-            "dovada adresei de domiciliu"
+            "Dovada adresei de domiciliu"
         ],
         [
-            "dovada adresei de domiciliu"
+            "Dovada adresei de domiciliu"
         ]
     ],
     "necessary": [

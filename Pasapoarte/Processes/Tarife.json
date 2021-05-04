@@ -4,9 +4,13 @@
   "cases": [
     "Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"
   ],
-  "departaments": ["Eliberări Pașapoarte"],
+  "departaments": [
+    "Eliberări Pașapoarte"
+  ],
   "forms": [
-    ["Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"]
+    [
+      "Contravaloare paşaport. Cum se poate achita contravaloarea paşaportului?"
+    ]
   ],
   "necessary": [
     [

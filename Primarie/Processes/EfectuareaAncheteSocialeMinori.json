@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "EFECTUAREA ANCHETELOR SOCIALE IN SITUATII IN CARE SUNT IMPLICATI MINORI",
+  "process": "Efectuarea anchetelor sociale in situatii in care sunt implicati minori",
   "cases": [
     "Pentru efectuarea anchetelor sociale in situatii in care sunt implicati minori"
   ],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -15,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

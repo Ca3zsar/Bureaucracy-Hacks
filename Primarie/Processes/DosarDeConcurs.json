@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "DOSAR DE CONCURS",
-  "cases": ["DOSAR DE CONCURS"],
-  "departaments": ["SERVICIUL RESURSE UMANE"],
-  "forms": [[" "]],
+  "process": "Dosar de concurs",
+  "cases": [
+    "Dosar de concurs"
+  ],
+  "departaments": [
+    "Serviciul resurse umane"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -18,5 +24,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

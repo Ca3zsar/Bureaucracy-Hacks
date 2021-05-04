@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Solicitare bilet de tratament",
-	"cases": ["Pentru solicitarea unui bilet de tratament"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere bilet tratament"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "cerbilettrat" ]
+	"cases": [
+		"Pentru solicitarea unui bilet de tratament"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere bilet tratament"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"cerbilettrat"
+	]
 }

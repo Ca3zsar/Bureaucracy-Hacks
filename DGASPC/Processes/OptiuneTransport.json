@@ -1,16 +1,26 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Optiune Transport",
-  "cases": ["Pentru optiunea de transport"],
+  "cases": [
+    "Pentru optiunea de transport"
+  ],
   "departaments": [
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[" "]],
-  "necessary": [[[""]]],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
+      []
+    ]
+  ],
   "generalInfo": [
     [
       "Cerere pentru exprimarea optiunii prevazute la art. 24 alin. (9) si (10) din legea nr. 448/2006 privind protectia si promovarea drepturilor persoanelor cu handicap. "
     ]
   ],
-  "files": ["Cerere optiune transport"]
+  "files": [
+    "Cerere optiune transport"
+  ]
 }

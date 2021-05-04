@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CAMPANIE PROMOŢIONALĂ MOBILĂ",
-  "cases": [" "],
-  "departaments": ["DIRECTIA RELATII PUBLICE SI TRANSPARENTA DECIZIONALA"],
-  "forms": [["AVIZ CAMPANIE PROMOŢIONALĂ MOBILĂ"]],
+  "process": "Campanie promoţională mobilă",
+  "cases": [],
+  "departaments": [
+    "Directia relatii publice si transparenta decizionala"
+  ],
+  "forms": [
+    [
+      "Aviz campanie promoţională mobilă"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -12,5 +18,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

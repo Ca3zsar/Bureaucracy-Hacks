@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Acordare pensie de invaliditate in alte tari",
-	"cases": ["Pentru acordarea pensiei de invaliditate in alte tari"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere pensie de invaliditate in alte tari"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "form_RO204" ]
+	"cases": [
+		"Pentru acordarea pensiei de invaliditate in alte tari"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere pensie de invaliditate in alte tari"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"form_RO204"
+	]
 }

@@ -1,17 +1,28 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale",
-    "cases": [
-      "Pentru Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale"
-    ],
-    "departaments": ["Serviciul Rutier"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale",
+  "cases": [
+    "Pentru Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale"
+  ],
+  "departaments": [
+    "Serviciul Rutier"
+  ],
+  "forms": [
+    [
+      "Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Acordarea avizului Politiei Rutiere pentru proiectele de instalare a mijloacelor de semnalizare rutiera prin indicatoare, marcaje, semafoare electrice si alte dispozitive speciale"
+        "Cerere tip"
       ]
-    ],
-    "necessary": [[["Cerere tip"]]],
-    "generalInfo": [[""]],
-    "files": ["politie_rutiera_Anexa13"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "politie_rutiera_Anexa13"
+  ]
+}

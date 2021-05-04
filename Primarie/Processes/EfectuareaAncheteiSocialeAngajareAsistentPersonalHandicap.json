@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "EFECTUAREA ANCHETEI SOCIALE IN VEDEREA ANGAJARII CA ASISTENT PERSONAL AL PERSOANEI CU HANDICAP GRAV",
-  "cases": ["Pentru cei care depun dosarele la Serv. Resurse Umane"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Efectuarea anchetei sociale in vederea angajarii ca asistent personal al persoanei cu handicap grav",
+  "cases": [
+    "Pentru cei care depun dosarele la Serv. Resurse Umane"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -13,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

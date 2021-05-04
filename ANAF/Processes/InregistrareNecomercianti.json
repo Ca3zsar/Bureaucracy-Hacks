@@ -1,6 +1,6 @@
 {
   "institution": "ANAF",
-  "process": "INREGISTRAREA PERSOANELOR FIZICE CARE NU AU CALITATEA DE COMERCIANT SI A PERSOANELOR FIZICE CARE OBTIN VENITURI DIN ACTIVITATI INDEPENDENTE, PENTRU CARE PLATILE ANTICIPATE SE FAC PRIN RETINERE LA SURSA DE CATRE PLATITORII DE VENITURI",
+  "process": "Inregistrarea persoanelor fizice care nu au calitatea de comerciant si a persoanelor fizice care obtin venituri din activitati independente, pentru care platile anticipate se fac prin retinere la sursa de catre platitorii de venituri",
   "cases": [
     "Inregistrarea personelor fizice care obtin venituri din activitati independente (profesii libere: contabili, medici, avocati, arhitecti,experti, specialisti in cadastru ,traducatori)conform ORD.1346/2006, publcat in MO 744/31.08.2006 si a persoanelor fizice care au calitatea de comerciant(autorizatii primarie )cf.Legii 507/2002 si aLegii 300/2004.",
     "Inregistrarea persoanelor fizice care nu au calitatea de comerciant(colaboratori)"
@@ -10,8 +10,12 @@
     "Biroul de gestiune registru contribuabili, monitorizare declaratii fiscale si bilanturi"
   ],
   "forms": [
-    ["Certificat de inregistrare fiscala"],
-    ["Certificat de inregistrare fiscala"]
+    [
+      "Certificat de inregistrare fiscala"
+    ],
+    [
+      "Certificat de inregistrare fiscala"
+    ]
   ],
   "necessary": [
     [
@@ -32,11 +36,11 @@
     ]
   ],
   "generalInfo": [
-      [
-        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
-      ],
-      [
-        "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
-      ]
+    [
+      "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
+    ],
+    [
+      "Circuit documente:\n Documentele se depun la camera 1103 si se elibereaza, din acelasi loc, pe baza declaratiei."
     ]
+  ]
 }

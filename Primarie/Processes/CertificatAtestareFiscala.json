@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CERTIFICAT DE ATESTARE FISCALĂ",
-  "cases": ["Pentru certificat de atestare fiscala"],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "process": "Certificat de atestare fiscală",
+  "cases": [
+    "Pentru certificat de atestare fiscala"
+  ],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

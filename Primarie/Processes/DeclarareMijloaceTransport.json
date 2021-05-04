@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "MIJLOACELE DE TRANSPORT : DECLARAREA/ÎNREGISTRAREA ÎN EVIDENȚA FISCALĂ",
+  "process": "Mijloacele de transport : declararea/înregistrarea în evidența fiscală",
   "cases": [
     "Pentru declararea/inregistrarea in evidenta fiscala a mijloacelor de transport"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -24,5 +28,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

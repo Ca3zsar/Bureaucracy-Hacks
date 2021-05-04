@@ -1,26 +1,29 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Încheierea contractului cu familia",
-    "cases": ["Încheierea contractului cu familia"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Încheierea contractului cu familia",
+  "cases": [
+    "Încheierea contractului cu familia"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-         "Copii acte de identitate părinţi",
-         "Copie Certificat de naştere copil",
-         "Certificatul de ȋncadrare ȋn grad de handicap şi planul de abilitare-reabilitare",
-         "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Copii acte de identitate părinţi",
+        "Copie Certificat de naştere copil",
+        "Certificatul de ȋncadrare ȋn grad de handicap şi planul de abilitare-reabilitare",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        ""
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

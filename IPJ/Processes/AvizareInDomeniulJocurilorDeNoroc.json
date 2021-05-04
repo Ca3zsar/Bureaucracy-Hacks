@@ -1,9 +1,17 @@
 {
   "institution": "Inspectoratul de Politie Judetean Iasi",
   "process": "Avizare in domeniul jocurilor de noroc",
-  "cases": ["Pentru Avizare in domeniul jocurilor de noroc"],
-  "departaments": ["Serviciului de Investigare a Criminalității Economice"],
-  "forms": [["Avizare in domeniul jocurilor de noroc"]],
+  "cases": [
+    "Pentru Avizare in domeniul jocurilor de noroc"
+  ],
+  "departaments": [
+    "Serviciului de Investigare a Criminalității Economice"
+  ],
+  "forms": [
+    [
+      "Avizare in domeniul jocurilor de noroc"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -13,6 +21,10 @@
       ]
     ]
   ],
-  "generalInfo": [[""]],
-  "files": ["frauda_economica_Anexa1"]
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "frauda_economica_Anexa1"
+  ]
 }

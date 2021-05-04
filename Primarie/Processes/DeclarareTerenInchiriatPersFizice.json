@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "DECLARAREA ÎN EVIDENȚA FISCALĂ A TERENURILOR PROPRIETATE PUBLICĂ SAU PRIVATĂ A STATULUI/UNITĂȚILOR ADMINISTRATIV TERITORIALE ÎNCHIRIATE, CONCESIONATE, DATE ÎN ADMINISTRARE ORI ÎN FOLOSINȚĂ CĂTRE PERSOANE FIZICE",
+  "process": "Declararea în evidența fiscală a terenurilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice",
   "cases": [
     "Pentru declararea în evidența fiscală a terenurilor proprietate publică sau privată a statului/unităților administrativ teritoriale închiriate, concesionate, date în administrare ori în folosință către persoane fizice"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia generala economica si finante publice locale"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

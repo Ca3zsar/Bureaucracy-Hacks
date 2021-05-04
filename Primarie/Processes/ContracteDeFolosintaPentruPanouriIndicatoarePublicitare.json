@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CONTRACTE DE FOLOSINTA PENTRU PANOURI INDICATOARE-PUBLICITARE",
-  "cases": ["Pentru contracte de folosinta pentru panouri indicatoare-publicitare"],
-  "departaments": ["SECRETAR MUNICIPIUL IASI"],
-  "forms": [[" "]],
+  "process": "Contracte de folosinta pentru panouri indicatoare-publicitare",
+  "cases": [
+    "Pentru contracte de folosinta pentru panouri indicatoare-publicitare"
+  ],
+  "departaments": [
+    "Secretar municipiul Iasi"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

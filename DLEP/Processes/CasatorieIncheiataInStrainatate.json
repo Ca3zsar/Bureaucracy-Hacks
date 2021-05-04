@@ -1,24 +1,20 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Transcriere - căsătorie încheiată în străinătate",
-    "departaments": [
-        "Transcrieri - Starea Civila - Eliberari"
-    ],
     "cases": [
         "In cazul in care titularul se poate prezenta",
         "In cazul in care titularul nu se poate prezenta",
         "In cazul cetatenilor straini"
     ],
+    "departaments": [
+        "Transcrieri - Starea Civila - Eliberari",
+        "Transcrieri - Starea Civila - Eliberari",
+        "Transcrieri - Starea Civila - Eliberari"
+    ],
     "forms": [
-        [
-            " "
-        ],
-        [
-            " "
-        ],
-        [
-            " "
-        ]
+        [],
+        [],
+        []
     ],
     "necessary": [
         [

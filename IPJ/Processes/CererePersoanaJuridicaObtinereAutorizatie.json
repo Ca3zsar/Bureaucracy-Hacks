@@ -1,33 +1,40 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana juridica",
-    "cases": [
-      "Pentru obţinerea autorizaţiei de deţinere a detectoarelor de metale pentru persoane juridice"
-    ],
-    "departaments": ["Inspectoratul de Politie Judetean Iasi"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana juridica",
+  "cases": [
+    "Pentru obţinerea autorizaţiei de deţinere a detectoarelor de metale pentru persoane juridice"
+  ],
+  "departaments": [
+    "Inspectoratul de Politie Judetean Iasi"
+  ],
+  "forms": [
+    [
+      "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana juridica"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Obţinere autorizaţie de deţinere a detectoarelor de metale persoana juridica"
+        "Cerere tip",
+        "Buletinul sau cartea de identitate a reprezentantului legal al institutiei, precum si ale angajatilor care vor utiliza detectorul de metale pentru executarea sarcinilor de serviciu(copie si original)",
+        "Actul cu care se dovedeste ca solicitantul este proprietarul detectorului de metale(copie si original)",
+        "Statutul societatii (copie si original)",
+        "Chitanta emisa de unitatile C.E.C din care sa reiasa ca a fost achitata suma de 20 lei reprezentand taxa de autorizatie",
+        "Certificat de cazier judiciar pentru persoanele prevazute la al doilea paragraf"
       ]
-    ],
-    "necessary": [
-      [
-        [
-          "Cerere tip",
-          "Buletinul sau cartea de identitate a reprezentantului legal al institutiei, precum si ale angajatilor care vor utiliza detectorul de metale pentru executarea sarcinilor de serviciu(copie si original)",
-          "Actul cu care se dovedeste ca solicitantul este proprietarul detectorului de metale(copie si original)",
-          "Statutul societatii (copie si original)",
-          "Chitanta emisa de unitatile C.E.C din care sa reiasa ca a fost achitata suma de 20 lei reprezentand taxa de autorizatie",
-          "Certificat de cazier judiciar pentru persoanele prevazute la al doilea paragraf"
-        ]
-      ]
-    ],
-    "generalInfo": [
-      [
-        "Cererea se soluţionează de către unitatea de poliţie pe raza căreia domiciliază sau îşi are reşedinţa solicitantul, în termen de 10 zile de la depunerea documentaţiei complete"
-      ]
-    ],
-    "prices": [["Taxa pentru autorizatie - 20 lei"]],
-    "files": ["detectoare_metal_Anexa2"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    [
+      "Cererea se soluţionează de către unitatea de poliţie pe raza căreia domiciliază sau îşi are reşedinţa solicitantul, în termen de 10 zile de la depunerea documentaţiei complete"
+    ]
+  ],
+  "prices": [
+    [
+      "Taxa pentru autorizatie - 20 lei"
+    ]
+  ],
+  "files": [
+    "detectoare_metal_Anexa2"
+  ]
+}

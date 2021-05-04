@@ -7,7 +7,11 @@
   "departaments": [
     "Eliberări Pașapoarte"
   ],
-  "forms": [["Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"]],
+  "forms": [
+    [
+      "Pașaport simplu electronic/temporar în cazul documentelor de călătorie deteriorate"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -15,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

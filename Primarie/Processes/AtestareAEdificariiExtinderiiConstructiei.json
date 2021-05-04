@@ -1,13 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ATESTARE A EDIFICĂRII/EXTINDERII CONSTRUCŢIEI",
+  "process": "Atestare a edificării/extinderii construcţiei",
   "cases": [
-    "AVIZ DE AMPLASARE A UNEI LUCRARI TEHNICO-EDILITARE IN ZONA SAU PE STRUCTURA UNEI LUCRARI DE ARTA EXISTENTE (POD, PASAJ)"
+    "Aviz de amplasare a unei lucrari tehnico-edilitare in zona sau pe structura unei lucrari de arta existente (pod, pasaj)"
   ],
   "departaments": [
     "Serviciul Control Urbanism (in cadrul POLITIEI LOCALE IASI)"
   ],
-  "forms": [[" "]],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [

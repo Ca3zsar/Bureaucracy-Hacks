@@ -4,8 +4,12 @@
   "cases": [
     "Pentru scoaterea din evidență a unui mijloc de transport ca urmare a înstrăinării '"
   ],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "departaments": [
+    "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

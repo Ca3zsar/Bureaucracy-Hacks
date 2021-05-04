@@ -1,10 +1,26 @@
 {
 	"institution": "Casa Judeteana de Pensii Iasi",
 	"process": "Acordare pensie urmas in Republica Moldova",
-	"cases": ["Pentru acordarea pensiei de urmas in Republica Moldova"],
-	"departaments": [ "Casa Judeteana de Pensii Iasi" ],
-	"forms": [["Cerere pensie urmas in Republica Moldova"]],
-	"necessary": [[[""]]],
-	"generealInfo": [[""]],
-	"files": [ "form_ROMD203" ]
+	"cases": [
+		"Pentru acordarea pensiei de urmas in Republica Moldova"
+	],
+	"departaments": [
+		"Casa Judeteana de Pensii Iasi"
+	],
+	"forms": [
+		[
+			"Cerere pensie urmas in Republica Moldova"
+		]
+	],
+	"necessary": [
+		[
+			[]
+		]
+	],
+	"generealInfo": [
+		[]
+	],
+	"files": [
+		"form_ROMD203"
+	]
 }

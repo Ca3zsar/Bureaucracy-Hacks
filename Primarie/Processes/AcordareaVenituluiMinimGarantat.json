@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ACORDAREA VENITULUI MINIM GARANTAT",
-  "cases": ["Pentru acordarea venitului minim garantat"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Acordarea venitului minim garantat",
+  "cases": [
+    "Pentru acordarea venitului minim garantat"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -27,5 +33,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

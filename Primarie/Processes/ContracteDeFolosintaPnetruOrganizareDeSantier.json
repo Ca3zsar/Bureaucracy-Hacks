@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "CONTRACTE DE FOLOSINTA PENTRU ORGANIZARE DE SANTIER",
-  "cases": ["Pentru contracte de folosinta pentru organizare de santier"],
-  "departaments": ["SECRETAR MUNICIPIUL IASI"],
-  "forms": [[" "]],
+  "process": "Contracte de folosinta pentru organizare de santier",
+  "cases": [
+    "Pentru contracte de folosinta pentru organizare de santier"
+  ],
+  "departaments": [
+    "Secretar municipiul Iasi"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -15,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

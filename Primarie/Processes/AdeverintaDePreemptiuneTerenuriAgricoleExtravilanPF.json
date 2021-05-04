@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ADEVERINTA DE PREEMPTIUNE-TERENURI AGRICOLE EXTRAVILAN-PERS0ANA FIZICA",
+  "process": "Adeverinta de preemptiune-terenuri agricole extravilan-pers0ana fizica",
   "cases": [
     "Pentru Adeverinta de preemptiune - terenuri agricole extravilan - persoane fizice"
   ],
-  "departaments": ["SERVICIUL G.I.S"],
-  "forms": [[" "]],
+  "departaments": [
+    "SERVICIUL G.I.S"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -19,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

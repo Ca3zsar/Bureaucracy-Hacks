@@ -4,8 +4,14 @@
   "cases": [
     "Pentru persoanele cu venit lunar de pana la 530 lei/membu de familie"
   ],
-  "departament": ["Alocatii si Indemnizatii"],
-  "forms": [["Alocatie pentru sustinerea familiei"]],
+  "departament": [
+    "Alocatii si Indemnizatii"
+  ],
+  "forms": [
+    [
+      "Alocatie pentru sustinerea familiei"
+    ]
+  ],
   "necessary": [
     [
       [
@@ -31,8 +37,12 @@
       ]
     ]
   ],
-  "generalInfo": [["Dosarele se depun personal sau pe bază de procură"]],
-  "files" : [
+  "generalInfo": [
+    [
+      "Dosarele se depun personal sau pe bază de procură"
+    ]
+  ],
+  "files": [
     "Cerere_incalzire_Anexa_nr_1_persoane_fara_vmg"
   ]
 }

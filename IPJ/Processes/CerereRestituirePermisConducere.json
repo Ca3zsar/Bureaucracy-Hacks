@@ -4,17 +4,27 @@
   "cases": [
     "Pentru Restituire permis de conducere eliberat de o autoritate straina, inainte de expirarea perioadei de suspendare"
   ],
-  "departaments": ["Serviciul Rutier"],
+  "departaments": [
+    "Serviciul Rutier"
+  ],
   "forms": [
     [
       "Restituire permis de conducere eliberat de o autoritate straina, inainte de expirarea perioadei de suspendare"
     ]
   ],
-  "necessary": [[["Cerere tip"]]],
+  "necessary": [
+    [
+      [
+        "Cerere tip"
+      ]
+    ]
+  ],
   "generalInfo": [
     [
       "Cererea se soluţionează de către şeful serviciului rutier pe raza căruia a fost săvârşită fapta, conform prevederilor de mai sus."
     ]
   ],
-  "files": ["politie_rutiera_Anexa3"]
+  "files": [
+    "politie_rutiera_Anexa3"
+  ]
 }

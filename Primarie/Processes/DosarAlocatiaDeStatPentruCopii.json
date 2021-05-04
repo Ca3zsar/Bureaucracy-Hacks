@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "INTOCMIREA DOSARULUI PENTRU ALOCATIA DE STAT PENTRU COPII",
-  "cases": ["Pentru intocmirea dosarului pentru alocatia de stat pentru copii"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "process": "Intocmirea dosarului pentru alocatia de stat pentru copii",
+  "cases": [
+    "Pentru intocmirea dosarului pentru alocatia de stat pentru copii"
+  ],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -13,5 +19,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

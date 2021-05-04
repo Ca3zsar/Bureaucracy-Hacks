@@ -14,10 +14,18 @@
     "Alocatii si Indemnizatii"
   ],
   "forms": [
-    ["Alocatie de stat pentru copii"],
-    ["Alocatie de stat pentru copii"],
-    ["Alocatie de stat pentru copii"],
-    ["Alocatie de stat pentru copii"]
+    [
+      "Alocatie de stat pentru copii"
+    ],
+    [
+      "Alocatie de stat pentru copii"
+    ],
+    [
+      "Alocatie de stat pentru copii"
+    ],
+    [
+      "Alocatie de stat pentru copii"
+    ]
   ],
   "necessary": [
     [
@@ -77,14 +85,14 @@
     [
       "Dacă părinţii nu au lucrat în străinătate şi nu le-au fost întocmite documente în statul membru U.E solicitantul va depune o declaraţie în care se va specifica perioada petrecută în străinătate, că nu a lucrat şi nu încasează sau nu a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent\nDacă părinţii au avut calitatea de lucrători migranţi vor depune documente justificative care să ateste adresa (adresa INS - Instituţia care plăteşte alocaţia în ţara/localitatea din statul membru U.E) şi numărul de asigurare din statul membru U.E în care s-a născut copilul precum şi o declaraţie care să ateste perioada în care a lucrat, dacă încasează sau a încasat de la statul respectiv alocaţie şi unde locuieşte în prezent.\nDacă părinţii / sau unul dintre părinţi lucrează intr-un stat membru UE se va anexa Formularul E411 sau documentul doveditor din statul respectiv"
     ],
-    [""],
+    [],
     [
       "Dacă nu este prezentată negaţia/adeverinţa menţionată mai sus, este necesar ca angajaţii DAS Iaşi să efectueze o anchetă socială la domiciliu, din care să rezulte că părintele solicitant/reprezentantul legal al copilului pentru alocaţia de stat locuieşte împreună cu copilul, în Iaşi – România"
     ]
   ],
-  "files":[
-      "Cerere_indemnizatie_model_iunie_2016",
-      "Notificare_date_caracter_personal_alocatie_de_stat",
-      "cerere_alocatie_stat"
+  "files": [
+    "Cerere_indemnizatie_model_iunie_2016",
+    "Notificare_date_caracter_personal_alocatie_de_stat",
+    "cerere_alocatie_stat"
   ]
 }

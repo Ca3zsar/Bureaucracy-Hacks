@@ -2,32 +2,33 @@
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Carte identitate provizorie: Când solicitantul nu posedă toate documentele necesare eliberării cărţii de identitate",
     "departaments": [
+        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie",
         "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
     ],
     "cases": [
-        "In cazul persoanelor necasatorite ",  
+        "In cazul persoanelor necasatorite ",
         "în cazul persoanelor căsătorite sau al soţului supravieţuitor"
     ],
     "forms": [
         [
-            "dovada adresei de domiciliu"
+            "Dovada adresei de domiciliu"
         ],
-        [ 
-            "dovada adresei de domiciliu"
+        [
+            "Dovada adresei de domiciliu"
         ]
     ],
     "necessary": [
         [
             [
-              "Cererea pentru eliberarea actului de identitate:",
-              "Actul de identitate al solicitantului.",
-              "Fotografii 3x4 cm(3 bucăţi), de dată recentă, cu bandă albă de 7 mm la bază",
-              "Chitanţa reprezentând contravaloarea cărţii de identitate",
-              "Certificatul de naştere; original si fotocopie",
-              "Documentul cu care se face dovada adresei de domiciliu"
-
-
-            ],
+                "Cererea pentru eliberarea actului de identitate:",
+                "Actul de identitate al solicitantului.",
+                "Fotografii 3x4 cm(3 bucăţi), de dată recentă, cu bandă albă de 7 mm la bază",
+                "Chitanţa reprezentând contravaloarea cărţii de identitate",
+                "Certificatul de naştere; original si fotocopie",
+                "Documentul cu care se face dovada adresei de domiciliu"
+            ]
+        ],
+        [
             [
                 "Cererea pentru eliberarea actului de identitate:",
                 "Actul de identitate al solicitantului.",
@@ -38,9 +39,6 @@
                 "Certificatul de căsătorie",
                 "Hotărârea de divorţ definitivă şi irevocabilă, dacă este cazul",
                 "Certificatul de deces al soţului/soţiei decedat/decedate, în cazul soţului supravieţuitor;"
-
-              
-
             ]
         ]
     ],
@@ -50,15 +48,14 @@
         ],
         [
             "Cartea de identitate provizorie se eliberează când persoana fizică nu posedă toate documentele necesare eliberării cărţii de identitate.\n Pentru cartea de identitate provizorie, termenul de valabilitate se stabileşte de serviciul public comunitar local de evidenţă a persoanelor fiind cuprins între 30 de zile şi un an.\n Cererea pentru eliberarea actului de identitate: se obţine de la ofiterul de serviciu sau se descarcă Anexa 11 şi se listează pe o singură foaie, faţă-verso, si se va completa de către solicitant şi se va semna în faţa lucrătorului de la ghişeu.\n În cazul în care solicitantul nu are actul de identitate atunci se va ataşa: Un document emis de instituţii sau autorităţi publice, cu fotografie de dată recentă, pentru certificarea identităţii, respectiv: carte de alegător, paşaport, permis de conducere, legitimaţie de serviciu, livret militar, diploma de absolvire a unei instituţii de învăţământ (original şi fotocopie).\n Pentru documentul cu care se face dovada adresei de domiciliu:Dacă solicitantul nu este titularul spaţiului de locuit este  necesară prezenţa găzduitorului care va prezenta actul de proprietate(original şi fotocopie).\n Dacă găzduitorul nu se poate prezenta la serviciul public comunitar de evidenţă a persoanelor, declaraţia de primire în spaţiu poate fi consemnată la notarul public, la misiunea diplomatică sau oficiul consular al României din străinătate sau în prezenţa poliţistului de la postul de poliţie-pentru mediul rural.\nDacă solicitantul a avut carte de identitate va preda cartea de alegător. \nDacă titularul nu a intrat în posesia acestui document sau l-a pierdut, va menţiona acest fapt în cerere. "
-
         ]
     ],
     "prices": [
         [
-            " Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
+            "Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
         ],
-        [ 
-            " Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
+        [
+            "Chitanţa reprezentând contravaloarea cărţii de identitate provizorii (1 leu) "
         ]
     ],
     "files": [

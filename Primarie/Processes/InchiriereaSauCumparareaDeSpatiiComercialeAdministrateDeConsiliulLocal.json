@@ -2,14 +2,17 @@
   "institution": "Primaria Iasi",
   "process": "Inchirierea sau cumpararea de spatii comerciale administrate de consiliul local",
   "cases": [
-    "Pentru SOCIETATI COMERCIALE",
-    "Pentru COMERCIANTI sau PRESTATORI de SERVICII, PERSOANE FIZICE sau ASOCIATII FAMILIALE"
+    "Pentru societati comerciale",
+    "Pentru comercianti sau prestatori de servicii, persoane fizice sau asociatii familiale"
   ],
   "departaments": [
     "Direcția Exploatare Patrimoniu",
     "Direcția Exploatare Patrimoniu"
   ],
-  "forms": [[" "], [" "]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -27,12 +30,15 @@
     ]
   ],
   "prices": [
-    ["taxa de participare la licitatie, 0,5% din pretul de pornire la licitatie"],[""]
+    [
+      "taxa de participare la licitatie, 0,5% din pretul de pornire la licitatie"
+    ],
+    []
   ],
   "generalInfo": [
     [
       " garantia de participare la licitatie, 10% din pretul de pornire la licitatie"
     ],
-    [""]
+    []
   ]
 }

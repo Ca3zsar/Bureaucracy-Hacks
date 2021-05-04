@@ -1,9 +1,15 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Evaluarea complexa a copilului",
-  "cases": ["Pentru evaluarea complexa a copilului"],
-  "departaments": ["Departamentul Asistenta Socială pentru Copil şi Familie"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru evaluarea complexa a copilului"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,7 +23,9 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]],
+  "generalInfo": [
+    []
+  ],
   "files": [
     "ADEVERINȚĂ TERAPII",
     "ANCHETA SOCIALĂ",

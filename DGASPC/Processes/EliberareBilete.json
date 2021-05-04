@@ -1,32 +1,29 @@
 {
-    "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
-    "process": "Acordarea biletelor pentru transport interurban C.F.R. si Auto",
-    "cases": [
-      "Pentru acordarea biletelor pentru transport interurban C.F.R si Auto"
-    ],
-    "departaments": [
-      "Departamentul Asistenta Socială Persoane Adulte"  
-    ],
-    "forms": [
+  "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
+  "process": "Acordarea biletelor pentru transport interurban C.F.R. si Auto",
+  "cases": [
+    "Pentru acordarea biletelor pentru transport interurban C.F.R si Auto"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        " "
-      ]
-    ],
-    "necessary": [
-        [
-          [
-           "Buletinul / Cartea de identitate al/a persoanei titulare a facilităților (persoana cu handicap, asistentul personal) sau/și al/a reprezentanților legali (tutore, curator), împuternicitului notarial – în original",
-           "Legitimația de persoană cu handicap – cartonată",
-           "Contractul de muncă al asistentului personal, acolo unde este cazul",
-           "Sentința civilă/hotărârea judecătorească de numire a tutorelui / curatorului, acolo unde este cazul",
-           "Procura notarială – în cazul în care titularul de drept desemnează o altă persoană să-i ridice biletele pentru transport interurban"
-          ]
-        ]
-    ],
-    "generalInfo": [
-      [
-        "BILETELE PENTRU TRANSPORTUL INTERURBAN SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR."
+        "Buletinul / Cartea de identitate al/a persoanei titulare a facilităților (persoana cu handicap, asistentul personal) sau/și al/a reprezentanților legali (tutore, curator), împuternicitului notarial – în original",
+        "Legitimația de persoană cu handicap – cartonată",
+        "Contractul de muncă al asistentului personal, acolo unde este cazul",
+        "Sentința civilă/hotărârea judecătorească de numire a tutorelui / curatorului, acolo unde este cazul",
+        "Procura notarială – în cazul în care titularul de drept desemnează o altă persoană să-i ridice biletele pentru transport interurban"
       ]
     ]
+  ],
+  "generalInfo": [
+    [
+      "Biletele pentru transportul interurban se eliberează exclusiv persoanei cu handicap, asistentului personal, reprezentantului legal/tutorelui sau oricarei alte persoane, împuternicite notarial de către beneficiar."
+    ]
+  ]
 }
-  

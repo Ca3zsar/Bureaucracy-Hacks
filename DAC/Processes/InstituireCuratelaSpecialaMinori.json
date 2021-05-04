@@ -1,32 +1,37 @@
 {
-    "institution": "Directia de Asistenta Sociala Iasi",
-    "process": "Instituire curatela speciala minori",
-    "cases": ["Instituire curatela speciala minori"],
-    "departament": ["Directia de Asistenta Sociala Iasi"],
-    "forms": [[""]],
-    "necessary": [
+  "institution": "Directia de Asistenta Sociala Iasi",
+  "process": "Instituire curatela speciala minori",
+  "cases": [
+    "Instituire curatela speciala minori"
+  ],
+  "departament": [
+    "Directia de Asistenta Sociala Iasi"
+  ],
+  "forms": [
+    []
+  ],
+  "necessary": [
+    [
       [
-        [
-          "Copii dupa actele de identitate ale părinţilor/al părintelui supravieţuitor",
-          "Cererea olografă/autentificată a părinţilor",
-          "Copie după actul de identitate al curatorului şi adeverinţă medicală pentru acesta, eliberată de medicul de familie",
-          "Declaraţia olografă a curatorului propus",
-          "Copie dupa certificatul de nastere sau cartea de identitate a minorului (dupa caz)",
-          "Declaraţia minorului cu capacitate restrânsă de exerciţiu",
-          "La succesiuni: copie dupa certificatul de deces al persoanei după care se dezbate succesiunea şi copie după Anexa 24",
-          "La tranzacţiile de imobile: copie după Certificat de Atestare Fiscală + copie după Extras de Carte Funciară pentru Informare",
-          "La ȋnstrăinare: copie după contractul de proprietate şi extras de cont bancar deschis pe numele minorului",
-          "Notificare privind prelucrarea datelor cu caracter personal"
-        ]
+        "Copii dupa actele de identitate ale părinţilor/al părintelui supravieţuitor",
+        "Cererea olografă/autentificată a părinţilor",
+        "Copie după actul de identitate al curatorului şi adeverinţă medicală pentru acesta, eliberată de medicul de familie",
+        "Declaraţia olografă a curatorului propus",
+        "Copie dupa certificatul de nastere sau cartea de identitate a minorului (dupa caz)",
+        "Declaraţia minorului cu capacitate restrânsă de exerciţiu",
+        "La succesiuni: copie dupa certificatul de deces al persoanei după care se dezbate succesiunea şi copie după Anexa 24",
+        "La tranzacţiile de imobile: copie după Certificat de Atestare Fiscală + copie după Extras de Carte Funciară pentru Informare",
+        "La ȋnstrăinare: copie după contractul de proprietate şi extras de cont bancar deschis pe numele minorului",
+        "Notificare privind prelucrarea datelor cu caracter personal"
       ]
-    ],
-    "generalInfo": [
-      [
-        "Dispoziţia de curatelă specială se eliberează la solicitarea biroului notarial ȋn următoarele situaţii: dezbateri de succesiune, acte de dispoziţie facute in numele minorului \nDosarul poate fi completat de orice alt act solicitat de către reprezentatul autorităţii tutelare, justificat pentru a dovedi respectarea interesului minorului"
-      ]
-    ],
-    "files":[
-      "Declaratie_acord_date_autoritate_tutelara"
     ]
-  }
-  
+  ],
+  "generalInfo": [
+    [
+      "Dispoziţia de curatelă specială se eliberează la solicitarea biroului notarial ȋn următoarele situaţii: dezbateri de succesiune, acte de dispoziţie facute in numele minorului \nDosarul poate fi completat de orice alt act solicitat de către reprezentatul autorităţii tutelare, justificat pentru a dovedi respectarea interesului minorului"
+    ]
+  ],
+  "files": [
+    "Declaratie_acord_date_autoritate_tutelara"
+  ]
+}

@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "AVIZ PENTRU EXECUTAREA DE LUCRARI TEHNICO-EDILITARE IN DOMENIUL PUBLIC AMENAJAT",
+  "process": "Aviz pentru executarea de lucrari tehnico-edilitare in domeniul public amenajat",
   "cases": [
     "Pentru aviz pentru executarea de lucrari tehnico-edilitare in domeniul public amenajat"
   ],
-  "departaments": ["DIRECTIA ARHITECTURA SI URBANISM"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia arhitectura si urbanism"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

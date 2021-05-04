@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare",
-    "cases": [
-      "Pentru Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare",
+  "cases": [
+    "Pentru Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Avizare R.O.F in domeniul pazei si protectiei, ulterior obtinerii/reinnoirii licentei de functionare"
+        "Anexa8",
+        "Anexa23"
       ]
-    ],
-    "necessary": [[["Anexa8","Anexa23"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa8","ordine_publica_Anexa23"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa8",
+    "ordine_publica_Anexa23"
+  ]
+}

@@ -1,9 +1,15 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Acordarea legitimatiei transport urban",
-  "cases": ["Pentru acordarea legitimatiei transport urban"],
-  "departaments": ["Departamentul Asistenta Socială Persoane Adulte"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru acordarea legitimatiei transport urban"
+  ],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -26,7 +32,7 @@
   ],
   "generalInfo": [
     [
-      "LEGITIMAȚIA PENTRU TRANSPORT URBAN SE ELIBEREAZĂ EXCLUSIV PERSOANEI CU HANDICAP, ASISTENTULUI PERSONAL, REPREZENTANTULUI LEGAL/TUTORELUI SAU ORICAREI ALTE PERSOANE, ÎMPUTERNICITE NOTARIAL DE CĂTRE BENEFICIAR",
+      "Legitimația pentru transport urban se eliberează exclusiv persoanei cu handicap, asistentului personal, reprezentantului legal/tutorelui sau oricarei alte persoane, împuternicite notarial de către beneficiar",
       "În cazul pierderii, distrugerii sau furtului legitimaţiei, persoana cu handicap o va declara nulă într-un cotidian şi va solicita eliberarea unui duplicat. Pierderea, distrugerea sau furtul duplicatului presupune costuri de emitere a unei noi legitimaţii, pe care persoana cu handicap le va suporta. "
     ]
   ]

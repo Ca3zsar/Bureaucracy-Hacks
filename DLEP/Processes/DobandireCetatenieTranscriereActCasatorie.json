@@ -1,16 +1,12 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Redobândire/dobândire cetățenie -Transcriere act căsătorie",
+    "cases": [],
     "departaments": [
         "Transcrieri - Starea Civila - Eliberari"
     ],
-    "cases": [
-        " "
-    ],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [
@@ -36,7 +32,5 @@
             "Taxa de 40 lei către Consiliul Județean Iași - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
         ]
     ],
-    "files": [
-        " "
-    ]
+    "files": []
 }

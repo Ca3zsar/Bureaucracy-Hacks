@@ -11,7 +11,11 @@
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie",
     "Departamentul Asistenta Socială Persoane Adulte/Departamentul Asistenta Socială pentru Copil şi Familie"
   ],
-  "forms": [[""], [""], [""]],
+  "forms": [
+    [],
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -34,7 +38,11 @@
       ]
     ]
   ],
-  "generalInfo": [[""], [""], [""]],
+  "generalInfo": [
+    [],
+    [],
+    []
+  ],
   "files": [
     "Anexa 1",
     "Anexa 2",

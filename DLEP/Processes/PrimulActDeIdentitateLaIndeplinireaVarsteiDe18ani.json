@@ -1,25 +1,22 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "ACTE NECESARE-Primul act de identitate după împlinirea vârstei de 18 ani",
-    "departaments": [
-        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
-    ],
     "cases": [
         "Pentru primul act de identitate dupa implinirea varstei de 18 ani"
     ],
+    "departaments": [
+        "Evidenta Persoanelor (Buletine) - Primiri Cereri/ Eliberari/ Casierie"
+    ],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [
             [
-                "Cererea pentru eliberarea actului de identitate", 
+                "Cererea pentru eliberarea actului de identitate",
                 "Certificatul de naştere(fotocopie şi original)",
                 "Contravaloarea cărţii de identitate",
                 "Declaraţia unuia dintre părinţi ori a unei terţe persoane, din care să rezulte faptul că identitatea declarată în cererea de eliberare a actului de identitate, coroborată cu imaginea preluată ori cu fotografia ataşată cererii, aparţine solicitantului"
-
             ]
         ]
     ],

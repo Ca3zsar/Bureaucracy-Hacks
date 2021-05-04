@@ -1,17 +1,29 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Retragerea licentei de functionare",
-    "cases": [
-      "Pentru Retragerea licentei de functionare"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Retragerea licentei de functionare",
+  "cases": [
+    "Pentru Retragerea licentei de functionare"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Retragerea licentei de functionare"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Retragerea licentei de functionare"
+        "Anexa7",
+        "Originalul licentei de functionare"
       ]
-    ],
-    "necessary": [[["Anexa7","Originalul licentei de functionare"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa7"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa7"
+  ]
+}

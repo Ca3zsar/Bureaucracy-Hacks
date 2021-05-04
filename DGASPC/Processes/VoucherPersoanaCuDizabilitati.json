@@ -1,11 +1,18 @@
 {
   "institution": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
   "process": "Voucher persoana cu dizabilitati",
-  "cases": ["Pentru voucher persoana cu dizabilitati"],
-  "departaments": [
-    "Departamentul Asistenta Socială Persoane Adulte","Departamentul Asistenta Socială pentru Copil şi Familie"
+  "cases": [
+    "Pentru voucher persoana adulta cu dizabilitati",
+    "Pentru voucher copil si familie cu dizabilitati"
   ],
-  "forms": [[" "]],
+  "departaments": [
+    "Departamentul Asistenta Socială Persoane Adulte",
+    "Departamentul Asistenta Socială pentru Copil şi Familie"
+  ],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -13,12 +20,18 @@
         "copie certificat de încadrare în grad de handicap",
         "recomandarea medicului specialist"
       ]
+    ],
+    [
+      []
     ]
   ],
   "generalInfo": [
     [
       "Voucher pentru achiziționarea de tehnologii și dispozitive asistive și tehnologii de acces, conform recomandării medicale pentru acordarea de tehnologii și dispozitive asistive și tehnologii de acces."
-    ]
+    ],
+    []
   ],
-  "files": ["Cerere voucer persoana cu disabilitati"]
+  "files": [
+    "Cerere voucer persoana cu disabilitati"
+  ]
 }

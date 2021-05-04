@@ -6,10 +6,13 @@
     "În situațtia în care imobilul pentru care a existat contract de cale de acces a fost înstrăinat , pentru încheierea unui nou contract se vor prezenta următoarele documente:"
   ],
   "departaments": [
-    "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE",
-    "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"
+    "Directia generala economica si finante publice locale",
+    "Directia generala economica si finante publice locale"
   ],
-  "forms": [[" "], [""]],
+  "forms": [
+    [],
+    []
+  ],
   "necessary": [
     [
       [
@@ -26,5 +29,8 @@
       ]
     ]
   ],
-  "generalInfo": [[""],[""]]
+  "generalInfo": [
+    [],
+    []
+  ]
 }

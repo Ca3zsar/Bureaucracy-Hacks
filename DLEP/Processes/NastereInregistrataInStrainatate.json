@@ -1,16 +1,14 @@
 {
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Transcriere - naștere înregistrată în străinătate",
-    "departaments": [
-        "Nasteri - Starea Civila - Primiri"
-    ],
     "cases": [
         "Pentru nastere inregistrata in strainatate"
     ],
+    "departaments": [
+        "Nasteri - Starea Civila - Primiri"
+    ],
     "forms": [
-        [
-            " "
-        ]
+        []
     ],
     "necessary": [
         [
@@ -29,7 +27,7 @@
     ],
     "generalInfo": [
         [
-            "  ATENȚIE! Termenul de soluționare a dosarelor este de 30 de zile.Transcrierea pote fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați. Nu se transcrie certificatul de căsătorie concomitent cu transcrierea certificatului de naștere al titularului.\n În cazul în care persoana îndreptățită nu se poate prezenta, împuternicitul trebuie să prezinte: Procură specială autentificată: făcută la notar public, în țară;făcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin   traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României;\nAct de identitate mandatar - original și copie xerox.\nÎn cazul minorilor cu vârsta între 14-18 ani, aceștia pot solicita transcrierea în nume propriu, asistați de unul dintre părinți sau după caz de tutore, sau prin împuternicit cu procură specială notarială/consulară. Dacă părinții au domicilii diferite în țară, primăria competentă poate fi oricare dintre cele 2 primării pe rază cărora au domiciliul părinții minorului. Pentru persoanele care nu au împlinit vârsta de 18 ani, ai căror părinți au domiciliul în străinătate, cererea de transcriere a certificatelor de naștere se depune la primăria ultimului loc de domiciliu avut de părinții din România, iar în cazul în care au avut domicilii diferite, la ultumul domiciliu al unui dintre părinți.\n Dacă părinții au domiciliul în străinătate și nu au avut niciodată domiciliul în România, cererea se depune la Direcția de Stare Civilă a Sectorului 1 București."    
+            "ATENȚIE! Termenul de soluționare a dosarelor este de 30 de zile.Transcrierea pote fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați. Nu se transcrie certificatul de căsătorie concomitent cu transcrierea certificatului de naștere al titularului.\n În cazul în care persoana îndreptățită nu se poate prezenta, împuternicitul trebuie să prezinte: Procură specială autentificată: făcută la notar public, în țară;făcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin   traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României;\nAct de identitate mandatar - original și copie xerox.\nÎn cazul minorilor cu vârsta între 14-18 ani, aceștia pot solicita transcrierea în nume propriu, asistați de unul dintre părinți sau după caz de tutore, sau prin împuternicit cu procură specială notarială/consulară. Dacă părinții au domicilii diferite în țară, primăria competentă poate fi oricare dintre cele 2 primării pe rază cărora au domiciliul părinții minorului. Pentru persoanele care nu au împlinit vârsta de 18 ani, ai căror părinți au domiciliul în străinătate, cererea de transcriere a certificatelor de naștere se depune la primăria ultimului loc de domiciliu avut de părinții din România, iar în cazul în care au avut domicilii diferite, la ultumul domiciliu al unui dintre părinți.\n Dacă părinții au domiciliul în străinătate și nu au avut niciodată domiciliul în România, cererea se depune la Direcția de Stare Civilă a Sectorului 1 București."
         ]
     ],
     "prices": [

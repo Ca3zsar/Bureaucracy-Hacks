@@ -2,6 +2,8 @@
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Transcriere - deces înregistrat în străinătate",
     "departaments": [
+        "Transcrieri - Starea Civila - Eliberari",
+        "Transcrieri - Starea Civila - Eliberari",
         "Transcrieri - Starea Civila - Eliberari"
     ],
     "cases": [
@@ -10,9 +12,9 @@
         "In cazul cetatenilor straini"
     ],
     "forms": [
-        [
-            " "
-        ]
+        [],
+        [],
+        []
     ],
     "necessary": [
         [
@@ -25,21 +27,28 @@
                 "Actul de identitate al solicitantului;",
                 "Taxa de 13 lei - se achită la casieria Stării Civile;",
                 "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
-               
             ]
+        ],
+        [
+            []
+        ],
+        [
+            []
         ]
     ],
     "generalInfo": [
         [
-            "ATENȚIE: Termenul de soluționare a dosarelor este de 30 zile. Transcrierea poate fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați. \n În cazul în care persoana îndreptățită nu se poate prezenta, împuternicitul trebuie să prezinte: \nProcură specială autentificată:făcută la notar public, în țară, sau făcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin  traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României; Act identitate mandatar-original și copie." 
-
-            
-        ]
+            "ATENȚIE: Termenul de soluționare a dosarelor este de 30 zile. Transcrierea poate fi solicitată și la Ambasada sau Consulatul României din țara unde vă aflați. \n În cazul în care persoana îndreptățită nu se poate prezenta, împuternicitul trebuie să prezinte: \nProcură specială autentificată:făcută la notar public, în țară, sau făcută în străinătate - la notar public (apostilată/supralegalizată, după caz, și tradusă prin  traducere legalizată în România) sau  - la misiunile diplomatice/oficiile consulare de carieră ale României; Act identitate mandatar-original și copie."
+        ],
+        [],
+        []
     ],
     "prices": [
         [
             "Taxa de 13 lei - se achită la casieria Stării Civile;",
             "Taxa D.J.E.P. de 40 lei - se achită la oficiul poștal în cont - RO16TREZ40621360206XXXXX."
-        ]
+        ],
+        [],
+        []
     ]
 }

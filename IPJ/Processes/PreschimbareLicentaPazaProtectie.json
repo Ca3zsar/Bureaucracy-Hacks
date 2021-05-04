@@ -1,17 +1,30 @@
 {
-    "institution": "Inspectoratul de Politie Judetean Iasi",
-    "process": "Preschimbarea licentei in domeniul pazei si protectiei",
-    "cases": [
-      "Pentru Preschimbarea licentei in domeniul pazei si protectiei"
-    ],
-    "departaments": ["Serviciul de Ordine Publica"],
-    "forms": [
+  "institution": "Inspectoratul de Politie Judetean Iasi",
+  "process": "Preschimbarea licentei in domeniul pazei si protectiei",
+  "cases": [
+    "Pentru Preschimbarea licentei in domeniul pazei si protectiei"
+  ],
+  "departaments": [
+    "Serviciul de Ordine Publica"
+  ],
+  "forms": [
+    [
+      "Preschimbarea licentei in domeniul pazei si protectiei"
+    ]
+  ],
+  "necessary": [
+    [
       [
-        "Preschimbarea licentei in domeniul pazei si protectiei"
+        "Anexa2",
+        "Anexa23"
       ]
-    ],
-    "necessary": [[["Anexa2","Anexa23"]]],
-    "generalInfo": [[""]],
-    "files": ["ordine_publica_Anexa2","ordine_publica_Anexa23"]
-  }
-  
+    ]
+  ],
+  "generalInfo": [
+    []
+  ],
+  "files": [
+    "ordine_publica_Anexa2",
+    "ordine_publica_Anexa23"
+  ]
+}

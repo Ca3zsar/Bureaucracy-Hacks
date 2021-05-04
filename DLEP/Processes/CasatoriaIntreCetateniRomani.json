@@ -2,6 +2,7 @@
     "institution": "Directia Locala pentru Evidenta Persoanelor Iasi",
     "process": "Casatorii-Căsătoria între cetăţeni români ",
     "departaments": [
+        "Casatorii - Starea Civila - Oficieri",
         "Casatorii - Starea Civila - Oficieri"
     ],
     "cases": [
@@ -9,15 +10,8 @@
         "In cazul in care nu trebuie acte pentru desfacerea casatoriilor anterioare "
     ],
     "forms": [
-        [
-            " "
-        ],
-        [
-            " "
-        ],
-        [
-            " "
-        ]
+        [],
+        []
     ],
     "necessary": [
         [
@@ -49,14 +43,6 @@
         ],
         [
             "ATENȚIE: Cetățenii români care domiciliază pe teritoriul României nu se pot legitima decât cu carte de identitate, carte de identitate provizorie sau buletin \n PĂSTRAŢI CU GRIJĂ CERTIFICATUL DE CĂSĂTORIE ŞI VERIFICAŢI CORECTITUDINEA DATELOR ! "
-        ]
-    ],
-    "prices": [
-        [
-            " "
-        ],
-        [
-            " "
         ]
     ]
 }

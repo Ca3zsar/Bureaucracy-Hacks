@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "GRATUITATE ACORDATA PENSIONARILOR CU VARSTA DE PESTE 65 ANI",
+  "process": "Gratuitate acordata pensionarilor cu varsta de peste 65 ani",
   "cases": [
     "Pentru gratuite acordata pensionarilor cu varsta de peste 65 de ani"
   ],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

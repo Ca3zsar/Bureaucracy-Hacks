@@ -1,11 +1,15 @@
 {
   "institution": "Primaria Iasi",
-  "process": "ACORDAREA INDEMNIZATIEI PENTRU PERSOANELE CU HANDICAP GRAV CONFORM ORD. 794/380/2002 A MINISTERULUI SANATATII SI FAMILIEI ",
+  "process": "Acordarea indemnizatiei pentru persoanele cu handicap grav conform ord. 794/380/2002 a ministerului sanatatii si familiei ",
   "cases": [
     "Pentru acordarea indemnizatiei pentru persoanele cu handicap grav"
   ],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "departaments": [
+    "Directia de asistenta comunitara"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -16,5 +20,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

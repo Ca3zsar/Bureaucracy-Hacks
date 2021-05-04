@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "INSTITUIREA TUTELEI INTERZISULUI",
-  "cases": ["Pentru bolnavii psihici ce necesita ocrotire"],
-  "departaments": ["DIRECTIA DE ASISTENTA COMUNITARA"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru bolnavii psihici ce necesita ocrotire"
+  ],
+  "departaments": [
+    "DIRECTIA DE ASISTENTA COMUNITARA"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -17,5 +23,7 @@
       ]
     ]
   ],
-  "generalInfo": [[" "]]
+  "generalInfo": [
+    []
+  ]
 }

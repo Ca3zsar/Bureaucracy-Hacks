@@ -1,9 +1,15 @@
 {
   "institution": "Primaria Iasi",
   "process": "SCOATEREA DIN EVIDENȚA FISCALĂ A TERENURILOR/ CLĂDIRILOR",
-  "cases": ["Pentru scoaterea din evidența fiscală a terenurilor/ clădirilor"],
-  "departaments": ["DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"],
-  "forms": [[" "]],
+  "cases": [
+    "Pentru scoaterea din evidența fiscală a terenurilor/ clădirilor"
+  ],
+  "departaments": [
+    "DIRECTIA GENERALA ECONOMICA SI FINANTE PUBLICE LOCALE"
+  ],
+  "forms": [
+    []
+  ],
   "necessary": [
     [
       [
@@ -15,5 +21,7 @@
       ]
     ]
   ],
-  "generalInfo": [[""]]
+  "generalInfo": [
+    []
+  ]
 }

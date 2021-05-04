@@ -10,8 +10,12 @@
     "Serviciul Arme, Explozivi si Substante Periculoase"
   ],
   "forms": [
-    ["Eliberarea autorizației de import a armelor și munițiilor "],
-    ["Eliberarea autorizației de import a armelor și munițiilor "]
+    [
+      "Eliberarea autorizației de import a armelor și munițiilor "
+    ],
+    [
+      "Eliberarea autorizației de import a armelor și munițiilor "
+    ]
   ],
   "necessary": [
     [
@@ -32,5 +36,7 @@
       "Persoanele juridice constituite ca armurieri pot desfăşura operaţiuni cu arme şi muniţii numai după obţinerea autorizaţiei sau, după caz, după completarea corespunzătoare a acesteia, care se efectuează la cerere de către structura de poliţie în a cărui rază de competenţă teritorială se află sediul sau punctul de lucru unde urmează să se desfăşoare operaţiunile"
     ]
   ],
-  "files": ["arme_explozivi_Anexa18.xls"]
+  "files": [
+    "arme_explozivi_Anexa18.xls"
+  ]
 }
