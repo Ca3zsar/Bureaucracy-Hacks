@@ -89,11 +89,11 @@ def downloadFiles(urls):
         parsed = urlparse(url)
         fileName = os.path.basename(parsed.path)
         
-        file = open(f"{fileName}","wb")
+        file = open(f"{acte}/{fileName}","wb")
         file.write(response.read())
         file.close()
         
-        os.rename(f"{fileName}", f"{acte}\\{fileName}")
+        # os.rename(f"{fileName}", f"{acte}\\{fileName}")
     
 
 def getProgram(url):

@@ -16,7 +16,7 @@ from queue import Queue
 VERSION = 0
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
-               "Primarie"]
+               "Primarie", "SalubrIS"]
 FILES = []
 
 def import_modules():
