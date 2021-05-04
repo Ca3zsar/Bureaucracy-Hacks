@@ -84,14 +84,14 @@ def downloadForms():
         response = requests.get(i)
         # response = urllib.request.urlopen(i)
         # fileName = f"{filesName[index]}.pdf" 
-        fileName = f"Salubris_Anexa{index}.pdf" 
+        fileName = f"{acte}/Salubris_Anexa{index}.pdf" 
         index += 1
 
         file = open(f"{fileName}", "wb")
         file.write(response.content)
         file.close()
 
-        os.rename(f"{fileName}", f"{acte}\\{fileName}")
+        # os.rename(f"{fileName}", f"{acte}\\{fileName}")
 
 
 def main():
