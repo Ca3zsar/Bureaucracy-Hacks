@@ -61,5 +61,93 @@
     "email": "cabinet.primar@primaria-iasi.ro",
     "site": "http://www.primaria-iasi.ro/",
     "address": "Bd. Stefan cel Mare si Sfant nr. 11, 700064 Iasi"
+  },
+  {
+    "name": "Editura si Tipografia PIM",
+    "address": "Șoseaua Ștefan cel Mare și Sfânt 109, Iași 700498"
+  },
+  {
+    "name": "PIM - Independentei / UMF",
+    "address": "Bulevardul Independenței 14, Iași 700098"
+  },
+  {
+    "name": "PIM - Copou / Exclusive Residence",
+    "address": "Șoseaua Ștefan cel Mare și Sfânt 4, Iași 700497"
+  },
+  {
+    "name": "PIM - Tudor Vladimirescu / T18",
+    "address": "Bulevardul Tudor Vladimirescu 18, Iași 700305"
+  },
+  {
+    "name": "Stef Piața Unirii",
+    "address": "Piața Unirii 3, Iași"
+  },
+  {
+    "name": "Stef Strada Sfântul Lazăr",
+    "address": "Strada Sfântul Lazăr 47, Iași 700259"
+  },
+  {
+    "name": "Stef Șoseaua Moara de Foc",
+    "address": "Șoseaua Moara de Foc 30, Iași 700108"
+  },
+  {
+    "name": "Stef Copou",
+    "address": "Bulevardul Carol I, Iași"
+  },
+  {
+    "name": "Stef Tudor Vladimirescu",
+    "address": "Tudor Vladimirescu"
+  },
+  {
+    "name": "Stef UMF",
+    "address": "Strada Sfântul Teodor 32, Iași 700115"
+  },
+  {
+    "name": "Adi Center - Șoseaua Ștefan cel Mare și Sfânt",
+    "address": "Șoseaua Ștefan cel Mare și Sfânt nr. 7, Iași 700498"
+  },
+  {
+    "name": "Adi Center - Copou",
+    "address": "Bulevardul Carol I 25, Iași 700507"
+  },
+  {
+    "name": "Adi Center - Independenței",
+    "address": "700054, Bulevardul Independenței 14, Iași"
+  },
+  {
+    "name": "Adi Center - Tudor Vladimirescu",
+    "address": "Camin T17 , Parter, Bulevardul Tudor Vladimirescu, Iași 700259"
+  },
+  {
+    "name": "ASL COPY CENTER",
+    "address": "Str. Zugravi, 8, Iasi 700092"
+  },
+  {
+    "name": "Nicolina Copy Center",
+    "address": "Șos. Nicolina, Iași"
+  },
+  {
+    "name": "Lex Copy Center",
+    "address": "Șoseaua Păcurari Nr. 1, Iași 700536"
+  },
+  {
+    "name": "Master Copy",
+    "address": "Bloc C12, Bulevardul Alexandru cel Bun nr. 40, Iași 700000"
+  },
+  {
+    "name": "Xerox",
+    "address": "Bulevardul Nicolae Iorga 10, Iași"
+  },
+  {
+    "name": "Exe Print",
+    "address": "Bulevardul Independenței 26, Iași 700099"
+  },
+  {
+    "name": "Kboom Photografix",
+    "address": "Strada Tabacului 1B, Iași 707305"
+  },
+  {
+    "name": "Zoom Copy Center, Tipografia Rotipo",
+    "address": "Aleea Veronica Micle 4, Iași 700505"
   }
 ]
