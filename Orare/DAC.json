@@ -3,7 +3,7 @@
 		"institutie": "Directia de Asistenta Sociala Iasi",
 		"programe": [
 			{
-				"titlu": "Alocatii, Indemnizatii",
+				"titlu": "Alocatii si Indemnizatii",
 				"program": {
 					"luni": {
 						"open": "8:30",
@@ -100,7 +100,7 @@
 				}
 			},
 			{
-				"titlu": "Audiente Director Executiv Luminita Munteanu",
+				"titlu": "Director Executiv Luminita Munteanu",
 				"program": {
 					"joi": {
 						"open": "9:00",
