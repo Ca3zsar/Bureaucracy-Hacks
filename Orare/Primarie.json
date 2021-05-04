@@ -29,7 +29,7 @@
                 }
             },
             {
-                "titlu": "DIRECTIA EXPLOATARE PATRIMONIU, Director Grigoras Radu Mihai",
+                "titlu": "Direcția Exploatare Patrimoniu",
                 "program":{
                     "miercuri":{
                         "open":"10:00",
@@ -169,15 +169,6 @@
                     "luni":{
                         "open":"10:00",
                         "close":"12:00"
-                    }
-                }
-            },
-            {
-                "titlu":"SERIVICUL EVIDENTA PERSOANELOR",
-                "program":{
-                    "miercuri":{
-                        "open":"14:00",
-                        "close":"18:00"
                     }
                 }
             },
@@ -382,7 +373,7 @@
                 }
             },
             {
-                "titlu":"DIRECTIA ARHITECTURA SI URBANISM, Arhitect Sef Alexandru Florin Mustiata",
+                "titlu":"DIRECTIA ARHITECTURA SI URBANISM",
                 "program":{
                     "marti":{
                         "open":"9:00",
