@@ -81,13 +81,14 @@ def getContent():   # get html and txt from page
 def downloadForms():
     index = 0
     for i in paperLinks:
-        response = urllib.request.urlopen(i)
+        response = requests.get(i)
+        # response = urllib.request.urlopen(i)
         # fileName = f"{filesName[index]}.pdf" 
         fileName = f"Salubris_Anexa{index}.pdf" 
         index += 1
 
         file = open(f"{fileName}", "wb")
-        file.write(response.read())
+        file.write(response.content)
         file.close()
 
         os.rename(f"{fileName}", f"{acte}\\{fileName}")
