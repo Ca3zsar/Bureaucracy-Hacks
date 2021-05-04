@@ -1,0 +1,32 @@
+{
+    "orar": {
+        "institutie": {
+            "institution": "Master Copy"
+        },
+        "programe": [{
+            "titlu": "Master Copy",
+            "program": {
+                "luni": {
+                    "open": "9:00",
+                    "close": "19:30"
+                },
+                "marti": {
+                    "open": "9:00",
+                    "close": "19:30"
+                },
+                "miercuri": {
+                    "open": "9:00",
+                    "close": "19:30"
+                },
+                "joi": {
+                    "open": "9:00",
+                    "close": "19:30"
+                },
+                "vineri": {
+                    "open": "9:00",
+                    "close": "19:30"
+                }
+            }
+        }]
+    }
+}

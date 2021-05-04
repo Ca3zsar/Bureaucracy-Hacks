@@ -1,0 +1,32 @@
+{
+    "orar": {
+        "institutie": {
+            "institution": "Lex Copy Center"
+        },
+        "programe": [{
+            "titlu": "Lex Copy Center",
+            "program": {
+                "luni": {
+                    "open": "8:00",
+                    "close": "19:00"
+                },
+                "marti": {
+                    "open": "8:00",
+                    "close": "19:00"
+                },
+                "miercuri": {
+                    "open": "8:00",
+                    "close": "19:00"
+                },
+                "joi": {
+                    "open": "8:00",
+                    "close": "19:00"
+                },
+                "vineri": {
+                    "open": "8:00",
+                    "close": "19:00"
+                }
+            }
+        }]
+    }
+}

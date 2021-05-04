@@ -1,0 +1,38 @@
+{
+    "orar": {
+        "institutie": {
+            "institution": "Adi Center - Copou"
+        },
+        "programe": [
+            {
+                "titlu": "Adi Center - Copou",
+                "program": {
+                    "luni": {
+                        "open": "08:00",
+                        "close": "16:00"
+                    },
+                    "marti": {
+                        "open": "08:00",
+                        "close": "16:00"
+                    },
+                    "miercuri": {
+                        "open": "08:00",
+                        "close": "16:00"
+                    },
+                    "joi": {
+                        "open": "08:00",
+                        "close": "16:00"
+                    },
+                    "vineri": {
+                        "open": "08:00",
+                        "close": "16:00"
+                    },
+                    "sambata": {
+                        "open": "09:00",
+                        "close": "15:00"
+                    }
+                }
+            }
+        ]
+    }
+}

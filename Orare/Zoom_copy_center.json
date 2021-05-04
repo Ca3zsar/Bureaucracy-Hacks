@@ -1,0 +1,32 @@
+{
+    "orar": {
+        "institutie": {
+            "institution": "Zoom Copy Center, Tipografia Rotipo"
+        },
+        "programe": [{
+            "titlu": "Zoom Copy Center, Tipografia Rotipo",
+            "program": {
+                "luni": {
+                    "open": "7:00",
+                    "close": "20:00"
+                },
+                "marti": {
+                    "open": "7:00",
+                    "close": "20:00"
+                },
+                "miercuri": {
+                    "open": "7:00",
+                    "close": "20:00"
+                },
+                "joi": {
+                    "open": "7:00",
+                    "close": "20:00"
+                },
+                "vineri": {
+                    "open": "7:00",
+                    "close": "20:00"
+                }
+            }
+        }]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "orar": {
+        "institutie": {
+            "institution": "ASL COPY CENTER"
+        },
+        "programe": [{
+            "titlu": "ASL COPY CENTER",
+            "program": {
+                "luni": {
+                    "open": "9:30",
+                    "close": "16:00"
+                },
+                "marti": {
+                    "open": "9:30",
+                    "close": "16:00"
+                },
+                "miercuri": {
+                    "open": "9:30",
+                    "close": "16:00"
+                },
+                "joi": {
+                    "open": "9:30",
+                    "close": "16:00"
+                },
+                "vineri": {
+                    "open": "9:30",
+                    "close": "16:00"
+                }
+            }
+        }]
+    }
+}
