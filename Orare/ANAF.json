@@ -3,7 +3,7 @@
         "institutie":"ANAF",
         "programe":[
             {
-                "titlu": "Serviciul executare silita si stingere a creantelor fiscale persoane juridice",
+                "titlu": "Serviciul executare silita si stingere a creantelor fiscale Persoane Juridice",
                 "program":{
                     "luni":{
                         "open":"8:00",
@@ -28,7 +28,7 @@
                 }
             },
             {
-                "titlu" : "Serviciul Colectare si executare silita- persoane juridice",
+                "titlu" : "Serviciul Colectare si executare silita - Persoane Juridice",
                 "program":{
                     "luni":{
                         "open":"8:00",
@@ -53,7 +53,7 @@
                 }
             },
             {
-                "titlu":"Biroul Administrare sedii secundare contribuabili mari",
+                "titlu":"Biroul Administrare Sedii secundare - Contribuabili mari",
                 "program":{
                     "luni":{
                         "open":"8:00",
@@ -78,7 +78,7 @@
                 }
             },
             {
-                "titlu":"Serviciul Registru contribuabili declaratii fiscale persoane fizice",
+                "titlu":"Serviciul Registru contribuabili - Declaratii fiscale persoane fizice",
                 "program":{
                     "luni":{
                         "open":"8:00",

@@ -3,7 +3,7 @@
     "institutie": "ANAF",
     "departamente": [
       "Serviciul executare silita si stingere a creantelor fiscale Persoane Juridice",
-      "Serviciul Colecta si executare silita - Persoane Juridice",
+      "Serviciul Colectare si executare silita - Persoane Juridice",
       "Biroul Administrare Sedii secundare - Contribuabili mari",
       "Serviciul Registru contribuabili - Declaratii fiscale persoane fizice",
       "Compartimentul evitarea dublei impuneri si acorduri fiscale internationale",
@@ -17,8 +17,8 @@
     ]
   },
   {
-    "institutie": "Casa Judeteana de Pensii Iasi",
-    "departamente": ["Casa Judeteana de Pensii Iasi"]
+    "institutie": "Casa Județeană de Pensii Iași",
+    "departamente": ["Casa Județeană de Pensii Iași"]
   },
   {
     "institutie": "Directia de Asistenta Sociala Iasi",
