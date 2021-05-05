@@ -36,7 +36,7 @@ def executeWithThread(modules):
    pool = multiprocessing.Pool(len(moduleNames)) 
 
 
-   for module in modules:
+   for module in modules[4:5]:
       print(f"Executing module : {module.__name__}")
       pool.apply_async( module.main ) 
      
