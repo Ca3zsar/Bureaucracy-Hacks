@@ -24,9 +24,9 @@
     []
   ],
   "files": [
-    "CerereCardEuropean",
-    "AdeverintaSalariat",
-    "ModelCertificatProvizoriu",
-    "CerereCardEuropeanDuplicat"
+    "cerere_card_european",
+    "adeverinta_salariat_CEASS",
+    "model_certificat_provizori_inlocuire_CEAS",
+    "cerere_card_european_duplicat"
   ]
 }
