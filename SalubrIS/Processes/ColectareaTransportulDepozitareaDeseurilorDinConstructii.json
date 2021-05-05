@@ -1,0 +1,35 @@
+{
+    "institution": "SalubrIS",
+    "process": "Gestionarea deseurilor din constructii",
+    "departaments": [
+        "Compartiment servcicii de salubritate, gestionarea deseurilor din constructii"
+    ],
+    "cases": [
+        
+    ],
+    "forms": [
+        []
+       
+    ],
+    "necessary": [
+        [
+            [
+                "Completarea de către solicitant o unei Cereri pentru colectarea, transportul și depozitarea deșeurilor sau a unei Cereri pentru depozitarea deșeurilor inerte (în functie de serviciul dorit) care va fi depusă la registratura Salubris S.A., transmisă prin fax la numărul 0232/266.463 sau pe e-mail la adresa office@salubris.ro.",
+                "După aprobarea cererii de către conducătorul unităţii, se emite factura, se achită de către solicitant şi ulterior se va presta serviciul.",
+                "Indiferent de cantitate, generatorul de deșeuri (rezultate din construcții și demolări) trebui să completeze și Formularul de încărcare – descărcare deşeuri nepericuloase conform HG 1061 din 2008."
+               
+            ]
+        ]
+    ],
+    "generalInfo": [
+        [
+        ]
+    ],
+    "files": [
+        "Cerere pentru colectarea, transportul și depozitarea deșeurilor",
+        "Cerere pentru depozitarea deșeurilor inerte ",
+        "Formularul de încărcare – descărcare deşeuri nepericuloase"
+
+
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "institution": "SalubrIS",
+    "process": "Intocmirea contractului de servicii salubritate",
+    "departaments": [
+        "Compartiment servcicii de salubritate",
+        "Compartiment servcicii de salubritate",
+        "Compartiment servcicii de salubritate"
+    ],
+    "cases": [
+        "In cazul proprietarilor de gospodarii individuale sau reprezentanti ai acestora",
+        "In cazul asociatiei de proprietari/locatari ",
+        "In cazul agentilor economici, institutii publice, persoane fizice autorizate, cabinete notariale, cabinete avocatura, alte persoane fizice care desfasoara activitati independente asimilate agentilor econimici"
+    ],
+    "forms": [
+        [],
+        [],
+        []
+    ],
+    "necessary": [
+        [
+            [
+                "Actul de identitate în original sau copie al proprietarului",
+                "Act care atesta calitatea de proprietar la adresa pentru care se incheie contractul (în cazul în care adresa de colectare nu este cea de domiciliu)",
+                "Copie după certificatul de urbanism în cazul celor care desfășoară activitate de construcții/ șantier",
+                "Imputernicire notariala in cazul cand contratul nu va fi semnat de proprietar"
+
+               
+            ]
+        ],
+        [
+            [
+                "Actul de înfiintare a asociaţiei de proprietari",
+                "Copie cod fiscal",
+                "Împuternicire („de mână”, semnată și ștampilată) pentru persoana care vine sa incheie contractul (numai dacă nu vine preşedintele)",
+                "Ştampila asociaţiei de proprietari",
+                "Dovada calității reprezentantului legal președinte/administrator",
+                "Lista cu numărul de persoane înscris în cartea de imobil",
+                "Protocol de predare/preluare privind soldul aferent  la serviciul de salubritate, semnat de reprezentanții  legali (președinți), în cazul divizării unei asociații de proprietari deja existentă, in doua sau mai multe asociații cu personalitate juridică constituită. În cazul în care nu se ajunge la semnarea pe cale amiabilă a protocolului, încheierea contractului în această  fază se face numai în baza unei hotărâri judecătorești definitive"
+                
+            ]
+        ],
+        [
+            [
+                "Copie după certificatul de înregistrare",
+                "Copie a actului de proprietate sau a contractului de închiriere care atestă adresa de colectare pentru fiecare din punct de lucru",
+                "Împuternicire („de mână”, semnată și ștampilată) din partea firmei pentru persoana care vine să semneze contractul de prestări de servicii cu societatea noastră (numai daca nu vine administratorul)",
+                "Ştampila firmei",
+                "Dovada calității reprezentantului legal/administrator- in cazul când contractul este doar semnat",
+                "Copie după certificatul de urbanism în cazul agenților economici care desfășoară activitate de șantier"
+            ]
+
+        
+        ]
+    ],
+    "generalInfo": [
+        [
+            "Încheierea unui contract de salubrizare, indiferent de forma juridică a clientului (persoană fizică, agent economic, instituție publică sau asociație de locatari, etc), se face la Biroul Contractare din Soseaua Națională nr. 43 – cu toate documentele necesare intocmirii."
+        ],
+        [
+            "Încheierea unui contract de salubrizare, indiferent de forma juridică a clientului (persoană fizică, agent economic, instituție publică sau asociație de locatari, etc), se face la Biroul Contractare din Soseaua Națională nr. 43 – cu toate documentele necesare intocmirii."
+        ],
+        [
+            "Încheierea unui contract de salubrizare, indiferent de forma juridică a clientului (persoană fizică, agent economic, instituție publică sau asociație de locatari, etc), se face la Biroul Contractare din Soseaua Națională nr. 43 – cu toate documentele necesare intocmirii."
+
+        ]
+    ],
+    "files": [
+        "Contract persoane fizice",
+        "Contract asociații",
+        "Contract agenți economici"
+
+
+    ]
+}
