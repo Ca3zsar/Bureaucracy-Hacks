@@ -91,20 +91,27 @@ def go_spider_scrapping(url):
             path = f"{acte}";
 
             with open(link_for_title, 'wb') as file: 
-                    response= requests.get(link_for_download)
-                    file.write(response.content)
-                    file.close()
-                    type_of_file =  magic.from_file(link_for_title)
-                    
-                    if 'PDF' in type_of_file : 
-                        link_for_title= link_for_title+".pdf"
-                        shutil.move(link_for_title[:-3], path+ '/' + link_for_title)
-                    elif 'Word' in type_of_file:
-                        link_for_title= link_for_title+".doc"
-                        shutil.move(link_for_title[:-3], path+ '/' + link_for_title)
-                    else: 
-                        link_for_title= link_for_title+".xls"
-                        shutil.move(link_for_title[:-3], path+ '/' + link_for_title)
+                response= requests.get(link_for_download)
+                file.write(response.content)
+                file.close()
+                
+                
+            type_of_file =  magic.from_file(link_for_title)
+            
+            if 'PDF' in type_of_file : 
+                link_for_title= link_for_title+".pdf"
+            elif 'Word' in type_of_file:
+                link_for_title= link_for_title+".doc"
+            else: 
+                link_for_title= link_for_title+".xls"
+                
+                
+            with open(f"{acte}/{link_for_title}","wb") as file:
+                response= requests.get(link_for_download)
+                file.write(response.content)
+                file.close()
+            
+            # os.remove(link)
 
 
 
