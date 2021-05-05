@@ -16,7 +16,7 @@ from queue import Queue
 VERSION = 0
 
 moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
-               "Primarie"]
+               "Primarie","SalubrIS"]
 FILES = []
 
 def import_modules():
@@ -36,7 +36,7 @@ def executeWithThread(modules):
    pool = multiprocessing.Pool(len(moduleNames)) 
 
 
-   for module in modules[4:5]:
+   for module in modules:
       print(f"Executing module : {module.__name__}")
       pool.apply_async( module.main ) 
      
