@@ -6,12 +6,9 @@ import com.example.requests.RegistrationRequest;
 import lombok.Setter;
 import org.json.JSONObject;
 import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
 import java.time.LocalDateTime;
-import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -42,13 +39,13 @@ public class RegistrationService {
                 request.getEmail());
         String token = userService.signUpUser(user);
 
-        emailSender.send(request.getEmail(), "enter the following link to activate your account " +
-                " https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token);
+        emailSender.send(request.getEmail(), "enter the following link to activate your account <a href=\"" +
+                " https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token + "\"> Click me </a>");
 //            https://bureaucracyhackshostat.herokuapp.com
 //            localhost:8081
         JSONObject jo = new JSONObject();
         jo.put("statusCode", 200);
-        jo.put("message","Check your email to confirm your account.");
+        jo.put("message", "Check your email to confirm your account.");
         return jo.toString();
     }
 
@@ -70,19 +67,19 @@ public class RegistrationService {
             confirmToken.setCreatedAt(LocalDateTime.now());
             confirmToken.setExpiredAt(LocalDateTime.now().plusMinutes(15));
             confirmTokenService.getConfirmTokenRepository().save(confirmToken);
-            emailSender.send(userEmail, "The last token has expired, try enter this one " +
-                    "https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token);
+            emailSender.send(userEmail, "The last token has expired, try enter this one <a href=\"" +
+                    "https://bureaucracyhackshostat.herokuapp.com/registration/confirm?token=" + token + "\"> Click me </a>");
 //            https://bureaucracyhackshostat.herokuapp.com
 //            localhost:8081
             JSONObject jo = new JSONObject();
-            jo.put("message","Error: Token expired, check your email again for a new one.");
+            jo.put("message", "Error: Token expired, check your email again for a new one.");
             return jo.toString();
         }
 
         confirmTokenService.setConfirmedAt(token);
         userService.enableUser(confirmToken.getUser().getEmail());
         JSONObject jo = new JSONObject();
-        jo.put("message","Account confirmed with success.");
+        jo.put("message", "Account confirmed with success.");
         return jo.toString();
     }
 

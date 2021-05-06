@@ -20,6 +20,9 @@ public interface InstitutionsRepository extends JpaRepository<Institution, Integ
     @Query("Select i from Institution i")
     List<Institution> getInstitutionsList();
 
+    @Query("Select i.programs from Institution i where upper(i.name) = upper(?1)")
+    String getPrograms(String institutionName);
+
     @Query("Select i.latitude  from Institution i where upper(i.name) = upper(?1)")
     Double getLatitude(String institutionName);
 

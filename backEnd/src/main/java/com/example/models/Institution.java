@@ -1,10 +1,14 @@
 package com.example.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.TypeDefs;
 
 import javax.persistence.*;
 import java.util.List;
@@ -15,6 +19,9 @@ import java.util.List;
 @EqualsAndHashCode
 @NoArgsConstructor
 @Table(name = "institutions", schema = "public")
+@TypeDefs({
+        @TypeDef(name = "json", typeClass = JsonBinaryType.class)
+})
 public class Institution {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY, generator = "institutions_id_institution_seq")
@@ -37,15 +44,31 @@ public class Institution {
     @JsonIgnore
     @ManyToMany(mappedBy = "institutions")
     List<User> users;
+    @Column(name = "programs", columnDefinition="json")
+    @Type(type = "json")
+    private String programs;
 
-    public Institution(String name, String url, String adress, String phone, String email, double latitude, double longitude) {
+    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, List<User> users, String programs) {
         this.name = name;
-        this.site = url;
-        this.address = adress;
+        this.site = site;
+        this.address = address;
         this.phone = phone;
         this.email = email;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.users = users;
+        this.programs = programs;
+    }
+
+    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, String programs) {
+        this.name = name;
+        this.site = site;
+        this.address = address;
+        this.phone = phone;
+        this.email = email;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.programs = programs;
     }
 
     @Override

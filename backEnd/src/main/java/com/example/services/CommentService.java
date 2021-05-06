@@ -27,6 +27,7 @@ public class CommentService {
         comment.setQ2(commentRequest.getQ2());
         comment.setQ3(commentRequest.getQ3());
         comment.setQ4(commentRequest.getQ4());
+        comment.setShow(true);
         User user = commentRepository.findIdByUsername(commentRequest.getUsername());
         if (user == null)
             throw new IllegalStateException("Inexistent username");

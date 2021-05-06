@@ -80,8 +80,8 @@ public class ChangePasswordService {
             confirmToken.setCreatedAt(LocalDateTime.now());
             confirmToken.setExpiredAt(LocalDateTime.now().plusMinutes(15));
             changePasswordService.getChangePasswordRepository().save(confirmToken);
-            emailSender.send(confirmToken.getEmail(), "The last token has expired, try enter this one " +
-                    "https://bureaucracyhackshostat.herokuapp.com/changepassword/confirm?token=" + token);
+            emailSender.send(confirmToken.getEmail(), "The last token has expired, try enter this one <a href=\"" +
+                    "https://bureaucracyhackshostat.herokuapp.com/changepassword/confirm?token=" + token + "\"> Click me </a>");
 //            https://bureaucracyhackshostat.herokuapp.com
 //            localhost:8081
             JSONObject jo = new JSONObject();

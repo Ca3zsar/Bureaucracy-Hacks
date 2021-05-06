@@ -10,8 +10,11 @@ import com.example.services.ReviewService;
 import lombok.AllArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.HandlerMapping;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController
@@ -26,22 +29,33 @@ public class ClientRequestController {
     private InstitutionsRepository institutionsRepository;
     private DepartmentRepository departmentRepository;
     private ReviewRepository reviewRepository;
+    private AnexeRepository anexeRepository;
 
     @RequestMapping(path = "/contact", method = {RequestMethod.POST, RequestMethod.GET})
     public String giveReview(@RequestBody ReviewRequest request) {
         return reviewService.giveReview(request);
     }
 
-    @RequestMapping(path = "/{process}/feedbacks", method = {RequestMethod.POST, RequestMethod.GET})
-    public String giveComment(@PathVariable("process") String process, @RequestBody CommentRequest request) {
-        return commentService.giveComment(process, request);
+    @RequestMapping(path = "/**/feedbacks", method = {RequestMethod.POST, RequestMethod.GET})
+    public String giveComment(HttpServletRequest process, @RequestBody CommentRequest request) {
+        String pattern = (String)
+                process.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+        String searchTerm = new AntPathMatcher().extractPathWithinPattern(pattern,
+                process.getServletPath());
+        searchTerm = searchTerm.substring(0,searchTerm.lastIndexOf("/"));
+        return commentService.giveComment(searchTerm, request);
     }
 
-    @RequestMapping(path = "/{process}/viewfeedbacks", method = {RequestMethod.POST, RequestMethod.GET})
-    public String viewFeedbacks(@PathVariable("process") String process) {
+    @RequestMapping(path = "/**/viewfeedbacks", method = {RequestMethod.POST, RequestMethod.GET})
+    public String viewFeedbacks(HttpServletRequest process) {
+        String pattern = (String)
+                process.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+        String searchTerm = new AntPathMatcher().extractPathWithinPattern(pattern,
+                process.getServletPath());
+        searchTerm = searchTerm.substring(0,searchTerm.lastIndexOf("/"));
         JSONArray jsonArray = new JSONArray();
         JSONObject response = new JSONObject();
-        for (Comment comment : commentRepository.findAll(process)) {
+        for (Comment comment : commentRepository.findAll(searchTerm)) {
             JSONObject jsonObject = new JSONObject();
                 jsonObject.put("id", comment.getId());
                 jsonObject.put("comment", comment.getComment());
@@ -49,7 +63,7 @@ public class ClientRequestController {
                 jsonObject.put("show", comment.getShow());
                 jsonArray.put(jsonObject);
         }
-        response.put("process", process);
+        response.put("process", searchTerm);
         response.put("comments", jsonArray);
         return response.toString();
     }
@@ -70,11 +84,16 @@ public class ClientRequestController {
         return response.toString();
     }
 
-    @RequestMapping(path = "/process/{process}", method = {RequestMethod.POST, RequestMethod.GET})
-    public String getProcessInformation(@PathVariable("process") String process){
+    @RequestMapping(path = "/process/**", method = {RequestMethod.POST, RequestMethod.GET})
+    public String getProcessInformation(HttpServletRequest process){
+        String pattern = (String)
+                process.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+        String searchTerm = new AntPathMatcher().extractPathWithinPattern(pattern,
+                process.getServletPath());
+
         JSONObject response = new JSONObject();
-        BureaucraticProcess bureaucraticProcess = bureaucraticProcessRepository.findByName(process).get();
-        response.put("process", process);
+        BureaucraticProcess bureaucraticProcess = bureaucraticProcessRepository.findByName(searchTerm).get();
+        response.put("process", searchTerm);
         response.put("institution", institutionsRepository.findById(bureaucraticProcess.getInstitution()).get().getName());
         response.put("id", bureaucraticProcess.getId());
         JSONObject usefulInformation = new JSONObject(bureaucraticProcess.getUsefulInformation());
@@ -88,10 +107,14 @@ public class ClientRequestController {
         return response.toString();
     }
 
-    @RequestMapping(path = "/institution/{institution}", method = {RequestMethod.POST, RequestMethod.GET})
-    public String getInstitutionInformation(@PathVariable("institution") String institutionName){
+    @RequestMapping(path = "/institution/**", method = {RequestMethod.POST, RequestMethod.GET})
+    public String getInstitutionInformation(HttpServletRequest institutionName){
+        String pattern = (String)
+                institutionName.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+        String searchTerm = new AntPathMatcher().extractPathWithinPattern(pattern,
+                institutionName.getServletPath());
         JSONObject response = new JSONObject();
-        Institution institution = institutionsRepository.findByName(institutionName).get();
+        Institution institution = institutionsRepository.findByName(searchTerm).get();
         response.put("name", institution.getName());
         response.put("id", institution.getId());
         response.put("latitude", institution.getLatitude());
@@ -101,7 +124,7 @@ public class ClientRequestController {
         response.put("url", institution.getSite());
         response.put("address", institution.getAddress());
         JSONArray jsonArray = new JSONArray();
-        List<Department> departmentList = departmentRepository.getDepartmentsList(institutionName);
+        List<Department> departmentList = departmentRepository.getDepartmentsList(searchTerm);
         for (Department department : departmentList) {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", department.getName());
@@ -110,5 +133,12 @@ public class ClientRequestController {
         }
         response.put("departments", jsonArray);
         return response.toString();
+    }
+
+    @PostMapping(path = "getfilelink")
+    public String getFileLink(@RequestBody String fileName)
+    {
+        JSONObject jsonObject = new JSONObject(fileName);
+        return anexeRepository.getFileLink(jsonObject.getString("fileName"));
     }
 }

@@ -16,6 +16,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -45,7 +46,8 @@ public class JSONParserFiles {
             else {
                 System.out.println(jsonArray.getJSONObject(i));
                 institutionsRepository.updateInstitution(jsonArray.getJSONObject(i).getString("name"), jsonArray.getJSONObject(i).getString("phone"), jsonArray.getJSONObject(i).getString("email"), institutionsRepository.findByName(jsonArray.getJSONObject(i).getString("name")).get().getId(), jsonArray.getJSONObject(i).getString("site"), jsonArray.getJSONObject(i).getString("address"));
-            }            i++;
+            }
+            i++;
         }
         JSONObject jo = new JSONObject();
         jo.put("message", "Institutions have been updated");
@@ -67,8 +69,9 @@ public class JSONParserFiles {
             while (j < departamente.length()) {
                 Department department = new Department();
                 department.setName(departamente.getString(j));
-//                System.out.println(institutionsRepository.findByName(jsonArray.getJSONObject(i).getString("institutie")).get());
+                System.out.println(institutionsRepository.findByName(jsonArray.getJSONObject(i).getString("institutie")).get());
                 department.setInstitution(institutionsRepository.findByName(jsonArray.getJSONObject(i).getString("institutie")).get());
+                department.setProgram("{}");
                 if (departmentRepository.findByName(department.getName()).orElse(null) == null) {
                     departmentRepository.save(department);
                 }
@@ -98,13 +101,38 @@ public class JSONParserFiles {
         jsonObject.put("prices", new JSONArray(fileContent.getPrices()));
         jsonObject.put("files", new JSONArray(fileContent.getFiles()));
         bureaucraticProcess.setUsefulInformation(jsonObject.toString());
-        if (!bureaucraticProcessRepository.findById(bureaucraticProcess.getId()).isPresent())
+        if (!bureaucraticProcessRepository.findByName(bureaucraticProcess.getName()).isPresent())
             bureaucraticProcessRepository.save(bureaucraticProcess);
-        else
-            bureaucraticProcessRepository.updateBureaucraticProcess(bureaucraticProcess.getName(), bureaucraticProcess.getInstitution(), bureaucraticProcess.getUsefulInformation(), bureaucraticProcess.getName());
+        else {
+            if (!bureaucraticProcessRepository.findById(bureaucraticProcess.getId()).isPresent())
+                bureaucraticProcessRepository.save(bureaucraticProcess);
+            else
+                bureaucraticProcessRepository.updateBureaucraticProcess(bureaucraticProcess.getName(), bureaucraticProcess.getInstitution(), bureaucraticProcess.getUsefulInformation(), bureaucraticProcess.getName());
+        }
         JSONObject jo = new JSONObject();
         jo.put("message", "Process \"" + bureaucraticProcess.getName() + "\" has been updated");
         return jo.toString();
+    }
+
+    @Transactional
+    @Modifying
+    public String updateProgram(String programsList) {
+        JSONArray programe = new JSONArray(programsList);
+        List<String> departments = new ArrayList<>();
+        List<JSONObject> programs = new ArrayList<>();
+        int i = 0;
+        while (i < programe.length()) {
+            departments.add(programe.getJSONObject(i).getString("titlu"));
+            programs.add(programe.getJSONObject(i).getJSONObject("program"));
+            if (departmentRepository.findByName(departments.get(i)).isPresent()) {
+
+                departmentRepository.updateDepartmentProgram(programs.get(i).toString(), departmentRepository.findByName(departments.get(i)).get().getId());
+            }
+            i++;
+        }
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("message", "Departments have been updated with success.");
+        return jsonObject.toString();
     }
 
     public String getProcessForUpdate(UpdateProcessRequest updateProcessRequest) {

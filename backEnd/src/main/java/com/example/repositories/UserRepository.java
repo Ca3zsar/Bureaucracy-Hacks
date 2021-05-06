@@ -29,4 +29,15 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
     @Query("Select u.isEnabled from User u where u.email=?1")
     boolean getEnabledUser(String email);
+
+    @Transactional
+    @Modifying
+    @Query("UPDATE User a" + " set a.isAdmin = 1 where a.email=?1")
+    int makeAdmin(String email);
+
+    @Transactional
+    @Modifying
+    @Query("UPDATE User a" + " set a.isAdmin = 0 where a.email=?1")
+    int makeNotAdmin(String email);
+
 }

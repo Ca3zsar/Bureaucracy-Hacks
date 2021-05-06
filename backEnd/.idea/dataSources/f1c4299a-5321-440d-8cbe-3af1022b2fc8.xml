@@ -784,7 +784,7 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <StartupTime>1619511744</StartupTime>
+      <StartupTime>1619895795</StartupTime>
     </root>
     <database id="2" parent="1" name="java">
       <ObjectId>19656</ObjectId>
@@ -794,7 +794,7 @@ false Zulu
       <ObjectId>13442</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>182655</IntrospectionStateNumber>
+      <IntrospectionStateNumber>182757</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16668|16670|1
 sequence|table|16680|16682|1
@@ -805,6 +805,9 @@ sequence|table|16775|16777|1
 sequence|table|16788|16790|1
 sequence|table|18781|18783|1
 sequence|table|22302|22304|1
+sequence|table|30601|30603|1
+sequence|table|30634|30636|1
+sequence|table|30647|22371|3
 </Relations>
     </database>
     <role id="4" parent="1" name="pg_execute_server_program">
@@ -871,7 +874,7 @@ U/10
       <ObjectId>16666</ObjectId>
       <StateNumber>717</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>182656</IntrospectionStateNumber>
+      <IntrospectionStateNumber>182758</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="18" parent="3" name="adminpack">
@@ -979,111 +982,192 @@ U/10
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
-    <sequence id="31" parent="17" name="bureaucratic_processes_id_seq">
+    <sequence id="31" parent="17" name="anexe_id_seq">
+      <ObjectId>30601</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>182693</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="32" parent="17" name="bureaucratic_processes_id_seq">
       <ObjectId>18781</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>1360</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="32" parent="17" name="change_pass_tokens_token_id_seq">
+    <sequence id="33" parent="17" name="change_pass_tokens_token_id_seq">
       <ObjectId>16775</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="33" parent="17" name="client_request_id_request_seq">
+    <sequence id="34" parent="17" name="client_request_id_request_seq">
       <ObjectId>16696</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="34" parent="17" name="comments_id_comment_seq">
+    <sequence id="35" parent="17" name="comments_id_comment_seq">
       <ObjectId>22302</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>182464</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="35" parent="17" name="confirm_tokens_id_token_seq">
+    <sequence id="36" parent="17" name="confirm_tokens_id_token_seq">
       <ObjectId>16788</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="36" parent="17" name="departments_id_department_seq">
+    <sequence id="37" parent="17" name="departments_id_department_seq">
       <ObjectId>16724</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="37" parent="17" name="feedbacks_id_feedback_seq">
+    <sequence id="38" parent="17" name="feedbacks_id_feedback_seq">
       <ObjectId>16680</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="38" parent="17" name="institutions_id_institution_seq">
+    <sequence id="39" parent="17" name="institution_admins_id_seq">
+      <ObjectId>30647</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>182756</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="40" parent="17" name="institutions_id_institution_seq">
       <ObjectId>16711</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <sequence id="39" parent="17" name="users_registration_id_seq">
+    <sequence id="41" parent="17" name="sedii_id_seq">
+      <ObjectId>30634</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>182724</StateNumber>
+      <DataType>integer|0s</DataType>
+    </sequence>
+    <sequence id="42" parent="17" name="users_registration_id_seq">
       <ObjectId>16668</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
       <DataType>integer|0s</DataType>
     </sequence>
-    <table id="40" parent="17" name="bureaucratic_processes">
+    <table id="43" parent="17" name="anexe">
+      <ObjectId>30603</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>182693</StateNumber>
+    </table>
+    <table id="44" parent="17" name="bureaucratic_processes">
       <ObjectId>18783</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>182492</StateNumber>
     </table>
-    <table id="41" parent="17" name="change_pass_tokens">
+    <table id="45" parent="17" name="change_pass_tokens">
       <ObjectId>16777</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>738</StateNumber>
     </table>
-    <table id="42" parent="17" name="client_requests">
+    <table id="46" parent="17" name="client_requests">
       <ObjectId>16698</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>182495</StateNumber>
     </table>
-    <table id="43" parent="17" name="comments">
+    <table id="47" parent="17" name="comments">
       <ObjectId>22304</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>182653</StateNumber>
     </table>
-    <table id="44" parent="17" name="confirm_tokens">
+    <table id="48" parent="17" name="confirm_tokens">
       <ObjectId>16790</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
     </table>
-    <table id="45" parent="17" name="departments">
+    <table id="49" parent="17" name="departments">
       <ObjectId>16726</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>1397</StateNumber>
     </table>
-    <table id="46" parent="17" name="feedbacks">
+    <table id="50" parent="17" name="feedbacks">
       <ObjectId>16682</ObjectId>
       <Owner>postgres</Owner>
       <StateNumber>722</StateNumber>
     </table>
-    <table id="47" parent="17" name="institution_admins">
+    <table id="51" parent="17" name="institution_admins">
       <ObjectId>22371</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>182595</StateNumber>
+      <StateNumber>182756</StateNumber>
     </table>
-    <table id="48" parent="17" name="institutions">
+    <table id="52" parent="17" name="institutions">
       <ObjectId>16713</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>1382</StateNumber>
+      <StateNumber>182684</StateNumber>
     </table>
-    <table id="49" parent="17" name="users">
+    <table id="53" parent="17" name="sedii">
+      <ObjectId>30636</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>182724</StateNumber>
+    </table>
+    <table id="54" parent="17" name="users">
       <ObjectId>16670</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>722</StateNumber>
+      <StateNumber>182680</StateNumber>
     </table>
-    <column id="50" parent="40" name="id">
+    <column id="55" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>182693</StateNumber>
+      <DefaultExpression>nextval(&apos;anexe_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="56" parent="43" name="filename">
+      <Position>2</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <StateNumber>182693</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="57" parent="43" name="file_link">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>182693</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="58" parent="43" name="anexe_pkey">
+      <ObjectId>30610</ObjectId>
+      <StateNumber>182693</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <index id="59" parent="43" name="anexe_filename_key">
+      <ObjectId>30612</ObjectId>
+      <StateNumber>182698</StateNumber>
+      <ColNames>filename</ColNames>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100</CollationIds>
+      <CollationNames>default</CollationNames>
+      <ClassIds>3126</ClassIds>
+    </index>
+    <key id="60" parent="43" name="anexe_pkey">
+      <ObjectId>30611</ObjectId>
+      <StateNumber>182693</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>anexe_pkey</UnderlyingIndexName>
+    </key>
+    <key id="61" parent="43" name="anexe_filename_key">
+      <ObjectId>30613</ObjectId>
+      <StateNumber>182698</StateNumber>
+      <ColNames>filename</ColNames>
+      <UnderlyingIndexName>anexe_filename_key</UnderlyingIndexName>
+    </key>
+    <column id="62" parent="44" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1091,25 +1175,25 @@ U/10
       <DefaultExpression>nextval(&apos;bureaucratic_processes_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="51" parent="40" name="bureaucratic_process">
+    <column id="63" parent="44" name="bureaucratic_process">
       <Position>2</Position>
-      <DataType>varchar(200)|0s</DataType>
-      <StateNumber>182587</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>text|0s</DataType>
+      <StateNumber>182671</StateNumber>
+      <TypeId>25</TypeId>
     </column>
-    <column id="52" parent="40" name="id_institution">
+    <column id="64" parent="44" name="id_institution">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>182492</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="53" parent="40" name="useful_information">
+    <column id="65" parent="44" name="useful_information">
       <Position>4</Position>
       <DataType>json|0s</DataType>
       <StateNumber>182498</StateNumber>
       <TypeId>114</TypeId>
     </column>
-    <index id="54" parent="40" name="bureaucratic_processes_pkey">
+    <index id="66" parent="44" name="bureaucratic_processes_pkey">
       <ObjectId>18787</ObjectId>
       <StateNumber>1360</StateNumber>
       <ColNames>id</ColNames>
@@ -1119,9 +1203,9 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="55" parent="40" name="bureaucratic_processes_bureaucratic_process_key">
-      <ObjectId>22351</ObjectId>
-      <StateNumber>182587</StateNumber>
+    <index id="67" parent="44" name="bureaucratic_processes_bureaucratic_process_key">
+      <ObjectId>22410</ObjectId>
+      <StateNumber>182671</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1129,20 +1213,20 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="56" parent="40" name="bureaucratic_processes_pkey">
+    <key id="68" parent="44" name="bureaucratic_processes_pkey">
       <ObjectId>18788</ObjectId>
       <StateNumber>1360</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>bureaucratic_processes_pkey</UnderlyingIndexName>
     </key>
-    <key id="57" parent="40" name="bureaucratic_processes_bureaucratic_process_key">
-      <ObjectId>22352</ObjectId>
-      <StateNumber>182587</StateNumber>
+    <key id="69" parent="44" name="bureaucratic_processes_bureaucratic_process_key">
+      <ObjectId>22411</ObjectId>
+      <StateNumber>182671</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
       <UnderlyingIndexName>bureaucratic_processes_bureaucratic_process_key</UnderlyingIndexName>
     </key>
-    <foreign-key id="58" parent="40" name="bureaucratic_process_fkey">
+    <foreign-key id="70" parent="44" name="bureaucratic_process_fkey">
       <ObjectId>22328</ObjectId>
       <StateNumber>182492</StateNumber>
       <ColNames>id_institution</ColNames>
@@ -1152,7 +1236,7 @@ U/10
       <RefKeyName>institutions_pkey</RefKeyName>
       <RefColNames>id_institution</RefColNames>
     </foreign-key>
-    <column id="59" parent="41" name="token_id">
+    <column id="71" parent="45" name="token_id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1160,37 +1244,37 @@ U/10
       <DefaultExpression>nextval(&apos;change_pass_tokens_token_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="60" parent="41" name="token_value">
+    <column id="72" parent="45" name="token_value">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <StateNumber>742</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="61" parent="41" name="created_at">
+    <column id="73" parent="45" name="created_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="62" parent="41" name="expired_at">
+    <column id="74" parent="45" name="expired_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="63" parent="41" name="confirmed_at">
+    <column id="75" parent="45" name="confirmed_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="64" parent="41" name="email">
+    <column id="76" parent="45" name="email">
       <Position>7</Position>
       <DataType>varchar(50)|0s</DataType>
       <StateNumber>738</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="65" parent="41" name="change_pass_tokens_pkey">
+    <index id="77" parent="45" name="change_pass_tokens_pkey">
       <ObjectId>16781</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>token_id</ColNames>
@@ -1200,14 +1284,14 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="66" parent="41" name="change_pass_tokens_pkey">
+    <key id="78" parent="45" name="change_pass_tokens_pkey">
       <ObjectId>16782</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>token_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>change_pass_tokens_pkey</UnderlyingIndexName>
     </key>
-    <column id="67" parent="42" name="id_request">
+    <column id="79" parent="46" name="id_request">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1215,19 +1299,19 @@ U/10
       <DefaultExpression>nextval(&apos;client_request_id_request_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="68" parent="42" name="id_user">
+    <column id="80" parent="46" name="id_user">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="69" parent="42" name="bureaucratic_process">
+    <column id="81" parent="46" name="bureaucratic_process">
       <Position>3</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="70" parent="42" name="client_request_pkey">
+    <index id="82" parent="46" name="client_request_pkey">
       <ObjectId>16702</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_request</ColNames>
@@ -1237,7 +1321,7 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="71" parent="42" name="client_request_bureaucratic_process_key">
+    <index id="83" parent="46" name="client_request_bureaucratic_process_key">
       <ObjectId>16704</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
@@ -1247,20 +1331,20 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="72" parent="42" name="client_request_pkey">
+    <key id="84" parent="46" name="client_request_pkey">
       <ObjectId>16703</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_request</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>client_request_pkey</UnderlyingIndexName>
     </key>
-    <key id="73" parent="42" name="client_request_bureaucratic_process_key">
+    <key id="85" parent="46" name="client_request_bureaucratic_process_key">
       <ObjectId>16705</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
       <UnderlyingIndexName>client_request_bureaucratic_process_key</UnderlyingIndexName>
     </key>
-    <foreign-key id="74" parent="42" name="client_request_id_user_fkey">
+    <foreign-key id="86" parent="46" name="client_request_id_user_fkey">
       <ObjectId>16706</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_user</ColNames>
@@ -1270,9 +1354,9 @@ U/10
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>registration_id</RefColNames>
     </foreign-key>
-    <foreign-key id="75" parent="42" name="client_request_bureaucratic_process_fkey">
-      <ObjectId>22358</ObjectId>
-      <StateNumber>182587</StateNumber>
+    <foreign-key id="87" parent="46" name="client_request_bureaucratic_process_fkey">
+      <ObjectId>22412</ObjectId>
+      <StateNumber>182671</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
       <RefTableId>18783</RefTableId>
       <RefColPositions>2</RefColPositions>
@@ -1280,7 +1364,7 @@ U/10
       <RefKeyName>bureaucratic_processes_bureaucratic_process_key</RefKeyName>
       <RefColNames>bureaucratic_process</RefColNames>
     </foreign-key>
-    <column id="76" parent="43" name="id_comment">
+    <column id="88" parent="47" name="id_comment">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1288,58 +1372,58 @@ U/10
       <DefaultExpression>nextval(&apos;comments_id_comment_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="77" parent="43" name="bureaucratic_process">
+    <column id="89" parent="47" name="bureaucratic_process">
       <Position>2</Position>
       <DataType>varchar(400)|0s</DataType>
       <StateNumber>182593</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="78" parent="43" name="id_author">
+    <column id="90" parent="47" name="id_author">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>182464</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="79" parent="43" name="comment_content">
+    <column id="91" parent="47" name="comment_content">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>182464</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="80" parent="43" name="q_1">
+    <column id="92" parent="47" name="q_1">
       <Position>6</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>182647</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="81" parent="43" name="q_2">
+    <column id="93" parent="47" name="q_2">
       <Position>7</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>182647</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="82" parent="43" name="q_3">
+    <column id="94" parent="47" name="q_3">
       <Position>8</Position>
       <DataType>varchar(6)|0s</DataType>
       <StateNumber>182647</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="83" parent="43" name="q_4">
+    <column id="95" parent="47" name="q_4">
       <Position>9</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>182647</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="84" parent="43" name="show">
+    <column id="96" parent="47" name="show">
       <Position>10</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>182654</StateNumber>
       <DefaultExpression>true</DefaultExpression>
       <TypeId>16</TypeId>
     </column>
-    <index id="85" parent="43" name="comments_pkey">
+    <index id="97" parent="47" name="comments_pkey">
       <ObjectId>22312</ObjectId>
       <StateNumber>182464</StateNumber>
       <ColNames>id_comment</ColNames>
@@ -1349,16 +1433,16 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="86" parent="43" name="comments_pkey">
+    <key id="98" parent="47" name="comments_pkey">
       <ObjectId>22313</ObjectId>
       <StateNumber>182464</StateNumber>
       <ColNames>id_comment</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>comments_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="87" parent="43" name="comments_bureaucratic_process_fkey">
-      <ObjectId>22363</ObjectId>
-      <StateNumber>182593</StateNumber>
+    <foreign-key id="99" parent="47" name="comments_bureaucratic_process_fkey">
+      <ObjectId>22417</ObjectId>
+      <StateNumber>182671</StateNumber>
       <ColNames>bureaucratic_process</ColNames>
       <RefTableId>18783</RefTableId>
       <RefColPositions>2</RefColPositions>
@@ -1366,7 +1450,7 @@ U/10
       <RefKeyName>bureaucratic_processes_bureaucratic_process_key</RefKeyName>
       <RefColNames>bureaucratic_process</RefColNames>
     </foreign-key>
-    <column id="88" parent="44" name="id_token">
+    <column id="100" parent="48" name="id_token">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1374,37 +1458,37 @@ U/10
       <DefaultExpression>nextval(&apos;confirm_tokens_id_token_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="89" parent="44" name="registration_id">
+    <column id="101" parent="48" name="registration_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="90" parent="44" name="created_at">
+    <column id="102" parent="48" name="created_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="91" parent="44" name="expired_at">
+    <column id="103" parent="48" name="expired_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="92" parent="44" name="confirmed_at">
+    <column id="104" parent="48" name="confirmed_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="93" parent="44" name="token_value">
+    <column id="105" parent="48" name="token_value">
       <Position>6</Position>
       <DataType>varchar(50)|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="94" parent="44" name="confirm_tokens_pkey">
+    <index id="106" parent="48" name="confirm_tokens_pkey">
       <ObjectId>16794</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_token</ColNames>
@@ -1414,14 +1498,14 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="95" parent="44" name="confirm_tokens_pkey">
+    <key id="107" parent="48" name="confirm_tokens_pkey">
       <ObjectId>16795</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_token</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>confirm_tokens_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="96" parent="44" name="confirm_tokens_registration_id_fkey">
+    <foreign-key id="108" parent="48" name="confirm_tokens_registration_id_fkey">
       <ObjectId>16796</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>registration_id</ColNames>
@@ -1431,7 +1515,7 @@ U/10
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>registration_id</RefColNames>
     </foreign-key>
-    <column id="97" parent="45" name="id_department">
+    <column id="109" parent="49" name="id_department">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1439,39 +1523,39 @@ U/10
       <DefaultExpression>nextval(&apos;departments_id_department_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="98" parent="45" name="id_institution">
+    <column id="110" parent="49" name="id_institution">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1396</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="99" parent="45" name="department_name">
+    <column id="111" parent="49" name="department_name">
       <Position>3</Position>
       <DataType>varchar(500)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>182506</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="100" parent="45" name="phone">
+    <column id="112" parent="49" name="phone">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>1396</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="101" parent="45" name="email">
+    <column id="113" parent="49" name="email">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>182506</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="102" parent="45" name="program">
+    <column id="114" parent="49" name="program">
       <Position>9</Position>
       <DataType>json|0s</DataType>
       <StateNumber>182502</StateNumber>
       <TypeId>114</TypeId>
     </column>
-    <index id="103" parent="45" name="departments_pkey">
+    <index id="115" parent="49" name="departments_pkey">
       <ObjectId>16730</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_department</ColNames>
@@ -1481,7 +1565,7 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="104" parent="45" name="departments_department_name_key">
+    <index id="116" parent="49" name="departments_department_name_key">
       <ObjectId>22343</ObjectId>
       <StateNumber>182517</StateNumber>
       <ColNames>department_name</ColNames>
@@ -1491,20 +1575,20 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="105" parent="45" name="departments_pkey">
+    <key id="117" parent="49" name="departments_pkey">
       <ObjectId>16731</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_department</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>departments_pkey</UnderlyingIndexName>
     </key>
-    <key id="106" parent="45" name="departments_department_name_key">
+    <key id="118" parent="49" name="departments_department_name_key">
       <ObjectId>22344</ObjectId>
       <StateNumber>182517</StateNumber>
       <ColNames>department_name</ColNames>
       <UnderlyingIndexName>departments_department_name_key</UnderlyingIndexName>
     </key>
-    <foreign-key id="107" parent="45" name="departments_id_institution_fkey">
+    <foreign-key id="119" parent="49" name="departments_id_institution_fkey">
       <ObjectId>16732</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_institution</ColNames>
@@ -1514,7 +1598,7 @@ U/10
       <RefKeyName>institutions_pkey</RefKeyName>
       <RefColNames>id_institution</RefColNames>
     </foreign-key>
-    <column id="108" parent="46" name="id_feedback">
+    <column id="120" parent="50" name="id_feedback">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1522,25 +1606,25 @@ U/10
       <DefaultExpression>nextval(&apos;feedbacks_id_feedback_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="109" parent="46" name="id_author">
+    <column id="121" parent="50" name="id_author">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="110" parent="46" name="feedback_content">
+    <column id="122" parent="50" name="feedback_content">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="111" parent="46" name="feedback_rating">
+    <column id="123" parent="50" name="feedback_rating">
       <Position>4</Position>
       <DataType>numeric|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>1700</TypeId>
     </column>
-    <index id="112" parent="46" name="feedbacks_pkey">
+    <index id="124" parent="50" name="feedbacks_pkey">
       <ObjectId>16689</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_feedback</ColNames>
@@ -1550,14 +1634,14 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="113" parent="46" name="feedbacks_pkey">
+    <key id="125" parent="50" name="feedbacks_pkey">
       <ObjectId>16690</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_feedback</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>feedbacks_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="114" parent="46" name="feedbacks_id_author_fkey">
+    <foreign-key id="126" parent="50" name="feedbacks_id_author_fkey">
       <ObjectId>16691</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_author</ColNames>
@@ -1567,19 +1651,46 @@ U/10
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>registration_id</RefColNames>
     </foreign-key>
-    <column id="115" parent="47" name="id_user">
+    <column id="127" parent="51" name="id_user">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>182595</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>182756</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="116" parent="47" name="id_institution">
+    <column id="128" parent="51" name="id_institution">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>182595</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>182756</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <foreign-key id="117" parent="47" name="institution_admins_id_user_fkey">
+    <column id="129" parent="51" name="id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>182756</StateNumber>
+      <DefaultExpression>nextval(&apos;institution_admins_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="130" parent="51" name="institution_admins_pkey">
+      <ObjectId>30653</ObjectId>
+      <StateNumber>182756</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="131" parent="51" name="institution_admins_pkey">
+      <ObjectId>30654</ObjectId>
+      <StateNumber>182756</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>institution_admins_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="132" parent="51" name="institution_admins_id_user_fkey">
       <ObjectId>22374</ObjectId>
       <StateNumber>182595</StateNumber>
       <ColNames>id_user</ColNames>
@@ -1590,7 +1701,7 @@ U/10
       <RefColNames>registration_id</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="118" parent="47" name="institution_admins_id_institution_fkey">
+    <foreign-key id="133" parent="51" name="institution_admins_id_institution_fkey">
       <ObjectId>22379</ObjectId>
       <StateNumber>182595</StateNumber>
       <ColNames>id_institution</ColNames>
@@ -1601,7 +1712,7 @@ U/10
       <RefColNames>id_institution</RefColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="119" parent="48" name="id_institution">
+    <column id="134" parent="52" name="id_institution">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1609,50 +1720,56 @@ U/10
       <DefaultExpression>nextval(&apos;institutions_id_institution_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="120" parent="48" name="institution_name">
+    <column id="135" parent="52" name="institution_name">
       <Position>2</Position>
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>182481</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="121" parent="48" name="institution_url">
+    <column id="136" parent="52" name="institution_url">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>722</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="122" parent="48" name="adress">
+    <column id="137" parent="52" name="adress">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <StateNumber>182610</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="123" parent="48" name="email">
+    <column id="138" parent="52" name="email">
       <Position>6</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>182481</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="124" parent="48" name="phone">
+    <column id="139" parent="52" name="phone">
       <Position>7</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>1379</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="125" parent="48" name="latitude">
+    <column id="140" parent="52" name="latitude">
       <Position>8</Position>
       <DataType>double precision|0s</DataType>
       <StateNumber>1382</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="126" parent="48" name="longitude">
+    <column id="141" parent="52" name="longitude">
       <Position>9</Position>
       <DataType>double precision|0s</DataType>
       <StateNumber>1382</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <index id="127" parent="48" name="institutions_pkey">
+    <column id="142" parent="52" name="programs">
+      <Position>11</Position>
+      <DataType>json|0s</DataType>
+      <StateNumber>182684</StateNumber>
+      <TypeId>114</TypeId>
+    </column>
+    <index id="143" parent="52" name="institutions_pkey">
       <ObjectId>16720</ObjectId>
       <StateNumber>1382</StateNumber>
       <ColNames>id_institution</ColNames>
@@ -1662,7 +1779,7 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="128" parent="48" name="institutions_institution_name_key">
+    <index id="144" parent="52" name="institutions_institution_name_key">
       <ObjectId>22345</ObjectId>
       <StateNumber>182518</StateNumber>
       <ColNames>institution_name</ColNames>
@@ -1672,7 +1789,7 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <index id="129" parent="48" name="institutions_email_key">
+    <index id="145" parent="52" name="institutions_email_key">
       <ObjectId>22323</ObjectId>
       <StateNumber>182481</StateNumber>
       <ColNames>email</ColNames>
@@ -1682,26 +1799,91 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="130" parent="48" name="institutions_pkey">
+    <key id="146" parent="52" name="institutions_pkey">
       <ObjectId>16721</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>id_institution</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>institutions_pkey</UnderlyingIndexName>
     </key>
-    <key id="131" parent="48" name="institutions_institution_name_key">
+    <key id="147" parent="52" name="institutions_institution_name_key">
       <ObjectId>22346</ObjectId>
       <StateNumber>182518</StateNumber>
       <ColNames>institution_name</ColNames>
       <UnderlyingIndexName>institutions_institution_name_key</UnderlyingIndexName>
     </key>
-    <key id="132" parent="48" name="institutions_email_key">
+    <key id="148" parent="52" name="institutions_email_key">
       <ObjectId>22324</ObjectId>
       <StateNumber>182481</StateNumber>
       <ColNames>email</ColNames>
       <UnderlyingIndexName>institutions_email_key</UnderlyingIndexName>
     </key>
-    <column id="133" parent="49" name="registration_id">
+    <column id="149" parent="53" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>182724</StateNumber>
+      <DefaultExpression>nextval(&apos;sedii_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="150" parent="53" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>182724</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="151" parent="53" name="description">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>182724</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="152" parent="53" name="institution">
+      <Position>4</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>182724</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="153" parent="53" name="latitude">
+      <Position>5</Position>
+      <DataType>real|0s</DataType>
+      <StateNumber>182724</StateNumber>
+      <TypeId>700</TypeId>
+    </column>
+    <column id="154" parent="53" name="longitude">
+      <Position>6</Position>
+      <DataType>real|0s</DataType>
+      <StateNumber>182724</StateNumber>
+      <TypeId>700</TypeId>
+    </column>
+    <index id="155" parent="53" name="sedii_pkey">
+      <ObjectId>30640</ObjectId>
+      <StateNumber>182724</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="156" parent="53" name="sedii_pkey">
+      <ObjectId>30641</ObjectId>
+      <StateNumber>182724</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sedii_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="157" parent="53" name="sedii_institution_fkey">
+      <ObjectId>30642</ObjectId>
+      <StateNumber>182724</StateNumber>
+      <ColNames>institution</ColNames>
+      <RefTableId>16713</RefTableId>
+      <RefColPositions>2</RefColPositions>
+      <RefTableName>institutions</RefTableName>
+      <RefKeyName>institutions_institution_name_key</RefKeyName>
+      <RefColNames>institution_name</RefColNames>
+    </foreign-key>
+    <column id="158" parent="54" name="registration_id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1709,42 +1891,42 @@ U/10
       <DefaultExpression>nextval(&apos;users_registration_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="134" parent="49" name="email">
+    <column id="159" parent="54" name="email">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="135" parent="49" name="username">
+    <column id="160" parent="54" name="username">
       <Position>3</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="136" parent="49" name="name">
+    <column id="161" parent="54" name="name">
       <Position>4</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="137" parent="49" name="surname">
+    <column id="162" parent="54" name="surname">
       <Position>5</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="138" parent="49" name="hash_password">
+    <column id="163" parent="54" name="hash_password">
       <Position>6</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>722</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="139" parent="49" name="is_admin">
+    <column id="164" parent="54" name="is_admin">
       <Position>7</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1752,14 +1934,14 @@ U/10
       <DefaultExpression>0</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="140" parent="49" name="is_enabled">
+    <column id="165" parent="54" name="is_enabled">
       <Position>8</Position>
       <DataType>boolean|0s</DataType>
       <StateNumber>722</StateNumber>
       <DefaultExpression>false</DefaultExpression>
       <TypeId>16</TypeId>
     </column>
-    <index id="141" parent="49" name="users_pkey">
+    <index id="166" parent="54" name="users_pkey">
       <ObjectId>16676</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>registration_id</ColNames>
@@ -1769,7 +1951,7 @@ U/10
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <index id="142" parent="49" name="users_email_key">
+    <index id="167" parent="54" name="users_email_key">
       <ObjectId>16678</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>email</ColNames>
@@ -1779,7 +1961,7 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <index id="143" parent="49" name="users_username_key">
+    <index id="168" parent="54" name="users_username_key">
       <ObjectId>22319</ObjectId>
       <StateNumber>182478</StateNumber>
       <ColNames>username</ColNames>
@@ -1789,20 +1971,20 @@ U/10
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="144" parent="49" name="users_pkey">
+    <key id="169" parent="54" name="users_pkey">
       <ObjectId>16677</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>registration_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <key id="145" parent="49" name="users_email_key">
+    <key id="170" parent="54" name="users_email_key">
       <ObjectId>16679</ObjectId>
       <StateNumber>722</StateNumber>
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_key</UnderlyingIndexName>
     </key>
-    <key id="146" parent="49" name="users_username_key">
+    <key id="171" parent="54" name="users_username_key">
       <ObjectId>22320</ObjectId>
       <StateNumber>182478</StateNumber>
       <ColNames>username</ColNames>

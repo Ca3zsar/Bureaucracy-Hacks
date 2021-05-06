@@ -9,9 +9,9 @@ spring:
     password: gabriela
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-#    password: e7c74e0a97fcc38e5b3a95ed6278b2f094bfe941599fa06613e388c16a1d2afe
-#    url: jdbc:postgresql://ec2-34-254-69-72.eu-west-1.compute.amazonaws.com:5432/dfb0t4ti46rhku
-#    username: qyiecaxtovdnrt
+#    password: 34a32a687974e3b06fcb2dfb47ed23f13106b199d41ad2b54ce4d23984781523
+#    url: jdbc:postgresql://ec2-176-34-105-15.eu-west-1.compute.amazonaws.com:5432/d7kes16vrlnf4u
+#    username: ogmoaildxvhcpo
 
   mail:
     host: smtp.gmail.com
