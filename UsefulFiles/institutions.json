@@ -42,13 +42,6 @@
     "address": "Str. Mihai Costăchescu, Nr. 2, Cod 700495"
   },
   {
-    "name": "Directia Generala pentru Pasapoarte",
-    "phone": "0232302801",
-    "email": "pasapoarte@prefecturaiasi.ro",
-    "site": "https://pasapoarte.mai.gov.ro/",
-    "address": "Bld. Primăverii, nr. 36, Iași"
-  },
-  {
     "name": "Casa Județeană de Pensii Iași",
     "phone": "0232240053",
     "email": "cjp.iasi@cnpp.ro",
@@ -61,27 +54,6 @@
     "email": "cabinet.primar@primaria-iasi.ro",
     "site": "http://www.primaria-iasi.ro/",
     "address": "Bd. Stefan cel Mare si Sfant nr. 11, 700064 Iasi"
-  },
-  {
-    "name": "ANAF",
-    "phone": "0232213332",
-    "email": "Admin.ISISAFBX01.IS@anaf.ro",
-    "site": "https://www.anaf.ro/anaf/internet/Iasi/acasa/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOI9DD3MPIwsjLz83V0NDAJN3ZzcQ3wNDQxCjIAKIoEKDHAARwNC-sP1o_AqcTGEKsBjRUFuhEGmo6IiACtFDV8!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/",
-    "address": "Municipiul IAȘI, Bulevardul Nicolae Iorga Nr. 10 C"
-  },
-  {
-    "name": "Casa Judeteana de Asigurari de Sanatate Iasi",
-    "phone": "0232218630",
-    "email": "secretariat@cjasis.ro",
-    "site": "http://www.cnas.ro/hih/",
-    "address": "Str. Gh.Asachi, Nr. 18, 700483, Iasi"
-  },
-  {
-    "name": "Directia de Asistenta Sociala Iasi",
-    "phone": "0232206344",
-    "email": "contact@dac-iasi.ro",
-    "site": "https://www.dac-iasi.ro/",
-    "address": "Str Mitropolit Varlaam nr. 54"
   },
   {
     "name": "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi",
@@ -118,13 +90,7 @@
     "site": "https://www.cjpiasi.ro/home/index.php",
     "address": "Strada Anastasie Panu 17-19, Iași 700021"
   },
-  {
-    "name": "Primaria Iasi",
-    "phone": "0232267582",
-    "email": "cabinet.primar@primaria-iasi.ro",
-    "site": "http://www.primaria-iasi.ro/",
-    "address": "Bd. Stefan cel Mare si Sfant nr. 11, 700064 Iasi"
-  },
+
   {
     "name": "Editura si Tipografia PIM",
     "phone": "",
