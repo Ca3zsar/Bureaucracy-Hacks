@@ -99,11 +99,11 @@ def go_spider_scrapping(url):
             type_of_file =  magic.from_file(link_for_title)
             
             if 'PDF' in type_of_file : 
-                link_for_title= "Directia de Asistenta Sociala Iasi_" + link_for_title+".pdf"
+                link_for_title= "Directia Locala pentru Evidenta Persoanelor Iasi_" + link_for_title+".pdf"
             elif 'Word' in type_of_file:
-                link_for_title=  "Directia de Asistenta Sociala Iasi_" + link_for_title+".doc"
+                link_for_title= "Directia Locala pentru Evidenta Persoanelor Iasi_" + link_for_title+".doc"
             else: 
-                link_for_title=  "Directia de Asistenta Sociala Iasi_" + link_for_title+".xls"
+                link_for_title= "Directia Locala pentru Evidenta Persoanelor Iasi_" + link_for_title+".xls"
                 
                 
             with open(f"{acte}/{link_for_title}","wb") as file:
