@@ -81,7 +81,7 @@ def downloadResources(download_links):
         source = requests.get(link)
 
         baseName = os.path.basename(link)
-        f = open (acte + '/' + baseName, 'wb')
+        f = open (acte + '/' + 'Casa Judeteana de Asigurari de Sanatate Iasi_' + baseName, 'wb')
         try:
             f.write(source.content)
         except:

@@ -6,7 +6,7 @@ import sys
 import mimetypes
 import magic
 from bs4 import BeautifulSoup
-
+# Directia Generala de Asistenta Sociala si Protectia Copilului Iasi
 DOMAIN = 'https://www.dasiasi.ro/'
 URL = 'https://www.dasiasi.ro/?page=lista&Nume=formulare&tp=lst&id=6&n='
 FileType = 'pdf' 
@@ -79,12 +79,12 @@ def go_spider_scrapping(url,document_director, fileName):
                 type_of_file =  magic.from_file(link_for_title)
                 
                 if 'PDF' in type_of_file.upper() : 
-                    os.rename(link_for_title, link_for_title + ".pdf")
-                    link_for_title= link_for_title+".pdf"
+                    os.rename(link_for_title, "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi_" + link_for_title + ".pdf")
+                    link_for_title= "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi_" +link_for_title+".pdf"
                     shutil.move(link_for_title, path+ '/' + link_for_title)
                 else : 
-                    os.rename(link_for_title, link_for_title + ".doc")
-                    link_for_title= link_for_title+".doc"
+                    os.rename(link_for_title, "Directia Generala de Asistenta Sociala si Protectia Copilului Iasi_" + link_for_title + ".doc")
+                    link_for_title="Directia Generala de Asistenta Sociala si Protectia Copilului Iasi_" + link_for_title+".doc"
                     shutil.move(link_for_title, path+ '/' + link_for_title)
 
         

@@ -106,10 +106,10 @@ def downloadDocuments(var, html_filename):
             continue
         if href.startswith('d') or href.startswith('A') or href.endswith("42.pdf"):
             continue
-        filename = os.path.join(acte, href.rsplit('/', 1)[-1])
+        filename = os.path.join(acte,  href.rsplit('/', 1)[-1])
         if href.endswith('.pdf'):
             try:
-                urlretrieve(href, filename)
+                urlretrieve(href, "ANAF_"+ filename)
             except:
                 print('failed to download')
 
