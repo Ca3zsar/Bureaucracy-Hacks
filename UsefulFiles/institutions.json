@@ -61,5 +61,12 @@
     "email": "cabinet.primar@primaria-iasi.ro",
     "site": "http://www.primaria-iasi.ro/",
     "address": "Bd. Stefan cel Mare si Sfant nr. 11, 700064 Iasi"
+  },
+  {
+    "name": "SalubrIS",
+    "phone": "0232276244",
+    "email": "office@salubris.ro",
+    "site": "https://salubris.ro/",
+    "address": "Sos. Nationala nr. 43, 700273, Iasi"
   }
 ]
