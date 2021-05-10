@@ -90,7 +90,13 @@
     "site": "https://www.cjpiasi.ro/home/index.php",
     "address": "Strada Anastasie Panu 17-19, Iași 700021"
   },
-
+  {
+    "name": "SalubrIS",
+    "phone": "0232276244",
+    "email": "office@salubris.ro",
+    "site": "https://salubris.ro/",
+    "address": "Sos. Nationala nr. 43, 700273, Iasi"
+  },
   {
     "name": "Editura si Tipografia PIM",
     "phone": "",
