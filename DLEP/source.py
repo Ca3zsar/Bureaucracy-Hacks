@@ -109,7 +109,6 @@ def go_spider_scrapping(url):
             with open(f"{acte}/{link_for_title}","wb") as file:
                 response= requests.get(link_for_download)
                 file.write(response.content)
-                file.close()
             
             # os.remove(link)
 

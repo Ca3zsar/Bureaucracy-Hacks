@@ -67,8 +67,6 @@ def changeEntriesNumber(chromeDriver):
     for button in downloadButtons:
         urls.append(button.get_attribute("href"))
     
-    driver.quit()
-    
     return urls
     
 
@@ -84,14 +82,12 @@ def get_file_name(url):
 
 def downloadFiles(urls):
     for url in urls:
-        response =  urllib.request.urlopen(url)
-        
         parsed = urlparse(url)
         fileName = os.path.basename(parsed.path)
         
-        file = open(f"{acte}/Primaria Iasi_{fileName}","wb")
-        file.write(response.read())
-        file.close()
+        with open(f"{acte}/Primaria Iasi_{fileName}","wb") as file:
+            response= requests.get(url)
+            file.write(response.content)
         
         # os.rename(f"{fileName}", f"{acte}\\{fileName}")
     
