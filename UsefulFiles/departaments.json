@@ -60,6 +60,14 @@
       ]
   },
   {
+    "institutie": "SalubrIS",
+    "departamente": [
+        "Compartiment servcicii de salubritate",
+        "Compartiment servcicii de salubritate, gestionarea deseurilor din constructii",
+        "Compartiment servcicii de salubritate, Aviz de principiu"
+    ]
+},
+  {
       "institutie": "Inspectoratul de Politie Judetean Iasi",
       "departamente": [
           "Inspectoratul de Politie Judetean Iasi - Comisar-sef de politie GITLAN COSTEL",

@@ -1,0 +1,32 @@
+{
+    "orar":{
+        "institutie":"SalubrIS",
+        "programe":[
+            {
+                "titlu": "Compartiment servcicii de salubritate",
+                "program":{
+                    "luni":{
+                        "open":"7:00",
+                        "close":"15:30"
+                    },
+                    "marti":{
+                        "open":"7:00",
+                        "close":"15:30"
+                    },
+                    "miercuri":{
+                        "open":"7:00",
+                        "close":"15:30"
+                    },
+                    "joi":{
+                        "open":"7:00",
+                        "close":"15:30"
+                    },
+                    "vineri":{
+                        "open":"7:00",
+                        "close":"13:00"
+                    }
+                }
+            }
+        ]
+    }
+}
