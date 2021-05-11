@@ -1,4 +1,4 @@
-package com.example.Resources;
+package com.example.resources;
 
 import com.example.models.Comment;
 import com.example.repositories.BureaucraticProcessRepository;

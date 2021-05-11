@@ -9,17 +9,10 @@ import java.util.List;
 
 @Getter
 @Setter
-//@AllArgsConstructor
+@AllArgsConstructor
 @EqualsAndHashCode
 @ToString
-@NoArgsConstructor
 public class UpdateDepartmentRequest {
-//    @JsonProperty("institutionName")
     private String institutie;
     private List<String> departamente;
-
-    public UpdateDepartmentRequest(String institutie, List<String> departamente) {
-        this.institutie = institutie;
-        this.departamente = departamente;
-    }
 }

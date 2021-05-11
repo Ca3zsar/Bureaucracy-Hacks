@@ -41,6 +41,9 @@ public class Institution {
     private Double latitude;
     @Column(name = "longitude")
     private Double longitude;
+    @Column(name = "type")
+    private String type;
+
     @JsonIgnore
     @ManyToMany(mappedBy = "institutions")
     List<User> users;
@@ -68,6 +71,18 @@ public class Institution {
         this.email = email;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.programs = programs;
+    }
+
+    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, String type, String programs) {
+        this.name = name;
+        this.site = site;
+        this.address = address;
+        this.phone = phone;
+        this.email = email;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.type = type;
         this.programs = programs;
     }
 

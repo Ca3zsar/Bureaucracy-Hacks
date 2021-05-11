@@ -1,14 +1,18 @@
 package com.example.controllers;
 
-import com.example.Resources.JSONParserFiles;
+import com.example.resources.JSONParserFiles;
+import com.example.models.Department;
 import com.example.models.Institution;
 import com.example.repositories.AnexeRepository;
+import com.example.repositories.DepartmentRepository;
 import com.example.repositories.InstitutionsRepository;
 import com.example.repositories.UserRepository;
 import com.example.requests.*;
 import com.example.services.CommentService;
+import com.example.services.ReviewService;
 import com.example.services.UserService;
 import lombok.AllArgsConstructor;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,7 +24,9 @@ import java.util.List;
 public class AdminController {
     private JSONParserFiles jsonParserFiles;
     private CommentService commentService;
+    private ReviewService reviewService;
     private InstitutionsRepository institutionsRepository;
+    private DepartmentRepository departmentRepository;
     private UserService userService;
     private AnexeRepository anexeRepository;
     private UserRepository userRepository;
@@ -30,9 +36,43 @@ public class AdminController {
         return jsonParserFiles.updateInstitutionList(institutionRequest);
     }
 
+    @GetMapping(path = "updateinstitutionsrequest")
+    public String updateInstitutionsRequest() {
+        List<Institution> institutions = institutionsRepository.getInstitutionsList();
+        JSONArray jsonArray = new JSONArray();
+        for (Institution institution : institutions) {
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("name", institution.getName());
+            jsonObject.put("phone", institution.getPhone());
+            jsonObject.put("site", institution.getSite());
+            jsonObject.put("address", institution.getAddress());
+            jsonObject.put("email", institution.getEmail());
+            jsonArray.add(jsonObject);
+        }
+        return jsonArray.toString();
+    }
+
     @PostMapping(path = "updatedepartments")
     public String updateDepartments(@RequestBody List<UpdateDepartmentRequest> departments) {
         return jsonParserFiles.updateDepartmentList(departments);
+    }
+
+    @GetMapping(path = "updatedepartmentsrequest")
+    public String updateDepartmentsRequest() {
+        List<Institution> institutions = institutionsRepository.getInstitutionsList();
+        JSONArray jsonArray = new JSONArray();
+        for (Institution institution : institutions) {
+            List<Department> departments = departmentRepository.getDepartmentsList(institution.getName());
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("institutie", institution.getName());
+            JSONArray jsonArray1 = new JSONArray();
+            for (Department department : departments) {
+                jsonArray1.add(department.getName());
+            }
+            jsonObject.put("departamente", jsonArray1);
+            jsonArray.add(jsonObject);
+        }
+        return jsonArray.toString();
     }
 
     @PostMapping(path = "updateprocessesrequest")
@@ -68,6 +108,11 @@ public class AdminController {
     @PostMapping(path = "deletecomment")
     public String deleteComment(@RequestBody DeleteCommentRequest deleteCommentRequest) {
         return commentService.deleteComment(deleteCommentRequest);
+    }
+
+    @PostMapping(path = "deleteReview")
+    public String deleteReview(@RequestBody DeleteCommentRequest deleteCommentRequest) {
+        return reviewService.deleteReview(deleteCommentRequest);
     }
 
     @PostMapping(path = "showcomment")

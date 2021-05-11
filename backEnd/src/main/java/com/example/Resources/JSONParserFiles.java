@@ -1,4 +1,4 @@
-package com.example.Resources;
+package com.example.resources;
 
 import com.example.models.BureaucraticProcess;
 import com.example.models.Department;
@@ -75,6 +75,7 @@ public class JSONParserFiles {
                 if (departmentRepository.findByName(department.getName()).orElse(null) == null) {
                     departmentRepository.save(department);
                 }
+                System.out.println(department.getName());
                 j++;
             }
             i++;
