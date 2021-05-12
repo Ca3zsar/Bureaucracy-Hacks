@@ -3,12 +3,15 @@ package com.example.services;
 
 import com.example.models.Institution;
 import com.example.repositories.InstitutionsRepository;
+import com.example.utils.Pair;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.sun.corba.se.impl.encoding.CDROutputObject;
-import javafx.util.Pair;
+
+//import jdk.internal.util.xml.impl.Pair;
+//import javafx.util.Pair;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -25,7 +28,6 @@ public class RouteGenerator {
 
     public static boolean hasCopies(String content) {
         String[] tokens = new String[]{"copie", "copii", "xerox", "duplicat"};
-
         for (String token : tokens) {
             if (content.contains(token)) {
                 return true;
@@ -84,7 +86,6 @@ public class RouteGenerator {
         String result = restTemplate.getForObject(uri, String.class);
 
         return result;
-
     }
 
     public String generateRoute(double latitude, double longitude, int institutionId, String necessary) {
@@ -101,8 +102,6 @@ public class RouteGenerator {
                         .collect(Collectors.toList());
                 locations.addAll(copyCenters);
             }
-
-
 
             List<Pair<Double, Double>> coordinates = getPath(latitude, longitude, locations);
             coordinates.add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
@@ -128,57 +127,12 @@ public class RouteGenerator {
         }
     }
 
-    /*
-    {
-    "formatVersion": "0.0.12",
-    "routes": [
-        {
-            "summary": {
-                "lengthInMeters": 25,
-                "travelTimeInSeconds": 5,
-                "trafficDelayInSeconds": 0,
-                "trafficLengthInMeters": 0,
-                "departureTime": "2021-05-12T15:47:10+03:00",
-                "arrivalTime": "2021-05-12T15:47:14+03:00"
-            },
-            "legs": [
-                {
-                    "summary": {
-                        "lengthInMeters": 25,
-                        "travelTimeInSeconds": 5,
-                        "trafficDelayInSeconds": 0,
-                        "trafficLengthInMeters": 0,
-                        "departureTime": "2021-05-12T15:47:10+03:00",
-                        "arrivalTime": "2021-05-12T15:47:14+03:00"
-                    },
-                    "points": [
-                        {
-                            "latitude": 27.57823,
-                            "longitude": 47.14596
-                        },
-                        {
-                            "latitude": 27.57803,
-                            "longitude": 47.14606
-                        }
-                    ]
-                }
-            ],
-            "sections": [
-                {
-                    "startPointIndex": 0,
-                    "endPointIndex": 1,
-                    "sectionType": "TRAVEL_MODE",
-                    "travelMode": "car"
-                }
-            ]
-        }
-    ]
-}
-     */
+
     private void addLines(List<Pair<Double, Double>> coordinates, JsonArray array) {
         int distance = 0;
-        JsonObject output = new JsonObject();
+        JsonObject output = null ;
         for (int index = 0; index < coordinates.size() - 1; index++) {
+            output = new JsonObject();
             Pair<Double, Double> firstCoords = coordinates.get(index);
             Pair<Double, Double> secondCoords = coordinates.get(index + 1);
 
@@ -233,11 +187,10 @@ public class RouteGenerator {
             output.add("properties", properties);
 
 
-
             array.add(output);
 
         }
-        output.addProperty("distanceInMeters", distance);
+       output.addProperty("distanceInMeters", distance);
     }
 
     private void addPoints(List<Pair<Double, Double>> coordinates, JsonArray array) {
@@ -279,6 +232,7 @@ public class RouteGenerator {
                 list.remove(theNearestInstitution);
             }
         }
+//        System.out.println(output);
 
         return output;
     }

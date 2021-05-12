@@ -28,7 +28,6 @@ public class RouteGeneratorController {
         int institutionId = object.get("institution").getAsInt();
         String necessary = fromJsonArrayToString((JsonArray) object.get("necessary"));
 
-
         return routeGenerator.generateRoute(latitude, longitude, institutionId, necessary);
     }
 
