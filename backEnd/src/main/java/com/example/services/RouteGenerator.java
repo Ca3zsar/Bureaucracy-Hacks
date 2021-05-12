@@ -3,18 +3,27 @@ package com.example.services;
 
 import com.example.models.Institution;
 import com.example.repositories.InstitutionsRepository;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.sun.corba.se.impl.encoding.CDROutputObject;
+import javafx.util.Pair;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
 public class RouteGenerator {
     private InstitutionsRepository institutionsRepository;
 
-    public static boolean hasCopy(String content) {
+    public static boolean hasCopies(String content) {
         String[] tokens = new String[]{"copie", "copii", "xerox", "duplicat"};
 
         for (String token : tokens) {
@@ -65,6 +74,213 @@ public class RouteGenerator {
 
     public Optional<Institution> getInstById(int id) {
         return institutionsRepository.findById(id);
+    }
+
+
+    public String getUrlResult(Pair<Double, Double> firstCoordinates, Pair<Double, Double> secondCoordinates){
+        final String uri = "https://api.tomtom.com/routing/1/calculateRoute/" + firstCoordinates.getValue()  + "," + firstCoordinates.getKey() + ":" + secondCoordinates.getValue() + "," +  secondCoordinates.getKey() + "/json?key=hiof03pLAbXPAybwmlz24906Jp4J644A";
+
+        RestTemplate restTemplate = new RestTemplate();
+        String result = restTemplate.getForObject(uri, String.class);
+
+        return result;
+
+    }
+
+    public String generateRoute(double latitude, double longitude, int institutionId, String necessary) {
+        Optional<Institution> mainInstitution = institutionsRepository.findById(institutionId);
+
+        List<Institution> locations = new ArrayList<>();
+        if (mainInstitution.isPresent()) {
+//            locations.add(mainInstitution.get());
+
+            if (hasCopies(necessary)) {
+                List<Institution> copyCenters = institutionsRepository.getInstitutionsList()
+                        .stream()
+                        .filter( institution -> institution.getType().equals("xerox"))
+                        .collect(Collectors.toList());
+                locations.addAll(copyCenters);
+            }
+
+
+
+            List<Pair<Double, Double>> coordinates = getPath(latitude, longitude, locations);
+            coordinates.add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
+
+            JsonObject jsonObject = new JsonObject();
+            jsonObject.addProperty("type", "FeatureCollection");
+
+
+            JsonArray jsonArray = new JsonArray();
+            //adding waypoints
+            addPoints(coordinates, jsonArray);
+
+            //adding lines
+            addLines(coordinates, jsonArray);
+
+            jsonObject.add("features", jsonArray);
+
+
+            return jsonObject.toString();
+        }
+        else {
+            throw new IllegalStateException(/*"{\"message\" : \"*/"Invalid institution id.");
+        }
+    }
+
+    /*
+    {
+    "formatVersion": "0.0.12",
+    "routes": [
+        {
+            "summary": {
+                "lengthInMeters": 25,
+                "travelTimeInSeconds": 5,
+                "trafficDelayInSeconds": 0,
+                "trafficLengthInMeters": 0,
+                "departureTime": "2021-05-12T15:47:10+03:00",
+                "arrivalTime": "2021-05-12T15:47:14+03:00"
+            },
+            "legs": [
+                {
+                    "summary": {
+                        "lengthInMeters": 25,
+                        "travelTimeInSeconds": 5,
+                        "trafficDelayInSeconds": 0,
+                        "trafficLengthInMeters": 0,
+                        "departureTime": "2021-05-12T15:47:10+03:00",
+                        "arrivalTime": "2021-05-12T15:47:14+03:00"
+                    },
+                    "points": [
+                        {
+                            "latitude": 27.57823,
+                            "longitude": 47.14596
+                        },
+                        {
+                            "latitude": 27.57803,
+                            "longitude": 47.14606
+                        }
+                    ]
+                }
+            ],
+            "sections": [
+                {
+                    "startPointIndex": 0,
+                    "endPointIndex": 1,
+                    "sectionType": "TRAVEL_MODE",
+                    "travelMode": "car"
+                }
+            ]
+        }
+    ]
+}
+     */
+    private void addLines(List<Pair<Double, Double>> coordinates, JsonArray array) {
+        int distance = 0;
+        JsonObject output = new JsonObject();
+        for (int index = 0; index < coordinates.size() - 1; index++) {
+            Pair<Double, Double> firstCoords = coordinates.get(index);
+            Pair<Double, Double> secondCoords = coordinates.get(index + 1);
+
+            String TomTomResponse = getUrlResult(firstCoords, secondCoords);
+
+            JsonObject response =  new JsonParser().parse(TomTomResponse).getAsJsonObject();
+
+
+            JsonArray routes = response.getAsJsonArray("routes");
+
+
+
+            output.addProperty("type", "Feature");
+
+            JsonObject geometry = new JsonObject();
+            geometry.addProperty("type", "LineString");
+
+
+            JsonArray coords = new JsonArray();
+
+            JsonObject route = routes.get(0).getAsJsonObject();
+
+            JsonObject summary = route.get("summary").getAsJsonObject();
+            int currentDistance = summary.get("lengthInMeters").getAsInt();
+            distance += currentDistance;
+
+            JsonArray legs = route.get("legs").getAsJsonArray();
+            JsonObject leg = legs.get(0).getAsJsonObject();
+
+            JsonArray points = leg.get("points").getAsJsonArray();
+
+
+            /// WARNING latitude logitude
+            for (int i = 0; i < points.size(); i++) {
+                JsonObject point = points.get(i).getAsJsonObject();
+                double longitude = point.get("latitude").getAsDouble();
+                double latitude = point.get("longitude").getAsDouble();
+                JsonArray coord = new JsonArray();
+                coord.add(latitude);
+                coord.add(longitude);
+                coords.add(coord);
+            }
+
+            geometry.add("coordinates", coords);
+
+            output.add("geometry", geometry);
+
+            JsonObject properties = new JsonObject();
+            properties.addProperty("prop0", "value0");
+            properties.addProperty("prop1", "value1");
+
+            output.add("properties", properties);
+
+
+
+            array.add(output);
+
+        }
+        output.addProperty("distanceInMeters", distance);
+    }
+
+    private void addPoints(List<Pair<Double, Double>> coordinates, JsonArray array) {
+        for (Pair<Double, Double> point : coordinates) {
+            JsonObject mainObject = new JsonObject();
+            mainObject.addProperty("type", "Feature");
+            mainObject.add("properties", new JsonObject());
+
+            JsonObject geometry = new JsonObject();
+            geometry.addProperty("type", "Point");
+
+            JsonArray coords = new JsonArray();
+            coords.add(point.getKey());
+            coords.add(point.getValue());
+
+            geometry.add("coordinates", coords);
+
+            mainObject.add("geometry", geometry);
+
+            array.add(mainObject);
+        }
+    }
+
+    private List<Pair<Double, Double>> getPath(double latitude, double longitude, List<Institution> list) {
+        List<Pair<Double, Double>> output = new ArrayList<>();
+        output.add(new Pair<>(latitude, longitude));
+
+        while (!list.isEmpty()) {
+            Institution theNearestInstitution = getNearestLocation(latitude, longitude, list);
+
+            if (!theNearestInstitution.getType().equals("institution")) {
+                output.add(new Pair<>(theNearestInstitution.getLatitude(), theNearestInstitution.getLongitude()));
+                list = list
+                        .stream()
+                        .filter(institution -> !institution.getType().equals(theNearestInstitution.getType()))
+                        .collect(Collectors.toList());
+            } else {
+                output.add(new Pair<>(theNearestInstitution.getLatitude(), theNearestInstitution.getLongitude()));
+                list.remove(theNearestInstitution);
+            }
+        }
+
+        return output;
     }
 
 

@@ -47,8 +47,10 @@ public class Institution {
     @Column(name = "programs", columnDefinition="json")
     @Type(type = "json")
     private String programs;
+    @Column(name = "type")
+    private String type;
 
-    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, List<User> users, String programs) {
+    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, List<User> users, String programs, String type) {
         this.name = name;
         this.site = site;
         this.address = address;
@@ -58,9 +60,10 @@ public class Institution {
         this.longitude = longitude;
         this.users = users;
         this.programs = programs;
+        this.type = type;
     }
 
-    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, String programs) {
+    public Institution(String name, String site, String address, String phone, String email, Double latitude, Double longitude, String programs, String type) {
         this.name = name;
         this.site = site;
         this.address = address;
@@ -69,6 +72,7 @@ public class Institution {
         this.latitude = latitude;
         this.longitude = longitude;
         this.programs = programs;
+        this.type = type;
     }
 
     @Override
