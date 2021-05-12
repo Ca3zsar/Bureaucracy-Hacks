@@ -54,4 +54,10 @@
         android:label="register"
         tools:layout="@layout/fragment_register" />
 
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.navbar.ui.generareMap.MapFragmentTraseu"
+        android:label="map"
+        tools:layout="@layout/map_fragment_traseu_fragment" />
+
 </navigation>

@@ -1,15 +1,20 @@
 package com.example.navbar.ui.generareMap
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import androidx.lifecycle.Observer
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.BuildConfig
 import com.example.navbar.R
+import com.example.navbar.ui.generareMap.mapModel.mapResponse
+import com.example.navbar.ui.generareMap.mapRepository.mpRepository
 import com.example.navbar.ui.generareTraseu.genTraseuFragment
 import com.tomtom.online.sdk.common.location.LatLng
 import com.tomtom.online.sdk.map.*
@@ -30,25 +35,49 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
         fun newInstance() = MapFragmentTraseu()
     }
 
-    private lateinit var viewModel: MapFragmentTraseuViewModel
+    private lateinit var mapViewModel: MapFragmentTraseuViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.map_fragment_traseu_fragment, container, false)
+        val mapRepository = mpRepository()
+        val viewModelFactory = MapFragmentViewModelFactory(mapRepository)
+        mapViewModel = ViewModelProvider(this, viewModelFactory).get(MapFragmentTraseuViewModel::class.java)
 
+        val root = inflater.inflate(R.layout.map_fragment_traseu_fragment, container, false)
+        val textView: TextView = root.findViewById(R.id.text_map)
+        mapViewModel.text.observe(viewLifecycleOwner, Observer {
+            textView.text = it
+        })
+        return root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MapFragmentTraseuViewModel::class.java)
+        mapViewModel = ViewModelProvider(this).get(MapFragmentTraseuViewModel::class.java)
 
         val mapFragment = childFragmentManager.findFragmentById(R.id.mapFragment) as MapFragment?
         mapFragment?.getAsyncMap(this)
 
     }
     override fun onMapReady(tomtomMap: TomtomMap) {
+        val textView = view?.findViewById<TextView>(R.id.text_map)
+        val test1 = listOf("AUS", "CHE")
+        val test2 = listOf(42)
+
+        val myPost = mapResponse(test1, 27.571628, 47.176110, test2)
+        mapViewModel.pushPost(myPost)
+        mapViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
+            if (response.isSuccessful) {
+                Log.d("Response", response.code().toString())
+                Log.d("yey", response.body().toString())
+                Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
+            } else {
+                Log.d("test", myPost.toString())
+                Log.d("Error", response.errorBody().toString())
+            }
+        })
 
         tomtomMap.isMyLocationEnabled = true
         val location = tomtomMap.userLocation

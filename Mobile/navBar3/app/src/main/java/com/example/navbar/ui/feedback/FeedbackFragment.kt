@@ -1,20 +1,15 @@
 package com.example.navbar.ui.feedback
 
 import android.os.Bundle
-import android.text.TextUtils
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.R
-import com.example.navbar.ui.feedback.FeedbackViewModel
-import com.example.navbar.ui.feedback.feedbackModel.feedbackPost
 import com.example.navbar.ui.feedback.feedbackRepository.fdbRepository
-import com.example.navbar.ui.home.HomeFragment
 
 
 class FeedbackFragment : Fragment() {

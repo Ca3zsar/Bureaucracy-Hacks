@@ -3,11 +3,26 @@ package com.example.navbar.ui.generareMap
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.tomtom.online.sdk.common.location.LatLng
+import androidx.lifecycle.viewModelScope
+import com.example.navbar.ui.generareMap.mapModel.mapPost
+import com.example.navbar.ui.generareMap.mapModel.mapResponse
+import com.example.navbar.ui.generareMap.mapRepository.mpRepository
+import kotlinx.coroutines.launch
+import retrofit2.Response
 
-class MapFragmentTraseuViewModel : ViewModel() {
+class MapFragmentTraseuViewModel(private val mapRepository: mpRepository) : ViewModel() {
+
     private val _text = MutableLiveData<String>().apply {
-        value = "This is map fragment"
+        value = "This is map Fragment"
     }
     val text: LiveData<String> = _text
+
+    val myResponse: MutableLiveData<Response<mapPost>> = MutableLiveData()
+
+    fun pushPost(post : mapResponse) {
+        viewModelScope.launch {
+            val response = mapRepository.pushPost(post)
+            myResponse.value = response;
+        }
+    }
 }
