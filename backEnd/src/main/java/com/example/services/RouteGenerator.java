@@ -2,7 +2,9 @@ package com.example.services;
 
 
 import com.example.models.Institution;
+import com.example.models.Office;
 import com.example.repositories.InstitutionsRepository;
+import com.example.repositories.OfficeRepository;
 import com.example.utils.Pair;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -24,7 +26,9 @@ import java.util.stream.Collectors;
 @Service
 @AllArgsConstructor
 public class RouteGenerator {
+
     private InstitutionsRepository institutionsRepository;
+    private OfficeRepository officeRepository;
 
     public static boolean hasCopies(String content) {
         String[] tokens = new String[]{"copie", "copii", "xerox", "duplicat"};
@@ -68,16 +72,28 @@ public class RouteGenerator {
         }
         return output;
     }
-
-
-    public Optional<Institution> getInstByName(String name) {
-        return institutionsRepository.findByName(name);
+    public static Office getNearestLocationToOffices(double lat, double lng, List<Office> institutionList) {
+        double minimumDistance = 100_000;
+        Office output = null;
+        for (Office office : institutionList) {
+            double distance = getDistance(lat,lng, office.getLatitude(), office.getLongitude()) ;
+            if ( distance < minimumDistance ) {
+                minimumDistance = distance;
+                output = office;
+            }
+        }
+        return output;
     }
 
-    public Optional<Institution> getInstById(int id) {
-        return institutionsRepository.findById(id);
-    }
 
+//
+//    public Optional<Institution> getInstByName(String name) {
+//        return institutionsRepository.findByName(name);
+//    }
+//
+//    public Optional<Institution> getInstById(int id) {
+//        return institutionsRepository.findById(id);
+//    }
 
     public String getUrlResult(Pair<Double, Double> firstCoordinates, Pair<Double, Double> secondCoordinates){
         final String uri = "https://api.tomtom.com/routing/1/calculateRoute/" + firstCoordinates.getValue()  + "," + firstCoordinates.getKey() + ":" + secondCoordinates.getValue() + "," +  secondCoordinates.getKey() + "/json?key=hiof03pLAbXPAybwmlz24906Jp4J644A";
@@ -104,7 +120,22 @@ public class RouteGenerator {
             }
 
             List<Pair<Double, Double>> coordinates = getPath(latitude, longitude, locations);
-            coordinates.add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
+            List<Office> offices =  new ArrayList<>();
+            List<Office> officeList = officeRepository.getOfficeList().stream()
+                    .filter(office ->office.getInstitution().equals(mainInstitution.get().getName())).collect(Collectors.toList());
+            offices.addAll(officeList);
+
+            if(offices.size() > 0)
+            {
+               Pair<Double, Double> lastCoordinates = coordinates.get(coordinates.size()-1);
+               Office lastInstitution = getNearestLocationToOffices(lastCoordinates.getValue(), lastCoordinates.getValue(),offices);
+               coordinates.add(new Pair<>(lastInstitution.getLatitude() , lastInstitution.getLongitude()));
+            }
+            else
+            {
+                coordinates.add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
+            }
+
 
             JsonObject jsonObject = new JsonObject();
             jsonObject.addProperty("type", "FeatureCollection");
