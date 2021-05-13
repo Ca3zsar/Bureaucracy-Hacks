@@ -22,5 +22,5 @@ public class Anexa {
     private String fileName;
 
     @Column(name = "file_link")
-    private String file_link;
+    private String fileLink;
 }

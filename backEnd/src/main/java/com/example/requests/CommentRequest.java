@@ -15,5 +15,6 @@ public class CommentRequest {
     private Integer q2;
     private String q3;
     private Integer q4;
+    private String day;
 //    private int idRepliedComment;
 }

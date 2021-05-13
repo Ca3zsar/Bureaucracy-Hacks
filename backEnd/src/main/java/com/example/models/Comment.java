@@ -35,4 +35,6 @@ public class Comment {
     private Integer q4;
     @Column(name="show")
     private Boolean show;
+    @Column(name="day")
+    private String day;
 }

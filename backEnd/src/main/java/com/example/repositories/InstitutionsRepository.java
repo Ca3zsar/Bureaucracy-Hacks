@@ -17,7 +17,7 @@ public interface InstitutionsRepository extends JpaRepository<Institution, Integ
 
     Optional<Institution> findById(Integer id);
 
-    @Query("Select i from Institution i")
+    @Query("Select i from Institution i where i.type = 'institution'")
     List<Institution> getInstitutionsList();
 
     @Query("Select i.programs from Institution i where upper(i.name) = upper(?1)")
@@ -35,4 +35,9 @@ public interface InstitutionsRepository extends JpaRepository<Institution, Integ
     @Query("UPDATE Institution i " + "SET i.name = ?1, i.phone=?2,i.email=?3, i.site=?5, i.address=?6 " + "WHERE i.id = ?4")
     void updateInstitution(String name, String phone, String email, Integer id, String url, String address);
 
+    @Transactional
+    @Modifying(flushAutomatically = true)
+//    @Query("UPDATE Institution i " + "SET i.name = ?1, i.phone=?2,i.email=?3, i.site=?5, i.address=?6 " + "WHERE i.name = ?4")
+    @Query("UPDATE Institution i " + "SET i.programs = ?1 " + "WHERE i.id = ?2")
+    void updateInstitutionProgram(String programs, Integer id);
 }

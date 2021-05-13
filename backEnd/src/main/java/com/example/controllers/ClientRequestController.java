@@ -61,6 +61,7 @@ public class ClientRequestController {
                 jsonObject.put("comment", comment.getComment());
                 jsonObject.put("username", comment.getUser().getUsername());
                 jsonObject.put("show", comment.getShow());
+                jsonObject.put("day", comment.getDay());
                 jsonArray.put(jsonObject);
         }
         response.put("process", searchTerm);

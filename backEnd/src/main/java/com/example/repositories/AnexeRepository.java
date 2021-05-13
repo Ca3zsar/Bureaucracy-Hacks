@@ -11,6 +11,6 @@ import java.util.List;
 @Repository
 public interface AnexeRepository extends JpaRepository<Anexa, Integer> {
 
-    @Query("Select f.file_link from Anexa f where f.fileName = ?1")
+    @Query("Select f.fileLink from Anexa f where f.fileName = ?1")
     String getFileLink(String fileName);
 }

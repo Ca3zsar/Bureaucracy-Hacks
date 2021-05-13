@@ -88,6 +88,7 @@ public class AdminController {
     @PostMapping(path = "updateprograms")
     public String updatePrograms(@RequestBody String updateProgramRequest) {
         JSONObject jsonObject = JSONObject.fromObject(updateProgramRequest);
+        institutionsRepository.updateInstitutionProgram(jsonObject.getJSONObject("orar").getJSONArray("programe").toString(), institutionsRepository.findByName(jsonObject.getJSONObject("orar").getString("institutie")).get().getId());
         return jsonParserFiles.updateProgram(jsonObject.getJSONObject("orar").getJSONArray("programe").toString());
     }
 
@@ -96,7 +97,7 @@ public class AdminController {
         JSONObject jsonObject = JSONObject.fromObject(institution);
         JSONObject jo = new JSONObject();
         JSONObject jo2 = new JSONObject();
-        jo2.put("institutie", institution);
+        jo2.put("institutie", jsonObject.getString("institution"));
         jo2.put("programe", institutionsRepository.getPrograms(jsonObject.getString("institution")));
         jo.put("orar", jo2);
         if (institutionsRepository.findByName(jsonObject.getString("institution")).isPresent()) {
@@ -145,6 +146,7 @@ public class AdminController {
         if (!userRepository.findByEmail(addAdminRequest.getEmail()).isPresent())
             throw new IllegalStateException("User not found");
 
+        userService.makeAdmin(addAdminRequest.getEmail());
         userService.makeInstitutionAdmin(addAdminRequest.getInstitution(), userService.getUserInfo(addAdminRequest.getEmail()).getRegistrationId());
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("message", "User altered with success.");
