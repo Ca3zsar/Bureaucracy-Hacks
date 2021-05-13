@@ -33,13 +33,13 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
     private val routingApi = this.context?.let { OnlineRoutingApi.create(it, BuildConfig.ROUTING_API_KEY) }
     val trafficApi = context?.let { OnlineTrafficApi.create(it, BuildConfig.ROUTING_API_KEY) }
     private lateinit var map: TomtomMap
-    private lateinit var waypoints : List<LatLng>
     private var route: Route? = null
     private var departurePosition: LatLng? = null
     private val PERMISSION_REQUEST_LOCATION = 0
     private lateinit var locationSource: LocationSource
     private var latLngCurrentPosition: LatLng? = null
     private val mLocationManager: LocationManager? = null
+    private var waypoints : MutableList<LatLng> = mutableListOf()
 
     companion object {
         fun newInstance() = MapFragmentTraseu()
@@ -92,77 +92,92 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
         map.isMyLocationEnabled = true
         val location = map.userLocation
 
-        
-
         if (map.userLocation != null) {
             //val currentLatitude = map.userLocation!!.latitude
             //val currentLongitude = map.userLocation!!.longitude
             //val currentLocation = LatLng(currentLatitude, currentLongitude)
             Log.d("Response", LatLng(map.userLocation!!.latitude, map.userLocation!!.longitude).toString())
             //tomtomMap.centerOn(CameraPosition.builder().focusPosition(currentLocation).zoom(15.0).build())
-        }
-        else{
-            Log.d("caca", location.toString())
+        } else {
+            //Log.d("caca", location.toString())
         }
 
-        /*val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;", "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;", "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);", "copie act de identitate reprezentant legal;", "alte acte doveditoare, dupa caz:", "copie autentificata statut;", "proces verbal de constituire;", "acord de asociere; ", "hotarire judecatoreasca de infiintare;", "dovada spatiu;", "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
+        val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;", "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;", "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);", "copie act de identitate reprezentant legal;", "alte acte doveditoare, dupa caz:", "copie autentificata statut;", "proces verbal de constituire;", "acord de asociere; ", "hotarire judecatoreasca de infiintare;", "dovada spatiu;", "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
 
         val myPost = mapRequest("27.55111602208522", "47.14482900924825", "42", test1)
         mapViewModel.pushPost(myPost)
         mapViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
             if (response.isSuccessful) {
                 Log.d("Response", response.code().toString())
-                Log.d("yey", response.body().toString())
-                Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
+                //Log.d("yey", response.body().toString())
+                //Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
+
+                var features: Map<String, Any> = response.body()?.features?.get(2) as Map<String, Any>
+                //Log.d("asd", mapaCoordonate.toString())
+
+                val geometry: Map<String, Any> = features.getValue("geometry") as Map<String, Any>
+                val coordinates: List<Any> = geometry.getValue("coordinates") as List<Any>
+                for (i in coordinates.indices) {
+                    //Log.d("asd", coordinates[i].toString())
+                    val pair: List<Double> = coordinates[i] as List<Double>
+                    //Log.d("asd", pair[0].toString())
+
+                    waypoints.add(LatLng(pair[1], pair[0]))
+
+                    val iasi = LatLng(47.17, 27.57)
+                    val iasi2 = LatLng(47.17, 27.58)
+                    val balloon = SimpleMarkerBalloon("Iasi")
+                    tomtomMap.centerOn(CameraPosition.builder().focusPosition(iasi).zoom(15.0).build())
+
+                    val routingApi = this.context?.let { it1 -> OnlineRoutingApi.create(it1, BuildConfig.ROUTING_API_KEY) }
+                    val routeDescriptor = RouteDescriptor.Builder()
+                            .routeType(com.tomtom.online.sdk.routing.route.description.RouteType.FASTEST)
+                            .build()
+                    Log.d("milsugi", waypoints.toString())
+                    val routeCalculationDescriptor = RouteCalculationDescriptor.Builder()
+                            .routeDescription(routeDescriptor)
+                            .waypoints(waypoints)
+                            .build()
+                    val routeSpecification = RouteSpecification.Builder(iasi, iasi2)
+                            .routeCalculationDescriptor(routeCalculationDescriptor)
+                            .build()
+                    if (routingApi != null) {
+                        routingApi.planRoute(routeSpecification, object : RouteCallback {
+                            override fun onError(error: RoutingException) {
+                                Toast.makeText(context, error.localizedMessage, Toast.LENGTH_LONG).show()
+                            }
+
+                            override fun onSuccess(routePlan: RoutePlan) {
+                                for (fullRoute in routePlan.routes) {
+                                    val routeBuilder = RouteBuilder(
+                                            fullRoute.getCoordinates())
+                                            .endIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_destination) })
+                                            .startIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_departure) })
+                                    map.addRoute(routeBuilder)
+                                }
+                            }
+                        })
+                    }
+                    tomtomMap.set2DMode()
+                    val button = view?.findViewById<Button>(R.id.button_back)
+                    if (button != null) {
+                        button.setOnClickListener {
+                            val nextFrag = genTraseuFragment()
+                            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
+                        }
+                    }
+                }
+
+
             } else {
                 Log.d("test", myPost.toString())
                 Log.d("Error", response.errorBody().toString())
             }
-        })*/
+        })
 
         /*map.trafficSettings.turnOnTrafficIncidents()
         map.trafficSettings.turnOnTrafficFlowTiles()
         map.trafficSettings.turnOffTrafficIncidents()
         map.trafficSettings.turnOffTrafficFlowTiles()*/
-
-        val iasi = LatLng(47.17, 27.57)
-        val iasi2 = LatLng(47.17, 27.58)
-        val balloon = SimpleMarkerBalloon("Iasi")
-        tomtomMap.centerOn(CameraPosition.builder().focusPosition(iasi).zoom(15.0).build())
-
-        val routingApi = this.context?.let { it1 -> OnlineRoutingApi.create(it1, BuildConfig.ROUTING_API_KEY) }
-        val routeDescriptor = RouteDescriptor.Builder()
-            .routeType(com.tomtom.online.sdk.routing.route.description.RouteType.FASTEST)
-            .build()
-        val routeCalculationDescriptor = RouteCalculationDescriptor.Builder()
-            .routeDescription(routeDescriptor).build()
-        val routeSpecification = RouteSpecification.Builder(iasi, iasi2)
-            .routeCalculationDescriptor(routeCalculationDescriptor)
-            .build()
-        if (routingApi != null) {
-            routingApi.planRoute(routeSpecification, object : RouteCallback {
-                override fun onError(error: RoutingException) {
-                    Toast.makeText(context, error.localizedMessage, Toast.LENGTH_LONG).show()
-                }
-
-                override fun onSuccess(routePlan: RoutePlan) {
-                    for (fullRoute in routePlan.routes) {
-                        val routeBuilder = RouteBuilder(
-                            fullRoute.getCoordinates())
-                            .endIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_destination) })
-                            .startIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_departure) })
-                        map.addRoute(routeBuilder)
-                    }
-                }
-            })
-        }
-        tomtomMap.set2DMode()
-        val button = view?.findViewById<Button>(R.id.button_back)
-        if (button != null) {
-            button.setOnClickListener {
-                val nextFrag = genTraseuFragment()
-                activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
-            }
-        }
     }
 }
