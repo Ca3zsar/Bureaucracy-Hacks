@@ -86,14 +86,6 @@ public class RouteGenerator {
     }
 
 
-//
-//    public Optional<Institution> getInstByName(String name) {
-//        return institutionsRepository.findByName(name);
-//    }
-//
-//    public Optional<Institution> getInstById(int id) {
-//        return institutionsRepository.findById(id);
-//    }
 
     public String getUrlResult(Pair<Double, Double> firstCoordinates, Pair<Double, Double> secondCoordinates){
         final String uri = "https://api.tomtom.com/routing/1/calculateRoute/" + firstCoordinates.getValue()  + "," + firstCoordinates.getKey() + ":" + secondCoordinates.getValue() + "," +  secondCoordinates.getKey() + "/json?key=hiof03pLAbXPAybwmlz24906Jp4J644A";
@@ -139,7 +131,6 @@ public class RouteGenerator {
 
             JsonObject jsonObject = new JsonObject();
             jsonObject.addProperty("type", "FeatureCollection");
-
 
             JsonArray jsonArray = new JsonArray();
             //adding waypoints
@@ -225,10 +216,21 @@ public class RouteGenerator {
     }
 
     private void addPoints(List<Pair<Double, Double>> coordinates, JsonArray array) {
+
         for (Pair<Double, Double> point : coordinates) {
+
+            JsonObject properties = new JsonObject();
+
+            if (point.equals(coordinates.get(coordinates.size()-1)))
+            {
+                properties.addProperty("marker-color", "#ff1414");
+                properties.addProperty("marker-size", "large");
+                properties.addProperty("marker-symbol" ,"");
+            }
             JsonObject mainObject = new JsonObject();
             mainObject.addProperty("type", "Feature");
-            mainObject.add("properties", new JsonObject());
+            mainObject.add("properties", properties);
+
 
             JsonObject geometry = new JsonObject();
             geometry.addProperty("type", "Point");
@@ -263,7 +265,7 @@ public class RouteGenerator {
                 list.remove(theNearestInstitution);
             }
         }
-//        System.out.println(output);
+        System.out.println(output);
 
         return output;
     }
