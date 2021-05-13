@@ -1,5 +1,7 @@
 package com.example.navbar.ui.generareMap
 
+import android.location.Location
+import android.location.LocationManager
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -13,10 +15,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.BuildConfig
 import com.example.navbar.R
-import com.example.navbar.ui.generareMap.mapModel.mapResponse
+import com.example.navbar.ui.generareMap.mapModel.mapRequest
 import com.example.navbar.ui.generareMap.mapRepository.mpRepository
 import com.example.navbar.ui.generareTraseu.genTraseuFragment
+import com.google.android.gms.location.LocationListener
 import com.tomtom.online.sdk.common.location.LatLng
+import com.tomtom.online.sdk.location.LocationSource
 import com.tomtom.online.sdk.map.*
 import com.tomtom.online.sdk.routing.OnlineRoutingApi
 import com.tomtom.online.sdk.routing.RoutingException
@@ -29,7 +33,13 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
     private val routingApi = this.context?.let { OnlineRoutingApi.create(it, BuildConfig.ROUTING_API_KEY) }
     val trafficApi = context?.let { OnlineTrafficApi.create(it, BuildConfig.ROUTING_API_KEY) }
     private lateinit var map: TomtomMap
+    private lateinit var waypoints : List<LatLng>
     private var route: Route? = null
+    private var departurePosition: LatLng? = null
+    private val PERMISSION_REQUEST_LOCATION = 0
+    private lateinit var locationSource: LocationSource
+    private var latLngCurrentPosition: LatLng? = null
+    private val mLocationManager: LocationManager? = null
 
     companion object {
         fun newInstance() = MapFragmentTraseu()
@@ -61,12 +71,43 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
         mapFragment?.getAsyncMap(this)
 
     }
+
+    /*inner class MylocationListener() : LocationListener {
+        init {
+            location= Location("me")
+            location!!.longitude
+            location!!.latitude
+        }
+
+        override fun onLocationChanged(location1: Location?) {
+            location=location1
+        }
+
+    }*/
+
     override fun onMapReady(tomtomMap: TomtomMap) {
         val textView = view?.findViewById<TextView>(R.id.text_map)
-        val test1 = listOf("AUS", "CHE")
-        val test2 = listOf(42)
+        map = tomtomMap
 
-        val myPost = mapResponse(test1, 27.571628, 47.176110, test2)
+        map.isMyLocationEnabled = true
+        val location = map.userLocation
+
+        
+
+        if (map.userLocation != null) {
+            //val currentLatitude = map.userLocation!!.latitude
+            //val currentLongitude = map.userLocation!!.longitude
+            //val currentLocation = LatLng(currentLatitude, currentLongitude)
+            Log.d("Response", LatLng(map.userLocation!!.latitude, map.userLocation!!.longitude).toString())
+            //tomtomMap.centerOn(CameraPosition.builder().focusPosition(currentLocation).zoom(15.0).build())
+        }
+        else{
+            Log.d("caca", location.toString())
+        }
+
+        /*val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;", "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;", "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);", "copie act de identitate reprezentant legal;", "alte acte doveditoare, dupa caz:", "copie autentificata statut;", "proces verbal de constituire;", "acord de asociere; ", "hotarire judecatoreasca de infiintare;", "dovada spatiu;", "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
+
+        val myPost = mapRequest("27.55111602208522", "47.14482900924825", "42", test1)
         mapViewModel.pushPost(myPost)
         mapViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
             if (response.isSuccessful) {
@@ -77,16 +118,12 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
                 Log.d("test", myPost.toString())
                 Log.d("Error", response.errorBody().toString())
             }
-        })
+        })*/
 
-        tomtomMap.isMyLocationEnabled = true
-        val location = tomtomMap.userLocation
-
-        map = tomtomMap
-        map.trafficSettings.turnOnTrafficIncidents()
+        /*map.trafficSettings.turnOnTrafficIncidents()
         map.trafficSettings.turnOnTrafficFlowTiles()
         map.trafficSettings.turnOffTrafficIncidents()
-        map.trafficSettings.turnOffTrafficFlowTiles()
+        map.trafficSettings.turnOffTrafficFlowTiles()*/
 
         val iasi = LatLng(47.17, 27.57)
         val iasi2 = LatLng(47.17, 27.58)
@@ -114,7 +151,7 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
                             fullRoute.getCoordinates())
                             .endIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_destination) })
                             .startIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_departure) })
-                        map?.addRoute(routeBuilder)
+                        map.addRoute(routeBuilder)
                     }
                 }
             })
