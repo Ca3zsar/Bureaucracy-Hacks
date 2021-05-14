@@ -39,9 +39,9 @@ class ANAF: AppCompatActivity() {
                 val departamente : TextView = findViewById(R.id.departamente)
                 departamente.setText(R.string.departamente_institutii)
 
-                val array : List<Map<String, String>>? = response.body()?.departments
+                val departments : List<Map<String, String>>? = response.body()?.departments
 
-                if (array != null) {
+                /*if (array != null) {
                     for (i in array.indices) {
                         departamente.append("\u25CF " + array[i].getValue("name") + "\n")
                         if (array[i].containsKey("program")) {
@@ -53,6 +53,19 @@ class ANAF: AppCompatActivity() {
                         } else {
                             departamente.append("\n")
                         }
+                    }
+                }*/
+
+                if (departments != null) {
+                    for (i in departments.indices) {
+                        val name = departments[i].getValue("name")
+                        departamente.append("\u25CF $name\n")
+                        val program = departments[i].getValue("program")
+                        if (program == "{}") {
+                            departamente.append("\u25BA Program: indisponibil" + "\n\n")
+                        } /*else {
+                            val mapa : Map<String, Map<String, String>> = program as Map<String, Map<String, String>>
+                        }*/
                     }
                 }
 

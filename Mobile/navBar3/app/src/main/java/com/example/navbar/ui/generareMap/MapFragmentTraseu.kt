@@ -1,24 +1,22 @@
 package com.example.navbar.ui.generareMap
 
-import android.location.Location
 import android.location.LocationManager
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
-import androidx.lifecycle.Observer
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.navbar.BuildConfig
 import com.example.navbar.R
 import com.example.navbar.ui.generareMap.mapModel.mapRequest
 import com.example.navbar.ui.generareMap.mapRepository.mpRepository
 import com.example.navbar.ui.generareTraseu.genTraseuFragment
-import com.google.android.gms.location.LocationListener
 import com.tomtom.online.sdk.common.location.LatLng
 import com.tomtom.online.sdk.location.LocationSource
 import com.tomtom.online.sdk.map.*
@@ -88,7 +86,6 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
     override fun onMapReady(tomtomMap: TomtomMap) {
         val textView = view?.findViewById<TextView>(R.id.text_map)
         map = tomtomMap
-
         map.isMyLocationEnabled = true
         val location = map.userLocation
 
@@ -110,74 +107,65 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
             if (response.isSuccessful) {
                 Log.d("Response", response.code().toString())
                 //Log.d("yey", response.body().toString())
-                //Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
 
-                var features: Map<String, Any> = response.body()?.features?.get(2) as Map<String, Any>
-                //Log.d("asd", mapaCoordonate.toString())
-
+                val features: Map<String, Any> = response.body()?.features?.get(2) as Map<String, Any>
                 val geometry: Map<String, Any> = features.getValue("geometry") as Map<String, Any>
                 val coordinates: List<Any> = geometry.getValue("coordinates") as List<Any>
                 for (i in coordinates.indices) {
-                    //Log.d("asd", coordinates[i].toString())
                     val pair: List<Double> = coordinates[i] as List<Double>
-                    //Log.d("asd", pair[0].toString())
-
                     waypoints.add(LatLng(pair[1], pair[0]))
-
-                    val iasi = LatLng(47.17, 27.57)
-                    val iasi2 = LatLng(47.17, 27.58)
-                    val balloon = SimpleMarkerBalloon("Iasi")
-                    tomtomMap.centerOn(CameraPosition.builder().focusPosition(iasi).zoom(15.0).build())
-
-                    val routingApi = this.context?.let { it1 -> OnlineRoutingApi.create(it1, BuildConfig.ROUTING_API_KEY) }
-                    val routeDescriptor = RouteDescriptor.Builder()
-                            .routeType(com.tomtom.online.sdk.routing.route.description.RouteType.FASTEST)
-                            .build()
-                    Log.d("milsugi", waypoints.toString())
-                    val routeCalculationDescriptor = RouteCalculationDescriptor.Builder()
-                            .routeDescription(routeDescriptor)
-                            .waypoints(waypoints)
-                            .build()
-                    val routeSpecification = RouteSpecification.Builder(iasi, iasi2)
-                            .routeCalculationDescriptor(routeCalculationDescriptor)
-                            .build()
-                    if (routingApi != null) {
-                        routingApi.planRoute(routeSpecification, object : RouteCallback {
-                            override fun onError(error: RoutingException) {
-                                Toast.makeText(context, error.localizedMessage, Toast.LENGTH_LONG).show()
-                            }
-
-                            override fun onSuccess(routePlan: RoutePlan) {
-                                for (fullRoute in routePlan.routes) {
-                                    val routeBuilder = RouteBuilder(
-                                            fullRoute.getCoordinates())
-                                            .endIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_destination) })
-                                            .startIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_departure) })
-                                    map.addRoute(routeBuilder)
-                                }
-                            }
-                        })
-                    }
-                    tomtomMap.set2DMode()
-                    val button = view?.findViewById<Button>(R.id.button_back)
-                    if (button != null) {
-                        button.setOnClickListener {
-                            val nextFrag = genTraseuFragment()
-                            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
-                        }
-                    }
                 }
 
+                var pair: List<Double> = coordinates[0] as List<Double>
+                val iasi = LatLng(pair[1], pair[0])
+                pair = coordinates[coordinates.size - 1] as List<Double>
+                val iasi2 = LatLng(pair[1], pair[0])
+                SimpleMarkerBalloon("Iasi")
+                tomtomMap.centerOn(CameraPosition.builder().focusPosition(iasi).zoom(15.0).build())
+
+                val routingApi = this.context?.let { it1 -> OnlineRoutingApi.create(it1, BuildConfig.ROUTING_API_KEY) }
+                val routeDescriptor = RouteDescriptor.Builder()
+                        .routeType(com.tomtom.online.sdk.routing.route.description.RouteType.FASTEST)
+                        .build()
+                Log.d("milsugi", waypoints.toString())
+                val routeCalculationDescriptor = RouteCalculationDescriptor.Builder()
+                        .routeDescription(routeDescriptor)
+                        .supportingPoints(waypoints)
+                        .build()
+                val routeSpecification = RouteSpecification.Builder(iasi, iasi2)
+                        .routeCalculationDescriptor(routeCalculationDescriptor)
+                        .build()
+                if (routingApi != null) {
+                    routingApi.planRoute(routeSpecification, object : RouteCallback {
+                        override fun onError(error: RoutingException) {
+                            //Toast.makeText(context, error.localizedMessage, Toast.LENGTH_LONG).show()
+                            Toast.makeText(context, "text", Toast.LENGTH_LONG).show()
+                        }
+
+                        override fun onSuccess(routePlan: RoutePlan) {
+                            for (fullRoute in routePlan.routes) {
+                                val routeBuilder = RouteBuilder(
+                                        fullRoute.getCoordinates())
+                                        .endIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_destination) })
+                                        .startIcon(context?.let { Icon.Factory.fromResources(it, R.drawable.ic_map_route_departure) })
+                                map.addRoute(routeBuilder)
+                            }
+                        }
+                    })
+                }
+                tomtomMap.set2DMode()
+                val button = view?.findViewById<Button>(R.id.button_back)
+                if (button != null) {
+                    button.setOnClickListener {
+                        val nextFrag = genTraseuFragment()
+                        activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
+                    }
+                }
 
             } else {
                 Log.d("test", myPost.toString())
                 Log.d("Error", response.errorBody().toString())
             }
         })
-
-        /*map.trafficSettings.turnOnTrafficIncidents()
-        map.trafficSettings.turnOnTrafficFlowTiles()
-        map.trafficSettings.turnOffTrafficIncidents()
-        map.trafficSettings.turnOffTrafficFlowTiles()*/
     }
 }
