@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.navbar.ui.changePassword.changePasswordRepository.changePasswordRepository
+import com.example.navbar.ui.login.loginModel.lgnReques
 import com.example.navbar.ui.login.loginModel.loginPost
 import com.example.navbar.ui.login.loginRepository.lgnRepository
 import kotlinx.coroutines.launch
@@ -17,7 +18,7 @@ class loginViewModel(private val repository: lgnRepository) : ViewModel() {
     }
     val text: LiveData<String> = _text
 
-    val myResponse: MutableLiveData<Response<loginPost>> = MutableLiveData()
+    val myResponse: MutableLiveData<Response<lgnReques>> = MutableLiveData()
     /**
     fun getPost() {
     viewModelScope.launch{

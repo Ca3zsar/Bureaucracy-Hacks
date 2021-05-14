@@ -1,6 +1,6 @@
 package com.example.navbar.ui.register.registerModel
 
-class registerPost (
+data class registerPost (
     val email: String,
     val username: String,
     val name: String,

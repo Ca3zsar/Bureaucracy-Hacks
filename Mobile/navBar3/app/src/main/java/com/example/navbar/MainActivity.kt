@@ -11,17 +11,39 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.navbar.ui.userProfile.userProfileFragment
+import com.google.android.gms.common.util.CollectionUtils.setOf
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity(), Comunicator {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
+        /*val retService = registerRetrofitInstance.getRetrofitInstance().create(registerSimpleApi::class.java)
+        val responseLiveData: LiveData<Response<Albums>> = liveData {
+            val response = retService.getPost() // am facut get la date
+            emit(response)
+        }
+        responseLiveData.observe(this, Observer {
+            val albumsList: MutableListIterator<registerPost>? = it.body()?.listIterator()
+            if(albumsList!=null){
+                while(albumsList.hasNext()){
+                    val albumsItem: registerPost = albumsList.next()
+                    val result: String = " " + "email: ${albumsItem.email}"+"\n" +
+                            " " + "username: ${albumsItem.username}"+"\n" +
+                            " " + "name: ${albumsItem.name}"+"\n" +
+                            " " + "surname: ${albumsItem.surname}"+"\n" +
+                            " " + "password: ${albumsItem.password}"+"\n\n\n"
+                    textView4.append(result)
+                }
+            }
+        })*/
 
         //val fab: FloatingActionButton = findViewById(R.id.fab)
         //fab.setOnClickListener { view ->
@@ -49,23 +71,23 @@ class MainActivity : AppCompatActivity(), Comunicator {
         val searchView = searchItem?.actionView as SearchView
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String?): Boolean {
-                /**
-                searchView.clearFocus()
-                searchView.setQuery("", false)
-                searchItem.collapseActionView()
-                Toast.makeText(this@MainActivity, "Looking for $query", Toast.LENGTH_LONG).show()
-                */
-
-                return true
-            }
-
-            override fun onQueryTextChange(newText: String?): Boolean {
-                //Toast.makeText(this@MainActivity, "Looking for $newText", Toast.LENGTH_LONG).show()
-                return false
-            }
-        })
+        override fun onQueryTextSubmit(query: String?): Boolean {
+        /**
+        searchView.clearFocus()
+        searchView.setQuery("", false)
+        searchItem.collapseActionView()
+        Toast.makeText(this@MainActivity, "Looking for $query", Toast.LENGTH_LONG).show()
         */
+
+        return true
+        }
+
+        override fun onQueryTextChange(newText: String?): Boolean {
+        //Toast.makeText(this@MainActivity, "Looking for $newText", Toast.LENGTH_LONG).show()
+        return false
+        }
+        })
+         */
 
 
         return true
@@ -76,9 +98,15 @@ class MainActivity : AppCompatActivity(), Comunicator {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-    override fun passDataCom(editTextInput: String) {
+    override fun passDataCom(
+        editTextInput: String,
+        editTextInput2: String,
+        editTextInput3: String
+    ) {
         val bundle = Bundle()
         bundle.putString("message", editTextInput)
+        bundle.putString("message2", editTextInput2)
+        bundle.putString("message3", editTextInput3)
 
         val transaction = this.supportFragmentManager.beginTransaction()
         val fragmentB = userProfileFragment()

@@ -17,6 +17,8 @@ class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
 
     private lateinit var profileViewModel: userProfileViewModel
     var displayMessage: String? = ""
+    var displayMessage2: String? = "" //Name
+    var displayMessage3: String? = "" //Username
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -27,11 +29,16 @@ class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
             ViewModelProvider(this).get(userProfileViewModel::class.java)
         var root = inflater.inflate(R.layout.fragment_user_profile, container, false)
         var textView: TextView = root.findViewById(R.id.text_userProfile)
+        //var view = inflater.inflate(R.layout.fragment_user_profile, container, false)
         profileViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         displayMessage = arguments?.getString("message")
-        root.userProfileName.text = displayMessage
+        displayMessage2 = arguments?.getString("message2")
+        displayMessage3 = arguments?.getString("message3")
+        root.userProfileName.text = displayMessage2
+        root.userProfileSurname.text = displayMessage3
+        root.userProfileEmail.text = displayMessage
         return root
     }
 
