@@ -9,5 +9,5 @@ data class AnafPost (
         val email: String,
         val url: String,
         val longitude: Double,
-        val departments: List<Map<String, String>>
+        val departments: List<Map<String, Any>>
 )

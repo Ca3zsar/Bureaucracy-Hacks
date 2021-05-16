@@ -89,14 +89,14 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
         map.isMyLocationEnabled = true
         val location = map.userLocation
 
-        if (map.userLocation != null) {
-            //val currentLatitude = map.userLocation!!.latitude
-            //val currentLongitude = map.userLocation!!.longitude
-            //val currentLocation = LatLng(currentLatitude, currentLongitude)
+        if (location != null) {
+            val currentLatitude = map.userLocation!!.latitude
+            val currentLongitude = map.userLocation!!.longitude
+            val currentLocation = LatLng(currentLatitude, currentLongitude)
             Log.d("Response", LatLng(map.userLocation!!.latitude, map.userLocation!!.longitude).toString())
-            //tomtomMap.centerOn(CameraPosition.builder().focusPosition(currentLocation).zoom(15.0).build())
+            tomtomMap.centerOn(CameraPosition.builder().focusPosition(currentLocation).zoom(15.0).build())
         } else {
-            //Log.d("caca", location.toString())
+            Log.d("Response null", location.toString())
         }
 
         val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;", "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;", "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);", "copie act de identitate reprezentant legal;", "alte acte doveditoare, dupa caz:", "copie autentificata statut;", "proces verbal de constituire;", "acord de asociere; ", "hotarire judecatoreasca de infiintare;", "dovada spatiu;", "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
