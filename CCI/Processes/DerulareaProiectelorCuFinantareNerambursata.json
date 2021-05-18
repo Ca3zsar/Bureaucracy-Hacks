@@ -1,0 +1,41 @@
+{
+    "institution": "Casa de Comert si Industrie Iasi",
+    "process": "Certificare pentru derularea proiectelor cu finanţare nerambursabilă",
+    "cases": [
+        "Certificate de origine eliberate pentru derularea proiectelor cu finanţare nerambursabilă"
+    ],
+    "departaments": [
+        "Eliberare Documente Comerciale"
+    ],
+    "forms": [
+        [
+            "Cerere tip"
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Declaraţie de origine",
+                "împuternicire/delegaţie",
+                "contract",
+                "copie facturi fiscale",
+                "cerere tip completată şi stampilată", 
+                "alte documente care să ateste originea:",
+                [
+                    "certificat de origine străin",
+                    "declaraţie vamală", 
+                    "fişa tehnologică a produsului",
+                    "etc."
+                ] 
+            ]
+        ]
+    ],
+    "prices": [
+        [
+            "500 lei"
+        ]
+    ],
+    "files": [
+        "macheta_CO.doc"
+    ]
+}

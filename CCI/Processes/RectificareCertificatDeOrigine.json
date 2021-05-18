@@ -1,0 +1,23 @@
+{
+    "institution": "Casa de Comert si Industrie Iasi",
+    "process": "Rectificare certificat de origine (ca urmare a unei erori materiale aparţinând solicitantului)",
+    "cases": [
+        "Rectificare certificat de origine"
+    ],
+    "departaments": [
+        "Eliberare Documente Comerciale"
+    ],
+    "necessary": [
+        [
+            [
+                "Cerere de rectificare",
+                "documentele justificative (factură externă, packing list etc.) care au suferit modificări"
+            ]
+        ]
+    ],
+    "prices": [
+        [
+            "120 lei"
+        ]
+    ]
+}

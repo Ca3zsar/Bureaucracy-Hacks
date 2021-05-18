@@ -1,0 +1,42 @@
+{
+    "institution": "Casa de Comert si Industrie Iasi",
+    "process": "Certificare origine a marfurilor destinate exportului",
+    "cases": [
+        "Certificate de origine a mărfurilor destinate exportului"
+    ],
+    "departaments": [
+        "Eliberare Documente Comerciale"
+    ],
+    "forms": [
+        [
+            "Cerere tip"
+        ]
+    ],
+    "necessary": [
+        [
+            [
+                "Factură externă",
+                "packing list", 
+                "împuternicire/delegaţie",
+                "declaratie de origine", 
+                "cerere tip completată şi stampilată",
+                "alte documente care să ateste originea:",
+                [
+                 "certificat de origine străin",
+                 "declaraţie vamală", 
+                 "fişa tehnologică a produsului etc."
+                ]
+
+            ]
+        ]
+    ],
+    "prices": [
+        [
+            "365 lei pentru facturi cu valoarea mai mică de 100.000 lei",
+            "0,36% din valoarea facturii pentru facturi cu valoarea mai mare de 100.000 lei"
+        ]
+    ],
+    "files": [
+        "macheta_CO.doc"
+    ]
+}

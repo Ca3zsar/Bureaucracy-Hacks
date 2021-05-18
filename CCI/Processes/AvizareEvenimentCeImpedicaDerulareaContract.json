@@ -1,0 +1,25 @@
+{
+    "institution": "Casa de Comert si Industrie Iasi",
+    "process": "Avizarea evenimentului de forţă majoră ce împiedică derularea normală a unui contract comercial intern sau a unui proiect",
+    "cases": [
+        "Avizarea evenimentului de forţă majoră ce împiedică derularea normală a unui contract comercial intern sau a unui proiect"
+    ],
+    "departaments": [
+        "Eliberare Documente Comerciale"
+    ],
+    "necessary": [
+        [
+            [
+                "Contractul în care este stipulată clauza de forţă majoră",
+                "documente justificative"
+            ]
+        ]
+    ],
+    "prices": [
+        [
+            "238 eur/ aviz/ 1 raport contractual pentru microentități",
+            "500 eur/ aviz/ 1 raport contractual pentru entitățile mici, mijlocii și mari.",
+            "+ 2 eur pentru fiecare raport contractual suplimentar"
+        ]
+    ]
+}
