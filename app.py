@@ -1,7 +1,10 @@
 # app.py
 from flask import Flask, request, jsonify, redirect, url_for
-from executor import refresh_info, get_files_list
+import flask
+import requests
+from executor import refresh_info, get_files_list, add_to_S3
 import check_diff
+import auto_complete
 
 from rq import Queue
 from rq.job import Job
@@ -63,6 +66,39 @@ def get_results(job_key):
         return jsonify({'error':'there is no longer a job with this id'})
 
 
+@app.route("/complete-file/",methods=["POST"])
+def complete_file():
+    information = request.json
+    fileURL = information["file_url"]
+    
+    fileName = fileURL.split('/')[-1]
+    fileName = fileName.replace('+',' ')
+    
+    print(fileName)
+    
+    found = 0
+    with open("annotated.txt","r") as file:
+        content = [file.strip() for file in file.readlines()]
+        content = [line.lower() for line in content]
+        if fileName.lower() in content:
+            found = 1
+    
+    if not found:
+        return fileURL
+    else:
+        information.pop("file_url")
+        newFileName = f"Annotated_{information['nume']}_{information['prenume']}_{fileName}"
+        
+        result = requests.get(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/Annotated/{fileName}")
+        with open(fileName,"wb") as file:
+            file.write(result.content)
+        
+        auto_complete.update_form_values(fileName, newFileName,information)
+        
+        links = add_to_S3([newFileName],'Annotated')
+        return links[0]
+
+    return 1    
 
 @app.route('/get-differences/', methods=['GET'])
 def diff():
