@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
@@ -38,7 +39,7 @@
         android:id="@+id/registerGoogle"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="10dp"
         android:text="Continue with Google"
         android:textAllCaps="false"
         android:textColor="@color/design_default_color_background"
@@ -46,13 +47,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerTitlu" />
 
     <Button
         android:id="@+id/registerFacebook"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="10dp"
         android:text="Continue with Facebook"
         android:textAllCaps="false"
         android:textColor="@color/design_default_color_background"
@@ -60,13 +61,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerGoogle" />
 
     <EditText
         android:id="@+id/registerUsername"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -74,13 +75,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerFacebook" />
 
     <EditText
         android:id="@+id/registerFirstName"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="First Name"
         android:inputType="textPersonName"
@@ -88,13 +89,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerUsername" />
 
     <EditText
         android:id="@+id/registerSecondName"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Second Name"
         android:inputType="textPersonName"
@@ -102,13 +103,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerFirstName" />
 
     <EditText
         android:id="@+id/registerEmail"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -116,13 +117,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerSecondName" />
 
     <EditText
         android:id="@+id/registerPassword"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -130,19 +131,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerEmail" />
 
     <Button
         android:id="@+id/registerSignIn"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="20dp"
         android:text="Sign In"
         app:backgroundTint="@color/lightblue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/registerPassword" />
 
 
     <TextView

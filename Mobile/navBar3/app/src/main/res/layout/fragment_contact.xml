@@ -24,11 +24,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
         android:text="Contact"
         android:textColor="#03045e"
         android:textSize="40sp"
         android:typeface="serif"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -39,24 +41,23 @@
         android:id="@+id/contactNume"
         android:layout_width="323dp"
         android:layout_height="48dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="120dp"
         android:backgroundTint="#0000FF"
         android:hint="Username"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintHorizontal_bias="0.363"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contactTitlu" />
 
 
     <EditText
         android:id="@+id/contactMessage"
         android:layout_width="323dp"
         android:layout_height="150dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#0000FF"
         android:breakStrategy="balanced"
         android:fitsSystemWindows="true"
@@ -67,17 +68,16 @@
         android:singleLine="false"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        app:layout_constraintHorizontal_bias="0.363"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contactNume" />
 
     <Button
         android:id="@+id/contactConfirma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/round_buttons"
         android:backgroundTint="@color/blue"
         android:elevation="4dp"
@@ -85,15 +85,15 @@
         android:paddingRight="70dp"
         android:text="Submit"
         android:textColor="#caf0f8"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rBar" />
 
     <RatingBar
         android:id="@+id/rBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="50dp"
         android:background="@color/blue"
         android:numStars="5"
         android:progressTint="#0000FF"
@@ -102,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contactMessage"
         tools:ignore="MissingConstraints"
         tools:visibility="visible" />
 

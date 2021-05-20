@@ -47,6 +47,7 @@
         android:id="@+id/userProfileTitlu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="Informatii cont"
         android:textColor="#03045e"
@@ -88,35 +89,29 @@
         android:id="@+id/userProfileName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
+        android:layout_marginTop="120dp"
         android:gravity="center"
         android:text="Nume"
         android:textColor="@color/black"
         android:textSize="18dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toBottomOf="@id/userProfileTitlu" />
 
     <TextView
         android:id="@+id/userProfileSurname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="110dp"
+        android:layout_marginTop="60dp"
         android:gravity="center"
         android:text="Prenume"
         android:textColor="@color/black"
         android:textSize="18dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintTop_toBottomOf="@id/userProfileName" />
 
     <ImageView
         android:id="@+id/userProfileIconEmail"
@@ -135,22 +130,20 @@
         android:id="@+id/userProfileEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="70dp"
+        android:layout_marginTop="60dp"
         android:text="Email"
         android:textColor="@color/black"
         android:textSize="18dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintTop_toBottomOf="@id/userProfileSurname" />
 
     <Button
         android:id="@+id/userProfileChangePass"
         android:layout_width="160dp"
         android:layout_height="70dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_button_contact"
         android:text="Editează parola"
         android:textAllCaps="false"
@@ -159,13 +152,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/userProfileEmail" />
 
     <Button
         android:id="@+id/userProfileConfirma"
         android:layout_width="145dp"
         android:layout_height="60dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/background_button_contact"
         android:text="Confirmă"
         android:textAllCaps="false"
@@ -174,7 +167,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/userProfileChangePass" />
 
 
     <TextView

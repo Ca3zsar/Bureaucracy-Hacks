@@ -61,6 +61,18 @@
             android:padding="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/link_institutie"/>
+
+        <TextView
+            android:id="@+id/procese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="00dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:padding="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/departamente"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
