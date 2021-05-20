@@ -99,9 +99,18 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
             Log.d("Response null", location.toString())
         }
 
-        val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;", "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;", "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);", "copie act de identitate reprezentant legal;", "alte acte doveditoare, dupa caz:", "copie autentificata statut;", "proces verbal de constituire;", "acord de asociere; ", "hotarire judecatoreasca de infiintare;", "dovada spatiu;", "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
-
-        val myPost = mapRequest("27.55111602208522", "47.14482900924825", "42", test1)
+        val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
+                "copie de pe autorizatia de functionare eliberata de autoritatea competenta sau de pe actul legal de infiintare, dupa caz;",
+                "dovada detinerii sediului (act de proprietate, contract de inchiriere si alte asemenea);",
+                "copie act de identitate reprezentant legal;",
+                "alte acte doveditoare, dupa caz:",
+                "copie autentificata statut;",
+                "proces verbal de constituire;",
+                "acord de asociere; ",
+                "hotarire judecatoreasca de infiintare;",
+                "dovada spatiu;",
+                "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
+        val myPost = mapRequest("27.55111602208522", "47.14482900924825", "44", test1)
         mapViewModel.pushPost(myPost)
         mapViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
             if (response.isSuccessful) {

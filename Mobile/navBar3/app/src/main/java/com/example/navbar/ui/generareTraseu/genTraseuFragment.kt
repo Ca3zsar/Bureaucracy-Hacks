@@ -1,5 +1,6 @@
 package com.example.navbar.ui.generareTraseu
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -72,7 +73,7 @@ class genTraseuFragment : Fragment() {
                         TODO("Not yet implemented")
                     }
 
-                    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                    override fun onItemSelected(parent: AdapterView<*>?, view: View, position: Int, id: Long) {
                         val queue : RequestQueue = Volley.newRequestQueue(activity)
                         val string1 = "https://bureaucracyhackshostat.herokuapp.com/user/process/"
                         val string2 = elements[position]
@@ -110,6 +111,49 @@ class genTraseuFragment : Fragment() {
                                             val arrayActe : Array<String> = necessary.split(",").toTypedArray()
                                             for (i in arrayActe.indices) {
                                                 Log.d("acte", arrayActe[i])
+                                            }
+
+                                            val mShowAlertDialogBtn = activity?.findViewById<Button>(R.id.grilaTraseu)
+                                            val mTxtView = activity?.findViewById<TextView>(R.id.grilaTextView)
+
+                                            if (mShowAlertDialogBtn != null) {
+                                                mShowAlertDialogBtn.setOnClickListener {
+                                                    val builder = AlertDialog.Builder(activity)
+
+                                                    val checkedActeArray = BooleanArray(arrayActe.size)
+                                                    for (i in arrayActe.indices) {
+                                                        checkedActeArray[i] = false
+                                                    }
+
+                                                    val acteList = listOf(*arrayActe)
+                                                    builder.setTitle("Ai ales actele:")
+
+                                                    builder.setMultiChoiceItems(arrayActe, checkedActeArray) {dialog, which, isChecked ->
+                                                        checkedActeArray[which] = isChecked
+                                                        val currentItem = acteList[which]
+                                                        /*Toast.makeText(activity, "$currentItem $isChecked", Toast.LENGTH_SHORT).show()*/
+                                                    }
+
+                                                    builder.setPositiveButton("OK") {dialog, which ->
+                                                        if (mTxtView != null) {
+                                                            mTxtView.text = "Ai ales actele:\n"
+                                                        }
+                                                        for (i in checkedActeArray.indices) {
+                                                            val checked = checkedActeArray[i]
+                                                            if (checked) {
+                                                                if (mTxtView != null) {
+                                                                    mTxtView.text = mTxtView.text.toString() + "►" + acteList[i] + "\n"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    builder.setNeutralButton("Cancel") {dialog, which ->
+                                                        dialog.dismiss()
+                                                    }
+                                                    val dialog = builder.create()
+                                                    dialog.show()
+                                                }
                                             }
                                         }
                                     }

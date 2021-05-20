@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".ui.generareTraseu.genTraseuFragment">
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/albastru_deschis"
+        tools:context=".ui.generareTraseu.TraseuFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -45,19 +50,45 @@
         tools:visibility="visible"/>
 
     <Button
-        android:id="@+id/traseuConfirma"
-        android:layout_width="145dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="625dp"
-        android:background="@drawable/background_button_contact"
-        android:text="Confirmă"
-        android:textAllCaps="false"
-        android:textColor="#0077b6"
-        android:textSize="24sp"
+        android:id="@+id/grilaTraseu"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Completeaza actele!"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/traseuSp1"/>
+
+    <TextView
+        android:id="@+id/grilaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actele alese:"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/grilaTraseu"/>
+
+
+        <Button
+            android:id="@+id/traseuConfirma"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_button_contact"
+            android:text="Confirmă"
+            android:textAllCaps="false"
+            android:textColor="#0077b6"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/grilaTextView" />
 
     <TextView
         android:id="@+id/traseuTitlu1"
@@ -120,4 +151,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
