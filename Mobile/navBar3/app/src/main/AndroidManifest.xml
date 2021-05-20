@@ -26,6 +26,7 @@
         <activity android:name=".ui.institutions.DLEPI.DLEPI" />
         <activity android:name=".ui.institutions.IPJI.IPJI" />
         <activity android:name=".ui.institutions.PI.PI" />
+        <activity android:name=".ui.institutions.SALUBRIS.SALUBRIS" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
