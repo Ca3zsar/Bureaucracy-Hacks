@@ -20,6 +20,13 @@ public interface InstitutionsRepository extends JpaRepository<Institution, Integ
     @Query("Select i from Institution i where i.type = 'institution'")
     List<Institution> getInstitutionsList();
 
+    @Query("Select i from Institution i where i.type = 'xerox'")
+    List<Institution> getCopyCenters();
+
+    @Query("Select i from Institution i where i.type = 'posta'")
+    List<Institution> getPosts();
+
+
     @Query("Select i.programs from Institution i where upper(i.name) = upper(?1)")
     String getPrograms(String institutionName);
 

@@ -40,6 +40,17 @@ public class RouteGenerator {
         return false;
     }
 
+    public static boolean hasPost(String content) {
+        String[] tokens = new String[]{"timbru", "timbre", "posta", "postal"};
+        for (String token : tokens) {
+            if (content.contains(token)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
     public static double getDistance(double lat1, double lng1, double lat2, double lng2) {
 
         double earthRadius = 3958.75; // in miles, change to 6371 for kilometer output
@@ -104,10 +115,12 @@ public class RouteGenerator {
 //            locations.add(mainInstitution.get());
 
             if (hasCopies(necessary)) {
-                List<Institution> copyCenters = institutionsRepository.getInstitutionsList()
-                        .stream()
-                        .filter( institution -> institution.getType().equals("xerox"))
-                        .collect(Collectors.toList());
+                List<Institution> copyCenters = institutionsRepository.getCopyCenters();
+                locations.addAll(copyCenters);
+            }
+
+            if (hasPost(necessary)) {
+                List<Institution> copyCenters = institutionsRepository.getPosts();
                 locations.addAll(copyCenters);
             }
 
