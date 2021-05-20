@@ -8,6 +8,7 @@
     <string name="action_settings">Settings</string>
     <string name="informatii_genelate_institutii"><u><b><i>Informații Generale și de Contact:\n\n</i></b></u></string>
     <string name="departamente_institutii"><u><b><i>Departamente:\n\n</i></b></u></string>
+    <string name="procese_institutii"><u><b><i>Procese:\n\n</i></b></u></string>
 
     <string name="menu_home">Home</string>
     <string name="selected_item">Selected item:</string>
