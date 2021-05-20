@@ -20,6 +20,7 @@ import com.example.navbar.ui.institutions.DGpP.DGpP
 import com.example.navbar.ui.institutions.DLEPI.DLEPI
 import com.example.navbar.ui.institutions.IPJI.IPJI
 import com.example.navbar.ui.institutions.PI.PI
+import com.example.navbar.ui.institutions.SALUBRIS.SALUBRIS
 import kotlinx.android.synthetic.main.fragment_search.*
 
 
@@ -49,7 +50,8 @@ class searchFragment : Fragment(R.layout.fragment_search), ItemsAdapter.ClickLis
         ItemsModel("Inspectoratul de Poliție Județean Iași"),
         ItemsModel("Direcția Generală pentru Pașapoarte"),
         ItemsModel("Casa Județeană de Pensii Iași"),
-            ItemsModel("Primăria Iași")
+        ItemsModel("Primăria Iași"),
+        ItemsModel("SalubrIS")
     )
 
     val itemsModelList = ArrayList<ItemsModel>()
@@ -94,6 +96,8 @@ class searchFragment : Fragment(R.layout.fragment_search), ItemsAdapter.ClickLis
                 -> startActivity(Intent(this.context, CJPI::class.java))
             "Primăria Iași"
                 -> startActivity(Intent(this.context, PI::class.java))
+            "SalubrIS"
+                -> startActivity(Intent(this.context, SALUBRIS::class.java))
         }
     }
 

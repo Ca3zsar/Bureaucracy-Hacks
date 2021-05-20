@@ -38,19 +38,24 @@ class CJPI: AppCompatActivity() {
                 val departamente : TextView = findViewById(R.id.departamente)
                 departamente.setText(R.string.departamente_institutii)
 
-                val array : List<Map<String, String>>? = response.body()?.departments
+                val departments : List<Map<String, Any>>? = response.body()?.departments
 
-                if (array != null) {
-                    for (i in array.indices) {
-                        departamente.append("\u25CF " + array[i].getValue("name") + "\n")
-                        if (array[i].containsKey("program")) {
-                            if (array[i].getValue("program").isEmpty()) {
-                                departamente.append("\u25BA Program: " + array[i].getValue("program") + "\n\n")
-                            } else {
-                                departamente.append("\u25BA Program: indisponibil" + "\n\n")
-                            }
+                if (departments != null) {
+                    for (i in departments.indices) {
+                        val name = departments[i].getValue("name")
+                        departamente.append("\n\n\u25CF $name\n")
+                        val program = departments[i].getValue("program") as Map<String, Any>
+                        if (program.isEmpty()) {
+                            departamente.append("\u25BA Program: indisponibil" + "\n\n")
                         } else {
-                            departamente.append("\n")
+                            for (key in program.keys) {
+                                val orar = program.getValue(key) as Map<String, String>
+                                departamente.append("\n \u25BA $key  :\n")
+                                for (key2 in orar.keys) {
+                                    departamente.append("$key2  : ")
+                                    departamente.append("${orar.getValue(key2)} \n")
+                                }
+                            }
                         }
                     }
                 }
@@ -62,7 +67,7 @@ class CJPI: AppCompatActivity() {
                 Log.d("Response", response.body()?.id.toString())
             } else {
                 Log.d("Response", response.errorBody().toString())
-                Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
+                //Toast.makeText(this, response.code().toString(), Toast.LENGTH_LONG).show()
             }
         })
 

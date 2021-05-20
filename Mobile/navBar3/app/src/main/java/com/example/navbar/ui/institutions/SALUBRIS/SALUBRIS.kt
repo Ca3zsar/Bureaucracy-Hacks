@@ -1,27 +1,26 @@
-package com.example.navbar.ui.institutions.CJASI
+package com.example.navbar.ui.institutions.SALUBRIS
 
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import android.util.Log
 import android.widget.TextView
-import androidx.lifecycle.Observer
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.Observer
 import com.example.navbar.R
-import com.example.navbar.ui.institutions.CJASI.CjasiRepostitory.CjasiRepository
+import com.example.navbar.ui.institutions.SALUBRIS.SalubrisRepository.SalubrisRepository
 
-class CJASI: AppCompatActivity() {
+class SALUBRIS: AppCompatActivity() {
 
-    private lateinit var viewModel: CjasiViewModel
+    private lateinit var viewModel: SalubrisViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_item1)
 
-        val repository = CjasiRepository()
-        val viewModelFactory = CjasiViewModelFactory(repository)
-        viewModel = ViewModelProvider(this, viewModelFactory).get(CjasiViewModel::class.java)
+        val repository = SalubrisRepository()
+        val viewModelFactory = SalubrisViewModelFactory(repository)
+        viewModel = ViewModelProvider(this, viewModelFactory).get(SalubrisViewModel::class.java)
         viewModel.getPost()
         viewModel.myResponse.observe(this, Observer { response ->
             if (response.isSuccessful) {
@@ -72,6 +71,6 @@ class CJASI: AppCompatActivity() {
         })
 
         val titlu : TextView = findViewById(R.id.titluInstitutie)
-        titlu.text = "Casa Județeană de Asigurări de Sănătate Iași (CJASI)"
+        titlu.text = "SalubrIS"
     }
 }
