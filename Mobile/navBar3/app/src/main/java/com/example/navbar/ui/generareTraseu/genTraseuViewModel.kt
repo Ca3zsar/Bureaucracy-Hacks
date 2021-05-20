@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.navbar.ui.generareTraseu.genTraseuModel.genTraseuPost
+import com.example.navbar.ui.generareTraseu.genTraseuModel.proceseModel
 import com.example.navbar.ui.generareTraseu.genTraseuRepository.genTraseuRepository
 import kotlinx.coroutines.launch
 import retrofit2.Response
@@ -16,11 +16,11 @@ class genTraseuViewModel(private val genTrRepository: genTraseuRepository) : Vie
     }
     val text: LiveData<String> = _text
 
-    val myResponse: MutableLiveData<Response<List<genTraseuPost>>> = MutableLiveData()
+    val myResponse: MutableLiveData<Response<List<proceseModel>>> = MutableLiveData()
 
     fun getPost() {
         viewModelScope.launch {
-            val response = genTrRepository.getPost()
+            val response = genTrRepository.getProcese()
             myResponse.value = response
         }
     }

@@ -67,6 +67,7 @@ dependencies {
     implementation 'com.tomtom.online:sdk-routing:2.4807'
     implementation 'com.tomtom.online:sdk-traffic:2.4807'
     implementation 'com.tomtom.online:sdk-maps-driving-extensions:2.4807'
+    implementation 'com.android.volley:volley:1.2.0'
 }
 
 apply plugin: 'kotlin-android-extensions'

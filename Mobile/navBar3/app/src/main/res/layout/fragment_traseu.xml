@@ -95,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Alege instituția:"
+        android:text="Alege procesul:"
         android:textAllCaps="false"
         android:textColor="#03045e"
         android:textSize="18sp"
