@@ -45,6 +45,9 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
 
     private lateinit var mapViewModel: MapFragmentTraseuViewModel
 
+    var idInstitutie : String = ""
+    var arrayActeMap : ArrayList<String> = arrayListOf()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -96,7 +99,7 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
             Log.d("Response", LatLng(map.userLocation!!.latitude, map.userLocation!!.longitude).toString())
             tomtomMap.centerOn(CameraPosition.builder().focusPosition(currentLocation).zoom(15.0).build())
         } else {
-            Log.d("Response null", location.toString())
+            Log.d("Response", location.toString())
         }
 
         val test1 = listOf("declaratie de inregistrare fiscala – formular 010 sau formular 040 (pentru institutii publice), care se obtine gratuit de la etajul 1, camera 1103;",
@@ -110,14 +113,20 @@ class MapFragmentTraseu : Fragment(), OnMapReadyCallback {
                 "hotarire judecatoreasca de infiintare;",
                 "dovada spatiu;",
                 "adresa de la organul financiar local privind inregistrarea asociatiei de proprietari.")
+
+        idInstitutie = arguments?.getInt("idInstitutie").toString()
+        //arrayActeMap = arguments?.getStringArrayList("arrayActe")!!
+
+        Log.d("idguzgan", idInstitutie)
+        //Log.d("acte", arrayActeMap.toString())
+
         val myPost = mapRequest("27.55111602208522", "47.14482900924825", "44", test1)
         mapViewModel.pushPost(myPost)
         mapViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
             if (response.isSuccessful) {
                 Log.d("Response", response.code().toString())
-                //Log.d("yey", response.body().toString())
 
-                val features: Map<String, Any> = response.body()?.features?.get(2) as Map<String, Any>
+                val features: Map<String, Any> = response.body()?.features?.get(3) as Map<String, Any>
                 val geometry: Map<String, Any> = features.getValue("geometry") as Map<String, Any>
                 val coordinates: List<Any> = geometry.getValue("coordinates") as List<Any>
                 for (i in coordinates.indices) {

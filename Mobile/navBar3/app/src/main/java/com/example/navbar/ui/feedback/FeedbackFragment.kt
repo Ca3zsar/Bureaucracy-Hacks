@@ -1,10 +1,12 @@
 package com.example.navbar.ui.feedback
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -15,6 +17,7 @@ import com.example.navbar.ui.feedback.feedbackRepository.fdbRepository
 class FeedbackFragment : Fragment() {
 
     private lateinit var feedbackViewModel: FeedbackViewModel
+    var process : String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,6 +34,10 @@ class FeedbackFragment : Fragment() {
         feedbackViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+
+        process = arguments?.getString("process").toString()
+        Log.d("feedback", process)
+
         return root
     }
 

@@ -15,6 +15,7 @@ import com.android.volley.RequestQueue
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.example.navbar.Comunicator
 import com.example.navbar.R
 import com.example.navbar.ui.generareMap.MapFragmentTraseu
 import com.example.navbar.ui.generareTraseu.genTraseuRepository.genTraseuRepository
@@ -23,6 +24,7 @@ import org.json.JSONObject
 class genTraseuFragment : Fragment() {
 
     private lateinit var genTrViewModel: genTraseuViewModel
+    private lateinit var comunicator : Comunicator
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -45,7 +47,11 @@ class genTraseuFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        comunicator = activity as Comunicator
+
         var necessary = ""
+        var arrayActeMap : ArrayList<String> = arrayListOf()
+        var idInstitutie : Int = 0
 
         genTrViewModel.getPost()
         genTrViewModel.myResponse.observe(viewLifecycleOwner, Observer { response ->
@@ -77,6 +83,7 @@ class genTraseuFragment : Fragment() {
                         val queue : RequestQueue = Volley.newRequestQueue(activity)
                         val string1 = "https://bureaucracyhackshostat.herokuapp.com/user/process/"
                         val string2 = elements[position]
+                        comunicator.passDataProcess(elements[position])
 
                         var url = "$string1$string2"
 
@@ -97,6 +104,7 @@ class genTraseuFragment : Fragment() {
                                                     for (key in object2.keys()) {
                                                         if (key == "id") {
                                                             val id = object2[key]
+                                                            idInstitutie = id as Int
                                                             Log.d("Id-ul institutiei", id.toString())
                                                         }
                                                     }
@@ -131,7 +139,6 @@ class genTraseuFragment : Fragment() {
                                                     builder.setMultiChoiceItems(arrayActe, checkedActeArray) {dialog, which, isChecked ->
                                                         checkedActeArray[which] = isChecked
                                                         val currentItem = acteList[which]
-                                                        /*Toast.makeText(activity, "$currentItem $isChecked", Toast.LENGTH_SHORT).show()*/
                                                     }
 
                                                     builder.setPositiveButton("OK") {dialog, which ->
@@ -143,6 +150,7 @@ class genTraseuFragment : Fragment() {
                                                             if (checked) {
                                                                 if (mTxtView != null) {
                                                                     mTxtView.text = mTxtView.text.toString() + "►" + acteList[i] + "\n"
+                                                                    arrayActeMap.add(acteList[i])
                                                                 }
                                                             }
                                                         }
@@ -172,6 +180,9 @@ class genTraseuFragment : Fragment() {
         val button = view.findViewById<Button>(R.id.traseuConfirma)
         button.setOnClickListener {
             val nextFrag = MapFragmentTraseu()
+            Log.d("testulSuprem", arrayActeMap.toString())
+            Log.d("vedem si la id", idInstitutie.toString())
+            comunicator.passDataActe(idInstitutie, arrayActeMap)
             activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
         }
 

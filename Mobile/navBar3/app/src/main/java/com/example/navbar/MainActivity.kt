@@ -10,6 +10,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.navbar.ui.feedback.FeedbackFragment
+import com.example.navbar.ui.generareMap.MapFragmentTraseu
 import com.example.navbar.ui.userProfile.userProfileFragment
 import com.google.android.gms.common.util.CollectionUtils.setOf
 import com.google.android.material.navigation.NavigationView
@@ -110,6 +112,31 @@ class MainActivity : AppCompatActivity(), Comunicator {
 
         val transaction = this.supportFragmentManager.beginTransaction()
         val fragmentB = userProfileFragment()
+        fragmentB.arguments = bundle
+
+        transaction.replace(R.id.linearLayout, fragmentB)
+        transaction.commit()
+    }
+
+    override fun passDataActe(idInstitutie: Int, arrayActe: ArrayList<String>) {
+        val bundle = Bundle()
+        bundle.putInt("idInstitutie", idInstitutie)
+        bundle.putStringArrayList("arrayActe", arrayActe)
+
+        val transaction = this.supportFragmentManager.beginTransaction()
+        val fragmentB = MapFragmentTraseu()
+        fragmentB.arguments = bundle
+
+        transaction.replace(R.id.linearLayout, fragmentB)
+        transaction.commit()
+    }
+
+    override fun passDataProcess(process: String) {
+        val bundle = Bundle()
+        bundle.putString("process", process)
+
+        val transaction = this.supportFragmentManager.beginTransaction()
+        val fragmentB = FeedbackFragment()
         fragmentB.arguments = bundle
 
         transaction.replace(R.id.linearLayout, fragmentB)
