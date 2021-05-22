@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c107018e-db6c-4674-997e-5113ee76f20e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repositories/InstitutionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repositories/InstitutionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/RouteGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/services/RouteGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Resources/JSONParserFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Resources/JSONParserFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controllers/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controllers/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/Anexa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/Anexa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/BureaucraticProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/BureaucraticProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/Institution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/Institution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/InstitutionAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/InstitutionAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/TomTomMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/TomTomMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repositories/AnexeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repositories/AnexeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/repositories/InstitutionsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/repositories/InstitutionsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/AddAdminInstitutionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/AddAdminInstitutionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/AddAdminRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/AddAdminRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/ChangePasswordRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/ChangePasswordRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/DeleteCommentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/DeleteCommentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/DepartmentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/DepartmentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/GenerateRouteRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/GenerateRouteRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/GetFileLinkRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/GetFileLinkRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/InstitutionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/InstitutionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/RegistrationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/RegistrationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/ReviewRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/ReviewRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateDepartmentRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateDepartmentRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/UpdatePasswordRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/UpdatePasswordRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateProcessRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateProcessRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateProcesses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/requests/UpdateProcesses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/BureaucraticProcessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/BureaucraticProcessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/ChangePasswordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/ChangePasswordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/EmailSenderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/EmailSenderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/InstitutionsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/InstitutionsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/RegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/RegistrationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/ReviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/ReviewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/services/UserService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1snGRStSbcuGnDz4dPe9qldN52j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c107018e-db6c-4674-997e-5113ee76f20e" name="Default Changelist" comment="" />
+      <created>1621500932091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621500932091</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/services/RouteGenerator.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

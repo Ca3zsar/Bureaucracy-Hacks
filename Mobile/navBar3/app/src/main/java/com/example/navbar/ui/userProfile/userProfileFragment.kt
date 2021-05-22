@@ -16,9 +16,9 @@ import kotlinx.android.synthetic.main.fragment_user_profile.view.*
 class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
 
     private lateinit var profileViewModel: userProfileViewModel
-    var displayMessage: String? = ""
-    var displayMessage2: String? = "" //Name
-    var displayMessage3: String? = "" //Username
+    var name: String? = ""
+    var surname: String? = ""
+    var email: String? = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,12 +33,15 @@ class userProfileFragment : Fragment(R.layout.fragment_user_profile) {
         profileViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
-        displayMessage = arguments?.getString("message")
-        displayMessage2 = arguments?.getString("message2")
-        displayMessage3 = arguments?.getString("message3")
-        root.userProfileName.text = displayMessage2
-        root.userProfileSurname.text = displayMessage3
-        root.userProfileEmail.text = displayMessage
+        name = arguments?.getString("message")
+        surname = arguments?.getString("message2")
+        email = arguments?.getString("message3")
+        root.userName.text = name
+        root.userSurname.text = surname
+        root.userEmail.text = email
+//        root.userProfileName.text = displayMessage2
+//        root.userProfileSurname.text = displayMessage3
+//        root.userProfileEmail.text = displayMessage
         return root
     }
 

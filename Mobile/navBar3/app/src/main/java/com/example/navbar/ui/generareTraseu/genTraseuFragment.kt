@@ -65,7 +65,18 @@ class genTraseuFragment : Fragment() {
                     }
                 }
 
-                val spinner : Spinner = view.findViewById(R.id.traseuSp1)
+//                for(i in elements.indices) {
+//                    Log.d("Test: ", elements[i])
+//                }
+
+//                val spinnerTest : com.toptoche.searchablespinnerlibrary.SearchableSpinner = view.findViewById(R.id.spinner)
+//                val adapterTest : ArrayAdapter<String>
+//
+//                adapterTest = ArrayAdapter(view.context, android.R.layout.simple_spinner_item, elements)
+//                adapterTest.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+//                spinnerTest.adapter = adapterTest
+
+                val spinner : com.toptoche.searchablespinnerlibrary.SearchableSpinner = view.findViewById(R.id.traseuSp1)
                 val adapter : ArrayAdapter<String>
 
                 adapter = ArrayAdapter(view.context, android.R.layout.simple_spinner_item, elements)

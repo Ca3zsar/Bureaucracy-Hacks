@@ -65,7 +65,7 @@ class loginFragment : Fragment() {
             var continut1 = loginEmail.text.toString()
             var continut2 = loginPassword.text.toString()
 
-            comunicator = activity as Comunicator
+//            comunicator = activity as Comunicator
 
 
 
@@ -134,8 +134,8 @@ class loginFragment : Fragment() {
                         }
                     }
                     Log.d("Name", name + " " + username)
-                    comunicator = activity as Comunicator
-                    comunicator.passDataCom(loginEmail.text.toString(), name, username)
+//                    comunicator = activity as Comunicator
+//                    comunicator.passDataCom(loginEmail.text.toString(), name, username)
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     Toast.makeText(activity,continut1, Toast.LENGTH_LONG).show()

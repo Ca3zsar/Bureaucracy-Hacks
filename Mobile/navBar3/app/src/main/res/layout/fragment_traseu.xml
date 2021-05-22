@@ -25,7 +25,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titlu2"
         app:layout_constraintVertical_bias="0.989" />
 
-    <Spinner
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
         android:id="@+id/traseuSp1"
         style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
         android:layout_height="wrap_content"
@@ -48,6 +48,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible"/>
+
+<!--    <Spinner-->
+<!--        android:id="@+id/traseuSp1"-->
+<!--        style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_marginTop="330dp"-->
+<!--        android:animateLayoutChanges="true"-->
+<!--        android:background="#014f86"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:dropDownWidth="match_parent"-->
+<!--        android:fadeScrollbars="false"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:hapticFeedbackEnabled="false"-->
+<!--        android:padding="10dip"-->
+<!--        android:saveEnabled="false"-->
+<!--        android:scrollbarSize="100dp"-->
+<!--        android:spinnerMode="dialog"-->
+<!--        android:splitMotionEvents="false"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:visibility="visible"/>-->
 
     <Button
         android:id="@+id/grilaTraseu"
