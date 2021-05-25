@@ -158,6 +158,7 @@ public class AdminController {
     public String deleteInstitutionAdmin(@RequestBody AddAdminInstitutionRequest addAdminRequest) {
         if (!userRepository.findByEmail(addAdminRequest.getEmail()).isPresent())
             throw new IllegalStateException("User not found");
+        userService.makeNotAdmin(addAdminRequest.getEmail());
         int modifiedRows = userService.makeNotInstitutionAdmin(addAdminRequest.getInstitution(), userService.getUserInfo(addAdminRequest.getEmail()).getRegistrationId());
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("message", "User altered with success.");

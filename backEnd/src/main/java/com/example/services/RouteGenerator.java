@@ -124,7 +124,8 @@ public class RouteGenerator {
                 locations.addAll(copyCenters);
             }
 
-            List<Pair<Double, Double>> coordinates = getPath(latitude, longitude, locations);
+            Pair <List<Pair<Double, Double>>, List<String>> coordinates = getPath(latitude, longitude, locations);
+
             List<Office> offices =  new ArrayList<>();
             List<Office> officeList = officeRepository.getOfficeList().stream()
                     .filter(office ->office.getInstitution().equals(mainInstitution.get().getName())).collect(Collectors.toList());
@@ -132,15 +133,16 @@ public class RouteGenerator {
 
             if(offices.size() > 0)
             {
-               Pair<Double, Double> lastCoordinates = coordinates.get(coordinates.size()-1);
+               Pair<Double, Double> lastCoordinates = coordinates.getKey().get(coordinates.getKey().size()-1);
                Office lastInstitution = getNearestLocationToOffices(lastCoordinates.getValue(), lastCoordinates.getValue(),offices);
-               coordinates.add(new Pair<>(lastInstitution.getLatitude() , lastInstitution.getLongitude()));
+               coordinates.getKey().add(new Pair<>(lastInstitution.getLatitude() , lastInstitution.getLongitude()));
+               coordinates.getValue().add(lastInstitution.getName());
             }
             else
             {
-                coordinates.add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
+                coordinates.getKey().add(new Pair<>(mainInstitution.get().getLatitude(), mainInstitution.get().getLongitude()));
+                coordinates.getValue().add(mainInstitution.get().getName());
             }
-
 
             JsonObject jsonObject = new JsonObject();
             jsonObject.addProperty("type", "FeatureCollection");
@@ -150,7 +152,7 @@ public class RouteGenerator {
             addPoints(coordinates, jsonArray);
 
             //adding lines
-            addLines(coordinates, jsonArray);
+            addLines(coordinates.getKey(), jsonArray);
 
             jsonObject.add("features", jsonArray);
 
@@ -175,16 +177,12 @@ public class RouteGenerator {
 
             JsonObject response =  new JsonParser().parse(TomTomResponse).getAsJsonObject();
 
-
             JsonArray routes = response.getAsJsonArray("routes");
-
-
 
             output.addProperty("type", "Feature");
 
             JsonObject geometry = new JsonObject();
             geometry.addProperty("type", "LineString");
-
 
             JsonArray coords = new JsonArray();
 
@@ -198,7 +196,6 @@ public class RouteGenerator {
             JsonObject leg = legs.get(0).getAsJsonObject();
 
             JsonArray points = leg.get("points").getAsJsonArray();
-
 
             /// WARNING latitude logitude
             for (int i = 0; i < points.size(); i++) {
@@ -228,18 +225,30 @@ public class RouteGenerator {
        output.addProperty("distanceInMeters", distance);
     }
 
-    private void addPoints(List<Pair<Double, Double>> coordinates, JsonArray array) {
+    private void addPoints(Pair< List<Pair<Double, Double>>, List<String>> coordinates, JsonArray array) {
 
-        for (Pair<Double, Double> point : coordinates) {
+        List<Pair<Double, Double>> points = coordinates.getKey();
+        for (Pair<Double, Double> point : points) {
 
             JsonObject properties = new JsonObject();
-
-            if (point.equals(coordinates.get(coordinates.size()-1)))
+            int index = points.indexOf(point);
+            if (point.equals(coordinates.getKey().get(coordinates.getKey().size()-1)))
             {
                 properties.addProperty("marker-color", "#ff1414");
                 properties.addProperty("marker-size", "large");
                 properties.addProperty("marker-symbol" ,"");
+                index = points.indexOf(point);
+                properties.addProperty("name", coordinates.getValue().get(index) );
             }
+            else if (index > 0 )
+            {
+                properties.addProperty("name", coordinates.getValue().get(index) );
+            }
+            else
+            {
+                properties.addProperty("name", "Current location" );
+            }
+
             JsonObject mainObject = new JsonObject();
             mainObject.addProperty("type", "Feature");
             mainObject.add("properties", properties);
@@ -260,27 +269,31 @@ public class RouteGenerator {
         }
     }
 
-    private List<Pair<Double, Double>> getPath(double latitude, double longitude, List<Institution> list) {
+    private Pair< List<Pair<Double, Double>>, List<String> > getPath(double latitude, double longitude, List<Institution> list) {
         List<Pair<Double, Double>> output = new ArrayList<>();
         output.add(new Pair<>(latitude, longitude));
+        List<String> names = new ArrayList<>();
+        names.add("Current location");
 
         while (!list.isEmpty()) {
             Institution theNearestInstitution = getNearestLocation(latitude, longitude, list);
 
             if (!theNearestInstitution.getType().equals("institution")) {
                 output.add(new Pair<>(theNearestInstitution.getLatitude(), theNearestInstitution.getLongitude()));
+                names.add(theNearestInstitution.getName());
                 list = list
                         .stream()
                         .filter(institution -> !institution.getType().equals(theNearestInstitution.getType()))
                         .collect(Collectors.toList());
             } else {
                 output.add(new Pair<>(theNearestInstitution.getLatitude(), theNearestInstitution.getLongitude()));
+                names.add(theNearestInstitution.getName());
                 list.remove(theNearestInstitution);
             }
         }
-        System.out.println(output);
+//        System.out.println(output);
 
-        return output;
+        return new Pair<>(output,names);
     }
 
 

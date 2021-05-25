@@ -4,9 +4,13 @@ import com.example.models.*;
 import com.example.repositories.*;
 import com.example.requests.CommentRequest;
 import com.example.requests.ReviewRequest;
+import com.example.requests.UserSettingsRequest;
 import com.example.services.BureaucraticProcessService;
 import com.example.services.CommentService;
 import com.example.services.ReviewService;
+import com.example.services.UserService;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import lombok.AllArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -30,11 +34,13 @@ public class ClientRequestController {
     private DepartmentRepository departmentRepository;
     private ReviewRepository reviewRepository;
     private AnexeRepository anexeRepository;
+    private UserService userService;
 
     @RequestMapping(path = "/contact", method = {RequestMethod.POST, RequestMethod.GET})
     public String giveReview(@RequestBody ReviewRequest request) {
         return reviewService.giveReview(request);
     }
+
 
     @RequestMapping(path = "/**/feedbacks", method = {RequestMethod.POST, RequestMethod.GET})
     public String giveComment(HttpServletRequest process, @RequestBody CommentRequest request) {
@@ -57,15 +63,40 @@ public class ClientRequestController {
         JSONObject response = new JSONObject();
         for (Comment comment : commentRepository.findAll(searchTerm)) {
             JSONObject jsonObject = new JSONObject();
+            jsonObject.put("id", comment.getId());
+            jsonObject.put("comment", comment.getComment());
+            jsonObject.put("username", comment.getUser().getUsername());
+            jsonObject.put("show", comment.getShow());
+            jsonObject.put("day", comment.getDay());
+            jsonArray.put(jsonObject);
+        }
+        response.put("process", searchTerm);
+        response.put("comments", jsonArray);
+        return response.toString();
+    }
+    @RequestMapping(path = "/**/viewInstitutionFeedbacks", method = {RequestMethod.POST, RequestMethod.GET})
+    public String viewInstitutionFeedbacks(HttpServletRequest institution) {
+        String pattern = (String)
+                institution.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+        String searchTerm = new AntPathMatcher().extractPathWithinPattern(pattern,
+                institution.getServletPath());
+        searchTerm = searchTerm.substring(0, searchTerm.lastIndexOf("/"));
+        JSONArray jsonArray = new JSONArray();
+        JSONObject response = new JSONObject();
+        for (BureaucraticProcess bureaucraticProcess : bureaucraticProcessRepository.findByInstitutionId(institutionsRepository.findByName(searchTerm).get().getId())) {
+            for (Comment comment : commentRepository.findAll(bureaucraticProcess.getName())) {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put("process", comment.getProcess());
                 jsonObject.put("id", comment.getId());
                 jsonObject.put("comment", comment.getComment());
                 jsonObject.put("username", comment.getUser().getUsername());
                 jsonObject.put("show", comment.getShow());
                 jsonObject.put("day", comment.getDay());
                 jsonArray.put(jsonObject);
+            }
         }
-        response.put("process", searchTerm);
-        response.put("comments", jsonArray);
+        response.put("institution", institutionsRepository.findByName(searchTerm).get().getId());
+        response.put("feedbacks", jsonArray);
         return response.toString();
     }
 
@@ -129,11 +160,13 @@ public class ClientRequestController {
         for (Department department : departmentList) {
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("name", department.getName());
-            jsonObject.put("program", department.getProgram());
+            jsonObject.put("program", new JSONObject(department.getProgram()));
             jsonArray.put(jsonObject);
         }
         response.put("departments", jsonArray);
-        return response.toString();
+        String finalResponse = response.toString().replaceAll("\\\\n", " ");
+        finalResponse = finalResponse.replaceAll("\\\\\"", "\"");
+        return finalResponse;
     }
 
     @PostMapping(path = "getfilelink")
@@ -141,5 +174,11 @@ public class ClientRequestController {
     {
         JSONObject jsonObject = new JSONObject(fileName);
         return anexeRepository.getFileLink(jsonObject.getString("fileName"));
+    }
+
+    @PostMapping(path = "updatePersonalData")
+    public String updateSettings(@RequestBody UserSettingsRequest body){
+
+        return userService.addPersonalData(body);
     }
 }

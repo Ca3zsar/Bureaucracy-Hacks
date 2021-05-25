@@ -1,13 +1,16 @@
 package com.example.services;
 
-import com.example.models.ChangePassToken;
-import com.example.models.ConfirmToken;
-import com.example.models.InstitutionAdmin;
-import com.example.models.User;
+import com.example.models.*;
 import com.example.repositories.InstitutionAdminRepository;
 import com.example.repositories.InstitutionsRepository;
+import com.example.repositories.PersonalDataUsersRepository;
 import com.example.repositories.UserRepository;
+import com.example.requests.UserSettingsRequest;
+import com.example.resources.EncryptDecrypt;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import lombok.AllArgsConstructor;
+import net.sf.json.JSONObject;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -22,11 +25,13 @@ import java.util.UUID;
 public class UserService implements UserDetailsService {
 
     private final UserRepository userRepository;
+    private final PersonalDataUsersRepository personalDataUsersRepository;
     private final static String USER_NOT_FOUND = "user with email %s not found";
     private final BCryptPasswordEncoder passwordEncoder;
     private final ConfirmTokenService confirmTokenService;
     private final InstitutionAdminRepository institutionAdminRepository;
     private final InstitutionsRepository institutionsRepository;
+    private final EncryptDecrypt encryptDecrypt;
 
 
     @Override
@@ -112,5 +117,52 @@ public class UserService implements UserDetailsService {
         return institutionAdminRepository.makeNotInstitutionAdmin(institution, user);
     }
 
+    public String addPersonalData(UserSettingsRequest userSettingsRequest){
+        userRepository.updateSettings(userSettingsRequest.getName(),userSettingsRequest.getSurname(),userSettingsRequest.getEmail(), userSettingsRequest.getUserId());
 
+//        SET i.address=?1, i.phone=?2,i.ziNastere=?3, i.lunaNastere=?5, i.anNastere=?6,
+//        i.cnp = ?7, i.judet=?8, i.localitate=?9, i.numarBuletin=?10, i.serieBuletin=?11
+        if(personalDataUsersRepository.findByUser(userSettingsRequest.getUserId()) != 0) {
+            String encryptedCNP = encryptDecrypt.encrypt(userSettingsRequest.getCnp(), personalDataUsersRepository.getKey(userSettingsRequest.getUserId()));
+            String encryptedSerieBuletin = encryptDecrypt.encrypt(userSettingsRequest.getSerieBuletin(), personalDataUsersRepository.getKey(userSettingsRequest.getUserId()));
+            String encryptedNumarBuletin = encryptDecrypt.encrypt(userSettingsRequest.getNumarBuletin(), personalDataUsersRepository.getKey(userSettingsRequest.getUserId()));
+            personalDataUsersRepository.updatePersonalData(
+                    userSettingsRequest.getAddress(),
+                    userSettingsRequest.getPhone(),
+                    userSettingsRequest.getDataNastere(),
+                    userSettingsRequest.getUserId(),
+                    encryptedCNP,
+                    userSettingsRequest.getJudet(),
+                    userSettingsRequest.getLocalitate(),
+                    encryptedNumarBuletin,
+                    encryptedSerieBuletin
+            );
+        }
+        else
+        {
+//            Integer userId, String address, String serieBuletin, String numarBuletin, String cnp, String phone,
+//            String judet, String localitate, String ziNastere, String lunaNastere, String anNastere, String key
+            String key = UUID.randomUUID().toString();
+            String encryptedCNP = encryptDecrypt.encrypt(userSettingsRequest.getCnp(), key);
+            String encryptedSerieBuletin = encryptDecrypt.encrypt(userSettingsRequest.getSerieBuletin(), key);
+            String encryptedNumarBuletin = encryptDecrypt.encrypt(userSettingsRequest.getNumarBuletin(), key);
+            System.out.println(userSettingsRequest.getDataNastere());
+            personalDataUsersRepository.save( new PersonalDataUsers(
+                    userSettingsRequest.getUserId(),
+                    userSettingsRequest.getAddress(),
+                    encryptedSerieBuletin,
+                    encryptedNumarBuletin,
+                    encryptedCNP,
+                    userSettingsRequest.getPhone(),
+                    userSettingsRequest.getJudet(),
+                    userSettingsRequest.getLocalitate(),
+                    userSettingsRequest.getDataNastere(),
+                    key
+                    ));
+
+        }
+        JSONObject response = new JSONObject();
+        response.put("message", "Update successful");
+        return response.toString();
+    }
 }

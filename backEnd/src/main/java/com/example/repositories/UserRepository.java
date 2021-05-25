@@ -37,6 +37,11 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
     @Transactional
     @Modifying
+    @Query("UPDATE User a" + " set a.name = ?1, a.surname = ?2, a.email =?3 where a.registrationId=?4")
+    int updateSettings(String name, String surname, String email, Integer userId);
+
+    @Transactional
+    @Modifying
     @Query("UPDATE User a" + " set a.isAdmin = 0 where a.email=?1")
     int makeNotAdmin(String email);
 

@@ -78,7 +78,7 @@ public class CalculateStatistics {
         }
         String q11, q12, q13, q14, q15;
         String q21, q22, q23, q24, q25;
-        String q31, q32, q33, q34, q35;
+        JSONObject q31 = new JSONObject(), q32 = new JSONObject(), q33 = new JSONObject(), q34 = new JSONObject(), q35 = new JSONObject();
         String q41, q42, q43, q44, q45;
         int trueNb1 = 0, trueNb5 = 0, trueNb4 = 0, trueNb3 = 0, trueNb2 = 0;
         for (Boolean q1Answer : q1Answers1) {
@@ -196,40 +196,42 @@ public class CalculateStatistics {
             else if (Objects.equals("90+", q3Answer))
                 interval55++;
         }
-        q31 = "0-30: " + String.format("%.02f", q3Answers1.size() != 0 ? (double) interval11 * 100 / q3Answers1.size() : (double) 0) + "%, " +
-                "30-45: " + String.format("%.02f", q3Answers2.size() != 0 ? (double) interval21 * 100 / q3Answers1.size() : (double) 0) + "%, " +
-                "45-60: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval31 * 100 / q3Answers1.size() : (double) 0) + "%, " +
-                "60-90: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval41 * 100 / q3Answers1.size() : (double) 0) + "%, " +
-                "90+: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval51 * 100 / q3Answers1.size() : (double) 0) + "%";
+//        System.out.println(q3Answers3);
+//        System.out.println(q3Answers3.size() != 0);// ? (double) interval31 * 100 / q3Answers1.size() : (double) 0);
+        q31.put("0-30", String.format("%.02f", q3Answers1.size() != 0 ? (double) interval11 * 100 / q3Answers1.size() : (double) 0) + "%");
+        q31.put("30-45", String.format("%.02f", q3Answers1.size() != 0 ? (double) interval21 * 100 / q3Answers1.size() : (double) 0) + "%");
+        q31.put("45-60", String.format("%.02f", q3Answers1.size() != 0 ? (double) interval31 * 100 / q3Answers1.size() : (double) 0) + "%");
+        q31.put("60-90", String.format("%.02f", q3Answers1.size() != 0 ? (double) interval41 * 100 / q3Answers1.size() : (double) 0) + "%");
+        q31.put("90+", String.format("%.02f", q3Answers1.size() != 0 ? (double) interval51 * 100 / q3Answers1.size() : (double) 0) + "%");
 
         if (q1Answers2.size() != 0) {
-            q32 = "0-30: " + String.format("%.02f", (double) interval12 * 100 / q3Answers2.size()) + "%, " +
-                    "30-45: " + String.format("%.02f", (double) interval22 * 100 / q3Answers2.size()) + "%, " +
-                    "45-60: " + String.format("%.02f", (double) interval32 * 100 / q3Answers2.size()) + "%, " +
-                    "60-90: " + String.format("%.02f", (double) interval42 * 100 / q3Answers2.size()) + "%, " +
-                    "90+: " + String.format("%.02f", (double) interval52 * 100 / q3Answers2.size()) + "%";
+            q32.put("0-30", String.format("%.02f", (double) interval12 * 100 / q3Answers2.size()) + "%");
+            q32.put("30-45", String.format("%.02f", (double) interval22 * 100 / q3Answers2.size()) + "%");
+            q32.put("45-60", String.format("%.02f", (double) interval32 * 100 / q3Answers2.size()) + "%");
+            q32.put("60-90", String.format("%.02f", (double) interval42 * 100 / q3Answers2.size()) + "%");
+            q32.put("90+", String.format("%.02f", (double) interval52 * 100 / q3Answers2.size()) + "%");
         } else {
-            q32 = "0-30: " + String.format("%.02f", (double) 0) + "%, " +
-                    "30-45: " + String.format("%.02f", (double) 0) + "%, " +
-                    "45-60: " + String.format("%.02f", (double) 0) + "%, " +
-                    "60-90: " + String.format("%.02f", (double) 0) + "%, " +
-                    "90+: " + String.format("%.02f", (double) 0) + "%";
+            q32.put("0-30", String.format("%.02f", (double) 0) + "%");
+            q32.put("30-45", String.format("%.02f", (double) 0) + "%");
+            q32.put("45-60", String.format("%.02f", (double) 0) + "%");
+            q32.put("60-90", String.format("%.02f", (double) 0) + "%");
+            q32.put("90+", String.format("%.02f", (double) 0) + "%");
         }
-        q33 = "0-30: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval13 * 100 / q3Answers3.size() : (double) 0) + "%, " +
-                "30-45: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval23 * 100 / q3Answers3.size() : (double) 0) + "%, " +
-                "45-60: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval33 * 100 / q3Answers3.size() : (double) 0) + "%, " +
-                "60-90: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval43 * 100 / q3Answers3.size() : (double) 0) + "%, " +
-                "90+: " + String.format("%.02f", q3Answers3.size() != 0 ? (double) interval53 * 100 / q3Answers3.size() : (double) 0) + "%";
-        q34 = "0-30: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval14 * 100 / q3Answers4.size() : (double) 0) + "%, " +
-                "30-45: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval24 * 100 / q3Answers4.size() : (double) 0) + "%, " +
-                "45-60: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval34 * 100 / q3Answers4.size() : (double) 0) + "%, " +
-                "60-90: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval44 * 100 / q3Answers4.size() : (double) 0) + "%, " +
-                "90+: " + String.format("%.02f", q3Answers4.size() != 0 ? (double) interval54 * 100 / q3Answers4.size() : (double) 0) + "%";
-        q35 = "0-30: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval15 * 100 / q3Answers5.size() : (double) 0) + "%, " +
-                "30-45: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval25 * 100 / q3Answers5.size() : (double) 0) + "%, " +
-                "45-60: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval35 * 100 / q3Answers5.size() : (double) 0) + "%, " +
-                "60-90: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval45 * 100 / q3Answers5.size() : (double) 0) + "%, " +
-                "90+: " + String.format("%.02f", q3Answers5.size() != 0 ? (double) interval55 * 100 / q3Answers5.size() : (double) 0) + "%";
+        q33.put("0-30", String.format("%.02f", q3Answers3.size() != 0 ? (double) interval13 * 100 / q3Answers3.size() : (double) 0) + "%");
+        q33.put("30-45", String.format("%.02f", q3Answers3.size() != 0 ? (double) interval23 * 100 / q3Answers3.size() : (double) 0) + "%");
+        q33.put("45-60", String.format("%.02f", q3Answers3.size() != 0 ? (double) interval33 * 100 / q3Answers3.size() : (double) 0) + "%");
+        q33.put("60-90", String.format("%.02f", q3Answers3.size() != 0 ? (double) interval43 * 100 / q3Answers3.size() : (double) 0) + "%");
+        q33.put("90+", String.format("%.02f", q3Answers3.size() != 0 ? (double) interval53 * 100 / q3Answers3.size() : (double) 0) + "%");
+        q34.put("0-30", String.format("%.02f", q3Answers4.size() != 0 ? (double) interval14 * 100 / q3Answers4.size() : (double) 0) + "%");
+        q34.put("30-45", String.format("%.02f", q3Answers4.size() != 0 ? (double) interval24 * 100 / q3Answers4.size() : (double) 0) + "%");
+        q34.put("45-60", String.format("%.02f", q3Answers4.size() != 0 ? (double) interval34 * 100 / q3Answers4.size() : (double) 0) + "%");
+        q34.put("60-90", String.format("%.02f", q3Answers4.size() != 0 ? (double) interval44 * 100 / q3Answers4.size() : (double) 0) + "%");
+        q34.put("90+", String.format("%.02f", q3Answers4.size() != 0 ? (double) interval54 * 100 / q3Answers4.size() : (double) 0) + "%");
+        q35.put("0-30", String.format("%.02f", q3Answers5.size() != 0 ? (double) interval15 * 100 / q3Answers5.size() : (double) 0) + "%");
+        q35.put("30-45", String.format("%.02f", q3Answers5.size() != 0 ? (double) interval25 * 100 / q3Answers5.size() : (double) 0) + "%");
+        q35.put("45-60", String.format("%.02f", q3Answers5.size() != 0 ? (double) interval35 * 100 / q3Answers5.size() : (double) 0) + "%");
+        q35.put("60-90", String.format("%.02f", q3Answers5.size() != 0 ? (double) interval45 * 100 / q3Answers5.size() : (double) 0) + "%");
+        q35.put("90+", String.format("%.02f", q3Answers5.size() != 0 ? (double) interval55 * 100 / q3Answers5.size() : (double) 0) + "%");
         int sumQ41 = 0, sumQ42 = 0, sumQ43 = 0, sumQ44 = 0, sumQ45 = 0;
         for (Integer q4Answer : q4Answers1) {
             sumQ41 += q4Answer;

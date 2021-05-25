@@ -19,6 +19,9 @@ public interface BureaucraticProcessRepository extends JpaRepository<Bureaucrati
     @Query("Select b from BureaucraticProcess b")
     List<BureaucraticProcess> getProcessesList();
 
+    @Query("Select b from BureaucraticProcess b where b.institution = ?1")
+    List<BureaucraticProcess> findByInstitutionId(Integer institution);
+
     @Transactional
     @Modifying
     @Query("UPDATE BureaucraticProcess b " + "SET b.name = ?1, b.institution=?2,b.usefulInformation=?3 " + "WHERE b.name = ?4")
