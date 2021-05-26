@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.SALUBRIS.SalubrisRepository
 
 import com.example.navbar.ui.institutions.SALUBRIS.SalubrisApi.SalubrisRetrofitInstance
 import com.example.navbar.ui.institutions.SALUBRIS.SalubrisModel.SalubrisPost
-import com.example.navbar.ui.institutions.SALUBRIS.SalubrisModel.SalubrisProcesses
 import retrofit2.Response
 
 class SalubrisRepository {
@@ -11,7 +10,7 @@ class SalubrisRepository {
         return SalubrisRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<SalubrisProcesses>> {
-        return SalubrisRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return SalubrisRetrofitInstance.api2.getProcessesListPost()
     }
 }

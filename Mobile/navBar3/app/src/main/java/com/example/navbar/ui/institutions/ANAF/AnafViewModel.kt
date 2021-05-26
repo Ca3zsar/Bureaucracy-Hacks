@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.navbar.ui.institutions.ANAF.AnafModel.AnafPost
-import com.example.navbar.ui.institutions.ANAF.AnafModel.AnafProcesses
 import com.example.navbar.ui.institutions.ANAF.AnafRepository.AnafRepository
 import kotlinx.coroutines.launch
 import retrofit2.Response
@@ -12,7 +11,7 @@ import retrofit2.Response
 class AnafViewModel(private val repository: AnafRepository): ViewModel() {
 
     val myResponse: MutableLiveData<Response<AnafPost>> = MutableLiveData()
-    val myResponse2: MutableLiveData<List<Response<AnafProcesses>>> = MutableLiveData()
+    val myResponse2: MutableLiveData<List<Map<String, String>>> = MutableLiveData()
 
     fun getPost() {
         viewModelScope.launch {

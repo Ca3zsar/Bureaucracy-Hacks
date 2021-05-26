@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.navbar.ui.institutions.DASI.DasiModel.DasiPost
-import com.example.navbar.ui.institutions.DASI.DasiModel.DasiProcesses
 import com.example.navbar.ui.institutions.DASI.DasiRepository.DasiRepository
 import kotlinx.coroutines.launch
 import retrofit2.Response
@@ -12,7 +11,7 @@ import retrofit2.Response
 class DasiViewModel (private val repository: DasiRepository): ViewModel() {
 
     val myResponse: MutableLiveData<Response<DasiPost>> = MutableLiveData()
-    val myResponse2: MutableLiveData<List<Response<DasiProcesses>>> = MutableLiveData()
+    val myResponse2: MutableLiveData<List<Map<String, String>>> = MutableLiveData()
 
     fun getPost() {
         viewModelScope.launch {

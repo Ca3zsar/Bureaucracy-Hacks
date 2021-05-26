@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.DLEPI.DLEPIRepository
 
 import com.example.navbar.ui.institutions.DLEPI.DLEPIApi.DLEPIRetrofitInstance
 import com.example.navbar.ui.institutions.DLEPI.DLEPIModel.DLEPIPost
-import com.example.navbar.ui.institutions.DLEPI.DLEPIModel.DlepiProcesses
 import retrofit2.Response
 
 class DLEPIRepository {
@@ -11,7 +10,7 @@ class DLEPIRepository {
         return DLEPIRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<DlepiProcesses>> {
-        return DLEPIRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return DLEPIRetrofitInstance.api2.getProcessesListPost()
     }
 }

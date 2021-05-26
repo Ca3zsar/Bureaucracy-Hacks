@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.IPJI.IPJIRepository
 
 import com.example.navbar.ui.institutions.IPJI.IPJIApi.IPJIRetrofitInstance
 import com.example.navbar.ui.institutions.IPJI.IPJIModel.IPJIPost
-import com.example.navbar.ui.institutions.IPJI.IPJIModel.IpjiProcesses
 import retrofit2.Response
 
 class IPJIRepository {
@@ -11,7 +10,7 @@ class IPJIRepository {
         return IPJIRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<IpjiProcesses>> {
-        return IPJIRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return IPJIRetrofitInstance.api2.getProcessesListPost()
     }
 }

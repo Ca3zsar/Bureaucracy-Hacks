@@ -73,5 +73,21 @@ class IPJI: AppCompatActivity() {
 
         val titlu : TextView = findViewById(R.id.titluInstitutie)
         titlu.text = "Inspectoratul de Poliție Județean Iași (IPJI)"
+
+        viewModel.getProcessesListPost()
+        viewModel.myResponse2.observe(this, Observer { response2 ->
+            if (response2.isEmpty()) {
+                Log.d("Response", "Procese indisponibile!")
+            }
+            else {
+                Log.d("asd" ,response2.toString())
+                val procese : TextView = findViewById(R.id.procese)
+                procese.setText(R.string.procese_institutii)
+                for (element in response2) {
+                    val proces = element.getValue("name").toString()
+                    procese.append("\u25BA $proces\n\n")
+                }
+            }
+        })
     }
 }

@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.CJASI.CjasiRepostitory
 
 import com.example.navbar.ui.institutions.CJASI.CjasiApi.CjasiRetrofitInstance
 import com.example.navbar.ui.institutions.CJASI.CjasiModel.CjasiPost
-import com.example.navbar.ui.institutions.CJASI.CjasiModel.CjasiProcesses
 import retrofit2.Response
 
 class CjasiRepository {
@@ -10,7 +9,7 @@ class CjasiRepository {
         return CjasiRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<CjasiProcesses>> {
-        return CjasiRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return CjasiRetrofitInstance.api2.getProcessesListPost()
     }
 }

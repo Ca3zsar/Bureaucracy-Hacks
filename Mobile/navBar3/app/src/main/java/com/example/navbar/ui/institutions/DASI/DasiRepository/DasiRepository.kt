@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.DASI.DasiRepository
 
 import com.example.navbar.ui.institutions.DASI.DasiApi.DasiRetrofitInstance
 import com.example.navbar.ui.institutions.DASI.DasiModel.DasiPost
-import com.example.navbar.ui.institutions.DASI.DasiModel.DasiProcesses
 import retrofit2.Response
 
 class DasiRepository {
@@ -11,7 +10,7 @@ class DasiRepository {
         return DasiRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<DasiProcesses>> {
-        return DasiRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return DasiRetrofitInstance.api2.getProcessesListPost()
     }
 }

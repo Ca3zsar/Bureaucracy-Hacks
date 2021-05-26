@@ -2,7 +2,6 @@ package com.example.navbar.ui.institutions.DGpP.DGpPRepository
 
 import com.example.navbar.ui.institutions.DGpP.DGpPApi.DGpPRetrofitInstance
 import com.example.navbar.ui.institutions.DGpP.DGpPModel.DGpPPost
-import com.example.navbar.ui.institutions.DGpP.DGpPModel.DgppProcesses
 import retrofit2.Response
 
 class DGpPRepository {
@@ -11,7 +10,7 @@ class DGpPRepository {
         return DGpPRetrofitInstance.api.getPost()
     }
 
-    suspend fun getProcessesListPost(): List<Response<DgppProcesses>> {
-        return DGpPRetrofitInstance.api.getProcessesListPost()
+    suspend fun getProcessesListPost(): List<Map<String, String>> {
+        return DGpPRetrofitInstance.api2.getProcessesListPost()
     }
 }

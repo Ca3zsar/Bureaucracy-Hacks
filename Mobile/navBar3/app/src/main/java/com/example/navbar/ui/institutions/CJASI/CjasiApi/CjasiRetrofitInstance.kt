@@ -13,7 +13,18 @@ object CjasiRetrofitInstance {
                 .build()
     }
 
+    private val retrofit2 by lazy {
+        Retrofit.Builder()
+            .baseUrl(CjasiConstants.BASE_URL2)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
     val api : CjasiSimpleApi by lazy {
         retrofit.create(CjasiSimpleApi::class.java)
+    }
+
+    val api2 : CjasiSimpleApi by lazy {
+        retrofit2.create(CjasiSimpleApi::class.java)
     }
 }

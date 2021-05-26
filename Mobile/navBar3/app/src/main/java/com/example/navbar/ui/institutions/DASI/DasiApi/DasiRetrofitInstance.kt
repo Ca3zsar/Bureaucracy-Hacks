@@ -12,7 +12,18 @@ object DasiRetrofitInstance {
                 .build()
     }
 
+    private val retrofit2 by lazy {
+        Retrofit.Builder()
+            .baseUrl(DasiConstants.BASE_URL2)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
     val api : DasiSimpleApi by lazy {
         retrofit.create(DasiSimpleApi::class.java)
+    }
+
+    val api2 : DasiSimpleApi by lazy {
+        retrofit2.create(DasiSimpleApi::class.java)
     }
 }
