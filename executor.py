@@ -15,7 +15,7 @@ from queue import Queue
 
 VERSION = 0
 
-moduleNames = ["ANAF","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
+moduleNames = ["ANAF","CCI","CNAS","DGASPC","DAC","DLEP","IPJ","Pasapoarte","Pensii",
                "Primarie","SalubrIS"]
 FILES = []
 
