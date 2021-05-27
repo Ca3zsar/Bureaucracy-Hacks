@@ -85,7 +85,7 @@ def downloadFiles(urls):
         parsed = urlparse(url)
         fileName = os.path.basename(parsed.path)
         
-        with open(f"{acte}/Primaria Iasi_{fileName}","wb") as file:
+        with open(f"{acte}/Primăria Iași_{fileName}","wb") as file:
             response= requests.get(url)
             file.write(response.content)
         

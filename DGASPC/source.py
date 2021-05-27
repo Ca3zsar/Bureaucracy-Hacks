@@ -52,7 +52,7 @@ def go_spider_scrapping(url,document_director, fileName):
             title = link_for_download.split('/')[-1]
             title = title.replace('%20',' ')
             
-            path = os.path.join(path,f'Directia Generala de Asistenta Sociala si Protectia Copilului Iasi_{title}')
+            path = os.path.join(path,f'Direcția Generală de Asistență Socială și Protecția Copilului Iași_{title}')
             with open(path, 'wb') as file: 
                         response= requests.get(link_for_download)
                         file.write(response.content)
