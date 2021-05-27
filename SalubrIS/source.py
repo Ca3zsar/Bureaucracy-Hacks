@@ -83,7 +83,7 @@ def downloadForms():
     for i in paperLinks:
         response = urllib.request.urlopen(i)
         # fileName = f"{filesName[index]}.pdf" 
-        fileName = f"Salubris_Anexa{index}.pdf" 
+        fileName = f"SalubrIS_Anexa{index}.pdf" 
         index += 1
 
         file = open(f"{fileName}", "wb")
