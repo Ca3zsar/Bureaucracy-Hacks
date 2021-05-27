@@ -6,6 +6,8 @@ from executor import refresh_info, get_files_list, add_to_S3
 import check_diff
 import auto_complete
 from datetime import datetime
+from urllib.parse import unquote
+from urllib.parse import quote
 
 from rq import Queue
 from rq.job import Job
@@ -71,9 +73,12 @@ def get_results(job_key):
 def complete_file():
     information = request.json
     fileURL = information["url"]
+    unquoted = fileURL
+    fileURL = unquote(fileURL)
     
     fileName = fileURL.split('/')[-1]
     fileName = fileName.replace('+',' ')
+    print(fileName)
     
     today = datetime.today()
     information["zi_curenta"] = today.day
@@ -88,19 +93,21 @@ def complete_file():
         
     
     found = 0
-    with open("annotated.txt","r") as file:
-        content = [file.strip() for file in file.readlines()]
+    with open("annotated.txt","r",encoding="utf-8") as file:
+        content = [oneFile.strip() for oneFile in file.readlines()]
         content = [line.lower() for line in content]
+        print(content)
         if fileName.lower() in content:
             found = 1
     
+
     if not found:
-        return fileURL
+        return unquoted
     else:
-        information.pop("file_url")
+        information.pop("url")
         newFileName = f"Annotated_{information['nume']}_{information['prenume']}_{fileName}"
         
-        result = requests.get(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/Annotated/{fileName}")
+        result = requests.get(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/Annotated/{quote(fileName)}")
         with open(fileName,"wb") as file:
             file.write(result.content)
         
