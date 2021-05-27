@@ -136,7 +136,7 @@ def get_files_list(url):
 
 def main():
     modules = import_modules()    
-    for module in modules:
+    for module in modules[4:5]:
         try:
             print(f"Executing module : {module.__name__}")
             module.main()

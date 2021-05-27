@@ -67,24 +67,25 @@ def fillContent(sufix, section):
 
 def downloadHrefs(sufix, soup):
     for a in soup.select('.art-article p a'):
-    
-        toDownload = a['href']
-        
-        if toDownload.find("pdf") == -1:
-            continue;
-        
-        if toDownload.startswith("/"):
-            toDownload = root + toDownload
-        
-        baseName = os.path.basename(toDownload)
-
         try:
-            req = requests.get(toDownload, allow_redirects=True)
-            # print(baseName)
-            open(f"{acte}/Directia de Asistenta Sociala Iasi_{baseName}", 'wb').write(req.content)
-        except requests.ConnectionError:
-            pass
+            toDownload = a['href']
+            
+            if toDownload.find("pdf") == -1:
+                continue;
+            
+            if toDownload.startswith("/"):
+                toDownload = root + toDownload
+            
+            baseName = os.path.basename(toDownload)
 
+            try:
+                req = requests.get(toDownload, allow_redirects=True)
+                # print(baseName)
+                open(f"{acte}/Directia de Asistenta Sociala Iasi_{baseName}", 'wb').write(req.content)
+            except requests.ConnectionError:
+                pass
+        except:
+            pass
 
 def getResources():
     for sufix in sufixes:
