@@ -5,6 +5,7 @@ import requests
 from executor import refresh_info, get_files_list, add_to_S3
 import check_diff
 import auto_complete
+from datetime import datetime
 
 from rq import Queue
 from rq.job import Job
@@ -69,12 +70,22 @@ def get_results(job_key):
 @app.route("/complete-file/",methods=["POST"])
 def complete_file():
     information = request.json
-    fileURL = information["file_url"]
+    fileURL = information["url"]
     
     fileName = fileURL.split('/')[-1]
     fileName = fileName.replace('+',' ')
     
-    print(fileName)
+    today = datetime.today()
+    information["zi_curenta"] = today.day
+    information["luna_curenta"] = today.month
+    information["an_curent"] = today.year    
+    
+    if "dataNastere" in information:
+        info = information["dataNastere"].split('-');
+        information["zi_nastere"] = info[2]
+        information["luna_nastere"] = info[1]
+        information["an_nastere"] = info[0]
+        
     
     found = 0
     with open("annotated.txt","r") as file:
