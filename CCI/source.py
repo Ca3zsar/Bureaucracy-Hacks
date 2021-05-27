@@ -64,11 +64,11 @@ def getData(var):
             cci_text+=row+" | "
         cci_text+="\n" + sep + "\n"
 
-    with open(f"{director}\\Camera de Comerț și Industrie Iași.txt", "w", encoding="utf-8") as file:
+    with open(f"{director}\\Camera de Comert si Industrie Iasi.txt", "w", encoding="utf-8") as file:
         file.write(cci_text)
 
     #writing content to .html file in HTMLFiles
-    with open(f"{HTMLFiles}\\Camera de Comerț și Industrie Iași.txt.html", "w", encoding="utf-8") as file:
+    with open(f"{HTMLFiles}\\Camera de Comert si Industrie Iasi.html", "w", encoding="utf-8") as file:
         file.write(str(new_html))
 
     #download file

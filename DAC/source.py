@@ -81,7 +81,7 @@ def downloadHrefs(sufix, soup):
         try:
             req = requests.get(toDownload, allow_redirects=True)
             # print(baseName)
-            open(f"{acte}/Direcția de Asistență Socială Iași_{baseName}", 'wb').write(req.content)
+            open(f"{acte}/Directia de Asistenta Sociala Iasi_{baseName}", 'wb').write(req.content)
         except requests.ConnectionError:
             pass
 

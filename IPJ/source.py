@@ -68,7 +68,7 @@ def downloadPoliceDocuments():
 
             parsed = urlparse(data["href"])
             something, extension = os.path.splitext(parsed.path)
-            fileName = f"Inspectoratul de Poliție Județean Iași_{folders[cont]}_Anexa{index}{extension}"
+            fileName = f"Inspectoratul de Politie Judetean Iasi_{folders[cont]}_Anexa{index}{extension}"
             index += 1
             
             file = open(f"{acte}/{fileName}", "wb")
@@ -94,7 +94,7 @@ def downloadPoliceDocuments():
         parsed = urlparse(link)
         something, extension = os.path.splitext(parsed.path)
         
-        fileName = f"Inspectoratul de Poliție Județean Iași_arme_explozivi_Anexa{index}{extension}"
+        fileName = f"Inspectoratul de Politie Judetean Iasi_arme_explozivi_Anexa{index}{extension}"
         index += 1
             
         file = open(f"{acte}/{fileName}", "wb")

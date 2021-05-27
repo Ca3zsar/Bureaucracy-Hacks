@@ -47,7 +47,7 @@ def downloadHrefs(soup):
 
         req = requests.get(toDownload, allow_redirects=True)
 
-        open(f"{acte}/Casa Județeană de Pensii Iași_{baseName}", 'wb').write(req.content)
+        open(f"{acte}/Casa Judeteana de Pensii Iasi_{baseName}", 'wb').write(req.content)
 
 
 def main():
