@@ -104,17 +104,20 @@ def complete_file():
     if not found:
         return unquoted
     else:
-        information.pop("url")
-        newFileName = f"Annotated_{information['nume']}_{information['prenume']}_{fileName}"
-        
-        result = requests.get(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/Annotated/{quote(fileName)}")
-        with open(fileName,"wb") as file:
-            file.write(result.content)
-        
-        auto_complete.update_form_values(fileName, newFileName,information)
-        
-        links = add_to_S3([newFileName],'Annotated')
-        return links[0]
+        try:
+            information.pop("url")
+            newFileName = f"Annotated_{information['nume']}_{information['prenume']}_{fileName}"
+            
+            result = requests.get(f"https://bureaucracy-files.s3.eu-central-1.amazonaws.com/Annotated/{quote(fileName)}")
+            with open(fileName,"wb") as file:
+                file.write(result.content)
+            
+            auto_complete.update_form_values(fileName, newFileName,information)
+            
+            links = add_to_S3([newFileName],'Annotated')
+            return links[0]
+        except:
+            return unquoted
 
     return 1    
 
