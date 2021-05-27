@@ -5,7 +5,7 @@ import com.example.navbar.ui.feedback.feedbackModel.feedbackPost
 import retrofit2.Response
 
 class fdbRepository {
-    suspend fun pushPost(post : feedbackPost): Response<feedbackPost> {
+    suspend fun pushPost(post : feedbackPost): Response<Map<String, String>> {
         return feedbackRetrofitInstance.api.pushPost(post)
     }
 }

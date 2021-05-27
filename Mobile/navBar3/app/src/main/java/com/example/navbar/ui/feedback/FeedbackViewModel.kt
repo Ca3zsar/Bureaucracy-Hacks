@@ -17,7 +17,7 @@ class FeedbackViewModel(private val feedbackRepository: fdbRepository) : ViewMod
     }
     val text: LiveData<String> = _text
 
-    val myResponse: MutableLiveData<Response<feedbackPost>> = MutableLiveData()
+    val myResponse: MutableLiveData<Response<Map<String, String>>> = MutableLiveData()
 
     fun pushPost(post : feedbackPost) {
         viewModelScope.launch {

@@ -10,8 +10,8 @@ interface feedbackSimpleApi {
     @GET("posts/1")
     suspend fun getPost(): Response<feedbackPost>
 
-    @POST("https://bureaucracyhackshostat.herokuapp.com/user/Innoire buletin/feedbacks/")
+    @POST("https://bureaucracyhackshostat.herokuapp.com/user/Analiza documentara deconturi de tva cu optiune de rambursare/feedbacks")
     suspend fun pushPost(
         @Body post : feedbackPost
-    ): Response<feedbackPost>
+    ): Response<Map<String, String>>
 }
