@@ -34,34 +34,6 @@ class changePasswordFragment : Fragment() {
         passwordViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
-
-        /**
-        val myPost = Post("mgabriela001@yahoo.com", "password", "password")
-        passwordViewModel.pushPost(myPost)
-        passwordViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
-            if (response.isSuccessful) {
-                Log.d("Response", response.body()?.userEmail.toString())
-                textView.text = response.body()?.userEmail.toString()
-                Log.d("Response", response.body()?.userNewPassword.toString())
-                Log.d("Response", response.body()?.userConfirmNewPassword.toString())
-                Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-                Log.d("Response", response.code().toString())
-
-                //Log.d("Response", response.body()?.myUserId.toString())
-                //Log.d("Response", response.body()?.id.toString())
-                //Log.d("Response", response.body()?.title.toString())
-                //textView.text = response.body()?.title!!
-                //Log.d("Response", response.body()?.body.toString())
-                //Log.d("Response", response.code().toString())
-                //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-
-            } else {
-                Log.d("Response", response.errorBody().toString())
-                textView.text = response.code().toString()
-                Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-            }
-        })
-        */
         return root
     }
 
@@ -88,9 +60,7 @@ class changePasswordFragment : Fragment() {
                 textBox3.error = "Introdu noua parolă!"
             } else {
                 if (continut2 == continut3 && continut2.isNotEmpty() && continut1.isNotEmpty()) {
-                    //val nextFrag = HomeFragment()
                     Toast.makeText(activity, "Parolă schimbată cu succes", Toast.LENGTH_LONG).show()
-                    //activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
                 } else {
                     Toast.makeText(activity, "Parolele nu coincid!", Toast.LENGTH_LONG).show()
                 }
@@ -102,30 +72,18 @@ class changePasswordFragment : Fragment() {
             val textView = view.findViewById<TextView>(R.id.text_changePassword)
 
             val myPost = changePasswordPost("agachi.eusebiu@yahoo.com", "password", "password")
-            //val myPost = changePasswordPost(email = continut1, newPassword = continut2, confirmNewPassword = continut3)
             passwordViewModel.pushPost(myPost)
             passwordViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
+                    Toast.makeText(activity, "Parola a fost schimbata cu succes!", Toast.LENGTH_SHORT).show()
                     Log.d("Response", response.body()?.email.toString())
                     textView.text = response.body()?.email.toString()
                     Log.d("Response", response.body()?.newPassword.toString())
                     Log.d("Response", response.body()?.confirmNewPassword.toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                     Log.d("Response", response.code().toString())
-
-                    //Log.d("Response", response.body()?.myUserId.toString())
-                    //Log.d("Response", response.body()?.id.toString())
-                    //Log.d("Response", response.body()?.title.toString())
-                    //textView.text = response.body()?.title!!
-                    //Log.d("Response", response.body()?.body.toString())
-                    //Log.d("Response", response.code().toString())
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     textView.text = response.code().toString()
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-                    Toast.makeText(activity, continut1, Toast.LENGTH_LONG).show()
                 }
             })
 

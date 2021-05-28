@@ -21,9 +21,6 @@ class FeedbackFragment : Fragment() {
     private lateinit var feedbackViewModel: FeedbackViewModel
     private lateinit var username: String
     private lateinit var comment: String
-    /*private lateinit var q1: Boolean
-    private lateinit var q2: Int
-    private lateinit var q3: String*/
 
 
     var process : String = ""
@@ -80,14 +77,13 @@ class FeedbackFragment : Fragment() {
             val rbar = view.findViewById<RatingBar>(R.id.rBarFeedback)
             var continut6 = rbar.rating.toInt()
 
-            /**/
             val languages = resources.getStringArray(R.array.servicii)
             val languages2 = resources.getStringArray(R.array.institutii)
             val languagessp1 = resources.getStringArray(R.array.q1FeedbackStrings)
             val languagessp2 = resources.getStringArray(R.array.q2FeedbackStrings)
             val languagessp3 = resources.getStringArray(R.array.q3FeedbackStrings)
 
-            //val spinner1 = view.findViewById<Spinner>(R.id.q1Feedback_Sp)
+
             if (spinner1 != null){
                 val adapter = ArrayAdapter<String>(view.context,
                     android.R.layout.simple_spinner_item, languagessp1)
@@ -104,16 +100,13 @@ class FeedbackFragment : Fragment() {
                         position: Int,
                         id: Long
                     ) {
-                        Toast.makeText(activity, getString(R.string.selected_item) + " "
-                                + languagessp1[position], Toast.LENGTH_SHORT).show();
                         Log.d("test", languagessp1[position])
                         continut32 = languagessp1[position]=="Da"
                     }
                 }
             }
 
-            /**/
-            //val spinner2 = view.findViewById<Spinner>(R.id.q2Feedback_Sp)
+
             if (spinner2 != null){
                 val adapter = ArrayAdapter<String>(view.context,
                     android.R.layout.simple_spinner_item, languagessp2)
@@ -130,16 +123,13 @@ class FeedbackFragment : Fragment() {
                         position: Int,
                         id: Long
                     ) {
-                        Toast.makeText(activity, getString(R.string.selected_item) + " "
-                                + languagessp2[position], Toast.LENGTH_SHORT).show();
                         Log.d("test", languagessp2[position])
                         continut42 = languagessp2[position].first().toInt()
                     }
                 }
             }
 
-            /**/
-            //val spinner3 = view.findViewById<Spinner>(R.id.q3Feedback_Sp)
+
             if (spinner3 != null){
                 val adapter = ArrayAdapter<String>(view.context,
                     android.R.layout.simple_spinner_item, languagessp3)
@@ -156,8 +146,6 @@ class FeedbackFragment : Fragment() {
                         position: Int,
                         id: Long
                     ) {
-                        Toast.makeText(activity, getString(R.string.selected_item) + " "
-                                + languagessp3[position], Toast.LENGTH_SHORT).show();
                         Log.d("test", languagessp3[position])
                         continut5 = languagessp3[position].toString()
                         continut5 = continut5.replace("minute", "")
@@ -166,13 +154,11 @@ class FeedbackFragment : Fragment() {
                 }
             }
 
-            /**/
-            //val rbar = view.findViewById<RatingBar>(R.id.rBarFeedback)
+
             if (rbar != null){
                 rbar.setOnRatingBarChangeListener (object :
                     RatingBar.OnRatingBarChangeListener {
                     override fun onRatingChanged(p0: RatingBar?, p1: Float, p2: Boolean) {
-                        Toast.makeText(requireActivity(), "Rating: $p1", Toast.LENGTH_SHORT).show()
                         Log.d("test", p1.toString())
                         continut6 = p1.toInt()
                     }
@@ -200,21 +186,15 @@ class FeedbackFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_feedback)
 
-            /**/
             val myPost = feedbackPost(username = continut1, comment = continut2, q1 = continut32 as Boolean, q2 = 1 as Int, q3 = "0-30", q4 = continut6)
-            Toast.makeText(activity, continut1+" "+ continut2+ " "+ continut32 + " " + continut42 +" "+ continut5 + " "+ continut6, Toast.LENGTH_LONG).show()
-            //val myPost = feedbackPost(username = continut1, comment = continut2)
             feedbackViewModel.pushPost(myPost)
             feedbackViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
-                    //Log.d("Response", response.body()?
-                    //.d("Response", response.body()?
                     Log.d("Response", response.code().toString())
 
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     textView.setText(response.code().toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                 }
             })
 

@@ -74,7 +74,8 @@
             android:textColor="#03045e"
             android:textSize="30sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="100dp"
+
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_userProfile" />
@@ -107,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:gravity="center"
-            android:text="Prenume"
+            android:text="Username"
             android:textColor="@color/black"
             android:textSize="18dp"
             app:layout_constraintStart_toEndOf="@+id/userProfileIconName"

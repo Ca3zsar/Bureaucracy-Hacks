@@ -54,9 +54,7 @@ class contactFragment : Fragment() {
                 textBox2.error = "Introdu mesajul!"
             } else {
                 if (continut2.isNotEmpty() && continut1.isNotEmpty()) {
-                    //val nextFrag = HomeFragment()
                     Toast.makeText(activity, "Mesajul tau a fost trimis!", Toast.LENGTH_LONG).show()
-                    //activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
                 } else {
                     Toast.makeText(activity, "A aparut o problema!", Toast.LENGTH_LONG).show()
                 }
@@ -68,21 +66,15 @@ class contactFragment : Fragment() {
             val textView = view.findViewById<TextView>(R.id.text_contact)
 
             val myPost = contactPost("Gigi", "test", 5)
-            //val myPost = contactPost(username = continut1, comment = continut2, rating = continut3)
             cntViewModel.pushPost(myPost)
             cntViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
-                    //Log.d("Response", response.body()?.username.toString())
                     textView.text = response.body()?.username.toString()
-                    //Log.d("Response", response.body()?.comment.toString())
-                    //Log.d("Response", response.body()?.rating.toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
+                    Toast.makeText(activity, "Mesaj trimis cu succes!", Toast.LENGTH_SHORT).show()
                     Log.d("Response", response.code().toString())
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     textView.text = response.code().toString()
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-                    Toast.makeText(activity, continut1, Toast.LENGTH_LONG).show()
                 }
             })
         }

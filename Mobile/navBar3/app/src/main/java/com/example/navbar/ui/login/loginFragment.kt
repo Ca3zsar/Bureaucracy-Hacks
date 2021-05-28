@@ -19,6 +19,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.liveData
 import com.example.navbar.Comunicator
 import com.example.navbar.MainActivity
+import com.example.navbar.ui.ComunicatorStaticClass
 import com.example.navbar.ui.login.loginApi.loginRetrofitInstance
 import com.example.navbar.ui.login.loginApi.loginSimpleApi
 import com.example.navbar.ui.login.loginModel.loginPost
@@ -30,8 +31,6 @@ import retrofit2.Response
 class loginFragment : Fragment() {
 
     private lateinit var lgnViewModel: loginViewModel
-    private lateinit var comunicator: Comunicator
-    private var ok_2 = 0;
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -57,18 +56,11 @@ class loginFragment : Fragment() {
         val buttonConfirma = view.findViewById<Button>(R.id.loginSignIn)
         buttonConfirma.setOnClickListener {
             var textBox1 = view.findViewById<EditText>(R.id.loginEmail)
-            //var continut1 = textBox1.text.toString()
 
             var textBox2 = view.findViewById<EditText>(R.id.loginPassword)
-            //var continut2 = textBox2.text.toString()
 
             var continut1 = loginEmail.text.toString()
             var continut2 = loginPassword.text.toString()
-
-//            comunicator = activity as Comunicator
-
-
-
 
 
             if (continut1.isEmpty()) {
@@ -89,42 +81,15 @@ class loginFragment : Fragment() {
 
             val textView = view.findViewById<TextView>(R.id.text_login)
 
-            //val myPost = loginPost("agachi.eusebiu@yahoo.com", "asd")
             var myPost = loginPost(email = continut1, password = continut2)
             lgnViewModel.pushPost(myPost)
             lgnViewModel.myResponse.observe(viewLifecycleOwner, Observer {response ->
                 if (response.isSuccessful) {
-                    //Log.d("Response", response.body()?.email.toString())
-                    //textView.text = response.body()?.email.toString()
-                    //Log.d("Response", response.body()?.password.toString())
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-                    //Log.d("Response", response.code().toString())
-                    //Toast.makeText(activity, response.body()?.email.toString(), Toast.LENGTH_LONG).show()
-                    //Log.d("Response", response.body()?.myUserId.toString())
-                    //Log.d("Response", response.body()?.id.toString())
-                    //Log.d("Response", response.body()?.title.toString())
-                    //textView.text = response.body()?.title!!
-                    //Log.d("Response", response.body()?.body.toString())
-                    //Log.d("Response", response.code().toString())
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
-                    //ok_2 = 1;
-                    //Intent intent = new Intent(loginFragment.this,MainActivity.class)
-                    /*val retService = loginRetrofitInstance.getRetrofitInstance().create(loginSimpleApi::class.java)
-                    val album = loginPost(continut1,continut2)
-                    val postResponse: LiveData<Response<loginPost>> = liveData {
-                        val response: Response<loginPost> = retService.pushPost(album)
-                        emit(response)
-                    }
-                    postResponse.observe(viewLifecycleOwner, Observer {
-                        val receivedAlbumsItem: loginPost? = it.body()
-                        val result: String = " " + "email: ${receivedAlbumsItem?.email}"+"\n" +
-                                " " + "password: ${receivedAlbumsItem?.password}"+"\n\n\n"
-                    })*/
                     Log.d("Response", response.body()?.message.toString())
                     Log.d("Response", response.code().toString())
                     val map: Map<String, Any>? = response.body()?.user
-                    var name: String = ""
-                    var username: String = ""
+                    var name = ""
+                    var username = ""
                     if(map!=null){
                         if(map.containsKey("name")){
                             name = map.getValue("name").toString()
@@ -134,14 +99,12 @@ class loginFragment : Fragment() {
                         }
                     }
                     Log.d("Name", name + " " + username)
-//                    comunicator = activity as Comunicator
-//                    comunicator.passDataCom(loginEmail.text.toString(), name, username)
+                    ComunicatorStaticClass.email = loginEmail.text.toString()
+                    ComunicatorStaticClass.nume = name
+                    ComunicatorStaticClass.prenume = username
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     Toast.makeText(activity,continut1, Toast.LENGTH_LONG).show()
-                    //Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
-                    //textView.text = response.code().toString()
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                 }
             })
         }

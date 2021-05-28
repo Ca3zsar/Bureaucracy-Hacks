@@ -43,24 +43,23 @@ class registerFragment : Fragment() {
 
         val buttonConfirma = view.findViewById<Button>(R.id.registerSignIn)
         buttonConfirma.setOnClickListener {
-            val textBox1 = view.findViewById<EditText>(R.id.registerUsername)
+            view.findViewById<EditText>(R.id.registerUsername)
             var continut1 = registerUsername.text.toString()
 
-            val textBox2 = view.findViewById<EditText>(R.id.registerFirstName)
+            view.findViewById<EditText>(R.id.registerFirstName)
             var continut2 = registerFirstName.text.toString()
 
-            val textBox3 = view.findViewById<EditText>(R.id.registerSecondName)
+            view.findViewById<EditText>(R.id.registerSecondName)
             var continut3 = registerSecondName.text.toString()
 
-            val textBox4 = view.findViewById<EditText>(R.id.registerEmail)
+            view.findViewById<EditText>(R.id.registerEmail)
             var continut4 = registerEmail.text.toString()
 
-            val textBox5 = view.findViewById<EditText>(R.id.registerPassword)
+            view.findViewById<EditText>(R.id.registerPassword)
             var continut5 = registerPassword.text.toString()
 
             val textView = view.findViewById<TextView>(R.id.text_register)
 
-            //val myPost = registerPost("agachi.eusebiu@yahoo.com", "Gigi", "Agachi", "Eusebiu", "asd")
             var myPost = registerPost(email = continut4, username = continut1, name = continut2, surname = continut3, password = continut5)
 
             rgstrViewModel.pushPost(myPost)
@@ -72,23 +71,12 @@ class registerFragment : Fragment() {
                     Log.d("Response", response.body()?.name.toString())
                     Log.d("Response", response.body()?.surname.toString())
                     Log.d("Response", response.body()?.password.toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                     Log.d("Response", response.code().toString())
 
-
-                    //Log.d("Response", response.body()?.myUserId.toString())
-                    //Log.d("Response", response.body()?.id.toString())
-                    //Log.d("Response", response.body()?.title.toString())
-                    //textView.text = response.body()?.title!!
-                    //Log.d("Response", response.body()?.body.toString())
-                    //Log.d("Response", response.code().toString())
-                    //Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
 
                 } else {
                     Log.d("Response", response.errorBody().toString())
                     textView.text = response.code().toString()
-                    //Log.d("Response", response.code().toString())
-                    Toast.makeText(activity, textView.text, Toast.LENGTH_LONG).show()
                 }
             })
         }

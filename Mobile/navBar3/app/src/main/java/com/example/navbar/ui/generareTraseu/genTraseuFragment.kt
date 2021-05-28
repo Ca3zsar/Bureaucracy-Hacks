@@ -17,6 +17,7 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.navbar.Comunicator
 import com.example.navbar.R
+import com.example.navbar.ui.ComunicatorStaticClass
 import com.example.navbar.ui.generareMap.MapFragmentTraseu
 import com.example.navbar.ui.generareTraseu.genTraseuRepository.genTraseuRepository
 import org.json.JSONObject
@@ -64,17 +65,6 @@ class genTraseuFragment : Fragment() {
                         elements.add(array[i].name)
                     }
                 }
-
-//                for(i in elements.indices) {
-//                    Log.d("Test: ", elements[i])
-//                }
-
-//                val spinnerTest : com.toptoche.searchablespinnerlibrary.SearchableSpinner = view.findViewById(R.id.spinner)
-//                val adapterTest : ArrayAdapter<String>
-//
-//                adapterTest = ArrayAdapter(view.context, android.R.layout.simple_spinner_item, elements)
-//                adapterTest.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-//                spinnerTest.adapter = adapterTest
 
                 val spinner : com.toptoche.searchablespinnerlibrary.SearchableSpinner = view.findViewById(R.id.traseuSp1)
                 val adapter : ArrayAdapter<String>
@@ -183,7 +173,6 @@ class genTraseuFragment : Fragment() {
                 }
             }
             else {
-                Toast.makeText(activity, response.code().toString(), Toast.LENGTH_LONG).show()
                 Log.d("Response", response.code().toString())
             }
         })
@@ -192,8 +181,9 @@ class genTraseuFragment : Fragment() {
         button.setOnClickListener {
             val nextFrag = MapFragmentTraseu()
             Log.d("testulSuprem", arrayActeMap.toString())
+            ComunicatorStaticClass.acteNecesare = arrayActeMap
             Log.d("vedem si la id", idInstitutie.toString())
-            comunicator.passDataActe(idInstitutie, arrayActeMap)
+            ComunicatorStaticClass.idInstitutie = idInstitutie.toString()
             activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.nav_host_fragment, nextFrag)?.addToBackStack(null)?.commit()
         }
 
