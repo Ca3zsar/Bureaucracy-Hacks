@@ -1,0 +1,53 @@
+
+.input-form {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+
+    color:white;
+    padding: 30px 20px;
+    background:transparent;
+}
+
+.input-form::placeholder {
+    color:white;
+    font-size: 25px;
+}
+
+
+.input-form::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+.input-form::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background: url("/images/v2_90.png");
+}
+
+.login-form{
+    width: 100%;
+    @include mq(medium)
+    {
+        width:70%;
+    }
+    @include mq(large)
+    {
+        width:50%;
+    }
+
+}
+
+.simple-form{
+    padding: 2rem 2rem;
+    margin: 0 auto;
+}

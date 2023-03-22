@@ -1,0 +1,50 @@
+
+
+// 1. Configuration and helpers
+@import 'abstracts/_functions',
+'abstracts/_mixins',
+'abstracts/_variables';
+
+// 2. Base stuff
+@import 'base/base',
+'base/fonts',
+'base/typography',
+'base/helpers';
+
+// 3. Components
+
+@import 'components/buttons',
+'components/navbar',
+'components/cards',
+'components/footer',
+'components/forms';
+
+
+// 4. Layout-related sections
+@import 'layout/main';
+
+// 5. Page-specific styles
+@import 'pages/home',
+        'pages/user-settings',
+        'pages/auth';
+
+
+
+
+
+
+
+
+
+
+//.grid {
+//    display: grid;
+//    grid-template-columns: repeat(12, 1fr);
+//    grid-gap: 2px;
+//    counter-reset: div;
+//}
+//
+
+
+
+

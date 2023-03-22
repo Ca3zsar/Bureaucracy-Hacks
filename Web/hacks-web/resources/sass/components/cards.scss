@@ -1,0 +1,69 @@
+.home-card{
+
+    background:#3d37f1 ;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+
+    .home-card-image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        .home-card-image{
+            color:white;
+            width: 20%;
+            height: 30%;
+        }
+    }
+
+    .home-card-body{
+        width: 100%;
+        color: white;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+
+        .home-card-title{
+            color: white;
+            fill:white;
+        }
+
+        .home-card-description{
+
+        }
+
+        .home-card-link{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+    }
+}
+
+
+.card{
+    padding: 20px;
+}
+
+
+.card-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.circle-thumbnail{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}

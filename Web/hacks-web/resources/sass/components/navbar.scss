@@ -1,0 +1,53 @@
+/*
+ * Navbar
+*/
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav{
+    width:60%;
+    @include mq(xxlarge){
+        width:75%;
+    }
+}
+
+.show > .navbar-nav > .nav-item > .nav-link{
+    color:rgb(61, 55, 241);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-brand{
+    width: 75%;
+    @include mq(medium){
+        width: 20%;
+    }
+    img{
+        width: 100%;
+    }
+}
